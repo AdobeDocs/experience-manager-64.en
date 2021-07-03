@@ -46,7 +46,7 @@ When determining whether to put an image into DAM repository or use image compon
 
 An asset is a digital document, image, video, or audio (or part thereof) that can have multiple renditions and can have sub-assets (for example, layers in a photoshop file, slides in a PowerPoint file, pages in a pdf, files in a ZIP).
 
-An asset is essentially a binary plus metadata plus renditions plus sub-assets. See the [DAM Performance Guide](/help/sites-deploying/assets-performance-sizing.md) for detailed information.
+An asset is essentially a binary plus metadata plus renditions plus sub-assets. See the [DAM Performance Guide](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/configuring/assets-performance-sizing.html) for detailed information.
 
 >[!CAUTION]
 >

@@ -27,11 +27,11 @@ With the new architecture, Experience Manager is responsible for master assets a
 
 ## Enabling Dynamic Media in Scene7 mode {#enabling-dynamic-media-in-scene-mode}
 
-[Dynamic Media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of dynamic media features, you must enable it.
+[Dynamic Media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of Dynamic Media features, you must enable it.
 
->[!NOTE]
+>[!WARNING]
 >
->Dynamic Media - Scene7 mode is for the Experience Manager Author instance only. As such, you must configure `runmode=dynamicmedia_scene7`on the Experience Manager Author instance, not the Experience Manager Publish instance.
+>Dynamic Media - Scene7 mode is for the *Experience Manager Author instance only*. As such, configure `runmode=dynamicmedia_scene7`on the Experience Manager Author instance, *not* the Experience Manager Publish instance.
 
 To enable Dynamic Media, you must startup Experience Manager using the `dynamicmedia_scene7` run mode from the command line by entering the following in a terminal window (example port used is 4502):
 
@@ -69,9 +69,9 @@ Change the password, before you configure Dynamic Media Cloud Services. After yo
    >
    >By default, the configuration path for Cloud Services is `/content/dam`. Any other configuration path is not support by Dynamic Media - Scene7 mode.
 
-To configure Dynamic Media Cloud Services:
+**To configure Dynamic Media Cloud Services:**
 
-1. In Experience Manager, tap the Experience Manager logo to access the global navigation console and tap the Tools icon, then tap **[!UICONTROL Cloud Services > Dynamic Media Configuration]**.
+1. In your Experience Manager Author instance, tap the Experience Manager logo to access the global navigation console and tap the Tools icon, then tap **[!UICONTROL Cloud Services]** > **[!UICONTROL Dynamic Media Configuration]**.
 1. On the Dynamic Media Configuration Browser page, in the left pane, tap **[!UICONTROL global]** and tap **[!UICONTROL Create]**. Do not tap or select the folder icon to the left of [!UICONTROL global].
 1. On the [!UICONTROL Create Dynamic Media Configuration] page, enter a title, the Dynamic Media account email address, and password. Select your region. This information is provided to you by Adobe in your provisioning email. Contact Adobe Customer Care if you did not receive the email.
 
@@ -101,8 +101,8 @@ To configure Dynamic Media Cloud Services:
 1. Tap **[!UICONTROL Save]**.
 1. To securely preview Dynamic Media content before it gets published, you must "allowlist" the Experience Manager Author instance to connect to Dynamic Media:
 
-    * Open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your account. Your credentials and sign in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
-    * On the navigation bar near the top right of the page, tap **[!UICONTROL Setup > Application Setup > Publish Setup > Image Server]**.
+    * Open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your account. Your credentials and sign-in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
+    * On the navigation bar near the top right of the page, tap **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**.
     * On the Image Server Publish page, in the Publish Context drop-down list, select **[!UICONTROL Test Image Serving]**.
     * For the Client Address Filter, tap **[!UICONTROL Add]**.
     * To enable (turn on) the address, select the check box. Enter the IP address of the Experience Manager Author instance (not Dispatcher IP).
@@ -140,7 +140,7 @@ Setup and configuration tasks are:
 
 The Publish Setup settings determine how assets are delivered by default from Dynamic Media. If no setting is specified, Dynamic Media delivers an asset according to the default settings defined in Publish Setup. For example, a request to deliver an image that does not include a resolution attribute yields an image with the Default Object Resolution setting.
 
-To configure Publish Setup: in Dynamic Media Classic, tap **[!UICONTROL Setup > Application Setup > Publish Setup > Image Server]**.
+To configure Publish Setup: in Dynamic Media Classic, tap **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]**.
 
 The Image Server screen establishes default settings for delivering images. See the user interface for a description of each setting.
 
@@ -154,7 +154,7 @@ The Image Server screen establishes default settings for delivering images. See 
 
 #### Configuring application general settings {#configuring-application-general-settings}
 
-To open the [!UICONTROL Application General Settings] page, in Dynamic Media Classic Global Navigation bar, tap **[!UICONTROL Setup > Application Setup > General Settings]**.
+To open the [!UICONTROL Application General Settings] page, in Dynamic Media Classic Global Navigation bar, tap **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL General Settings]**.
 
 **[!UICONTROL Servers]** - On account provisioning, Dynamic Media automatically provides the assigned servers for your company. These servers are used to construct URL strings for your web site and applications. These URL calls are specific to your account. Do not change any of the server names unless explicitly instructed to do so by Experience Manager support.
 
@@ -179,9 +179,9 @@ To open the [!UICONTROL Application General Settings] page, in Dynamic Media Cla
 
 Dynamic media color management lets you color correct assets. With color correction, ingested assets retain their color space (RGB, CMYK, Gray) and embedded color profile. When you request a dynamic rendition, the image color is corrected into the target color space using CMYK, RGB, or Gray output. See [Configuring Image Presets](managing-image-presets.md).
 
-To configure the default color properties to enable color correction when requesting images:
+**To configure the default color properties to enable color correction when requesting images:**
 
-1. Open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your account using credentials provided during provisioning. Navigate to **[!UICONTROL Setup > Application Setup]**.
+1. Open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your account using credentials provided during provisioning. Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**.
 1. Expand the **[!UICONTROL Publish Setup]** area and select **[!UICONTROL Image Server]**. Set **[!UICONTROL Publish Context]** to **[!UICONTROL Image Serving]** when setting defaults for publish instances.
 1. Scroll to the property you must change. For example, a property in the **[!UICONTROL Color Management Attributes]** area.
 
@@ -215,9 +215,9 @@ You can define which asset types are processed by Dynamic Media and customize ad
 
 See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
-**To edit mime types for supported formats**
+**To edit mime types for supported formats:**
 
-1. In Experience Manager, tap the Experience Manager logo to access the global navigation console, then tap the **[!UICONTROL Tools]** (hammer) icon and navigate to **[!UICONTROL General > CRXDE Lite]**.
+1. In Experience Manager, tap the Experience Manager logo to access the global navigation console, then tap the **[!UICONTROL Tools]** (hammer) icon and navigate to **[!UICONTROL General]** > **[!UICONTROL CRXDE Lite]**.
 1. In the left rail, navigate to the following:
 
    `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes`
@@ -241,9 +241,9 @@ See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
 You can add custom MIME types for unsupported formats in Experience Manager Assets. To ensure that any new node you add in CRXDE Lite is not deleted by Experience Manager, move the MIME type before **[!UICONTROL image_]** and its enabled value is set to **[!UICONTROL false]**.
 
-**To add custom MIME types for unsupported formats**
+**To add custom MIME types for unsupported formats:**
 
-1. From Experience Manager, click **[!UICONTROL Tools > Operations > Web Console]**.
+1. From Experience Manager, click **[!UICONTROL Tools]** > **[!UICONTROL Operations]** > **[!UICONTROL Web Console]**.
 
    ![Web Console](assets/2019-08-02_16-13-14.png)
 
@@ -261,7 +261,7 @@ You can add custom MIME types for unsupported formats in Experience Manager Asse
 
 1. Type `DWG=image/vnd.dwg` in the empty text field that you just added.
 
-   The example `DWG=image/vnd.dwg` is for illustration purposes only. The MIME type that you add here can be any other unsupported format.
+   The example `DWG=image/vnd.dwg` is for demonstration purposes only. The MIME type that you add here can be any other unsupported format.
 
    ![Example mime type addition](assets/2019-08-02_16-36-36.png)
 
@@ -271,7 +271,7 @@ You can add custom MIME types for unsupported formats in Experience Manager Asse
 
 1. Return to the browser tab that has your open Experience Manager console.
 
-1. From Experience Manager, click **[!UICONTROL Tools > General > CRXDE Lite]**.
+1. From Experience Manager, click **[!UICONTROL Tools]** > **[!UICONTROL General]** > **[!UICONTROL CRXDE Lite]**.
 
     ![CRXDE Lite page](assets/2019-08-02_16-55-41.png)
 
@@ -301,7 +301,7 @@ When you upload files, Dynamic Media automatically creates a set with all files 
 
 **Configuring default naming**
 
-Create a default naming convention that is used in any batch set preset recipe. The default naming convention selected in the batch set preset definition is likely all that your company needs to batch-generate sets. A batch set preset is created to use the default naming convention that you define. You are able to create as many Batch Set presets with alternate, custom naming conventions needed for a particular set of content in cases where there is an exception to the company-defined default naming.
+Create a default naming convention that is used in any batch set preset recipe. The default naming convention selected in the batch set preset definition is likely all that your company needs for generating batch sets. A batch set preset is created to use the default naming convention that you define. You are able to create as many Batch Set presets with alternate, custom naming conventions needed for a particular set of content in cases where there is an exception to the company-defined default naming.
 
 While setting up a default naming convention is not required to use batch set preset functionality, you can use it to define as many elements of your naming convention that you want grouped in a set. Doing so helps to streamline batch set creation.
 
@@ -313,9 +313,9 @@ Two elements are available for definition, **[!UICONTROL Match]** and **[!UICONT
 
 1. Open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your account.
 
-   Your credentials and sign in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
+   Your credentials and sign-in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
-1. On the navigation bar near the top of the page, tap **[!UICONTROL Setup > Application Setup > Batch Set Presets > Default Naming].**
+1. On the navigation bar near the top of the page, tap **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Batch Set Presets]** > **[!UICONTROL Default Naming]**.
 1. Select **[!UICONTROL View Form]** or **[!UICONTROL View Code]** to specify how you want to view and enter information about each element.
 
    You can select the **[!UICONTROL View Code]** check box to view the regular expression value building alongside your form selections. You are able to enter or alter these values to help define the elements of the naming convention, if the form view limits you for any reason. If your values are unable to be parsed in the form view, the form fields become inactive.
@@ -347,9 +347,9 @@ You can use either the form field method to define a batch set preset or the cod
 
 1. Open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your account.
 
-   Your credentials and sign in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
+   Your credentials and sign-in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
-1. On the navigation bar near the top of the page, tap **[!UICONTROL Setup > Application Setup > Batch Set Presets > Batch Set Preset].**
+1. On the navigation bar near the top of the page, tap **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Batch Set Presets]** > **[!UICONTROL Batch Set Preset]**.
 
    [!UICONTROL View Form], as set in the upper-right corner of the [!UICONTROL Details] page, is the default view.
 
@@ -358,7 +358,7 @@ You can use either the form field method to define a batch set preset or the cod
 1. In the **[!UICONTROL Batch Set Type]** drop-down menu, select a preset type.
 1. Do one of the following:
 
-    * If you are using a default naming convention that you previously set up under **[!UICONTROL Application Setup > Batch Set Presets > Default Naming]**, expand **[!UICONTROL Asset Naming Conventions]**, and then in the **[!UICONTROL File Naming]** drop-down list, tap **[!UICONTROL Default]**.
+    * If you are using a default naming convention that you previously set up under **[!UICONTROL Application Setup]** > **[!UICONTROL Batch Set Presets]** > **[!UICONTROL Default Naming]**, expand **[!UICONTROL Asset Naming Conventions]**, and then in the **[!UICONTROL File Naming]** drop-down list, tap **[!UICONTROL Default]**.
     * To define a new naming convention as you set up the preset, **[!UICONTROL Asset Naming Conventions]**, and then in the **[!UICONTROL File Naming]** drop-down list, tap **[!UICONTROL Custom]**.
 
 1. For [!UICONTROL Sequence order], define the order in which images are displayed after the set is grouped in Dynamic Media.
@@ -402,9 +402,9 @@ When the Spin Set is uploaded and published, you activate the name of the 2D Spi
 
 1. Open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your account.
 
-   Your credentials and sign in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
+   Your credentials and sign-in details were provided by Adobe at the time of provisioning. If you do not have this information, contact Technical Support.
 
-1. On the navigation bar near the top of the page, tap **[!UICONTROL Setup > Application Setup > Batch Set Presets > Batch Set Preset]**.
+1. On the navigation bar near the top of the page, tap **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Batch Set Presets]** > **[!UICONTROL Batch Set Preset]**.
 
    [!UICONTROL View Form], as set in the upper-right corner of the [!UICONTROL Details] page, is the default view.
 
@@ -439,7 +439,7 @@ When the Spin Set is uploaded and published, you activate the name of the 2D Spi
 
    `\w+-\w+-C(\d+)`
 
-   Remember that these expressions are examples for illustration purposes only. You can create your regular expression however you want to suit your needs.
+   Remember that these expressions are examples for demonstration purposes only. You can create your regular expression however you want to suit your needs.
 
    >[!NOTE]
    >
@@ -493,7 +493,7 @@ To update any of these parameters, follow the steps in [Enabling MIME type-based
 
 The Granite Transit Workflow queue is used for the **[!UICONTROL DAM Update Asset]** workflow. In Dynamic Media, it is used for image ingestion and processing.
 
-**To update the Granite Transient Workflow queue**
+**To update the Granite Transient Workflow queue:**
 
 1. Navigate to [https://&lt;server&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr) and search for **[!UICONTROL Queue: Granite Transient Workflow Queue]**.
 
@@ -601,14 +601,14 @@ If you are using Dynamic Media for imaging, or video, or both, then you can use 
 
 #### Customizing asset filters for replication {#customizing-asset-filters-for-replication}
 
-1. In Experience Manager, tap the Experience Manager logo to access the global navigation console and tap the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL General > CRXDE Lite]**.
+1. In Experience Manager, tap the Experience Manager logo to access the global navigation console and tap the **[!UICONTROL Tools]** icon and navigate to **[!UICONTROL General]** > **[!UICONTROL CRXDE Lite]**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/publish/jcr:content/damRenditionFilters` to review the filters.
 
    ![chlimage_1-2](assets/chlimage_1-2.png)
 
 1. To define the Mime Type for the filter, you can locate the Mime Type as follows:
 
-   In the left rail, expand **[!UICONTROL content > dam > <`locate_your_asset`> > jcr:content > metadata]**, and then in the table, locate **[!UICONTROL dc:format]**.
+   In the left rail, expand **[!UICONTROL content]** > **[!UICONTROL dam]** > **[!UICONTROL <`locate_your_asset`>]** > **[!UICONTROL jcr:content]** > **[!UICONTROL metadata]**, and then in the table on the right, locate **[!UICONTROL dc:format]**.
 
    The following graphic is an example of an asset's path to dc:format.
 

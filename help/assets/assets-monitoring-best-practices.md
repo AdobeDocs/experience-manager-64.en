@@ -133,7 +133,7 @@ Here are some out-of-the-box health checks that are helpful to monitor:
 
 * System Checks
 
-    * MBean: `org.apache.sling.healthcheck:name=systemchecks,type=HealthChec`k 
+    * MBean: `org.apache.sling.healthcheck:name=systemchecks,type=HealthCheck`
     * URL: */system/console/jmx/org.apache.sling.healthcheck:name=systemchecks,type=HealthCheck*
     * Instances: One author, all publish servers
     * Alarm threshold: When the status is not OK
@@ -141,7 +141,7 @@ Here are some out-of-the-box health checks that are helpful to monitor:
 
 * Replication Queue
 
-    * MBean: `org.apache.sling.healthcheck:name=replicationQueue,type=HealthCheck `
+    * MBean: `org.apache.sling.healthcheck:name=replicationQueue,type=HealthCheck`
     * URL: */system/console/jmx/org.apache.sling.healthcheck:name=replicationQueue,type=HealthCheck*
     * Instances: One author, all publish servers
     * Alarm threshold: When the status is not OK
@@ -149,7 +149,7 @@ Here are some out-of-the-box health checks that are helpful to monitor:
 
 * Response Performance
 
-    * MBean: `org.apache.sling.healthcheck:name=requestsStatus,type=HealthCheck `
+    * MBean: `org.apache.sling.healthcheck:name=requestsStatus,type=HealthCheck`
     * URL: */system/console/jmx/org.apache.sling.healthcheck:name=requestsStatus,type=HealthCheck*
     * Instances: All servers
     * Alarm duration: When the status is not OK
@@ -157,7 +157,7 @@ Here are some out-of-the-box health checks that are helpful to monitor:
 
 * Query Performance
 
-    * MBean: `org.apache.sling.healthcheck:name=queriesStatus,type=HealthCheck `
+    * MBean: `org.apache.sling.healthcheck:name=queriesStatus,type=HealthCheck`
     * URL: */system/console/jmx/org.apache.sling.healthcheck:name= queriesStatus,type=HealthCheck*
     * Instances: One author, all publish servers
     * Alarm threshold: When the status is not OK
@@ -165,7 +165,7 @@ Here are some out-of-the-box health checks that are helpful to monitor:
 
 * Active Bundles
 
-    * MBean: org.apache.sling.healthcheck:name=inactiveBundles,type=HealthCheck 
+    * MBean: org.apache.sling.healthcheck:name=inactiveBundles,type=HealthCheck
     * URL: */system/console/jmx/org.apache.sling.healthcheck:name=inactiveBundles,type=HealthCheck*
     * Instances: All servers
     * Alarm threshold: When the status is not OK
@@ -173,7 +173,7 @@ Here are some out-of-the-box health checks that are helpful to monitor:
 
 * Log Errors
 
-    * MBean: `org.apache.sling.healthcheck:name=logErrorHealthCheck,type=HealthCheck `
+    * MBean: `org.apache.sling.healthcheck:name=logErrorHealthCheck,type=HealthCheck`
     * URL: */system/console/jmx/org.apache.sling.healthcheck:name=logErrorHealthCheck,type=HealthCheck*
     * Instances: All servers
     * Alarm threshold: When the status is not OK

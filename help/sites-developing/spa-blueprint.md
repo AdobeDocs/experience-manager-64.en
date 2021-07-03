@@ -270,7 +270,7 @@ The App owns the routing. The front end developer first needs to implement a Nav
 
 The underlying [`PageModelManager`](/help/sites-developing/spa-blueprint.md#pagemodelmanager) library and its [`ModelRouter`](/help/sites-developing/spa-routing.md) module (enabled by default) are responsible for pre-fetching and providing access to the model associated with a given resource path.
 
-The two entities relate to the notion of routing but the [`ModelRouter`](/help/sites-developing/spa-routing.md) is only responsible for having the [`PageModelManager](/help/sites-developing/spa-blueprint.md#pagemodelmanager) loaded with a data model structured in sync with the current application state.
+The two entities relate to the notion of routing but the [`ModelRouter`](/help/sites-developing/spa-routing.md) is only responsible for having the [`PageModelManager`](/help/sites-developing/spa-blueprint.md#pagemodelmanager) loaded with a data model structured in sync with the current application state.
 
 See the article [SPA Model Routing](/help/sites-developing/spa-routing.md) for more information.
 
