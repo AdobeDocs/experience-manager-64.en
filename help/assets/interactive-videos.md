@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 2f254541-6f9b-4f8a-9201-6c70f2d4f3b9
 exl-id: 3adae6da-e148-4670-86ae-27d83008ec66
 feature: Interactive Videos,Video
-role: Business Practitioner
+role: User
 ---
 # Interactive Videos {#interactive-videos}
 

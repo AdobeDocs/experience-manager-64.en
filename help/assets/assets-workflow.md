@@ -3,7 +3,7 @@ title: Process assets to accomplish business processes, do audits, achieve compl
 description: Asset processing to convert formats, create renditions, manage assets, validate assets, and run workflows.
 contentOwner: AG
 feature: Workflow,Renditions
-role: Business Practitioner,Administrator
+role: User,Admin
 exl-id: 4fb3d12c-feac-45b9-8d09-3b6995591b3d
 ---
 # Process digital assets {#process-assets}

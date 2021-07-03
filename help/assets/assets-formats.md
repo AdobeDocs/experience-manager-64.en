@@ -3,7 +3,7 @@ title: File formats supported in AEM Assets
 description: List of file formats and MIME types supported by AEM Assets and the features supported for each format.
 contentOwner: AG
 feature: Asset Management,Renditions
-role: Business Practitioner,Administrator
+role: User,Admin
 exl-id: ee25fe8f-36fb-42b3-9f90-0ea77bc02e2f
 ---
 # Files formats supported in AEM Assets {#assets-supported-formats}

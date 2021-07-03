@@ -3,7 +3,7 @@ title: Search facets
 description: This article describes how to create, modify, and use search facets in AEM.
 contentOwner: AG
 feature: Search
-role: Administrator,Developer
+role: Admin,Developer
 exl-id: ef1c0b57-68cc-460e-ae45-e16b079194c2
 ---
 # Search facets {#search-facets}

@@ -3,7 +3,7 @@ title: Related assets
 description: Learn how to relate assets that share certain common attributes. You can also use the feature to create source/derived relationships between assets.
 contentOwner: AG
 feature: Asset Management,Collaboration
-role: Business Practitioner
+role: User
 exl-id: d19544c4-c8e7-4a39-9c86-15a46dca848e
 ---
 # Related assets {#related-assets}

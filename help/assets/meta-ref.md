@@ -3,7 +3,7 @@ title: Metadata Schemata Reference
 description: Learn about standard conventions for describing asset metadata, including Dublin Core, IPTC, and other metadata schema. 
 contentOwner: AG
 feature: Metadata
-role: Business Practitioner,Administrator
+role: User,Admin
 exl-id: 883bebc6-8bbc-43b1-91e5-9e2bf2470b6e
 ---
 # Metadata Schemata Reference {#metadata-schemata-reference}
