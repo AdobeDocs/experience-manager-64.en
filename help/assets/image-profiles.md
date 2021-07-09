@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 4f9301db-edf8-480b-886c-b5e8fca5bf5c
 exl-id: 895103c8-df58-40f0-85d6-e29637edce53
 feature: Image Profiles
-role: Administrator,Business Practitioner
+role: Admin,User
 ---
 # Dynamic Media image profiles {#image-profiles}
 

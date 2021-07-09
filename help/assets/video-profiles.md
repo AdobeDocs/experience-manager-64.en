@@ -7,7 +7,7 @@ topic-tags: administering
 content-type: reference
 exl-id: 3602e1b9-624d-408f-a7f6-1598b62dbd22
 feature: Video Profiles,Video
-role: Administrator,Business Practitioner
+role: Admin,User
 ---
 # Dynamic Media video profiles {#video-profiles}
 

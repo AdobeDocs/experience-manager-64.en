@@ -3,7 +3,7 @@ title: How to edit or add metadata
 description: Learn about asset metadata in AEM Assets an various ways by which you can edit asset metadata.
 contentOwner: AG
 feature: Metadata
-role: Business Practitioner,Administrator
+role: User,Admin
 exl-id: f0522343-f8a9-4d89-8ce8-b3357ae3fe70
 ---
 # How to edit or add metadata {#how-to-edit-or-add-metadata}

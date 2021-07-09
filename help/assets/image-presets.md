@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 5c1f60ac-3741-4002-9c5d-c128f118342b
 exl-id: 07a4f315-a60e-456b-b02d-035b3f6ad9ad
 feature: Image Presets
-role: Business Practitioner
+role: User
 ---
 # Applying Dynamic Media image presets {#applying-image-presets}
 

@@ -6,7 +6,7 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 340b62f7-2405-4d2d-846d-2c444d6cc77b
 feature: Asset Management,Developer Tools
-role: Business Practitioner
+role: User
 exl-id: 9b4f16e6-dd91-4179-9629-576d801fcf43
 ---
 # Asset Templates {#asset-templates}

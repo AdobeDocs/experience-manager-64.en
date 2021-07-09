@@ -3,7 +3,7 @@ title: Applying translation cloud services to folders
 description: Applying translation cloud services to folders
 contentOwner: AG
 feature: Translation
-role: Administrator
+role: Admin
 exl-id: 87883a3f-db95-41f4-b0aa-cdaeb7e6f555
 ---
 # Applying translation cloud services to folders {#applying-translation-cloud-services-to-folders}

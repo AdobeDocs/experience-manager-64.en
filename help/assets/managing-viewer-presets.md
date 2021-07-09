@@ -12,7 +12,7 @@ discoiquuid: e78bb08a-a923-4399-b3f7-13aa4b7994d5
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/viewer-presets
 exl-id: 53e53cb7-1854-44e9-9516-51bcc99378b4
 feature: Viewer Presets
-role: Administrator,Business Practitioner
+role: Admin,User
 ---
 # Managing Dynamic Media viewer presets {#managing-viewer-presets}
 

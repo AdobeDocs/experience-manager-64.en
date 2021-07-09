@@ -8,7 +8,7 @@ content-type: reference
 discoiquuid: 5edcc765-c374-4368-a0d9-e02a713a24f2
 exl-id: 36bb526c-a6d9-4296-8318-97ac72d6b3ba
 feature: Publishing
-role: Business Practitioner
+role: User
 ---
 # Delivering optimized images for a responsive site {#delivering-optimized-images-for-a-responsive-site}
 
