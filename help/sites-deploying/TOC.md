@@ -54,7 +54,7 @@ role: Architect
     + [Consistency and Traversal Checks](consistency-check.md)
     + [Performance Guidelines](performance-guidelines.md)
     + [Performance Optimization](configuring-performance.md)
-    + [Assets Performance Guide](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/configuring/assets-performance-sizing.html)
+    + [Assets Performance Guide](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/performance-tuning-guidelines.html?lang=en)
     + [Configuration How-To Articles](ht-deploy.md)
     + [Removing the Geometrixx Sites](removing-the-geometrixx-sites.md)
     + [Configuring Web Console](configuring-web-console.md)
