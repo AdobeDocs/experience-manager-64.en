@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 739ec991-552b-42cd-85cd-984d1c9fe8fd
-role: Administrator
+role: Admin
 exl-id: 9ed54ee3-3509-4a43-a710-90f4543ccaf3
 ---
 # FFmpeg for Communities {#ffmpeg-for-communities}

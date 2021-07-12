@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 42fb3c50-8728-4897-ade9-6b839294a10e
-role: Administrator
+role: Admin
 exl-id: c9406aae-288e-4cdf-ac01-cb26b423639e
 ---
 # Advanced Scoring and Badges {#advanced-scoring-and-badges}

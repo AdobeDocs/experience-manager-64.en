@@ -3,7 +3,7 @@ title: Publish folders to Brand Portal
 description: Learn how to publish and unpublish assets to Brand Portal.
 contentOwner: VG
 feature: Brand Portal
-role: Business Practitioner
+role: User
 exl-id: 6b78124d-4022-452f-8d0f-b667de337bf4
 ---
 # Publish assets to Brand Portal {#publish-assets-to-brand-portal}

@@ -3,7 +3,7 @@ title: Publish collections to Brand Portal
 description: Learn how to publish and unpublish collections to Brand Portal.
 contentOwner: VG
 feature: Brand Portal
-role: Business Practitioner
+role: User
 exl-id: c2c6759e-f763-405e-9e45-5a90b9d32df2
 ---
 # Publish collections to Brand Portal {#publish-collections-to-brand-portal}

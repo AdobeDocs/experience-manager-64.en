@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 9a862756-58e8-47c0-a4b4-5d4aaac021e4
-role: Administrator
+role: Admin
 exl-id: ac399a66-0f3b-4f95-969e-a4109c260d1d
 ---
 # Group Templates {#group-templates}

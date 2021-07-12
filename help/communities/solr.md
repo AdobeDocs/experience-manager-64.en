@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: e228f1db-91ea-4ec3-86da-06d89d74bc72
-role: Administrator
+role: Admin
 exl-id: b506018d-67dc-4e47-a3d8-83ae288b5d7e
 ---
 # Solr Configuration for SRP {#solr-configuration-for-srp}

@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: 5d672b56-00c4-46a0-974b-e174fbdf07d6
-role: Administrator
+role: Admin
 exl-id: bc750571-08a5-414c-aed5-4e839f6695ae
 ---
 # Performance tuning of AEM Forms server {#performance-tuning-of-aem-forms-server}

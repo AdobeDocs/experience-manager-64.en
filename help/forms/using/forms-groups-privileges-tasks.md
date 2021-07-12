@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 topic-tags: Configuration
 discoiquuid: 71412f5d-ff34-415f-baf8-d300756b93a9
-role: Administrator
+role: Admin
 exl-id: a79e863e-c316-422e-a565-b0ffdeffcc00
 ---
 # AEM Forms on OSGi Groups and Privileges {#aem-forms-on-osgi-groups-and-privileges}

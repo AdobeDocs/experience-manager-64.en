@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: da8f968b-91cc-45a8-ae4b-757b4f840b8e
 exl-id: b21ba7a1-6e6f-4b95-9336-b49f7e932af5
 feature: Content Fragments
-role: Business Practitioner
+role: User
 ---
 # Managing Content Fragments {#managing-content-fragments}
 

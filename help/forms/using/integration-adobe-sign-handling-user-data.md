@@ -8,7 +8,7 @@ topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e9e0d8fb-955e-4021-9e9a-9c95c6ffe88d
 feature: Adobe Sign
-role: Administrator
+role: Admin
 exl-id: c2061de7-8627-4595-b96c-aa2d6abffddd
 ---
 # Integration with Adobe Sign | Handling user data {#integration-with-adobe-sign-handling-user-data}

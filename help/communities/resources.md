@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 1ef15e76-fe7c-4ced-a20d-c0a9385e3ee4
-role: Administrator
+role: Admin
 exl-id: 67d80ec9-64c9-43a5-8cb1-9da819471797
 ---
 # Enablement Resources Console {#enablement-resources-console}
