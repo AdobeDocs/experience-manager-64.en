@@ -4,7 +4,7 @@ description: Learn how to create references to AEM assets from within InDesign, 
 contentOwner: AG
 
 feature: Asset Management
-role: Business Practitioner,Administrator
+role: User,Admin
 exl-id: 9fa44b26-76f7-48e2-a9df-4fd1c0074158
 ---
 # Manage compound assets with subassets {#managing-compound-assets}

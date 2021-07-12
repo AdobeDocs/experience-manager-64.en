@@ -7,7 +7,7 @@ topic-tags: managing-assets
 content-type: reference
 exl-id: 081e7db0-95cc-4260-8f08-318cd7d9d5b4
 feature: Video
-role: Business Practitioner
+role: User
 ---
 # Video {#video}
 

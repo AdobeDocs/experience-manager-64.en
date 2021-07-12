@@ -3,7 +3,7 @@ title: Migrate assets to Adobe Experience Manager Assets in bulk
 description: How to bring assets into AEM, apply metadata, generate renditions, and activate them to publish instances.
 contentOwner: AG
 feature: Migration,Renditions,Asset Management
-role: Architect,Administrator
+role: Architect,Admin
 exl-id: 31da9f3d-460a-4b71-9ba0-7487f1b159cb
 ---
 # Assets migration guide {#assets-migration-guide}

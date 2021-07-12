@@ -6,7 +6,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 feature: Workflow,Asset Management,Renditions
-role: Business Practitioner,Administrator
+role: User,Admin
 exl-id: 78d76b4f-a46c-4ffc-b772-ed925eb8e34c
 ---
 # About profiles for processing metadata, images, and videos {#profiles-for-processing-metadata-images-and-videos}

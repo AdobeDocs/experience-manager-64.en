@@ -3,7 +3,7 @@ title: Configuring Assets Insights
 description: Learn how to configure Assets Insights in AEM Assets.
 contentOwner: AG
 feature: Asset Insights,Asset Reports
-role: Business Practitioner,Administrator
+role: User,Admin
 exl-id: b0d62dd3-1868-4d73-95f7-3d6c3ff474d9
 ---
 # Configuring Assets Insights {#configuring-asset-insights}

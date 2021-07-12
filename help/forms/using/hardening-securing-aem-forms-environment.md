@@ -6,7 +6,7 @@ seo-description: Learn recommendations and best practices for securing AEM Forms
 uuid: abca7e7c-38c3-44f5-8d8a-4615cfce26c6
 topic-tags: Security
 discoiquuid: b1bd04bf-0d6d-4e6b-8c7c-eafd1a24b5fe
-role: Administrator
+role: Admin
 exl-id: ba3b380a-b391-44a0-884b-e57c3cb14013
 ---
 # Hardening and Securing AEM forms on OSGi environment {#hardening-and-securing-aem-forms-on-osgi-environment}

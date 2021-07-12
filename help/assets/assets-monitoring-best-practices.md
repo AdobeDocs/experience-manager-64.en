@@ -3,7 +3,7 @@ title: Assets Monitoring Best Practices
 description: Best practices for monitoring the environment and performance of your AEM instance after it is deployed.
 contentOwner: AG
 feature: Asset Management
-role: Administrator,Architect
+role: Admin,Architect
 exl-id: edbb275a-5ead-4ed2-8708-29e766081d75
 ---
 # Assets monitoring best practices {#assets-monitoring-best-practices}

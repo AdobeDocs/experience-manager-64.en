@@ -3,7 +3,7 @@ title: Assets file format best practices
 description: Best practices for file support in AEM Assets.
 contentOwner: AG
 feature: Asset Management,Developer Tools
-role: Administrator
+role: Admin
 exl-id: ff739a17-188e-4779-8820-9e4d9b7031d0
 ---
 # Assets file format best practices {#assets-file-format-best-practices}

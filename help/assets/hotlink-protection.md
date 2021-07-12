@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: a70aa448-0f58-4ed2-9381-afcc76fa827f
 exl-id: 9e27d45e-1d72-4663-a2c5-2ec48f2b23c4
 feature: Asset Management
-role: Administrator,Business Practitioner
+role: Admin,User
 ---
 # Activating hotlink protection in Dynamic Media {#activating-hotlink-protection-in-dynamic-media}
 

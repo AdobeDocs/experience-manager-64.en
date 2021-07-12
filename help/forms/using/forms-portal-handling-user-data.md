@@ -8,7 +8,7 @@ contentOwner: vishgupt
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 48f841b7-0e7f-4216-9ee8-fb6e843acaf0
-role: Administrator
+role: Admin
 exl-id: 05dbb6ee-09fd-44ee-bb8b-a3f3ebb32f5a
 ---
 # Forms Portal | Handling user data {#forms-portal-handling-user-data}

@@ -10,7 +10,7 @@ geptopics: SG_AEMFORMS/categories/jee
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-strategy: max-2018
 discoiquuid: a8b1f7df-e36f-4d02-883a-72120fea7046
-role: Administrator
+role: Admin
 exl-id: 72ead30c-648d-43ad-9826-9c8945a8860d
 ---
 # Migrate AEM Forms assets and documents {#migrate-aem-forms-assets-and-documents}

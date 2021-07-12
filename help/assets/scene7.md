@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: managing-assets
 exl-id: b11b19c1-712d-4698-aefc-930ff8cacbc1
 feature: Dynamic Media Classic
-role: Business Practitioner
+role: User
 ---
 # Adding Dynamic Media Classic Features to your Page {#adding-scene-features-to-your-page}
 

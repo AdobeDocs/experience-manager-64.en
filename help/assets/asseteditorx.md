@@ -3,7 +3,7 @@ title: Extend Asset Editor
 description: Learn how to extend the capabilities of Asset Editor using custom components.
 contentOwner: AG
 feature: Developer Tools
-role: Business Practitioner,Administrator
+role: User,Admin
 exl-id: 1e02a2f6-8194-46b9-b418-87103c3f4a69
 ---
 # Extend Asset Editor {#extending-asset-editor}
