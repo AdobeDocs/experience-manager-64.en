@@ -1,9 +1,10 @@
 ---
 title: Configure the Rich Text Editor plug-ins
-description: Learn to configure the AEM Rich Text Editor plug-ins to enable individual functionalities.
+description: Learn to configure the Adobe Experience Manager Rich Text Editor plug-ins to enable individual functionalities.
 contentOwner: AG
 exl-id: c9ab462d-b7d4-42c1-a4cf-80d16722910b
 ---
+
 # Configure the Rich Text Editor plug-ins {#configure-the-rich-text-editor-plug-ins}
 
 RTE functionalities are made available via a series of plug-ins, each with features property. You can configure the features property to enable or disable, one or more RTE features. This article describes how to specifically configure the RTE plug-ins.
@@ -12,7 +13,7 @@ For details about the other RTE configurations, see [Configure Rich Text Editor]
 
 >[!NOTE]
 >
->When working with CRXDE Lite, it is recommended to save the changes regularly using Save All.
+>When working with CRXDE Lite, it is recommended to save the changes regularly using [!UICONTROL Save All] option.
 
 ## Activate a plug-in and configure the features property {#activateplugin}
 
@@ -22,7 +23,7 @@ By default, `format`, `link`, `list`, `justify`, and `control` plugins and all t
 
 >[!NOTE]
 >
->The respective rtePlugins node is referred to as &lt;*rtePlugins-node*&gt; to avoid duplication in this article.
+>The respective `rtePlugins` node is referred to as `<rtePlugins-node>` to avoid duplication in this article.
 
 1. Using CRXDE Lite, locate the text component for your project.
 1. Create the parent node of `<rtePlugins-node>` if it does not exist, before configuring any RTE plug-ins:
@@ -45,7 +46,7 @@ By default, `format`, `link`, `list`, `justify`, and `control` plugins and all t
     * **Name** `rtePlugins`
     * **Type** `nt:unstructured`
 
-1. Create a node for each plug-in that you want to activate:
+1. Below this, create a node for each plug-in that you want to activate:
 
     * **Type** `nt:unstructured`
     * **Name** the Plug-in ID of the plug-in required
@@ -93,9 +94,9 @@ The find and replace dialog becomes transparent when find is clicked and becomes
 
 When using RTE, authors can paste content in one of the following three modes:
 
-* **Browser mode**: Paste text using the browser's default paste implementation. It is not a recommended method as it may introduce unwanted markup.  
+* **Browser mode**: Paste text using the browser's default paste implementation. It is not a recommended method as it may introduce unwanted markup.
 
-* **Plain text mode**: Paste the clipboard content as plain text. It strips all elements of style and formatting from the copied content before inserting in AEM component.  
+* **Plain text mode**: Paste the clipboard content as plain text. It strips all elements of style and formatting from the copied content before inserting in [!DNL Experience Manager] component.
 
 * **MS Word mode**: Paste the text, including tables, with formatting when copying from MS Word. Copying and pasting text from another source such as a web page or MS Excel is not supported and retain only partial formatting.
 
@@ -103,18 +104,15 @@ When using RTE, authors can paste content in one of the following three modes:
 
 You can provide some, all, or none of these three icons to your authors in the RTE toolbar:
 
-* **[!UICONTROL Paste (Ctrl+V)]**: Can be pre-configured to correspond to one of the above three Paste modes.  
+* **[!UICONTROL Paste (Ctrl+V)]**: Can be pre-configured to correspond to one of the above three Paste modes.
 
-* **[!UICONTROL Paste as Text]**: Provides Plain text mode functionality.  
+* **[!UICONTROL Paste as Text]**: Provides plain text mode functionality.
 
 * **[!UICONTROL Paste from Word]**: Provides MS Word mode functionality.
 
 To configure RTE to display the required icons, follow these steps.
 
-1. Navigate to your component; for example:
-
-   `/apps/<myProject>/components/text`
-
+1. Navigate to your component, say for example `/apps/<myProject>/components/text`.
 1. Navigate to the node `rtePlugins/edit`. See [activate a plug-in](#activateplugin) if the node does not exist.
 1. Create the `features` property on the `edit` node and add one or more of the features. Save all changes.
 
@@ -124,9 +122,9 @@ You can pre-configure the behavior of the **[!UICONTROL Paste (Ctrl+V)]** icon, 
 
 The configuration allows for the following three types of use cases:
 
-* Paste text using the browser's default paste implementation. It is not a recommended method as it may introduce unwanted markup. Configured using `browser` below.  
+* Paste text using the browser's default paste implementation. It is not a recommended method as it may introduce unwanted markup. Configured using `browser` below.
 
-* Paste the clipboard content as plain text. It strips all elements of style and formatting from the copied content before inserting in AEM component. Configured using `plaintext` below.  
+* Paste the clipboard content as plain text. It strips all elements of style and formatting from the copied content before inserting in AEM component. Configured using `plaintext` below.
 
 * Paste the text, including tables, with formatting when copying from MS Word. Copying and pasting text from another source such as a web page or MS Excel is not supported and retain only partial formatting. Configured using `wordhtml` below.
 
@@ -175,53 +173,18 @@ To configure which formats are allowed when pasting text into AEM from another p
    >
    >If not explicitly defined the default value of true is used and the format accepted.
 
-1. Other formats can also be defined using a range of other properties or nodes, also applied to the `htmlPasteRules` node:
+1. Other formats can also be defined using a range of other properties or nodes, also applied to the `htmlPasteRules` node. Save all changes.
 
-<table> 
- <tbody> 
-  <tr> 
-   <td><strong>Property</strong></td> 
-   <td><strong>Type</strong></td> 
-   <td><strong>Description</strong></td> 
-  </tr> 
-  <tr> 
-   <td>allowBlockTags</td> 
-   <td>String[]</td> 
-   <td><p>Defines the list of block tags allowed.</p> <p>Possible block tags include (amongst others):</p> 
-    <ul> 
-     <li>headlines (h1, h2, h3)</li> 
-     <li>paragraphs (p)</li> 
-     <li>lists (ol, ul)</li> 
-     <li>tables (table)</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>fallbackBlockTag</td> 
-   <td>String</td> 
-   <td><p>Defines the block tag used for any blocks having a block tag not included in allowBlockTags.</p> <p> p suffices in most cases.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>table</td> 
-   <td>nt:unstructured</td> 
-   <td><p>Defines the behavior when pasting tables.<br /> </p> <p>This node must have the property <code>allow</code> (type <code>Boolean</code>) to define whether pasting tables is allowed.</p> <p>If <code>allow</code> is set to <code>false</code>, you must specify the property <code>ignoreMode</code> (type<code> String</code>) to define how pasted table content is handled. Valid values for <code>ignoreMode</code> are:</p> 
-    <ul> 
-     <li><code>remove</code>: Removes table content.</li> 
-     <li><code>paragraph</code>: Turns table cells into paragraphs.</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>list</td> 
-   <td>nt:unstructured</td> 
-   <td><p>Defines the behavior when pasting lists.<br /> </p> <p>Must have the property <code>allow</code> (type <code>Boolean</code>) to define whether the pasting of lists is allowed.</p> <p>If <code>allow</code> is set to <code>false</code>, you must specify the property <code>ignoreMode</code> (type <code>String</code>) to define how to handle any list content pasted. Valid values for <code>ignoreMode</code> are:</p> 
-    <ul> 
-     <li><code>remove</code>: Removes list content.</li> 
-     <li><code>paragraph</code>: Turns list items into paragraphs.</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+You can use the following properties for `htmlPasteRules`.
 
-   Example of a valid `htmlPasteRules` structure:
+| Property | Type | Description |
+|---|---|---|
+| `allowBlockTags` | String | Defines the list of block tags allowed. A few possible block tags include: <ul> <li>headlines (h1, h2, h3)</li> <li>paragraphs (p)</li> <li>lists (ol, ul)</li> <li>tables (table)</li> </ul> |
+| `fallbackBlockTag` | String| Defines the block tag used for any blocks having a block tag not included in `allowBlockTags`. `p` suffices in most cases. |
+| table | nt:unstructured | Defines the behavior when pasting tables. This node must have the property `allow` (type Boolean) to define whether pasting tables is allowed. If allow is set to `false`, you must specify the property `ignoreMode` (type String) to define how pasted table content is handled. Valid values for `ignoreMode` are: <ul> <li>`remove`: Removes table content.</li> <li>`paragraph`: Turns table cells into paragraphs.</li> </ul> |
+| list | nt:unstructured | Defines the behavior when pasting lists. Must have the property `allow` (type Boolean) to define whether the pasting of lists is allowed. If `allow` is set to `false`, you must specify the property `ignoreMode` (type String) to define how to handle any list content pasted. Valid values for `ignoreMode` are: <ul><li> `remove`: Removes list content.</li> <li>`paragraph`: Turns list items into paragraphs.</li> </ul> |
+
+An example of a valid `htmlPasteRules` structure is below.
 
    ```xml
    "htmlPasteRules": {
@@ -243,25 +206,21 @@ To configure which formats are allowed when pasting text into AEM from another p
    }
    ```
 
-1. Save all changes.
-
 ## Configure text styles {#textstyles}
 
-Authors can apply Styles to change the appearance of a portion of text. The styles are based on CSS classes that you pre-define in your CSS style sheet. Stylized content is enclosed in `span` tags using the `class` attribute to refer to the CSS class. For example:
-
-`<span class=monospaced>Monospaced Text Here</span>`
+Authors can apply Styles to change the appearance of a portion of text. The styles are based on CSS classes that you pre-define in your CSS style sheet. Stylized content is enclosed in `span` tags using the `class` attribute to refer to the CSS class. For example, `<span class=monospaced>Monospaced Text Here</span>`.
 
 When the Styles plug-in is enabled for the first time, no default Styles are available. The pop-up list is empty. To provide the authors with Styles, do the following:
 
-* Enable the Style drop-down selector.  
+* Enable the Style drop-down selector.
 * Specify the location(s) of the style sheet(s).
 * Specify the individual styles that can be selected from the Style drop down list.
 
-For later (re-)configurations, say to add more styles, follow only the instructions to reference a new style sheet and to specify the additional styles.
+For later configurations, say to add more styles, follow only the instructions to reference a new style sheet and to specify the additional styles.
 
 >[!NOTE]
 >
->Styles can also be defined for [tables or table cells](/help/sites-administering/configure-rich-text-editor-plug-ins.md#tablestyles). These configurations require separate procedures.
+>You can define Styles for [tables or table cells](/help/sites-administering/configure-rich-text-editor-plug-ins.md#tablestyles). These configurations require separate procedures.
 
 ### Enable the Style drop-down selector list {#styleselectorlist}
 
@@ -352,7 +311,7 @@ Any text authored in RTE is placed within a block tag, the default being `<p>`. 
 
 When the Paragraph Formats plug-in is enabled for the first time, no default Paragraph Formats are available. The pop-up list is empty. To provide the authors with Paragraph Formats, do the following:
 
-* Enable the Format drop-down selector list.  
+* Enable the Format drop-down selector list.
 * Specify the block tags that can be selected as paragraph formats from the drop-down.
 
 For later (re-)configurations, say to add more formats, follow only the relevant part of the instructions.
@@ -394,7 +353,7 @@ Paragraph formats may be made available for selection by:
 
 1. Create a new node under the `formats` node, this holds details for an individual format:
 
-    * **Name**, you can specify the name, but it should be suitable for the format (for example, myparagraph, myheading1). 
+    * **Name**, you can specify the name, but it should be suitable for the format (for example, myparagraph, myheading1).
     * **Type** `nt:unstructured`
 
 1. To this node, add the property to define the block tag used:
@@ -465,9 +424,9 @@ You can configure the RTE to make your own selection of characters available; ei
 
 After the property is saved, the represented character is displayed in CRXDE. See the example of half below. Repeat the above steps to make more special characters available to the authors.
 
-   ![In CRXDE, add a single character to be made available in the RTE toolbar](assets/chlimage_1-412.png)
+   ![In CRXDE, add a single character to be made available in the RTE toolbar](assets/chlimage_1-412.png "In CRXDE, add a single character to be made available in the RTE toolbar")
 
-   In CRXDE, add a single character to be made available in the RTE toolbar
+   
 
 ### Define a range of characters {#definerangechar}
 
@@ -588,7 +547,7 @@ When the spellcheck plug-in is activated, the RTE uses dictionaries for each app
 
 >[!NOTE]
 >
->The message `Spell checking failed` is seen if a check is tried for a language that is not installed. The standard dictionaries are located at `/libs/cq/spellchecker/dictionaries`, along with the appropriate readme files. Do not modify the files.
+>The message `Spell checking failed` is seen if a check is attempted for a language that is not installed. The standard dictionaries are located at `/libs/cq/spellchecker/dictionaries`, along with the appropriate readme files. Do not modify the files.
 
 A standard AEM installation includes the dictionaries for American English (`en_us`) and British English (`en_gb`). To add more dictionaries, follow these steps.
 
@@ -733,7 +692,7 @@ To configure how links are added in AEM from another program, define the HTML ru
 
     * **defaultProtocol** (property of type **String**): Protocol to be used if the user did not specify one explicitly.
 
-        * **Name** `defaultProtocol` 
+        * **Name** `defaultProtocol`
         * **Type** `String`
         * **Value**(s) one, or more, default protocols
 
@@ -750,7 +709,7 @@ To configure how links are added in AEM from another program, define the HTML ru
             * **Type** `String`)
             * **Value**(s) :
 
-                * `auto`: means that an automatic target is chosen 
+                * `auto`: means that an automatic target is chosen
 
                   (specified by the `targetExternal` property for external links or `targetInternal` for internal links).
 
@@ -761,7 +720,7 @@ To configure how links are added in AEM from another program, define the HTML ru
 
             * **Name** `targetInternal`
             * **Type** `String`
-            * **Value** the target for internal links (only use when the `` mode is `auto`)
+            * **Value** the target for internal links (only use when the mode is `auto`)
 
         * The target for external links:
 
