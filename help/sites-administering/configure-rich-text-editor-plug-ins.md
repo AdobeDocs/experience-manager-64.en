@@ -82,7 +82,7 @@ After activating a plug-in, follow these guidelines to configure the `features` 
  </tbody> 
 </table>
 
-## Understand the findreplace plug-in {#understand--findreplace-plugin}
+## Understand the findreplace plug-in {#understand-findreplace-plugin}
 
 The `findreplace` plug-in does not need any configuration. It works out of the box.
 
@@ -90,7 +90,7 @@ When using the replace functionality, the replace string to be replaced should b
 
 The find and replace dialog becomes transparent when find is clicked and becomes opaque when replace is clicked. This allows the author to review the text that the author will replace. If users click replace all, the dialog closes and displays the number of replacements made.
 
-## Configure the paste modes {#pastemodes}
+## Configure the paste modes {#paste-modes}
 
 When using RTE, authors can paste content in one of the following three modes:
 
@@ -100,7 +100,7 @@ When using RTE, authors can paste content in one of the following three modes:
 
 * **MS Word mode**: Paste the text, including tables, with formatting when copying from MS Word. Copying and pasting text from another source such as a web page or MS Excel is not supported and retain only partial formatting.
 
-### Configure Paste options available on the RTE toolbar  {#configure-paste-options-available-on-the-rte-toolbar}
+### Configure Paste options available on the RTE toolbar  {#configure-paste-options-toolbar}
 
 You can provide some, all, or none of these three icons to your authors in the RTE toolbar:
 
@@ -116,7 +116,7 @@ To configure RTE to display the required icons, follow these steps.
 1. Navigate to the node `rtePlugins/edit`. See [activate a plug-in](#activateplugin) if the node does not exist.
 1. Create the `features` property on the `edit` node and add one or more of the features. Save all changes.
 
-### Configure the behavior of the Paste (Ctrl+V) icon and shortcut {#configure-the-behavior-of-the-paste-ctrl-v-icon-and-shortcut}
+### Configure the behavior of the Paste (Ctrl+V) icon and shortcut {#configure-paste-icon-shortcut}
 
 You can pre-configure the behavior of the **[!UICONTROL Paste (Ctrl+V)]** icon, using the following steps. This configuration also defines the behavior of keyboard shortcut Ctrl+V that Authors use to paste content.
 
@@ -135,14 +135,14 @@ The configuration allows for the following three types of use cases:
     * **Type** `String`
     * **Value** One of the required paste mode `browser`, `plaintext`, or `wordhtml`.
 
-### Configure the formats allowed when pasting content {#pasteformats}
+### Configure the formats allowed when pasting content {#paste-formats}
 
 The paste-as-Microsoft-Word (`paste-wordhtml`) mode can be further configured so that you can explicitly define which styles are allowed when pasting in AEM from another program, such as Microsoft Word.
 
 For example, if only bold formats and lists should be allowed when pasting in AEM, you can filter out the other formats. This is called configurable paste filtering, which can be done for both:
 
-* [Text](#pastemodes)
-* [Links](#linkstyles)
+* [Text](#paste-modes)
+* [Links](#link-styles)
 
 For links, you can also define the protocols that are automatically accepted.
 
@@ -206,7 +206,7 @@ An example of a valid `htmlPasteRules` structure is below.
    }
    ```
 
-## Configure text styles {#textstyles}
+## Configure text styles {#text-styles}
 
 Authors can apply Styles to change the appearance of a portion of text. The styles are based on CSS classes that you pre-define in your CSS style sheet. Stylized content is enclosed in `span` tags using the `class` attribute to refer to the CSS class. For example, `<span class=monospaced>Monospaced Text Here</span>`.
 
@@ -220,9 +220,9 @@ For later configurations, say to add more styles, follow only the instructions t
 
 >[!NOTE]
 >
->You can define Styles for [tables or table cells](/help/sites-administering/configure-rich-text-editor-plug-ins.md#tablestyles). These configurations require separate procedures.
+>You can define Styles for [tables or table cells](/help/sites-administering/configure-rich-text-editor-plug-ins.md#table-styles). These configurations require separate procedures.
 
-### Enable the Style drop-down selector list {#styleselectorlist}
+### Enable the Style drop-down selector list {#style-selector-list}
 
 This is done by enabling the styles plug-in.
 
@@ -239,7 +239,7 @@ This is done by enabling the styles plug-in.
 >
 >Once the Styles plug-in is enabled, the Style drop-down list is displayed in the edit dialog. However, the list is empty as no Styles are configured.
 
-### Specify the style sheet location {#locationofstylesheet}
+### Specify the style sheet location {#location-stylesheet}
 
 Then, specify the location(s) of the style sheet(s) you want to reference:
 
@@ -268,9 +268,9 @@ Then, specify the location(s) of the style sheet(s) you want to reference:
 >`#CQrte td {`
 >` // defines the style for editing }`
 
-### Specify the available Styles in the pop-up list {#stylesindropdown}
+### Specify the available Styles in the pop-up list {#styles-popup-list}
 
-1. In the component definition, navigate to the node `<rtePlugins-node>/styles`, as created in [Enabling the style drop-down selector](#styleselectorlist).
+1. In the component definition, navigate to the node `<rtePlugins-node>/styles`, as created in [Enabling the style drop-down selector](#style-selector-list).
 1. Under the node `styles`, create a new node (also called `styles`) to hold the list being made available:
 
     * **Name** `styles`
@@ -297,7 +297,7 @@ Then, specify the location(s) of the style sheet(s) you want to reference:
 
    Repeat the above steps for each required style.
 
-## Configure the paragraph formats {#paraformats}
+## Configure the paragraph formats {#para-formats}
 
 Any text authored in RTE is placed within a block tag, the default being `<p>`. By enabling the `paraformat` plug-in, you specify additional block tags that can be assigned to paragraphs, using a drop-down selection list. Paragraph formats determine the paragraph type by assigning the correct block tag. The author can select and assign them using the Format selector. The example block tags include, amongst others, the standard paragraph &lt;p&gt; and headings &lt;h1&gt;, &lt;h2&gt;, and so on.
 
@@ -316,9 +316,9 @@ When the Paragraph Formats plug-in is enabled for the first time, no default Par
 
 For later (re-)configurations, say to add more formats, follow only the relevant part of the instructions.
 
-### Enable the Format drop-down selector {#formatselectorlist}
+### Enable the Format drop-down selector {#format-selector-list}
 
-First enable the paraformat plug-in:
+First enable the `paraformat` plug-in:
 
 1. In your component, navigate to the node `<rtePlugins-node>/paraformat`. Create the nodes if these do not exist. For more details, see [activate a plug-in](#activateplugin).
 1. Create the `features` property on the `paraformat` node:
@@ -341,11 +341,11 @@ First enable the paraformat plug-in:
 >
 >When configuring the paragraph formats of the RTE, do not remove the paragraph tag &lt;p&gt; as a formatting option. If the &lt;p&gt; tag is removed, then the content author can not select the **Paragraph formats** option even if there are additional formats configured.
 
-### Specify the available Paragraph Formats {#paraformatsindropdown}
+### Specify the available Paragraph Formats {#para-formats-popup}
 
 Paragraph formats may be made available for selection by:
 
-1. In the component definition, navigate to the node `<rtePlugins-node>/paraformat`, as created in [Enabling the format drop-down selector](#styleselectorlist).
+1. In the component definition, navigate to the node `<rtePlugins-node>/paraformat`, as created in [Enabling the format drop-down selector](#style-selector-list).
 1. Under the `paraformat` node create a new node, to hold the list of formats:
 
     * **Name** `formats`
@@ -378,7 +378,7 @@ Paragraph formats may be made available for selection by:
 >
 >If you define custom formats, the default formats (`<p>`, `<h1>`, `<h2>`, and `<h3>`) are removed. Re-create `<p>` format as it is the default format.
 
-## Configure special characters {#spchar}
+## Configure special characters {#special-char}
 
 In a standard AEM installation, when the `misctools` plug-in is enabled for special characters (`specialchars`) a default selection is immediately available for use; for example, the copyright and trademark symbols.
 
@@ -388,7 +388,7 @@ You can configure the RTE to make your own selection of characters available; ei
 >
 >Adding your own special characters overrides the default selection. If required, (re-)define these characters in your own selection.
 
-### Define a single character {#definesinglechar}
+### Define a single character {#define-single-char}
 
 1. In your component, navigate to the node `<rtePlugins-node>/misctools`. Create the nodes if these do not exist. For more details, see [activate a plug-in](#activateplugin).
 1. Create the `features` property on the `misctools` node:
@@ -428,9 +428,9 @@ After the property is saved, the represented character is displayed in CRXDE. Se
 
    
 
-### Define a range of characters {#definerangechar}
+### Define a range of characters {#define-range-char}
 
-1. Use steps 1 to 3 from [Defining a Single Character](#definesinglechar).
+1. Use steps 1 to 3 from [Defining a Single Character](#define-single-char).
 1. Under `chars` add a new node to hold the definition of the character range:
 
     * **Name** you can specify the name, but it should reflect the character range; for example, pencils.
@@ -458,7 +458,7 @@ After the property is saved, the represented character is displayed in CRXDE. Se
 
    &nbsp; &nbsp; &nbsp; *Special characters available in RTE are displayed to authors in a pop-up window*
 
-## Configure table styles {#tablestyles}
+## Configure table styles {#table-styles}
 
 Styles are typically applied on text, but a separate set of Styles can also be applied on a table or a few table cells. Such Styles are available to authors from the Style selector box in either the Cell properties or Table properties dialog. The styles are available when editing a table within a Text component (or derivative) and not in the standard Table component.
 
@@ -487,12 +487,12 @@ Styles are typically applied on text, but a separate set of Styles can also be a
    >   * `table` to allow the editing of table properties; including the styles.
    >   * `cellprops` to allow the editing of cell properties, including the styles.
 
-1. Define the location of CSS style sheets to refer those. See [Specifying the location of your style sheet](#locationofstylesheet) as this is the same as when defining [styles for text](#textstyles). The location may be defined if you defined other styles.
+1. Define the location of CSS style sheets to refer those. See [Specifying the location of your style sheet](#location-stylesheet) as this is the same as when defining [styles for text](#text-styles). The location may be defined if you defined other styles.
 1. Under the `table` node create the following new nodes (as required):
 
     * To define styles for the entire table (available under **Table properties**):
 
-        * **Name** `tableStyles`
+        * **Name** `table-styles`
         * **Type** `cq:WidgetCollection`
 
     * To define styles for the individual cells (available under **Cell properties**):
@@ -500,7 +500,7 @@ Styles are typically applied on text, but a separate set of Styles can also be a
         * **Name** `cellStyles`
         * **Type** `cq:WidgetCollection`
 
-1. Create a new node (under the `tableStyles` or `cellStyles` node as appropriate) to represent an individual style:
+1. Create a new node (under the `table-styles` or `cellStyles` node as appropriate) to represent an individual style:
 
     * **Name** you can specify the name, but it should reflect the style.
     * **Type** `nt:unstructured`
@@ -523,25 +523,25 @@ Styles are typically applied on text, but a separate set of Styles can also be a
 
 Repeat the above steps for each required style.
 
-### Configure hidden headers in tables for accessibility {#hiddenheader}
+### Configure hidden headers in tables for accessibility {#hidden-header}
 
 Sometimes, you may create data tables without visual text in a column header assuming that the header's purpose is implied by the visual relationship of the column with other columns. In this case, it is necessary to provide hidden inner text within the cell in the header cell to allow screen readers and other assistive technologies to help the readers with various needs understand the purpose of the column.
 
 To enhance accessibility in such scenarios, RTE supports hidden header cells. In addition, it provides configuration settings related to hidden headers in tables. These settings let you apply CSS styles on hidden headers in edit and preview modes. To help authors identify hidden headers in the edit mode, include the following parameters in your code:
 
-* `hiddenHeaderEditingCSS`: Specifies the name of the CSS class that is applied on the hidden-header cell, when RTE is edited.
-* `hiddenHeaderEditingStyle`: Specifies a Style string that is applied on the hidden-header cell when RTE is edited.
+* `hidden-headerEditingCSS`: Specifies the name of the CSS class that is applied on the hidden-header cell, when RTE is edited.
+* `hidden-headerEditingStyle`: Specifies a Style string that is applied on the hidden-header cell when RTE is edited.
 
 If you specify both the CSS and the Style string in code, the CSS class takes precedence over the style string and may overwrite any configuration changes the Style string makes.
 
 To help authors apply CSS on hidden headers in the preview mode, you can include the following parameters in your code:
 
-* `hiddenHeaderClassName`: Specifies the name of the CSS class that is applied on the hidden header cell in preview mode.
-* `hiddenHeaderStyle`: Specifies a Style string that is applied on the hidden-header cell in preview mode.
+* `hidden-headerClassName`: Specifies the name of the CSS class that is applied on the hidden header cell in preview mode.
+* `hidden-headerStyle`: Specifies a Style string that is applied on the hidden-header cell in preview mode.
 
 If you specify both the CSS and the Style string in code, the CSS class takes precedence over the style string and may overwrite any configuration changes the Style string makes.
 
-## Add dictionaries for the spell checker {#adddict}
+## Add dictionaries for the spell checker {#add-dict}
 
 When the spellcheck plug-in is activated, the RTE uses dictionaries for each appropriate language. These are then selected according to the language of the website by taking either the language property of the subtree or extracting the language from the URL; for example. the `/en/` branch is checked as English, the `/de/` branch as German.
 
@@ -573,7 +573,7 @@ A standard AEM installation includes the dictionaries for American English (`en_
 >
 >If you incorporate any change that the spell checker suggests, the state of the text changes and misspelled words are no longer highlighted. To run the spell checker, tap/click Spellchecker button again.
 
-## Configure the history size for undo and redo actions {#undohistory}
+## Configure the history size for undo and redo actions {#undo-history}
 
 RTE allows authors to undo or redo a few last edits. By default, 50 edits are stored in the history. You can configure this value as required.
 
@@ -589,20 +589,20 @@ RTE allows authors to undo or redo a few last edits. By default, 50 edits are st
 
 1. Save the changes.
 
-## Configure the tab size {#tabsize}
+## Configure the tab size {#tab-size}
 
 When the tab character is pressed within any text a predefined number of spaces is inserted; by default this is three non-breaking spaces and one space. To define the tab size:
 
 1. In your component, navigate to the node `<rtePlugins-node>/keys`. Create the nodes if these do not exist. For more details, see [activate a plug-in](#activateplugin).
 1. On the `keys` node create the property:
 
-    * **Name** `tabSize`
+    * **Name** `tab-size`
     * **Type** `String`
     * **Value** the number of space characters to be used for the tabulator
 
 1. Save the changes.
 
-## Set indent margin {#indentmargin}
+## Set indent margin {#indent-margin}
 
 When indentation is enabled (default) you can define the size of indent:
 
@@ -617,7 +617,7 @@ When indentation is enabled (default) you can define the size of indent:
     * **Type**: `Long`
     * **Value**: number of pixels required for the indent margin
 
-## Configure the height of editable space {#editablespace}
+## Configure the height of editable space {#editable-space}
 
 You can define the height of the editable space shown within the component dialog:
 
@@ -637,7 +637,7 @@ You can define the height of the editable space shown within the component dialo
 >
 >This is only applicable when using the RTE in a dialog (not in-place editing in classic UI).
 
-## Configure styles and protocols for links {#linkstyles}
+## Configure styles and protocols for links {#link-styles}
 
 When adding links in AEM, you can define:
 
