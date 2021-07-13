@@ -70,7 +70,7 @@ After activating a plug-in, follow these guidelines to configure the `features` 
   <tr> 
    <td><strong>Type</strong></td> 
    <td>String</td> 
-   <td>String[] (multi-string; set Type to String and click Multi in CRXDE Lite)</td> 
+   <td>String (multi-string; set Type to String and click Multi in CRXDE Lite)</td> 
    <td>String</td> 
   </tr> 
   <tr> 
@@ -256,17 +256,15 @@ Then, specify the location(s) of the style sheet(s) you want to reference:
 
 1. Save all changes.
 
->[!NOTE]
->
->When using RTE in a dialog (Classic UI) You may want to specify style sheets that are optimized for rich text editing. Due to technical restrictions the CSS context is lost in the editor, so you may want to emulate this context to improve the WYSIWYG experience.
->
->The Rich Text Editor uses a container DOM element with an ID of `CQrte` which may be used to provide different styles for viewing and editing:
->
->`#CQ td {`
->` // defines the style for viewing }`
->
->`#CQrte td {`
->` // defines the style for editing }`
+When using RTE in a dialog (Classic UI), you can specify stylesheets that are optimized for rich text editing. Due to technical restrictions the CSS context is lost in the editor, so you can emulate this context to improve the WYSIWYG experience. The Rich Text Editor uses a container DOM element with an ID of `CQrte` that can be used to provide different styles for viewing and editing:
+
+```TXT
+#CQ td {
+// defines the style for viewing }
+
+#CQrte td {
+// defines the style for editing }
+```
 
 ### Specify the available Styles in the pop-up list {#styles-popup-list}
 
