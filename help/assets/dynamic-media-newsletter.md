@@ -3,7 +3,7 @@ description: The Dynamic Media Newsletter by Experience League is a monthly news
 keywords: dynamic media;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;images;videos;features;capabilities
 seo-description: Knowledge-building resources are available in this one-stop shop newsletter, including how to videos, solution overviews, and introductions to some of the key features and capabilities like image presets, viewer presets, video profiles, and more.
 seo-title: Adobe Dynamic Media Newsletter 
-solution: Dynamic Media Classic
+solution: Experience Manager, Dynamic Media Classic
 title: Dynamic Media Newsletter
 exl-id: aa02c811-0296-4a02-b745-e70aeb9d1e97
 feature: Collaboration,Dynamic Media Classic
