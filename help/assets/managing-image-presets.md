@@ -383,7 +383,7 @@ When you create or edit image presets, you have the options described in this se
     </ul>
     <div>
       Sharpening is described in  
-     <a href="https://experienceleague.adobe.com/doc/experience-manager-64/assets/assets/sharpening_images.pdf">Adobe Dynamic Media Classic Image Quality and Sharpening Best Practices</a>.
+     <a href="https://experienceleague.adobe.com/docs/experience-manager-64/assets/sharpening_images.pdf">Adobe Dynamic Media Classic Image Quality and Sharpening Best Practices</a>.
     </div> </td>
   </tr>
   <tr>
