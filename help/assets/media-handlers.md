@@ -436,7 +436,7 @@ After you perform the following procedure, when you upload a txt file into Exper
 
 Experience Manager enables you to run any command-line tool within a workflow to convert assets (such as ImageMagick) and to add the new rendition to the asset. Install the command-line tool on the disk hosting the Experience Manager server and add and configure a process step to the workflow. The invoked process, called `CommandLineProcess`, filters according to specific MIME types and creates multiple thumbnails based on the new rendition.
 
-The following conversions can be automatically run and stored within Experience Manager Assets:
+The following conversions can be automatically run and stored within [!DNL Experience Manager Assets]:
 
 * EPS and AI transformation using [ImageMagick](https://www.imagemagick.org/script/index.php) and [Ghostscript](https://www.ghostscript.com/)
 * FLV video transcoding using [FFmpeg](https://ffmpeg.org/)
