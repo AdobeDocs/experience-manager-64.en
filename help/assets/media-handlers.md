@@ -31,7 +31,7 @@ The following media handlers are available within Experience Manager Assets and 
 | [!UICONTROL TextHandler] | com.day.cq.dam.core.impl.handler.TextHandler | text/plain |
 | [!UICONTROL PdfHandler] | com.day.cq.dam.handler.standard.pdf.PdfHandler | <ul><li>application/pdf</li><li>application/illustrator</li></ul> |
 | [!UICONTROL JpegHandler] | com.day.cq.dam.core.impl.handler.JpegHandler | image/jpeg |
-| [!UICONTROL Mp3Handler] | com.day.cq.dam.handler.standard.mp3.Mp3Handler | audio/mpeg<br><b>Important</b> - When you upload an MP3 file, it is [processed using a third-party library](http://www.zxdr.it/programmi/SistEvolBDD/LibJava/doc/de/vdheide/mp3/MP3File.html). The library calculates a non-accurate approximate length if the MP3 has variable bitrate (VBR). |
+| [!UICONTROL Mp3Handler] | com.day.cq.dam.handler.standard.mp3.Mp3Handler | audio/mpeg<br><b>Important</b> - When you upload an MP3 file, it is [processed using a third-party library](https://www.zxdr.it/programmi/SistEvolBDD/LibJava/doc/de/vdheide/mp3/MP3File.html). The library calculates a non-accurate approximate length if the MP3 has variable bitrate (VBR). |
 | [!UICONTROL ZipHandler] | com.day.cq.dam.handler.standard.zip.ZipHandler | <ul><li>application/java-archive </li><li> application/zip</li></ul> |
 | [!UICONTROL PictHandler] | com.day.cq.dam.handler.standard.pict.PictHandler | image/pict |
 | [!UICONTROL StandardImageHandler] | com.day.cq.dam.core.impl.handler.StandardImageHandler | <ul><li>image/gif </li><li> image/png </li> <li>application/photoshop </li> <li>image/jpeg </li><li> image/tiff </li> <li>image/x-ms-bmp </li><li> image/bmp</li></ul> |
@@ -440,8 +440,8 @@ The following conversions can be automatically run and stored within Experience 
 
 * EPS and AI transformation using [ImageMagick](https://www.imagemagick.org/script/index.php) and [Ghostscript](https://www.ghostscript.com/)
 * FLV video transcoding using [FFmpeg](https://ffmpeg.org/)
-* MP3 encoding using [LAME](http://lame.sourceforge.net/)
-* Audio processing using [SOX](http://sox.sourceforge.net/)
+* MP3 encoding using [LAME](https://lame.sourceforge.net/)
+* Audio processing using [SOX](https://sox.sourceforge.net/)
 
 >[!NOTE]
 >
