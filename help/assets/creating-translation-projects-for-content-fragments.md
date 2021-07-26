@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: d2decc31-a04b-4a8e-bb19-65f21cf7107e
 exl-id: 4b9fd241-82db-466e-95bd-6d212717801d
 feature: Content Fragments
-role: Business Practitioner
+role: User
 ---
 # Creating Translation Projects for Content Fragments {#creating-translation-projects-for-content-fragments}
 

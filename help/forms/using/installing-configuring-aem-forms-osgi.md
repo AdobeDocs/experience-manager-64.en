@@ -7,7 +7,7 @@ uuid: ce253b5a-eeb2-47d2-a6c9-e6f59384159a
 contentOwner: khsingh
 topic-tags: installing
 discoiquuid: 1bb8360c-5543-484e-9712-590822211298
-role: Administrator
+role: Admin
 exl-id: 45b0fb99-9f7f-47e6-a4de-4db321867f8f
 ---
 # Install and configure data capture capabilities {#install-and-configure-data-capture-capabilities}

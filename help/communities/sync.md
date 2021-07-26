@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 32b56b48-75cb-4cc9-a077-10e335f01a35
-role: Administrator
+role: Admin
 exl-id: 3a8e8fef-9aef-4b9d-8b0b-e76aa2962b61
 ---
 # Communities User Synchronization {#communities-user-synchronization}

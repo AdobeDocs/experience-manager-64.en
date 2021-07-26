@@ -10,7 +10,7 @@ topic-tags: designer
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: 36560809-dba9-49cf-a8ee-23c6766382ef
 noindex: true
-role: Administrator
+role: Admin
 exl-id: 9791ffd5-04c4-4eed-8e99-b390e539197d
 ---
 # Installing and configuring Designer {#installing-and-configuring-designer}

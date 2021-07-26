@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: manage
 discoiquuid: c30332b6-e012-442d-8e84-28832c116c7b
 noindex: true
-role: Administrator
+role: Admin
 exl-id: 26cd0851-cadf-4a8f-b3bf-59f77671f584
 ---
 # AEM desktop app for AEM Forms {#aem-desktop-app-for-aem-forms}

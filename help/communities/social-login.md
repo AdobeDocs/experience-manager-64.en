@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: c0a71870-8f95-40c8-9ffd-b7af49723288
-role: Administrator
+role: Admin
 exl-id: 85dcae2f-0773-4867-a24c-056bd2f5585e
 ---
 # Social Login with Facebook and Twitter {#social-login-with-facebook-and-twitter}
