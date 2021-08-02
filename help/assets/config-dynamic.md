@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 821eb27e-67c9-4589-9196-30dacb84fa59
 exl-id: 1e122f97-ac37-44f5-a1cd-bf53ffda6f5b
 feature: Configuration,Hybrid Mode
-role: Administrator,Business Practitioner,Developer
+role: Admin,User,Developer
 ---
 # Configuring Dynamic Media - Hybrid mode {#configuring-dynamic-media-hybrid-mode}
 
@@ -812,7 +812,7 @@ Configuring the Dynamic Media Image Server involves editing the Adobe CQ Scene7 
 >
 >Dynamic Media works out-of-the-box [after it is enabled](#enabling-dynamic-media). However, you can optionally choose to fine tune your installation by configuring Dynamic Media Image Server to meet certain specifications or requirements.
 
-**Prerequisite**: _Before_ you configure Dynamic Media Image Server, ensure that your VM of Windows includes an installation of the Microsoft Visual C++ Libraries. The libraries are necessary to run Dynamic Media Image Server. You can [download the Microsoft Visual C++ 2010 Redistributable Package (x64) here](https://www.microsoft.com/en-us/download/details.aspx?id=14632).
+**Prerequisite**: _Before_ you configure Dynamic Media Image Server, ensure that your VM of Windows includes an installation of the Microsoft Visual C++ Libraries. The libraries are necessary to run Dynamic Media Image Server. You can [download the Microsoft Visual C++ 2010 Redistributable Package (x64) here](https://www.microsoft.com/en-us/download/details.aspx?id=26999).
 
 **To configure Dynamic Media Image Server settings**:
 

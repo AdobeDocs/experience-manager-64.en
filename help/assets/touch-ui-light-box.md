@@ -3,7 +3,7 @@ title: Lightbox
 description: Learn about Lightbox in AEM Assets.
 contentOwner: AG
 feature: Developer Tools,Renditions
-role: Business Practitioner,Administrator
+role: User,Admin
 exl-id: acb61924-9b71-474a-833d-e441c0b83cc7
 ---
 # Lightbox {#lightbox}

@@ -3,7 +3,7 @@ title: Manage [!DNL Adobe Stock] assets in [!DNL Adobe Experience Manager Assets
 description: Search, fetch, license, and manage [!DNL Adobe Stock] assets from within [!DNL Adobe Experience Manager]. Use the licensed assets as any other digital asset.
 contentOwner: AG
 feature: Search,Adobe Stock
-role: Business Practitioner,Administrator
+role: User,Admin
 exl-id: f360abaf-a812-46ed-a160-ff569b6bec1c
 ---
 # Use [!DNL Adobe Stock] assets in [!DNL Adobe Experience Manager Assets] {#use-adobe-stock-assets-in-aem-assets}

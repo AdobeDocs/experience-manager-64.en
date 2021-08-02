@@ -6,7 +6,7 @@ user-guide-title: AEM 6.4 Mobile User Guide
 breadcrumb-title: Mobile Guide
 user-guide-description: Create and manage content for mobile apps.
 feature: Mobile
-role: Business Practitioner
+role: User
 ---
 
 # AEM 6.4 Mobile User Guide {#mobile}

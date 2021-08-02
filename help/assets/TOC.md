@@ -1,7 +1,7 @@
 ---
 cloud: Experience Cloud
 product: adobe experience manager
-solution: Experience Manager, Experience Manager Assets
+solution: Experience Manager, Experience Manager 6.4, Experience Manager Assets
 audience: end-user
 user-guide-title: Assets Guide
 breadcrumb-title: Assets Guide
@@ -27,7 +27,7 @@ user-guide-description: Create, manage, deliver, and optimize digital assets.
   + [Adding image maps](image-maps.md)
   + [Reuse assets using MSM](reuse-assets-using-msm.md)
 + Dynamic Media{#dynamic}
-  + [Dynamic Media Newsletter by Experience League](dynamic-media-newsletter.md)
+  + [Dynamic Media newsletter archive by Experience League](dynamic-media-newsletter.md)
   + [Setting up Dynamic Media](administering-dynamic-media.md)
   + [Working with Dynamic Media](dynamic-media.md)
   + [Configuring Dynamic Media - Scene7 mode](config-dms7.md)

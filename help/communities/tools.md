@@ -10,7 +10,7 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 410149d6-15bd-41e5-bdba-1d8e6eab7b87
 pagetitle: Communities Tools
-role: Administrator
+role: Admin
 exl-id: de11be58-b576-4d06-b446-52b4013aae9a
 ---
 # Communities Tools {#communities-tools}

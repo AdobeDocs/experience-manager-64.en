@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 1cdb2dfc-623b-44cf-9a7b-98cfabbb1d0c
 exl-id: 15a5fdc9-2878-4f95-83ee-02a2899aeb43
 feature: Content Fragments
-role: Business Practitioner
+role: User
 ---
 # Variations - Authoring Fragment Content {#variations-authoring-fragment-content}
 

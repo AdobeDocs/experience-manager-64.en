@@ -3,7 +3,7 @@ title: Check-in and check-out your digital assets for editing
 description: Learn how to check-out assets for editing and check them back in after the changes are complete.
 contentOwner: AG
 feature: Asset Management
-role: Business Practitioner
+role: User
 exl-id: 0c79ed42-0acd-426e-8e14-412bb4117585
 ---
 # Check-in and check-out files in Assets {#check-in-and-check-out-files-in-assets}

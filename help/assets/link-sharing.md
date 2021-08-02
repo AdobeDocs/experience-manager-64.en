@@ -3,7 +3,7 @@ title: Share assets using a link
 description: Share assets, folders, and collections as a URL.
 contentOwner: AG
 feature: Link Sharing,Asset Management
-role: Business Practitioner
+role: User
 exl-id: bf4b0acf-4103-4da1-8666-c6d9fe80c41f
 ---
 # Share asset via a link {#asset-link-sharing}

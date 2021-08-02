@@ -197,7 +197,6 @@ When a namespace or other tag is selected, selecting the **`Move`** icon will al
 * **Rename to** 
   Initially displays the current `name`of the tag. A new `name`may be entered.
 
-* 
 * select **Save**
 
 ### Merging Tags {#merging-tags}

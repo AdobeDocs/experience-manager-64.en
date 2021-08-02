@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: edc3043c-7ec4-4e4a-b008-95f1784f012e
-role: Administrator
+role: Admin
 exl-id: 1de1ffc6-63f8-4316-a2fa-5095d407c265
 ---
 # MySQL Configuration for DSRP {#mysql-configuration-for-dsrp}

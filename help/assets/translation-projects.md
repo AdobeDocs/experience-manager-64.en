@@ -3,7 +3,7 @@ title: Creating Translation Projects
 description: Learn how to create translation projects in AEM.
 contentOwner: AG
 feature: Translation
-role: Architect,Administrator
+role: Architect,Admin
 exl-id: 1b931fef-eed0-4758-993d-cdf8d478fb6f
 ---
 # Creating Translation Projects {#creating-translation-projects}
@@ -307,4 +307,4 @@ When you run a translation workflow to update a language copy with edited versio
 
 1. Navigate to the Assets console, and open the Properties page for each of the translated assets to view the translated metadata.
 
-For tips on translating metadata for assets efficiently, see [5 Steps for Efficiently Translating Metadata](https://blogs.adobe.com/experiencedelivers/experience-management/translate_aemassets_metadata/).
+For tips on translating metadata for assets efficiently, see this archived page about [5 steps to efficiently translate metadata](https://web.archive.org/web/20181217033517/https://blogs.adobe.com/experiencedelivers/experience-management/translate_aemassets_metadata/).

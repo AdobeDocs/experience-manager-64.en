@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: d1f45751-1761-4d6b-b17d-110b2f1117ea
 exl-id: bb97b649-a50d-49c8-97aa-18c32f18d527
 feature: Components
-role: Business Practitioner
+role: User
 ---
 # Adding Dynamic Media assets to pages {#adding-dynamic-media-assets-to-pages}
 

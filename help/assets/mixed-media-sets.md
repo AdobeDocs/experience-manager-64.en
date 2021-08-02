@@ -6,8 +6,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 exl-id: 252c1a50-17ac-4412-88d6-49bb6850658d
-feature: Mix Media Sets
-role: Business Practitioner
+feature: Mixed Media Sets
+role: User
 ---
 # Mixed Media Sets {#mixed-media-sets}
 

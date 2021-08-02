@@ -3,7 +3,7 @@ title: Process assets to accomplish business processes, do audits, achieve compl
 description: Asset processing to convert formats, create renditions, manage assets, validate assets, and run workflows.
 contentOwner: AG
 feature: Workflow,Renditions
-role: Business Practitioner,Administrator
+role: User,Admin
 exl-id: 4fb3d12c-feac-45b9-8d09-3b6995591b3d
 ---
 # Process digital assets {#process-assets}
@@ -108,4 +108,3 @@ For a workflow model, users can create a workflow launcher that executes it. A w
 >* [Create workflow models and extend workflow functionality](/help/sites-developing/workflows.md)
 >* [Methods to execute workflows](/help/sites-administering/workflows-starting.md)
 >* [Workflow best practices](/help/sites-developing/workflows-best-practices.md)
->* [Community article on modifying asset using workflow](https://helpx.adobe.com/experience-manager/using/modify_asset_workflow.html)

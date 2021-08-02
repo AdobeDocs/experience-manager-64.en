@@ -3,7 +3,7 @@ title: Use metadata profiles to apply default metadata to all assets in a folder
 description: Know about metadata profiles for assets. Learn how to create a metadata profile and apply it to folder assets.
 contentOwner: AG
 feature: Metadata
-role: Business Practitioner,Administrator
+role: User,Admin
 exl-id: a7b0f1d6-7deb-4565-8c7f-27cad7cd6bf8
 ---
 # Metadata profiles {#metadata-profiles}

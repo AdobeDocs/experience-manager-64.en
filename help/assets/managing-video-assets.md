@@ -6,7 +6,7 @@ contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: f341fae1-dda3-4917-b6db-ad02fec63702
 feature: Asset Management,Video
-role: Business Practitioner
+role: User
 exl-id: eb652414-5b10-45af-a8b6-f1de649994c5
 ---
 # Manage video assets {#managing-video-assets}
@@ -38,7 +38,7 @@ By default, the AEM Assets does not let you upload any assets that are larger th
 In addition to AEM Assets configuration, change the following configurations to upload large assets:
 
 * Increase the token expiration time. See [!UICONTROL Adobe Granite CSRF Servlet] in Web Console at `https://[aem_server]:[port]/system/console/configMgr`. For more information, see [CSRF protection](/help/sites-developing/csrf-protection.md).
-* Increase the `receiveTimeout` in Dispatcher configuration. For more information, see [Experience Manager Dispatcher configuration](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#renders-options).
+* Increase the `receiveTimeout` in Dispatcher configuration. For more information, see [Experience Manager Dispatcher configuration](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#renders-options).
 
 >[!NOTE]
 >

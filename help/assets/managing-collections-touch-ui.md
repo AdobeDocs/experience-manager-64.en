@@ -4,7 +4,7 @@ description: Learn tasks to manage Collections of assets, such as create, view, 
 contentOwner: AG
 mini-toc-levels: 1
 feature: Collections
-role: Business Practitioner
+role: User
 exl-id: cadfc569-5725-4012-9f73-864243ba7743
 ---
 # Manage collections {#managing-collections}

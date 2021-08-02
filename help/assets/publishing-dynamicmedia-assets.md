@@ -7,7 +7,7 @@ topic-tags: dynamic-media
 content-type: reference
 exl-id: ebe30c07-1d76-4338-b301-49591f981688
 feature: Asset Management
-role: Business Practitioner
+role: User
 ---
 # Publishing Dynamic Media Assets {#publishing-dynamic-media-assets}
 

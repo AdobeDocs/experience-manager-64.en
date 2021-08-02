@@ -3,7 +3,7 @@ title: Integrate AEM Assets with Adobe InDesign Server
 description: Learn how to integrate AEM Assets with InDesign Server.
 contentOwner: AG
 feature: Publishing
-role: Administrator
+role: Admin
 exl-id: d80562f7-071c-460a-9c68-65f48d36fbd9
 ---
 # Integrate AEM Assets with Adobe InDesign Server {#integrating-aem-assets-with-indesign-server}
@@ -55,7 +55,7 @@ The InDesign Server can be integrated with AEM Assets so that files created with
    >
    >IDML is an XML-based format that renders *everything* in the InDesign file. It is stored as an compressed package using [Zip](https://www.techterms.com/definition/zip) compression.
    >
-   >See [Adobe InDesign Interchange Formats INX and IDML](http://www.peachpit.com/articles/article.aspx?p=1381880&seqNum=8) for further information.
+   >See [Adobe InDesign Interchange Formats INX and IDML](https://www.peachpit.com/articles/article.aspx?p=1381880&seqNum=8) for further information.
 
    >[!CAUTION]
    >

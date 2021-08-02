@@ -63,7 +63,7 @@ However, there is no general rule - the object could be either a new instance or
 There are various ways that `Adaptable.adaptTo()` can be implemented:
 
 * By the object itself; implementing the method itself and mapping to certain objects.
-* By an [`AdapterFactory`](https://sling.apache.org/apidocs/sling5/org/apache/sling/api/adapter/AdapterFactory.html)`, which can map arbitrary objects.
+* By an [`AdapterFactory`](https://sling.apache.org/apidocs/sling5/org/apache/sling/api/adapter/AdapterFactory.html), which can map arbitrary objects.
 
   The objects must still implement the `Adaptable` interface and must extend [`SlingAdaptable`](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/org/apache/sling/adapter/SlingAdaptable.html) (which passes the `adaptTo` call to a central adapter manager).
   

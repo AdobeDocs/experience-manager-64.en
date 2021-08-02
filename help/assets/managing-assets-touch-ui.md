@@ -4,7 +4,7 @@ description: Learn about various asset management and editing tasks that you can
 contentOwner: AG
 mini-toc-levels: 1
 feature: Asset Management,Search,Renditions,Collaboration
-role: Business Practitioner
+role: User
 exl-id: aa1a702b-18dd-496b-a6e0-aa593af6e57c
 ---
 # Manage your digital assets {#managing-assets-with-the-touch-optimized-ui}
@@ -773,6 +773,14 @@ You can also add annotations to a collection. However, if a collection contains 
 
 ### View saved annotations {#viewing-saved-annotations}
 
+You can view only one annotation at a time.
+
+>[!NOTE]
+>
+>If you are selecting multiple annotations, the latest annotation will be visible on the user interface. 
+>
+>Multi-select is supported only for printing the annotated asset as PDF.
+
 1. To view saved annotations for an asset, navigate to the location of the asset and open the asset page for the asset.  
 
 1. Tap the **[!UICONTROL Global Navigation]** icon, and tap **[!UICONTROL Timeline]** from the list.
@@ -794,6 +802,10 @@ You can also add annotations to a collection. However, if a collection contains 
 If an asset has annotations or it has been subjected to a review workflow, you can print the asset along with annotations and review status as a PDF file for offline review.
 
 You can also choose to print only the annotations or review status.
+
+>[!NOTE]
+>
+>You can select multiple annotations while printing the annotated asset as PDF.
 
 Lengthy annotations may not render properly in the PDF file. For optimal rendering, Adobe recommends that you limit annotations to 50 words.
 

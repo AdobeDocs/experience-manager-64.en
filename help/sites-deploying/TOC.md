@@ -1,7 +1,7 @@
 ---
 cloud: Experience Cloud
 product: adobe experience manager
-solution: Experience Manager, Experience Manager Sites
+solution: Experience Manager, Experience Manager Sites, Experience Manager 6.4
 audience: end-user
 user-guide-title: AEM 6.4 Deploying Guide
 breadcrumb-title: Deploying Guide
@@ -54,7 +54,7 @@ role: Architect
     + [Consistency and Traversal Checks](consistency-check.md)
     + [Performance Guidelines](performance-guidelines.md)
     + [Performance Optimization](configuring-performance.md)
-    + [Assets Performance Guide](assets-performance-sizing.md)
+    + [Assets Performance Guide](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/performance-tuning-guidelines.html?lang=en)
     + [Configuration How-To Articles](ht-deploy.md)
     + [Removing the Geometrixx Sites](removing-the-geometrixx-sites.md)
     + [Configuring Web Console](configuring-web-console.md)
@@ -79,7 +79,7 @@ role: Architect
     + [Repository Restructuring in AEM 6.4](repository-restructuring.md)
     + [Common Repository Restructuring in AEM 6.4](all-repository-restructuring-in-aem-6-4.md)
     + [Sites Repository Restructuring in AEM 6.4](sites-repository-restructuring-in-aem-6-4.md)
-    + [Assets Repository Restructuring in AEM 6.4](assets-repository-restructuring-in-aem-6-4.md)
+    + [Assets Repository Restructuring in AEM 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/restructuring/repository-restructuring.html?lang=en)
     + [Dynamic Media Repository Restructuring in AEM 6.4](dynamicmedia-repository-restructuring-in-aem-6-4.md)
     + [Forms Repository Restructuring in AEM 6.4](forms-repository-restructuring-in-aem-6-4.md)
     + [E-Commerce Repository Restructuring in AEM 6.4](ecommerce-repository-restructuring-in-aem-6-4.md)

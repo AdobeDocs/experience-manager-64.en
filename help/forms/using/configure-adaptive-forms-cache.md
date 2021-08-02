@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: dd18f7b5-882d-4e81-ab3d-85f1e5d74992
-role: Administrator
+role: Admin
 exl-id: 6a610e9d-beec-486d-b1d2-78b5fec44c52
 ---
 # Configure adaptive forms cache {#configure-adaptive-forms-cache}

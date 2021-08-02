@@ -8,7 +8,7 @@ content-type: reference
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/image-presets
 exl-id: 3a666efe-1592-4425-82f5-c4d9343f65da
 feature: Image Presets
-role: Administrator,Business Practitioner
+role: Admin,User
 ---
 # Managing Dynamic Media image presets {#managing-image-presets}
 
@@ -383,7 +383,7 @@ When you create or edit image presets, you have the options described in this se
     </ul>
     <div>
       Sharpening is described in  
-     <a href="https://experienceleague.adobe.com/doc/experience-manager-64/assets/assets/sharpening_images.pdf">Adobe Dynamic Media Classic Image Quality and Sharpening Best Practices</a>.
+     <a href="https://experienceleague.adobe.com/docs/experience-manager-64/assets/sharpening_images.pdf">Adobe Dynamic Media Classic Image Quality and Sharpening Best Practices</a>.
     </div> </td>
   </tr>
   <tr>

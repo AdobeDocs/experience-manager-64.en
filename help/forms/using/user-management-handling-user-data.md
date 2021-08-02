@@ -7,7 +7,7 @@ uuid: 2b76b69f-6f3a-4f1a-a2a4-d39f5e529f75
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a88fc933-f1af-4798-b72f-10e7b0d2fd11
-role: Administrator
+role: Admin
 exl-id: 5005d57c-2585-46d1-9785-939e249a0128
 ---
 # Forms user management | Handling user data {#forms-user-management-handling-user-data}

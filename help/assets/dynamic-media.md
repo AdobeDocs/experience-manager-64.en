@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: a8063d43-923a-42ac-9a16-0c7fadd8f73f
 exl-id: f8a3936e-82b5-46c7-9614-b97162e27d6a
 feature: Asset Management,Renditions
-role: Administrator,Business Practitioner
+role: Admin,User
 ---
 # Working with Dynamic Media {#working-with-dynamic-media}
 
@@ -19,9 +19,9 @@ role: Administrator,Business Practitioner
 
 Dynamic media serves interactive viewing experiences, including zoom, 360-degree spin, and video. Dynamic media uniquely incorporates the workflows of the Adobe Experience Manager digital asset management (Assets) solution to simplify and streamline the digital campaign management process.
 
->[!NOTE]
+<!-- DEAD ARTICLE >[!NOTE]
 >
->A Community article is available on [Working with Adobe Experience Manager and Dynamic Media](https://helpx.adobe.com/experience-manager/using/aem_dynamic_media.html).
+>A Community article is available on [Working with Adobe Experience Manager and Dynamic Media](https://helpx.adobe.com/experience-manager/using/aem_dynamic_media.html). -->
 
 ## What you can do with Dynamic Media {#what-you-can-do-with-dynamic-media}
 

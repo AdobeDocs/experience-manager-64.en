@@ -3,7 +3,7 @@ title: XMP writeback to renditions
 description: Learn how the XMP writeback feature propagates the metadata changes for an asset to all or specific renditions of the asset.
 contentOwner: AG
 feature: Metadata
-role: Business Practitioner,Administrator
+role: User,Admin
 exl-id: 456f8c91-aacf-4db5-a329-2d1650ff0f2f
 ---
 # XMP writeback to renditions {#xmp-writeback-to-renditions}

@@ -3,7 +3,7 @@ title: Multilingual Assets
 description: Learn how to automate workflows for translating assets, including binaries, metadata, and tags into multiple languages.
 contentOwner: AG
 feature: Asset Management
-role: Administrator
+role: Admin
 exl-id: 8e065137-3599-48af-a040-6923b7b5e1d9
 ---
 # Multilingual Assets {#multilingual-assets}

@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: 262eb911-3dcb-475d-b410-8bcac1347905
 exl-id: 6bd68afe-bd54-4482-bd6e-cb318868c8d0
 feature: Selectors
-role: Business Practitioner
+role: User
 ---
 # Working with Selectors {#working-with-selectors}
 

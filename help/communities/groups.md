@@ -10,7 +10,7 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 1293c01a-7308-494a-ab48-bd9938205b81
 pagetitle: Community Groups Console
-role: Administrator
+role: Admin
 exl-id: f8f19ad6-d6cd-4abd-bc31-6baba3e0356e
 ---
 # Community Groups Console {#community-groups-console}
