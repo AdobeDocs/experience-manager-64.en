@@ -82,8 +82,6 @@ If you have specified a form data model while creating a text, the properties in
 
 * To allow the agents to edit an FDM property's value in the agent UI while [Prepare and send Interactive Communication](/help/forms/using/prepare-send-interactive-communication.md) using the Agent UI, tap the **`[D]`** lock icon for that property and ensure it is in an unlocked state. The default state of the property is locked and an agent cannot edit the property in the Agent UI. 
 
-*
-
 You can also use form data model properties to construct rules for displaying or hiding parts of content. For more information, see [Create rules in text](#rules).
 
 ## Creating and using variables in a text document fragment {#variables}

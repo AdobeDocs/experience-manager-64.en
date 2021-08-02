@@ -184,8 +184,6 @@ To customize newsletter settings:
 
    ![mcm_newsletter_settings](assets/mcm_newsletter_settings.png)
 
-1.
-
     1. Enter the **From** e-mail address 
     1. Modify the **Subject** of the e-mail, if necessary. 
     1. Select a **Default Recipients List** from the drop down list. 
