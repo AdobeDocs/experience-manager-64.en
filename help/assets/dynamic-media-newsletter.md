@@ -1,8 +1,8 @@
 ---
+title: Dynamic Media newsletter archive
 description: The archived Dynamic Media newsletter by Experience League was a monthly newsletter. It was designed to help you get up to speed with Dynamic Media and Dynamic Media Classic so that you could realize value right away. The archived newsletters contain valuable knowledge-building resources that were available in this one-stop shop newsletter that is now discontinued. Archived newsletters include how-to videos and solution overviews. There are also introductions to key features and capabilities like image presets, viewer presets, and video profiles.  
 keywords: dynamic media;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;images;videos;features;capabilities
 solution: Experience Manager, Dynamic Media Classic
-title: Dynamic Media newsletter archive
 exl-id: aa02c811-0296-4a02-b745-e70aeb9d1e97
 feature: Collaboration,Dynamic Media Classic
 role: Admin,User
@@ -48,10 +48,6 @@ In this one-stop shop archived newsletter, you can find valuable knowledge-build
   * View the Dynamic Media sessions from Online Adobe Summit 2020.
   * Learn more about free Dynamic Media Classic audits.
   * Meet John Monroe, Senior Program Manager for Customer Success Services.
-
-<!--     >[!IMPORTANT]
-    >
-    >We want to make sure we are only sending the Dynamic Media newsletter to those who want to receive it. To continue receiving the newsletter after this issue, please sign up for it [here](https://nam04.safelinks.protection.outlook.com/?url=http%3A%2F%2Ft.messages.adobe.com%2Fr%2F%3Fid%3Dha6c66e%2C266d7ba%2C26edbee&data=02%7C01%7Crbrough%40adobe.com%7Ce0ec0f8dde0f4eb03d9c08d7e2173fd3%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637226461801398160&sdata=3c1oREsqy%2FeDPKC3dd4IO9dXomQ1XbokaBAYQl8obrk%3D&reserved=0). -->
 
 * **[February 2020, Issue 2](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_02_2020_Feb.html)**
 
