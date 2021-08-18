@@ -76,7 +76,7 @@ See also [Using Maven for Communities](maven.md).
 
 ### No JSP Component Templates {#no-jsp-component-templates}
 
-The [social component framework](scf.md) (SCF) uses the `HandlebarsJS` (HBS) templating language in place of Java Server Pages (JSP) used prior to AEM 6.0.
+The [social component framework](scf.md) (SCF) uses the [HandlebarsJS](https://handlebarsjs.com/) (HBS) templating language in place of Java Server Pages (JSP) used prior to AEM 6.0.
 
 In AEM 6.0, the JSP components remained alongside the new HBS framework components in the same location, with the HBS components typically located in subfolders named "hbs".
 
