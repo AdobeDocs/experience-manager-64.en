@@ -21,7 +21,6 @@ For basic information, visit:
 
 * [Using Client-Side Libraries](../../help/sites-developing/clientlibs.md) which provides usage details as well as debugging tools
 * [Clientlibs for SCF](client-customize.md#clientlibs) which provides useful information when customizing SCF components
-* [Blog: AEM Client Libraries explained by example](https://blogs.adobe.com/experiencedelivers/experience-management/clientlibs-explained-example/)
 
 ## Why Clientlibs are Required {#why-clientlibs-are-required}
 
