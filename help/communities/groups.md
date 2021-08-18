@@ -94,7 +94,7 @@ From this Groups console, it is possible to author new groups.
 
 ![communitygrouptheme](assets/communitygrouptheme.png)
 
-The framework uses [Twitter Bootstrap](https://twitterbootstrap.org/) to bring a responsive, flexible design to the site. One of the many preloaded Bootstrap themes may be selected to style the selected community group template, or a Bootstrap theme may be uploaded.
+The framework uses `Twitter Bootstrap` to bring a responsive, flexible design to the site. One of the many preloaded Bootstrap themes may be selected to style the selected community group template, or a Bootstrap theme may be uploaded.
 
 When selected, the theme will be overlayed with an opaque blue checkmark.
 
