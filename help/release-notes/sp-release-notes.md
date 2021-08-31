@@ -2164,7 +2164,7 @@ which will copy new viewer presets to /conf location.
 
 >[!NOTE]
 >
->AEM 6.4.8.0 includes a new version of [AEM Forms compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/compatpack/AEM-FORMS-6.4.7.0-COMPAT). If you are using an older version of AEM Forms Compatibility Package and updating to AEM 6.4.8.0, install the latest version of AEM Forms compatibility package post installation of Forms Add-On Package.
+>AEM 6.4.8.0 includes a new version of [AEM Forms compatibility package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html). If you are using an older version of AEM Forms Compatibility Package and updating to AEM 6.4.8.0, install the latest version of AEM Forms compatibility package post installation of Forms Add-On Package.
 
 1. Ensure that you have installed the AEM Service Pack.
 1. Download the corresponding forms add-on package listed at [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) for your operating system.

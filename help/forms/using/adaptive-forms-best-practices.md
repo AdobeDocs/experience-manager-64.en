@@ -267,7 +267,7 @@ You often need to move your AEM projects from one environment to another. Some o
 
 Some best practices to configure AEM to improve the overall performance are as follows:
 
-* Enable HTML client library compression for JavaScript and CSS from Felix Console. See [Clientlibs explained by example](https://blogs.adobe.com/experiencedelivers/experience-management/clientlibs-explained-example/).
+* Enable HTML client library compression for JavaScript and CSS from Felix Console. 
 * Cache all client libraries at `/etc.clientlibs/fd` and any additional custom client libraries on AEM dispatcher to increase the responsiveness and security of your published forms. For more information, see [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html).
 
 * Do not cache `/content/forms/af/` and `/content/dam/formsanddocuments/*` paths. for detailed information about configuring adaptive forms caching, see [Caching adaptive forms](/help/forms/using/configure-adaptive-forms-cache.md).  
