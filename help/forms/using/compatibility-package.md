@@ -18,7 +18,7 @@ Installing the Compatibility package on AEM Forms 6.4 allows you to use the Corr
 
 ## Overview {#overview}
 
-Interactive communication is the default and recommended approach to create customer communications in AEM Forms 6.4. To continue using the letters from AEM 6.3 Forms and AEM 6.2 Forms, you need to install the [AEMFD Compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-COMPAT).
+Interactive communication is the default and recommended approach to create customer communications in AEM Forms 6.4. To continue using the letters from AEM 6.3 Forms and AEM 6.2 Forms, you need to install the [AEMFD Compatibility package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html).
 
 The AEMFD Compatibility package allows you to use the following assets from AEM Forms 6.3 and 6.2 on AEM Forms 6.4:
 
@@ -35,7 +35,7 @@ After performing an upgrade, do the following to install the AEMFD compatibility
 
 Ensure that you have [AEM Compatibility package](/help/sites-deploying/backward-compatibility.md) pre-installed.
 
-1. Install the [Compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-COMPAT).
+1. Install the [Compatibility package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html).
 
    For more information on uploading and installing the package, see [How to work with packages](/help/sites-administering/package-manager.md).
 
