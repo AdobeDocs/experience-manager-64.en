@@ -154,7 +154,7 @@ You can find Windows devices that support this video format at the following: [S
 
 <!-- See [Dynamic video playback](https://s7d9.scene7.com/s7/uvideo.jsp?asset=GeoRetail/Mop_AVS&config=GeoRetail/Universal_Video1&stageSize=640,480). -->
 
-See also [About HTML5 Viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) in the Adobe Dynamic Media Viewers Reference Guide.
+See also [About HTML5 Viewers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html#viewers-for-aem-assets-only) in the Adobe Dynamic Media Viewers Reference Guide.
 
 ## Best practice: Using the HTML5 video viewer {#best-practice-using-the-html-video-viewer}
 

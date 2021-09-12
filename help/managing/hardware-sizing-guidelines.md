@@ -302,7 +302,7 @@ Allocate at least 16GB of heap and configure the DAM Update Asset workflow to us
 
 >[!NOTE]
 >
->See also the [Assets Performance Guide](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-sizing-guide.html?lang=en).
+>See also the [Assets Performance Guide](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-sizing-guide.html).
 
 ### Multi-Site Manager {#multi-site-manager}
 
