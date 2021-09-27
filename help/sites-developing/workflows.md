@@ -1,8 +1,8 @@
 ---
 title: Developing and Extending Workflows
 seo-title: Developing and Extending Workflows
-description: AEM provides several tools and resources for creating worklfow models, developing workflow steps, and for programmatically interacting with workflows
-seo-description: AEM provides several tools and resources for creating worklfow models, developing workflow steps, and for programmatically interacting with workflows
+description: AEM provides several tools and resources for creating workflow models, developing workflow steps, and for programmatically interacting with workflows
+seo-description: AEM provides several tools and resources for creating workflow models, developing workflow steps, and for programmatically interacting with workflows
 uuid: 5a857589-3b13-4519-bda2-b1dab6005550
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
@@ -13,7 +13,7 @@ exl-id: 4f9bd75c-9d54-4cd6-9d73-5d580be5a9e8
 ---
 # Developing and Extending Workflows{#developing-and-extending-workflows}
 
-AEM provides several tools and resources for creating worklfow models, developing workflow steps, and for programmatically interacting with workflows.
+AEM provides several tools and resources for creating workflow models, developing workflow steps, and for programmatically interacting with workflows.
 
 Workflows enable you to automate processes for managing resources and publishing content in your AEM environment. Workflows are comprised of a series of steps, with each step accomplishing a discrete task. You can use logic and runtime data to make decisions as to when a process can continue and select the next step from one of multiple possible steps.
 
