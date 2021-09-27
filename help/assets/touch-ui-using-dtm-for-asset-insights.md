@@ -12,11 +12,11 @@ Adobe Dynamic Tag Management is a tool that activates your digital marketing too
 
 >[!CAUTION]
 >
->Adobe DTM is deprecated in favor of Adobe Experience Platform Launch and will soon reach [end of life](https://medium.com/launch-by-adobe/dtm-plans-for-a-sunset-3c6aab003a6f). Adobe recommends that you [use Launch for assets insights](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html).
+>Adobe DTM is deprecated in favor of [!DNL Adobe Experience Platform] and will soon reach [end of life](https://medium.com/launch-by-adobe/dtm-plans-for-a-sunset-3c6aab003a6f). Adobe recommends that you [use [!DNL Adobe Experience Platform] for assets insights](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/advanced/asset-insights-launch-tutorial.html).
 
 Perform these steps to enable Assets Insights through DTM:
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools > Assets > Insights Configuration]**.
+1. Tap/click the AEM logo, and go to **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Insights Configuration]**.
 1. [Configure AEM instance with DTM Cloud Service](../sites-administering/dtm.md)
 
    The API token should be available once you log on to [https://dtm.adobe.com](https://dtm.adobe.com/) and visit **[!UICONTROL Account Settings]** from the Profile icon. This step is not required from the Assets Insights standpoint, because the integration of AEM Sites with Assets Insights is still in the works.

@@ -30,7 +30,7 @@ To import metadata in bulk, follow these steps:
     | [!UICONTROL Batch Size] | Number of assets in a batch for which metadata is to be imported. Default value is 50. Maximum value is 100. |
     | [!UICONTROL Field Separator] | Default value is `,` &ndash; a comma. You can specify any other character. |
     | [!UICONTROL Multi Value Delimiter] | Separator for metadata values. Default value is `|` &ndash; a pipe. |
-    | [!UICONTROL Launch Workflows] | False by default. When set to true and default Launcher settings are in effect for the `DAM Metadata WriteBack Workflow` (that writes metadata to the binary XMP data). Enabling launch workflows has a performance impact on the system. |
+    | [!UICONTROL Launch Workflows] | False by default. When set to true and default settings are in effect for the `DAM Metadata WriteBack Workflow` (that writes metadata to the binary XMP data). Enabling the workflows has a performance impact on the system. |
     | [!UICONTROL Asset Path Column Name] | Defines the column name for the CSV file with assets. |
 
 1. Tap/click **[!UICONTROL Import]** from the toolbar. After the metadata is imported, a notification is sent to your Notification inbox. Navigate to asset property page and verify whether the metadata values are correctly imported for assets.
