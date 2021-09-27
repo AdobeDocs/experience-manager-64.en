@@ -33,7 +33,7 @@ The key features and enhancements introduced in [!DNL Adobe Experience Manager] 
 
 * The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.24.
 
-For information on CFP and other types of releases, see [AEM Update Release Vehicle Definitions](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/update-release-vehicle-definitions.html?lang=en)
+For information on CFP and other types of releases, see [AEM Update Release Vehicle Definitions](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/update-release-vehicle-definitions.html)
 
 Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
@@ -512,7 +512,7 @@ which will copy new viewer presets to /conf location.
 >Skip if you are not using AEM Forms. Fixes in AEM Forms are delivered through a separate add-on package.
 
 1. Ensure that you have installed the AEM Cumulative Fix Pack.
-1. Download the corresponding forms add-on package listed at [AEM Forms releases](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html?lang=en#forms-updates) for your operating system.
+1. Download the corresponding forms add-on package listed at [AEM Forms releases](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html#forms-updates) for your operating system.
 1. Install the forms add-on package as described in [Installing AEM forms add-on packages](https://docs.adobe.com/content/help/en/experience-manager-64/forms/install-aem-forms/osgi-installation/installing-configuring-aem-forms-osgi.html#install-aem-forms-add-on-package).
 
 ### Install AEM Forms JEE installer {#install-aem-forms-jee-installer}

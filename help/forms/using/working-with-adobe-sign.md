@@ -291,7 +291,7 @@ Now, the in form signing experience is ready. You can preview the form to verify
 
 **Q: Can I use Adobe Sign text tags in a static text component of an adaptive form?**
 
-**Ans:** Yes, you can use text tags in a text component to add Adobe Sign fields to a [Document of Record](/help/forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md) (Auto generated document of record option only) enabled adaptive form. To learn about the procedure and rules to create a text tag, see [Adobe Sign Documentation](https://helpx.adobe.com/sign/help/text-tags.html). Also note, Adaptive forms has a limited support for text tags. You can use the text tags to create only those fields that Adobe Sign Block supports.
+**Ans:** Yes, you can use text tags in a text component to add Adobe Sign fields to a [Document of Record](/help/forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md) (Auto generated document of record option only) enabled adaptive form. To learn about the procedure and rules to create a text tag, see [Adobe Sign Documentation](https://experienceleague.adobe.com/docs/document-cloud-learn/sign-learning-hub/admin-set-up/advanced-tasks-admins/adobe-sign-text-tagging.html). Also note, Adaptive forms has a limited support for text tags. You can use the text tags to create only those fields that Adobe Sign Block supports.
 
 **Q: AEM Forms provides both Adobe Sign block and Signature step components. Can these be used simultaneously in an adaptive form?**
 

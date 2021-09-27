@@ -19,8 +19,6 @@ Directory synchronization is used to pull details from the directory servers tha
 
 You can also set a daily synchronization schedule to automatically synchronize the User Management database with changes or updates to the source directory servers. However, be aware that this process uses network and server resources. Choose low-usage time periods and avoid scheduling unnecessary synchronizations that tie up system and network resources. To minimize unnecessary synchronizations, use the immediate synchronize option instead.
 
-You can also specify whether to push user and group information into Adobe LiveCycle Content Services 9 (deprecated) when synchronizing domains.
-
 >[!NOTE]
 >
 >Do not create multiple local users and groups while an LDAP directory synchronization is in progress. Attempting this process may result in errors.
@@ -31,7 +29,7 @@ You can also specify whether to push user and group information into Adobe LiveC
 
 >[!NOTE]
 >
->Adobe® LiveCycle® Content Services ES (Deprecated) is a content management system installed with LiveCycle. It enables users to design, manage, monitor, and optimize human-centric processes. Content Services (Deprecated) support ends on 12/31/2014. See [Adobe product lifecycle document](https://www.adobe.com/support/products/enterprise/eol/eol_matrix.html). To know about configuring Content Services (Deprecated), see [Administering Content Services](https://help.adobe.com/en_US/livecycle/9.0/admin_contentservices.pdf).
+>Adobe® LiveCycle® Content Services ES (Deprecated) is a content management system installed with LiveCycle. It enables users to design, manage, monitor, and optimize human-centric processes. Content Services (Deprecated) support ends on 12/31/2014. See [Adobe product lifecycle document](https://www.adobe.com/support/products/enterprise/eol/eol_matrix.html).
 
 ## Enable delta directory synchronization {#enable-delta-directory-synchronization}
 

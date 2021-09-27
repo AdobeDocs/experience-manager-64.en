@@ -106,7 +106,7 @@ To support asset distribution use cases, other solutions should be considered:
 
 ### Considerations when using AEM and Creative Cloud integration {#considerations-when-using-aem-and-creative-cloud-integration}
 
-* See [desktop app best practices](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/troubleshoot.html?lang=en#best-practices-to-prevent-troubles)
+* See [desktop app best practices](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/troubleshoot.html#best-practices-to-prevent-troubles)
 * See [Adobe Stock integration](aem-assets-adobe-stock.md)
 * See [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html)
 
@@ -195,7 +195,7 @@ In such cases, you can leverage the AEM/Creative Cloud integration to improve th
 
 Use the following strategies to provide access to final/approved assets:
 
-* To provide access to a large number assets: Use [AEM Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en), or customer’s implementation of [Asset Share](assets-finder-editor.md) on AEM publish infrastructure
+* To provide access to a large number assets: Use [AEM Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html), or customer’s implementation of [Asset Share](assets-finder-editor.md) on AEM publish infrastructure
 
 * To provide access to a few assets: AEM folder sharing with Adobe Creative Cloud can be used in addition to AEM Assets Brand Portal or Asset Share. Please note there are certain limitations related to this integration, covered in more detail in this article.
 

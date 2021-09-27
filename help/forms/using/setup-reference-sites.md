@@ -147,7 +147,7 @@ SSL configuration is required to communicate with Adobe Sign servers. For detail
 
 ## Configure Day CQ Link Externalizer configuration {#externalizer}
 
-In AEM, the **Externalizer** is an OSGI service that allows you to programmatically transform a resource path (e.g. /path/to/my/page) into an external and absolute URL (for example, https://www.mycompany.com/path/to/my/page) by prefixing the path with a pre-configured DNS. See [Externalizing URLs](/help/sites-developing/externalizer.md).
+In AEM, the **Externalizer** is an OSGI service that allows you to programmatically transform a resource path (For example,  /path/to/my/page) into an external and absolute URL (for example, https://www.mycompany.com/path/to/my/page) by prefixing the path with a pre-configured DNS. See [Externalizing URLs](/help/sites-developing/externalizer.md).
 
 >[!CAUTION]
 >

@@ -11,7 +11,7 @@ exl-id: 6a298571-d6ff-473f-af58-a45a0c7e6175
 ---
 # Reference Themes {#reference-themes}
 
-[Themes](/help/forms/using/themes.md) let you style your forms without deep knowledge of CSS. In addition to the default theme, you can get the following themes by installing the [AEM-FORMS-6.3-REFERENCE-THEMES](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/fd/AEM-FORMS-6.3-REFERENCE-THEMES) package:
+[Themes](/help/forms/using/themes.md) let you style your forms without deep knowledge of CSS. In addition to the default theme, you can get the following themes by installing the[AEM Forms add-on package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html):
 
 * Beryl
 * Exec

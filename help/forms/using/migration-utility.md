@@ -32,13 +32,13 @@ You can [upgrade](/help/forms/using/upgrade.md) to the latest version of AEM For
 
 **In case of in-place upgrade**
 
-If you performed an in-place upgrade, the upgraded instance already has the assets and documents. However, before you can use the assets and documents, you will need to install [AEMFD Compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-COMPAT) (includes Correspondence Management Compatibility package)
+If you performed an in-place upgrade, the upgraded instance already has the assets and documents. However, before you can use the assets and documents, you will need to install [AEMFD Compatibility package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html) (includes Correspondence Management Compatibility package)
 
 Then you need to update the assets and documents by [running the Migration utility](#runningmigrationutility).
 
 **In case of out of place installation**
 
-If it is an out of place (fresh) installation, before you can use the assets and documents, you will need to install [AEMFD Compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-COMPAT) (includes the Correspondence Management Compatibility package).
+If it is an out of place (fresh) installation, before you can use the assets and documents, you will need to install [AEMFD Compatibility package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html) (includes the Correspondence Management Compatibility package).
 
 Then you need to import your asset package (zip or cmp) on the new setup and then update the assets and documents by [running the Migration utility](#runningmigrationutility). Due to [backward compatibility-related](/help/sites-deploying/backward-compatibility.md) changes, locations of a few folders in crx-repository are changed. Manually export and import dependencies (custom libraries and assets) from previous setup to fresh environment.
 

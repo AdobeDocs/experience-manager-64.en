@@ -37,7 +37,7 @@ To upload assets for use with the Panoramic Image viewer, see [Uploading Assets]
 
 For the Panoramic Image viewer to work properly within AEM, you must synchronize the Panoramic Image viewer presets with Dynamic Media Classic and Dynamic Media Classic&ndash;specific metadata so the viewer presets get updated in the JCR. To accomplish this, configure Dynamic Media Classic in the following manner:
 
-1. [Sign in to your Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/dynamic-media-classic-desktop-app.html?lang=en#system-requirements-dmc-app) for each company account.  
+1. [Sign in to your Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/dynamic-media-classic-desktop-app.html#system-requirements-dmc-app) for each company account.  
 
 1. Near the upper-right corner of the page, click **[!UICONTROL Setup > Application Setup > Publish Setup > Image Server]**.
 1. On the **[!UICONTROL Image Server Publish]** page, from the **[!UICONTROL Publish Context]** drop-down menu near the top, select **[!UICONTROL Image Serving]**.  
