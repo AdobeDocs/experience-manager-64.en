@@ -1,6 +1,6 @@
 ---
 title: Assets Offloading Best Practices
-description: Recommended use cases and best practices for offloading asset ingestion and replication workflows in AEM Assets.
+description: Recommended use cases and best practices for offloading asset ingestion and replication workflows in [!DNL Experience Manager] Assets.
 contentOwner: AG
 feature: Asset Management
 role: User,Admin
@@ -10,17 +10,17 @@ exl-id: 3ecc8988-add1-47d5-80b4-984beb4d8dab
 
 >[!WARNING]
 >
->This feature is deprecated AEM 6.4 onwards and is removed in AEM 6.5. Plan accordingly.
+>This feature is deprecated [!DNL Experience Manager] 6.4 onwards and is removed in [!DNL Experience Manager] 6.5. Plan accordingly.
 
-Handling large files and running workflows in Adobe Experience Manager (AEM) Assets can consume considerable CPU, memory, and I/O resources. In particular, the size of assets, workflows, number of users, and frequency of asset ingestion can affect the overall system performance. The most resource-intensive operations include AEM asset ingestion and replication workflows. Intensive use of these workflows on a single AEM authoring instance can adversely impact authoring efficiency.
+Handling large files and running workflows in Adobe Experience Manager Assets can consume considerable CPU, memory, and I/O resources. In particular, the size of assets, workflows, number of users, and frequency of asset ingestion can affect the overall system performance. The most resource-intensive operations include asset ingestion and replication workflows. Intensive use of these workflows on a single authoring instance can adversely impact authoring efficiency.
 
 Offloading these tasks to dedicated worker instances can reduce CPU, memory, and IO overheads. In general, the idea behind offloading is to distribute tasks that consume intensive CPU/Memory/IO resources to dedicated worker instances. The following sections include recommended use cases for Assets offloading.
 
-## AEM Assets Offloading {#aem-assets-offloading}
+## [!DNL Experience Manager Assets] Offloading {#aem-assets-offloading}
 
-AEM Assets implements a native asset-specific workflow extension for offloading. It builds on the generic workflow extension that the offloading framework provides, but includes additional assets-specific features in the implementation. The goal of Assets offloading is to efficiently run the DAM Update Asset workflow on an uploaded asset. Assets offloading enables you to gain greater control of the ingestion workflows.
+[!DNL Experience Manager] Assets implements a native asset-specific workflow extension for offloading. It builds on the generic workflow extension that the offloading framework provides, but includes additional assets-specific features in the implementation. The goal of Assets offloading is to efficiently run the DAM Update Asset workflow on an uploaded asset. Assets offloading enables you to gain greater control of the ingestion workflows.
 
-## AEM Assets Offloading Components {#aem-assets-offloading-components}
+## [!DNL Experience Manager] Assets Offloading Components {#aem-assets-offloading-components}
 
 The following diagram depicts the main components in Asset offloading process:
 
@@ -34,7 +34,7 @@ The DAM Update Asset Offloading workflow runs on the primary (author) server on 
 
 The job manager distributes new jobs to worker instances. When designing the distribution mechanism, it is important to take topic enablement into account. Jobs can only be assigned to instances where the job's topic is enabled. Disable the topic `com/adobe/granite/workflow/offloading` on the primary, and enable it on the worker to ensure that the job is assigned to the worker.
 
-### AEM offloading {#aem-offloading}
+### [!DNL Experience Manager] offloading {#aem-offloading}
 
 The offloading framework identifies workflow offloading jobs assigned to worker instances and uses replication to physically transport them, including their payload (for example, images to be ingested), to workers.
 
@@ -44,7 +44,7 @@ Once a job is written on the worker, the job manager calls the job consumer resp
 
 ## Sling Topology {#sling-topology}
 
-The Sling topology groups AEM instances and enables them to be aware of each other, independent of the underlying persistence. This characteristic of the Sling topology lets you create topologies for non-clustered, clustered, and mixed scenarios. An instance can expose properties to the entire topology. The framework provides callbacks for listening to changes in the topology (instances and properties). Sling topology provides the foundation for Sling distributed jobs.
+The Sling topology groups [!DNL Experience Manager] instances and enables them to be aware of each other, independent of the underlying persistence. This characteristic of the Sling topology lets you create topologies for non-clustered, clustered, and mixed scenarios. An instance can expose properties to the entire topology. The framework provides callbacks for listening to changes in the topology (instances and properties). Sling topology provides the foundation for Sling distributed jobs.
 
 ### Sling distributed jobs {#sling-distributed-jobs}
 
@@ -83,7 +83,7 @@ If you conclude that Assets offloading is an appropriate approach for you, Adobe
 
 ### Recommended Assets offloading deployment {#recommended-assets-offloading-deployment}
 
-With AEM and Oak, there are several deployment scenarios possible. For Assets offloading, a TarMK based deployment with a shared datastore is recommended. The following diagram outlines the recommended deployment:
+With [!DNL Experience Manager] and Oak, there are several deployment scenarios possible. For Assets offloading, a TarMK based deployment with a shared datastore is recommended. The following diagram outlines the recommended deployment:
 
 ![chlimage_1-56](assets/chlimage_1-56.png)
 
