@@ -12,7 +12,7 @@ A metadata profile lets you apply default metadata to assets within a folder. Cr
 
 ## Add a metadata profile {#adding-a-metadata-profile}
 
-1. Tap or click the AEM logo and navigate to **[!UICONTROL Tools > Assets > Metadata Profiles]**, and then tap **[!UICONTROL Create]**.
+1. Tap or click the [!DNL Experience Manager] logo and navigate to **[!UICONTROL Tools > Assets > Metadata Profiles]**, and then tap **[!UICONTROL Create]**.
 1. Enter a title for the Metadata Profile, for example Sample Metadata, and click **[!UICONTROL Submit]**. The **[!UICONTROL Edit Form]** for the Metadata Profile is displayed.
 
    ![chlimage_1-480](assets/chlimage_1-480.png)
@@ -28,7 +28,7 @@ A metadata profile lets you apply default metadata to assets within a folder. Cr
 
    ![chlimage_1-482](assets/chlimage_1-482.png)
 
-   The value you specify for **[!UICONTROL Map to property]** is stored as a property under the asset's metadata node. For example, if you specify . `/jcr:content/metadata/dc:desc` as the name of **[!UICONTROL Map to property]**, AEM Assets stores the value `dc:desc` at the asset's metadata node.
+   The value you specify for **[!UICONTROL Map to property]** is stored as a property under the asset's metadata node. For example, if you specify . `/jcr:content/metadata/dc:desc` as the name of **[!UICONTROL Map to property]**, [!DNL Experience Manager] Assets stores the value `dc:desc` at the asset's metadata node.
 
     * **[!UICONTROL Default Value]**: Use this property to add a default value for the metadata component. For example, if you specify "My description" then this value is assigned to the property `dc:desc` at the asset's metadata node.
 
@@ -96,7 +96,7 @@ Folders that have a profile already assigned to it are indicated by the display 
 
 #### Apply metadata profiles to folders from Profiles user interface {#applying-metadata-profiles-to-folders-from-profiles-user-interface}
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Metadata Profiles]**.
+1. Tap the [!DNL Experience Manager] logo and navigate to **[!UICONTROL Tools > Assets > Metadata Profiles]**.
 1. Select the metadata profile that you want to apply to a folder or multiple folders.
 
    ![chlimage_1-490](assets/chlimage_1-490.png)
@@ -116,7 +116,7 @@ Folders that have a profile already assigned to it are indicated by the display 
 
 ### Apply a metadata profile globally {#applying-a-metadata-profile-globally}
 
-In addition to applying a profile to a folder, you can also apply one globally so that any content uploaded into AEM assets in any folder has the selected profile applied. To apply a metadata profile globally, follow these steps:
+In addition to applying a profile to a folder, you can also apply one globally so that any content uploaded into [!DNL Experience Manager] assets in any folder has the selected profile applied. To apply a metadata profile globally, follow these steps:
 
 1. Do one of the following:
 
@@ -138,7 +138,7 @@ You can remove a metadata profile from a folder from within the **[!UICONTROL To
 
 To remove a metadata profile from folders via Profiles user interface, follow these steps:
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Metadata Profiles]**.
+1. Tap the [!DNL Experience Manager] logo and navigate to **[!UICONTROL Tools > Assets > Metadata Profiles]**.
 1. Select the metadata profile that you want to remove from a folder or multiple folders.
 1. Tap **[!UICONTROL Remove Metadata Profile from Folder(s)]** and select the folder or multiple folders you want use to remove a profile from, then tap **[!UICONTROL Done]**.
 
@@ -146,7 +146,7 @@ To remove a metadata profile from folders via Profiles user interface, follow th
 
 ### Remove metadata profiles from folders by way of Properties {#removing-metadata-profiles-from-folders-via-properties}
 
-1. Tap the AEM logo and navigate **[!UICONTROL Assets]** and then to the folder that you want to remove an metadata profile from.
+1. Tap the [!DNL Experience Manager] logo and navigate **[!UICONTROL Assets]** and then to the folder that you want to remove an metadata profile from.
 1. On the folder, tap the check mark to select it, then tap **[!UICONTROL Properties]**.
 1. Select the **[!UICONTROL Metadata Profiles]** tab, then select **[!UICONTROL None]** from the drop-down menu. Tap **[!UICONTROL Save]**.
 

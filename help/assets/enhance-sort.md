@@ -1,22 +1,22 @@
 ---
 title: Enhanced sorting of assets in AEM
-description: Learn how AEM Assets deploys server-side sorting to sort folder assets or a search query at one go instead of sorting them in batches on the client side.
+description: Learn how [!DNL Experience Manager] Assets deploys server-side sorting to sort folder assets or a search query at one go instead of sorting them in batches on the client side.
 contentOwner: AG
 feature: Search
 role: User
 exl-id: aa24ca68-d94e-4bd4-a5cc-113906650a2e
 ---
-# Enhanced sorting of assets in AEM {#enhanced-sorting-of-assets-in-aem}
+# Enhanced sorting of assets in [!DNL Experience Manager] {#enhanced-sorting-of-assets-in-aem}
 
-Learn how AEM Assets deploys server-side sorting to sort folder assets or a search query at one go instead of sorting them in batches on the client side.
+Learn how [!DNL Experience Manager] Assets deploys server-side sorting to sort folder assets or a search query at one go instead of sorting them in batches on the client side.
 
-The search capability of Adobe Experience Manager (AEM) Assets is enhanced to efficiently sort a large number of assets in the folder list view and search results pages. You can also sort timeline entries.
+The search capability of Adobe Experience Manager Assets is enhanced to efficiently sort a large number of assets in the folder list view and search results pages. You can also sort timeline entries.
 
-AEM Assets deploys server-side sorting to sort the entire set of assets (howsoever large) within a folder or a search query at one go instead of sorting them in batches on the client side. This way, prefetched results can be quickly displayed on the user interface, which makes the sort operation more responsive and brisk.
+[!DNL Experience Manager] Assets deploys server-side sorting to sort the entire set of assets (howsoever large) within a folder or a search query at one go instead of sorting them in batches on the client side. This way, prefetched results can be quickly displayed on the user interface, which makes the sort operation more responsive and brisk.
 
 ## Sorting assets in List view {#sorting-assets-in-list-view}
 
-AEM Assets lets you sort folder assets based on the following fields:
+[!DNL Experience Manager] Assets lets you sort folder assets based on the following fields:
 
 * Locale
 * Status
@@ -69,7 +69,7 @@ You can sort search results based on the following fields:
 
 ## Sorting assets in timeline {#sorting-assets-in-timeline}
 
-AEM Assets lets you chronologically sort timeline entries, such as annotations, versions, workflows, and activities.
+[!DNL Assets] lets you chronologically sort timeline entries, such as annotations, versions, workflows, and activities.
 
 1. From the Assets UI, select an asset for which you want to display the timeline.
 1. Click/tap the GolbalNav icon and select **[!UICONTROL Timeline]**.

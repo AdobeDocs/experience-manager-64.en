@@ -8,7 +8,7 @@ exl-id: 0c79ed42-0acd-426e-8e14-412bb4117585
 ---
 # Check-in and check-out files in Assets {#check-in-and-check-out-files-in-assets}
 
-Adobe Experience Manager (AEM) Assets lets you check-out assets for editing and check them back in after you complete making the changes. After you check-out an asset, only you can edit, annotate, publish, move, or delete the asset. Checking out an asset locks the asset. Other users cannot perform any of these operations on the asset until you check the asset back in to AEM Assets. However, they can still change the metadata for the locked asset.
+Adobe Experience Manager Assets lets you check-out assets for editing and check them back in after you complete making the changes. After you check-out an asset, only you can edit, annotate, publish, move, or delete the asset. Checking out an asset locks the asset. Other users cannot perform any of these operations on the asset until you check the asset back in to [!DNL Experience Manager] Assets. However, they can still change the metadata for the locked asset.
 
 To be able to check-out or check-in assets, you require Write access on them.
 
@@ -52,13 +52,13 @@ This feature helps prevent other users from overriding the changes made by an au
 
    ![chlimage_1-475](assets/chlimage_1-475.png)
 
-   The modified asset is checked in to AEM Assets and is available to other users for editing.
+   The modified asset is checked in to [!DNL Assets] and is available to other users for editing.
 
 ## Forced check-in {#forced-check-in}
 
 Administrators can check-in assets that are checked out by other users.
 
-1. Log in to AEM Assets as an administrator.
+1. Log in to [!DNL Assets] as an administrator.
 1. From the Assets UI select one or more assets that have been checked out by other users.
 
    ![chlimage_1-476](assets/chlimage_1-476.png)

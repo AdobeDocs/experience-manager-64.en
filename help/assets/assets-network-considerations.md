@@ -1,6 +1,6 @@
 ---
 title: Assets Network Considerations
-description: Discusses network considerations when designing an AEM Assets deployment.
+description: Discusses network considerations when designing an [!DNL Experience Manager] Assets deployment.
 contentOwner: AG
 feature: Developer Tools
 role: Architect,Admin
@@ -8,16 +8,16 @@ exl-id: f8f9d86f-a5e3-46ac-8d96-c2e44eac9c93
 ---
 # Assets network considerations {#assets-network-considerations}
 
-Understanding your network is as important as understanding Adobe Experience Manager (AEM) Assets. The network can affect upload, download, and user experiences. Diagramming your network topology helps identify choke points and sub-optimized areas in the network that you must fix to improve network performance and user experience.
+Understanding your network is as important as understanding Adobe Experience Manager Assets. The network can affect upload, download, and user experiences. Diagramming your network topology helps identify choke points and sub-optimized areas in the network that you must fix to improve network performance and user experience.
 
 Ensure that you include the following in your network diagram:
 
 * Connectivity from the client device (for example, computer, mobile, and tablet) to the network
 * Topology of the corporate network
-* Uplink to the internet from the corporate network and the AEM environment
-* Topology of the AEM environment
-* Define simultaneous consumers of the AEM network interface
-* Defined workflows of the AEM instance
+* Uplink to the internet from the corporate network and the [!DNL Experience Manager] environment
+* Topology of the [!DNL Experience Manager] environment
+* Define simultaneous consumers of the [!DNL Experience Manager] network interface
+* Defined workflows of the [!DNL Experience Manager] instance
 
 ## Connectivity from the client device to the corporate network {#connectivity-from-the-client-device-to-the-corporate-network}
 
@@ -41,13 +41,13 @@ The computer displayed at the right has a limited upstream to the corporate netw
 
 The diagram displays higher uplink speeds within the corporate network than what is generally used. These pipes are shared resources. If the shared switch is expected to handle 50 clients, it can potentially be a chokepoint. In the initial diagram, only two computers share the particular connection.
 
-## Uplink to the internet from the corporate network and AEM environment {#uplink-to-the-internet-from-the-corporate-network-and-aem-environment}
+## Uplink to the internet from the corporate network and [!DNL Experience Manager] environment {#uplink-to-the-internet-from-the-corporate-network-and-aem-environment}
 
 ![chlimage_1-355](assets/chlimage_1-355.png)
 
 It is important to consider unknown factors on the Internet and the VPC connection because the bandwidth across the internet can be impaired due to peak load or large-scale provider outages. In general, internet connectivity is reliable. However, it can sometimes introduce chokepoints.
 
-At the uplink from a corporate network to the internet, there can be other services using the bandwidth. It is important to understand how much of the bandwidth can be dedicated or prioritized for AEM Assets. For example, if a 1Gbps link is already at 80% utilization, you can only allocate a maximum of 20% of the bandwidth for AEM assets.
+At the uplink from a corporate network to the internet, there can be other services using the bandwidth. It is important to understand how much of the bandwidth can be dedicated or prioritized for [!DNL Assets]. For example, if a 1Gbps link is already at 80% utilization, you can only allocate a maximum of 20% of the bandwidth for [!DNL Experience Manager] assets.
 
 Enterprise firewalls and proxies can also shape bandwidth in many different ways. This type of device can prioritize bandwidth using quality of service, bandwidth limitations per user, or bitrate limitations per host. These are important chokepoints to examine as they can significantly impact Assets user experience.
 
@@ -57,21 +57,21 @@ This is the smallest client-oriented chokepoint. However, you can evaluate for a
 
 From the sample diagrams, you can conclude that six devices share a conceptual 10Mbps channel. Depending on the size of the assets leveraged, this may be inadequate to meet user expectations.
 
-## Topology of the AEM environment {#topology-of-the-aem-environment}
+## Topology of the [!DNL Experience Manager] environment {#topology-of-the-aem-environment}
 
 ![chlimage_1-356](assets/chlimage_1-356.png)
 
-Designing the topology of the AEM environment requires detailed knowledge of the system configuration and how the network is connected within the user environment.
+Designing the topology of the [!DNL Experience Manager] environment requires detailed knowledge of the system configuration and how the network is connected within the user environment.
 
 The sample scenario includes a publish farm with five servers, an S3 binary store, and dynamic media configured.
 
-The dispatcher shares it's 100Mbps connection with two entities, the outside world and the AEM instance. For simultaneous upload and download operations, you should divide this number by two. The attached external storage uses a separate connection.
+The dispatcher shares it's 100Mbps connection with two entities, the outside world and the [!DNL Experience Manager] instance. For simultaneous upload and download operations, you should divide this number by two. The attached external storage uses a separate connection.
 
-The AEM instance shares it's 1Gbps connection with multiple services. From a network topology perspective, it is equivalent to sharing a single channel with different services.
+The [!DNL Experience Manager] instance shares it's 1Gbps connection with multiple services. From a network topology perspective, it is equivalent to sharing a single channel with different services.
 
-Reviewing the network from the client device to the AEM instance, the smallest chokepoint appears to be the 10Mbit enterprise firewall throttle. You can use these values in the sizing calculator in the [Assets Sizing Guide](assets-sizing-guide.md) to determine the user experience.
+Reviewing the network from the client device to the [!DNL Experience Manager] instance, the smallest chokepoint appears to be the 10Mbit enterprise firewall throttle. You can use these values in the sizing calculator in the [Assets Sizing Guide](assets-sizing-guide.md) to determine the user experience.
 
-## Defined workflows of the AEM instance {#defined-workflows-of-the-aem-instance}
+## Defined workflows of the [!DNL Experience Manager] instance {#defined-workflows-of-the-aem-instance}
 
 When considering network performance, it may be important to consider the workflows and publishing that will occur in the system. Moreover, S3 or other network attached storage that you use and I/O requests consume network bandwidth. Therefore, even in a fully optimized network, performance may be limited by disk I/O.
 
