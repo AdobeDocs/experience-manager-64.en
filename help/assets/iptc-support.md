@@ -1,6 +1,6 @@
 ---
 title: Support for IPTC Metadata
-description: Learn how Adobe Experience Manager (AEM) Assets supports the IPTC metadata, Creative ratings, and keywords added to assets through Adobe Bridge and other Creative Apps.
+description: Learn how Adobe Experience Manager Assets supports the IPTC metadata, Creative ratings, and keywords added to assets through Adobe Bridge and other Creative Apps.
 contentOwner: AG
 feature: Metadata
 role: User,Admin,Leader
@@ -8,9 +8,9 @@ exl-id: 3e22e8e4-3675-4d6d-94f4-fc1a4d4801e8
 ---
 # Support for IPTC Metadata {#support-for-iptc-metadata}
 
-Learn how Adobe Experience Manager (AEM) Assets supports the IPTC metadata, Creative ratings, and keywords added to assets through Adobe Bridge and other Creative Apps.
+Learn how Adobe Experience Manager Assets supports the IPTC metadata, Creative ratings, and keywords added to assets through Adobe Bridge and other Creative Apps.
 
-Adobe Experience Manager (AEM) Assets supports the IPTC metadata standard that is widely used to describe assets. This way, AEM Assets enhances the acceptance of its images among various parties, including photographers, creative agencies, libraries, museums, and so on.
+Adobe Experience Manager Assets supports the IPTC metadata standard that is widely used to describe assets. This way, AEM Assets enhances the acceptance of its images among various parties, including photographers, creative agencies, libraries, museums, and so on.
 
 The default metadata schema for assets now incorporates the IPTC Core and IPTC Extension metadata schemas to define comprehensive metadata properties that allow users to add precise and reliable data about people, locations, and products shown in an image. It also supports dates, names, and identifiers regarding the creation of the image, and a flexible way to express rights information.
 
