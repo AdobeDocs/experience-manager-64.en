@@ -15,7 +15,7 @@ Learn how to manage and edit the video assets in Adobe Experience Manager Assets
 
 ## Upload and preview video assets {#uploading-and-previewing-video-assets}
 
-AEM Assets generates previews for video assets with the extension MP4. If the format of the asset is not MP4, install the FFmpeg pack to generate a preview. FFmpeg creates video renditions of type OGG and MP4. You can preview these renditions in the AEM Assets user interface.
+[!DNL Experience Manager] Assets generates previews for video assets with the extension MP4. If the format of the asset is not MP4, install the FFmpeg pack to generate a preview. FFmpeg creates video renditions of type OGG and MP4. You can preview these renditions in the [!DNL Experience Manager] Assets user interface.
 
 1. In the Digital Assets folder or sub-folders, navigate to the location where you want to add digital assets.
 1. To upload the asset, click or tap **[!UICONTROL Create]** from the toolbar and then choose **[!UICONTROL Files]**. Alternatively, drop it directly in the assets area. See [Uploading assets](managing-assets-touch-ui.md#uploading-assets) for details around the upload operation.
@@ -33,16 +33,16 @@ AEM Assets generates previews for video assets with the extension MP4. If the fo
 
 ## Configuration to upload assets that are larger than 2 GB {#configuration-to-upload-video-assets-that-are-larger-than-gb}
 
-By default, the AEM Assets does not let you upload any assets that are larger than 2 GB because of a file size limit. However, you can overwrite this limit by going into CRXDE Lite and creating a node under the `/apps` directory. The node must have the same node name, directory structure, and comparable node properties of order.
+By default, the [!DNL Experience Manager] Assets does not let you upload any assets that are larger than 2 GB because of a file size limit. However, you can overwrite this limit by going into CRXDE Lite and creating a node under the `/apps` directory. The node must have the same node name, directory structure, and comparable node properties of order.
 
-In addition to AEM Assets configuration, change the following configurations to upload large assets:
+In addition to [!DNL Experience Manager] Assets configuration, change the following configurations to upload large assets:
 
 * Increase the token expiration time. See [!UICONTROL Adobe Granite CSRF Servlet] in Web Console at `https://[aem_server]:[port]/system/console/configMgr`. For more information, see [CSRF protection](/help/sites-developing/csrf-protection.md).
 * Increase the `receiveTimeout` in Dispatcher configuration. For more information, see [Experience Manager Dispatcher configuration](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#renders-options).
 
 >[!NOTE]
 >
->The AEM Classic user interface does not have a two gigabyte file size limit restriction. Also, end-to-end workflow for large video is not fully supported.
+>The [!DNL Experience Manager] Classic user interface does not have a two gigabyte file size limit restriction. Also, end-to-end workflow for large video is not fully supported.
 
 To configure a higher file size limit, perform the following steps in the `/apps` directory.
 

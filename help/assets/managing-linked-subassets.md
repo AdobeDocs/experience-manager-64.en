@@ -1,6 +1,6 @@
 ---
 title: Manage compound assets and generate subassets.
-description: Learn how to create references to AEM assets from within InDesign, Adobe Illustrator, and Photoshop files. Also learn how to use the Page Viewer feature to view individual pages of multi-page files, including PDF, INDD, PPT, PPTX, and AI files.
+description: Learn how to create references to [!DNL Experience Manager] assets from within InDesign, Adobe Illustrator, and Photoshop files. Also learn how to use the Page Viewer feature to view individual pages of multi-page files.
 contentOwner: AG
 
 feature: Asset Management
@@ -9,22 +9,22 @@ exl-id: 9fa44b26-76f7-48e2-a9df-4fd1c0074158
 ---
 # Manage compound assets with subassets {#managing-compound-assets}
 
-Adobe Experience Manager Assets can identify if an uploaded file contains references to assets that already exist in the repository. This feature is available for supported file formats only. If the uploaded asset contains any references to AEM assets, a bidirectional link is created between the uploaded and referenced assets.
+Adobe Experience Manager Assets can identify if an uploaded file contains references to assets that already exist in the repository. This feature is available for supported file formats only. If the uploaded asset contains any references to [!DNL Experience Manager] assets, a bidirectional link is created between the uploaded and referenced assets.
 
-Besides eliminating redundancy, referencing AEM assets in Adobe Creative Cloud applications enhances collaboration and increases the efficiency and productivity of users.
+Besides eliminating redundancy, referencing [!DNL Experience Manager] assets in Adobe Creative Cloud applications enhances collaboration and increases the efficiency and productivity of users.
 
-AEM Assets supports **bidirectional referencing**. You can find referenced assets in the asset detail page of the uploaded file. In addition, you can view the referencing files for AEM assets in the asset details page of the referenced asset.
+[!DNL Experience Manager] Assets supports **bidirectional referencing**. You can find referenced assets in the asset detail page of the uploaded file. In addition, you can view the referencing files for [!DNL Experience Manager] assets in the asset details page of the referenced asset.
 
 References are resolved on the basis of path, document ID, and instance ID of the referenced assets.
 
 ## Adobe Illustrator: Add assets as references {#refai}
 
-You can reference existing AEM assets from within an Adobe Illustrator file.
+You can reference existing [!DNL Experience Manager] assets from within an Adobe Illustrator file.
 
-1. Using [AEM desktop app](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html), mount AEM Assets repository as a drive on your local machine. Within the mounted drive, navigate to the location of the asset that you want to reference.
+1. Using [[!DNL Experience Manager] desktop app](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html), mount [!DNL Experience Manager] Assets repository as a drive on your local machine. Within the mounted drive, navigate to the location of the asset that you want to reference.
 1. Drag the asset from the mounted drive to the Illustrator file.
-1. Save the Illustrator file to the mounted drive, or [upload](managing-assets-touch-ui.md#uploading-assets) to the AEM repository.
-1. After the workflow completes, go to the asset details page for the asset. The references to existing AEM assets are listed under **[!UICONTROL Dependencies]** in the **[!UICONTROL References]** column.
+1. Save the Illustrator file to the mounted drive, or [upload](managing-assets-touch-ui.md#uploading-assets) to the [!DNL Experience Manager] repository.
+1. After the workflow completes, go to the asset details page for the asset. The references to existing [!DNL Experience Manager] assets are listed under **[!UICONTROL Dependencies]** in the **[!UICONTROL References]** column.
 
    ![chlimage_1-258](assets/chlimage_1-258.png)
 
@@ -38,9 +38,9 @@ You can reference existing AEM assets from within an Adobe Illustrator file.
 
 ## Adobe InDesign: Add assets as references {#add-aem-assets-as-references-in-adobe-indesign}
 
-To reference AEM assets from within an InDesign file, either drag AEM assets to the InDesign file or export the InDesign file as a ZIP file.
+To reference [!DNL Experience Manager] assets from within an InDesign file, either drag [!DNL Experience Manager] assets to the InDesign file or export the InDesign file as a ZIP file.
 
-Referenced assets already exist in AEM Assets. You can extract subassets by [configure InDesign server](indesign.md). Embedded assets in an InDesign file are extracted as subassets.
+Referenced assets already exist in [!DNL Experience Manager] Assets. You can extract subassets by [configure InDesign server](indesign.md). Embedded assets in an InDesign file are extracted as subassets.
 
 >[!NOTE]
 >
@@ -56,19 +56,19 @@ This procedure is similar to [Add assets as references in Adobe Illustrator](#re
 
 1. Perform the steps in [Creating Workflow Models](/help/sites-developing/workflows-models.md) to create a new workflow.
 1. Use the [Package feature of Adobe InDesign](https://helpx.adobe.com/indesign/how-to/indesign-package-files-for-handoff.html) to export the document. Adobe InDesign can export a document and the linked assets as a package. In this case, the exported folder contains a `Links` folder that contains subassets in the InDesign file. The `Links` folder is present in same folder as the INDD file. 
-1. Create a ZIP file and upload it to the AEM repository.
+1. Create a ZIP file and upload it to the [!DNL Experience Manager] repository.
 1. Start the Unarchiver workflow.
 1. When the workflow completes, the references in the Links folder are automatically referenced as subassets. To view a list of referred assets, navigate to the asset details page of the InDesign asset and close the [Rail](/help/sites-authoring/basic-handling.md#rail-selector).
 
 ## Adobe Photoshop: Add assets as references {#refps}
 
-1. Using a WebDav client, mount AEM Assets as a drive.
-1. To create references to AEM assets in a Photoshop file, navigate to the corresponding assets in the mounted drive using the Place linked functionality in Photoshop.
+1. Using a WebDav client, mount [!DNL Experience Manager] Assets as a drive.
+1. To create references to [!DNL Experience Manager] assets in a Photoshop file, navigate to the corresponding assets in the mounted drive using the Place linked functionality in Photoshop.
 
    ![chlimage_1-261](assets/chlimage_1-261.png)
 
-1. Save in Photoshop file to the mounted drive or [upload](managing-assets-touch-ui.md#uploading-assets) to the AEM repository.
-1. After the workflow completes, the references to existing AEM assets are listed in the asset details page.
+1. Save in Photoshop file to the mounted drive or [upload](managing-assets-touch-ui.md#uploading-assets) to the [!DNL Experience Manager] repository.
+1. After the workflow completes, the references to existing [!DNL Experience Manager] assets are listed in the asset details page.
 
    To view the referenced assets, close the [Rail](/help/sites-authoring/basic-handling.md#rail-selector) in the asset details page.
 
@@ -80,7 +80,7 @@ This procedure is similar to [Add assets as references in Adobe Illustrator](#re
 
 ## Create subassets {#generate-subassets}
 
-For the supported assets with multi-page formats &mdash; PDF files, AI files, Microsoft PowerPoint and Apple Keynote files, and Adobe InDesign files &mdash; AEM can generate subassets that correspond to each individual page of the original asset. These subassets are linked to the *parent* asset and facilitate multi-page view. For all other purposes, the subassets are treated like normal assets in AEM.
+For the supported assets with multi-page formats &mdash; PDF files, AI files, Microsoft PowerPoint and Apple Keynote files, and Adobe InDesign files &mdash; [!DNL Experience Manager] can generate subassets that correspond to each individual page of the original asset. These subassets are linked to the *parent* asset and facilitate multi-page view. For all other purposes, the subassets are treated like normal assets in AEM.
 
 Subasset generation is disabled by default. To enable subasset generation, follow these steps:
 
@@ -106,7 +106,7 @@ The subassets are displayed only if the subassets are generated and are availabl
 
 ## View pages of a multi-page file {#view-pages-of-a-multi-page-file}
 
-You can view a multi-page file, such as PDF, INDD, PPT, PPTX, and AI file, using the Page Viewer feature of AEM Assets. Open a multi-page asset and click **[!UICONTROL View Pages]** from the upper-left corner of the page. The Page Viewer that opens displays the pages of the asset and the controls to browse through and zoom each page.
+You can view a multi-page file, such as PDF, INDD, PPT, PPTX, and AI file, using the Page Viewer feature of [!DNL Experience Manager] Assets. Open a multi-page asset and click **[!UICONTROL View Pages]** from the upper-left corner of the page. The Page Viewer that opens displays the pages of the asset and the controls to browse through and zoom each page.
 
 ![View and see pages of a multi-page asset](assets/view_multipage_asset_fmr.gif)
 
@@ -114,7 +114,7 @@ For InDesign, you can extract pages using InDesign server. If the previews of pa
 
 The following options are available in the toolbar, in the left rail, and in the Page Viewer controls:
 
-* **[!UICONTROL Desktop Actions]** to open or reveal a specific subasset using AEM desktop app. See how to [configure Desktop Actions](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html#desktopactions-v2) if you are using AEM desktop app.
+* **[!UICONTROL Desktop Actions]** to open or reveal a specific subasset using [!DNL Experience Manager] desktop app. See how to [configure Desktop Actions](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html#desktopactions-v2) if you are using [!DNL Experience Manager] desktop app.
 
 * **[!UICONTROL Properties]** option opens the [!UICONTROL Properties] page of the specific subasset.
 
