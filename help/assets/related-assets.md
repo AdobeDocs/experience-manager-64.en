@@ -59,11 +59,11 @@ This way, you have the flexibility to share a low resolution file (for example P
 
 ## Translating Related Assets {#translating-related-assets}
 
-Creating source/derived relationships between assets using the Related Assets feature is also helpful in translation workflows. When you run a translation workflow on a derived asset, AEM Assets automatically fetches any asset that the source file references and includes it for translation. This way, the asset referenced by the source asset is translated along with the source and derived assets. For example, consider a scenario where your English language copy includes a derived asset and its source file as shown.
+Creating source/derived relationships between assets using the Related Assets feature is also helpful in translation workflows. When you run a translation workflow on a derived asset, [!DNL Experience Manager] Assets automatically fetches any asset that the source file references and includes it for translation. This way, the asset referenced by the source asset is translated along with the source and derived assets. For example, consider a scenario where your English language copy includes a derived asset and its source file as shown.
 
 ![chlimage_1-281](assets/chlimage_1-281.png)
 
-If the source file is related to another asset, AEM Assets fetches the refenced asset and includes it for translation.
+If the source file is related to another asset, [!DNL Experience Manager] Assets fetches the refenced asset and includes it for translation.
 
 ![chlimage_1-282](assets/chlimage_1-282.png)
 

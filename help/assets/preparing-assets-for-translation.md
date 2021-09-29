@@ -55,7 +55,7 @@ For example, the root page of the Italian language copy of the sample hierarchy 
 
 ## Viewing Language Roots {#viewing-language-roots}
 
-The touch-optimized UI provides a References panel that shows a list of language roots that have been created within AEM Assets.
+The touch-optimized UI provides a References panel that shows a list of language roots that have been created within [!DNL Experience Manager] Assets.
 
 1. In the Assets console, select the language primary for which you want to create language copies.
 1. Click or tap the GlobalNav icon, and choose **[!UICONTROL References]** to open the Reference pane.

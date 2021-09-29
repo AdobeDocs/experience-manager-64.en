@@ -38,9 +38,9 @@ You can create a private folder in the Adobe Experience Manager Assets user inte
    >
    >You can assign various roles, such as Editor, Owner, or Viewer to the user with whom you share the folder. If you assign an Owner role to the user, the user has Editors privileges on the folder. In addition, the user can share the folder with others. If you assign an Editor role, the user can edit the assets in your private folder. If you assign a Viewer role, the user can only view the assets in your private folder.
 
-1. Click **[!UICONTROL Save]**. Depending on the role you assign, the user is assigned a set of privileges on your private folder when the user logs in to AEM Assets.
+1. Click **[!UICONTROL Save]**. Depending on the role you assign, the user is assigned a set of privileges on your private folder when the user logs in to [!DNL Experience Manager] Assets.
 1. Click **[!UICONTROL Ok]** to close the confirmation message.
-1. The user with whom you share the folder receives a sharing notification. Log in to AEM Assets with the credentials of the user to view the notification.
+1. The user with whom you share the folder receives a sharing notification. Log in to [!DNL Experience Manager] Assets with the credentials of the user to view the notification.
 
    ![chlimage_1-416](assets/chlimage_1-416.png)
 

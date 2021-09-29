@@ -1,6 +1,6 @@
 ---
 title: Extending Assets Search
-description: Extend the search capabilities of AEM Assets beyond out-of-the-box searches for assets by strings.
+description: Extend the search capabilities of [!DNL Experience Manager] Assets beyond out-of-the-box searches for assets by strings.
 contentOwner: AG
 feature: Search
 role: Developer
@@ -8,15 +8,15 @@ exl-id: d68c735f-2699-4923-a7e7-4d1356eae335
 ---
 # Extending Assets Search {#extending-assets-search}
 
-You can extend Adobe Experience Manager Assets search capabilities. Out of the box, AEM Assets searches for assets by strings.
+You can extend Adobe Experience Manager Assets search capabilities. Out of the box, [!DNL Experience Manager] Assets searches for assets by strings.
 
 Searching is done via the QueryBuilder interface so the search can be customized with several predicates. You can overlay the default set of predicates in the following directory: `/apps/dam/content/search/searchpanel/facets`.
 
-You can also add additional tabs to the AEM Assets admin panel.
+You can also add additional tabs to the [!DNL Experience Manager] Assets admin panel.
 
 >[!CAUTION]
 >
->As of AEM 6.4, Classic UI is deprecated. For announcement, see [Deprecated and Removed Features](../release-notes/deprecated-removed-features.md). You are encouraged to use Touch-enabled UI. For customizations, see [Search Facets](search-facets.md).
+>As of [!DNL Experience Manager] 6.4, Classic UI is deprecated. For announcement, see [Deprecated and Removed Features](../release-notes/deprecated-removed-features.md). You are encouraged to use Touch-enabled UI. For customizations, see [Search Facets](search-facets.md).
 
 ## Overlaying {#overlaying}
 
@@ -31,7 +31,7 @@ To overlay the preconfigured predicates, copy the `facets` node from `/libs/dam/
 
 ## Adding tabs {#adding-tabs}
 
-You can add additional Search tabs by configuring them in the AEM Assets Admin. To create additional tabs:
+You can add additional Search tabs by configuring them in the [!DNL Experience Manager] Assets Admin. To create additional tabs:
 
 1. Create the folder structure `/apps/wcm/core/content/damadmin/tabs,`if it does not already exist, and copy the `tabs` node from `/libs/wcm/core/content/damadmin` and paste it.
 1. Create and configure the second tab, as desired.
@@ -42,9 +42,9 @@ You can add additional Search tabs by configuring them in the AEM Assets Admin. 
 
 ## Creating Custom Predicates {#creating-custom-predicates}
 
-AEM Assets comes with a set of predefined predicates that can be used to customize an Asset Share page. Customizing an Asset Share in this way is covered in [Creating and Configuring an Asset Share Page](assets-finder-editor.md#creating-and-configuring-an-asset-share-page).
+[!DNL Experience Manager] Assets comes with a set of predefined predicates that can be used to customize an Asset Share page. Customizing an Asset Share in this way is covered in [Creating and Configuring an Asset Share Page](assets-finder-editor.md#creating-and-configuring-an-asset-share-page).
 
-In addition to using pre-existing predicates, AEM developers can also create their own predicates using the [Query Builder API](/help/sites-developing/querybuilder-api.md).
+In addition to using pre-existing predicates, [!DNL Experience Manager] developers can also create their own predicates using the [Query Builder API](/help/sites-developing/querybuilder-api.md).
 
 Creating custom predicates requires basic knowledge about the [Widgets framework](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html).
 
@@ -298,6 +298,6 @@ The following predicates are available as preconfigured ExtJS widgets.
 
 ## Customizing Search Results {#customizing-search-results}
 
-The presentation of search results on an Asset Share page is governed by the selected lens. AEM Assets comes with a set of predefined lenses that can be used to customize an Asset Share page. Customizing an Asset Share in this way is covered in [Creating and Configuring an Asset Share Page](assets-finder-editor.md#creating-and-configuring-an-asset-share-page).
+The presentation of search results on an Asset Share page is governed by the selected lens. [!DNL Experience Manager] Assets comes with a set of predefined lenses that can be used to customize an Asset Share page. Customizing an Asset Share in this way is covered in [Creating and Configuring an Asset Share Page](assets-finder-editor.md#creating-and-configuring-an-asset-share-page).
 
-In addition to using pre-existing lenses, AEM developers can also create their own lenses.
+In addition to using pre-existing lenses, [!DNL Experience Manager] developers can also create their own lenses.
