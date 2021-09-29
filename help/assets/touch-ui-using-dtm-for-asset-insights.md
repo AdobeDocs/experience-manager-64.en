@@ -16,10 +16,10 @@ Adobe Dynamic Tag Management is a tool that activates your digital marketing too
 
 Perform these steps to enable Assets Insights through DTM:
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Insights Configuration]**.
-1. [Configure AEM instance with DTM Cloud Service](../sites-administering/dtm.md)
+1. Tap/click the [!DNL Experience Manager] logo, and go to **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Insights Configuration]**.
+1. [Configure [!DNL Experience Manager] instance with DTM Cloud Service](../sites-administering/dtm.md)
 
-   The API token should be available once you log on to [https://dtm.adobe.com](https://dtm.adobe.com/) and visit **[!UICONTROL Account Settings]** from the Profile icon. This step is not required from the Assets Insights standpoint, because the integration of AEM Sites with Assets Insights is still in the works.
+   The API token should be available once you log on to [https://dtm.adobe.com](https://dtm.adobe.com/) and visit **[!UICONTROL Account Settings]** from the Profile icon. This step is not required from the Assets Insights standpoint, because the integration of [!DNL Experience Manager Sites] with Assets Insights is still in the works.
 
 1. Log on to [https://dtm.adobe.com](https://dtm.adobe.com/), and select a Company, as appropriate.
 1. Create/Open an the existing Web Property
@@ -37,7 +37,7 @@ Perform these steps to enable Assets Insights through DTM:
 
    ![chlimage_1-195](assets/chlimage_1-195.png)
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools > Assets]**.
+1. Tap/click the [!DNL Experience Manager] logo, and go to **[!UICONTROL Tools > Assets]**.
 1. Tap/click **[!UICONTROL Insights Page Tracker]**, copy the tracker code, and then paste it in the Script dialog you opened in step 6. Save the changes.
 
    >[!NOTE]
