@@ -10,10 +10,10 @@ exl-id: c6d321f5-4c48-47f2-bff1-c4da988c0e84
 
 Using the demo package, you can enable Adobe Assets Insights to capture data from and generate insights for a sample web page.
 
-## Using AEM Assets Insights with sample web page  {#using-aem-assets-insights-with-sample-web-page}
+## Using [!DNL Experience Manager] Assets Insights with sample web page  {#using-aem-assets-insights-with-sample-web-page}
 
 1. Configure Assets Insights using the instructions in [Configuring Assets Insights](touch-ui-configuring-asset-insights.md).
-1. Download the sample AEM Assets package from below and install the package from CRXDE package manager.
+1. Download the sample [!DNL Experience Manager] Assets package from below and install the package from CRXDE package manager.
 
    [Get File](assets/insightsdemo.zip)
 
@@ -29,4 +29,4 @@ Using the demo package, you can enable Adobe Assets Insights to capture data fro
 
    >[!NOTE]
    >
-   >The external web page can be in AEM itself.
+   >The external web page can be in [!DNL Experience Manager] itself.
