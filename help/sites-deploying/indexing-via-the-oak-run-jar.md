@@ -100,7 +100,7 @@ This process needs to be executed only against a single AEM instance in the clus
 >
 >For more detailed information regarding this scenario, see [Online Reindex - SegmentNodeStore](/help/sites-deploying/oak-run-indexing-usecases.md#onlinereindexsegmentnodestore).
 
-This is the method used before te introudction of the new indexing capabilities of oak-run.jar. It can done by setting the `reindex=true` property on the Oak index.
+This is the method used before the introduction of the new indexing capabilities of oak-run.jar. It can done by setting the `reindex=true` property on the Oak index.
 
 This approach can be used if the time and performance effects to index are acceptable to the customer. This is often the case for small to medium sized AEM installations.
 
@@ -112,7 +112,7 @@ This approach can be used if the time and performance effects to index are accep
 >
 >For more detailed information regarding this scenario, see [Online Reindex - SegmentNodeStore - The AEM Instance is Running](/help/sites-deploying/oak-run-indexing-usecases.md#onlinereindexsegmentnodestoretheaeminstanceisrunning).
 
-Online-reindexing of TarMK is faster than the Online TarkMK reindexing decribed above. However, it also requires execution during a maintenance window, with the methion that the window will be shorter, and more steps are required to perform the re-indexing.
+Online re-indexing of TarMK using the oak-run.jar is faster than the [Online Re-Indexing for TarMK](#onlinere-indexingfortarmk) described above. However, it also requires execution during a maintenance window; with the mention that the window will be shorter, and more steps are required to perform the re-indexing.
 
 >[!NOTE]
 >
