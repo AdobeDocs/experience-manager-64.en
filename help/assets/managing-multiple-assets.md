@@ -10,7 +10,7 @@ exl-id: 3541b50a-f226-4a6a-9c2a-03a5f47f1c23
 
 Learn how to edit the metadata of multiple assets and collections simultaneously to quickly propagate common metadata changes.
 
-Adobe Enterprise Manager (AEM) Assets lets you edit the metadata of multiple assets simultaneously so you can quickly propagate common metadata changes to assets in bulk. You can also edit the metadata for multiple collections in bulk.
+Adobe Enterprise Manager Assets lets you edit the metadata of multiple assets simultaneously so you can quickly propagate common metadata changes to assets in bulk. You can also edit the metadata for multiple collections in bulk.
 
 Use the properties page to perform metadata changes on multiple assets or collections:
 

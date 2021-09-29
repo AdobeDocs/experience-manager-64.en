@@ -8,7 +8,7 @@ exl-id: d68c735f-2699-4923-a7e7-4d1356eae335
 ---
 # Extending Assets Search {#extending-assets-search}
 
-You can extend Adobe Experience Manager (AEM) Assets search capabilities. Out of the box, AEM Assets searches for assets by strings.
+You can extend Adobe Experience Manager Assets search capabilities. Out of the box, AEM Assets searches for assets by strings.
 
 Searching is done via the QueryBuilder interface so the search can be customized with several predicates. You can overlay the default set of predicates in the following directory: `/apps/dam/content/search/searchpanel/facets`.
 

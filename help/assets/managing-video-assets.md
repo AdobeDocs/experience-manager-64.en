@@ -11,7 +11,7 @@ exl-id: eb652414-5b10-45af-a8b6-f1de649994c5
 ---
 # Manage video assets {#managing-video-assets}
 
-Learn how to manage and edit the video assets in Adobe Experience Manager (AEM) Assets. Also, if you are licensed to use Dynamic Media, see the [Dynamic Media Video documentation](video.md).
+Learn how to manage and edit the video assets in Adobe Experience Manager Assets. Also, if you are licensed to use Dynamic Media, see the [Dynamic Media Video documentation](video.md).
 
 ## Upload and preview video assets {#uploading-and-previewing-video-assets}
 

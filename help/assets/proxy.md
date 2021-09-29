@@ -8,7 +8,7 @@ exl-id: c7511326-697e-4749-ab46-513cdbaa00d8
 ---
 # Assets Proxy Development {#assets-proxy-development}
 
-Adobe Experience Manager (AEM) Assets uses a proxy to distribute processing for certain tasks.
+Adobe Experience Manager Assets uses a proxy to distribute processing for certain tasks.
 
 A proxy is a specific (and sometimes separate) AEM instance that uses proxy workers as processors responsible for handling a job and creating a result. A proxy worker can be used for a wide variety of tasks. In the case of an AEM Assets proxy this can be used for loading assets for rendering within AEM Assets. For example, the [IDS proxy worker](indesign.md) uses an InDesign Server to process files for use in AEM Assets.
 
