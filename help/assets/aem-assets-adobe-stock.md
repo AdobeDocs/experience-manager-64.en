@@ -117,6 +117,6 @@ Users can see the properties for both, licensed and unlicensed assets.
 
 >[!MORELIKETHIS]
 >
->* [Video tutorial on using Adobe Stock assets with Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/adobe-stock.html)
->* [Adobe Stock enterprise plan help](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/adobe-stock-enterprise.ug.html)
->* [Adobe Stock FAQ](https://helpx.adobe.com/stock/faq.html)
+>* [Video tutorial on using [!DNL Adobe Stock] assets with [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/creative-workflows/adobe-stock.html)
+>* [[!DNL Adobe Stock] enterprise plan help](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/adobe-stock-enterprise.ug.html)
+>* [[!DNL Adobe Stock] FAQ](https://helpx.adobe.com/stock/faq.html)

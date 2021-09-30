@@ -53,7 +53,7 @@ To enable Camera Raw support in Adobe Experience Manager Assets, follow these st
 >
 >Ensure that the above configuration is the same as the **[!UICONTROL Sample DAM Update Asset With Camera RAW and DNG Handling Step]** configuration.
 
-You can now import camera raw files into AEM Assets. After you install the Camera RAW package and configure the required workflow, **[!UICONTROL Image Adjust]** option appears in the list of side panes.
+You can now import camera raw files into [!DNL Experience Manager] Assets. After you install the Camera RAW package and configure the required workflow, **[!UICONTROL Image Adjust]** option appears in the list of side panes.
 
    ![chlimage_1-337](assets/chlimage_1-337.png)
 

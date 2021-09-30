@@ -8,7 +8,7 @@ exl-id: 956cdec4-2ba8-43c9-9122-564d764f4681
 ---
 # Bulk metadata import and export {#bulk-metadata-import-and-export}
 
-AEM Assets lets you import asset metadata in bulk using a CSV file. You can do bulk updates for the recently uploaded assets or the existing assets by importing a CSV file. You can also ingest asset metadata in bulk from third-party system in CSV format.
+[!DNL Experience Manager] Assets lets you import asset metadata in bulk using a CSV file. You can do bulk updates for the recently uploaded assets or the existing assets by importing a CSV file. You can also ingest asset metadata in bulk from third-party system in CSV format.
 
 ## Import metadata {#import-metadata}
 
@@ -50,7 +50,7 @@ A few use cases for exporting metadata in bulk are:
 * Test or audit the metadata for compliance.
 * Externalize the metadata for separate localization.
 
-You can export metadata for multiple assets in a CSV format. The metadata is exported asynchronously and does not impact the performance of the system. To export metadata, AEM traverses through the properties of the asset node `jcr:content/metadata` and its child nodes and exports the metadata properties in a CSV file.
+You can export metadata for multiple assets in a CSV format. The metadata is exported asynchronously and does not impact the performance of the system. To export metadata, [!DNL Experience Manager] traverses through the properties of the asset node `jcr:content/metadata` and its child nodes and exports the metadata properties in a CSV file.
 
 To export metadata of multiple assets in bulk, follow these steps:
 

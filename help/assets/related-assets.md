@@ -8,7 +8,7 @@ exl-id: d19544c4-c8e7-4a39-9c86-15a46dca848e
 ---
 # Related assets {#related-assets}
 
-Adobe Experience Manager (AEM) Assets lets you manually relate assets based on the needs of your organization using the Related Assets feature. For example, you can relate a license file with an asset or an image/video on a similar topic. You can relate assets that share certain common attributes. You can also use the feature to create source/derived relationships between assets. For example, if you have a PDF file that is generated from an INDD file, you can relate the PDF file to its source INDD file.
+Adobe Experience Manager Assets lets you manually relate assets based on the needs of your organization using the Related Assets feature. For example, you can relate a license file with an asset or an image/video on a similar topic. You can relate assets that share certain common attributes. You can also use the feature to create source/derived relationships between assets. For example, if you have a PDF file that is generated from an INDD file, you can relate the PDF file to its source INDD file.
 
 This way, you have the flexibility to share a low resolution file (for example PDF/JPG) to vendors/agencies and make available the high resolution file (for example INDD) only on request.
 
@@ -59,11 +59,11 @@ This way, you have the flexibility to share a low resolution file (for example P
 
 ## Translating Related Assets {#translating-related-assets}
 
-Creating source/derived relationships between assets using the Related Assets feature is also helpful in translation workflows. When you run a translation workflow on a derived asset, AEM Assets automatically fetches any asset that the source file references and includes it for translation. This way, the asset referenced by the source asset is translated along with the source and derived assets. For example, consider a scenario where your English language copy includes a derived asset and its source file as shown.
+Creating source/derived relationships between assets using the Related Assets feature is also helpful in translation workflows. When you run a translation workflow on a derived asset, [!DNL Experience Manager] Assets automatically fetches any asset that the source file references and includes it for translation. This way, the asset referenced by the source asset is translated along with the source and derived assets. For example, consider a scenario where your English language copy includes a derived asset and its source file as shown.
 
 ![chlimage_1-281](assets/chlimage_1-281.png)
 
-If the source file is related to another asset, AEM Assets fetches the refenced asset and includes it for translation.
+If the source file is related to another asset, [!DNL Experience Manager] Assets fetches the refenced asset and includes it for translation.
 
 ![chlimage_1-282](assets/chlimage_1-282.png)
 
