@@ -207,7 +207,7 @@ By default, Smart Imaging DPR and network optimization is disabled (turned off) 
        Look for the field labeled **[!UICONTROL Published Server Name]**. If you are currently using a generic Dynamic Media Classic domain, you can request moving over to your own custom domain as part of this transition.
     1. Indicate if you also need Smart Imaging to work over HTTP/2.
 
-1. Adobe Customer Care adds you to the Smart Imaging customer Wait List based on the order in which requests were submitted.
+1. Adobe Customer Support adds you to the Smart Imaging customer Wait List based on the order in which requests were submitted.
 1. When Adobe is ready to handle your request, support contacts you to coordinate and set a target date.
 1. **Optional**: You can optionally test smart imaging in Staging before Adobe pushes the new feature to production.
 1. You are notified after completion by support.

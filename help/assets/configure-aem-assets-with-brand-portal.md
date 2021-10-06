@@ -61,7 +61,7 @@ For detailed instructions see,
 
 * [AEM 6.4 Service Pack Release Notes](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
 
-**Contact Customer Care** if you are unable to find the latest AEM package or Service Pack.
+**Contact Customer Support** if you are unable to find the latest AEM package or Service Pack.
 
 ## Create configuration {#configure-new-integration-64}
 
