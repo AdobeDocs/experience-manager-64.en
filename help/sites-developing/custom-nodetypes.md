@@ -15,7 +15,7 @@ exl-id: 3611cfe5-a3bd-4f46-8949-8f13e1bceb4d
 
 Because AEM is based on Sling and uses a JCR repository, node types offered by both of these are available for use:
 
-* [JCR Node Types](https://docs.adobe.com/content/docs/en/spec/jcr/2.0/3_Repository_Model.html#3.1.7%20Node%20Types)
+* [JCR Node Types](https://www.adobe.io/experience-manager/reference-materials/spec/jcr/2.0/3_Repository_Model.html#3.1.7%20Node%20Types)
 * [Sling Node Types](https://cwiki.apache.org/confluence/display/SLING/Sling+Node+Types)
 
 In addition to these. AEM provides a range of custom node types.
