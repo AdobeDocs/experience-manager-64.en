@@ -47,9 +47,6 @@ Media Library broadly covers the following use cases:
 <!-- TBD: Remove this after confirmation. May need to merge this list with the list provided by PMs.
 
 * Static renditions
-* Projects, tasks authoring
-* Activity stream (timeline)
-* Comments and annotation
 -->
 
 To use the Media Library functionality, you can use the default [!DNL Experience Manager] user interface. Media Library is part of the [!DNL Experience Manager Sites] installation and no separate interface or add-on is required. Using the existing interface, Media Library users are entitled to accomplish the following tasks:
@@ -72,6 +69,9 @@ To use the Media Library functionality, you can use the default [!DNL Experience
 * Customize and extend asset management user interface.
 * Access the Query Builder (API) to extend the search functionality.
 * Create static tags.
+* Author projects and tasks.
+* Activity stream (timeline).
+* Comments and annotations.
 
 <!-- TBD: Define exactly which basic Assets workflow are available for use with Media Library?
 
@@ -82,7 +82,7 @@ As per PM, we must avoid stating such a list, as we don't have a list that makes
 >
 >Many advanced DAM use cases are fulfilled by [!DNL Experience Manager Assets]. Media Library license entitles you to fulfil only the listed use cases using Media Library. If a use case is not listed, do not use it with Media Library license. If you have any queries, contact Adobe Customer Support.
 
-Note that you cannot use smart tags, [!DNL Asset] link, [!DNL Asset] selector, bulk tagging, modifying asset workflows without [!DNL Assets] license.
+Note that you cannot use smart tags, [!DNL Asset] link, [!DNL Asset] selector, bulk tagging, modify asset workflows, or standard [!DNL Adobe Experience Manager] user interface to access Media Library without [!DNL Assets] license.
 
 <!-- TBD: Add a CTA - how to contact Adobe for queries. -->
 
