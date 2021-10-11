@@ -1,6 +1,6 @@
 ---
 title: GQL Full-text Search
-description: Explore the GQL full-text search feature in AEM Assets. Use it to search for assets based on specific metadata, such as title, description, and author name.
+description: Explore the GQL full-text search feature in [!DNL Experience Manager] Assets. Use it to search for assets based on specific metadata, such as title, description, and author name.
 contentOwner: AG
 feature: Search,Metadata
 role: User
@@ -8,7 +8,7 @@ exl-id: e819501c-4ac3-447f-944c-67adc42e8c61
 ---
 # GQL Full-text Search {#gql-full-text-search}
 
-Explore the GQL full-text search feature in AEM Assets. Use it to search for assets based on specific metadata, such as title, description, and author name.
+Explore the GQL full-text search feature in [!DNL Experience Manager] Assets. Use it to search for assets based on specific metadata, such as title, description, and author name.
 
 The GQL full-text search feature lets you search for assets based on specific metadata, such as title, description, author, and so on.
 
@@ -32,7 +32,7 @@ For example, to search for assets that have the title "Target," perform these st
 
    ![gql_search](assets/gql_search.png)
 
-1. Press **[!UICONTROL Enter]**. The AEM Assets user interface displays only those assets whose title exactly matches "Target."
+1. Press **[!UICONTROL Enter]**. The [!DNL Assets] user interface displays only those assets whose title exactly matches "Target."
 
 The GQL full-text search feature lets you search assets based on the following:
 

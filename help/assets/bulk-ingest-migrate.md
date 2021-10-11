@@ -33,12 +33,12 @@ See also [Configuring Dynamic Media - Scene7 mode](https://helpx.adobe.com/exper
 
 1. In your AEM instance, navigate to **[!UICONTROL Tools > Security > Users > Create User]**. This service user must have read/write permissions to `/content/dam`.
 1. In the **[!UICONTROL ID]** and **[!UICONTROL Password]** fields, enter a user name and password; for example, `FTP User`. This name appears in the timeline as the user who created the asset. When an asset is uploaded from FTP, an asset is considered created when it is uploaded to the FTP server and is pushed to AEM.
-1. Contact [Adobe Enterprise Support for Experience Manager](https://helpx.adobe.com/contact/enterprise-support.ec.html) to request access to feature pack 18912 for downloading. You may need the following information when you contact support:
+1. Contact [Adobe Customer Support for Experience Manager](https://helpx.adobe.com/contact/enterprise-support.ec.html) to request access to feature pack 18912 for downloading. You may need the following information when you contact support:
 
     * Server IP address for your Author instance, including the port number (by default, the port number is 4502).
     * AEM service user username and password from the previous step.
 
-1. Adobe Enterprise Support for AEM provides you the FTP credentials and access to feature pack 18912.
+1. Adobe Customer Support for AEM provides you the FTP credentials and access to feature pack 18912.
 
 1. When you receive feature pack 18912, install it.
 
