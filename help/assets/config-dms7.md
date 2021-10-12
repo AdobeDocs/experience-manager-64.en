@@ -73,7 +73,7 @@ Change the password, before you configure Dynamic Media Cloud Services. After yo
 
 1. In your Experience Manager Author instance, tap the Experience Manager logo to access the global navigation console and tap the Tools icon, then tap **[!UICONTROL Cloud Services]** > **[!UICONTROL Dynamic Media Configuration]**.
 1. On the Dynamic Media Configuration Browser page, in the left pane, tap **[!UICONTROL global]** and tap **[!UICONTROL Create]**. Do not tap or select the folder icon to the left of [!UICONTROL global].
-1. On the [!UICONTROL Create Dynamic Media Configuration] page, enter a title, the Dynamic Media account email address, and password. Select your region. This information is provided to you by Adobe in your provisioning email. Contact Adobe Customer Care if you did not receive the email.
+1. On the [!UICONTROL Create Dynamic Media Configuration] page, enter a title, the Dynamic Media account email address, and password. Select your region. This information is provided to you by Adobe in your provisioning email. Contact Adobe Customer Support if you did not receive the email.
 
    Tap **[!UICONTROL Connect to Dynamic Media]**.
 

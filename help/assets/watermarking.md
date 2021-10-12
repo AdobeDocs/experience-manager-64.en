@@ -10,7 +10,7 @@ exl-id: ed01143c-b516-44f8-aceb-ad2e3f0106b2
 
 [!DNL Adobe Experience Manager Assets] allows you to add a digital watermark to assets that helps users verify the authenticity and copyright ownership of the assets. [!DNL Experience Manager Assets] supports text to be used as a watermark on PNG and JPEG files.
 
-Adobe Experience Manager (AEM) Assets lets you add a digital watermark to images that helps users verify the authenticity and copyright ownership of the assets. AEM Assets supports text to be used as a watermark on PNG and JPEG files.
+Adobe Experience Manager Assets lets you add a digital watermark to images that helps users verify the authenticity and copyright ownership of the assets. [!DNL Experience Manager] Assets supports text to be used as a watermark on PNG and JPEG files.
 
 To be able to apply watermark on assets, add the watermarking step in the [!UICONTROL DAM Update Asset] workflow.
 
@@ -31,9 +31,9 @@ To be able to apply watermark on assets, add the watermarking step in the [!UICO
    ![Provide the arguments in the add watermark step in Assets](assets/arguments_add_watermark_aem_assets.png)
 
 1. Save the **[!UICONTROL DAM Update Asset]** workflow with the [!UICONTROL Watermark] step.
-1. From the AEM user interface, upload a sample asset. The watermark appears with the font size, color and so on, at the position that you configured in the above steps.
+1. From the [!DNL Experience Manager] user interface, upload a sample asset. The watermark appears with the font size, color and so on, at the position that you configured in the above steps.
 
-To watermark PDF documents programmatically or with dynamic information, consider using [AEM Document Services](/help/forms/using/overview-aem-document-services.md) offering.
+To watermark PDF documents programmatically or with dynamic information, consider using [[!DNL Experience Manager] Document Services](/help/forms/using/overview-aem-document-services.md) offering.
 
 ## Tips and limitations {#tips-limitations}
 

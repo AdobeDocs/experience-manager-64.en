@@ -1,16 +1,16 @@
 ---
-title: File formats supported in AEM Assets
-description: List of file formats and MIME types supported by AEM Assets and the features supported for each format.
+title: File formats supported in [!DNL Experience Manager] Assets
+description: List of file formats and MIME types supported by Assets and the features supported for each format.
 contentOwner: AG
 feature: Asset Management,Renditions
 role: User,Admin
 exl-id: ee25fe8f-36fb-42b3-9f90-0ea77bc02e2f
 ---
-# Files formats supported in AEM Assets {#assets-supported-formats}
+# Files formats supported in [!DNL Adobe Experience Manager Assets] {#assets-supported-formats}
 
-AEM Assets supports a wide range of file formats and each functionality has varied support for different MIME types.
+[!DNL Experience Manager Assets] supports a wide range of file formats and each functionality has varied support for different MIME types.
 
-To integrate AEM Assets with other standards-compliant digital asset management (DAM) solutions and desktop software, use Adobe's Extensible Metadata Platform (XMP).
+To integrate [!DNL Assets] with other standards-compliant digital asset management (DAM) solutions and desktop software, use Adobe's Extensible Metadata Platform (XMP).
 
 Use the legend to understand the support level.
 
@@ -105,7 +105,7 @@ See [Imaging Transcoding Library](imaging-transcoding-library.md).
 
 ## Camera Raw {#supported-camera-raw}
 
-The Adobe Camera Raw library enables AEM Assets to ingest raw images. See [Camera Raw Support](camera-raw.md).
+The Adobe Camera Raw library enables [!DNL Assets] to ingest raw images. See [Camera Raw Support](camera-raw.md).
 
 ## Document formats {#supported-document-formats}
 
@@ -238,7 +238,7 @@ The applicability of common DAM workflows for a few other file formats is descri
 
 ## Supported MIME types {#supported-mime-types}
 
-By default, AEM detects the file type using the file extension. AEM can detect it from the contents of the files. For latter, select [!UICONTROL Detect MIME from content] option in [!UICONTROL Day CQ DAM Mime Type Service] in the AEM Web Console.
+By default, [!DNL Experience Manager] detects the file type using the file extension. [!DNL Experience Manager] can detect it from the contents of the files. For latter, select [!UICONTROL Detect MIME from content] option in [!UICONTROL Day CQ DAM Mime Type Service] in the [!DNL Experience Manager] Web Console.
 
 A list of supported MIME types are available in CRXDE Lite at `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes`.
 

@@ -1,6 +1,6 @@
 ---
 title: Folder Metadata Schema
-description: This article describes how to create metadata schema for asset folders in AEM Assets
+description: This article describes how to create metadata schema for asset folders in [!DNL Experience Manager] Assets
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 uuid: 286a4f26-c0ad-4691-80d8-d17ba1a2dfe0
 discoiquuid: 92eacea5-7511-48ce-8a72-ff4552ebb07d
@@ -10,19 +10,19 @@ exl-id: 1bc72dac-41f7-4593-aaea-d48ebd94b43e
 ---
 # Folder Metadata Schema {#folder-metadata-schema}
 
-This article describes how to create metadata schema for asset folders in AEM Assets.
+This article describes how to create metadata schema for asset folders in [!DNL Experience Manager] Assets.
 
-Adobe Experience Manager (AEM) Assets lets you create metadata schemas for asset folders, which define the layout and metadata displayed in folder properties pages.
+Adobe Experience Manager Assets lets you create metadata schemas for asset folders, which define the layout and metadata displayed in folder properties pages.
 
 >[!NOTE]
 >
->This functionality requires AEM 6.4 with at least Service Pack 2 deployed. For AEM 6.4 service pack details, see these [release notes](/help/release-notes/sp-release-notes.md).
+>This functionality requires [!DNL Experience Manager] 6.4 with at least Service Pack 2 deployed. For [!DNL Experience Manager] 6.4 service pack details, see these [release notes](/help/release-notes/sp-release-notes.md).
 
 ## Add a folder metadata schema form {#add-a-folder-metadata-schema-form}
 
 Use the Folder Metadata Schema Forms editor to create and edit metadata schemas for folders.
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools]** > **[!UICONTROL Assets]**> **[!UICONTROL Folder Metadata Schemas]**.
+1. Tap/click the [!DNL Experience Manager] logo, and go to **[!UICONTROL Tools]** > **[!UICONTROL Assets]**> **[!UICONTROL Folder Metadata Schemas]**.
 1. In the Folder Metadata Schema Forms page, tap/click **[!UICONTROL Create]**.
 1. Specify a name for the form, and tap/click **[!UICONTROL Create]**. The new schema form is listed in the Schema Forms page.
 
@@ -111,7 +111,7 @@ If you configure a metadata schema for a folder, the path to the schema form is 
 
 ### Assign to a schema from the Folder Metadata Schema page {#assign-to-a-schema-from-the-folder-metadata-schema-page}
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Folder Metadata Schemas]**.
+1. Tap/click the [!DNL Experience Manager] logo, and go to **[!UICONTROL Tools]** > **[!UICONTROL Assets]** > **[!UICONTROL Folder Metadata Schemas]**.
 1. From the Folder Metadata Schema Forms page, select the schema form you want to apply to a folder.
 1. From the toolbar, tap/click **[!UICONTROL Apply to Folder(s)]**.  
 
@@ -128,7 +128,7 @@ If you configure a metadata schema for a folder, the path to the schema form is 
 
 You can assign a folder metadata schema when creating a folder. If at least one folder metadata schema exists in the system, an extra list is displayed in the **[!UICONTROL Create Folder]** dialog. You can select the desired schema. By default, no schema is selected.
 
-1. From the AEM Assets user interface, tap/click **[!UICONTROL Create]** from the toolbar.
+1. From the [!DNL Assets] user interface, tap/click **[!UICONTROL Create]** from the toolbar.
 1. Specify a title and name for the folder.
 1. From the Folder Metadata Schema list, select the desired schema. Then, tap/click **[!UICONTROL Create]**.
 
