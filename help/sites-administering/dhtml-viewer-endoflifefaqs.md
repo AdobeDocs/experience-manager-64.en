@@ -12,7 +12,7 @@ exl-id: 7a9d6e97-2592-43cb-b5ab-4238409bd7f3
 
 Effective January 31, 2014, the DHTML viewer platform is officially end-of-life.
 
-See the [Dynamic Media Viewers Reference Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html) for the latest supported viewers.
+See the [Dynamic Media Viewers Reference Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) for the latest supported viewers.
 
 <!-- **What is the change?**
 
