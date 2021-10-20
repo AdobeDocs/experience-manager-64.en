@@ -787,6 +787,6 @@ Additional information for third-party patches can also be found by searching th
 ## Revision History {#revision-history}
 
 
-- Oct 10, 2021
+* Oct 10, 2021
 
-  - Changed supported version of iOS for AEM Forms App to iOS 15.1. The previous version was iOS 12.
+  * Changed supported version of iOS for AEM Forms App to iOS 15.1. The previous version was iOS 12.
