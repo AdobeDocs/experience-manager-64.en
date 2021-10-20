@@ -1,6 +1,6 @@
 ---
 title: Smart Imaging
-description: Smart imaging leverages each user's unique viewing characteristics to automatically serve the right images optimized for their experience, resulting in better performance and engagement.
+description: Smart imaging applies each user's unique viewing characteristics to automatically serve the right images optimized for their experience, resulting in better performance and engagement.
 contentOwner: Rick Brough
 topic-tags: dynamic-media
 content-type: reference
@@ -84,7 +84,7 @@ Images constitute most of a page's load time. As such, any performance improveme
 
 Enhancements in latest version of Smart Imaging:
 
-* Improved Google SEO ranking for web pages utilizing latest Smart Imaging.
+* Improved Google SEO ranking for web pages that use the latest Smart Imaging.
 * Serves optimized content immediately (at run-time).
 * Uses Adobe Sensei technology to convert according to the quality (qlt) specified in the image request.
 * Smart Imaging can be turned off using the “bfc” URL parameter.
@@ -186,7 +186,7 @@ By default, Smart Imaging DPR and network optimization is disabled (turned off) 
 | Europe, Middle East, Africa | 13 Aug 2021 |
 | Asia-Pacific | 22 Jul 2021 | -->
 
-1. [Use the Admin Console to create a support case.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+1. [Use the Admin Console to create a support case.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)
 1. Provide the following information in your support case:
 
     1. Primary contact name, email, phone.
@@ -207,7 +207,7 @@ By default, Smart Imaging DPR and network optimization is disabled (turned off) 
        Look for the field labeled **[!UICONTROL Published Server Name]**. If you are currently using a generic Dynamic Media Classic domain, you can request moving over to your own custom domain as part of this transition.
     1. Indicate if you also need Smart Imaging to work over HTTP/2.
 
-1. Adobe Customer Care adds you to the Smart Imaging customer Wait List based on the order in which requests were submitted.
+1. Adobe Customer Support adds you to the Smart Imaging customer Wait List based on the order in which requests were submitted.
 1. When Adobe is ready to handle your request, support contacts you to coordinate and set a target date.
 1. **Optional**: You can optionally test smart imaging in Staging before Adobe pushes the new feature to production.
 1. You are notified after completion by support.
@@ -230,7 +230,7 @@ There is no risk to a customer web page. However, the transition to Smart Imagin
 
 During the initial transition, the non-cached images directly hit Adobe's origin servers until the cache is rebuilt again. As a result, Adobe plans to handle a few customer transitions at a time so that acceptable performance is maintained when pulling requests from Adobe's origin. For most customers, the cache is fully built up again at the CDN within ~1 – 2 days.
 
-## How can I verify whether smart imaging is working as expected?  {#how-can-i-verify-whether-smart-imaging-is-working-as-expected}
+## How can I verify whether smart imaging is working as expected? {#how-can-i-verify-whether-smart-imaging-is-working-as-expected}
 
 1. After your account is configured with smart imaging, load a Dynamic Media Classic/Dynamic Media image URL on the browser.
 1. Open the Chrome developer pane by clicking **[!UICONTROL View]** > **[!UICONTROL Developer]** > **[!UICONTROL Developer Tools]** in the browser. Or, choose any browser developer tool of your choice.
@@ -274,3 +274,8 @@ Smart Imaging determines if the conversion is beneficial or not. It returns the 
 * Experience Manager Sites Core Components are configured by default for DPR optimization. To avoid oversized images owing to server-side Smart Imaging DPR optimization, `dpr=off` is always added to Experience Manager Sites Core Components Dynamic Media images.
 * Given Dynamic Media Foundation Component is configured by default for DPR optimization, to avoid oversized images owing to server-side Smart Imaging DPR optimization, `dpr=off` is always added to Dynamic Media Foundation Component images. Even if customer deselects DPR optimization in DM Foundation Component, server-side Smart Imaging DPR does not kick in. In summary, in the DM Foundation Component, DPR optimization comes into effect based on DM Foundation Component level setting only.
 * Any viewer side DPR optimization works in tandem with server-side Smart Imaging DPR optimization, and does not result in over-sized images. In other words, wherever DPR is handled by the viewer, such as the main view only in a zoom-enabled viewer, the server-side Smart Imaging DPR values are not triggered. Likewise, wherever viewer elements, such as swatches and thumbnails, do not have DPR handling, the server-side Smart Imaging DPR value is triggered.
+
+>[!MORELIKETHIS]
+>
+>* [Image optimization with next generation image formats WebP and AVIF.](https://medium.com/adobetech/image-optimisation-with-next-gen-image-formats-webp-and-avif-248c75afacc4)
+>

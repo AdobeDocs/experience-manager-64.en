@@ -1,12 +1,12 @@
 ---
-title: AEM and Creative Cloud integration best practices
-description: Best practices to integrate an AEM deployment with Adobe Creative Cloud to streamline asset transfer workflows and achieve maximum efficiency
+title: Experience Manager and Creative Cloud integration best practices
+description: Best practices to integrate an [!DNL Experience Manager] deployment with Adobe Creative Cloud to streamline asset transfer workflows and achieve maximum efficiency
 contentOwner: AG
 feature: Collaboration,Adobe Asset Link,Desktop App
 role: User,Admin
 exl-id: cb9bea05-3359-4fb4-b935-59e522a5f387
 ---
-# AEM and Creative Cloud integration best practices {#aem-and-creative-cloud-integration-best-practices}
+# [!DNL Experience Manager] and [!DNL Creative Cloud] integration best practices {#aem-and-creative-cloud-integration-best-practices}
 
 <!-- TBD: Reconcile with 6.5 article that's ahead of this article now in terms of content streamlining and structuring.
 -->
@@ -19,27 +19,27 @@ Read on to know what integrations to pick between desktop and the enterprise-gra
 
 >[!NOTE]
 >
->AEM to Creative Cloud folder sharing is deprecated and no longer covered in this guide. Adobe recommends using newer capabilities such as [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html) or [AEM desktop app](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html) to provide creative user with access to assets managed in AEM.
+>Folder sharing from [!DNL Experience Manager] to Creative Cloud is deprecated and is no longer covered in this guide. Adobe recommends using newer capabilities such as [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html) or [[!DNL Experience Manager] desktop app](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html) to provide creative user with access to assets managed in [!DNL Experience Manager].
 
 ## Collaboration needs of creatives, marketers, and DAM users {#collaboration-needs-of-creatives-marketers-and-dam-users}
 
 | Requirements | Use case | Involved surfaces |
 |---|---|---|
-| Simplify experience for creatives on desktop | Streamline access to asset from a DAM (AEM Assets) for creative professionals, or more broadly, users on desktop working in native asset creation applications. They need an easy and straightforward way to discover, use (open), edit and save changes to AEM, as well as upload new files. | Win or Mac desktop; Creative Cloud apps |
-| Provide high-quality, ready-to-use assets from Adobe Stock | Marketers help accelerate the content creation process by assisting with asset sourcing and discovery. Creative professionals use the approved assets right from within their creative tools. | AEM Assets; Adobe Stock marketplace; metadata fields |
+| Simplify experience for creatives on desktop | Streamline access to asset from a DAM ([!DNL Assets]) for creative professionals, or more broadly, users on desktop working in native asset creation applications. They need an easy and straightforward way to discover, use (open), edit and save changes to [!DNL Experience Manager], as well as upload new files. | Win or Mac desktop; Creative Cloud apps |
+| Provide high-quality, ready-to-use assets from Adobe Stock | Marketers help accelerate the content creation process by assisting with asset sourcing and discovery. Creative professionals use the approved assets right from within their creative tools. | [!DNL Assets]; Adobe Stock marketplace; metadata fields |
 | Distribute and share assets by organizations | Internal departments/local branches and external partners, distributors, and agencies use the approved assets shared by the parent organization. The organization wants to securely and seamlessly share the created assets for wider reuse. | Brand Portal, Asset Share Commons |
 
 ## Adobe offerings to support the collaboration need {#adobe-offerings-to-support-the-collaboration-need}
 
 | Value proposition for the involved personas | Adobe offering | Involved surfaces |
 |---|---|---|
-| Creative users discover assets from AEM, open and use them, edit and upload changes to AEM, as well as upload new files into AEM, without leaving Creative Cloud apps. | [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html) | Photoshop, Illustrator, and InDesign |
-| Business users simplify opening and using assets, editing and uploading changes to AEM, and uploading new files into AEM from the desktop environment. They use a generic integration to open any asset type in the native desktop application, including non-Adobe ones. | [AEM desktop app](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html) | AEM desktop app on Win and Mac desktop |
-| Marketers and business users discover, preview, license and save, and manage the Adobe Stock assets from within AEM. Licensed and saved assets provide select Adobe Stock metadata for better governance. | [Experience Manager and Adobe Stock integration](aem-assets-adobe-stock.md) | AEM web interface |
+| Creative users discover assets from [!DNL Experience Manager], open and use them, edit and upload changes to [!DNL Experience Manager], as well as upload new files into [!DNL Experience Manager], without leaving Creative Cloud apps. | [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html) | Photoshop, Illustrator, and InDesign |
+| Business users simplify opening and using assets, editing and uploading changes to [!DNL Experience Manager], and uploading new files into [!DNL Experience Manager] from the desktop environment. They use a generic integration to open any asset type in the native desktop application, including non-Adobe ones. | [[!DNL Experience Manager] desktop app](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html) | [!DNL Experience Manager] desktop app on Win and Mac desktop |
+| Marketers and business users discover, preview, license and save, and manage the Adobe Stock assets from within [!DNL Experience Manager]. Licensed and saved assets provide select Adobe Stock metadata for better governance. | [Experience Manager and Adobe Stock integration](aem-assets-adobe-stock.md) | [!DNL Experience Manager] web interface |
 
 This article focuses primarily on the first two aspects of the collaboration needs. Distribution and sourcing of assets at scale is briefly mentioned as a use case. For such needs solutions, consider Adobe Brand Portal or Asset Share Commons. Alternate solutions such as [Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html), solutions that can be built based on [Asset Share Commons](https://adobe-marketing-cloud.github.io/asset-share-commons/) components, [Link Share](/help/assets/link-sharing.md), using [Experience Manager Assets](/help/assets/managing-assets-touch-ui.md) should be reviewed based on specific requirement.
 
-![Creative Cloud connections for AEM: Deciding which capability to use](assets/creative-connections-aem.png)
+![Creative Cloud connections for [!DNL Experience Manager]: Deciding which capability to use](assets/creative-connections-aem.png)
 
 <!-- 
 ## Terms and definitions {#terms-and-definitions}
@@ -52,14 +52,14 @@ The terms used in this document may have a different meaning in other contexts. 
 * **Final asset:** An asset that has gone through all  approvals/metadata  tagging and is ready to be used by the broader team. Such an asset is stored in DAM and made available to all (or all interested) users. It can be used in marketing channels or by creative teams to create designs.
 * **Minor asset  update/change:** A quick and small change to a digital asset. It is often made in response to a retouching or minor editing request, asset review, or approval (for example, reposition, change text size, adjust saturation/brightness, color, and so on).
 * **Major asset  update/change:** A change to a digital asset that requires considerable work, and sometimes must be done over a longer period of time. It typically includes multiple changes. The asset must be saved multiple times while being updated. Major asset updates typically cause the asset to enter a WIP stage.
-* **DAM:** Digital asset management. In this document, it is synonymous with AEM Experience Manager Assets, unless specifically mentioned otherwise.
+* **DAM:** Digital asset management. In this document, it is synonymous with Experience Manager Assets, unless specifically mentioned otherwise.
 * **Creative user:** A creative professional, who creates digital assets using Creative Cloud apps and services. In some cases, a creative user may be a member of a creative team who may use Creative Cloud, but does not create digital assets (like a creative director or creative team manager).
 * **DAM user:** A typical user of a DAM system. Depending on the organization, a DAM user can be a marketing or a non-marketing user, for example a Line-of-Business (LOB) user, librarian, sales person, and so on.
 -->
 
 ### Mapping of use cases 
 
-| Use case | AEM desktop app | Folder sharing | Other solutions |
+| Use case | [!DNL Experience Manager] desktop app | Folder sharing | Other solutions |
 |---|---|---|---|
 | Share smaller number (1) of DAM assets with Creative user | ✔✔ | ✔ | |
 | Share larger number (2) of DAM assets with Creative user | ✔✔ | ✘ | [Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html) <br> [Asset Share](assets-finder-editor.md) |
@@ -81,14 +81,14 @@ Additional remarks:
 
 * (1) Smaller number of assets: for example, a small set of assets related to a project or campaign
 * (2) Larger number of assets: for example, all approved assets in the organization
-* (3) Use AEM desktop app upload folder feature
+* (3) Use [!DNL Experience Manager] desktop app upload folder feature
 
 To support asset distribution use cases, other solutions should be considered:
 
-* [Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html) for a configurable, SaaS add-on to AEM Assets to publish assets.
+* [Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html) for a configurable, SaaS add-on to [!DNL Experience Manager] Assets to publish assets.
 * Custom solutions are created based on [Asset Share Commons](https://adobe-marketing-cloud.github.io/asset-share-commons/) code base.
-* AEM [link share](/help/assets/link-sharing.md) to share assets ad hoc using links.
-* [AEM Assets web interface](/help/assets/managing-assets-touch-ui.md) with areas for external parties secured by AEM Access Control setup and with necessary IT / network configuration adjustments, giving these external users access to AEM.
+* [!DNL Experience Manager] [link share](/help/assets/link-sharing.md) to share assets ad hoc using links.
+* [[!DNL Experience Manager] Assets web interface](/help/assets/managing-assets-touch-ui.md) with areas for external parties secured by [!DNL Experience Manager] Access Control setup and with necessary IT / network configuration adjustments, giving these external users access to [!DNL Experience Manager].
 
 ## Key concepts and use cases {#key-concepts-and-use-cases}
 
@@ -100,37 +100,37 @@ To support asset distribution use cases, other solutions should be considered:
 * **Final asset:** An asset that has gone through all  approvals/metadata  tagging and is ready to be used by the broader team. Such an asset is stored in DAM and made available to all (or all interested) users. It can be used in marketing channels or by creative teams to create designs.
 * **Minor asset update/change :** A quick and small change to a digital asset. It is often made in response to a retouching or minor editing request, asset review, or approval (for example, reposition, change text size, adjust saturation/brightness, color, and so on).
 * **Major asset update/change :** A change to a digital asset that requires considerable work, and sometimes must be done over a longer period of time. It typically includes multiple changes. The asset must be saved multiple times while being updated. Major asset updates typically cause the asset to enter a WIP stage.
-* **DAM:** Digital asset management. In this document, it is synonymous with AEM Experience Manager Assets, unless specifically mentioned otherwise.
+* **DAM:** Digital asset management. In this document, it is synonymous with [!DNL Experience Manager Assets], unless specifically mentioned otherwise.
 * **Creative user:** A creative professional, who creates digital assets using Creative Cloud apps and services. In some cases, a creative user may be a member of a creative team who may use Creative Cloud, but does not create digital assets (like a creative director or creative team manager).
 * **DAM user:** A typical user of a DAM system. Depending on the organization, a DAM user can be a marketing or a non-marketing user, for example a Line-of-Business (LOB) user, librarian, sales person, and so on.
 
-### Considerations when using AEM and Creative Cloud integration {#considerations-when-using-aem-and-creative-cloud-integration}
+### Considerations when using [!DNL Experience Manager] and Creative Cloud integration {#considerations-when-using-aem-and-creative-cloud-integration}
 
-* See [desktop app best practices](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/troubleshoot.html?lang=en#best-practices-to-prevent-troubles)
+* See [desktop app best practices](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/troubleshoot.html#best-practices-to-prevent-troubles)
 * See [Adobe Stock integration](aem-assets-adobe-stock.md)
 * See [Adobe Asset Link](https://helpx.adobe.com/enterprise/using/adobe-asset-link.html)
 
 This is a brief summary of best practices for Experience Manager and Creative Cloud integration. Read the rest of this document to get the detailed understanding of these.
 
-* **For creative users, working in Photoshop, InDesign, or Illustrator:** Adobe Asset Link provides the best user experience, including clean handling of the Work-in-progress on assets checked out from AEM
-* **For simplifying access to assets from desktop for any generic file format or application:** use AEM desktop app
+* **For creative users, working in Photoshop, InDesign, or Illustrator:** Adobe Asset Link provides the best user experience, including clean handling of the Work-in-progress on assets checked out from [!DNL Experience Manager]
+* **For simplifying access to assets from desktop for any generic file format or application:** use [!DNL Experience Manager] desktop app
 * **Understand why and when to store assets in DAM:** Updates to be made available to the broader team in your organization
 * **Mind the volume of assets shared:** If your use case is asset distribution, governance and security might be the most important aspects. Consider using tools built for doing that at scale, like Brand Portal.
 * **Understand asset lifecycle:** Know how assets are handled in your organization by different teams
 * **Handle frequent saves to assets with care:** Adobe Asset Link takes care of that for you with PS, AI, ID. For other applications, don't carry out work in progress tasks in mapped/shared folder unless you need all the changes in DAM
 
-### Access to Adobe Stock assets from AEM Assets {#access-to-adobe-stock-assets-from-aem-assets}
+### Access to Adobe Stock assets from [!DNL Assets] {#access-to-adobe-stock-assets-from-aem-assets}
 
-[AEM and Adobe Stock integration](/help/assets/aem-assets-adobe-stock.md) provides AEM users with the ability to search, preview, license and save, assets from Adobe Stock into AEM. Licensed and saved Adobe Stock assets have selected Stock metadata, which can be used to search for them with extra filters.
+[[!DNL Experience Manager] and Adobe Stock integration](/help/assets/aem-assets-adobe-stock.md) provides [!DNL Experience Manager] users with the ability to search, preview, license and save, assets from Adobe Stock into [!DNL Experience Manager]. Licensed and saved Adobe Stock assets have selected Stock metadata, which can be used to search for them with extra filters.
 
 A few important points about this integration:
 
-* When assets from Adobe stock are saved to AEM, they become a regular AEM Assets, with binary saved to the AEM repository. Some metadata related to Adobe Stock are saved for the asset in AEM, otherwise the ingestion process looks the same as for any other file. For example, if Smart Tags are active, the tags are added to these assets upon saving.
-* The asset saved to AEM is a copy, not a link back into Adobe Stock.
+* When assets from Adobe stock are saved to [!DNL Experience Manager], they become a regular [!DNL Experience Manager] Assets, with binary saved to the [!DNL Experience Manager] repository. Some metadata related to Adobe Stock are saved for the asset in [!DNL Experience Manager], otherwise the ingestion process looks the same as for any other file. For example, if Smart Tags are active, the tags are added to these assets upon saving.
+* The asset saved to [!DNL Experience Manager] is a copy, not a link back into Adobe Stock.
 
-**Working with assets saved from Adobe Stock into AEM in Creative Cloud**. This integration is independent of Adobe Asset Link, but Adobe Asset Link recognizes these assets saved from Stock that way, and displays additional metadata and Stock icon on these assets in Adobe Asset Link extension UI in Photoshop, Illustrator, or InDesign. The files are available for browsing, opening, and so on - because they are regular AEM assets when saved to AEM.
-Creative users working in Creative Cloud apps with Adobe Asset Link extension present, in addition to having access to already-licensed assets from Adobe Stock into AEM, can also use Creative Cloud Libraries panel to search, preview, and license Adobe Stock assets.
-Assets from Adobe Stock licensed and saved into AEM become available to the broader teams accessing AEM Assets deployment, whereas creatives licensing assets from Adobe Stock via Creative Cloud Libraries panel make them available to themselves only by default in their Creative Cloud account.
+**Working with assets saved from Adobe Stock into [!DNL Experience Manager] in Creative Cloud**. This integration is independent of Adobe Asset Link, but Adobe Asset Link recognizes these assets saved from Stock that way, and displays additional metadata and Stock icon on these assets in Adobe Asset Link extension UI in Photoshop, Illustrator, or InDesign. The files are available for browsing, opening, and so on - because they are regular [!DNL Experience Manager] assets when saved to [!DNL Experience Manager].
+Creative users working in Creative Cloud apps with Adobe Asset Link extension present, in addition to having access to already-licensed assets from Adobe Stock into [!DNL Experience Manager], can also use Creative Cloud Libraries panel to search, preview, and license Adobe Stock assets.
+Assets from Adobe Stock licensed and saved into [!DNL Experience Manager] become available to the broader teams accessing [!DNL Experience Manager] Assets deployment, whereas creatives licensing assets from Adobe Stock via Creative Cloud Libraries panel make them available to themselves only by default in their Creative Cloud account.
 
 <!-- 
 TBD: A condensed version of the below content is better placed in the Adobe DAM article.
@@ -144,7 +144,7 @@ To design an efficient workflow between creative and marketing/line-of-business 
 
 Storing assets in DAM makes them easily accessible and findable. It ensures that the assets can be leveraged by numerous users across the organization or ecosystem, which includes partners, customers, and so on.
 
-Most organizations choose to only store assets that are relevant to the downstream marketing/LOB processes (publishing to channels like web channel via AEM Sites or other channels served by Adobe Experience Cloud, Advertizing Cloud, and measured by Analytics Cloud, providing to users/partners, and so on). In addition, organizations store assets that may be subjected to a review/approval process in DAM. This way, DAM stores mostly assets that have high chances of being leveraged, and avoids storing idle assets.
+Most organizations choose to only store assets that are relevant to the downstream marketing/LOB processes (publishing to channels like web channel via [!DNL Experience Manager] Sites or other channels served by Adobe Experience Cloud, Advertising Cloud, and measured by Analytics Cloud, providing to users/partners, and so on). In addition, organizations store assets that may be subjected to a review/approval process in DAM. This way, DAM stores mostly assets that have high chances of being leveraged, and avoids storing idle assets.
 
 Storing assets is also subject to technical and resource utilization considerations. DAM provides additional services around stored assets, including extracting metadata, versioning, generating previews/transcoding, managing references, and adding access control information. These services consume additional time and infrastructure resources.
 
@@ -179,25 +179,25 @@ The following are examples of updates that are typically not relevant:
 
 ### User access to DAM {#user-access-to-dam}
 
-AEM Assets supports two types of users based on their access to the AEM Assets deployment. Typically, users inside the enterprise network (firewall) have a direct access to DAM. Other users outside the enterprise network would not have a direct access. The user type determines which integrations can be used from the technical standpoint.
+[!DNL Experience Manager] Assets supports two types of users based on their access to the [!DNL Experience Manager] Assets deployment. Typically, users inside the enterprise network (firewall) have a direct access to DAM. Other users outside the enterprise network would not have a direct access. The user type determines which integrations can be used from the technical standpoint.
 
 #### Creative users with direct access to DAM {#creative-users-with-direct-access-to-dam}
 
-Typically, in-house creative teams or agencies/creative professionals  onboarded  to the internal network have access to the DAM instance, including AEM login.
+Typically, in-house creative teams or agencies/creative professionals  onboarded  to the internal network have access to the DAM instance, including [!DNL Experience Manager] login.
 
-In such cases, AEM desktop app helps provide easy access to final/approved assets and lets you save creative-ready assets to DAM.
+In such cases, [!DNL Experience Manager] desktop app helps provide easy access to final/approved assets and lets you save creative-ready assets to DAM.
 
 #### Creative users without access to DAM {#creative-users-without-access-to-dam}
 
 External agencies and freelancers without direct access to the DAM instance may require access to approved assets or want to add their new designs to the DAM.
 
-In such cases, you can leverage the AEM/Creative Cloud integration to improve the workflow. The prerequisite is for the creative users to have an Adobe ID and have a Creative Cloud account with storage service.
+In such cases, you can leverage the [!DNL Experience Manager]/Creative Cloud integration to improve the workflow. The prerequisite is for the creative users to have an Adobe ID and have a Creative Cloud account with storage service.
 
 Use the following strategies to provide access to final/approved assets:
 
-* To provide access to a large number assets: Use [AEM Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en), or customer’s implementation of [Asset Share](assets-finder-editor.md) on AEM publish infrastructure
+* To provide access to a large number assets: Use [[!DNL Experience Manager] Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html), or customer’s implementation of [Asset Share](assets-finder-editor.md) on [!DNL Experience Manager] publish infrastructure
 
-* To provide access to a few assets: AEM folder sharing with Adobe Creative Cloud can be used in addition to AEM Assets Brand Portal or Asset Share. Please note there are certain limitations related to this integration, covered in more detail in this article.
+* To provide access to a few assets: [!DNL Experience Manager] folder sharing with Adobe Creative Cloud can be used in addition to [!DNL Experience Manager] Assets Brand Portal or Asset Share. Please note there are certain limitations related to this integration, covered in more detail in this article.
 
 ### Use Cases {#use-cases}
 
@@ -221,18 +221,18 @@ The asset lifecycle includes the following stages:
 
 Here are a few general recommendations on how to manage assets through this process:
 
-* Use a dedicated storage area/system, such as Adobe Creative Cloud Assets synced folder, for the WIP files: Frequent updates that are not relevant to DAM users are best handled by a dedicated system, and not from within AEM Assets. WIP assets can be synchronized to local disk using Adobe Creative Cloud desktop application, saved on local storage, and so on.
+* Use a dedicated storage area/system, such as Adobe Creative Cloud Assets synced folder, for the WIP files: Frequent updates that are not relevant to DAM users are best handled by a dedicated system, and not from within [!DNL Experience Manager] Assets. WIP assets can be synchronized to local disk using Adobe Creative Cloud desktop application, saved on local storage, and so on.
 * Use separate folders/shares for final assets and assets that are uploaded to DAM: for clarity, final assets should have it's own mapped/shared folder ("Final" example above), and the assets to be uploaded back into DAM should have their own ("Creative Ready")
 
 #### Change existing assets managed in DAM {#changing-existing-assets-managed-in-dam}
 
 In some cases, assets in DAM might require changes. Examples include:
 
-* Request for changes in assets from the review and approval done in AEM Assets
+* Request for changes in assets from the review and approval done in [!DNL Experience Manager] Assets
 * Major updates to existing final assets
 * Quick edits to an existing file (especially before it is finally approved)
 
-In such cases, AEM desktop app provides the easiest way of performing these operations.
+In such cases, [!DNL Experience Manager] desktop app provides the easiest way of performing these operations.
 
 ![chlimage_1-302](assets/chlimage_1-302.png)
 
@@ -240,7 +240,7 @@ Here is the flow of events depicted in the diagram:
 
 <!-- TBD for formatting. 
 This article will get fixed automatically when 6.5 content is ported to it.
-And 6.5 content will be ported after updating it for AEM desktop app 2.0 best practices.
+And 6.5 content will be ported after updating it for [!DNL Experience Manager] desktop app 2.0 best practices.
 And it will be updated for DA2.0 best practices after 6.5 repo is available for writers to edit content in.
 -->
 
@@ -257,7 +257,7 @@ And it will be updated for DA2.0 best practices after 6.5 repo is available for 
 
 Here are a few general recommendations on how to manage assets throughout this process:
 
-* Avoid directly saving a file that you opened from a network share mapped by AEM desktop app unless the changes you made to the file are small.
+* Avoid directly saving a file that you opened from a network share mapped by [!DNL Experience Manager] desktop app unless the changes you made to the file are small.
 * Copy the file to a separate WIP folder if you want to make additional changes to it, save intermittently, or collaborate with the Creative team.
 
 #### Bulk upload to DAM {#bulk-upload-to-dam}
@@ -272,8 +272,8 @@ Note that this description refers to uploading files operationally (e.g., every 
 
 You can leverage the following capabilities if you want to upload assets in bulk:
 
-* To upload large/hierarchical folders, use AEM desktop app, which provides a [Folder Upload](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html#bulkupload) feature. You can also upload hierarchical folder structures. Assets are uploaded in background and, therefore, it is not tied to a web browser session
-* If you want to upload a few files from a single folder, drag them directly from desktop to the Web UI or use the Create option in the AEM Assets web UI.
+* To upload large/hierarchical folders, use [!DNL Experience Manager] desktop app, which provides a [Folder Upload](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html#bulkupload) feature. You can also upload hierarchical folder structures. Assets are uploaded in background and, therefore, it is not tied to a web browser session
+* If you want to upload a few files from a single folder, drag them directly from desktop to the Web UI or use the Create option in the [!DNL Experience Manager] Assets web UI.
 
 >[!NOTE]
 >
@@ -281,17 +281,17 @@ You can leverage the following capabilities if you want to upload assets in bulk
 
 #### Manage digital assets directly from desktop {#managing-digital-assets-directly-from-desktop}
 
-If you use Network File Shares to manage digital assets, just using the network share mapped by AEM desktop app could be seen as a convenient substitute. When transitioning from network file shares, please remember that AEM Web UI provides a rich set of Digital Asset Management capabilities that go well beyond what is possible on a network share (search, collections, metadata, collaboration, previews, etc), and AEM desktop app provides a handy link to connect the server-side DAM repository with the work on desktop.
+If you use Network File Shares to manage digital assets, just using the network share mapped by [!DNL Experience Manager] desktop app could be seen as a convenient substitute. When transitioning from network file shares, please remember that [!DNL Experience Manager] Web UI provides a rich set of Digital Asset Management capabilities that go well beyond what is possible on a network share (search, collections, metadata, collaboration, previews, etc), and [!DNL Experience Manager] desktop app provides a handy link to connect the server-side DAM repository with the work on desktop.
 
-Avoid using AEM desktop app to manage assets directly in the network share of AEM Assets. For example, avoid using AEM desktop app to move/copy multiple files. Instead, use the AEM Assets web UI to drag folders from Finder/Explorer to the network share or use the AEM Assets Folder Upload feature.
+Avoid using [!DNL Experience Manager] desktop app to manage assets directly in the network share of [!DNL Experience Manager] Assets. For example, avoid using [!DNL Experience Manager] desktop app to move/copy multiple files. Instead, use the [!DNL Experience Manager] Assets web UI to drag folders from Finder/Explorer to the network share or use the [!DNL Experience Manager] Assets Folder Upload feature.
 
 #### Asset migration {#asset-migration}
 
-To plan and execute asset migrations from existing system to a new system or migration of large volume of assets stored on servers, see the [Migration Guide](/help/assets/assets-migration-guide.md). AEM desktop app and AEM to Creative Cloud integrations do not support such migrations. Due to the large volumes of assets to be ingested, and additional requirements around metadata mapping, transformation, and ingestion, migrations should be handled using different tools and approaches.
+To plan and execute asset migrations from existing system to a new system or migration of large volume of assets stored on servers, see the [Migration Guide](/help/assets/assets-migration-guide.md). [!DNL Experience Manager] desktop app and [!DNL Experience Manager] to Creative Cloud integrations do not support such migrations. Due to the large volumes of assets to be ingested, and additional requirements around metadata mapping, transformation, and ingestion, migrations should be handled using different tools and approaches.
 
 >[!MORELIKETHIS]
 >
 >* [Adobe Asset Link](https://helpx.adobe.com/in/enterprise/admin-guide.html/in/enterprise/using/adobe-asset-link.ug.html)
->* [AEM desktop app best practices](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/archive/best-practices-for-v1.html)
->* [AEM Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal.html)
->* [AEM and Adobe Stock integration](aem-assets-adobe-stock.md)
+>* [[!DNL Experience Manager] desktop app best practices](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/archive/best-practices-for-v1.html)
+>* [[!DNL Experience Manager] Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/brand-portal.html)
+>* [[!DNL Experience Manager] and Adobe Stock integration](aem-assets-adobe-stock.md)

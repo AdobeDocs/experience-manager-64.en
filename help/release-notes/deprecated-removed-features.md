@@ -145,7 +145,7 @@ deprecated.
 
 |Area|Feature|Replacement|
 |---|---|---|
-| Integration with [!DNL Experience Cloud] | You could synchronize your assets with [!DNL Experience Cloud] using a configuring via [!DNL Adobe I/O]. [!DNL Adobe Experience Cloud] was formerly called [!DNL Adobe Marketing Cloud]. | If you have any queries, contact [Adobe Customer Care](https://experienceleague.adobe.com/?support-solution=General#support). |
+| Integration with [!DNL Experience Cloud] | You could synchronize your assets with [!DNL Experience Cloud] using a configuring via [!DNL Adobe I/O]. [!DNL Adobe Experience Cloud] was formerly called [!DNL Adobe Marketing Cloud]. | If you have any queries, contact [Adobe Customer Support](https://experienceleague.adobe.com/?support-solution=General#support). |
 |Analytics Activity Map|The version of the Activity Map that is included within AEM.|Due to security changes within the Adobe Analytics API, it is no longer possible to use the version of Activity Map that is included within AEM. The [ActivityMap plug-in provided by Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-users/activitymap-install.html) should now be used.|
 |Components-Forms|Form Captcha (foundation/components/form/captcha)|Use the ReCaptcha by Google component instead|
 |Components|Slideshow (foundation/components/slideshow)|No replacement|

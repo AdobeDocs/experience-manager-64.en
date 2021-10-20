@@ -79,7 +79,7 @@ role: Architect
     + [Repository Restructuring in AEM 6.4](repository-restructuring.md)
     + [Common Repository Restructuring in AEM 6.4](all-repository-restructuring-in-aem-6-4.md)
     + [Sites Repository Restructuring in AEM 6.4](sites-repository-restructuring-in-aem-6-4.md)
-    + [Assets Repository Restructuring in AEM 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/restructuring/repository-restructuring.html?lang=en)
+    + [Assets Repository Restructuring in AEM 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/restructuring/repository-restructuring.html)
     + [Dynamic Media Repository Restructuring in AEM 6.4](dynamicmedia-repository-restructuring-in-aem-6-4.md)
     + [Forms Repository Restructuring in AEM 6.4](forms-repository-restructuring-in-aem-6-4.md)
     + [E-Commerce Repository Restructuring in AEM 6.4](ecommerce-repository-restructuring-in-aem-6-4.md)

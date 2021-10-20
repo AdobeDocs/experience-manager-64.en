@@ -45,17 +45,17 @@ If the upgraded site was configured to use Adobe cloud storage, then it may appe
 
 Thus, there is the ability to instruct ASRP to use `AEM 6.0 compatability-mode` to access UGC.
 
-For all AEM 6.3 author and publish instances
+For all AEM 6.3 author and publish instances:
 
-1. Sign in with administrator privileges
-2. Configure [ASRP](asrp.md)
-3. Follow these steps to make pre-existing UGC visible:
-  i. Browse to the web console, for example
-   [https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr)
-  ii. Locate **[!UICONTROL AEM Communities Utilities]** configuration
-  iii. Select to expand config panel
-    * *Uncheck* **`Cloud Storage`**
-    * Select **[!UICONTROL Save]**
+1. Sign in with administrator privileges and configure [ASRP](asrp.md).
+1. Follow these steps to make the existing UGC visible:
+
+   i. Browse to the web console. The default URL is
+   `https://localhost:4502/system/console/configMgr`.
+   
+   ii. Locate **[!UICONTROL AEM Communities Utilities]** configuration and select to expand the configuration panel.
+   
+   iii. Uncheck **[!UICONTROL Cloud Storage]** and click **[!UICONTROL Save]**.
 
 ![chlimage_1-126](assets/chlimage_1-126.png) 
 

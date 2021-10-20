@@ -8,7 +8,7 @@ exl-id: 52fa2d59-177f-49ca-a480-7213ce0ca7d7
 ---
 # Activity stream in timeline {#activity-stream-in-timeline}
 
-This feature displays activity logs for assets on the timeline. If you perform any of the following asset-related operations in Adobe Experience Manager (AEM) Assets, the Activity stream feature updates the timeline to reflect the activity.
+This feature displays activity logs for assets on the timeline. If you perform any of the following asset-related operations in [!DNL Adobe Experience Manager Assets], the Activity stream feature updates the timeline to reflect the activity.
 
 The following operations are logged in the activity stream:
 
@@ -23,7 +23,7 @@ The following operations are logged in the activity stream:
 
 The activity logs to be displayed in the timeline are fetched from the location `/var/audit/com.day.cq.dam/content/dam` in CRX, where log files are stored.  
 
-In addition, timeline activity is logged when new assets are uploaded or existing asses are modified and checked into AEM via [Adobe Asset Link](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-assets-using-adobe-asset-link.ug.html) or [AEM desktop app](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html).
+In addition, timeline activity is logged when new assets are uploaded or existing asses are modified and checked into Experience Manager via [Adobe Asset Link](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-assets-using-adobe-asset-link.ug.html) or [[!DNL Experience Manager] desktop app](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/introduction.html).
 
 >[!NOTE]
 >

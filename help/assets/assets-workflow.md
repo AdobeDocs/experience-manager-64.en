@@ -34,7 +34,7 @@ Use workflows in digital assets to activate the asset or create watermarks. Many
 >
 >If a workflow available in Classic UI is not available in Touch enabled UI, like [!UICONTROL Request to Activate] and [!UICONTROL Request to Deactivate], see [make workflow models](/help/sites-developing/workflows-models.md#make-workflow-models-available-in-touchui).
 
-## Apply a workflow to an AEM asset {#apply-a-workflow-to-an-aem-asset}
+## Apply a workflow to an [!DNL Experience Manager] asset {#apply-a-workflow-to-an-aem-asset}
 
 <!-- 
 TBD: Add animated GIF for these steps instead of all these screenshots.

@@ -58,7 +58,7 @@ MSM maintains a live relationship between the source asset and its live copies s
 To create live copy from one or more source assets or folders, follow either of the following:
 
 * **Method 1**: Select the source assets and click **[!UICONTROL Create]** > **[!UICONTROL Live Copy]** from toolbar at the top.
-* **Method 2**: In AEM user interface, click **[!UICONTROL Create > Live Copy]** from upper-right corner of the interface.
+* **Method 2**: In [!DNL Experience Manager] user interface, click **[!UICONTROL Create > Live Copy]** from upper-right corner of the interface.
 
 You can create live copies of an asset or a folder one at a time. You can create live copies that are derived from an asset or a folder that is a live copy itself.
 
@@ -67,15 +67,15 @@ Content Fragments (CFs) are not supported for the use case. When attempting to c
 To create live copies using the first method, follow these steps:
 
 1. Select source assets or folders. From the toolbar, click **[!UICONTROL Create > Live Copy]**.
-![Create live copy from AEM interface](assets/lc_create1.png)
+![Create live copy from [!DNL Experience Manager] interface](assets/lc_create1.png)
 1. Select source asset or folder. Click **[!UICONTROL Next]**.
 1. Provide title and name. Assets do not have children. When creating live copy of folders, you can choose to include or exclude children.
 1. Select a rollout configuration. Click **[!UICONTROL Create]**.
 
 To create live copies using the second method, follow these steps:
 
-1. In AEM interface, from upper-right corner, click **[!UICONTROL Create > Live Copy]**.
-![Create live copy from AEM interface](assets/lc_create2.png)
+1. In [!DNL Experience Manager] interface, from upper-right corner, click **[!UICONTROL Create > Live Copy]**.
+![Create live copy from [!DNL Experience Manager] interface](assets/lc_create2.png)
 1. Select source asset or folder. Click **[!UICONTROL Next]**.
 1. Select destination folder. Click **[!UICONTROL Next]**.
 1. Provide title and name. Assets do not have children. When creating live copy of folders, you can choose to include or exclude children.
@@ -87,7 +87,7 @@ To create live copies using the second method, follow these steps:
 
 ## View various properties and statuses of source and live copy {#view-properties-statuses-source-and-lc}
 
-You can view the information and MSM-related statuses of live copy such as relationship, synchronization, rollouts, and more from the various areas of the AEM user interface. The following two methods work for assets and folders:
+You can view the information and MSM-related statuses of live copy such as relationship, synchronization, rollouts, and more from the various areas of the [!DNL Experience Manager] user interface. The following two methods work for assets and folders:
 
 * Select live copy asset and find the information in its **[!UICONTROL Properties]** page.
 * Select source folder and find the detailed information of each live copy from the **[!UICONTROL Live Copy Console]**.
@@ -214,7 +214,7 @@ You can undo all the local modifications and revert the asset to the state of it
 
 ## Remove live relationship {#remove-live-relationship}
 
-You can completely remove the relationship between a source and a live copy using Detach action. The live copy becomes a stand-alone asset or folder after it is detached. It is displayed as a new asset in AEM interface, immediately after detaching. To detach a live copy from its source, follow these steps.
+You can completely remove the relationship between a source and a live copy using Detach action. The live copy becomes a stand-alone asset or folder after it is detached. It is displayed as a new asset in [!DNL Experience Manager] interface, immediately after detaching. To detach a live copy from its source, follow these steps.
 
 1. Select a live copy asset or folder. Click **[!UICONTROL Properties]** from the toolbar. Alternatively, use the keyboard shortcut `p`.
 1. Click **[!UICONTROL Live Copy]**. Click **[!UICONTROL Detach]** in the toolbar. Click **[!UICONTROL Detach]** from the dialog presented.
@@ -237,7 +237,7 @@ If you have multiple assets in a live copy folder, initiating actions on each as
 
 ## Extend MSM for Assets {#extend-msm-for-assets}
 
-AEM allows you to extend the functionality using the MSM Java APIs. For Assets, the extending works just the same as it works with MSM for Site. For details, see [Extending the MSM](../sites-developing/extending-msm.md) and the following sections for information about specific tasks:
+[!DNL Experience Manager] allows you to extend the functionality using the MSM Java APIs. For Assets, the extending works just the same as it works with MSM for Site. For details, see [Extending the MSM](../sites-developing/extending-msm.md) and the following sections for information about specific tasks:
 
 * [Overview of APIs](../sites-developing/extending-msm.md#overview-of-the-java-api)
 * [Create a new synchronization action](../sites-developing/extending-msm.md#creating-a-new-synchronization-action)
@@ -252,7 +252,7 @@ AEM allows you to extend the functionality using the MSM Java APIs. For Assets, 
 
 ## Impact of asset management tasks on live copies {#impact-of-asset-management-tasks-on-live-copies}
 
-Live copies and sources are assets or folders that can be managed, to a certain extent, as digital assets. Some asset management tasks in AEM have a specific impact on the live copies.
+Live copies and sources are assets or folders that can be managed, to a certain extent, as digital assets. Some asset management tasks in [!DNL Experience Manager] have a specific impact on the live copies.
 
 * Copying a live copy, creates a live copy asset with the same source as the first live copy.
 * When you move either a source or its live copy, the live relationship is retained.
