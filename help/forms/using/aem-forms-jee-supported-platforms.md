@@ -702,7 +702,7 @@ For additional reuirements see:
    <td><p>All updates</p> </td> 
   </tr> 
   <tr> 
-   <td>Safari on iOS 11.0 and above</td> 
+   <td>Safari on iOS 15.1 and above</td> 
    <td>All updates</td> 
   </tr> 
   <tr> 
@@ -733,7 +733,7 @@ AEM Forms app is available on the following platforms:
 
 | **Platform** |**Supported Devices** |
 |---|---|
-| Apple iOS |Apple iPhone, iPad, iPad Air, and iPad mini running iOS 11 and above. |
+| Apple iOS |Apple iPhone, iPad, iPad Air, and iPad mini running iOS 15.1 and above. |
 | Google Android |Android 4.4 (Andoird Kit Kat) and above *[API Level 19 and above]*. AEM Forms app is certified on 7- and 10-inch Samsung Galaxy tablets and 7-inch Google Nexus tablet and popular smartphones. |
 | Microsoft Windows |Microsoft Surface devices, tablets, laptops, and desktops running Microsoft Windows 10 operating system. |
 
@@ -783,3 +783,10 @@ Adobe reserves the right to change the third-party reference platforms supported
 Additional information for third-party patches can also be found by searching the Adobe Enterprise Support site for knowledgebase articles related to your product.
 
 [**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+
+## Revision History {#revision-history}
+
+
+- Oct 10, 2021
+
+  - Changed supported version of iOS for AEM Forms App to iOS 15.1. The previous version was iOS 12.
