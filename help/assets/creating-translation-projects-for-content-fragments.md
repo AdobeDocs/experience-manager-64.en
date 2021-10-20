@@ -48,13 +48,13 @@ You can also create temporary language copies for fragments similar to the way y
 
 ## Translating mixed media fragments {#translating-mixed-media-fragments}
 
-AEM lets you translate content fragments that include various types of media assets and collections. If you translate a content fragment that includes inline assets, the translated copies of these assets are stored under the target language root.
+[!DNL Experience Manager] lets you translate content fragments that include various types of media assets and collections. If you translate a content fragment that includes inline assets, the translated copies of these assets are stored under the target language root.
 
 If the content fragment includes a collection, the assets within the collection are translated along with the content fragment. The translated copies of the assets are stored within the appropriate target language root at a location that matches the physical location of the source assets under the source language root.
 
 To be able to translate content fragments that include mixed media, first edit the default translation framework to enable the translation of inline assets and collections associated with content fragments.
 
-1. Click/tap the AEM logo, and navigate to **[!UICONTROL Tools > Deployment > Cloud Services]**.
+1. Click/tap the [!DNL Experience Manager] logo, and navigate to **[!UICONTROL Tools > Deployment > Cloud Services]**.
 1. Locate **[!UICONTROL Translation Integration]** under **[!UICONTROL Adobe Marketing Cloud]**, and click/tap **[!UICONTROL Show Configurations]**. 
 
    ![chlimage_1-444](assets/chlimage_1-444.png)

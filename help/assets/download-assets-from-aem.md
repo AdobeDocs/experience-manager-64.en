@@ -18,7 +18,7 @@ The asset types Image Sets, Spin Sets, Mixed Media Sets, and Carousel Sets canno
 
 To download assets, follow these steps:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Navigation]**.
+1. In the upper-left corner of AEM, tap the [!DNL Experience Manager] logo, then in the left rail, tap **[!UICONTROL Navigation]**.
 1. On the Navigation page, tap **[!UICONTROL Assets]** > **[!UICONTROL Files.]**
 1. Navigate to a folder that contains assets you want to download.
 1. Select the folder or select one or more assets within the folder.
@@ -61,7 +61,7 @@ To allow downloading assets from your DAM, say when using something like Asset S
 
 The `Asset Download Servlet` can be disabled on an [!DNL Experience Manager] Publish instances by updating the dispatcher configuration to block any asset download requests. The servlet can also be manually disabled via the OSGi console directly.
 
-1. To block asset download requests via a dispatcher configuration, edit the `dispatcher.any` configuration and add a rule to the [filter section](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#configuring-access-to-content-filter). `/0100 { /type "deny" /url "*.assetdownload.zip/assets.zip*" }`
+1. To block asset download requests via a dispatcher configuration, edit the `dispatcher.any` configuration and add a rule to the [filter section](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#configuring-access-to-content-filter). `/0100 { /type "deny" /url "*.assetdownload.zip/assets.zip*" }`
 
 1. To disable the OSGi component on a Publish instance, access the OSGi Console at `http://[aem_server]:[port]/system/console/components`. Locate `com.day.cq.dam.core.impl.servlet.AssetDownloadServlet` and click **[!UICONTROL Disable]**.
 

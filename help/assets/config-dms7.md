@@ -63,7 +63,7 @@ See [Installing feature pack 18912 for bulk asset migration](bulk-ingest-migrate
 
 ## Configuring Dynamic Media Cloud Services {#configuring-dynamic-media-cloud-services}
 
-Change the password, before you configure Dynamic Media Cloud Services. After you receive your provisioning email with Dynamic Media credentials, you must [sign in](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/dynamic-media-classic-desktop-app.html?lang=en#system-requirements-dmc-app) to Dynamic Media Classic desktop application to change your password. The password provided in the provisioning email is system-generated and intended to be a temporary password only. It is important that you update the password so that Dynamic Media Cloud Service is set up with the correct credentials.
+Change the password, before you configure Dynamic Media Cloud Services. After you receive your provisioning email with Dynamic Media credentials, you must [sign in](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/dynamic-media-classic-desktop-app.html#system-requirements-dmc-app) to Dynamic Media Classic desktop application to change your password. The password provided in the provisioning email is system-generated and intended to be a temporary password only. It is important that you update the password so that Dynamic Media Cloud Service is set up with the correct credentials.
 
    >[!NOTE]
    >
@@ -73,7 +73,7 @@ Change the password, before you configure Dynamic Media Cloud Services. After yo
 
 1. In your Experience Manager Author instance, tap the Experience Manager logo to access the global navigation console and tap the Tools icon, then tap **[!UICONTROL Cloud Services]** > **[!UICONTROL Dynamic Media Configuration]**.
 1. On the Dynamic Media Configuration Browser page, in the left pane, tap **[!UICONTROL global]** and tap **[!UICONTROL Create]**. Do not tap or select the folder icon to the left of [!UICONTROL global].
-1. On the [!UICONTROL Create Dynamic Media Configuration] page, enter a title, the Dynamic Media account email address, and password. Select your region. This information is provided to you by Adobe in your provisioning email. Contact Adobe Customer Care if you did not receive the email.
+1. On the [!UICONTROL Create Dynamic Media Configuration] page, enter a title, the Dynamic Media account email address, and password. Select your region. This information is provided to you by Adobe in your provisioning email. Contact Adobe Customer Support if you did not receive the email.
 
    Tap **[!UICONTROL Connect to Dynamic Media]**.
 

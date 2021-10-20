@@ -10,7 +10,7 @@ exl-id: 41e083b3-e956-4346-9a99-008de2c6a169
 
 All digital assets, metadata and content of Microsoft Office and PDF documents are extracted and made searchable. Search allows sophisticated filtering on assets and fully respects the proper permissions. Metadata is covered in detail in metadata in Digital Asset Management.
 
-AEM Assets supports multiple ways of organizing content. You can organize them in a hierarchical manner using folders or you can organize them in an unordered, ad-hoc manner, using for example tags. Users can edit tags in the DAM Asset Editor where sub-assets, renditions, and metadata are displayed.
+[!DNL Experience Manager] Assets supports multiple ways of organizing content. You can organize them in a hierarchical manner using folders or you can organize them in an unordered, ad-hoc manner, using for example tags. Users can edit tags in the DAM Asset Editor where sub-assets, renditions, and metadata are displayed.
 
 ## Organize assets in folders {#organize-using-folders}
 
@@ -30,7 +30,7 @@ The most basic way to organize assets is to save these in folders. It is analogo
     * **Date-based folders** &ndash; contains digital assets based on a creation date or a last modified date.
 
 * Create a directory of folders that are not likely to change so that any customization or automation continues to work. For example, the assigned processing profiles continue to work.
-* If an asset is already published, then you use AEM to move the asset to another folder, and re-publish from its new location, the original published asset location is still available, along with the newly re-published asset. The original published asset, however, is *lost* to AEM and cannot be unpublished. Therefore, as a best practice, first unpublish an asset and then move it to a different folder.
+* If an asset is already published, then you use [!DNL Experience Manager] to move the asset to another folder, and re-publish from its new location, the original published asset location is still available, along with the newly re-published asset. The original published asset, however, is *lost* to [!DNL Experience Manager] and cannot be unpublished. Therefore, as a best practice, first unpublish an asset and then move it to a different folder.
 
 ## Organize assets using tags {#use-tags-to-organize-assets}
 

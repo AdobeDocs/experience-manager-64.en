@@ -1,6 +1,6 @@
 ---
 title: Assets Monitoring Best Practices
-description: Best practices for monitoring the environment and performance of your AEM instance after it is deployed.
+description: Best practices for monitoring the environment and performance of your [!DNL Experience Manager] instance after it is deployed.
 contentOwner: AG
 feature: Asset Management
 role: Admin,Architect
@@ -8,7 +8,7 @@ exl-id: edbb275a-5ead-4ed2-8708-29e766081d75
 ---
 # Assets monitoring best practices {#assets-monitoring-best-practices}
 
-From the Adobe Experience Manager (AEM) Assets standpoint, monitoring should include observing and reporting on the following processes and technologies:
+From the Adobe Experience Manager Assets standpoint, monitoring should include observing and reporting on the following processes and technologies:
 
 * System CPU
 * System memory usage
@@ -21,7 +21,7 @@ From the Adobe Experience Manager (AEM) Assets standpoint, monitoring should inc
 
 * OSGi console health checks
 
-Typically, AEM Assets can be monitored in two ways, live monitoring and long term monitoring.
+Typically, [!DNL Assets] can be monitored in two ways, live monitoring and long term monitoring.
 
 ## Live monitoring {#live-monitoring}
 
@@ -36,10 +36,10 @@ You should perform live monitoring during the performance testing phase of your 
 * [Iftop](https://www.ex-parrot.com/pdw/iftop/): Iftop displays detailed information about ethernet/network usage. Iftop displays per communication channel statistics on the entities using ethernet and the amount of bandwidth they use. Iftop can be installed on most Linux systems using `yum install iftop` or `apt-get install iftop`.
 
 * Java Flight Recorder (JFR): A commercial tool from Oracle that you can use freely in non-production environments. For more details, see [How to Use Java Flight Recorder to Diagnose CQ Runtime Problems](https://cq-ops.tumblr.com/post/73865704329/how-to-use-java-flight-recorder-to-diagnose-cq).
-* AEM error.log file: You can investigate the AEM error.log file for details of errors logged in the system. Use the command `tail -F quickstart/logs/error.log` to identify errors that you should investigate.
+* [!DNL Experience Manager] error.log file: You can investigate the [!DNL Experience Manager] error.log file for details of errors logged in the system. Use the command `tail -F quickstart/logs/error.log` to identify errors that you should investigate.
 * [Workflow console](../sites-administering/workflows.md): Leverage the workflow console to monitor workflows that lag behind or get stuck.
 
-Typically, you use these tools together to obtain a comprehensive idea about the performance of your AEM instance.
+Typically, you use these tools together to obtain a comprehensive idea about the performance of your [!DNL Experience Manager] instance.
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Typically, you use these tools together to obtain a comprehensive idea about the
 
 ## Long Term Monitoring {#long-term-monitoring}
 
-Long term monitoring of an AEM instance involves monitoring for a longer duration the same portions that are monitored live. It also includes defining alerts specific to your environment.
+Long term monitoring of an [!DNL Experience Manager] instance involves monitoring for a longer duration the same portions that are monitored live. It also includes defining alerts specific to your environment.
 
 ### Log aggregation and reporting {#log-aggregation-and-reporting}
 
-There are several tools available to aggregate logs, for example Splunk(TM) and Elastic Search/Logstash/Kabana (ELK). To evaluate the uptime of your AEM instance, it is important for you to understand log events specific to your system and create alerts based on them. A good knowledge of your development and operations practices can help you better understand how to tune your log aggregation process to generate critical alerts.
+There are several tools available to aggregate logs, for example Splunk(TM) and Elastic Search/Logstash/Kabana (ELK). To evaluate the uptime of your [!DNL Experience Manager] instance, it is important for you to understand log events specific to your system and create alerts based on them. A good knowledge of your development and operations practices can help you better understand how to tune your log aggregation process to generate critical alerts.
 
 ### Environment monitoring {#environment-monitoring}
 
@@ -70,7 +70,7 @@ You require external tools, such as NewRelic(TM) and AppDynamics(TM) to monitor 
 
 #### Internal application monitoring {#internal-application-monitoring}
 
-Internal application monitoring includes monitoring the application components that make up the AEM stack, including JVM, the content repository, and monitoring through custom application code built on the platform. In general, it is performed through JMX Mbeans that can be monitored directly by many popular monitoring solutions, such as SolarWinds (TM), HP OpenView(TM), Hyperic(TM), Zabbix(TM), and others. For systems that do not support a direct connection to JMX, you can write shell scripts to extract the JMX data and expose it to these systems in a format that they natively understand.
+Internal application monitoring includes monitoring the application components that make up the [!DNL Experience Manager] stack, including JVM, the content repository, and monitoring through custom application code built on the platform. In general, it is performed through JMX Mbeans that can be monitored directly by many popular monitoring solutions, such as SolarWinds (TM), HP OpenView(TM), Hyperic(TM), Zabbix(TM), and others. For systems that do not support a direct connection to JMX, you can write shell scripts to extract the JMX data and expose it to these systems in a format that they natively understand.
 
 Remote access to the JMX Mbeans is not enabled by default. For more information on monitoring through JMX, see [Monitoring and Management Using JMX Technology](https://docs.oracle.com/javase/7/docs/technotes/guides/management/agent.html).
 
@@ -78,7 +78,7 @@ In many cases, a baseline is required to effectively monitor a statistic. To cre
 
 **JVM monitoring**
 
-As with any Java-based application stack, AEM depends on the resources that are provided to it through the underlying Java Virtual Machine. You can monitor the status of many of these resources through Platform MXBeans that are exposed by JVM. For more information on MXBeans, see [Using the Platform MBean Server and Platform MXBeans](https://docs.oracle.com/javase/7/docs/technotes/guides/management/mxbeans.html).
+As with any Java-based application stack, [!DNL Experience Manager] depends on the resources that are provided to it through the underlying Java Virtual Machine. You can monitor the status of many of these resources through Platform MXBeans that are exposed by JVM. For more information on MXBeans, see [Using the Platform MBean Server and Platform MXBeans](https://docs.oracle.com/javase/7/docs/technotes/guides/management/mxbeans.html).
 
 Here are some baseline parameters that you can monitor for JVM:
 
@@ -100,11 +100,11 @@ Threads
 * Alarm threshold: When the number of threads is greater than 150% of the baseline.
 * Alarm definition: Either there is an active runaway process, or an inefficient operation consumes a large amount of resources. Analyze a thread dump to arrive at a definition.
 
-**AEM monitoring**
+**[!DNL Experience Manager] monitoring**
 
-AEM also exposes a set of statistics and operations through JMX. These can help assess system health and identify potential problems before they impact users. For more information, see [documentation](/help/sites-administering/jmx-console.md) on AEM JMX MBeans.
+[!DNL Experience Manager] also exposes a set of statistics and operations through JMX. These can help assess system health and identify potential problems before they impact users. For more information, see [documentation](/help/sites-administering/jmx-console.md) on [!DNL Experience Manager] JMX MBeans.
 
-Here are some baseline parameters that you can monitor for AEM:
+Here are some baseline parameters that you can monitor for [!DNL Experience Manager]:
 
 Replication agents
 
@@ -181,13 +181,13 @@ Here are some out-of-the-box health checks that are helpful to monitor:
 
 ## Common Issues and Resolutions  {#common-issues-and-resolutions}
 
-In the process of monitoring, if you encounter issues, here are some troubleshooting tasks that you can perform to resolve common issues with AEM instances:
+In the process of monitoring, if you encounter issues, here are some troubleshooting tasks that you can perform to resolve common issues with [!DNL Experience Manager] instances:
 
 * If using TarMK, run Tar compaction often. For more details, see [Maintaining the Repository](/help/sites-deploying/storage-elements-in-aem-6.md#maintaining-the-repository).
 * Check `OutOfMemoryError` logs. For more information, see [Analyze memory problems](https://helpx.adobe.com/experience-manager/kb/AnalyzeMemoryProblems.html).
 * Check the logs for any references to unindexed queries, tree traversals, or index traversals. These indicate unindexed queries or inadequately indexed queries. For For best practices on optimizing query and indexing performance, see [Best Practices for Queries and Indexing](/help/sites-deploying/best-practices-for-queries-and-indexing.md).
 * Use the workflow console to verify that your workflows perform as expected. If possible, condense multiple workflows into a single workflow.
 * Revisit live monitoring, and look for additional bottlenecks or high consumers of any specific resources.
-* Investigate the egress points from the client network and the ingress points to the AEM instance network, including the dispatcher. Frequently, these are bottleneck areas. For more information, see [Assets network considerations](assets-network-considerations.md).
-* Upsize your AEM server. You may have an inadequately sized your AEM instance. Adobe Customer Care can help you identify whether your server is undersized.
+* Investigate the egress points from the client network and the ingress points to the [!DNL Experience Manager] instance network, including the dispatcher. Frequently, these are bottleneck areas. For more information, see [Assets network considerations](assets-network-considerations.md).
+* Upsize your [!DNL Experience Manager] server. You may have an inadequately sized your [!DNL Experience Manager] instance. Adobe Customer Support can help you identify whether your server is undersized.
 * Examine the `access.log` and `error.log` files for entries around the time of something went wrong. Look for patterns that can potentially indicate custom code anomalies. Add them to the list of events you monitor.
