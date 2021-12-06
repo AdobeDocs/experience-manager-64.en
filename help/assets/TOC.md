@@ -98,6 +98,7 @@ user-guide-description: Create, manage, deliver, and optimize digital assets.
   + [Using PDF rasterizer](aem-pdf-rasterizer.md)
   + [Configuring asset upload restrictions](configuring-asset-upload-restrictions.md)
   + [AEM and Creative Cloud integration best practices](aem-cc-integration-best-practices.md)
+  + [Configure Adobe Asset Link](configure-asset-link.md)
   + [Integrating AEM Assets with InDesign server](indesign.md)
   + [Metadata profiles](metadata-profiles.md)
   + [Digital Rights Management in Assets](drm.md)
