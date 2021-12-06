@@ -160,3 +160,7 @@ user-guide-description: Create, manage, deliver, and optimize digital assets.
   + [Private folder sharing](private-folder.md)
   + [Smart Content Service Training Guidelines](smart-tags-training-guidelines.md)
   + [Video renditions](video-renditions.md)
++ Integration with other solutions {#integrations}
+  + [Integrations with [!DNL Adobe Workfront]](workfront-integrations.md)
+  + [Install [!DNL enhanced connector] for [!DNL Workfront]](workfront-connector-install.md)
+  + [Configure [!DNL enhanced connector] for [!DNL Workfront]](workfront-connector-configure.md)

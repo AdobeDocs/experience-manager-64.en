@@ -16,7 +16,7 @@ Before performing any of the steps described below, review and implement the gui
 
 >[!NOTE]
 >
->The following asset migration tools are not part of Adobe Experience Manager. Adobe Customer Care does not support these tools.
+>The following asset migration tools are not part of Adobe Experience Manager. Adobe Customer Support does not support these tools.
 >
 >* ACS [!DNL Experience Manager] Tools Tag Maker
 >* ACS [!DNL Experience Manager] Tools CSV Asset Importer
