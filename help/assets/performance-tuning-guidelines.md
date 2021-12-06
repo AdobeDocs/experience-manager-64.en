@@ -209,7 +209,7 @@ In addition, set the path of ImageMagick's temporary folder in the *configure.xm
 >
 >The ImageMagick `policy.xml` and `configure.xml` files may be found under `/usr/lib64/ImageMagick-*/config/` instead of `/etc/ImageMagick/`. See [ImageMagick documentation](https://www.imagemagick.org/script/resources.php) for details on the configuration file locations.
 
-If you are using [!DNL Experience Manager] on Adobe Managed Services (AMS), reach out to Adobe Customer Care if you plan to process lots of large PSD or PSB files. Experience Manager may not process very high-resolution PSB files that are more than 30000 x 23000 pixels.
+If you are using [!DNL Experience Manager] on Adobe Managed Services (AMS), reach out to Adobe Customer Support if you plan to process lots of large PSD or PSB files. Experience Manager may not process very high-resolution PSB files that are more than 30000 x 23000 pixels.
 
 <!-- 
 
@@ -412,6 +412,6 @@ To minimize latency and achieve high throughput through efficient CPU utilizatio
 * Remove unnecessary steps from the DAM Update Asset workflow.
 * Configure workflow and version purging.
 * Optimize Lucene index configuration.
-* Optimize indexes with the latest service packs and hotfixes. Check with Adobe Customer Care for any additional index optimizations that may be available.
+* Optimize indexes with the latest service packs and hotfixes. Check with Adobe Customer Support for any additional index optimizations that may be available.
 * Use `guessTotal` to optimize query performance.
 * If you configure [!DNL Experience Manager] to detect file types from the content of the files (by configuring [!UICONTROL Day CQ DAM Mime Type Service] in the [!UICONTROL [!DNL Experience Manager] Web Console]), upload many files in bulk during non-peak hours as the operation is resource-intensive.

@@ -136,3 +136,5 @@ If you are using Microsoft Edge as browser:
 * The Chart component in adaptive forms takes more space than it normally does.
 * An exception is returned when saving properties for adaptive forms, adaptive form fragments, or interactive communications in Forms Manager UI.
 * The specified maximum number of characters for an adaptive form text box is not honored on Android 6.0 Samsung devices. (Ref# CQ-4235205)
+* When you submit a form containing a standard HTML upload field from an Apple iOS device, sometimes, the content of the file is not sent and a 0-byte file is received at the other end. Apple iOS 15.1 provides a fix for the issue.  
+
