@@ -3,8 +3,7 @@ title: Configure Experience Manager Assets for Adobe Asset Link
 description: Configure Experience Manager Assets for use with the Adobe Asset Link extension for Creative Cloud applications.
 contentOwner: Vishabh Gupta
 role: Admin
-feature: Asset Management
-exl-id: 
+feature: Asset Management 
 ---
 
 # Configure Experience Manager Assets for Adobe Asset Link {#adobe-asset-link}
