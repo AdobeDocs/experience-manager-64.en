@@ -958,11 +958,11 @@ To view Video Reports based on a video viewer that you created using the HTML5 V
 
 <!--    For more information, see *Using the TrackingManager Component* in the *Scene7 HTML5 Viewer SDK User Guide* available for download from [Adobe Developer Connection](https://help.adobe.com/en_US/scene7/using/WSef8d5860223939e2-43dedf7012b792fc1d5-8000.html). -->
 
-## Add captions to video {#adding-captions-to-video}
+## Add closed captions to video {#adding-captions-to-video}
 
-You can extend the reach of your videos to global markets by adding captioning to single videos or to Adaptive Video Sets. By adding captioning you avoid the need to dub the audio, or the need to use native speakers to rerecord the audio for each different language. The video is played in the language that it was recorded. Foreign language subtitles appear so that people of different languages can still understand the audio portion.
+You can extend the reach of your videos to global markets by adding closed captioning to single videos or to Adaptive Video Sets. By adding captioning you avoid the need to dub the audio, or the need to use native speakers to rerecord the audio for each different language. The video is played in the language that it was recorded. Foreign language subtitles appear so that people of different languages can still understand the audio portion.
 
-Captioning also allows for greater accessibility by using closed captioning for people who are deaf or hard of hearing.
+Closed captioning also allows for greater accessibility for people who are deaf or hard of hearing.
 
 >[!NOTE]
 >
