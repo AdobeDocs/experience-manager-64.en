@@ -1,8 +1,8 @@
 ---
 title: Configurations and the Configuration Browser
 description: Understand AEM configurations and how they manage workspace settings in AEM.
+exl-id: c7e0c8d4-a0e9-4e98-b356-dad9e31ac3fb
 ---
-
 # Configurations and the Configuration Browser {#configuration-browser}
 
 AEM configurations serve to manage settings in AEM and serve as workspaces.
