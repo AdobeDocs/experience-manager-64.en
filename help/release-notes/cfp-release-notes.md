@@ -83,7 +83,7 @@ Adobe Experience Manager 6.4.8.4 provides fixes for the following issues.
 
 * When you edit a task notification in [!DNL Forms] workflow, you are not able to save it (CQ-4315055).
 
-**Issues fixed in 6.4.8.4-1.0**
+**Issues fixed in AEMForms-6.4.0-0027**
 
 * (JEE Only) Critical security vulnerabilities (CVE-2021-44228 and CVE-2021-45046) reported for Apache Log4j2.
 
