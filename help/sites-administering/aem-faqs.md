@@ -35,7 +35,7 @@ View the `Initiator` column to determine what the initiator of a request was. It
 
 To create language copy feature, content-authors need permissions at `/content/projects` location.
 
-If one requires the authors to manage projects as well, then the workaround is to add the author to `project-administrators` group.
+If one requires the authors to manage projects as well, then the workaround is to add the author to `projects-administrators` group.
 
 ### How to change the format while creating Language Copy for a project? {#how-to-change-the-format-while-creating-language-copy-for-a-project}
 
