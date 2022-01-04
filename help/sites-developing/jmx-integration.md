@@ -41,7 +41,7 @@ The [com.adobe.granite.jmx.annotation](https://helpx.adobe.com/experience-manage
 
 Add annotations to the management interface to specify MBean metadata. The information appears in the JMX console for each implementation class that is deployed. The following annotations are available (for complete information, see the [com.adobe.granite.jmx.annotation JavaDocs](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/adobe/granite/jmx/annotation/package-summary.html)):
 
-* **Description:** Provides a description of the MBean class or method. When used on the class declaration, the desctiption appears on the JMX Console page for the MBean. When used on a method, the desctiption appears as hover text for the corresponding attribute or operation.
+* **Description:** Provides a description of the MBean class or method. When used on the class declaration, the description appears on the JMX Console page for the MBean. When used on a method, the desctiption appears as hover text for the corresponding attribute or operation.
 * **Impact:** The impact of a method. Valid parameter values are the fields defined by [javax.management.MBeanOperationInfo](https://docs.oracle.com/javase/1.5.0/docs/api/javax/management/MBeanOperationInfo.html). 
 
 * **Name:** Specifies the name to display for an operation parameter. Use this annotation to override the actual name of the method parameter that is used in the interface.
