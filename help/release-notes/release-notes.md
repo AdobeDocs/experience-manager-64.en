@@ -181,7 +181,7 @@ AEM 6.4 brings in several new features and enhancements to Assets including new,
 
 **Adobe Asset Link**
 
-Adobe Asset Link in Creative Cloud for enterprise streamlines collaboration between creatives and marketers in the content creation process. It is a new native capability in Creative Cloud for enterprise that connects Photoshop CC, Illustrator CC, and InDesign CC to AEM — without creatives having to leave their tools of choice.
+Adobe Asset Link in Creative Cloud for enterprise streamlines collaboration between creatives and marketers in the content creation process. It is a new native capability in Creative Cloud for enterprise that connects Photoshop, Illustrator, and InDesign to AEM — without creatives having to leave their tools of choice.
 
 To learn more about this capability, prerequisites, and how to access it, see [Adobe Asset Link](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html).
 

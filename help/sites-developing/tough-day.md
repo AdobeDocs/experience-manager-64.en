@@ -19,7 +19,7 @@ Tough Day 2 is a an application that allows you to stress test the limits of you
 
 ## How to run Tough Day 2 {#how-to-run-tough-day}
 
-Download the latest version of Tough Day 2 from the [Adobe Repository](https://repo.adobe.com/nexus/content/repositories/releases/com/adobe/qe/toughday2/). After you download the application, you can run it out of the box by providing the `host` parameter. In the following example, the AEM instance runs locally so the `localhost` value is used:
+Download the latest version of Tough Day 2 from the [Adobe Repository](https://repo1.maven.org/maven2/com/adobe/qe/toughday2/). After you download the application, you can run it out of the box by providing the `host` parameter. In the following example, the AEM instance runs locally so the `localhost` value is used:
 
 ```xml
 java -jar toughday2.jar --host=localhost

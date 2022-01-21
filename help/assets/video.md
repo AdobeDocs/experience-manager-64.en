@@ -40,7 +40,7 @@ The following step-by-step workflow description is designed to help you get up a
 
     * Upload your primary source videos to the folders. When you add videos to the folder, they are encoded according to the video processing profile that you assigned to the folder.
 
-        * Dynamic Media supports primarily short-form videos with a maximum length of 30 minutes.
+        * Dynamic Media supports primarily short-form videos with a maximum length of 30 minutes and a minimum resolution that is greater than 50 x 50.
         * You can upload video files that are up to 15 GB each. 
         * [Upload your videos](managing-video-assets.md#uploading-and-previewing-video-assets).
         * Learn more about [Supported input file formats](assets-formats.md#supported-multimedia-formats).
@@ -138,7 +138,7 @@ For managing single video and Adaptive Video Sets, the following is supported:
 * Organize, browse, and search video with full metadata support for efficient management of video assets.
 * Deliver Adaptive Video Sets to the web as well as to desktops, and mobile devices, including the iPhone, iPad, Android, Blackberry, and Windows phone.
 
-Adaptive video streaming is supported on a variety of iOS platforms. See the [Adobe Viewers Reference Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html).
+Adaptive video streaming is supported on a variety of iOS platforms. See the [Adobe Viewers Reference Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html).
 
 Dynamic Media supports mobile video playback for MP4 H.264 video. You can find Blackberry devices that support this video format at the following: [Supported video formats on Blackberry](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
@@ -280,7 +280,7 @@ For advice about video encoding, see the following:
 
 When you encode a video file, use a source video file of the highest possible quality. Avoid using previously encoded video files because these files are already compressed, and further encoding creates a subpar quality video.
 
-* Dynamic Media supports mainly short-form videos with a maximum length of 30 minutes.
+* Dynamic Media supports primarily short-form videos with a maximum length of 30 minutes and a minimum resolution that is greater than 50 x 50.
 * You can upload primary source video files that are up to 15 GB each.
 
 The following table describes the recommended size, aspect ratio, and minimum bit rate that your source video files should have before you encode them:
@@ -897,7 +897,7 @@ For video reports to work correctly, a Report Suite ID is automatically created 
 
 If you are using an out-of-box video viewer provided by Dynamic Media, or if you created a custom viewer preset based off of an out-of-box video viewer, then no additional steps are required to view video reports. However, if you have created your own video viewer based off the HTML5 Viewer SDK API, then use the following steps to ensure the your video viewer is sending tracking events to Dynamic Media Video Reports.
 
-Use the [Adobe Dynamic Media Viewers Reference Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html) and the [HTML5 Viewer SDK API](https://s7d1.scene7.com/s7sdk/3.10/docs/jsdoc/index.html) to create your own video viewers.
+Use the [Adobe Dynamic Media Viewers Reference Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) and the [HTML5 Viewer SDK API](https://s7d1.scene7.com/s7sdk/3.10/docs/jsdoc/index.html) to create your own video viewers.
 
 To view Video Reports based on a video viewer that you created using the HTML5 Viewer SDK API:
 
@@ -958,11 +958,11 @@ To view Video Reports based on a video viewer that you created using the HTML5 V
 
 <!--    For more information, see *Using the TrackingManager Component* in the *Scene7 HTML5 Viewer SDK User Guide* available for download from [Adobe Developer Connection](https://help.adobe.com/en_US/scene7/using/WSef8d5860223939e2-43dedf7012b792fc1d5-8000.html). -->
 
-## Add captions to video {#adding-captions-to-video}
+## Add closed captions to video {#adding-captions-to-video}
 
-You can extend the reach of your videos to global markets by adding captioning to single videos or to Adaptive Video Sets. By adding captioning you avoid the need to dub the audio, or the need to use native speakers to rerecord the audio for each different language. The video is played in the language that it was recorded. Foreign language subtitles appear so that people of different languages can still understand the audio portion.
+You can extend the reach of your videos to global markets by adding closed captioning to single videos or to Adaptive Video Sets. By adding captioning you avoid the need to dub the audio, or the need to use native speakers to rerecord the audio for each different language. The video is played in the language that it was recorded. Foreign language subtitles appear so that people of different languages can still understand the audio portion.
 
-Captioning also allows for greater accessibility by using closed captioning for people who are deaf or hard of hearing.
+Closed captioning also allows for greater accessibility for people who are deaf or hard of hearing.
 
 >[!NOTE]
 >

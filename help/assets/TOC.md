@@ -98,6 +98,7 @@ user-guide-description: Create, manage, deliver, and optimize digital assets.
   + [Using PDF rasterizer](aem-pdf-rasterizer.md)
   + [Configuring asset upload restrictions](configuring-asset-upload-restrictions.md)
   + [AEM and Creative Cloud integration best practices](aem-cc-integration-best-practices.md)
+  + [Configure Adobe Asset Link](configure-asset-link.md)
   + [Integrating AEM Assets with InDesign server](indesign.md)
   + [Metadata profiles](metadata-profiles.md)
   + [Digital Rights Management in Assets](drm.md)
@@ -159,3 +160,7 @@ user-guide-description: Create, manage, deliver, and optimize digital assets.
   + [Private folder sharing](private-folder.md)
   + [Smart Content Service Training Guidelines](smart-tags-training-guidelines.md)
   + [Video renditions](video-renditions.md)
++ Integration with other solutions {#integrations}
+  + [Integrations with [!DNL Adobe Workfront]](workfront-integrations.md)
+  + [Install [!DNL enhanced connector] for [!DNL Workfront]](workfront-connector-install.md)
+  + [Configure [!DNL enhanced connector] for [!DNL Workfront]](workfront-connector-configure.md)

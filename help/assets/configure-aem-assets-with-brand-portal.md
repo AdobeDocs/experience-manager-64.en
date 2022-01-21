@@ -8,7 +8,7 @@ exl-id: cde35555-259f-4d16-999f-2b93d597b8a5
 ---
 # Configure AEM Assets with Brand Portal {#configure-integration-64}
 
-Adobe Experience Manager (AEM) Assets is configured with Brand Portal through [!DNL Adobe I/O], which procures an IMS token for authorization of your Brand Portal tenant.
+Adobe Experience Manager Assets is configured with Brand Portal through [!DNL Adobe I/O], which procures an IMS token for authorization of your Brand Portal tenant.
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ For detailed instructions see,
 
 * [AEM 6.4 Service Pack Release Notes](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html)
 
-**Contact Customer Care** if you are unable to find the latest AEM package or Service Pack.
+**Contact Customer Support** if you are unable to find the latest AEM package or Service Pack.
 
 ## Create configuration {#configure-new-integration-64}
 
@@ -278,6 +278,7 @@ Brand Portal is successfully configured with your AEM Assets author instance. Yo
 ## Upgrade configuration {#upgrade-integration-64}
 
 Perform the following steps in the listed sequence to upgrade existing configurations: 
+
 1. [Verify running jobs](#verify-jobs)
 1. [Delete existing configurations](#delete-existing-configuration)
 1. [Create configuration](#configure-new-integration-64)
@@ -307,6 +308,7 @@ Ensure that no publishing job is running on your AEM Assets author instance befo
 ### Delete existing configurations {#delete-existing-configuration}
 
 You must run the following check-list while deleting the existing configuration.
+
 * Delete all four replication agents
 * Delete cloud service
 * Delete MAC user 

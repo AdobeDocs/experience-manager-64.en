@@ -1,6 +1,6 @@
 ---
 title: Integrating Assets with Activity Stream
-description: Describes the recording capabilities of AEM and how to configure AEM to record specific events.
+description: Describes the recording capabilities of [!DNL Experience Manager] and how to configure [!DNL Experience Manager] to record specific events.
 contentOwner: AG
 feature: Asset Management
 role: Developer
@@ -8,11 +8,11 @@ exl-id: c25a4da7-1c58-41cf-9ff6-c094b50208e6
 ---
 # Integrating Assets with Activity Stream {#integrating-assets-with-activity-stream}
 
-Adobe Experience Manager (AEM) Assets users perform many actions like creating, uploading and deleting Assets. These actions can be recorded so you are able to provide an history of what has been done by a user. This section describes the recording capabilities of AEM and how to configure AEM in order to record specific events.
+Adobe Experience Manager Assets users perform many actions like creating, uploading and deleting Assets. These actions can be recorded so you are able to provide an history of what has been done by a user. This section describes the recording capabilities of [!DNL Experience Manager] and how to configure [!DNL Experience Manager] in order to record specific events.
 
 ## Performance Considerations and Default Behavior {#performance-considerations-and-default-behavior}
 
-This integration could be CPU and disk space consuming for example when doing bulk import. For these reasons the AEM Assets integration with the Activity Stream is disabled by default.
+This integration could be CPU and disk space consuming for example when doing bulk import. For these reasons the [!DNL Experience Manager] Assets integration with the Activity Stream is disabled by default.
 
 ## Supported Action Events {#supported-action-events}
 
@@ -34,9 +34,9 @@ The following events can be configured to be recorded:
 * Sub-asset updated (SUBASSET_UPDATED)
 * Sub-asset removed (SUBASSET_REMOVED)
 
-## Configuring AEM Assets Events Recording {#configuring-aem-assets-events-recording}
+## Configuring [!DNL Assets] Events Recording {#configuring-aem-assets-events-recording}
 
-The [Web console](/help/sites-deploying/configuring-osgi.md) provides access to the AEM Assets Event Recorder tuning. To configure the AEM Assets Event Recorder, proceed as follows:
+The [Web console](/help/sites-deploying/configuring-osgi.md) provides access to the [!DNL Assets] Event Recorder tuning. To configure the [!DNL Assets] Event Recorder, proceed as follows:
 
 1. Navigate to the **[!UICONTROL Web console]** 
 

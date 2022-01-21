@@ -1,14 +1,14 @@
 ---
 title: Search assets in AEM
-description: Learn how to find the required assets in AEM by using Filters panel, and how to use the assets that show up in search.
+description: Learn how to find the required assets in [!DNL Experience Manager] by using Filters panel, and how to use the assets that show up in search.
 contentOwner: AG
 feature: Search,Metadata
 role: User
 exl-id: cc1a5946-e13d-4433-a25a-d297fd07e2e4
 ---
-# Search assets in AEM {#search-assets-in-aem}
+# Search assets in [!DNL Experience Manager] {#search-assets-in-aem}
 
-Learn how to find the required assets in AEM by using Filters panel, and how to use the assets that show up in search.
+Learn how to find the required assets in [!DNL Experience Manager] by using Filters panel, and how to use the assets that show up in search.
 
 Use the Filters panel to search for assets, folders, tags, and metadata. You can search parts of a string using the wildcard asterisk.
 
