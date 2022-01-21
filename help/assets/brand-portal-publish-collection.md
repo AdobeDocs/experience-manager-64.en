@@ -2,23 +2,25 @@
 title: Publish collections to Brand Portal
 description: Learn how to publish and unpublish collections to Brand Portal.
 contentOwner: VG
+feature: Brand Portal
+role: User
+exl-id: c2c6759e-f763-405e-9e45-5a90b9d32df2
 ---
-
 # Publish collections to Brand Portal {#publish-collections-to-brand-portal}
 
-As an Adobe Experience Manager (AEM) Assets administrator, you can publish collections to the AEM Assets Brand Portal instance for your organization. However, you must first integrate AEM Assets with Brand Portal. For details, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md).
+As an Adobe Experience Manager Assets administrator, you can publish collections to the [!DNL Experience Manager Assets Brand Portal] instance for your organization. However, you must first integrate Assets with Brand Portal. For details, see [Configure Assets with Brand Portal](configure-aem-assets-with-brand-portal.md).
 
-If you make subsequent modifications to the original collection in AEM Assets, the changes are not reflected in Brand Portal until you publish the collection again. This characteristic ensures that work-in-progress changes are not available in Brand Portal. Only approved changes that are published by an administrator are available in Brand Portal.
+If you make subsequent modifications to the original collection in Assets, the changes are not reflected in Brand Portal until you publish the collection again. This characteristic ensures that work-in-progress changes are not available in Brand Portal. Only approved changes that are published by an administrator are available in Brand Portal.
 
 >[!NOTE]
 >
->Content fragments cannot be published to the Brand Portal. Therefore, if you select content fragment(s) on AEM Author, then **[Publish to Brand Portal]** action is not available.
+>Content fragments cannot be published to the Brand Portal. Therefore, if you select content fragment(s) on [!DNL Experience Manager] Author, then **[Publish to Brand Portal]** action is not available.
 >
->If collections containing content fragments are published from AEM Author to Brand Portal, then all the contents of the folder except content fragments get replicated to Brand Portal interface.
+>If collections containing content fragments are published from [!DNL Experience Manager] Author to Brand Portal, then all the contents of the folder except content fragments get replicated to Brand Portal interface.
 
 ## Publish a collection to Brand Portal {#publish-a-collection-to-brand-portal}
 
-1. In the AEM Assets UI, tap/click the AEM logo. Then, go to **[!UICONTROL Assets > Collections]** from the **[!UICONTROL Navigation]** page.
+1. In the Assets UI, tap/click the [!DNL Experience Manager] logo. Then, go to **[!UICONTROL Assets > Collections]** from the **[!UICONTROL Navigation]** page.
 2. From the Collections console, select the collection you want to publish to Brand Portal.
 
    ![select_collection](assets/select_collection.png)
@@ -35,9 +37,9 @@ If you make subsequent modifications to the original collection in AEM Assets, t
 
 ## Unpublish collections {#unpublish-collections}
 
-You can unpublish collections that you publish from AEM Assets to Brand Portal. After you unpublish the original collection, its copy is no longer available to Brand Portal users.
+You can unpublish collections that you publish from Assets to Brand Portal. After you unpublish the original collection, its copy is no longer available to Brand Portal users.
 
-1. From the Collections console of your AEM Assets instance, and select the collection you want to unpublish.
+1. From the Collections console of your [!DNL Assets] instance, and select the collection you want to unpublish.
 
    ![select_collection-1](assets/select_collection-1.png)
 

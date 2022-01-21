@@ -6,8 +6,9 @@ seo-description: Install and configure AEM Forms Interactive Communications to c
 uuid: 847c3351-dc46-4e60-a023-0f4e9e057c7c
 topic-tags: installing
 discoiquuid: 7333641e-8c8c-4b52-a7da-a2976c88592c
+role: Admin
+exl-id: 308b106f-4c5a-49d6-a7f6-c1e8a0bf62e9
 ---
-
 # Installing and Configuring Forms-centric workflow on OSGi {#installing-and-configuring-forms-centric-workflow-on-osgi}
 
 ## Introduction {#introduction}
@@ -175,7 +176,7 @@ Caching is a mechanism to shorten data access times, reduce latency, and improve
 Perform the following steps to configure the adaptive forms cache:
 
 1. Go to AEM web console configuration manager at `https://[server]:[port]/system/console/configMgr`.
-1. Click **Adaptive Form Configuration Service** to edit its configuration values. In the edit configuration values dialog, specify the maximum number of forms or documents an instance of the AEM Forms server can cache in the **Number of Adaptive Forms** field. The default value is 100. Click **Save**.
+1. Click **[!UICONTROL Adaptive Form and Interactive Communication Web Channel Configuration]** to edit its configuration values. In the edit configuration values dialog, specify the maximum number of forms or documents an instance of the AEM Forms server can cache in the **Number of Adaptive Forms** field. The default value is 100. Click **Save**.
 
    >[!NOTE]
    >
@@ -196,4 +197,3 @@ You have configured an environment to use Forms-centric workflow on OSGi capabil
 * [Using Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md)
 * [Workflow Step Reference](/help/sites-developing/workflows-step-ref.md)
 * [Post processing of letters and interactive communications](/help/forms/using/submit-letter-topostprocess.md)
-

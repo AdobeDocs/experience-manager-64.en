@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: 0e0a9b6b-fd2f-4cec-b233-500c940ee4d5
+exl-id: d8f60be3-474a-4dd1-aaa5-7b6a97e1a9bd
 ---
-
 # Adding custom action on form lister items {#adding-custom-action-on-form-lister-items}
 
 In AEM Forms, you can create a portal page listing the available forms. By default, you can search and list forms on a portal page. You can open forms for filling and submit your information. Only rendering actions are provided out of the box for forms listed on a portal page. To know more about the available actions on a portal page, see [Creating a forms portal page](/help/forms/using/creating-form-portal-page.md).
@@ -44,4 +44,3 @@ You can add similar actions in your custom template. To define a JavaScript func
 After making the edits to the template, the sample portal page contains a button to send the link of the form via email, as shown below.
 
 ![email](assets/email.png)
-

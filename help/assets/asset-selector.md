@@ -1,14 +1,16 @@
 ---
 title: Asset Selector
-description: Learn how to use the asset selector to search, filter, browse, and fetch metadata for assets within Adobe Experience Manager (AEM) Assets. Also learn how to customize the asset selector interface.
+description: Learn how to use the asset selector to search, filter, browse, and fetch metadata for assets within Adobe Experience Manager Assets. Also learn how to customize the asset selector interface.
 contentOwner: AG
+feature: Asset Management,Metadata,Search
+role: User
+exl-id: 4b518ac0-5b8b-4d61-ac31-269aa1f5abe4
 ---
-
 # Asset selector {#asset-selector}
 
 >[!NOTE]
 >
->The Asset selector was called [Asset picker](https://helpx.adobe.com/experience-manager/6-2/assets/using/asset-picker.html) in prior versions of AEM.
+>The Asset selector was called [Asset picker](https://helpx.adobe.com/experience-manager/6-2/assets/using/asset-picker.html) in prior versions of [!DNL Experience Manager].
 
 The asset selector lets you browse, search, and filter assets in [!DNL Adobe Experience Manager] Assets. You can also fetch the metadata of assets that you select using the asset selector. To customize the asset selector interface, you can launch it with supported request parameters. These parameters set the context of the asset selector for a particular scenario.
 

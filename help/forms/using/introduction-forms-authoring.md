@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction, author
 discoiquuid: c7a1d13e-cb61-4082-8ae7-7f5eee9e0a51
+feature: Adaptive Forms
+exl-id: 62f1ddd3-9fc2-49dd-b588-0c3520e1cdd2
 ---
-
 # Introduction to authoring adaptive forms  {#introduction-to-authoring-adaptive-forms}
 
 ## Overview {#overview}
@@ -384,4 +385,3 @@ The content structure typically contains the following primary components:
 * **[!UICONTROL toolbar]**: An adaptive form container has an associated global toolbar, which is global to the form. This toolbar can be added using the **Add Toolbar** action in the edit bar, which allows authors to add actions, such as Submit, Save, Reset, and so on.
 
 * **[!UICONTROL assets]**: This node contains additional information used for form authoring. For example, form model details, localization details, and so on).
-

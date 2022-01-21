@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 9b492b17-9029-46ae-9dc0-bb21e6b484df
+exl-id: 09409631-c579-4b1f-9193-1348896f6a09
 ---
-
 # Troubleshooting AEM when Authoring{#troubleshooting-aem-when-authoring}
 
 The following section covers some issues that you might encounter when using AEM, together with suggestions on how to troubleshoot them.
@@ -80,4 +80,3 @@ The following section covers some issues that you might encounter when using AEM
     * These definitions can be changed with the configuration for **Day CQ WCM Find Replace Servlet** using the **Web Console**; for example, at
 
       `http://localhost:4502/system/console/configMgr`
-

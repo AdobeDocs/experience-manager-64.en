@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: cd4f53ee-537b-4f10-a64f-474ba2c44576
+exl-id: fc044a4e-0037-405f-8c26-b388c6a98733
 ---
-
 # Create Nodes {#create-nodes}
 
 Overlay the comment system with a custom version by copying the minimal number of files necessary from /libs into /apps and modifying them in /apps.
@@ -88,5 +88,4 @@ The overlay's own `Type`(property `sling:resourceType`) must be a relative self-
 1. Select the green `[+] Add`
    * Select **[!UICONTROL Save All]**
 
-![chlimage_1-4](assets/chlimage_1-4.png) 
-
+![chlimage_1-4](assets/chlimage_1-4.png)

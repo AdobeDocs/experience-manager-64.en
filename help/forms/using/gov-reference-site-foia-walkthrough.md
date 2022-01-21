@@ -7,8 +7,8 @@ uuid: 65d4233c-8dad-4e5e-8e39-22eb4f145adc
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: cef8f597-7935-4d98-aacf-9981470ab620
+exl-id: 92ad5d8b-fc8c-4502-ab62-d27eb9784b65
 ---
-
 # We.Gov reference site FOIA walkthrough {#we-gov-reference-site-foia-walkthrough}
 
 ## Pre-requisite {#pre-requisite}
@@ -109,4 +109,3 @@ Gloria opens the request and examines the details of the FOIA request. After rev
 After Gloria approves the FOIA request, Sarah receives an email notifying her that her request is approved. The email also includes the information about the tentative timeline for furnishing the document and contact details for follow up on the request. 
 
 ![sarahroseemailapproval](assets/sarahroseemailapproval.png)
-

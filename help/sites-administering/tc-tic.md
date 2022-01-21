@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 200f51ab-f9bf-4989-91af-c3904fc673e5
+feature: Language Copy
+exl-id: e68b5a5c-e12a-4b7b-b607-451ef8fdeff0
 ---
-
 # Configuring the Translation Integration Framework{#configuring-the-translation-integration-framework}
 
 The Translation Integration Framework integrates with third-party translation services to orchestrate the translation of AEM content.
@@ -31,7 +32,7 @@ The following translation vendors provide an implementation of the new API for t
 * [Lionbridge](https://exchange.adobe.com/experiencecloud.details.100064.lionbridge-connector-for-experience-manager-63.html)
 * [Memsource](https://exchange.adobe.com/experiencecloud.details.103166.memsource-connector-for-adobe-experience-manager.html)
 * [Cloudwords](https://exchange.adobe.com/experiencecloud.details.90019.html)
-* [CrossLang NV](https://exchange.adobe.com/experiencecloud.details.90049.crosslang-xtm-for-adobe-experience-manager.html)
+* [XTM Cloud](https://exchange.adobe.com/experiencecloud.details.105037.xtm-connect-for-adobe-experience-manager.html)
 * [Lingotek](https://exchange.adobe.com/experiencecloud.details.90088.lingotek-collaborative-translation-platform.html)
 * [Smartling](https://exchange.adobe.com/experiencecloud.details.90101.smartling-connector-for-adobe-experience-manager.html)
 * [SDL](https://exchange.adobe.com/experiencecloud.details.100110.sdl-translation-management.html)
@@ -217,4 +218,3 @@ Associate a page with the Translation Integration Framework that defines how you
 1. Click or tap Edit then click or tap the Cloud Services tab.
 1. Click or tap Add Configuration &gt; Translation Integration.
 1. Select the translation integration framework to use, and then click or tap Done.
-

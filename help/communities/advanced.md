@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 42fb3c50-8728-4897-ade9-6b839294a10e
+role: Admin
+exl-id: c9406aae-288e-4cdf-ac01-cb26b423639e
 ---
-
 # Advanced Scoring and Badges {#advanced-scoring-and-badges}
 
 ## Overview {#overview}
@@ -43,7 +44,7 @@ The differences in setting up the scoring and badging rules are:
 
 >[!NOTE]
 >
->To use advanced scoring and badging capabilities, install the [Expert Identification package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/cq-social-expert-identification-pkg).
+>To use advanced scoring and badging capabilities, install the [Expert Identification package](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=%2Fcontent%2Fsoftware-distribution%2Fen%2Fdetails.html%2Fcontent%2Fdam%2Faem%2Fpublic%2Fadobe%2Fpackages%2Fcq610%2Fsocial%2Ffeaturepack%2Fcq-social-expert-identification-pkg).
 
 ## Configurable Scoring Engine {#configurable-scoring-engine}
 

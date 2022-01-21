@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: fc879b0b-823b-4bdc-aaa6-36f53a33fb22
+feature: Upgrading
+exl-id: 6ff5a23a-c9b5-49ca-87b2-ba01eaf48a9f
 ---
-
 # Repository Restructuring in AEM 6.4{#repository-restructuring-in-aem}
 
 ## Introduction {#introduction}
@@ -37,7 +38,7 @@ While planning for an upgrade to AEM 6.4, the following per-solution pages shoul
 
 * [Repository restructuring common to all AEM solutions](/help/sites-deploying/all-repository-restructuring-in-aem-6-4.md)
 * [AEM Sites repository restructuring](/help/sites-deploying/sites-repository-restructuring-in-aem-6-4.md)
-* [AEM Assets repository restructuring](/help/sites-deploying/assets-repository-restructuring-in-aem-6-4.md)
+* [AEM Assets repository restructuring](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/restructuring/repository-restructuring.html)
 * [AEM Assets Dynamic Media repository restructuring](/help/sites-deploying/dynamicmedia-repository-restructuring-in-aem-6-4.md)
 * [AEM Forms repository restructuring](/help/sites-deploying/forms-repository-restructuring-in-aem-6-4.md)
 * [AEM Communities repository restructuring](/help/sites-deploying/communities-repository-restructuring-in-aem-6-4.md)

@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 3efd8f5a-9f38-4d9b-88d6-d8fde6c9a644
+feature: Correspondence Management
+exl-id: 63cd01d2-a0d5-4f85-b9d2-ec3007ce3fa9
 ---
-
 # Customize create correspondence UI {#customize-create-correspondence-ui}
 
 ## Overview {#overview}
@@ -170,4 +171,3 @@ Clear the browser cache and then open the Create Correspondence UI instance in y
 
 ![Create correspondence user interface with custom logo](assets/0_1_introscreenshot-1.png)
 **Figure:** *The custom icon in the Create Correspondence UI*
-

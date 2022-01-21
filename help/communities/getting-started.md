@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 4f4c73eb-281e-4dfb-9cb0-2341d5ee94ae
+exl-id: d065e737-dbda-4c78-a987-b1891c6c4ec6
 ---
-
 # Getting Started with AEM Communities {#getting-started-with-aem-communities}
 
 AEM Communities allows companies to create dedicated branded community experiences from a library of site templates. Forums, groups, blogs, file sharing, calendars, activity feeds, and extended user profiles can be integrated into your website to foster interactions between propsects, customers, and companies.
@@ -26,4 +26,3 @@ For a tutorial on quickly setting up an [enablement community](overview.md#enabl
 * [Experience the Published Site](published-site.md)
 
 * [Authoring Nested Groups](nested-groups.md)
-

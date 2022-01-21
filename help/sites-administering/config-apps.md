@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 34f24837-f5e2-41f0-a359-fdb695e1b8f2
+exl-id: 593a588c-02f1-4b48-ac57-9348d6652bcc
 ---
-
 # Configuring for AEM Apps{#configuring-for-aem-apps}
 
 Adobe Experience Manager Apps provides the ability to update the content of your application over the air (OTA). The updated content is stored on the publish instance. To allow the App on your device to connect to the publish instance and check for updates the publish instance needs to be configured to allow an empty referrer header.
@@ -28,4 +28,4 @@ To configure the referrer filter service:
 
 ![chlimage_1-58](assets/chlimage_1-58.png)
 
-See the [OSGI Configuration Settings](/help/sites-deploying/osgi-configuration-settings.md) and [Security Checklist - Issues with Cross-Site Request Forgery](/help/sites-administering/security-checklist.md#protect-against-cross-site-request-forgery) for further details. 
+See the [OSGI Configuration Settings](/help/sites-deploying/osgi-configuration-settings.md) and [Security Checklist - Issues with Cross-Site Request Forgery](/help/sites-administering/security-checklist.md#protect-against-cross-site-request-forgery) for further details.

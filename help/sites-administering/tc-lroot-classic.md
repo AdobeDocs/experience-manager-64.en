@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 237b8cc6-158e-4c51-970d-4c9cc74f6496
+feature: Language Copy
+exl-id: 316903a8-22cf-45e6-a9f3-ac1d75beddec
 ---
-
 # Creating a Language Root Using the Classic UI{#creating-a-language-root-using-the-classic-ui}
 
 The following procedure uses the classic UI to create a language root of a site. For more information, see [Creating a Language Root](/help/sites-administering/tc-prep.md#creating-a-language-root).
@@ -52,4 +53,3 @@ The following procedure uses the classic UI to create a language root of a site.
 
 1. Click OK to close the dialog.
 1. In the next dialog, click Yes to confirm the copy.
-

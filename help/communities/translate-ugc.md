@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: bfaf80c5-448b-47fb-9f22-57ee0eb169b2
+role: Admin
+exl-id: b8cbc429-b0c3-4f6e-a15f-4aef54733c8e
 ---
-
 # Translating User Generated Content {#translating-user-generated-content}
 
 The translation feature for AEM Communities extends the concept of [translating page content](../../help/sites-administering/translation.md) to the user generated content (UGC) posted to community sites using [social component framework (SCF) components](scf.md).
@@ -35,7 +36,7 @@ When a translation integration framework is configured in addition to the transl
 
 ## The Default Translation Service {#the-default-translation-service}
 
-AEM Communities ships with a [trial license](../../help/sites-administering/tc-msconf.md#microsoft-translator-trial-license) for a [default translation service](../../help/sites-administering/tc-msconf.md) enabled for several languages.
+AEM Communities includes a [trial license](../../help/sites-administering/tc-msconf.md#microsoft-translator-trial-license) for a [default translation service](../../help/sites-administering/tc-msconf.md) enabled for several languages.
 
 When [creating a community site](sites-console.md), the default translation service is enabled when `Allow Machine Translation` is checked from the [TRANSLATION](sites-console.md#translation) sub-panel.
 

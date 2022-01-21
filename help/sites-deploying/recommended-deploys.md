@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 5e903df9-6591-46e8-9251-45170c78aa21
+exl-id: aa4ec854-e32b-4136-a6d4-a42deb2afb18
 ---
-
 # Recommended Deployments{#recommended-deployments}
 
 >[!NOTE]
@@ -213,4 +213,3 @@ Below are a set of decisional matrices that can assist you in choosing the best 
 >In case you wish to run both author and publish on MongoDB, two separate licenses need to be purchased.
 >
 >For more information, see the [MongoDB for Adobe Experience Manager page](https://www.mongodb.com/lp/contact/mongodb-adobe-experience-manager).
-

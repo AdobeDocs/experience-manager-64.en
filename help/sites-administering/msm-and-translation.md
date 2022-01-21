@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: fabaa3e8-1657-4ed4-abb2-990117bec39c
+exl-id: e8f83d21-b55e-4415-a581-8df1b71a84b1
 ---
-
 # Website Administration{#website-administration}
 
 The following administration tools are available for managing websites and pages:

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 6e913190-be92-4862-a8b9-517f8bde0044
+exl-id: 0b263211-6cfd-4b4c-bfa5-e36f5e06c861
 ---
-
 # AEM Core Concepts {#aem-core-concepts}
 
 >[!NOTE]
@@ -35,11 +35,11 @@ It is also recommended that you read and follow the [Guidelines and Best Practic
 
 ## Java Content Repository {#java-content-repository}
 
-The Java Content Repository (JCR) standard, [JSR 283](https://docs.adobe.com/content/docs/en/spec/jcr/2.0/index.html), specifies a vendor-independent and implementation-independent way to access content bi-directionally on a granular level within a content repository.
+The Java Content Repository (JCR) standard, [JSR 283](https://www.adobe.io/experience-manager/reference-materials/spec/jcr/2.0/index.html), specifies a vendor-independent and implementation-independent way to access content bi-directionally on a granular level within a content repository.
 
 Specification lead is held by Adobe Research (Switzerland) AG.
 
-The [JCR API 2.0](https://docs.adobe.com/docs/en/spec/javax.jcr/javadocs/jcr-2.0/index.html) package, javax.jcr.&ast; is used for the direct access and manipulation of repository content.
+The [JCR API 2.0](https://www.adobe.io/experience-manager/reference-materials/spec/javax.jcr/javadocs/jcr-2.0/index.html) package, javax.jcr.&ast; is used for the direct access and manipulation of repository content.
 
 ## Experience Server (CRX) and Jackrabbit {#experience-server-crx-and-jackrabbit}
 
@@ -433,7 +433,7 @@ The following list gives an overview of the structure you will see within the re
 
 * `/var` 
 
-  Files that change and are updated by the system; such as audit logs, statistics, event-handling. The sub-folder `/var/classes` contains the java servlets in source and compiled forms that have been generated from the components scripts.
+  Files that change and are updated by the system; such as audit logs, statistics, event-handling.
 
 ## Environments {#environments}
 
@@ -469,4 +469,4 @@ For example, web sites are often provided in multiple languages for internationa
     * Maintain a common look and feel.
     * Focus efforts on managing the content that differs between the sites.
 
-For more information, see [Multi Site Manager](/help/sites-administering/msm.md).  
+For more information, see [Multi Site Manager](/help/sites-administering/msm.md).

@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: c9d3f369-3744-41d5-b340-390ab7e03f36
+exl-id: bd5a247f-cd4b-41c8-b5f6-8def4f5c93ef
 ---
-
 # Starting processes {#starting-processes}
 
 AEM Forms workspace organizes processes by the categories that the administrator or process designer sets up. You can also place processes that you use frequently into your Favorites category so that you can find them quickly.
@@ -124,4 +124,3 @@ You can add any process to your Favorites category. By setting favorites, you ca
 >If you usually start processes when you use AEM Forms workspace, you can set the Start Location preference to automatically display the Favorites category when you start AEM Forms workspace. For more details, see Managing Preferences in [Getting started with AEM Forms workspace](/help/forms/using/getting-started-livecycle-html-workspace.md).
 
 To mark a process as favorite, select the task in its category, and click the hollow star. The star turns golden. To unmark a process as a favorite, click the golden star again.
-

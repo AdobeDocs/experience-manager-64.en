@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: a727c57c-87a9-46c2-8d9b-1348f1ed8ac4
+exl-id: 0182155a-0156-458c-b89b-35ab3e27819e
 ---
-
 # Creating and Organizing Pages{#creating-and-organizing-pages}
 
 This section describes how to create and manage pages with Adobe Experience Manager (AEM) so that you can then [create content](/help/sites-authoring/editing-content.md) on those pages.
@@ -415,4 +415,3 @@ You can create folders to help organize your files and pages.
    ![chlimage_1-14](assets/chlimage_1-14.png)
 
 1. Select **Create** to create the folder.
-

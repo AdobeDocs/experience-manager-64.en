@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 72fe5749-2fa2-442f-b679-7889faeafcac
+exl-id: 9eabafbe-2193-4799-9bdd-c2be42ead0b9
 ---
-
 # Importing and exporting global settings {#importing-and-exporting-global-settings}
 
 You can import and export search template definitions and global settings for Workspace.
@@ -98,8 +98,6 @@ The remaining properties in this setting should not be changed.
 
 **server_remoteevents_JGroupName:** The name of the JGroup used for remote event communication. This value is randomly generated to avoid conflicts in clusters. This value should not be changed.
 
-For additional information on JGroups and Workspace, see [JGroups and AEM forms Workspace - Explained](https://blogs.adobe.com/livecycle/2011/03/jgroups-and-livecycle-workspace-explained.html).
-
 ### formView settings {#formview-settings}
 
 **client_formView_openFormInFullScreen:** To display all forms in Workspace in full-screen mode, set this option to true. By default, this option is set to false, and forms are not displayed in full-screen mode. Note that the User service contains an option to open the document associated with a task in full screen mode. This enables you to control the display on a per-process basis.
@@ -120,7 +118,7 @@ For additional information on JGroups and Workspace, see [JGroups and AEM forms 
 
 **client_pollingInterval:** Sets the polling interval (in seconds) used on the (Deprecated for AEM forms on JEE) Flex Workspace to detect new and modified tasks. The default is 3 seconds. This does not work for AEM Forms Workspace.
 
-**client_systemContext_name:** Specify a custom name (e.g. Citizen) to display in the Added By field (in the Attachments tab) for the attachments of a task in AEM Forms Workspace.
+**client_systemContext_name:** Specify a custom name (For example,  Citizen) to display in the Added By field (in the Attachments tab) for the attachments of a task in AEM Forms Workspace.
 
 To define the custom name:
 

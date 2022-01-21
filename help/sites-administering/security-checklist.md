@@ -2,6 +2,7 @@
 title: Security Checklist
 seo-title: Security Checklist
 description: Learn about the various security considerations when configuring and deploying AEM.
+feature: Security
 seo-description: Learn about the various security considerations when configuring and deploying AEM.
 uuid: 8ecd0c35-249e-4f72-b7e9-97e72698b5c1
 contentOwner: msm-service
@@ -9,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: a91e1264-8441-42f8-aa83-1d9c983d214a
+exl-id: 0be6d031-f8b8-458b-a910-ff05d2b1a155
 ---
-
 # Security Checklist{#security-checklist}
 
 This section deals with various steps that you should take to ensure that your AEM installation is secure when deployed. The checklist is meant to be applied from top to bottom.
@@ -294,7 +295,7 @@ To help prevent DoS misuse you can:
 
       **JSON Max results** ( `json.maximumresults`)
 
-      in the configuration for the [Apache Sling GET Servlet](/help/sites-deploying/osgi-configuration-settings.md). When this limit is exceeded the rendering will be collapsed. The default value for Sling within AEM is `200`.
+      in the configuration for the [Apache Sling GET Servlet](/help/sites-deploying/osgi-configuration-settings.md). When this limit is exceeded the rendering will be collapsed. The default value for Sling within AEM is `1000`.
 
     * As a preventive measure disable the other default renderers (HTML, plain text, XML). Again by configuring the [Apache Sling GET Servlet](/help/sites-deploying/osgi-configuration-settings.md).
 

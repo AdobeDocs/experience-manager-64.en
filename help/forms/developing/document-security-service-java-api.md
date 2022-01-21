@@ -1,16 +1,17 @@
 ---
 title: Document Security Service JavaAPI Quick Start(SOAP)
 seo-title: Document Security Service JavaAPI Quick Start(SOAP)
-description: null
-seo-description: null
+description: Use the Rights management service Java API to create a policy, modify a policy, delete a policy, apply a policy to a PDF document, remove a policy from  a PDF document, revoke a document, reinstate access to a revoked document, inspect policy protected PDF documents, create a watermark, modify a watermark, search for events, and remove a policy from a Word document. 
+seo-description: Use the Rights management service Java API to create a policy, modify a policy, delete a policy, apply a policy to a PDF document, remove a policy from  a PDF document, revoke a document, reinstate access to a revoked document, inspect policy protected PDF documents, create a watermark, modify a watermark, search for events, and remove a policy from a Word document.
 uuid: f3823a95-c8c2-42c8-8edc-3ab8ab4311dc
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: b89293c4-ea2e-4fa4-9e5e-ef4f548e9608
+role: Developer
+exl-id: 982223c2-aa4a-4013-8136-0155a99f5eff
 ---
-
 # Document Security Service Java API Quick Start (SOAP) {#document-security-service-javaapi-quick-start-soap}
 
 Java API Quick Start(SOAP) is available for the Rights Management service:
@@ -2306,4 +2307,3 @@ public class protectStatementWorkFlowSoap {
     
 }
 ```
-

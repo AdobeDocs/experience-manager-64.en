@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 3350bb2d-78a7-45e2-9816-0277a40d3986
+exl-id: f55a774e-db41-465e-843c-a876a4f14997
 ---
-
 # Developing for Targeted Content{#developing-for-targeted-content}
 
 This section describes topics about developing components for use with content targeting.

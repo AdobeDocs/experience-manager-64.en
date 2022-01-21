@@ -8,8 +8,8 @@ contentOwner: dekalra
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 discoiquuid: 93067308-e275-490f-8d78-ae79e046059c
+exl-id: d0da9390-2167-47ee-82fd-8c81d8d68a3e
 ---
-
 # AEM 6.4 Service Pack Release Notes {#aem-service-pack-release-notes}
 
 ## Release Information {#release-information}
@@ -41,7 +41,7 @@ Some key highlights of this service pack release are:
 
 * Form data model integration using SOAP web service now supports choice groups or attributes on elements.
 
-* AEM Assets is now configured with Brand Portal through Adobe I/O.
+* AEM Assets is now configured with Brand Portal through [!DNL Adobe I/O].
 
 * Updated the jQuery version bundled in ContextHub to 3.2.1.
 
@@ -64,7 +64,7 @@ Some key highlights of this service pack release are:
 
 ### Assets {#assets}
 
-* A folder with no name gets created in SPS (Scene7 Publishing System) while moving an asset from one folder to another in Experience Manager with Dynamic Media Scene7 configuration (NPR-32440).
+* A folder with no name gets created in Dynamic Media Classic while moving an asset from one folder to another in Experience Manager with Dynamic Media Classic configuration (NPR-32440).
 
 * Assets detail page of PDF files do not show action buttons in Experience Manager running on Dynamic Media Scene7 mode (NPR-32316).
 
@@ -2164,7 +2164,7 @@ which will copy new viewer presets to /conf location.
 
 >[!NOTE]
 >
->AEM 6.4.8.0 includes a new version of [AEM Forms compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/compatpack/AEM-FORMS-6.4.7.0-COMPAT). If you are using an older version of AEM Forms Compatibility Package and updating to AEM 6.4.8.0, install the latest version of AEM Forms compatibility package post installation of Forms Add-On Package.
+>AEM 6.4.8.0 includes a new version of [AEM Forms compatibility package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html). If you are using an older version of AEM Forms Compatibility Package and updating to AEM 6.4.8.0, install the latest version of AEM Forms compatibility package post installation of Forms Add-On Package.
 
 1. Ensure that you have installed the AEM Service Pack.
 1. Download the corresponding forms add-on package listed at [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) for your operating system.
@@ -2228,11 +2228,6 @@ This section lists features and capabilities that have been removed or deprecate
 ### Known Issues {#known-issues}
 
 * The following errors and warnings may display during installation:
-
-  * Errors as create component instance and Service factory returned null occurs due to repository restart:
-
-      * com.day.cq.cq-personalization \[com.day.cq.personalization.impl.DefaultProfileProvider(938)\] Cannot create component instance due to failure to bind reference profileManager
-      * org.apache.sling.commons.scheduler FrameworkEvent ERROR (org.osgi.framework.ServiceException: Service factory returned null. (Component: com.day.cq.tagging.impl.TagGarbageCollector (1687)))
 
   * `com.adobe.cq.social.cq-social-jcr-provider bundle com.adobe.cq.social.cq-social-jcr-provider:1.3.5 (395)[com.adobe.cq.social.provider.jcr.impl.SpiSocialJcrResourceProviderImpl(2302)]` : Timeout waiting for reg change to complete unregistered.
   * `com.adobe.granite.maintenance.impl.TaskScheduler` No maintenance windows found at granite/operations/maintenance

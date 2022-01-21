@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 6911c8e3-b12c-466e-8255-5dcd09557d35
+exl-id: dbde3cb6-4132-4462-bd4c-0e4439110e2e
 ---
-
 # Target Integration with Experience Fragments{#target-integration-with-experience-fragments}
 
 >[!NOTE]
@@ -104,4 +104,3 @@ To avoid such situations:
         * Any references in the Experience Fragment may not work correctly if referenced assets were deleted in AEM as well.
 
     * Of course, any further modifications to the Experience Fragment are impossible as the Experience Fragment does not exist anymore in AEM.
-

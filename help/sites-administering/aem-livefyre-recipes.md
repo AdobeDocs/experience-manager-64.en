@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: fdea5ede-d44f-463e-af8a-111ee7469ede
+exl-id: 2e06d1c8-e7c0-41ce-8799-9e762663eded
 ---
-
 # AEM Livefyre Recipes{#aem-livefyre-recipes}
 
 Step-by-step instructions on common use cases for Adobe Experience Manager Livefyre.
@@ -191,4 +191,3 @@ Additional Ratings and Reviews APIs can be found [here](https://api.livefyre.com
 
 * [TimeOut](https://www.timeout.com/london/restaurants/forest-bar-kitchen#tab_panel_3)
 * [myrecipes](https://www.myrecipes.com/recipe/shrimp-florentine-pasta)
-

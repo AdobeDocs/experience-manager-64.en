@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 53342acb-c1a5-443d-8727-cb27cc9d6845
+exl-id: 123ef72b-f09b-47eb-9b5a-e0deb38799df
 ---
-
 # Externalizing URLs{#externalizing-urls}
 
 In AEM, the **Externalizer** is an OSGI service that allows you to programmatically transform a resource path (e.g. `/path/to/my/page`) into an external and absolute URL (for example, `https://www.mycompany.com/path/to/my/page`) by prefixing the path with a pre-configured DNS.

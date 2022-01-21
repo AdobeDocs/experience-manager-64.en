@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 5ee9d11a-85c2-440d-b487-a38d04dc040b
+exl-id: 83b9a9cb-3f86-472b-b9dc-6ec633003481
 ---
-
 # Data Store Garbage Collection {#data-store-garbage-collection}
 
 When a conventional WCM asset is removed, the reference to the underlying data store record may be removed from the node hierarchy, but the data store record itself remains. This unreferenced data store record then becomes "garbage" that need not be retained. In instances where a number of garbage assets exist, it is beneficial to get rid of them to preserve space and to optimize backup and filesystem maintenance performance.
@@ -194,4 +194,3 @@ Below you will find an example of how the missing binaries are reported in the l
 ```xml
 11:32:39.673 WARN [main] MarkSweepGarbageCollector.java:602 Consistency check failure in the blob store : DataStore backed BlobStore [org.apache.jackrabbit.oak.plugins.blob.datastore.OakFileDataStore], check missing candidates in file /tmp/gcworkdir-1467352959243/gccand-1467352959243
 ```
-

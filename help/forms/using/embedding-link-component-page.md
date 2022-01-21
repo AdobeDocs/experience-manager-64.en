@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: a4a36e73-3f7a-4173-8807-931f26daa35a
+exl-id: eb816a35-0773-4eda-95b2-1d351c71be8b
 ---
-
 # Embedding link component in a page{#embedding-link-component-in-a-page}
 
 ## Prerequisites {#prerequisites}
@@ -52,4 +52,3 @@ Perform the following steps to add a Link component to the page:
     1. Submit URL embedded in the form (in submit button) has the highest priority.
     1. Submit URL mentioned in Forms Manager has the medium priority.
     1. Submit URL mentioned in forms portal has the lowest priority.
-

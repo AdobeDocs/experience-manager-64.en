@@ -1,19 +1,21 @@
 ---
-title: Manage your digital assets using AEM Assets
-description: Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets
+title: Manage your digital assets using [!DNL Experience Manager] Assets
+description: Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of [!DNL Experience Manager] Assets
 contentOwner: AG
 mini-toc-levels: 1
+feature: Asset Management,Search,Renditions,Collaboration
+role: User
+exl-id: aa1a702b-18dd-496b-a6e0-aa593af6e57c
 ---
-
 # Manage your digital assets {#managing-assets-with-the-touch-optimized-ui}
 
-Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
+Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of [!DNL Experience Manager] Assets.
 
-This article describes how to manage and edit assets using the Adobe Experience Manager (AEM) Assets Touch-optimized user interface. For an elementary knowledge about the user interface, see [Basic handling of Touch UI](/help/sites-authoring/basic-handling.md). To manage Content Fragments, see [Managing Content Fragments](content-fragments-managing.md) assets.
+This article describes how to manage and edit assets using the Adobe Experience Manager Assets Touch-optimized user interface. For an elementary knowledge about the user interface, see [Basic handling of Touch UI](/help/sites-authoring/basic-handling.md). To manage Content Fragments, see [Managing Content Fragments](content-fragments-managing.md) assets.
 
 ## Create folders {#create-folders}
 
-When organizing a collection of assets, for example, all `Nature` images, you can create folders to keep them together. You can use folders to categorize and organize your assets. AEM Assets does not require you to organize assets in folders to work better.
+When organizing a collection of assets, for example, all `Nature` images, you can create folders to keep them together. You can use folders to categorize and organize your assets. [!DNL Experience Manager] Assets does not require you to organize assets in folders to work better.
 
 >[!NOTE]
 >
@@ -32,11 +34,11 @@ The following (space-separated list of) characters are not supported:
 
 ## Upload assets {#uploading-assets}
 
-You can upload various types of assets (including images, PDF files, RAW files, and so on) from your local folder or a network drive to AEM Assets.
+You can upload various types of assets (including images, PDF files, RAW files, and so on) from your local folder or a network drive to [!DNL Experience Manager] Assets.
 
-   >[!NOTE]
-   >
-   >In Dynamic Media - Scene7 mode, you can only upload assets whose file sizes are 2 GB or less.
+>[!NOTE]
+>
+>In Dynamic Media - Scene7 mode, you can only upload assets whose file sizes are 2 GB or less.
 
 You can choose to upload assets to folders with or without a processing profile assigned to them.
 
@@ -70,11 +72,11 @@ Before uploading an asset, ensure that it is in a [supported format](assets-form
 
    ![chlimage_1-6](assets/chlimage_1-6.png)
 
-   To cancel an ongoing upload, click the `X` button beside the progress bar. When you cancel the upload operation, AEM Assets deletes the partially uploaded portion of the asset.
+   To cancel an ongoing upload, click the `X` button beside the progress bar. When you cancel the upload operation, [!DNL Experience Manager] Assets deletes the partially uploaded portion of the asset.
 
    The ability to resume uploading is especially helpful in low-bandwidth scenarios and network glitches, where it takes a long time to upload a large asset. You can pause the upload operation and continue later when the situation improves. When you resume, uploading starts from the point where you paused it.
 
-   During the upload operation, AEM saves the portions of the asset being uploaded as chunks of data in the CRX repository. When the upload completes, AEM consolidates these chunks into a single block of data in the repository.
+   During the upload operation, [!DNL Experience Manager] saves the portions of the asset being uploaded as chunks of data in the CRX repository. When the upload completes, [!DNL Experience Manager] consolidates these chunks into a single block of data in the repository.
 
    To configure the cleanup task for the unfinished chunk upload jobs, go to `https://[aem_server]:[port]/system/console/configMgr/org.apache.sling.servlets.post.impl.helper.ChunkCleanUpTask`.
 
@@ -90,7 +92,7 @@ Before uploading an asset, ensure that it is in a [supported format](assets-form
    >
    >If **[!UICONTROL Asset Insights]** is enabled to track impressions/clicks with Adobe Analytics, this regenerated asset ID invalidates the data-captured for the asset on Adobe Analytics.
 
-   If the asset you upload exists in AEM Assets, the **[!UICONTROL Duplicates Detected]** dialog box warns that you are attempting to upload a duplicate asset. The dialog appears only if the SHA 1 checksum value of the binary of the existing asset matches the checksum value of the asset you upload. In this case, the names of assets are immaterial. In other words, the dialog can even appear for assets that have different names if the SHA 1 values for their binaries are the same.
+   If the asset you upload exists in [!DNL Experience Manager] Assets, the **[!UICONTROL Duplicates Detected]** dialog box warns that you are attempting to upload a duplicate asset. The dialog appears only if the SHA 1 checksum value of the binary of the existing asset matches the checksum value of the asset you upload. In this case, the names of assets are immaterial. In other words, the dialog can even appear for assets that have different names if the SHA 1 values for their binaries are the same.
 
    >[!NOTE]
    >
@@ -98,9 +100,9 @@ Before uploading an asset, ensure that it is in a [supported format](assets-form
 
    ![chlimage_1-8](assets/chlimage_1-8.png)
 
-   Tap **[!UICONTROL Keep]** to retain the duplicate asset in AEM Assets. Tap  **[!UICONTROL Delete]** to delete the duplicate asset you uploaded.
+   Tap **[!UICONTROL Keep]** to retain the duplicate asset in [!DNL Experience Manager] Assets. Tap  **[!UICONTROL Delete]** to delete the duplicate asset you uploaded.
 
-   AEM Assets prevents you from uploading assets with forbidden characters in their filenames. If you try to upload an asset that includes the disallowed characters, AEM Assets displays a warning message regarding the presence of forbidden characters in the filename and stops the upload until you remove these characters or upload with an allowed name.
+   [!DNL Experience Manager] Assets prevents you from uploading assets with forbidden characters in their filenames. If you try to upload an asset that includes the disallowed characters, [!DNL Experience Manager] Assets displays a warning message regarding the presence of forbidden characters in the filename and stops the upload until you remove these characters or upload with an allowed name.
 
    To suit specific file naming conventions for your organization, the **[!UICONTROL Upload Assets]** dialog box lets you specify long names for the files that you upload.
 
@@ -116,13 +118,13 @@ Before uploading an asset, ensure that it is in a [supported format](assets-form
 
    ![chlimage_1-10](assets/chlimage_1-10.png)
 
-   If you cancel the upload operation before the files are uploaded, AEM Assets stops uploading the current file and refreshes the content. However, files that are already uploaded are not deleted.
+   If you cancel the upload operation before the files are uploaded, [!DNL Experience Manager] Assets stops uploading the current file and refreshes the content. However, files that are already uploaded are not deleted.
 
 ### Serial uploads {#serial-uploads}
 
-Uploading numerous assets in bulk consumes significant system resources, which can adversely impact the performance of your AEM deployment. Potential bottlenecks can be your Internet connection, read-write operations on disk, web browser limitations on the number of POST requests on concurrent asset upload. Bulk upload operation can fails or terminate prematurely. In other words, AEM assets may miss some files while ingesting a bunch of files or altogether fail to ingest any file.
+Uploading numerous assets in bulk consumes significant system resources, which can adversely impact the performance of your [!DNL Experience Manager] deployment. Potential bottlenecks can be your Internet connection, read-write operations on disk, web browser limitations on the number of POST requests on concurrent asset upload. Bulk upload operation can fails or terminate prematurely. In other words, [!DNL Experience Manager] assets may miss some files while ingesting a bunch of files or altogether fail to ingest any file.
 
-To overcome this situation, AEM Assets ingests one asset at a time (serial upload) during a bulk upload operation, instead of the concurrently ingesting all the assets.
+To overcome this situation, [!DNL Experience Manager] Assets ingests one asset at a time (serial upload) during a bulk upload operation, instead of the concurrently ingesting all the assets.
 
 Serial uploading of assets is enabled by default. To disable the feature and allow concurrent uploading, overlay the `fileupload` node in CRXDe and set the value of the `parallelUploads` property to `true`.
 
@@ -136,14 +138,15 @@ Dynamic Media enables batch uploading of assets by way of FTP server. If you int
 
 >[!NOTE]
 >
->To upload assets by way of FTP in Dynamic Media - Scene7 mode install feature pack (FP) 18912 on AEM author. Contact Adobe Customer Care to get access to FP-18912 and complete the setup of your FTP account. See [Installing feature pack 18912 for bulk asset migration](/help/assets/bulk-ingest-migrate.md).
-If you use FTP for uploading assets, the upload settings specified in AEM are ignored. Instead, file processing rules, as defined in Dynamic Media Classic, are used.
+>To upload assets by way of FTP in Dynamic Media - Scene7 mode install feature pack (FP) 18912 on [!DNL Experience Manager] author. Contact Adobe Customer Support to get access to FP-18912 and complete the setup of your FTP account. See [Installing feature pack 18912 for bulk asset migration](/help/assets/bulk-ingest-migrate.md).
+>
+>If you use FTP for uploading assets, the upload settings specified in [!DNL Experience Manager] are ignored. Instead, file processing rules, as defined in Dynamic Media Classic, are used.
 
 **To upload assets using FTP**
 
 1. Using your choice of FTP client, log in to the FTP server using the FTP user name and password that you received from the provisioning email. In the FTP client, upload files or folders to the FTP server.
-1. [Log in to Dynamic Media Classic](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) using credentials received from the provisioning email. On the Global Navigation Bar, tap **[!UICONTROL Upload]**.  
-
+1. Open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your account using credentials received from the provisioning email.
+1. On the Global Navigation Bar, tap **[!UICONTROL Upload]**.  
 1. On the **[!UICONTROL Upload]** page, near the upper-left corner, tap the **[!UICONTROL Via FTP]** tab.
 1. On the left side of the page, choose an FTP folder to upload files from; on the right side of the page, choose a destination folder.
 1. Near the lower-right corner of the page, tap **[!UICONTROL Job Options]** and then set the options you want based on the assets in the folder you selected.
@@ -152,12 +155,12 @@ If you use FTP for uploading assets, the upload settings specified in AEM are ig
 
    >[!NOTE]
    >
-   >When you upload assets by way of FTP, the upload job options you set in Dynamic Media Classic (Scene7) take precedent over asset processing parameters set in AEM.
+   >When you upload assets by way of FTP, the upload job options you set in Dynamic Media Classic take precedent over asset processing parameters set in AEM.
 
 1. In the lower-right corner of the **[!UICONTROL Upload Job Options]** dialog box, tap **[!UICONTROL Save]**.
 1. In the lower-right corner of the **[!UICONTROL Upload]** page, tap **[!UICONTROL Submit Upload]**.
 
-   To view the progress of the upload, on the Global Navigation Bar, tap **[!UICONTROL Jobs]**. The **[!UICONTROL Jobs]** page displays the progress of the upload. You can continue working in AEM and return to the Jobs page in Dynamic Media Classic at any time to review an in-progress job.  
+   To view the progress of the upload, on the Global Navigation Bar, tap **[!UICONTROL Jobs]**. The **[!UICONTROL Jobs]** page displays the progress of the upload. You can continue working in [!DNL Experience Manager] and return to the Jobs page in Dynamic Media Classic at any time to review an in-progress job.  
 
    To cancel an upload job in progress, tap **[!UICONTROL Cancel]** next to the **[!UICONTROL Duration]** time.
 
@@ -171,7 +174,7 @@ If you use FTP for uploading assets, the upload settings specified in AEM are ig
 | Decompress ZIP or TAR files on upload | | |
 | Job Options | | Tap/ click **[!UICONTROL Job Options]** to open the [!UICONTROL Upload Job Options] dialog box and choose options that affect the entire upload job. These options are the same for all file types.<br>You can choose default options for uploading files starting on the Application General Settings page. To open this page, choose **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**. Tap the **[!UICONTROL Default Upload Options]** button to open the [!UICONTROL Upload Job Options] dialog box. |
 | | When | Select One-Time or Recurring. To set a recurring job, choose a Repeat option—Daily, Weekly, Monthly, or Custom—to specify when you want the FTP upload job to recur. Then specify the scheduling options as necessary. |
-| | Include subfolders | Upload all subfolders within the folder you intend to upload. The names of the folder and its subfolders you upload are entered automatically in AEM Assets. |
+| | Include subfolders | Upload all subfolders within the folder you intend to upload. The names of the folder and its subfolders you upload are entered automatically in [!DNL Experience Manager] Assets. |
 | | Crop Options | To manually crop from the sides of an image, select the Crop menu and choose Manual. Then enter the number of pixels to crop from any side or each side of the image. How much of the image is cropped depends on the ppi (pixels per inch) setting in the image file. For example, if the image displays 150 ppi and you enter 75 in the Top, Right, Bottom, and Left text boxes, a half-inch is cropped from each side.<br> To automatically crop white-space pixels from an image, open the Crop menu, choose Manual, and enter pixel measurements in the Top, Right, Bottom, and Left fields to crop from the sides. You can also choose Trim on the Crop menu and choose these options:<br> **Trim Away Based On** <ul><li>**Color** - Choose the Color option. Then select the Corner menu and choose the corner of the image with the color that best represents the white-space color you want to crop.</li><li>**Transparency** - Choose the Transparency option.<br> **Tolerance** - Drag the slider to specify a tolerance from 0 through 1.For trimming based on color, specify 0 to crop pixels only if they exactly match the color you selected in the corner of the image. Numbers closer to 1 allow for more color difference.<br>For trimming based on transparency, specify 0 to crop pixels only if they are transparent. Numbers closer to 1 allow for more transparency.</li></ul><br>Note that these crop options are non-destructive. |
 | | Color Profile Options | Choose a color conversion when you create optimized files that are used for delivery:<ul><li>Default Color Preservation: Maintains the source image colors whenever the images contain color space information; there is no color conversion. Nearly all images today have the appropriate color profile already embedded. However, if a CMYK source image does not contain an embedded color profile, the colors are converted to sRGB (standard Red Green Blue) color space. sRGB is the recommended color space for displaying images on web pages.</li><li>Keep Original Color Space: Retains the original colors without any color conversion at the point. For images without an embedded color profile, any color conversion is done using the default color profiles configured in the Publish settings. The color profiles may not align with the color in the files created with this option. Therefore, you are encouraged to use the option Default Color Preservation.</li><li>Custom From > To<br> Opens menus so you can choose a Convert From and Convert To color space. This advanced option overrides any color information that is embedded in the source file. Select this option when all the images that you are submitting contain incorrect or missing color profile data.</li></ul> |
 | | Image Editing Options | You can preserve the clipping masks in images, and choose a color profile.<br> See [Setting image editing options at upload](#setting-image-editing-options-at-upload). |
@@ -288,17 +291,17 @@ See [Configuring Batch Set Presets to Auto-Generate Image Sets and Spin Sets](co
 
 ### Streamed uploads {#streamed-uploads}
 
-If you upload numerous assets, I/O calls to the AEM server increases drastically, which reduces upload efficiency and can even cause it to time out. AEM Assets supports streamed uploading of assets. Streamed uploading reduces disk I/O during the upload operation by avoiding asset storage in a temporary folder on the server before copying it to the repository. Instead, the data is transferred directly to the repository. This way, the time to upload large assets and the possibility of timeouts is reduced. Streamed upload is enabled by default in AEM Assets.
+If you upload numerous assets, I/O calls to the [!DNL Experience Manager] server increases drastically, which reduces upload efficiency and can even cause it to time out. [!DNL Experience Manager] Assets supports streamed uploading of assets. Streamed uploading reduces disk I/O during the upload operation by avoiding asset storage in a temporary folder on the server before copying it to the repository. Instead, the data is transferred directly to the repository. This way, the time to upload large assets and the possibility of timeouts is reduced. Streamed upload is enabled by default in [!DNL Experience Manager] Assets.
 
-Streaming upload is disabled for AEM running on JEE server with servlet-api version less than 3.1.
+Streaming upload is disabled for [!DNL Experience Manager] running on JEE server with servlet-api version less than 3.1.
 
 ### Extract ZIP archive containing assets {#extract-zip-archive-containing-assets}
 
-You can upload ZIP archives just like any other supported asset. The same file name rules apply to ZIP files. AEM allows you to extract a ZIP archive to a DAM location.
+You can upload ZIP archives just like any other supported asset. The same file name rules apply to ZIP files. [!DNL Experience Manager] allows you to extract a ZIP archive to a DAM location.
 
 Select one ZIP archive at a time, click **[!UICONTROL Extract Archive]**, and select a destination folder. Select an option to handle conflicts, if any. If the assets in the ZIP file already exist in the destination folder, you can select one of these options: skip extraction, replace existing files, keep both assets by renaming, or create new version.
 
-After the extraction is complete, AEM notifies you in the notification area. While AEM extracts the ZIP, you can go back to your work without interrupting the extraction.
+After the extraction is complete, [!DNL Experience Manager] notifies you in the notification area. While [!DNL Experience Manager] extracts the ZIP, you can go back to your work without interrupting the extraction.
 
 ![Notification of ZIP extraction](assets/zip_extract_notification.png)
 
@@ -373,7 +376,7 @@ Some limitations of the feature are:
     * Channels/devices through which the asset was used.
     * Creative solutions where the asset was recently used.
 
-   For more details, see [Asset Insights](touch-ui-asset-insights.md).
+   For more details, see [Assets Insights](touch-ui-asset-insights.md).
 
 1. Tap **[!UICONTROL Save & Close]**.
 1. Navigate to the Assets UI. The edited metadata properties, including title, description, ratings, and so on are displayed on the asset card in card view and under relevant columns in the list view.
@@ -402,7 +405,7 @@ The other properties and metadata information is retained. A partial copy is not
 
    >[!NOTE]
    >
-   >If you copy an asset at the same location, AEM automatically generates a variation of the name. For example, if you copy an asset titled Square, AEM automatically generates the title for its copy as Square1.
+   >If you copy an asset at the same location, [!DNL Experience Manager] automatically generates a variation of the name. For example, if you copy an asset titled Square, [!DNL Experience Manager] automatically generates the title for its copy as Square1.
 
 1. Tap the **[!UICONTROL Paste]** asset icon from the toolbar:
 
@@ -414,7 +417,7 @@ The other properties and metadata information is retained. A partial copy is not
    >
    >The **[!UICONTROL Paste]** icon is available in the toolbar until the paste operation is completed.
 
-### Move or rename assets {#moving-or-renaming-assets}
+## Move and rename assets {#moving-or-renaming-assets}
 
 When you move assets (or folders) to another location, then the assets (or folders) are not duplicated unlike while copying the asset. The assets (or the folders) get placed at the target location and are removed from the source location. You can also rename the asset when moving it to the new location. If you are moving a published asset to a different location, then you have an option to republish the asset. By default move operation on a published asset automatically unpublishes it. Moved asset is republished if author selects the [!UICONTROL Republish] option when moving the asset.
 
@@ -424,38 +427,42 @@ To move assets or folders:
 
 1. Navigate to the location of the asset you want to move.  
 
-1. Select the asset, and tap the **[!UICONTROL Move]** icon from the toolbar.
+![You can republish an already published asset when moving it](assets/republish-on-move.png)
 
-   ![move_icon](assets/move_icon.png)
+To move assets or folders:
 
-1. In the **[!UICONTROL Move Assets]** wizard, do one of the following:
+1. Navigate to the location of the asset you want to move.
 
-    * Specify the name for the asset after it is moved. Then tap **[!UICONTROL Next]** to proceed.
-    * Tap **[!UICONTROL Cancel]** to stop the process.
+1. Select the asset, and click **[!UICONTROL Move]** option from the toolbar.
+![Move option in Assets toolbar](assets/do-not-localize/move_icon.png)
+
+1. In the [!UICONTROL Move Assets] wizard, do one of the following:
+
+    * Specify the name for the asset after it is moved. Then click **[!UICONTROL Next]** to proceed.
+
+    * Click **[!UICONTROL Cancel]** to stop the process.
 
    >[!NOTE]
    >
-   >You can specify the same name for the asset if there is no asset with that name at the new location. However, you should use a different name if you move the asset to a location where an asset with the same name exists. If you use the same name, the system automatically generates a variation of the name. For example if your asset has the name Square, the system generates the name Square1 for its copy.
+   >* You can specify the same name for the asset if there is no asset with that name at the new location. However, you should use a different name if you move the asset to a location where an asset with the same name exists. If you use the same name, the system automatically generates a variation of the name. For example if your asset has the name Square, the system generates the name Square1 for its copy.
+   >* When renaming, whitespace is not allowed in the file name.
 
-   >[!NOTE]
-   >
-   >The following (space-separated list of) characters are not supported:
-   >* asset file name must not contain  `* / : [ \ \ ] | # % { } ? &`
-   >* asset folder name must not contain  `* / : [ \ \ ] | # % { } ? \" . ^ ; + & \t`
+1. On the **[!UICONTROL Select Destination]** dialog, do one of the following:
 
-1. On the **[!UICONTROL Select Destination]** page, do one of the following:
+    * Navigate to the new location for the assets, and then click **[!UICONTROL Next]** to proceed.
 
-    * Navigate to the new location for the assets, and then tap **[!UICONTROL Next]** to proceed. 
-    * Tap **[!UICONTROL Back]** to return to the **[!UICONTROL Rename]** page.
+    * Click **[!UICONTROL Back]** to return to the **[!UICONTROL Rename]** screen.
 
 1. If the assets being moved have any referencing pages, assets, or collections, the **[!UICONTROL Adjust References]** tab appears beside the **[!UICONTROL Select Destination]** tab.
 
-   Do one of the following on the **[!UICONTROL Adjust References]** page:
+   Do one of the following in the **[!UICONTROL Adjust References]** screen:
 
-    * Specify the references to be adjusted based on the new details, and then tap **[!UICONTROL Move]** to proceed. 
-    * From the **[!UICONTROL Adjust]** column, select or deselect references to the assets. 
-    * Tap **[!UICONTROL Back]** to return to the **[!UICONTROL Select Destination]** page.
-    * Tap **[!UICONTROL Cancel]** to stop the move operation.
+    * Specify the references to be adjusted based on the new details, and then click **[!UICONTROL Move]** to proceed.
+
+    * From the **[!UICONTROL Adjust]** column, select/unselect references to the assets.
+    * Click **[!UICONTROL Back]** to return to the **[!UICONTROL Select Destination]** screen.
+
+    * Click **[!UICONTROL Cancel]** to stop the move operation.
 
    If you do not update references, they continue to point to the previous path of the asset. If you adjust the references, they are updated to the new asset path.
 
@@ -485,7 +492,7 @@ Moving assets by dragging them does not open [!UICONTROL Move Asset] wizard, the
 
    >[!NOTE]
    >
-   >By default, AEM Assets does not display the original rendition of the asset in the preview mode. If you are an administrator, you can use overlays to configure AEM Assets to display original renditions in the preview mode.
+   >By default, [!DNL Experience Manager] Assets does not display the original rendition of the asset in the preview mode. If you are an administrator, you can use overlays to configure [!DNL Experience Manager] Assets to display original renditions in the preview mode.
 
 1. Select a rendition to either view or delete the rendition.
 
@@ -505,7 +512,7 @@ Moving assets by dragging them does not open [!UICONTROL Move Asset] wizard, the
    >
    >If you select a rendition from the **[!UICONTROL Renditions]** panel, the toolbar changes context and displays only those actions that are relevant to the rendition. Options, such as the **[!UICONTROL Upload Rendition]** icon is not displayed. To view these options in the toolbar, navigate to the details page for the asset.
 
-   You can configure the dimensions for the rendition you want displayed in the details page of an image or video asset. Based on the dimensions you specify, AEM Assets displays the rendition with the exact or closest dimensions.
+   You can configure the dimensions for the rendition you want displayed in the details page of an image or video asset. Based on the dimensions you specify, [!DNL Experience Manager] Assets displays the rendition with the exact or closest dimensions.
 
    To configure rendition dimensions of an image at the asset detail level, overlay the **[!UICONTROL renditionpicker]** node `libs/dam/gui/content/assets/assetpage/jcr:content/body/content/content/items/assetdetail/items/col1/items/assetview/renditionpicker` and configure the value of the width property. Configure the property **[!UICONTROL size (Long) in KB]** in place of width to customize rendition on asset detail page based on image size. For size-based customization, the property **[!UICONTROL preferOriginal]** assigns preference to the original if the size of the matched rendition is greater than the original.
 
@@ -555,48 +562,33 @@ You require delete permissions on dam/asset to be able to delete an asset. If yo
 
 See [Download assets from AEM](download-assets-from-aem.md)
 
-## Publish assets {#publishing-assets}
+## Publish and unpublish assets {#publish-assets}
 
-If you publish an assets that is being processed, only the original content is published. The renditions are missing. Either wait for processing to complete and then publish or re-publish the asset after the processing is completed.
+After uploading, processing, or editing your assets on [!DNL Experience Manager] author, you publish the asset to the publish server. Publishing makes the asset available publicly. Unpublishing action removed the asset from the publish server but not from the authoring server.
 
-If the folder you want to publish includes an empty folder, the empty folder is not published.
+For information specific to [!DNL Dynamic Media], see [publishing [!DNL Dynamic Media] assets](publishing-dynamicmedia-assets.md).
 
-For more information specific to Dynamic Media, see [Publishing Dynamic Media Assets](publishing-dynamicmedia-assets.md).
+1. Navigate to the location of the asset or the asset folder that you want to publish or that you want to remove from the publish environment (unpublish).
 
-**To publish assets**:
+1. Select the asset or the folder to unpublish, and click **[!UICONTROL Manage Publication]** ![manage publication option](assets/do-not-localize/globe-publication.png) option from the toolbar. Alternatively, to publish quickly, select the **[!UICONTROL Quick Publish]** option from the toolbar. If the folder you want to publish includes an empty folder, the empty folder is not published.
 
-1. Navigate to the location of the assets/folder you want to publish  
+1. Select the **[!UICONTROL Publish]** or **[!UICONTROL Unpublish]** option as required.
 
-1. Either select the **[!UICONTROL Publish]** quick action from the asset card, or select the asset and tap the **[!UICONTROL Quick Publish]** icon from the toolbar.
-1. If the asset references other assets, its references are listed in the wizard. Only references that are either unpublished or modified since they were last published or unpublished are displayed. Choose the references you want to publish.
+   ![Unpublish action](assets/unpublish_action.png)
+   *Figure: Publish and unpublish options and the scheduling option.*
 
-   ![chlimage_1-21](assets/chlimage_1-21.png)
+1. Select **[!UICONTROL Now]** to act on the asset right away or select **[!UICONTROL Later]** to schedule the action. Select a date and time if you choose the **[!UICONTROL Later]** option. Click **[!UICONTROL Next]**.
 
-1. Tap **[!UICONTROL Publish]** to confirm the activation for the assets.
+1. When publishing, if an asset references other assets, its references are listed in the wizard. Only those references are displayed, that are either unpublished or modified since last publish. Choose the references that you want to publish.
 
-## Unpublish assets {#unpublishing-assets}
+1. When unpublishing, if an asset references other assets, choose the references that you want to unpublish. Click **[!UICONTROL Unpublish]**. In the confirmation dialog, click **[!UICONTROL Cancel]** to stop the action or click **[!UICONTROL Unpublish]** to confirm that the assets are to be unpublished at the specified date.
 
-While unpublishing a complex asset, unpublish the asset only. Avoid unpublishing the references because they may be referenced by other published assets.
+Understand the following limitations and tips related to publishing or unpublishing assets or folders:
 
-**To unpublish assets**:
-
-1. Navigate to the location of the asset or asset folder you want to remove from the publish environment (unpublish).  
-
-1. Select the asset or folder to unpublish, and tap the **[!UICONTROL Manage Publication]** icon from the toolbar.
-
-   ![manage_publication](assets/manage_publication.png)
-
-1. Select the **[!UICONTROL Unpublish]** action from the list.
-
-   ![unpublish_action](assets/unpublish_action.png)
-
-1. To unpublish the asset later, select **[!UICONTROL Unpublish Later]**, and then select a date for unpublishing the asset.
-1. Schedule a date for the asset to be unavailable from the publish environment.
-1. If the asset references other assets, choose the references you want to unpublish. Tap **[!UICONTROL Unpublish]**.
-1. In the confirmation dialog box, do one of the following:
-
-    * Tap **[!UICONTROL Cancel]** to stop the action
-    * Tap **[!UICONTROL Unpublish]** to confirm that the assets are unpublished (no longer available on the publish environment) at the specified date.
+* The option to [!UICONTROL Manage Publication] is available only to the user accounts that have replication permissions.
+* While unpublishing a complex asset, unpublish only the asset. Avoid unpublishing the references because those may be referenced by other published assets.
+* Empty folders are not published.
+* If you publish an assets that is being processed, only the original content is published. The renditions are missing. Either wait for processing to complete and then publish or re-publish the asset once the processing completes.
 
 ## Create a Closed User Group {#closed-user-group}
 
@@ -615,10 +607,10 @@ CUG are an extra way to restrict access to your assets. You can also configure a
 
    ![login_page](assets/login_page.png)
 
-   If you do not specify the path to a login page, AEM displays the default login page in the publish instance.
+   If you do not specify the path to a login page, [!DNL Experience Manager] displays the default login page in the publish instance.
 
 1. Publish the folder, and then try accessing it from the publish instance. A login screen is displayed.
-1. If you are a CUG member, enter your security credentials. The folder is displayed after AEM authenticates you.
+1. If you are a CUG member, enter your security credentials. The folder is displayed after [!DNL Experience Manager] authenticates you.
 
 ## Search assets {#searching-assets}
 
@@ -628,7 +620,7 @@ Basic search is detailed in the [Search and filter](/help/sites-authoring/search
 
 For recently uploaded assets, their metadata (including titles, tags, and so on) is not immediately available in the list of suggestions that appear when you type in the Omnisearch box.
 
-This is because AEM Assets waits until the expiry of a timeout period (1 hour by default) before running a background job to index the metadata for all newly uploaded/updated assets and adding them to the list of suggestions.
+This is because [!DNL Experience Manager] Assets waits until the expiry of a timeout period (1 hour by default) before running a background job to index the metadata for all newly uploaded/updated assets and adding them to the list of suggestions.
 
 ## Use Quick Actions {#quick-actions}
 
@@ -655,7 +647,7 @@ For more information, see [Viewing and Selecting your Resources](/help/sites-aut
 
 ## Edit images {#editing-images}
 
-The editing tools in the AEM Assets interface let you perform small editing jobs on image assets. You can crop, rotate, flip, and perform other editing jobs on images. You can also add image maps to assets.
+The editing tools in the [!DNL Experience Manager] Assets interface let you perform small editing jobs on image assets. You can crop, rotate, flip, and perform other editing jobs on images. You can also add image maps to assets.
 
 Image editing is supported for files that have the following formats:
 
@@ -715,7 +707,7 @@ The **[!UICONTROL Timeline]** lets you view various events for a selected item, 
 
 In the [Collections console](managing-collections-touch-ui.md#navigating-the-collections-console), the **[!UICONTROL Show All]** list provides options to view comments and workflows only. Moreover, the timeline is displayed only for top-level collections that are listed in the console. It is not displayed if you navigate inside any of the collections.
 
-**[!UICONTROL Timeline]** contains several [options specific to Content Fragments](content-fragments-managing.md#timeline-for-content-fragments); this functionality requires [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md) or later.
+**[!UICONTROL Timeline]** contains several [options specific to Content Fragments](content-fragments-managing.md#timeline-for-content-fragments); this functionality requires [[!DNL Experience Manager] 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md) or later.
 
 **To use Timeline**:
 
@@ -732,9 +724,9 @@ In the [Collections console](managing-collections-touch-ui.md#navigating-the-col
 
 Annotations are comments or explanatory notes added to images or videos. Annotations provide marketers the ability to collaborate and leave feedback about assets.
 
-Video annotations are only supported on browsers with HTML5-compatible video formats. Video formats that AEM Assets supports depend on the browser.
+Video annotations are only supported on browsers with HTML5-compatible video formats. Video formats that [!DNL Experience Manager] Assets supports depend on the browser.
 
-For Content Fragments, [annotations are created in the editor](content-fragments-variations.md#annotating-a-content-fragment); this functionality requires [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md) or later.
+For Content Fragments, [annotations are created in the editor](content-fragments-variations.md#annotating-a-content-fragment); this functionality requires [[!DNL Experience Manager] 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md) or later.
 
 You can add multiple annotations, before you save them.
 
@@ -769,7 +761,7 @@ You can also add annotations to a collection. However, if a collection contains 
    ![chlimage_1-32](assets/chlimage_1-32.png)
 
 1. Tap **[!UICONTROL Close]** to exit **[!UICONTROL Annotation]** mode.
-1. To view the notification, log in to AEM Assets with Aaron MacDonald's credentials and tap the **[!UICONTROL Notifications]** icon to view the notification.
+1. To view the notification, log in to [!DNL Experience Manager] Assets with Aaron MacDonald's credentials and tap the **[!UICONTROL Notifications]** icon to view the notification.
 
 1. To choose a different color so you can differentiate between users, tap the **[!UICONTROL Profile]** icon and tap **[!UICONTROL My Preferences]**.
 
@@ -780,6 +772,14 @@ You can also add annotations to a collection. However, if a collection contains 
    ![chlimage_1-34](assets/chlimage_1-34.png)
 
 ### View saved annotations {#viewing-saved-annotations}
+
+You can view only one annotation at a time.
+
+>[!NOTE]
+>
+>If you are selecting multiple annotations, the latest annotation will be visible on the user interface. 
+>
+>Multi-select is supported only for printing the annotated asset as PDF.
 
 1. To view saved annotations for an asset, navigate to the location of the asset and open the asset page for the asset.  
 
@@ -802,6 +802,10 @@ You can also add annotations to a collection. However, if a collection contains 
 If an asset has annotations or it has been subjected to a review workflow, you can print the asset along with annotations and review status as a PDF file for offline review.
 
 You can also choose to print only the annotations or review status.
+
+>[!NOTE]
+>
+>You can select multiple annotations while printing the annotated asset as PDF.
 
 Lengthy annotations may not render properly in the PDF file. For optimal rendering, Adobe recommends that you limit annotations to 50 words.
 
@@ -850,12 +854,12 @@ To print the annotations and review status, tap the **[!UICONTROL Print]** icon 
    Return to the rendered PDF file and refresh it. The refreshed PDF reflects the changes you made.
 
 **To print annotations in foreign languages**:
-If an asset includes annotations in foreign languages (especially non-latin languages), you must first configure CQ-DAM-Handler-Gibson Font Manager Service on the AEM server to be able to print these annotations. When configuring CQ-DAM-Handler-Gibson Font Manager Service, provide the path where fonts for the desired languages are located.
+If an asset includes annotations in foreign languages (especially non-latin languages), you must first configure CQ-DAM-Handler-Gibson Font Manager Service on the [!DNL Experience Manager] server to be able to print these annotations. When configuring CQ-DAM-Handler-Gibson Font Manager Service, provide the path where fonts for the desired languages are located.
 
 1. Open the **[!UICONTROL CQ-DAM-Handler-Gibson Font Manager Service]** configuration page from the URL [https://&lt;server&gt;:&lt;port&gt;/system/console/configMgr/com.day.cq.dam.handler.gibson.fontmanager.impl.FontManagerServiceImpl](http://localhost:4502/system/console/configMgr/com.day.cq.dam.handler.gibson.fontmanager.impl.FontManagerServiceImpl).
 1. To configure **[!UICONTROL CQ-DAM-Handler-Gibson Font Manager Service]**, do one of the following:
 
-    * In the **[!UICONTROL System Fonts]** directory option, specify the complete path to the fonts directory on your system. For example, if you're a Mac user, you can specify the path as `/Library/Fonts` in the **[!UICONTROL System Fonts]** directory option. AEM fetches the fonts from this directory.
+    * In the **[!UICONTROL System Fonts]** directory option, specify the complete path to the fonts directory on your system. For example, if you're a Mac user, you can specify the path as `/Library/Fonts` in the **[!UICONTROL System Fonts]** directory option. [!DNL Experience Manager] fetches the fonts from this directory.
     * Create a directory named **fonts** inside the **[!UICONTROL crx-quickstart]** folder. **[!UICONTROL CQ-DAM-Handler-Gibson Font Manager Service]** automatically fetches the fonts at the location `crx-quickstart/fonts`. You can override this default path from within the **[!UICONTROL Adobe Server Fonts]** directory option.
     * Create a new folder for fonts in your system, and store the desired fonts in the folder. Then, specify the complete path to that folder in the **[!UICONTROL Customer Fonts]** directory option.
 
@@ -864,9 +868,9 @@ If an asset includes annotations in foreign languages (especially non-latin lang
 
     * Include the string `<font_family_name_of_custom_font, sans-serif>` within the font-family option. For example, if you want to print annotations in CJK (Chinese, Japanese and Korean), include the string `Arial Unicode MS, Noto Sans, Noto Sans CJK JP, sans-serif` in the font-family option. If you want to print annotations in Hindi, download the appropriate font and configure the font-family as Arial Unicode MS, Noto Sans, Noto Sans CJK JP, Noto Sans Devanagari, sans-serif.
 
-1. Restart the AEM instance.
+1. Restart the [!DNL Experience Manager] instance.
 
-The following is an example of how you configure AEM to print annotations in CJK (Chinese, Japanese and Korean):
+The following is an example of how you configure [!DNL Experience Manager] to print annotations in CJK (Chinese, Japanese and Korean):
 
 1. Download Google Noto CJK fonts from the following links, and store them in the font directory configured in Font Manager Service.
 
@@ -883,9 +887,9 @@ Versioning creates a snapshot of digital assets at a specific point in time. Ver
 
 The following are scenarios where you create versions:
 
-* You modify an image in a different application and upload to AEM Assets. A version of the image is created so your original image is not overwritten.
+* You modify an image in a different application and upload to [!DNL Experience Manager] Assets. A version of the image is created so your original image is not overwritten.
 * You edit the metadata of an asset.
-* You use AEM desktop app to checkout an existing asset and save your changes. A new version is created every time the asset is saved.
+* You use [!DNL Experience Manager] desktop app to checkout an existing asset and save your changes. A new version is created every time the asset is saved.
 
 You can also enable automatic versioning through a workflow. When you create a version for an asset, the metadata and renditions are saved along with the version. Renditions are rendered alternatives of the same images, for example, a PNG rendition of an uploaded JPEG file.
 
@@ -941,7 +945,7 @@ The versioning functionality lets you do the following:
 
 ### Start a workflow on an asset {#starting-a-workflow-on-an-asset}
 
-See [apply a workflow to an AEM asset](/help/assets/assets-workflow.md#apply-a-workflow-to-an-aem-asset).
+See [apply a workflow to an [!DNL Experience Manager] asset](/help/assets/assets-workflow.md#apply-a-workflow-to-an-aem-asset).
 
 ## About collections {#collections}
 

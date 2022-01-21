@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: b20e0f78-9ae4-47ba-8e9a-452a0a78b663
+exl-id: 9c1d8969-6aa6-41b9-a797-3e6431475fc6
 ---
-
 # Search{#search-features}
 
 The author environment of AEM provides various mechanisms for searching for content, dependent on the resource type.
@@ -89,4 +89,3 @@ The scope can be changed using the Apache Felix Web Management Console (for exam
 >In a standard AEM installation Find and Replace uses Lucene for the search functionality.
 >
 >Lucene indexes string properties of up to 16k in length. Strings in excess of this will not be searched.
-

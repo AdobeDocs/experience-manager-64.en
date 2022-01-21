@@ -1,16 +1,12 @@
 ---
 title: Best Practices
-seo-title: Best Practices
-description: Find best practices compiled by Adobe engineering and consulting teams to help administrators get up and running.
-seo-description: Find best practices compiled by Adobe engineering and consulting teams to help administrators get up and running.
-uuid: 862d4fcf-ca61-4228-9344-b95a49b59b32
+description: Learn about Adobe Experience Manager best practices as compiled by Adobe engineering and consulting teams to help administrators get up and running.
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 8f6468a0-7721-454f-9334-c449968b8fe7
+exl-id: 8c41dba4-bedc-4747-b67d-fd89d71c8b2c
 ---
-
 # Best Practices{#best-practices}
 
 Best practices describe how to develop, administer, or use AEM in the most efficient and most effective way possible. This growing list of topics includes a variety of areas in AEM.
@@ -30,7 +26,7 @@ Specific documents are described and linked to in the tables that follow.
 
 ## Assets {#assets}
 
-Best practices around Assets, including the dynamic media capability and Scene 7 integration, are described in the following topics:
+Best practices around Assets, including the Dynamic Media capability and Dynamic Media Classic integration, are described in the following topics:
 
 <table> 
  <tbody>
@@ -45,8 +41,8 @@ Best practices around Assets, including the dynamic media capability and Scene 7
    <td>Much of processing profiles is folder based as video, metadata, image processing are always applied to folders. This best practice document describes how to define and set up your folder hierarchy as the hierarchy has a significant impact on how content is processed. </td> 
   </tr>
   <tr>
-   <td>Integrating Scene7 and AEM</td> 
-   <td><a href="/help/sites-administering/scene7.md#best-practices-for-integrating-scene-with-aem">Best practices for integrating Scene7 with AEM</a></td> 
+   <td>Integrating Dynamic Media Classic and AEM</td> 
+   <td><a href="/help/sites-administering/scene7.md#best-practices-for-integrating-scene-with-aem">Best practices for integrating Dynamic Media Classic with AEM</a></td> 
    <td><p>Describes when to turn on polling importer, how to test drive your integration, and when to use the content browser versus a direct upload to Assets.</p> </td> 
   </tr>
   <tr>
@@ -55,8 +51,8 @@ Best practices around Assets, including the dynamic media capability and Scene 7
    <td>As part of the documentation on <a href="/help/assets/managing-image-presets.md">Managing Image presets</a>, these topics describe what image presets are and best practices around selecting image preset options.</td> 
   </tr>
   <tr>
-   <td>Dynamic Media versus direct integration with Scene7</td> 
-   <td><a href="/help/sites-administering/scene7.md#aem-scene-integration-versus-dynamic-media">Scene7/AEM integration versus Dynamic Media</a></td> 
+   <td>Dynamic Media versus direct integration with Dynamic Media Classic</td> 
+   <td><a href="/help/sites-administering/scene7.md#aem-scene-integration-versus-dynamic-media">Dynamic Media Classic/AEM integration versus Dynamic Media</a></td> 
    <td>Describes when it is best to use the Dynamic Media solution, when to integrate S7 with AEM, or when to use both.</td> 
   </tr>
  </tbody>
@@ -100,4 +96,3 @@ Managing and authoring your website content has some best practices outlined as 
   </tr>
  </tbody>
 </table>
-

@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
 discoiquuid: c8ef374a-38d8-4cd4-a86e-69f0a5b4c2bc
+feature: Commerce Integration Framework
+exl-id: 8140db99-fec6-4efd-87d9-62efd157d54a
 ---
-
 # Concepts{#concepts}
 
 The integration framework provides the mechanisms and components for:
@@ -126,9 +127,8 @@ AEM eCommerce is implemented with an eCommerce engine:
 >
 >AEM eCommerce implemented within AEM using generic development based on JCR is:
 >
->* A standalone, AEM-native eCommerce example to illustrate use of the API. This can be used to control product data, shopping carts and checkout in conjunction with the existing data display and marketing campaigns. In this case the product database is stored in the repository native to AEM (Adobe's implementation of [JCR](https://docs.adobe.com/content/docs/en/spec/jcr/2.0/index.html)).  
->  The standard AEM installation contains the basics of the [generic eCommerce implemention](/help/sites-administering/generic.md).   
->
+>* A standalone, AEM-native eCommerce example to illustrate use of the API. This can be used to control product data, shopping carts and checkout in conjunction with the existing data display and marketing campaigns. In this case the product database is stored in the repository native to AEM (Adobe's implementation of [JCR](https://www.adobe.io/experience-manager/reference-materials/spec/jcr/2.0/index.html)).  
+>  The standard AEM installation contains the basics of the [generic eCommerce implemention](/help/sites-administering/generic.md).
 
 ### Commerce Providers {#commerce-providers}
 
@@ -870,5 +870,4 @@ If you require a more thorough implementation, you can either:
 * Extend the default search component with the functionality you need.
 * Implement the search method in your `CommerceService` and then use the eCommerce search component on your search page.
 
-When using an eCommerce engine, the eCommerce search API can be fully implemented in the eCommerce engine solution, so you can use the eCommerce search component that is provided out-of-the-box. The faceted search allows you to search either JCR and/or the engine:  
-
+When using an eCommerce engine, the eCommerce search API can be fully implemented in the eCommerce engine solution, so you can use the eCommerce search component that is provided out-of-the-box. The faceted search allows you to search either JCR and/or the engine:

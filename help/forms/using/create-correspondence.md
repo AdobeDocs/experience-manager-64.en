@@ -7,8 +7,9 @@ uuid: 72c06a81-65c8-4ddd-964d-91f0256a8f79
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 2c1be479-9f44-4348-b074-a08af8df51fa
+feature: Correspondence Management
+exl-id: 645b990f-279c-4731-b552-07d0aa052eb8
 ---
-
 # Create Correspondence {#create-correspondence}
 
 ## Create correspondence in the Create Correspondence user interface {#create-correspondence-in-the-create-correspondence-user-interface}
@@ -51,9 +52,7 @@ Select the letter to preview using the following steps:
 
    >[!NOTE]
    >
-  
    >For more information on switching between HTML or PDF rendition mode of letter preview, see [Change rendition mode of letter](#changerenditionmode). For more information on PDF support in Correspondence Management and AEM, see [Discontinuation of NPAPI browser plug-ins and its impact](https://helpx.adobe.com/aem-forms/kb/discontinuation-of-npapi-plugins-impact-on-aem-forms.html) and [PDF Forms to HTML5 Forms](https://helpx.adobe.com/aem-forms/kb/pdf-forms-to-html5-forms.html). 
-   >
 
 ### Enter data {#enterdata}
 
@@ -350,4 +349,3 @@ To change the preview mode of the letter, complete the following steps:
 1. Go to `https://[system]:[port]/system/console/configMgr` and, if necessary, log in as Admin.
 1. Go to **[!UICONTROL Correspondence Management Configurations]** > **[!UICONTROL Rendition Type]** and select **HTML Rendition** (Default) or **PDF Rendition**. 
 1. Click **[!UICONTROL Save]**.
-

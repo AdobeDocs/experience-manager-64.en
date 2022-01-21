@@ -1,16 +1,17 @@
 ---
 title: LiveCycleProcess Java API(SOAP)Quick Start
 seo-title: LiveCycleProcess Java API(SOAP)Quick Start
-description: null
-seo-description: null
+description: Use the LiveCycleProcess Java API (SOAP) Quick Start to search for process instances, suspend process instances, start suspended process instances, terminate process instances, purge process data, and retrieve the status of a job.
+seo-description: Use the LiveCycleProcess Java API (SOAP) Quick Start to search for process instances, suspend process instances, start suspended process instances, terminate process instances, purge process data, and retrieve the status of a job.
 uuid: ad14fb50-8dd5-44e0-9e48-f0f0334e04d6
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 9c17fa2d-0337-4204-822e-dcdafebf0e4d
+role: Developer
+exl-id: ee8f5f16-218a-41eb-be42-fda4537b2b4e
 ---
-
 # LiveCycleProcess Java API (SOAP) Quick Start {#livecycleprocess-java-api-soap-quick-start}
 
 The Java API(SOAP) Quick Start is available for processes. A *process instance* is an occurrence of a specific process that was started by an invocation method such as the Invocation API or from within Workspace.
@@ -636,4 +637,3 @@ The following code example retrieves the status of 10 AEM Forms jobs.
   
  
 ```
-

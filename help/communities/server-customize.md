@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: df5416ec-5c63-481b-99ed-9e5a91df2432
+exl-id: fbe2a617-e926-4842-a3bc-8d193bd367dc
 ---
-
 # Server-side Customization {#server-side-customization}
 
 | **[⇐ Feature Essentials](essentials.md)** |**[Client-side Customization ⇒](client-customize.md)** |
@@ -121,4 +121,3 @@ See also [Storage Resource Provider (SRP) for UGC](srp.md) to learn about access
 | **[⇐ Feature Essentials](essentials.md)** |**[Client-side Customization ⇒](client-customize.md)** |
 |---|---|
 |   |**[SCF Handlebars Helpers ⇒](handlebars-helpers.md)** |
-

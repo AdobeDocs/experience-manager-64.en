@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: d363eec3-172b-413e-9743-ed51804ea1e9
+exl-id: f726cb73-732c-4893-bdb5-10ddcf4a340a
 ---
-
 # Backbone interaction {#backbone-interaction}
 
 Backbone is a library that helps in creating and following MVC architecture in web applications. The basic idea of Backbone is to organize your interface into logical views, backed by models, each of which can be updated independently when the model changes, without having to redraw the page. For more information about Backbone, see [https://backbonejs.org](https://backbonejs.org/).
@@ -52,4 +52,3 @@ An example:
 1. Task model raises a backbone event as a notification that render call is complete.
 1. Another view, task details view listens to this event from task model.
 1. Task details view then changes the task details template to display the rendered task (form, details, attachments, notes, and so on) to the user.
-

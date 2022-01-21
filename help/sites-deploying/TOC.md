@@ -1,10 +1,13 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: adobe experience manager
+solution: Experience Manager, Experience Manager Sites, Experience Manager 6.4
 audience: end-user
 user-guide-title: AEM 6.4 Deploying Guide
 breadcrumb-title: Deploying Guide
 user-guide-description: Learn more about installing, deploying, and the architecture of Adobe Experience Manager 6.4, including our Adobe Managed Services cloud deployment.
+feature: Deploying
+role: Architect
 ---
 
 # AEM 6.4 Deploying User Guide {#deploying}
@@ -29,8 +32,7 @@ user-guide-description: Learn more about installing, deploying, and the architec
     + [Indexing via the Oak-run Jar](indexing-via-the-oak-run-jar.md)
     + [Oak-run.jar Indexing Use Cases](oak-run-indexing-usecases.md)
     + [Troubleshooting Oak Indexes](troubleshooting-oak-indexes.md)
-    + [Opting Into Aggregated Usage Statistics Collection](opt-in-aggregated-usage-statistics.md)
-    + [Update Release Vehicle Definitions](update-release-vehicle-definitions.md)
+    + [Opting Into Aggregated Usage Statistics Collection](opt-in-aggregated-usage-statistics.md)   
     + [Troubleshooting](troubleshooting.md)
 + Configuring AEM {#configuring}
     + [Basic Configuration Concepts](configuring.md)
@@ -48,11 +50,11 @@ user-guide-description: Learn more about installing, deploying, and the architec
     + [Offloading Jobs](offloading.md)
     + [Single Sign On](single-sign-on.md)
     + [Resource Mapping](resource-mapping.md)
-    + [Enabling HTTP Over SSL](/help/sites-administering/ssl-by-default.md)
+    + [Enabling HTTP Over SSL](https://experienceleague.adobe.com/docs/experience-manager-64/administering/security/ssl-by-default.html)
     + [Consistency and Traversal Checks](consistency-check.md)
     + [Performance Guidelines](performance-guidelines.md)
     + [Performance Optimization](configuring-performance.md)
-    + [Assets Performance Guide](assets-performance-sizing.md)
+    + [Assets Performance Guide](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/performance-tuning-guidelines.html)
     + [Configuration How-To Articles](ht-deploy.md)
     + [Removing the Geometrixx Sites](removing-the-geometrixx-sites.md)
     + [Configuring Web Console](configuring-web-console.md)
@@ -77,7 +79,7 @@ user-guide-description: Learn more about installing, deploying, and the architec
     + [Repository Restructuring in AEM 6.4](repository-restructuring.md)
     + [Common Repository Restructuring in AEM 6.4](all-repository-restructuring-in-aem-6-4.md)
     + [Sites Repository Restructuring in AEM 6.4](sites-repository-restructuring-in-aem-6-4.md)
-    + [Assets Repository Restructuring in AEM 6.4](assets-repository-restructuring-in-aem-6-4.md)
+    + [Assets Repository Restructuring in AEM 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/restructuring/repository-restructuring.html)
     + [Dynamic Media Repository Restructuring in AEM 6.4](dynamicmedia-repository-restructuring-in-aem-6-4.md)
     + [Forms Repository Restructuring in AEM 6.4](forms-repository-restructuring-in-aem-6-4.md)
     + [E-Commerce Repository Restructuring in AEM 6.4](ecommerce-repository-restructuring-in-aem-6-4.md)

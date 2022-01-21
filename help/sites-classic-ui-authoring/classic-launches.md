@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 4f62078d-b5b0-4eb9-bd9b-7647a093dec2
+exl-id: e1e5dc83-2f9c-4c8d-a031-5ded3f1316a1
 ---
-
 # Launches{#launches}
 
 Launches enable you to efficiently develop content for a future release.

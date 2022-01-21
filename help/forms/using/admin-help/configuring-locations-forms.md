@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 3d2b7cfb-228c-4cc2-8fcd-d500f0010010
+exl-id: 283ef073-b71d-4b48-882f-15f05581c1de
 ---
-
 # Configuring locations for Forms {#configuring-locations-for-forms}
 
 You can specify the URL, URI, and file locations of attributes such as the web root, the location of the forms to be retrieved, the seed PDF file that is used in PDFForm transformations, and the cache location.
@@ -86,4 +86,3 @@ The default value is an empty string.
 >[!NOTE]
 >
 >If you are using a temp cleaning utility, be aware that while deleting these directories does not affect functionality, it can significantly impact performance for a short time until the new cache is created. To avoid this issue, do not delete these directories while clearing the AEM forms temp directory.
-

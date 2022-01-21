@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 6466d7b8-e308-43c5-acdc-dec15f796f64
+exl-id: ea12035c-09b6-4197-ab23-c27fe71e7432
 ---
-
 # Configuring Email Notification{#configuring-email-notification}
 
 AEM sends email notifications to users who:
@@ -88,7 +88,7 @@ The default configuration looks as follows in the Web Console:
 
 Email templates for page notifications are located below:
 
-`/etc/notification/email/default/com.day.cq.wcm.core.page`
+`/libs/settings/notification-templates/com.day.cq.wcm.core.page`
 
 The default English template ( `en.txt`) is defined as follows:
 
@@ -115,7 +115,7 @@ To customize the English email template for page notification:
 
 1. In CRXDE, open the file:
 
-   `/etc/notification/email/default/com.day.cq.wcm.core.page/en.txt`
+   `/libs/settings/notification-templates/com.day.cq.wcm.core.page/en.txt`
 
 1. Modify the file to your needs.
 1. Save the changes.
@@ -200,7 +200,7 @@ The following variables can be used within the email template for forum notifica
 
 The email template for workflow notifications (English) is located at:
 
-`/etc/workflow/notification/email/default/en.txt`
+`/libs/settings/workflow/notification/email/default/en.txt`
 
 It is defined as follows:
 
@@ -229,7 +229,7 @@ To customize the English email template for workflow event notification:
 
 1. In CRXDE, open the file:
 
-   `/etc/workflow/notification/email/default/en.txt`
+   `/libs/settings/workflow/notification/email/default/en.txt`
 
 1. Modify the file to your needs.
 1. Save the changes.
@@ -287,9 +287,9 @@ To add a template for a new language:
 
 1. In CRXDE, add a file `<language-code>.txt` below:
 
-    * `/etc/notification/email/default/com.day.cq.wcm.core.page` : for page notifications 
+    * `/libs/settings/notification-templates/com.day.cq.wcm.core.page` : for page notifications 
     * `/etc/notification/email/default/com.day.cq.collab.forum` : for forum notifications
-    * `/etc/workflow/notification/email/default` : for workflow notifications
+    * `/libs/settings/workflow/notification/email/default` : for workflow notifications
 
 1. Adapt the file to the language.
 1. Save the changes.
@@ -305,4 +305,3 @@ When Collections in AEM Assets are shared or unshared, users can receive email n
 1. Configure the email service, as described above in [Configuring the Mail Service](/help/sites-administering/notification.md#configuring-the-mail-service).
 1. Log into AEM as an administrator. Click **Tools** &gt;  **Operations** &gt;  **Web Console** to open Web Console Configuration.
 1. Edit **Day CQ DAM Resource Collection Servlet**. Select **send email**. Click **Save**.
-

@@ -5,8 +5,8 @@ description: Resources for best practices, troubleshooting and training for AEM 
 seo-description: Resources for best practices, troubleshooting and training for AEM 6.4
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
+exl-id: ba222869-1268-481d-b342-27ea12b15999
 ---
-
 # AEM 6.4 Best Practices {#aem-64-best-practices}
 
 ## Where can I learn more about training or education for AEM? {#training}

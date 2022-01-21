@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: efbe46a3-c37f-4b67-8b3a-188cfc75118b
+exl-id: 733eddf1-48f9-45c2-a1b4-138cf32b4b59
 ---
-
 # Developer Mode{#developer-mode}
 
 When editing pages in AEM, several [modes](/help/sites-authoring/author-environment-tools.md#page-modes) are available, including Developer mode. This opens a side panel with several tabs that provide a developer with infomation about the current page. The three tabs are:

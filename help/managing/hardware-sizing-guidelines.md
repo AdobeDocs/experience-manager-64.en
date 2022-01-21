@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing
 content-type: reference
 discoiquuid: 3f4feb38-eca0-4852-88f8-9b20625e18ad
+exl-id: 34e4edd5-9e67-44ed-8c4c-bcdd3e161a35
 ---
-
 # Hardware Sizing Guidelines {#hardware-sizing-guidelines}
 
 These sizing guidelines offer an approximation of the hardware resources required to deploy an AEM project. Sizing estimates depend on the architecture of the project, the complexity of the solution, expected traffic and the project requirements. This guide helps you to determine the hardware needs for a specific solution, or to find an upper and lower estimate for the hardware requirements.
@@ -302,7 +302,7 @@ Allocate at least 16GB of heap and configure the DAM Update Asset workflow to us
 
 >[!NOTE]
 >
->See also the [Assets Performance Guide](/help/sites-deploying/assets-performance-sizing.md).
+>See also the [Assets Performance Guide](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/assets-sizing-guide.html).
 
 ### Multi-Site Manager {#multi-site-manager}
 

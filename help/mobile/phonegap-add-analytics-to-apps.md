@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: cd9d2bea-48d8-4a17-8544-ea25dcad69f3
+exl-id: 814285ca-5584-49fc-a190-eff431790d59
 ---
-
 # Add Adobe Analytics to your Mobile Application{#add-adobe-analytics-to-your-mobile-application}
 
 >[!NOTE]
@@ -146,4 +146,3 @@ This will redirect all the data collected by the AMS plugin to Bloodhound so tha
 | API Endpoint |The base URL of the Adobe Mobile Services HTTP APIs |https://api.omniture.com |
 | Config Endpoint |The URL used to retrieve the ADB Mobile Config for the given report suite id |/ams/1.0/app/config/ |
 | Mobile Service Apps |Get a list of apps within the users company |/ams/1.0/apps |
-

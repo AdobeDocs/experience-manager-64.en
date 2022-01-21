@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 780d1a2d-38f1-4115-a9bd-f466aa3774dd
+exl-id: 6ba1e011-e18d-4e2a-a47c-85a4962cc83c
 ---
-
 # Configuring ContextHub {#configuring-contexthub}
 
 ContextHub is a framework for storing, manipulating, and presenting context data. For more detail on ContextHub, please see the [developer documentation](/help/sites-developing/contexthub.md). ContextHub replaces [Client Context](/help/sites-administering/client-context.md) in the touch UI.

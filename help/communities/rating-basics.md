@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 7dc3ef57-05c3-45d4-ace3-bb3ba6ea768b
+exl-id: f722051c-9512-4420-b12e-cb20aa6759f7
 ---
-
 # Rating Essentials {#rating-essentials}
 
 The rating component, a [tally](tally.md) subclass, allows signed in community members to rate a feature on the website.
@@ -75,4 +75,3 @@ See:
 * [SRP and UGC Essentials](srp-and-ugc.md) - SRP utility methods and examples
 * [Accessing UGC with SRP](accessing-ugc-with-srp.md) - coding guidelines
 * [SocialUtils Refactoring](socialutils.md) - mapping deprecated utility methods to current SRP utility methods
-

@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: customization
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 437e6581-4eb1-4fbd-a6da-86b9c90cec89
+exl-id: e6aa866f-3483-4db1-abaa-01ee585928dc
 ---
-
 # Creating custom adaptive form themes {#creating-custom-adaptive-form-themes}
 
 >[!CAUTION]
@@ -228,4 +228,3 @@ After you have created an adaptive form theme, perform the following steps to us
    ![CRX repository snapshot](assets/2-1.png)
 
 1. Create an Adaptive form using the template created in the previous step. The look and feel of the adaptive form is defined by the theme created in To create an adaptive form theme section of this article.
-

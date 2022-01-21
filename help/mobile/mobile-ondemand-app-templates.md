@@ -8,8 +8,8 @@ contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 discoiquuid: ec4ada04-e429-4ad4-a060-2dccac847cf0
+exl-id: 84eb552c-ba47-46e1-86e3-9460bd77dfbe
 ---
-
 # Creating and Adding Templates and Components {#creating-and-adding-templates-and-components}
 
 >[!NOTE]

@@ -10,8 +10,8 @@ topic-tags: components
 content-type: reference
 discoiquuid: 1f9867f1-5089-46d0-8e21-30d62dbf4f45
 legacypath: /content/docs/en/aem/6-0/develop/components/components-develop
+exl-id: 2c8956bf-e20a-441d-aecc-f2600e1fa11e
 ---
-
 # AEM Components - The Basics{#aem-components-the-basics}
 
 When you start to develop new components you need to understand the basics of their structure and configuration.
@@ -238,7 +238,7 @@ The icon or abbreviation for the component is defined via JCR properties of the 
     * The recommended color is rgb(112, 112, 112) &gt; #707070
     * The background of standard component icons is transparent.
     * Only `.png` and `.svg` files are supported.
-    * If importing from the file system via Eclipse plugin, filenames need to be esacaped as `_cq_icon.png` or `_cq_icon.svg` for example.
+    * If importing from the file system via Eclipse plugin, filenames need to be escaped as `_cq_icon.png` or `_cq_icon.svg` for example.
     * `.png` takes precedent over `.svg` if both are present
 
 If none of the above properties ( `cq:icon`, `abbreviation`, `cq:icon.png` or `cq:icon.svg`) are found on the component:
@@ -451,7 +451,7 @@ Dialog definitions are specific to the UI:
 >[!NOTE]
 >
 >* For compatibility purposes the touch-enabled UI can use the definition of a classic UI dialog, when no dialog has been defined for the touch-enabled UI.
->* The [Dialog Conversion Tool](/help/sites-developing/dialog-conversion.md) is also provided to help you extend/convert components that only have dialogs defined for the classic UI.
+>* The [AEM Modernization Tools](/help/sites-developing/modernization-tools.md) is also provided to help you extend/convert components that only have dialogs defined for the classic UI.
 >
 
 * Touch-Enabled UI
@@ -630,6 +630,39 @@ There are many existing configurations in the repository. You can easily search 
 * To look for a child node of `cq:editConfig`, e.g. you can search for `cq:dropTargets`, which is of type `cq:DropTargetConfig`; you can use the Query tool in** CRXDE Lite** and search with the following XPath query string: 
 
   `//element(cq:dropTargets, cq:DropTargetConfig)`
+
+### Component Placeholders {#component-placeholders}
+
+Components must always render some HTML that is visible to the author, even when the component has no content. Otherwise it might visually disappear from the editor's interface, making it technically present but invisible on the page and in the editor. In such a case the authors won't be able to select and interact with the empty component.
+
+For this reason, components should render a placeholder as long as they don't render any visible output when the page is rendered in the page editor (when the WCM mode is `edit` or `preview`).
+The typical HTML markup for a placeholder is the following:
+
+```HTML
+<div class="cq-placeholder" data-emptytext="Component Name"></div>
+```
+
+The typical HTL script that renders the above placeholder HTML is the following:
+
+```HTML
+<div class="cq-placeholder" data-emptytext="${component.properties.jcr:title}"
+     data-sly-test="${(wcmmode.edit || wcmmode.preview) && isEmpty}"></div>
+```
+
+In the previous example, `isEmpty` is a variable that is true only when the component has no content and is invisible to the author.
+
+To avoid repetition, Adobe recommends that implementers of components use an HTL template for these placeholders, [like the one provided by the Core Components.](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/commons/v1/templates.html)
+
+The usage of the template in the previous link is then done with the following line of HTL:
+
+```HTML
+<sly data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+     data-sly-call="${template.placeholder @ isEmpty=!model.text}"></sly>
+```
+
+In the previous example, `model.text` is the variable that is true only when the content has content and is visible.
+
+An example usage of this template can be seen in the Core Components, [such as in the Title Component.](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title/title.html#L27)
 
 ### Configuring with cq:EditConfig Properties {#configuring-with-cq-editconfig-properties}
 
@@ -1020,9 +1053,9 @@ The `cq:listeners` node (node type `cq:EditListenersConfig`) defines what happen
 >[!NOTE]
 >
 >In the case of nested components there are certain restrictions on actions defined as properties on the `cq:listeners` node:  
-
 >
->* For nested components, the values of the following properties *must* be `REFRESH_PAGE`: >
+>* For nested components, the values of the following properties *must* be `REFRESH_PAGE`: 
+>
 >  * `aftermove`
 >  * `aftercopy`
 
@@ -1048,4 +1081,3 @@ With the following configuration the page is refreshed after the component has b
         afterinsert="REFRESH_PAGE"
         afterMove="REFRESH_PAGE"/>
 ```
-

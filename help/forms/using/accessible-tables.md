@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 3504afe1-abf5-4fbf-a0d2-e093361764bd
+feature: Mobile Forms
+exl-id: a3337bb1-635c-4dc9-b438-3a829d4a9e03
 ---
-
 # Create accessible complex tables in HTML5 forms {#create-accessible-complex-tables-in-html-forms}
 
 The default implementation of tables in HTML5 Forms uses HTML DIV elements to render a table. Rendering involves using ARIA roles to satisfy the accessibility requirements.
@@ -42,4 +43,3 @@ Limitations in new *AccessibleTable* format:
 * Support for rowspan is limited to the header rows and header cells
 * Support is limited to regular tables
 * No support for data prefills in tables with rowspan &gt; 1
-

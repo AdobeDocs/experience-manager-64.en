@@ -2,8 +2,10 @@
 title: Metadata schemas
 description: Metadata schema defines the layout of the properties page and the metadata properties displayed for assets. Learn how to create custom metadata schema, edit metadata schema, and how to apply metadata schema to assets.  
 contentOwner: AG
+feature: Metadata
+role: User,Admin
+exl-id: 82f42bb3-2c01-407c-a41b-9abe7be4660e
 ---
-
 # Metadata Schemas {#metadata-schemas}
 
 In [!DNL Experience Manager Assets], a metadata schema defines the layout of the properties page and the metadata properties displayed for assets that use the particular schema. Metadata properties include title, description, MIME types, tags, and so on. You can use the Metadata Schema Forms editor to modify existing schemas or add custom metadata schemas. 
@@ -166,7 +168,7 @@ Click `+` to add a new tab on a schema form. By default, the new tab has the nam
 
 ## Delete metadata schema forms {#deleting-metadata-schema-forms}
 
-AEM lets you delete custom schema forms only. It does not let you delete the default schema forms/templates. However, you can delete any custom changes in these forms.
+[!DNL Experience Manager] lets you delete custom schema forms only. It does not let you delete the default schema forms/templates. However, you can delete any custom changes in these forms.
 
 To delete a form, select a form and click the **[!UICONTROL Delete]** icon.
 
@@ -176,11 +178,11 @@ To delete a form, select a form and click the **[!UICONTROL Delete]** icon.
 
 >[!NOTE]
 >
->You cannot delete the out of the box metadata schema forms in AEM Assets.
+>You cannot delete the out of the box metadata schema forms in [!DNL Experience Manager] Assets.
 
 ## Schema forms for MIME types {#schema-forms-for-mime-types}
 
-AEM Assets provides default forms for various MIME types out of the box. However, you can add custom forms for assets of various MIME types.
+[!DNL Experience Manager] Assets provides default forms for various MIME types out of the box. However, you can add custom forms for assets of various MIME types.
 
 ### Add new forms for MIME types {#adding-new-forms-for-mime-types}
 
@@ -197,7 +199,7 @@ In this case, create a new node at `/etc/dam/metadataeditor/mimetypemappings` in
 | `exposedmimetype` | Name of the existing form to be mapped | `String` | `image/jpeg` |
 | `mimetypes` | List of MIME types that use the form defined in the `exposedmimetype` attribute | `String` | `image/png` |
 
-AEM Assets maps the following MIME types and schema forms:
+[!DNL Experience Manager] Assets maps the following MIME types and schema forms:
 
 | Schema Form | MIME types |
 |---|---|
@@ -219,7 +221,7 @@ The metadata schema feature is available to administrators only. However, admini
 
 ## Apply folder-specific metadata {#applying-folder-specific-metadata}
 
-AEM Assets lets you define a variant of a metadata schema and apply it to a specific folder.
+[!DNL Experience Manager] Assets lets you define a variant of a metadata schema and apply it to a specific folder.
 
 For example, you can define a variant of the default metadata schema and apply it to a folder. When you apply the modified schema, it overrides the original default metadata schema that is applied to assets within the folder.
 
@@ -231,7 +233,7 @@ Metadata inheritance by assets is based on the schema that is applied to the fir
 
 If the folder has a subfolder, the assets within the subfolder inherit the metadata from the schema applied at the subfolder level if a different schema is applied at the subfolder level. If, however, no schema or the same schema is applied at the subfolder level, the subfolder assets inherit the metadata from the schema applied at the parent folder level.
 
-1. Click the AEM logo and then navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]**. The **[!UICONTROL Metadata Schema Forms]** page is displayed.
+1. Click the [!DNL Experience Manager] logo and then navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]**. The **[!UICONTROL Metadata Schema Forms]** page is displayed.
 1. Select the check box before a form, for example the default metadata form, and click or tap the **[!UICONTROL Copy]** icon and save it as a custom form. Specify a custom name for the form, for example `my_default`. Alternatively, you can create a custom form.
 
    ![chlimage_1-184](assets/chlimage_1-184.png)
@@ -261,9 +263,9 @@ You can define mandatory fields at a folder level, which is enforced on assets t
 
 >[!NOTE]
 >
->A metadata field can be defined as mandatory based on the value of another field. In the Cards view, AEM does not display the warning message about missing metadata for such mandatory metadata fields.
+>A metadata field can be defined as mandatory based on the value of another field. In the Cards view, [!DNL Experience Manager] does not display the warning message about missing metadata for such mandatory metadata fields.
 
-1. Click the AEM logo and then navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]**. The **[!UICONTROL Metadata Schema Forms]** page is displayed.
+1. Click the [!DNL Experience Manager] logo and then navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]**. The **[!UICONTROL Metadata Schema Forms]** page is displayed.
 1. Save the default metadata form as a custom form. For example, save it as `my_default`.
 
    ![chlimage_1-189](assets/chlimage_1-189.png)
@@ -278,8 +280,8 @@ You can define mandatory fields at a folder level, which is enforced on assets t
 
    ![chlimage_1-192](assets/chlimage_1-192.png)
 
-1. (Optional) Access `http://[server]:[port]/system/console/components/`. Configure and enable `com.day.cq.dam.core.impl.MissingMetadataNotificationJob` component that is disabled by default. Set a frequency at which AEM checks for the validity of metadata on the assets.
-This configuration adds a property `hasValidMetadata` to jcr:content of assets. Using this property, AEM can filter results in a search.
+1. (Optional) Access `http://[server]:[port]/system/console/components/`. Configure and enable `com.day.cq.dam.core.impl.MissingMetadataNotificationJob` component that is disabled by default. Set a frequency at which [!DNL Experience Manager] checks for the validity of metadata on the assets.
+This configuration adds a property `hasValidMetadata` to jcr:content of assets. Using this property, [!DNL Experience Manager] can filter results in a search.
 
 >[!NOTE]
 >
@@ -287,4 +289,4 @@ This configuration adds a property `hasValidMetadata` to jcr:content of assets. 
 
 >[!CAUTION]
 >
->The metadata validation checks are resource intensive and may impact the performance of your system. Schedule the checks accordingly. If the AEM deployment has performance issues, try disabling this job.
+>The metadata validation checks are resource intensive and may impact the performance of your system. Schedule the checks accordingly. If the [!DNL Experience Manager] deployment has performance issues, try disabling this job.

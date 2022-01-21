@@ -1,16 +1,17 @@
 ---
 title: Assigning Usage Rights
 seo-title: Assigning Usage Rights
-description: null
-seo-description: null
+description: Use the Acrobat Reader DC extensions Java Client API and Web Service API to apply and remove usage rights from PDF documents.
+seo-description: Use the Acrobat Reader DC extensions Java Client API and Web Service API to apply and remove usage rights from PDF documents.
 uuid: 8c2020df-ea3c-49fa-916f-38a458f40d2b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 9e8db506-9ace-4e1f-8a7b-c4e9b15dde7e
+role: Developer
+exl-id: c7805d8a-eb6a-4908-9662-936920ffa67a
 ---
-
 # Assigning Usage Rights {#assigning-usage-rights}
 
 ## About the Acrobat Reader DC extensions Service {#about-the-acrobat-reader-dc-extensions-service}

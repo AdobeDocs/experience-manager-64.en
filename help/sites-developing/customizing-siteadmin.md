@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 73e57f20-4022-46ab-aa5c-ec866298b645
+exl-id: c7e37599-0712-44cf-8191-d444d12f95c4
 ---
-
 # Customizing the Websites Console (Classic UI){#customizing-the-websites-console-classic-ui}
 
 ## Adding a Custom Column to the Websites (siteadmin) Console {#adding-a-custom-column-to-the-websites-siteadmin-console}

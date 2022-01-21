@@ -1,10 +1,12 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: adobe experience manager
 audience: end-user
 user-guide-title: AEM 6.4 Communities User Guide
 breadcrumb-title: Communities Guide
 user-guide-description: Create online experiences such as forums, user groups, learning resources, and other social features.
+feature: Communities
+role: User
 ---
 
 # AEM 6.4 Communities User Guide {#communities}
@@ -14,7 +16,7 @@ user-guide-description: Create online experiences such as forums, user groups, l
   + [Communities Sites](administer-landing.md)
   + [AEM Communities Overview](overview.md)
   + [What's New in AEM 6.4 Communities](whats-new-aem-communities.md)
-  + [AEM Communities Release Notes](/help/release-notes/communities-release-notes.md)
+  + [AEM Communities Release Notes](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/communities-release-notes.html)
   + [Getting Started with AEM Communities](getting-started.md)
   + [Getting Started with AEM Communities for Enablement](getting-started-enablement.md)
   + [Initial Setup](setup.md)
@@ -32,7 +34,7 @@ user-guide-description: Create online experiences such as forums, user groups, l
   + [Configuring Dispatcher for Communities](dispatcher.md)
 + Administering {#administer}
   + [User and UGC Management Service in AEM Communities](user-ugc-management-service.md)
-  + [Communities Sites](administer-landing.md)
+  + [Communities Sites](https://experienceleague.adobe.com/docs/experience-manager-64/communities/introduction/administer-landing.html)
   + [Communities Consoles](consoles.md)
   + [Analytics Configuration for Communities Features](analytics.md)
   + [Configuring Enablement Features](enablement.md)
@@ -159,4 +161,5 @@ user-guide-description: Create online experiences such as forums, user groups, l
   + [Activity Trends](trends.md)
   + [Using Social Tag Cloud](tagcloud.md)
   + [Using Voting](voting.md)
-  + [Create a Sample Page](create-sample-page.md)
+  + [Create a Sample Page](https://experienceleague.adobe.com/docs/experience-manager-64/communities/develop/create-sample-page.html)
+  

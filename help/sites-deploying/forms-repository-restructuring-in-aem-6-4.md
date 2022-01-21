@@ -8,8 +8,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: 1ce9a622-5968-407f-a74b-d325a2bff669
+feature: Upgrading
+exl-id: a2d6524e-3f5b-4d1e-af64-61ff95889657
 ---
-
 # Forms Repository Restructuring in AEM 6.4{#forms-repository-restructuring-in-aem}
 
 As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes impacting the AEM Forms Solution. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
@@ -122,4 +123,3 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
 | **New location(s)** | `/libs/fd/fp` |
 | **Restructuring guidance** |Any references to the /etc templates should eventually be updated to point to their `/libs` counterparts. |
 | **Notes** |N/A |
-

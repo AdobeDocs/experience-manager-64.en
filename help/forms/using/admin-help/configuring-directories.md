@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 1f15f028-aa81-478e-97eb-f83a4dc0418c
+exl-id: fe69a3ca-0452-4e06-bd74-45d80659574e
 ---
-
 # Configuring directories {#configuring-directories}
 
 For each enterprise domain you configure, specify the directories that the authentication provider queries for user information. You can configure multiple directories for a domain.
@@ -72,7 +72,7 @@ When you synchronize your domains after deleting a directory, all users and grou
 
 When you add a directory to a domain, specify the following directory settings.
 
-**Server:** (Mandatory) Fully qualified domain name (FQDN) of the directory server. For example, for a computer called x on the corp.adobe.com network, the FQDN is x.corp.adobe.com. An IP address can be used in place of the FQDN server name.
+**Server:** (Mandatory) Fully qualified domain name (FQDN) of the directory server. For example, for a computer called x on the adobe.com network, the FQDN is x.adobe.com. An IP address can be used in place of the FQDN server name.
 
 **Port:** (Mandatory) The port that the directory server uses. Typically 389, or 636 if the Secure Sockets Layer (SSL) protocol is used for sending authentication information over the network.
 
@@ -323,4 +323,3 @@ After configuring the directory settings and creating the LDAP VLV entries for u
         config 
     1 matches
    ```
-

@@ -2,8 +2,10 @@
 title: Download digital assets from [!DNL Adobe Experience Manager].
 description: Learn how to download assets from [!DNL Adobe Experience Manager] and enable or disable the download functionality.
 contentOwner: AG
+feature: Asset Management,Asset Distribution
+role: User
+exl-id: bfe4d597-1080-4de5-a100-73a5175863d7
 ---
-
 # Download assets from [!DNL Adobe Experience Manager] {#download-assets-from-aem}
 
 You can download assets including static and dynamic renditions. Alternatively, you can send emails with links to assets directly from [!DNL Adobe Experience Manager Assets]. Downloaded assets are bundled in a ZIP file. The compressed ZIP file has a maximum file size of 1 GB for the export job. A maximum of 500 total assets per export job are allowed.
@@ -16,7 +18,7 @@ The asset types Image Sets, Spin Sets, Mixed Media Sets, and Carousel Sets canno
 
 To download assets, follow these steps:
 
-1. In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap **[!UICONTROL Navigation]**.
+1. In the upper-left corner of AEM, tap the [!DNL Experience Manager] logo, then in the left rail, tap **[!UICONTROL Navigation]**.
 1. On the Navigation page, tap **[!UICONTROL Assets]** > **[!UICONTROL Files.]**
 1. Navigate to a folder that contains assets you want to download.
 1. Select the folder or select one or more assets within the folder.
@@ -59,7 +61,7 @@ To allow downloading assets from your DAM, say when using something like Asset S
 
 The `Asset Download Servlet` can be disabled on an [!DNL Experience Manager] Publish instances by updating the dispatcher configuration to block any asset download requests. The servlet can also be manually disabled via the OSGi console directly.
 
-1. To block asset download requests via a dispatcher configuration, edit the `dispatcher.any` configuration and add a rule to the [filter section](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#defining-a-filter). `/0100 { /type "deny" /url "*.assetdownload.zip/assets.zip*" }`
+1. To block asset download requests via a dispatcher configuration, edit the `dispatcher.any` configuration and add a rule to the [filter section](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#configuring-access-to-content-filter). `/0100 { /type "deny" /url "*.assetdownload.zip/assets.zip*" }`
 
 1. To disable the OSGi component on a Publish instance, access the OSGi Console at `http://[aem_server]:[port]/system/console/components`. Locate `com.day.cq.dam.core.impl.servlet.AssetDownloadServlet` and click **[!UICONTROL Disable]**.
 

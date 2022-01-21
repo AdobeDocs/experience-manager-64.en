@@ -1,8 +1,8 @@
 ---
 title: Deprecated and Removed Features
 description: Release notes specific to deprecated and removed features in Adobe Experience Manager 6.4.
+exl-id: 2fe0dad7-fc78-4aac-afa3-79a278008453
 ---
-
 # Deprecated and Removed Features {#deprecated-and-removed-features}
 
 Adobe constantly evaluates product capabilities, to over time reinvent or replace older features with more modern alternatives to improve overall customer value, always under careful consideration of backward compatibility.
@@ -145,6 +145,7 @@ deprecated.
 
 |Area|Feature|Replacement|
 |---|---|---|
+| Integration with [!DNL Experience Cloud] | You could synchronize your assets with [!DNL Experience Cloud] using a configuring via [!DNL Adobe I/O]. [!DNL Adobe Experience Cloud] was formerly called [!DNL Adobe Marketing Cloud]. | If you have any queries, contact [Adobe Customer Support](https://experienceleague.adobe.com/?support-solution=General#support). |
 |Analytics Activity Map|The version of the Activity Map that is included within AEM.|Due to security changes within the Adobe Analytics API, it is no longer possible to use the version of Activity Map that is included within AEM. The [ActivityMap plug-in provided by Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-users/activitymap-install.html) should now be used.|
 |Components-Forms|Form Captcha (foundation/components/form/captcha)|Use the ReCaptcha by Google component instead|
 |Components|Slideshow (foundation/components/slideshow)|No replacement|
@@ -172,4 +173,4 @@ The table below provides a list of changes for future release, that are not depr
 |Area|Feature|Announcement|
 |---|---|---|
 |Browser Support|Microsoft Internet Explorer|AEM 6.4 is the last release that supports Microsoft Internet Explorer 11.|
-|Foundation|UI Framework|Adobe is deprecating the Coral UI 2 components in 2019. AEM 6.4 is completely based on Coral UI 3 (introduced with AEM 6.2). Adobe recommends its customers and partners that have build custom UIs with Coral 2 to refactored these to Coral 3. Adobe offers a tool to convert Coral 2 dialogs to Coral 3 - [Read more](/help/sites-developing/dialog-conversion.md).|
+|Foundation|UI Framework|Adobe is deprecating the Coral UI 2 components in 2019. AEM 6.4 is completely based on Coral UI 3 (introduced with AEM 6.2). Adobe recommends its customers and partners that have build custom UIs with Coral 2 to refactored these to Coral 3. Adobe offers a tool to convert Coral 2 dialogs to Coral 3 - [Read more.](/help/sites-developing/modernization-tools.md)|

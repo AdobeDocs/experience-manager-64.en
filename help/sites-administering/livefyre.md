@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: integration
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: bb3fcb53-b8c3-4b1d-9125-4715f34ceb0b
+exl-id: 39ecacda-2941-4b57-a001-e7ad1349723c
 ---
-
 # Integrating with Livefyre{#integrating-with-livefyre}
 
 Learn how to integrate Livefyre's industry-leading curation capabilities with your AEM 6.4 instance, allowing you to publish valuable user-generated content (UGC) from social networks to your site in minutes.
@@ -45,6 +45,7 @@ AEM 6.4 comes with Livefyre feature package 1.2.6 pre-installed. This package on
 ### Configure AEM to use Livefyre: Create a Configuration Folder {#configure-aem-to-use-livefyre-create-a-configuration-folder}
 
 1. From the AEM homepage, click the **Tools** icon in the left rail, then navigate to **General &gt; Configuration Browser**.
+   * See the [Configuration Browser documentation](/help/sites-administering/configurations.md) for more information.
 1. Click **Create** to open the Create Configuration dialog.
 1. Name your configuration and check the **Cloud Configurations** checkbox.   
   
@@ -66,6 +67,8 @@ Configure AEM to use your organization's Livefyre license credentials, allowing 
    >Folders must have Cloud Configurations enabled in their properties before Livefyre configurations can be added to them. Configuration folders are created and managed in the Configuration Browser. 
    >
    >You cannot create a name for a configuration—it is referenced by the path of the folder it is in. You can only have one configuration per folder.
+   >
+   >See the [Configuration Browser documentation](/help/sites-administering/configurations.md) for more information.
 
 1. Select the newly created Livefyre configuration card, then click **Properties**.
 
@@ -223,4 +226,3 @@ After you import the product catalog, the products show up in real time in your 
 | Storify 2 |  |X |X |X |
 | Trending |  |X |X |X |
 | Upload Button |  |X |X |X |
-

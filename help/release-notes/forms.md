@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 3f592c5a-4e59-436e-b67b-3ed575c6afc3
+exl-id: 94989316-02df-4cfa-bb2e-c0d357dff728
 ---
-
 # AEM Forms {#aem-forms}
 
 This section provides highlights of the AEM 6.4 Forms release. A detailed description of all new features can be found in the [Summary of new features and enhancements in AEM 6.4 Forms](/help/forms/using/whats-new.md).

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: d13c68ba-be49-440b-8bbe-a10edbfb9b9b
+exl-id: 3f6d3b30-b1d5-4142-8b9f-7c5594686ae7
 ---
-
 # Client Context{#client-context}
 
 >[!NOTE]
@@ -277,4 +277,3 @@ Use the data from the session store that you created using the JSONP store compo
 1. Drag the Script component to the same AND container, and open its edit dialog. Add the following script and then click OK:
 
    `3 < new Date().getMonth() < 12`
-

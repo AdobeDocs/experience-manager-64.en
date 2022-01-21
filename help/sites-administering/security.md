@@ -2,6 +2,7 @@
 title: User Administration and Security
 seo-title: User Administration and Security
 description: Learn about User Administration and Security in AEM.
+feature: Security
 seo-description: Learn about User Administration and Security in AEM.
 uuid: f14619a1-d21f-465c-b79b-c98da1f1c016
 contentOwner: msm-service
@@ -9,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: a67b9e56-944d-424d-a64a-025f369faa5b
+exl-id: 1dd54d3f-419c-4c83-8cd8-4ae0e7feead2
 ---
-
 # User Administration and Security{#user-administration-and-security}
 
 This chapter describes how to configure and maintain user authorization and also describes the theory behind how authentication and authorization work in AEM.

@@ -7,8 +7,9 @@ uuid: 5697f203-bb24-437d-a692-bc4bc2609b88
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: f458054e-885c-4c7a-afcd-ad1e4465e0c1
+feature: Adaptive Forms
+exl-id: 0ae34ddd-9a8d-48df-af2d-80c3fe6abd62
 ---
-
 # Changing Page Zero content in Designer {#changing-page-zero-content-in-designer}
 
 Page Zero content is displayed by default when a non-Adobe PDF viewer, such as the default PDF viewer in Chrome or Firefox, cannot read the content of the PDF/XFA form. The default Page Zero message is shown below.
@@ -39,4 +40,3 @@ AEM Forms Feature Pack 1 version of Designer allows you to change the message th
 >[!NOTE]
 >
 >The custom property you just created may not appear properly in the Form Properties dialog when you reopen the form. However, it works fine and the form displays the updated Page Zero message.
-

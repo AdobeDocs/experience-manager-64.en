@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: 442cd4bb-21b8-4d9d-89a4-402ee22c79a7
+exl-id: b9d2c63c-1777-4c13-a39f-6891f0ff52b2
 ---
-
 # Watched folder in AEM Forms {#watched-folder-in-aem-forms}
 
 An administrator can configure a network folder, known as a Watched Folder, so that when a user places a file (such as a PDF file) in the Watched Folder a pre-configured workflow, service, or script operation is started to process the added file. After the service performs the specified operation, it saves the result file in a specified output folder. For more information about workflow, service, and script, see [Various methods for processing files](#variousmethodsforprocessingfiles).
@@ -85,7 +85,6 @@ You can configure the following properties for a Watched Folder.
 
   **Note:** *Even when an input is marked as having timed out using this mechanism, it may still be processing in the background but just taking more time than expected. If the input contents were consumed before the timeout mechanism kicked in, the processing may even proceed to completion later and the output be dumped into the results folder. If the contents were not consumed before the timeout, it is very likely that the processing will error out later on trying to consume the contents, and this error will also be logged in the failure folder for the same input. On the other hand, if the processing for the input never activated due to an intermittent job/workflow misfire (which is the scenario the expiration mechanism aims to address), then of course neither of these two eventualities will occur. Hence, for any entries in the failure folder which were marked as failures due to a timeout (look for messages of the form "File not processed after a significant amount of time, marking as failure!" in the failure log), it is advisable to scan the result folder (and also the failure folder itself for another entry for the same input) to check whether any of the eventualities described previously actually occurred.*
 
-*
 * **deleteExpiredStageFileOnlyWhenThrottled (Boolean, default true):** Whether the expiration mechanism should activate only when the watch-folder is throttled. The mechanism is more relevant for throttled watch-folders since a small number of files which are lingering around in an unprocessed state (owing to intermittent job/workflow misfires) have the potential to choke processing for the entire batch when throttling is enabled. If this property is kept as true (the default), the expiration mechanism will not activate for watch-folders which are not throttled. If the property is kept as false, the mechanism will always activate as long as the stageFileExpirationDuration property is a positive number.
 
 * **pollInterval (Long)**: The interval in seconds for scanning the Watched Folder for input. Unless the Throttle setting is enabled, poll Interval should be longer than the time to process an average job; otherwise, the system may become overloaded. The default value is 5. See the description for Batch Size for additional information. The value of the pollinterval must be greater than or equal to one.

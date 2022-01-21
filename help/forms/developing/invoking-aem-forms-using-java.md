@@ -1,16 +1,17 @@
 ---
 title: Invoking AEM Forms using the JavaAPI
 seo-title: Invoking AEM Forms using the JavaAPI
-description: null
-seo-description: null
+description: Use the AEM Forms Java API for RMI transport protocol for remote invocation, VM transport for local invocation, SOAP for remote invocation, different authentication, such as user name and password, and synchronous and asynchronous invocation requests.
+seo-description: Use the AEM Forms Java API for RMI transport protocol for remote invocation, VM transport for local invocation, SOAP for remote invocation, different authentication, such as user name and password, and synchronous and asynchronous invocation requests.
 uuid: 5e2fef2a-05f3-4283-8fd3-2d7dca411000
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: 0e6e7850-6137-42c5-b8e2-d4e352fddae2
+role: Developer
+exl-id: 1c239c05-e221-442a-a748-0c28704ee032
 ---
-
 # Invoking AEM Forms using the Java API {#invoking-aem-forms-using-the-javaapi}
 
 AEM Forms can be invoked by using the AEM Forms Java API. When using the AEM Forms Java API, you can use either the Invocation API or Java client libraries. Java client libraries are available for services such as the Rights Management service. These strongly typed APIs let you develop Java applications that invoke AEM Forms.
@@ -27,13 +28,6 @@ The Java API supports the following features:
 * Different authentication, such as user name and password
 * Synchronous and asynchronous invocation requests
 
-**Adobe Developer website**
-
-The Adobe Developer website contains the following articles that discuss invoking AEM Forms services using the Java API:
-
-[Using Java servlets to invoke AEM Forms processes](https://www.adobe.com/devnet/livecycle/articles/java_servlets.html)
-
-[Invoking the AEM Forms Distiller API from Java](https://www.adobe.com/devnet/livecycle/articles/distiller_java_03.html)
 
 **See also**
 

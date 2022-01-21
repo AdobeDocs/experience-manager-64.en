@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
 discoiquuid: a69ff832-7955-4b10-b47f-287ac385b786
+exl-id: e330a8e8-4d55-4723-921b-812cb243f420
 ---
-
 # Create and manage A/B test for adaptive forms {#create-and-manage-a-b-test-for-adaptive-forms}
 
 ## Overview {#overview-br}
@@ -28,7 +28,7 @@ Before you begin to create and analyze A/B tests for adaptive forms, you need to
 
 To integrate AEM with Target, ensure that you have a valid Adobe Target account. When you register with Adobe Target, you receive a client code. You need the client code, email associated with Target account, and password to connect AEM with Target.
 
-The Client Code identifies the Adobe Target customer account and is used as a sub-domain in the URL when calling the Adobe Target server. Before proceeding, ensure your credentials allow you to log in at [https://testandtarget.omniture.com/](https://testandtarget.omniture.com/).
+The Client Code identifies the Adobe Target customer account and is used as a sub-domain in the URL when calling the Adobe Target server. Before proceeding, log on to [https://experience.adobe.com/](https://experience.adobe.com/) and, if you have access, view the [!DNL Adobe Target] option in the [!UICONTROL Quick Access] section.
 
 ### Integrate Target in AEM Forms {#integrate-target-in-aem-forms}
 

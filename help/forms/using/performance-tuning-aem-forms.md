@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: 5d672b56-00c4-46a0-974b-e174fbdf07d6
+role: Admin
+exl-id: bc750571-08a5-414c-aed5-4e839f6695ae
 ---
-
 # Performance tuning of AEM Forms server {#performance-tuning-of-aem-forms-server}
 
 This article discusses strategies and best practices you can implement to reduce bottlenecks and optimize the performance of your AEM Forms deployment.
@@ -169,4 +170,3 @@ To improve the performance, you can direct the antivirus software to exclude the
 >
 >* If the AEM Forms server performs slow even after excluding the suggested directories, then exclude the Java executable file (java.exe) also.   
 >
-

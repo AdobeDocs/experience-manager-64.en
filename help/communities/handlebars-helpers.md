@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 8b6c1697-d693-41f4-8337-f41658465107
+exl-id: 66045e67-4d33-4c0c-81d7-d4287ed68ccc
 ---
-
 # SCF Handlebars Helpers {#scf-handlebars-helpers}
 
 | **[⇐ Feature Essentials](essentials.md)** |**[Server-side Customization ⇒](server-customize.md)** |
@@ -445,8 +445,6 @@ NOTE: this may return an empty string
 
 ## Handlebars.js Basic Overview {#handlebars-js-basic-overview}
 
-A quick overview of helper functions from [Handlebars.js documentation](https://handlebarsjs.com/expressions.html):
-
 * A Handlebars helper call is a simple identifier (the *name *of the helper), followed by zero or more space-separated parameters.
 * Parameters may be a simple String, number, boolean, or JSON object, as well as an optional sequence of key-value pairs (hash arguments) as the last parameter(s).
 * The keys in hash arguments must be simple identifiers.
@@ -604,4 +602,3 @@ Note: the SCF helpers are defined in `/etc/clientlibs/social/commons/scf/helpers
 | **[⇐ Feature Essentials](essentials.md)** |**[Server-side Customization ⇒](server-customize.md)** |
 |---|---|
 |   |**[Client-side Customization ⇒](client-customize.md)** |
-

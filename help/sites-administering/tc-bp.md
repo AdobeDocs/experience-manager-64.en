@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features, best-practices
 content-type: reference
 discoiquuid: 1554010e-a1d1-4edf-b28f-9eead8f83b4a
+feature: Language Copy
+exl-id: f8f99ad9-2592-45b0-a16c-33b191722e75
 ---
-
 # Translation Best Practices{#translation-best-practices}
 
 ## General {#general}
@@ -55,4 +56,3 @@ Creating or expanding a global web presence can be a complex process, but with g
     * **Machine translation** can be a good choice for mass volumes of translation when time to publish is critical, quality expectations are relaxed, or human translation costs are prohibitive. Support knowledge base and user generated content are commonly machine-translated.
 
 * Rely on expertise from localization service providers, Adobe Consulting and System Integrators to plan, prototype and test your multilingual site structure.
-

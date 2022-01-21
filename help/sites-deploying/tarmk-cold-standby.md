@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: cb041407-ec30-47f8-a01e-314c4835a5d9
+feature: Configuring
+exl-id: 73f5c1a4-3d2d-4594-877e-93bd09a94e91
 ---
-
 # How to Run AEM with TarMK Cold Standby{#how-to-run-aem-with-tarmk-cold-standby}
 
 ## Introduction {#introduction}
@@ -26,6 +27,14 @@ Content is synced linearly between the primary instance and the standby instance
 >The Cold Standby feature is meant to secure scenarios where high availability is required on **author** instances. For situations where high availability is required on **publish** instances using the Tar Micro Kernel, Adobe recommends using a publish farm.
 >
 >For info on more available deployments, see the [Recommended Deployments](/help/sites-deploying/recommended-deploys.md) page.
+
+>[!NOTE]
+>
+>When the Standby instance is setup, or derived from the Primary node, it only allows access to the following console (for administration related activities):
+>
+>* OSGI Web Console 
+>
+>Other consoles are not accessible.
 
 ## How it works {#how-it-works}
 
@@ -269,7 +278,7 @@ The following OSGi settings are available for the Cold Standby service:
 
 * **Allowed IP-Ranges (`primary.allowed-client-ip-ranges`):** - the IP ranges that the primary will allow connections from.
 * **Secure (`secure`):** Enable SSL encryption. In order to make use of this setting, it must be enabled on all instances.
-* **Standby Read Timeout (`standby.readtimeout`):** Timeout for requests issued from the standby instance in milliseconds. **The recommended timeout setting is 43200000. It is generally advised you set the timeout to a value of at least 12 hours.**
+* **Standby Read Timeout (`standby.readtimeout`):** Timeout for requests issued from the standby instance in milliseconds. The default value used is 60000 (one minute).
 * **Standby Automatic Cleanup (`standby.autoclean`):** Call the cleanup method if the size of the store increases on a sync cycle.
 
 >[!NOTE]
@@ -393,4 +402,3 @@ It is important to run garbage collection on file datastore instances from time 
    >[!NOTE]
    >
    >In case you are not using a shared data store, garbage collection will first have to be run on primary and then on the standby.
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 0225a543-0fad-488b-8b0b-8b3512d44fbe
+exl-id: d236a8d3-20ad-4568-a7c2-87d146aa0532
 ---
-
 # Rich Text Editor Essentials {#rich-text-editor-essentials}
 
 ## Overview {#overview}
@@ -76,4 +76,3 @@ CKRte.prototype.config = {
     resize_enabled: false
 };
 ```
-

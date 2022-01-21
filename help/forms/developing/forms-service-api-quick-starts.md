@@ -1,16 +1,17 @@
 ---
 title: Forms Service API Quick Starts
 seo-title: Forms Service API Quick Starts
-description: null
-seo-description: null
+description: Use the Quick Starts for the Forms Service API.
+seo-description: Use the Quick Starts for the Forms Service API.
 uuid: dfce259a-e392-4929-ad7e-6d902faceaeb
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 9fe48243-24c6-4e08-9886-148cd99dec87
+role: Developer
+exl-id: abc2af58-3bf7-493e-917d-081022afb9a3
 ---
-
 # Forms Service API Quick Starts {#forms-service-api-quick-starts}
 
 The following Quick Starts are available for the Forms service:
@@ -51,7 +52,6 @@ Application logic that uses the Forms service API is implemented as Java servlet
 >
 >Quick starts located in Programming with v are based on the forms server being you are using another operating system, such as Unix, replace windows specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
 
-  **Tip**: The Adobe Developer web site contains the following article that discusses how to create a ASP.NET application that invokes the Forms service and renders forms. See [Creating form rendering ASP.NET applications](https://www.adobe.com/devnet/livecycle/articles/asp_net.html).
 
 ## Quick Start (SOAP mode): Rendering an interactive PDF form using the Java API {#quick-start-soap-mode-rendering-an-interactive-pdf-form-using-the-java-api}
 
@@ -2762,4 +2762,3 @@ The following Java quick start retrieves the file Loan.xdp from Content Services
  } 
  
 ```
-

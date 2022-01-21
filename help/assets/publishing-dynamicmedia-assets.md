@@ -1,16 +1,14 @@
 ---
 title: Publishing Dynamic Media Assets
-seo-title: Publishing Dynamic Media Assets
-description: How to publish dynamic media assets
-seo-description: How to publish dynamic media assets
-uuid: b1bee905-86cf-4284-8d4e-067e11557899
+description: How to publish Dynamic Media assets including HTTP/2 delivery of those assets.
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 99d7025f-d022-4213-83c0-815a4712c573
+exl-id: ebe30c07-1d76-4338-b301-49591f981688
+feature: Asset Management
+role: User
 ---
-
 # Publishing Dynamic Media Assets {#publishing-dynamic-media-assets}
 
 You publish your Dynamic Media assets by selecting the assets and tapping **[!UICONTROL Publish]**. After your dynamic media assets are published, they are available to you for including in a web page via URL or by way of embedding.

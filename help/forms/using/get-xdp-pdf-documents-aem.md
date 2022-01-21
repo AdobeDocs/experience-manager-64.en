@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: 99da0d37-726e-42b9-b98a-5dd6c2165af6
+role: Admin
+exl-id: 50bf178d-7a3c-41df-9d13-99c74d944700
 ---
-
 # Getting XDP and PDF documents in AEM Forms {#getting-xdp-and-pdf-documents-in-aem-forms}
 
 ## Overview {#overview}
@@ -81,4 +82,3 @@ Removing a form template corrupts the dependent adaptive form or form template. 
 A flag is maintained to indicate if an adaptive form is dirty. This information is available on the form properties page, alongside the form metadata. Only for dirty adaptive forms, a metadata property `Model Refresh` displays `Recommended` value.
 
 ![Indication of an adaptive form being out of sync with the XFA model](assets/model-refresh.png)
-

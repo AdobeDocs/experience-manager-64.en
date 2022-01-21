@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 668d1a8a-c757-4c9f-833f-e5dada4d0384
+exl-id: 788bb439-fb8a-4ab9-b367-cea6a17c0c43
 ---
-
 # Responsive Layout{#responsive-layout}
 
 AEM allows you to have a responsive layout for your pages by using the **Layout Container** component.
@@ -266,4 +266,3 @@ When in layout mode you can perform various actions on a grid:
   ![screen_shot_2018-03-23at091224](assets/screen_shot_2018-03-23at091224.png)
 
   Selecting **Restore all** will unhide all hidden components.
-

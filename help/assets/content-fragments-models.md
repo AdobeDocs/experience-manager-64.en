@@ -8,8 +8,10 @@ content-type: reference
 topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 45e67357-4524-4d25-b5f1-21182b8e803c
+exl-id: 39ed07ec-54a6-4387-8435-e891726c411c
+feature: Content Fragments
+role: User
 ---
-
 # Content Fragment Models {#content-fragment-models}
 
 >[!CAUTION]
@@ -34,6 +36,7 @@ To enable content fragment models you need to:
 To [create a new Content Fragment Model](#creating-a-content-fragment-model) you **must** first enable them using the Configuration Manager:
 
 1. Navigate to **[!UICONTROL Tools]**, **[!UICONTROL General]**, then open the **[!UICONTROL Configuration Browser]**.
+   * See the [Configuration Browser documentation](/help/sites-administering/configurations.md) for more information.
 1. Select the location appropriate to your website.
 1. Use **[!UICONTROL Create]** to open the dialog, where you:
 
@@ -141,4 +144,3 @@ To publish a content fragment model:
    >[!NOTE]
    >
    >If you publish a content fragment for which the model has not yet been published, a selection list will indicate this and the model will be published with the fragment.
-

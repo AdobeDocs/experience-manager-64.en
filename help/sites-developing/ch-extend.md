@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 13a908ae-6965-4438-96d0-93516b500884
+exl-id: 15b17bed-3422-43cf-b1af-91d9e0c5dfcb
 ---
-
 # Extending ContextHub{#extending-contexthub}
 
 Define new types of ContextHub stores and modules when the ones provided do not meet your solution requirements.

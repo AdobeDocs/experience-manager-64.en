@@ -2,21 +2,23 @@
 title: Publish folders to Brand Portal
 description: Learn how to publish and unpublish assets to Brand Portal.
 contentOwner: VG
+feature: Brand Portal
+role: User
+exl-id: 6b78124d-4022-452f-8d0f-b667de337bf4
 ---
-
 # Publish assets to Brand Portal {#publish-assets-to-brand-portal}
 
-As an Adobe Experience Manager (AEM) Assets administrator, you can publish assets to the AEM Assets Brand Portal instance (or schedule the publish workflow to a later date/time) for your organization. However, you must first configured AEM Assets with Brand Portal. For details, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md).
+As an Adobe Experience Manager Assets administrator, you can publish assets to the [!DNL Experience Manager Assets Brand Portal] instance (or schedule the publish workflow to a later date/time) for your organization. However, you must first configured [!DNL Assets] with [!DNL Brand Portal]. For details, see [Configure [!DNL Assets] with [!DNL Brand Portal]](configure-aem-assets-with-brand-portal.md).
 
 After you publish an asset, it is available to users in Brand Portal.
 
-If you make subsequent modifications to the original asset in AEM Assets, the changes are not reflected in Brand Portal until you republish the asset. This feature ensures that work-in-progress changes are not available in Brand Portal. Only approved changes that are published by an administrator are available in Brand Portal.
+If you make subsequent modifications to the original asset in [!DNL Assets], the changes are not reflected in Brand Portal until you republish the asset. This feature ensures that work-in-progress changes are not available in Brand Portal. Only approved changes that are published by an administrator are available in Brand Portal.
 
-After replication succeeds, you can publish assets, folders, and collections  to  Brand Portal. To publish assets to Brand Portal, follow these steps:
+After replication succeeds, you can publish assets, folders, and collections to [!DNL Brand Portal]. To publish assets to Brand Portal, follow these steps:
 
 >[!NOTE]
 >
->Adobe recommends staggered publishing, preferably during non-peak hours, so that the AEM author does not occupy excess resources.
+>Adobe recommends staggered publishing, preferably during non-peak hours, so that the [!DNL Experience Manager] author does not occupy excess resources.
 
 1. From the Assets console, hover over the desired assets and select **[!UICONTROL Publish]** option from the quick actions.
 

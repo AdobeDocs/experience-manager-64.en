@@ -10,8 +10,8 @@ content-type: reference
 topic-tags: site-features
 discoiquuid: a28539fc-c1dd-43bf-a47b-5f158c5611a7
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
+exl-id: 9f208b13-08eb-4305-b712-379e9b9b041e
 ---
-
 # Editing Launches{#editing-launches}
 
 ## Editing Launch Pages {#editing-launch-pages}
@@ -98,4 +98,3 @@ At any time you can edit the properties for a launch:
 The status is shown when you select a specific launch from the references tab (see [Launches in References (Sites Console)](/help/sites-authoring/launches.md#launches-in-references-sites-console)).
 
 ![chlimage_1-97](assets/chlimage_1-97.png)
-

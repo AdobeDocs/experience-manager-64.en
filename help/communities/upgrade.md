@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 7aa28e36-6b31-4447-b800-cab2dc78c93c
+exl-id: ef622ac3-d96d-48bf-bfb2-61516d9deb5c
 ---
-
 # Upgrading to AEM 6.4 Communities {#upgrading-to-aem-communities}
 
 Depending on each site's topology and features, the following actions may be necessary when upgrading to AEM Communities 6.4 or installing the latest feature pack.
@@ -45,17 +45,17 @@ If the upgraded site was configured to use Adobe cloud storage, then it may appe
 
 Thus, there is the ability to instruct ASRP to use `AEM 6.0 compatability-mode` to access UGC.
 
-For all AEM 6.3 author and publish instances
+For all AEM 6.3 author and publish instances:
 
-1. Sign in with administrator privileges
-2. Configure [ASRP](asrp.md)
-3. Follow these steps to make pre-existing UGC visible:
-  i. Browse to the web console, for example
-   [https://&lt;host&gt;:&lt;port&gt;/system/console/configMgr](http://localhost:4502/system/console/configMgr)
-  ii. Locate **[!UICONTROL AEM Communities Utilities]** configuration
-  iii. Select to expand config panel
-    * *Uncheck* **`Cloud Storage`**
-    * Select **[!UICONTROL Save]**
+1. Sign in with administrator privileges and configure [ASRP](asrp.md).
+1. Follow these steps to make the existing UGC visible:
+
+   i. Browse to the web console. The default URL is
+   `https://localhost:4502/system/console/configMgr`.
+   
+   ii. Locate **[!UICONTROL AEM Communities Utilities]** configuration and select to expand the configuration panel.
+   
+   iii. Uncheck **[!UICONTROL Cloud Storage]** and click **[!UICONTROL Save]**.
 
 ![chlimage_1-126](assets/chlimage_1-126.png) 
 
@@ -76,7 +76,7 @@ See also [Using Maven for Communities](maven.md).
 
 ### No JSP Component Templates {#no-jsp-component-templates}
 
-The [social component framework](scf.md) (SCF) uses the [HandlebarsJS](https://www.handlebarsjs.com/) (HBS) templating language in place of Java Server Pages (JSP) used prior to AEM 6.0.
+The [social component framework](scf.md) (SCF) uses the [HandlebarsJS](https://handlebarsjs.com/) (HBS) templating language in place of Java Server Pages (JSP) used prior to AEM 6.0.
 
 In AEM 6.0, the JSP components remained alongside the new HBS framework components in the same location, with the HBS components typically located in subfolders named "hbs".
 

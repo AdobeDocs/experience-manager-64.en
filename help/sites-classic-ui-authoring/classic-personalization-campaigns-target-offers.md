@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: e26bf608-c57c-4346-88fb-32a82cfa82d2
+exl-id: ca9c6fd1-7f2e-4c99-ba6e-0a064274ac24
 ---
-
 # Target offers{#target-offers}
 
 ## Creating a Test&Target Offer Experience {#creating-a-test-target-offer-experience}

@@ -10,8 +10,8 @@ topic-tags: mobile-web
 content-type: reference
 discoiquuid: e6b2de9e-dddc-4987-af2f-cf3477634ea9
 legacypath: /content/docs/en/aem/6-0/develop/mobile/mobile
+exl-id: 02fbe809-ba02-49f1-82b8-953c0906f9c9
 ---
-
 # Creating Sites for Mobile Devices{#creating-sites-for-mobile-devices}
 
 >[!NOTE]
@@ -602,5 +602,4 @@ User Alice gets redirected to `coolpage.feature.html`, and sends that URL to a f
 
 If `coolpage.feature.html` is served from a front-end cache, AEM does not get a chance to analyze the request to find out that the mobile selector does not match the new User-Agent, and Bob gets the wrong representation.
 
-To solve it, you can include a simple selection UI on the pages, where end users can override the device group that was selected by AEM. In the above example, a link (or an icon) on the page allows the end user to switch to `coolpage.touch.html` if he thinks that his device is good enough for that.  
-
+To solve it, you can include a simple selection UI on the pages, where end users can override the device group that was selected by AEM. In the above example, a link (or an icon) on the page allows the end user to switch to `coolpage.touch.html` if he thinks that his device is good enough for that.

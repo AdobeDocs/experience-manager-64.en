@@ -1,8 +1,8 @@
 ---
 title: Assembling Encrypted PDF Documents
 seo-title: Assembling Encrypted PDF Documents
-description: null
-seo-description: null
+description: Assemble encrypted PDF documents using the Java API and Web Service API.
+seo-description: Assemble encrypted PDF documents using the Java API and Web Service API.
 uuid: d0948ec9-ab67-4fe4-9062-1c4938460b43
 contentOwner: admin
 content-type: reference
@@ -10,8 +10,9 @@ geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 6d75c7b1-9c0e-47f3-bdb1-61acf16b97f9
+role: Developer
+exl-id: fa543e13-f920-4b77-9762-36f115261e8c
 ---
-
 # Assembling Encrypted PDF Documents {#assembling-encrypted-pdf-documents}
 
 You can encrypt a PDF document with a password by using the Assembler service. After a PDF document is encrypted with a password, a user must specify the password to view the PDF document in Adobe Reader or Acrobat. To encrypt a PDF document with a password, the DDX document must contain encryption element values that are required to encrypt a PDF document.

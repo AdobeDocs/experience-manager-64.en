@@ -2,19 +2,21 @@
 title: Metadata Schemata Reference
 description: Learn about standard conventions for describing asset metadata, including Dublin Core, IPTC, and other metadata schema. 
 contentOwner: AG
+feature: Metadata
+role: User,Admin
+exl-id: 883bebc6-8bbc-43b1-91e5-9e2bf2470b6e
 ---
-
 # Metadata Schemata Reference {#metadata-schemata-reference}
 
 The following reference includes information about a particular metadata schemata (in alphabetical order) as well as a list of properties and their definitions.
 
 ## Dublin Core {#dublin-core}
 
-Dublin Core metadata provides a standardized set of conventions for describing assets to make them easier to find. In AEM Assets, the Dublin Core describes digital assets including video, sound, images, and documents.
+Dublin Core metadata provides a standardized set of conventions for describing assets to make them easier to find. In [!DNL Experience Manager] Assets, the Dublin Core describes digital assets including video, sound, images, and documents.
 
 The simple Dublin Core Metadata Element Set (DCMES) contains 15 metadata elements as listed in the following table. Each Dublin Core element is optional and can be repeated. You can add or delete Dublin Core metadata information as you would for media type-specific metadata.
 
-In addition to the DCMES, there are other metadata elements created by the Dublin Core Initiative. See the [Dublin Core Initiative](http://dublincore.org/) for more information.
+In addition to the DCMES, there are other metadata elements created by the Dublin Core Initiative. See the [Dublin Core Initiative](https://dublincore.org/) for more information.
 
 | Property | Description |
 |---|---|
@@ -23,7 +25,7 @@ In addition to the DCMES, there are other metadata elements created by the Dubli
 | creator | The person or company responsible for creating the content. |
 | date | Date or period of time associated with the asset. |
 | description | More information about the asset. |
-| format | The file format, physical medium, or dimensions of the asset. AEM uses dc:format to denote the mime-type of the asset. |
+| format | The file format, physical medium, or dimensions of the asset. [!DNL Experience Manager] uses dc:format to denote the mime-type of the asset. |
 | identifier | A unique reference to the asset. |
 | language | The language of the asset (for example, en for English). |
 | publisher | The person or company responsible for making the asset available. |

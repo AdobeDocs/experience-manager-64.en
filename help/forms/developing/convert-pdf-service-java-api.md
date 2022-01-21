@@ -1,16 +1,17 @@
 ---
 title: Convert PDF Service Java API QuickStart(SOAP)
 seo-title: Convert PDF Service Java API QuickStart(SOAP)
-description: null
-seo-description: null
+description: Use the Convert PDF service Java API to convert a PDF document to PostScript and JPEG files.
+seo-description: Use the Convert PDF service Java API to convert a PDF document to PostScript and JPEG files.
 uuid: 97253ac7-f0c1-4766-a7bd-c19af52adf51
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: bdd9bb56-14f6-448b-be4a-7c11f670e901
+role: Developer
+exl-id: af0cb623-c29c-4b9e-9ffd-736047a45b8d
 ---
-
 # Convert PDF Service Java API Quick Start (SOAP) {#convert-pdf-service-java-api-quickstart-soap}
 
 The following Quick Starts are available for the Convert PDF service API.
@@ -274,4 +275,3 @@ The following Java code example converts a PDF document called *Loan.pdf* to a s
      } 
  }
 ```
-

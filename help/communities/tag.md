@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: d355a3ee-c8a8-4a07-8d28-d1a99bda315c
+exl-id: 863ee5e3-daa7-4f7d-8897-291d367cf29d
 ---
-
 # Tag Essentials {#tag-essentials}
 
 When AEM Communities components are configured with tagging enabled, community members are able to tag the content they post in the publish environment.

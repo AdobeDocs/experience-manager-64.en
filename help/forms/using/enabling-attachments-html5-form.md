@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 8eebfcd6-0597-44ed-b718-bf9a1baa6c12
+feature: Mobile Forms
+exl-id: 82a843c4-5cb2-4f5e-ad4d-cf2e9ea6cdb8
 ---
-
 # Enabling attachments for an HTML5 form {#enabling-attachments-for-an-html-form}
 
 You can upload, preview, and submit attachments with HTML5 forms. By default, the attachment support is disabled. To enable the attachment support:

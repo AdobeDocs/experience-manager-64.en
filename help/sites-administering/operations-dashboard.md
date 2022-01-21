@@ -2,6 +2,7 @@
 title: Operations Dashboard
 seo-title: Operations Dashboard
 description: Learn how to use the Operations Dashboard.
+feature: Operations
 seo-description: Learn how to use the Operations Dashboard.
 uuid: f1a6dcdc-307b-45f4-ade5-cedc58f0c7cf
 contentOwner: Guillaume Carlino
@@ -9,8 +10,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 7599fa42-3a47-49c9-8a7f-e0b6be302ff0
+exl-id: a0cb6a30-fdd4-4806-a5fa-45c98ad15d11
 ---
-
 # Operations Dashboard {#operations-dashboard}
 
 ## Introduction {#introduction}
@@ -293,7 +294,7 @@ A Composite Health Check's role is to aggregate a number of individual Health Ch
   </tr> 
   <tr> 
    <td>Security Checks</td> 
-   <td><p>The Security check is a composite which aggregates the results of multiple security-related checks. These individual health checks address different concerns from the security checklist available at the <a href="/help/sites-administering/security-checklist.md">Security Checklist documentation page.</a> The check is useful as a security smoke test when the instance is started. </p> <p>The MBean for this health check is <a href="http://localhost:4502/system/console/jmx/org.apache.sling.healthcheck%3Aname%3Dsecuritychecks%2Ctype%3DHealthCheck" target="_blank">org.apache.sling.healthcheck:name=securitych</a><a href="http://localhost:4502/system/console/jmx/org.apache.sling.healthcheck%3Aname%3Dsecuritychecks%2Ctype%3DHealthCheck" target="_blank"></a><a href="http://localhost:4502/system/console/jmx/org.apache.sling.healthcheck%3Aname%3Dsecuritychecks%2Ctype%3DHealthCheck" target="_blank"></a><a href="http://localhost:4502/system/console/jmx/org.apache.sling.healthcheck%3Aname%3Dsecuritychecks%2Ctype%3DHealthCheck" target="_blank">ecks,type=HealthCheck</a></p> </td> 
+   <td><p>The Security check is a composite which aggregates the results of multiple security-related checks. These individual health checks address different concerns from the security checklist available at the <a href="/help/sites-administering/security-checklist.md">Security Checklist documentation page.</a> The check is useful as a security smoke test when the instance is started. </p> <p>The MBean for this health check is <a href="http://localhost:4502/system/console/jmx/org.apache.sling.healthcheck%3Aname%3Dsecuritychecks%2Ctype%3DHealthCheck" target="_blank">org.apache.sling.healthcheck:name=securitychecks,type=HealthCheck</a></p> </td> 
   </tr> 
   <tr> 
    <td>Active Bundles</td> 
@@ -907,4 +908,3 @@ You can also download a `JSON` file summarizing the dashboard information by cli
   </tr> 
  </tbody> 
 </table>
-

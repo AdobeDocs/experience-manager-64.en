@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 616d42c8-2316-4c56-b89f-660903270620
+exl-id: 9abef452-b435-4419-895c-083cae6cd7d2
 ---
-
 # Basic Handling {#basic-handling}
 
 >[!NOTE]
@@ -536,4 +536,3 @@ These options accessible via the chevron next to the **Comment** field.
 This will open a panel similar to [search](/help/sites-authoring/search.md) with the appropriate location filters already set, allowing you to further filter the content you wish to view.
 
 ![screen_shot_2018-03-23at111509](assets/screen_shot_2018-03-23at111509.png)
-

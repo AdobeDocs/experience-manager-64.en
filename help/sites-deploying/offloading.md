@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: 370151df-3b8e-41aa-b586-5c21ecb55ffe
+feature: Configuring
+exl-id: b10bf1b6-0360-45ca-b1aa-f4184cbfb5c0
 ---
-
 # Offloading Jobs{#offloading-jobs}
 
 ## Introduction {#introduction}
@@ -347,4 +348,3 @@ In addition to the details presented on this page, you can also read the followi
 * For information about using Java APIs to create jobs and job consumers, see [Creating and Consuming Jobs for Offloading](/help/sites-developing/dev-offloading.md).
 * For general guidelines and best practices for asset offloading, see [General Guidelines and Best Practices for Asset Offloading](/help/assets/assets-offloading-best-practices.md#general-guidance-and-best-practices-for-asset-offloading).
 * To know how to disable the automatic creation of offloading agents, see [Turning Off Automatic Agent Management](/help/assets/assets-offloading-best-practices.md#turning-off-automatic-agent-management).
-

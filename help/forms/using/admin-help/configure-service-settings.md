@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_services
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 2fab4b0c-e5db-47cd-b85a-4ff5ad6eb178
+exl-id: be1f8c59-b5d8-4d87-af7b-1034d73e7e83
 ---
-
 # Configure service settings {#configure-service-settings}
 
 You can use the Service Management page to configure settings for each of the services that are part of AEM forms. The available settings vary depending on the service being configured.
@@ -152,7 +152,7 @@ New settings can be created through the PDF Generator user interface.
 
 >[!NOTE]
 >
->Adobe® LiveCycle® Content Services ES (Deprecated) is a content management system installed with LiveCycle. It enables users to design, manage, monitor, and optimize human-centric processes. Content Services (Deprecated) support ends on 12/31/2014. See [Adobe product lifecycle document](https://www.adobe.com/support/products/enterprise/eol/eol_matrix.html). To know about configuring Content Services (Deprecated), see [Administering Content Services](https://help.adobe.com/en_US/livecycle/9.0/admin_contentservices.pdf).
+>Adobe® LiveCycle® Content Services ES (Deprecated) is a content management system installed with LiveCycle. It enables users to design, manage, monitor, and optimize human-centric processes. Content Services (Deprecated) support ends on 12/31/2014. See [Adobe product lifecycle document](https://www.adobe.com/support/products/enterprise/eol/eol_matrix.html).
 
 The Document Management service ( `DocumentManagementService`) enables processes to use the content management functionality provided by Content Services (Deprecated). Document Management operations provide basic tasks that are required to maintain spaces and content in the content management system. Examples of such tasks are copy, delete, move, retrieve, and store content, create spaces and associations, and get and set content attributes.
 
@@ -864,4 +864,3 @@ Each service can take advantage of the pooling capabilities to handle incoming i
    **New Instance for Each Request:** A new service instance is created for each invocation received.
 
 1. Click Save.
-

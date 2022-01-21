@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 7d423dff-8710-4f43-ad55-8863169946e2
+exl-id: 9b4ed16f-3c7c-478a-a897-9b4be086988b
 ---
-
 # Clientlibs for Communities Components {#clientlibs-for-communities-components}
 
 ## Introduction {#introduction}
@@ -21,7 +21,6 @@ For basic information, visit:
 
 * [Using Client-Side Libraries](../../help/sites-developing/clientlibs.md) which provides usage details as well as debugging tools
 * [Clientlibs for SCF](client-customize.md#clientlibs) which provides useful information when customizing SCF components
-* [Blog: AEM Client Libraries explained by example](https://blogs.adobe.com/experiencedelivers/experience-management/clientlibs-explained-example/)
 
 ## Why Clientlibs are Required {#why-clientlibs-are-required}
 
@@ -86,4 +85,3 @@ To add a clientlib for a community site using [CRXDE Lite](../../help/sites-deve
 Using the [Getting Started with AEM Communities](getting-started.md) example, where `site-name` is *engage*, this is how the clientliblist would appear if adding the reviews component:
 
 ![chlimage_1-247](assets/chlimage_1-247.png)
-

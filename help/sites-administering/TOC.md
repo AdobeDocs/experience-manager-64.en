@@ -1,10 +1,13 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: adobe experience manager
+solution: Experience Manager, Experience Manager Sites
 audience: admin-user
 user-guide-title: AEM 6.4 Administering User Guide
 breadcrumb-title: Administering Guide
 user-guide-description: Learn about administering AEM.
+feature: Administering
+role: Admin
 ---
 
 # AEM 6.4 Administering User Guide {#administering}
@@ -28,6 +31,7 @@ user-guide-description: Learn about administering AEM.
     + [Language Copy Wizard](tc-wizard.md)
     + [Translation Enhancements](tc-enhancements.md)
     + [Translation Best Practices](tc-bp.md)
+    + [Configurations and the Configuration Browser](configurations.md)
     + [AEM FAQs](aem-faqs.md)
 + Operations {#operations}
     + [Dashboards](dashboards.md)
@@ -41,7 +45,7 @@ user-guide-description: Learn about administering AEM.
     + [The Bulk Editor](bulk-editor.md)
     + [Configuring Email Notification](notification.md)
     + [Configuring RTE for Producing Accessible Sites](rte-accessible-content.md)
-    + [The External Link Checker](external-link-checker.md)
+    + [The Link Checker](external-link-checker.md)
     + [Troubleshooting AEM](troubleshoot.md)
     + [Audit Log Maintenance in AEM 6](operations-audit-log.md)
     + [Editor](enable-classic-ui-editor.md)
@@ -72,7 +76,7 @@ user-guide-description: Learn about administering AEM.
     + [Mitigating serialization issues in AEM](mitigating-serialization-issues.md)
     + [User Synchronization](sync.md)
     + [Encapsulated Token Support](encapsulated-token.md)
-    + [Single Sign On](/help/sites-deploying/single-sign-on.md)
+    + [Single Sign On](https://experienceleague.adobe.com/docs/experience-manager-64/deploying/configuring/single-sign-on.html)
     + [How to Audit User Management Operations in AEM](audit-user-management-operations.md)
     + [SSL By Default](ssl-by-default.md)
     + [SAML 2.0 Authentication Handler](saml-2-0-authenticationhandler.md)
@@ -126,13 +130,12 @@ user-guide-description: Learn about administering AEM.
     + [Integrating with Adobe Dynamic Tag Management](dtm.md)
     + [Opting Into Adobe Analytics and Adobe Target](opt-in.md)
     + [AEM Portals and Portlets](aem-as-portal.md)
-    + [Integrating with Dynamic Media Classic (Scene7)](scene7.md)
+    + [Integrating with Dynamic Media Classic](scene7.md)
     + [AEM Livefyre Recipes](aem-livefyre-recipes.md)
     + [Troubleshooting Integration Issues](troubleshooting-integration-issues.md)
     + [Integrating with BrightEdge Content Optimizer](brightedge.md)
     + [Best Practices for Email Templates](best-practices-for-email-templates.md)
     + [Catalog Producer](catalog-producer.md)
-    + [Configure AEM Assets integration with Experience Cloud and Creative Cloud](configure-assets-cc-integration.md)
     + [Integrating with Silverpop Engage](silverpop.md)
     + [Integrating with Adobe Campaign](campaign.md)
     + [Integrating with ExactTarget](exacttarget.md)
@@ -146,11 +149,11 @@ user-guide-description: Learn about administering AEM.
     + [Target Integration with Experience Fragments](experience-fragments-target.md)
 + Best Practices {#bestpractices}
     + [Best Practices](administer-best-practices.md)
-    + [Translation Best Practices](tc-bp.md)
-    + [MSM Best Practices](msm-best-practices.md)
+    + [Translation Best Practices](https://experienceleague.adobe.com/docs/experience-manager-64/administering/introduction/tc-bp.html)
+    + [MSM Best Practices](https://experienceleague.adobe.com/docs/experience-manager-64/administering/introduction/msm-best-practices.html)
     + [AEM Sites - GDPR Readiness](gdpr-compliance-sites.md)
-    + [Handling GDPR Requests for the AEM Foundation](handling-gdpr-requests-for-aem-platform.md)
-    + [AEM Commerce - GDPR Readiness](gdpr-compliance-commerce.md)
+    + [Handling GDPR Requests for the AEM Foundation](https://experienceleague.adobe.com/docs/experience-manager-64/administering/security/handling-gdpr-requests-for-aem-platform.html)
+    + [AEM Commerce - GDPR Readiness](https://experienceleague.adobe.com/docs/experience-manager-64/administering/ecommerce/gdpr-compliance-commerce.html)
 + Content Management {#contentmanagement}
     + [How to Work With Packages](package-manager.md)
     + [Assets Workflow Offloader](workflow-offloader.md)

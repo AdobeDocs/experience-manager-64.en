@@ -1,8 +1,8 @@
 ---
 title: Rendering HTML Forms Using Custom CSS Files
 seo-title: Rendering HTML Forms Using Custom CSS Files
-description: null
-seo-description: null
+description: Use the Forms service to refer to custom CSS files to render HTML forms in response to an HTTP request from a web browser. You can render an HTML form that uses a CSS file using the Java API and Web Service API.
+seo-description: Use the Forms service to refer to custom CSS files to render HTML forms in response to an HTTP request from a web browser. You can render an HTML form that uses a CSS file using the Java API and Web Service API.
 uuid: a44e96f1-001d-48a2-8c96-15cb9d0c71b3
 contentOwner: admin
 content-type: reference
@@ -10,8 +10,9 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 8fe7c072-7df0-44b7-92d0-bf39dc1e688a
+role: Developer
+exl-id: d10cbb97-1cec-4b1b-9104-48063e75a2cd
 ---
-
 # Rendering HTML Forms Using Custom CSS Files {#rendering-html-forms-using-custom-css-files}
 
 The Forms service renders HTML forms in response to an HTTP request from a web browser. When rendering an HTML form, the Forms service can reference a custom CSS file. You can create a custom CSS file to meet your business requirements and reference that CSS file when using the Forms service to render HTML forms.

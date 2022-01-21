@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: b97abfc9-62e6-470c-bb86-086e662c8091
+exl-id: ad2bb8d0-d446-4bc0-8e1d-a0ad196cc206
 ---
-
 # Develop Sandbox Content {#develop-sandbox-content}
 
 **[⇐ Add Clientlibs](add-clientlibs.md)**

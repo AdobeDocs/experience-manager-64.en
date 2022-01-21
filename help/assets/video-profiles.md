@@ -1,16 +1,14 @@
 ---
 title: Dynamic Media video profiles
-seo-title: Dynamic Media video profiles
-description: Dynamic Media already comes with a predefined Adaptive Video Encoding profile. The settings in this out-of-the-box profile are optimized to give your customers the best viewing experience possible. 
-seo-description: Dynamic Media already comes with a predefined Adaptive Video Encoding profile. The settings in this out-of-the-box profile are optimized to give your customers the best viewing experience possible. 
-uuid: cfb498f8-44a0-4d94-99b0-fed7c27f575b
+description: Dynamic Media comes with a predefined Adaptive Video Encoding profile. The settings in this out-of-the-box profile are optimized to give your customers the best video viewing experience possible. 
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: b893f366-279a-4872-9413-77626d3387ea
+exl-id: 3602e1b9-624d-408f-a7f6-1598b62dbd22
+feature: Video Profiles,Video
+role: Admin,User
 ---
-
 # Dynamic Media video profiles {#video-profiles}
 
 Dynamic Media already comes with a predefined Adaptive Video Encoding profile. The settings in this out-of-the-box profile are optimized to give your customers the best viewing experience possible. When you encode your master videos using the Adaptive Video Encoding profile, during playback the video player automatically adjusts the quality of the video stream based on the Internet connection speed of your customers. This is known as adaptive streaming.
@@ -370,4 +368,3 @@ You can remove a video profile from a folder from within the **[!UICONTROL Tools
 1. Tap the AEM logo and navigate to **[!UICONTROL Assets]** and then to the folder that you want to remove a video profile from.
 1. On the folder, tap the check mark to select it, then tap **[!UICONTROL Properties]**.
 1. Select the **[!UICONTROL Video Profiles]** tab and select **[!UICONTROL None]** from the drop-down menu and tap **[!UICONTROL Save & Close]**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
-

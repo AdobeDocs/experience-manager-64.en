@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: e8b70971-4f23-45f8-8c23-e147413243c2
+exl-id: 2980ec6d-cdd4-4fbd-b4a4-5e45e4508903
 ---
-
 # Campaign Management{#campaign-management}
 
 Campaign management provides digital marketers the opportunity to deliver personalized content and so create dedicated experiences for visitors.
@@ -85,4 +85,3 @@ Campaign management is made up of various elements:
   It can be accessed from various locations (labelled as **Campaigns**), or with, for example, the URL: 
   
   `http://localhost:4502/libs/mcm/content/admin.html`
-

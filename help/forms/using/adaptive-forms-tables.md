@@ -7,8 +7,9 @@ uuid: 604cd51f-2a47-4410-b414-9cb13fe63713
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: e7d53127-3a0f-4c74-a656-25d9cf969f98
+feature: Adaptive Forms
+exl-id: 3269aab9-ac39-4adc-9a6b-9fe9f4276b29
 ---
-
 # Tables in adaptive forms {#tables-in-adaptive-forms}
 
 Using tables is an effective, simplified, and organized way of presenting complex data. It helps users in identifying information easily and providing inputs in an ordered arrangement of rows and columns. Most forms from financial services and government organizations require large data tables to put numbers and perform calculations.
@@ -60,6 +61,14 @@ The drop-down menu for the row also provides the Edit operation to edit row prop
 >[!NOTE]
 >
 >While you can add any number of rows in a table, the maximum number of columns you can add is six. Also, you cannot delete the header row from the table.
+
+### Set column width for a table {#set-column-width}
+
+Execute the following steps to set column width for a table:
+
+1. In the **[!UICONTROL Content]** tab, tap the **[!UICONTROL Table]** component and tap the Configure (![Configure](assets/configure-icon.svg))icon.
+
+1. Enter the comma-separated list of values in the **[!UICONTROL Column Width]** field to specify the proportionate width of each column in the table. For example, for a table that includes 3 columns, specifying 2,4,6 as the value in the **[!UICONTROL Column Width]** field results in setting the width of columns as 2/12 for first column, 4/12 for second column, and 6/12 for third column. 2/12 as the width for the first column refers to one-sixth of the table width. Similarly, 4/12 sets the second column width as one-third of the table width and 6/12 sets the third column width as half of the table width.
 
 ### Add table description {#add-table-description}
 
@@ -264,4 +273,3 @@ In addition, you can drag-drop a group of XSD complex type elements to create a 
 * Each body cell in a default table has a predefined element name associated with it. If you add another table in the adaptive form, the default body cells in the new table will have the same element name as in the first table. In such scenario, the data generated on submitting the form will include data in the default body cells of only one of the tables. Therefore, ensure that you rename the element names for default body cells to keep them unique across tables and avoid data loss.  
   
   Note that this is applicable only to the default body cells. If you add more rows or columns to a table will autogenerate unique element names for non-default body cells.
-

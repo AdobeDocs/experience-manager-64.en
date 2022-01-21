@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 53c57180-7004-4534-9146-603f7770a6fe
+feature: Mobile Forms
+exl-id: c27eb771-d390-4534-8e67-f1277550e760
 ---
-
 # Screen readers for HTML5 forms {#screen-readers-for-html-forms}
 
 HTML5 forms components render XFA form template to a HTML5 format. All standard browsers supporting HTML5 can render these forms. To support similar data capture experience across PDF and HTML5 forms, the layout of PDF forms is retained in HTML5 forms.
@@ -18,7 +19,7 @@ HTML5 forms use standard HTML constructs allowing regular accessibility tools fo
 
 ## Accessibility standards {#accessibility-standards}
 
-HTML5 forms comply to section 508 for accessibility with known exceptions. See [VPAT for HTML5 forms](https://www.adobe.com/mena_en/accessibility/compliance/livecycle-mobile-forms-es4-section-508-vpat.html) for details.
+HTML5 forms comply to section 508 for accessibility with known exceptions. See [VPAT for HTML5 forms](http://wwwimages.adobe.com/content/dam/acom/en/accessibility/compliance/pdfs/livecycle-mobile-forms-es4-section-508-vpat.pdf) for details.
 
 ## Certified screen readers for HTML5 forms {#certified-screen-readers-for-html-forms}
 

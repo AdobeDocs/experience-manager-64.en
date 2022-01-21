@@ -1,16 +1,14 @@
 ---
 title: Panoramic Images
-seo-title: Panoramic Images
 description: Learn how to work with panoramic images in Dynamic Media.
-seo-description: Learn how to work with panoramic images in Dynamic Media.
-uuid: dfd7a55c-7bcc-4d62-8c3a-a73726881103
 contentOwner: Rick Brough
 topic-tags: dynamic-media
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: fc285b25-2bce-493c-87bc-5f1a8a26eb42
+exl-id: 51150d51-865e-4b8e-9990-ca755e4c7778
+feature: Panoramic Images
+role: User
 ---
-
 # Panoramic Images {#panoramic-images}
 
 This section describes working with the Panoramic Image viewer to render spherical panoramic images for an immersive 360° viewing experience of a room, property, location, or landscape.
@@ -39,7 +37,7 @@ To upload assets for use with the Panoramic Image viewer, see [Uploading Assets]
 
 For the Panoramic Image viewer to work properly within AEM, you must synchronize the Panoramic Image viewer presets with Dynamic Media Classic and Dynamic Media Classic&ndash;specific metadata so the viewer presets get updated in the JCR. To accomplish this, configure Dynamic Media Classic in the following manner:
 
-1. [Log into your instance of Dynamic Media Classic](https://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html) for each company account.  
+1. [Sign in to your Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/dynamic-media-classic-desktop-app.html#system-requirements-dmc-app) for each company account.  
 
 1. Near the upper-right corner of the page, click **[!UICONTROL Setup > Application Setup > Publish Setup > Image Server]**.
 1. On the **[!UICONTROL Image Server Publish]** page, from the **[!UICONTROL Publish Context]** drop-down menu near the top, select **[!UICONTROL Image Serving]**.  
@@ -68,7 +66,7 @@ For the Panoramic Image viewer to work properly within AEM, you must synchronize
 
 If you dropped an image into the **[!UICONTROL Panoramic Media]** component in your WCM and the component placeholder collapsed, you may want to troubleshoot the following:
 
-* If you experience a 403 Forbidden error, it may have been caused by the requested image size being too large. Review the *Reply Image Size Limit* settings in [Configuring Dynamic Media Classic (Scene7)](#configuring-dynamic-media-classic-scene).
+* If you experience a 403 Forbidden error, it may have been caused by the requested image size being too large. Review the *Reply Image Size Limit* settings in [Configuring Dynamic Media Classic](#configuring-dynamic-media-classic-scene).
 
 * For an *Invalid lock* on the asset or *Parsing error* displayed on the page, check **[!UICONTROL Request Obfuscation Mode]** and **[!UICONTROL Request Locking Mode]** to ensure they are disabled.
 * For a tainted canvas error, setup a **[!UICONTROL Rule Set Definition File Path and Invalidate CTN]** for the previous requests for the image asset.

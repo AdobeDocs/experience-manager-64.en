@@ -7,8 +7,9 @@ uuid: cd123d42-f7cf-489d-8182-f3a01a2a4799
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
 discoiquuid: 2ee45ac0-bc15-403a-93fc-c8592afb967d
+feature: Form Data Model
+exl-id: 2dcbc459-5fa3-4712-a72e-159bdbad0a61
 ---
-
 # Work with form data model {#work-with-form-data-model}
 
 Data Integration provides form data model editor to configure and work with form data models.
@@ -57,7 +58,7 @@ To add data model objects and services:
 
    >[!NOTE]
    >
-   >In addition to data model objects and services, OData service metadata document includes navigation properties that define association between two data model objects. For more information, see [Working with navigation properties of OData services](#navigation-properties-odata).
+   >In addition to data model objects and services, OData service metadata document includes navigation properties that define association between two data model objects. For more information, see [Working with navigation properties of OData services](#work-with-navigation-properties-of-odata-services).
 
 1. Tap **[!UICONTROL Save]** to save the form model object.
 
@@ -133,7 +134,7 @@ To read and write data for a data model object, do the following to configure re
    >
    >In addition to data model objects and services, OData service metadata document includes navigation properties that define association between two data model objects. When you add an OData service datasource to a Form Data Model, there is a service available in Form Data Model for all navigation properties in a data model object. You can use this service to read the navigation properties of the corresponding data model object. 
    >
-   >For more information using the service, see [Working with navigation properties of OData services](#navigation-properties-odata).
+   >For more information using the service, see [Working with navigation properties of OData services](#work-with-navigation-properties-of-odata-services).
 
 1. Toggle **[!UICONTROL Top Level Object]** to specify if the data model object is a top-level model object.
 
@@ -175,7 +176,7 @@ To add an association:
 
    >[!NOTE]
    >
-   >In addition to data model objects and services, OData service metadata document includes navigation properties that define association between two data model objects. You can use these navigation properties when adding associations in Form Data Model. For more information, see [Working with navigation properties of OData services](#navigation-properties-odata).
+   >In addition to data model objects and services, OData service metadata document includes navigation properties that define association between two data model objects. You can use these navigation properties when adding associations in Form Data Model. For more information, see [Working with navigation properties of OData services](#work-with-navigation-properties-of-odata-services).
 
    The Add Association dialog opens.
 

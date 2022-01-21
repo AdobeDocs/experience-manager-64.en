@@ -1,15 +1,16 @@
 ---
 title: Acrobat Reader DC extensions ServiceJava API Quick Start(SOAP)
 seo-title: Acrobat Reader DC extensions ServiceJava API Quick Start(SOAP)
-description: null
-seo-description: null
+description: Use the  Acrobat Reader DC Extensions service to apply usage rights to a PDF document, remove usage rights from PDF documents, and retrieve  information about the credential that is used to apply usage-rights to a rights-enabled PDF document named LoanUsageRights.pdf.
+seo-description: Use the  Acrobat Reader DC Extensions service to apply usage rights to a PDF document, remove usage rights from PDF documents, and retrieve  information about the credential that is used to apply usage-rights to a rights-enabled PDF document named LoanUsageRights.pdf.
 uuid: 8e72ca94-a8c1-43aa-9845-a0da597051c5
 contentOwner: admin
 content-type: reference
 topic-tags: develop
 discoiquuid: 31a9bfc6-462d-4535-888f-31026b8fa674
+role: Developer
+exl-id: e95d8be5-04a3-4158-be5a-de1af08ab640
 ---
-
 # Acrobat Reader DC extensions ServiceJava API Quick Start (SOAP) {#acrobat-reader-dc-extensions-servicejava-api-quick-start-soap}
 
 The following Quick Starts are available for the Acrobat Reader DC Extensions service.
@@ -348,4 +349,3 @@ The following Java code example retrieves information about the credential that 
  } 
  
 ```
-

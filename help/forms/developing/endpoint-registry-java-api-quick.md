@@ -1,16 +1,17 @@
 ---
 title: Endpoint Registry Java API QuickStart(SOAP)
 seo-title: Endpoint Registry Java API QuickStart(SOAP)
-description: null
-seo-description: null
+description: Use the Endpoint Registry Java API to add an EJB endpoint, add a SOAP endpoint, add a Watched folder endpoint, add an Email endpoint, add a remoting endpoint, add a TaskManager endpoint, modify an endpoint, remove an endpoint, and retrieve endpoint connector information.
+seo-description: Use the Endpoint Registry Java API to add an EJB endpoint, add a SOAP endpoint, add a Watched folder endpoint, add an Email endpoint, add a remoting endpoint, add a TaskManager endpoint, modify an endpoint, remove an endpoint, and retrieve endpoint connector information.
 uuid: 986c55d0-e199-46f8-a3cc-a6baf5cce316
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: e5989859-e58d-4049-9e0d-c4c848d597af
+role: Developer
+exl-id: 70816a79-a200-4afa-8602-bf3c414665ea
 ---
-
 # Endpoint Registry Java API Quick Start (SOAP) {#endpoint-registry-java-api-quickstart-soap}
 
 Java API Quick Start(SOAP) is available for the Endpoint Registry.
@@ -1109,4 +1110,3 @@ The following Java code retrieves information about a Watched Folder endpoint. I
  } 
  
 ```
-

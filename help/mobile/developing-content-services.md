@@ -1,7 +1,7 @@
 ---
 title: Content Services
 seo-title: Content Services
-description: null
+description: Content Services
 seo-description: null
 uuid: 7bd09c91-3931-400b-bdfc-b064b9ca9668
 contentOwner: User
@@ -37,6 +37,8 @@ Content Services can deliver the content as assets, packaged HTML (HTML/CSS/JS),
 >Before you get started with Content Services, ensure to enable Content Services flag. To enable creation and management of models in your app, you need to enable data models in Configuration Browser.
 >
 >See **[Administering Content Services](/help/mobile/developing-content-services.md)** for details.
+>
+>See the [Configuration Browser documentation](/help/sites-administering/configurations.md) for more information.
 
 ![chlimage_1-143](assets/chlimage_1-143.png)
 

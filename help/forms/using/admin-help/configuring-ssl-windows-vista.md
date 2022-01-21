@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 667645a0-53d0-4f9b-a0ba-cc7e366a23a1
+exl-id: 8eee2ed2-8263-47f2-b928-214fd9ab5f6e
 ---
-
 # Configuring SSL on Windows Vista {#configuring-ssl-on-windows-vista}
 
 To configure SSL on Windows Vista™, you need an SSL certificate with RSA keys for authentication. You can use the Java keytool to create the certificate.
@@ -32,4 +32,3 @@ You can run keytool by using a single command that includes all the information 
    >Replace *[JAVA_HOME] with the directory where the JDK is installed, and replace the text in italic with values that correspond with your environment.*
 
 1. Type `changeit` as the password. This password is the default for a Java installation, and the system administrator may have changed it.
-

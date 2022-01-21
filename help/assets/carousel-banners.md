@@ -9,8 +9,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 4b532cd3-1561-4b5c-8b4b-420c278926f0
+exl-id: d2fdad3f-513b-4147-a7c6-a3c1b64dd6e3
+feature: Carousel Banners
+role: User
 ---
-
 # Carousel Banners {#carousel-banners}
 
 Carousel banners enable marketers to drive conversion by easily creating interactive rotating promotional content and delivering it to any screen.
@@ -25,9 +27,9 @@ On your website, a carousel banner can look as follows:
 
 ![chlimage_1-439](assets/chlimage_1-439.png)
 
-Here you can navigate through the images (by clicking on the numbers). In addition, the slides automatically rotate based on a time interval you can customize. Images that you add in the carousel banner support both hotspots and image maps, where users can either tap or to go to a hyperlink or access a quick view window.
+Here you can navigate through the images (by clicking on the numbers). In addition, the slides automatically rotate based on a time interval you can customize. Images that you add in the carousel banner support both hotspots and image maps, where users can either tap or to go to a hyperlink or access a Quickview window.
 
-In this example, a user has tapped or clicked an image map and accessed the quick view window for gloves:
+In this example, a user has tapped or clicked an image map and accessed the Quickview window for gloves:
 
 ![chlimage_1-440](assets/chlimage_1-440.png) 
 
@@ -45,7 +47,7 @@ To get you up and running quickly:
 
 1. [Identify hotspot and image map variables](#identifying-hotspot-and-image-map-variables) (only for customers using AEM Assets + Dynamic Media)
 
-   Start by identifying dynamic variables used by the existing quick view implementation so that you can enter hotspots and image map data properly during the carousel banner creation process in AEM Assets.
+   Start by identifying dynamic variables used by the existing Quickview implementation so that you can enter hotspots and image map data properly during the carousel banner creation process in AEM Assets.
 
    >[!NOTE]
    >
@@ -89,9 +91,9 @@ If you need to edit Carousel Sets, see [editing Carousel Sets](#editing-carousel
 
 ## Identifying Hotspot and Image Map Variables {#identifying-hotspot-and-image-map-variables}
 
-Start by identifying dynamic variables used by the existing quick view implementation so that you can enter hotspots or image map data properly during the carousel set creation process in AEM Assets.
+Start by identifying dynamic variables used by the existing Quickview implementation so that you can enter hotspots or image map data properly during the carousel set creation process in AEM Assets.
 
-When you add hotspots or image maps to a banner image in AEM Assets you need to assign a SKU and optional additional variables to each hotspot or image map. Such variables are used later to match hotspots or image maps with quick view content.
+When you add hotspots or image maps to a banner image in AEM Assets you need to assign a SKU and optional additional variables to each hotspot or image map. Such variables are used later to match hotspots or image maps with Quickview content.
 
 >[!NOTE]
 >
@@ -103,39 +105,39 @@ It is important to properly identify the number and type of variables to associa
 
 There are different ways to identify a set of variables to use for hotspot or image map data.
 
-Sometimes it may be enough to consult with IT specialists responsible for the existing quick view implementation, as they are likely to know what is the minimum set of data needed to identify quick view in the system. However, in most cases it is also possible to simply analyze the existing behavior of the front-end code.
+Sometimes it may be enough to consult with IT specialists responsible for the existing Quickview implementation, as they are likely to know what is the minimum set of data needed to identify Quickview in the system. However, in most cases it is also possible to simply analyze the existing behavior of the front-end code.
 
-The majority of quick view implementations use the following paradigm:
+The majority of Quickview implementations use the following paradigm:
 
 * User activates a user interface element on the website. For example, clicking a **[!UICONTROL Quick View]** button.
-* The website sends an Ajax request to the backend to load the quick view data or content, if needed.
-* The quick view data is translated into the content in preparation for rendering on the web page.
+* The website sends an Ajax request to the backend to load the Quickview data or content, if needed.
+* The Quickview data is translated into the content in preparation for rendering on the web page.
 * Finally, the front-end code visually renders such content on the screen.
 
-The approach then is to visit different areas of the existing website where the quick view feature is implemented, trigger the quick view and capture the Ajax URL sent by web page for loading the quick view data or content.
+The approach then is to visit different areas of the existing website where the Quickview feature is implemented, trigger the Quickview and capture the Ajax URL sent by web page for loading the Quickview data or content.
 
 Normally there is no need for you to use any specialized debugging tools. Modern web browsers feature web inspectors that do an adequate job. The following are a few examples of web browsers that include web inspectors:
 
 * To see all outgoing HTTP requests in Google Chrome, press F12 (Windows) or Command-Option-I (Mac) to open the Developer Tools panel, and then tap the **[!UICONTROL Network]** tab.
 * In Firefox, you can either activate the Firebug plug-in by pressing F12 (Windows) or Command-Option-I (Mac) and use its Net tab, or you can use the built-in Inspector tool and its Network tab.
 
-When network monitoring is turned on in the browser, trigger the quick view on the page.
+When network monitoring is turned on in the browser, trigger the Quickview on the page.
 
-Now find the quick view Ajax URL in the network log and copy the recorded URL for future analysis. In most cases when you trigger the quick view there are numerous requests that are sent out to the server. Typically, the quick view Ajax URL is one of the first in the list. It has either a complex query string portion or path, and its response MIME type is either `text/html`, `text/xml`, or `text/javascript`.
+Now find the Quickview Ajax URL in the network log and copy the recorded URL for future analysis. In most cases when you trigger the Quickview there are numerous requests that are sent out to the server. Typically, the Quickview Ajax URL is one of the first in the list. It has either a complex query string portion or path, and its response MIME type is either `text/html`, `text/xml`, or `text/javascript`.
 
-During this process it is important to visit different areas of your website, with different product categories and types. The reason is that quick view URLs may have parts that are common for a given website category, but change only if you visit a different area of the website.
+During this process it is important to visit different areas of your website, with different product categories and types. The reason is that Quickview URLs may have parts that are common for a given website category, but change only if you visit a different area of the website.
 
-In the simplest case, the only variable part in the quick view URL is the product SKU. In this case, the SKU value is the only data piece that you need for adding hotspots or image maps to the banner image.
+In the simplest case, the only variable part in the Quickview URL is the product SKU. In this case, the SKU value is the only data piece that you need for adding hotspots or image maps to the banner image.
 
-However, in complex cases, the quick view URL has different varying elements in addition to the SKU, such as category ID, color code, size code, and so forth. In such cases, every element is a separate variable in your hotspot or image map data definition in the carousel banner feature.
+However, in complex cases, the Quickview URL has different varying elements in addition to the SKU, such as category ID, color code, size code, and so forth. In such cases, every element is a separate variable in your hotspot or image map data definition in the carousel banner feature.
 
-Consider the following examples of quick view URLs and their resulting hotspot or image map variables:
+Consider the following examples of Quickview URLs and their resulting hotspot or image map variables:
 
 <table> 
  <tbody> 
   <tr> 
    <td>Single SKU, found in the query string.</td> 
-   <td><p>The recorded quick view URLs include the following:</p> 
+   <td><p>The recorded Quickview URLs include the following:</p> 
     <ul> 
      <li><p><code>https://server/json?productId=866558&amp;source=100</code></p> </li> 
      <li><p><code>https://server/json?productId=1196184&amp;source=100</code></p> </li> 
@@ -145,7 +147,7 @@ Consider the following examples of quick view URLs and their resulting hotspot o
   </tr> 
   <tr> 
    <td>Single SKU, found in the URL path.</td> 
-   <td><p>The recorded quick view URLs include the following:</p> 
+   <td><p>The recorded Quickview URLs include the following:</p> 
     <ul> 
      <li><p><code>https://server/product/6422350843</code></p> </li> 
      <li><p><code>https://server/product/1607745002</code></p> </li> 
@@ -154,7 +156,7 @@ Consider the following examples of quick view URLs and their resulting hotspot o
   </tr> 
   <tr> 
    <td>SKU and category ID in the query string.</td> 
-   <td><p>The recorded quick view URLs include the following:</p> 
+   <td><p>The recorded Quickview URLs include the following:</p> 
     <ul> 
      <li><p><code>https://server/quickView/product/?category=1100004&amp;prodId=305466</code></p> </li> 
      <li><p><code>https://server/quickView/product/?category=1100004&amp;prodId=310181</code></p> </li> 
@@ -242,8 +244,8 @@ See [(Optional) Previewing Carousel Banners](#optional-previewing-carousel-banne
 
 >[!NOTE]
 >
->When you add hotspots to an image in an [Interactive Image](interactive-images.md) or a Carousel Banner, the hotspot information is stored in the same metadata location - relative to the image's location--regardless of whether it is an Interactive Image or a Carousel Banner. This functionality means that you can easily re-use the same image - along with its defined hotspot data - in either viewer.  
-  
+>When you add hotspots to an image in an [Interactive Image](interactive-images.md) or a Carousel Banner, the hotspot information is stored in the same metadata location - relative to the image's location--regardless of whether it is an Interactive Image or a Carousel Banner. This functionality means that you can easily re-use the same image - along with its defined hotspot data - in either viewer.
+>
 >Be aware, however, that Carousel Banners support image maps on images that can also contain hotspots; an Interactive Image does not. Keep this in mind if you intend to create an Interactive Image or Carousel Banner that uses the same image. You may want to create Interactive Images and Carousel Banners using separate copies of the same image instead.
 
 >[!NOTE]
@@ -274,8 +276,8 @@ See [(Optional) Previewing Carousel Banners](#optional-previewing-carousel-banne
         * If you are not an AEM Sites or Ecommerce customer
 
             * See [Identifying hotspot variables](#identifying-hotspot-and-image-map-variables) as you may want to define these variables. 
-            * Then, manually enter the SKU value. In the **[!UICONTROL SKU Value]** text field, type the product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you offer. The entered SKU value automatically populates the variable portion of the quick view template so that the system knows to associate the tapped hotspot with a particular SKU's quick view.
-            * (Optional) If there are other variables within the quick view that you need to use to further identify a product, tap **[!UICONTROL Add Generic Variable]**. In the text field, specify an additional variable. For example, `category=Mens` is an added variable.
+            * Then, manually enter the SKU value. In the **[!UICONTROL SKU Value]** text field, type the product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you offer. The entered SKU value automatically populates the variable portion of the Quickview template so that the system knows to associate the tapped hotspot with a particular SKU's Quickview.
+            * (Optional) If there are other variables within the Quickview that you need to use to further identify a product, tap **[!UICONTROL Add Generic Variable]**. In the text field, specify an additional variable. For example, `category=Mens` is an added variable.
             * See [Working with Selectors](working-with-selectors.md) for more information.
 
     * Tap **[!UICONTROL Hyperlink]**.
@@ -408,16 +410,16 @@ However, if you are a stand-alone AEM assets customer you can manually add the c
 
 This task applies only if you are a standalone AEM Assets customer.
 
-The last step in this process is integrating the carousel banner with an existing quick view implementation on your website. Every Quickview implementation is unique and a specific approach is needed that most likely involves the assistance of a front-end IT person.
+The last step in this process is integrating the carousel banner with an existing Quickview implementation on your website. Every Quickview implementation is unique and a specific approach is needed that most likely involves the assistance of a front-end IT person.
 
-The existing quick view implementation normally represents a chain of inter-related actions that happen on the web page in the following order:
+The existing Quickview implementation normally represents a chain of inter-related actions that happen on the web page in the following order:
 
 1. A user triggers an element in the user interface of your website.
-1. The front-end code obtains a quick view URL based on the user interface element that was triggered in step 1.
+1. The front-end code obtains a Quickview URL based on the user interface element that was triggered in step 1.
 1. The front-end code sends an Ajax request using the URL obtained in step 2.
-1. The backend logic returns the corresponding quick view data or content back to the front-end code.
-1. The front-end code loads the quick view data or content.
-1. Optionally, the front-end code converts the loaded quick view data into an HTML representation.
+1. The backend logic returns the corresponding Quickview data or content back to the front-end code.
+1. The front-end code loads the Quickview data or content.
+1. Optionally, the front-end code converts the loaded Quickview data into an HTML representation.
 1. The front-end code displays a modal dialog box or panel and renders the HTML content on the screen for the end user.
 
 These calls may not represent independent public API calls which can be called by the web page logic from an arbitrary step. Instead, it is a chained call where every next step is hidden in the last phase (callback) of the previous step.
@@ -427,18 +429,18 @@ At the same time that the carousel banner is replacing step 1, and partially ste
 In such an event handler, the front-end code does the following:
 
 * Listens to an event emitted by the carousel banner.
-* Constructs a quick view URL based on the hotspot or image map data.
-* Triggers the process of loading the quick view from the backend and rendering it on the screen for display.
+* Constructs a Quickview URL based on the hotspot or image map data.
+* Triggers the process of loading the Quickview from the backend and rendering it on the screen for display.
 
 The embed code returned by AEM Assets already has a ready-to-use event handler in place that is commented out.
 
 So, it is only necessary to uncomment the code and replace the dummy handler body with the code that is specific to the particular web page.
 
-The process of constructing the quick view URL is basically opposite of the process used for identifying hotspot and image map variables covered earlier.
+The process of constructing the Quickview URL is basically opposite of the process used for identifying hotspot and image map variables covered earlier.
 
 See [Identifying hotspot and image map variables](#identifying-hotspot-and-image-map-variables).
 
-The last step to trigger the quick view URL and activate the quick view panel most likely requires the assistance of a front-end IT person from your IT department. They have the knowledge to know best how to accurately trigger the quick view implementation from the proper step, having a ready-to-use quick view URL.
+The last step to trigger the Quickview URL and activate the Quickview panel most likely requires the assistance of a front-end IT person from your IT department. They have the knowledge to know best how to accurately trigger the Quickview implementation from the proper step, having a ready-to-use Quickview URL.
 
 ## Using Quickviews to create custom pop-ups {#using-quickviews-to-create-custom-pop-ups}
 

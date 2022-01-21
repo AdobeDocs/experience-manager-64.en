@@ -6,8 +6,9 @@ seo-description: Install and configure AEM Forms Interactive Communications to c
 uuid: c09b5743-3cbc-49ff-977a-b6b3eb81b160
 topic-tags: installing
 discoiquuid: 674c6b68-8a04-4cd3-a63e-9968ca686948
+role: Admin
+exl-id: c7aaa81d-d140-44d9-9144-0cbf6ec5d650
 ---
-
 # Install and configure Interactive Communications {#install-and-configure-interactive-communications}
 
 ## Introduction {#introduction}
@@ -139,7 +140,7 @@ Perform the following steps on all the Author and Publish instances to add the p
 
 #### Install Compatibility Package {#install-compatibility-package}
 
-Interactive communication is the default and recommended approach to create customer communications in AEM 6.4 Forms. If you have upgraded or migrated from a previous version, and plan to continue using letters (Correspondence Management), install the [AEMFD Compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-COMPAT).
+Interactive communication is the default and recommended approach to create customer communications in AEM 6.4 Forms. If you have upgraded or migrated from a previous version, and plan to continue using letters (Correspondence Management), install the [AEMFD Compatibility package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html).
 
 The AEMFD Compatibility package allows you to use the following assets from AEM 6.3 Forms and AEM 6.2 Forms on AEM 6.4 Forms:
 
@@ -185,4 +186,3 @@ You have configured an environment to use interactive communication and correspo
 * [Create an interactive communication](/help/forms/using/create-interactive-communication.md)  
 
 * [Create a correspondence management letter](/help/forms/using/create-letter.md)
-

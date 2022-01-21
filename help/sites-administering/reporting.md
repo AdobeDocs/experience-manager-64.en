@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: e74ffe97-5de8-4e9c-94b4-d7d63939d40c
+exl-id: daff8e4e-40c7-4762-8e4f-d85d50b86e5d
 ---
-
 # Reporting {#reporting}
 
 To help you monitor and analyze the state of your instance, AEM provides a selection of default reports, which can be configured for your individual requirements:
@@ -23,6 +23,10 @@ To help you monitor and analyze the state of your instance, AEM provides a selec
 * [User Report](#user-report)
 * [Workflow Instance Report](#workflow-instance-report)
 * [Workflow Report](#workflow-report)
+
+>[!NOTE]
+>
+>These reports are only available in the Classic UI. For system monitoring and reporting in the modern UI, see the [Operations Dashboard.](/help/sites-administering/operations-dashboard.md)
 
 All reports can be accessed from the **Tools** console. Select **Reports** in the left-hand pane, then double-click the required report in the right-hand pane to open it for viewing and/or configuration.
 
@@ -189,7 +193,7 @@ When snapshots are being collected you can:
 
 >[!NOTE]
 >
->The preconfigured reports are not perfomance intensive, but it is still recommended to use daily snapshots on a production environment. If possible run these daily snapshots at a time of day when there is not much activity on your website; this can be defined with the `Daily snapshots (repconf.hourofday)` parameter for **Day CQ Reporting Configuration**; see [OSGI Configuration](/help/sites-deploying/configuring-osgi.md) for more details on how to configure this.
+>The preconfigured reports are not performance intensive, but it is still recommended to use daily snapshots on a production environment. If possible run these daily snapshots at a time of day when there is not much activity on your website; this can be defined with the `Daily snapshots (repconf.hourofday)` parameter for **Day CQ Reporting Configuration**; see [OSGI Configuration](/help/sites-deploying/configuring-osgi.md) for more details on how to configure this.
 
 #### Display Limits {#display-limits}
 
@@ -315,6 +319,11 @@ All components are included, product-standard and project-specific. Using the **
 ![reportcomponent](assets/reportcomponent.png) ![reportcompentall](assets/reportcompentall.png) 
 
 ### Disk Usage {#disk-usage}
+
+>[!CONTEXTUALHELP]
+>id="aemcloud_ctt_diskusage"
+>title="Disk Usage Report"
+>abstract="As an input to CTT Calculator, Users can estimate the size of the AEM Repository by running the Disk Usage report under 'http://HOST:PORT/etc/reports/diskusage.html'. Users can also estimate size of specific repository paths by using the 'path' parameter such as: 'http://HOST:PORT/etc/reports/diskusage.html?path=/content/dam'."
 
 The disk usage report shows information about the data stored within your repository.
 

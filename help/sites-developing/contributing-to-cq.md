@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: f52402df-f6dc-4c62-82bc-cbce489b2b74
+exl-id: e07a42e2-c659-4991-b59a-d48bfb7d2972
 ---
-
 # Contributing to AEM{#contributing-to-aem}
 
 ## Development Methodology {#development-methodology}
@@ -39,7 +39,7 @@ At the highest level, then, you should have a solid understanding of:
 * Browser cookies
 * and other modern web-development concepts
 
-The technology stack of Adobe Experience Manager are based on the [Apache Felix](https://felix.apache.org/) OSGI container with the [Apache Sling](https://sling.apache.org/site/index.html) web framework and embeds a Java Content Repository ([JCR](https://docs.adobe.com/content/docs/en/spec/jcr/2.0/index.html)) based on [Apache Jackrabbit](https://jackrabbit.apache.org/jcr-api.html). You should familiarize yourself with these individual projects, as well as any other open source components (e.g., Apache Lucene) used in the area where you intend to contribute.
+The technology stack of Adobe Experience Manager are based on the [Apache Felix](https://felix.apache.org/) OSGI container with the [Apache Sling](https://sling.apache.org/site/index.html) web framework and embeds a Java Content Repository ([JCR](https://www.adobe.io/experience-manager/reference-materials/spec/jcr/2.0/index.html)) based on [Apache Jackrabbit](https://jackrabbit.apache.org/jcr-api.html). You should familiarize yourself with these individual projects, as well as any other open source components (e.g., Apache Lucene) used in the area where you intend to contribute.
 
 ## Tribal Knowledge {#tribal-knowledge}
 

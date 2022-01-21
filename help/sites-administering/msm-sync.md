@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: c491f0f3-375d-4203-bdf3-234987bbf685
+feature: Multi Site Manager
+exl-id: 42b92993-abde-4ae4-8f0d-44166a3ea22e
 ---
-
 # Configuring Live Copy Synchronization{#configuring-live-copy-synchronization}
 
 Perform the following tasks to control how and when live copies are synchronized with their source content.
@@ -21,6 +22,10 @@ Perform the following tasks to control how and when live copies are synchronized
 ## Installed and Custom Rollout Configurations {#installed-and-custom-rollout-configurations}
 
 This section provides information about the installed rollout configurations and the synchronization actions that they use, and how to create custom configurations if required.
+
+>[!CAUTION]
+>
+>Updating or changing an out of the box (installed) rollout configuration is **not** recommended. If there is a requirement for a custom live action then it should be added in a custom rollout configuration.
 
 ### Rollout Triggers {#rollout-triggers}
 

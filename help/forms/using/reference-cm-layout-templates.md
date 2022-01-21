@@ -8,13 +8,13 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 content-type: reference
 topic-tags: correspondence-management
 discoiquuid: afeb9f4d-3feb-4a0e-8884-e3ec1309b33b
+exl-id: 319db420-3318-4ef7-be2b-1ff2b1c08563
 ---
-
 # Reference letter templates {#reference-letter-templates}
 
 In Correspondence Management, a letter template contains typical form fields, layout features such as a header and footer, and empty "target areas" for the placement of content.
 
-Correspondence Management provides letter templates in the AEM Forms package [AEM-FORMS-REFERENCE-LAYOUT-TEMPLATES](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/fd/AEM-FORMS-6.3-REFERENCE-LAYOUT-TEMPLATES). For installing a package, see [How to Work With Packages](/help/sites-administering/package-manager.md). You can customize the templates in Designer according to your branding and business needs. The package includes the following templates:
+Correspondence Management provides letter templates in the AEM Forms package [AEM Forms add-on package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html). For installing a package, see [How to Work With Packages](/help/sites-administering/package-manager.md). You can customize the templates in Designer according to your branding and business needs. The package includes the following templates:
 
 * Classic
 * Classic Simple
@@ -94,4 +94,3 @@ The Visual Top - Classic template has a header on top of the page with the compa
 ![visualtopclassic](assets/visualtopclassic.png)
 
 PDF preview of a letter created using the Visual Top - Classic template
-

@@ -10,8 +10,8 @@ topic-tags: components
 content-type: reference
 discoiquuid: 402c0d6b-2c26-490a-97c5-dfd4dea778e0
 legacypath: /content/docs/en/aem/6-2/develop/components/components-develop
+exl-id: c205046f-9e60-4010-9ae3-be7d02d45248
 ---
-
 # Developing AEM Components - Code Samples{#developing-aem-components-code-samples}
 
 This section provides some examples on how to create your own components for AEM.
@@ -56,5 +56,4 @@ Details, together with links to the code sample, are under [Add New Action to a 
 
 You may want to extend the standard Content Fragment component to add features.
 
-Details are under [Customizing and Extending Content Fragments](/help/sites-developing/customizing-content-fragments.md).  
-
+Details are under [Customizing and Extending Content Fragments](/help/sites-developing/customizing-content-fragments.md).

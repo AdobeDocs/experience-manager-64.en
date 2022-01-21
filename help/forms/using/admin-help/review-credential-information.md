@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: cdf61cff-768b-49f7-9926-400bc96b0708
+exl-id: abd62cca-edf0-4b44-94c3-7af3116b0c54
 ---
-
 # Review credential use information {#review-credential-use-information}
 
 The credential contains information describing its intended use that is accessible through the Acrobat Reader DC extensions end-user web application. You can use this information to determine the type of credential installed (either evaluation or production) and its validity dates.
@@ -34,4 +34,3 @@ The credential contains information describing its intended use that is accessib
 >[!NOTE]
 >
 >The credential’s expiration date is also available on the Settings &gt; Trust Store Management &gt; Local Credentials page of administration console, under Expiration Date.
-

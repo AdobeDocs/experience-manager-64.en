@@ -1,8 +1,8 @@
 ---
 title: Optimizing the Performance of theForms Service
 seo-title: Optimizing the Performance of theForms Service
-description: null
-seo-description: null
+description: Set run-time options when rendering a form and store XDP files in the repository to optimize the performance of the Forms service.
+seo-description: Set run-time options when rendering a form and store XDP files in the repository to optimize the performance of the Forms service.
 uuid: 9040c09a-e5d0-432b-b1c5-ad46ab57c4fc
 contentOwner: admin
 content-type: reference
@@ -10,8 +10,9 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 9f883483-b81e-42c6-a4a1-eb499dd112e7
+role: Developer
+exl-id: a6d468cd-2b70-4332-8277-15f8b9fc1329
 ---
-
 # Optimizing the Performance of the Forms Service {#optimizing-the-performance-of-theforms-service}
 
 ## Optimizing the Performance of the Forms Service {#optimizing-the-performance-of-the-forms-service}

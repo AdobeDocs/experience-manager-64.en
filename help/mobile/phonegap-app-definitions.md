@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
 discoiquuid: 860dde0b-7cb4-4668-9fac-6f954f1ec0a7
+exl-id: c1103f7b-19fe-43b2-95e8-523efdc11950
 ---
-
 # App definitions{#app-definitions}
 
 >[!NOTE]
@@ -49,4 +49,3 @@ To learn about the roles and responsibilities of an Adminstrator and Developer, 
 
 * [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/developing-in-phonegap.md)
 * [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/administer-phonegap.md)
-

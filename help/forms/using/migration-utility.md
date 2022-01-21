@@ -10,8 +10,9 @@ geptopics: SG_AEMFORMS/categories/jee
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-strategy: max-2018
 discoiquuid: a8b1f7df-e36f-4d02-883a-72120fea7046
+role: Admin
+exl-id: 72ead30c-648d-43ad-9826-9c8945a8860d
 ---
-
 # Migrate AEM Forms assets and documents {#migrate-aem-forms-assets-and-documents}
 
 The Migration utility converts the [Adaptive Forms assets](/help/forms/using/introduction-forms-authoring.md), [cloud configrurations](/help/sites-developing/extending-cloud-config.md), and [Correspondence Management assets](/help/forms/using/cm-overview.md) from the format used in the earlier versions to the format used in AEM 6.4 Forms. When you run migration utility, the following are migrated:
@@ -31,13 +32,13 @@ You can [upgrade](/help/forms/using/upgrade.md) to the latest version of AEM For
 
 **In case of in-place upgrade**
 
-If you performed an in-place upgrade, the upgraded instance already has the assets and documents. However, before you can use the assets and documents, you will need to install [AEMFD Compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-COMPAT) (includes Correspondence Management Compatibility package)
+If you performed an in-place upgrade, the upgraded instance already has the assets and documents. However, before you can use the assets and documents, you will need to install [AEMFD Compatibility package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html) (includes Correspondence Management Compatibility package)
 
 Then you need to update the assets and documents by [running the Migration utility](#runningmigrationutility).
 
 **In case of out of place installation**
 
-If it is an out of place (fresh) installation, before you can use the assets and documents, you will need to install [AEMFD Compatibility package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-COMPAT) (includes the Correspondence Management Compatibility package).
+If it is an out of place (fresh) installation, before you can use the assets and documents, you will need to install [AEMFD Compatibility package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html) (includes the Correspondence Management Compatibility package).
 
 Then you need to import your asset package (zip or cmp) on the new setup and then update the assets and documents by [running the Migration utility](#runningmigrationutility). Due to [backward compatibility-related](/help/sites-deploying/backward-compatibility.md) changes, locations of a few folders in crx-repository are changed. Manually export and import dependencies (custom libraries and assets) from previous setup to fresh environment.
 
@@ -171,4 +172,3 @@ After running the Migration utility, take care of the following housekeeping tas
 
 1. Publish all the assets that were published in the previous system before migration. The migration utility updates the assets only on the author instance and to update the assets on the publish instance (s) you need to publish the assets.
 1. In AEM Forms 6.4, some of the rights of the forms users groups are changed. If you want any of your users to be able to upload XDPs and Adaptive Forms containing scripts or use code editor, you need to add them to forms-power-users group. Similarly, template-authors can no longer use the code editor in Rule Editor. For users to be able to use code editor, add them to af-template-script-writers group. For instructions on adding users to groups, see [Managing Users and User Groups](/help/communities/users.md).
-

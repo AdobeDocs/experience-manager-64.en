@@ -1,16 +1,17 @@
 ---
 title: Invocation API Quick Starts
 seo-title: Invocation API Quick Starts
-description: null
-seo-description: null
+description: Use the Quick Starts to programmatically invoke AEM Forms services.
+seo-description: Use the Quick Starts to programmatically invoke AEM Forms services.
 uuid: acf67177-98a4-4c99-95a5-3086907d7c2c
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: dcf83c9f-b818-44a2-9079-80a4fc357c4f
+role: Developer
+exl-id: dcfc1c9f-fedd-4e00-9b09-19268620fc6d
 ---
-
 # Invocation API Quick Starts {#invocation-api-quick-starts}
 
 The following Quick Starts are available for programmatically invoking AEM Forms services:
@@ -1107,4 +1108,3 @@ An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the 
 >[!NOTE]
 >
 >Many quick starts that show how to perform service operations include a SwaRef code example.
-

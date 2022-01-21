@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 1b5e6746-3618-46fe-ba2d-ec76bb79de1d
+feature: Correspondence Management
+exl-id: a6206ae1-b71b-4066-b7a0-ce39a60d6dd0
 ---
-
 # Custom special characters in Correspondence Management {#custom-special-characters-in-correspondence-management}
 
 ## Overview {#overview}
@@ -135,4 +136,3 @@ Use the following steps to add support for custom special characters:
   </tr> 
  </tbody> 
 </table>
-

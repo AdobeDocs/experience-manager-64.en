@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 1445437e-7f22-49ad-9bde-f3c0ff7d5142
+exl-id: 63bf891c-572a-40e0-945f-d20a0a029224
 ---
-
 # Working with the Marketing Campaign Manager{#working-with-the-marketing-campaign-manager}
 
 In AEM, the Marketing Campaign Manager (MCM) is a console that helps you manage multi-channel campaigns. With this marketing automation software you can manage all your brands, campaigns and experiences together with the related segments, lists, leads, and reports.
@@ -206,4 +206,3 @@ From here you can also open the sidekick (click the small down arrow) to change 
 In the MCM, click **Campaigns**. Ensure that the list view is active, then select the required campaign experience and select **Analyze...**. A chart of the page impressions over time will be shown.
 
 ![mcm_campaignanalyze](assets/mcm_campaignanalyze.png)
-

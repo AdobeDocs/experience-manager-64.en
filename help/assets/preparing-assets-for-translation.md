@@ -2,13 +2,15 @@
 title: Preparing Assets for Translation
 description: Create language root folders to prepare for translating multilingual assets.
 contentOwner: AG
+feature: Projects,Translation
+role: User,Admin
+exl-id: cc6c4f9e-8e22-4622-8b24-230ae258351c
 ---
-
 # Preparing Assets for Translation {#preparing-assets-for-translation}
 
 Multilingual assets means assets with binaries, metadata, and tags in multiple languages. Generally, binaries, metadata, and tags for assets exist in one language, which are then translated to other languages for use in multilingual projects.
 
-In Adobe Experience Manager (AEM) Assets, multilingual assets are included in folders, where each folder contains the assets in a different language.
+In Adobe Experience Manager Assets, multilingual assets are included in folders, where each folder contains the assets in a different language.
 
 Each language folder is called a language copy. The root folder of a language copy, known as the language root, identifies the language of the content in the language copy. For example, */content/dam/it* is the Italian language root for the Italian language copy. Language copies must use a [correctly-configured language root](preparing-assets-for-translation.md#creating-a-language-root) so that the correct language is targeted when translations of source assets are performed.
 
@@ -53,7 +55,7 @@ For example, the root page of the Italian language copy of the sample hierarchy 
 
 ## Viewing Language Roots {#viewing-language-roots}
 
-The touch-optimized UI provides a References panel that shows a list of language roots that have been created within AEM Assets.
+The touch-optimized UI provides a References panel that shows a list of language roots that have been created within [!DNL Experience Manager] Assets.
 
 1. In the Assets console, select the language primary for which you want to create language copies.
 1. Click or tap the GlobalNav icon, and choose **[!UICONTROL References]** to open the Reference pane.
@@ -63,4 +65,3 @@ The touch-optimized UI provides a References panel that shows a list of language
 1. In the References pane, click or tap **[!UICONTROL Language Copies]**. The Language Copies panel shows the language copies of the assets.
 
    ![chlimage_1-123](assets/chlimage_1-123.png)
-

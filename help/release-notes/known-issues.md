@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 266634ab-21d3-4aac-acfa-b799a7485507
+exl-id: ba65e853-d69a-4341-93c3-5628c60c403b
 ---
-
 # Known Issues {#known-issues}
 
 This page keeps a list of known issues Adobe Experience Manager 6.4 released on April 2018. For more information about known issues, [contact support](https://helpx.adobe.com/support/experience-manager.html).
@@ -136,3 +136,5 @@ If you are using Microsoft Edge as browser:
 * The Chart component in adaptive forms takes more space than it normally does.
 * An exception is returned when saving properties for adaptive forms, adaptive form fragments, or interactive communications in Forms Manager UI.
 * The specified maximum number of characters for an adaptive form text box is not honored on Android 6.0 Samsung devices. (Ref# CQ-4235205)
+* When you submit a form containing a standard HTML upload field from an Apple iOS device, sometimes, the content of the file is not sent and a 0-byte file is received at the other end. Apple iOS 15.1 provides a fix for the issue.  
+

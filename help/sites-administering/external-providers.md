@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: bf8fd156-4be9-43f8-8948-cf7f91c25f1b
+exl-id: 6d906c2b-c8bc-4d54-9887-8aaeb6cc83d3
 ---
-
 # Analytics with External Providers{#analytics-with-external-providers}
 
 Analytics can provide you with important and interesting information about how your website is being used.
@@ -106,4 +106,3 @@ Having created the service configuration you now need configure the required pag
    >[!NOTE]
    >
    >If the configuration is attached to a page that has child pages, the service is inherited by those as well.
-

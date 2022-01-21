@@ -1,16 +1,17 @@
 ---
 title: Invoking Human-Centric Long-Lived Processes
 seo-title: Invoking Human-Centric Long-Lived Processes
-description: null
-seo-description: null
+description: Programmatically invoke human-centric long-lived processes created in Workbench using a Java web-based client application that uses the Invocation API, an ASP.NET application that uses web services, and a client application built with Flex that uses Remoting.
+seo-description: Programmatically invoke human-centric long-lived processes created in Workbench using a Java web-based client application that uses the Invocation API, an ASP.NET application that uses web services, and a client application built with Flex that uses Remoting.
 uuid: 42269d41-a90f-4ea1-aeb9-d61337bcfa54
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: 18a320b4-dce6-4c50-8864-644b0b2d6644
+role: Developer
+exl-id: 4f581af8-9c1a-4e80-b459-a83a1dab3b01
 ---
-
 # Invoking Human-Centric Long-Lived Processes {#invoking-human-centric-long-lived-processes}
 
 You can programmatically invoke human-centric long-lived processes that were created in Workbench using these client applications:
@@ -1007,4 +1008,3 @@ The following Flex code example invokes the `FirstAppSolution/PreLoanProcess` pr
  </mx:Application> 
  
 ```
-

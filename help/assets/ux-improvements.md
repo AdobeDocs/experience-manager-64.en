@@ -1,20 +1,22 @@
 ---
 title: User experience enhancements in Assets
-description: This article describes the user experience improvements in AEM 6.4 Assets.
+description: This article describes the user experience improvements in [!DNL Experience Manager] 6.4 Assets.
 contentOwner: AG
+feature: Release Information
+role: Leader,User
+exl-id: 65029113-987e-46eb-86eb-8028233031f9
 ---
-
 # User experience enhancements in Assets {#user-experience-enhancements-in-assets}
 
-AEM 6.4 Assets includes several usability improvements that provide a seamless user experience and improves productivity. The increase in the speed with which you can create/manage your go-to-market content improves the content velocity of the business.
+[!DNL Experience Manager] 6.4 Assets includes several usability improvements that provide a seamless user experience and improves productivity. The increase in the speed with which you can create/manage your go-to-market content improves the content velocity of the business.
 
 The interface is more responsive, which helps you efficiently manage a large portfolio of assets. You can quickly search, display, sort, and smoothly scroll through a long list of items.
 
-You can personalize the various views - Card, List, and Column views. For example, you can configure the size of thumbnails you want displayed in the Card view. For the List view, you can configure the level of detail you want to display for assets in the list. AEM 6.4 Assets includes a new Tree view that lets you conveniently navigate through the Assets repository and find your assets.
+You can personalize the various views - Card, List, and Column views. For example, you can configure the size of thumbnails you want displayed in the Card view. For the List view, you can configure the level of detail you want to display for assets in the list. [!DNL Experience Manager] 6.4 Assets includes a new Tree view that lets you conveniently navigate through the Assets repository and find your assets.
 
 ## Lazy loading {#lazy-loading}
 
-When you browse/search for assets in AEM 6.4 Assets, up to 200 assets are displayed at a time. You can scroll through the results faster, which is especially useful when browsing through a long list of results. Because a significant number of assets are loaded at a time, the browsing experience is smooth.
+When you browse/search for assets in [!DNL Experience Manager] 6.4 Assets, up to 200 assets are displayed at a time. You can scroll through the results faster, which is especially useful when browsing through a long list of results. Because a significant number of assets are loaded at a time, the browsing experience is smooth.
 
 If you tap/click an asset to review its details page, you can return to the results page simply by tapping/clicking the Back button in the toolbar.
 
@@ -58,7 +60,7 @@ In addition to Card and List views, you can now navigate to the details page of 
 
 ## Tree view {#tree-view}
 
-AEM 6.4 Assets includes a Tree view that lets you conveniently browse your asset hierarchy and navigate to the desired asset or folder.
+[!DNL Experience Manager] 6.4 Assets includes a Tree view that lets you conveniently browse your asset hierarchy and navigate to the desired asset or folder.
 
 To open the Tree view, tap/click the GlobalNav icon in the `Assets UI`, and choose **[!UICONTROL Content tree]** from the menu.
 

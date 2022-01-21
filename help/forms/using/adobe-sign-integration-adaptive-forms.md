@@ -8,8 +8,9 @@ contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 7d494c2e-d457-4d52-89be-a77ffa07eb88
+feature: Adaptive Forms, Adobe Sign
+exl-id: e7c27623-a889-4bd5-bfff-cfe513cd1a35
 ---
-
 # Integrate Adobe Sign with AEM Forms {#integrate-adobe-sign-with-aem-forms}
 
 Adobe Sign enables e-signature workflows for adaptive forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.
@@ -34,9 +35,14 @@ You require the following to integrate Adobe Sign with AEM Forms:
 After prerequisites are in place, perform the following steps to configure Adobe Sign with AEM Forms on the Author instance:
 
 1. On AEM Forms author instance, navigate to **Tools** ![hammer](assets/hammer.png) &gt; **General** &gt; **Configuration Browser**.
+   * See the [Configuration Browser documentation](/help/sites-administering/configurations.md) for more information.
 1. On the **[!UICONTROL Configuration Browser]** page, tap **[!UICONTROL Create]**.
 1. In the **[!UICONTROL Create Configuration]** dialog, specify a **[!UICONTROL Title]** for the configuration, enable **[!UICONTROL Cloud Configurations]**, and tap **[!UICONTROL Create]**. It creates a configuration container for cloud services.
 1. Navigate to **Tools** ![hammer](assets/hammer.png) &gt; **Cloud Services** &gt; **Adobe Sign** and select the configuration container you created in the above step.
+
+   >[!NOTE]
+   >
+   >You can either execute steps 1-4 to create a new configuration container and create an Adobe Sign configuration in the container or use the existing `global` folder in **Tools** ![hammer](assets/hammer.png) &gt; **Cloud Services** &gt; **Adobe Sign**. If you create the configuration in the new configuration container, ensure to specify the container name in the **[!UICONTROL Configuration Container]** field when you create an adaptive form.
 
    >[!NOTE]
    >

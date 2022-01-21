@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 4a3a2ad7-40b0-4f19-a012-167453f58bc2
+exl-id: 2bc23d5a-11ee-4d29-be3d-1a8cac306aa6
 ---
-
 # Campaigns{#campaigns}
 
 Campaign management provides digital marketers the opportunity to deliver personalized content and create dedicated experiences for visitors.
@@ -26,4 +26,3 @@ See the following pages:
 * [Configuring Segmentation](/help/sites-administering/campaign-segmentation.md)
 * [Extending and Configuring the Design Importer for Landing Pages](/help/sites-administering/extending-the-design-importer-for-landingpages.md)
 * [Integrating Landing Pages with Adobe Analytics](/help/sites-administering/integrating-landing-pages-with-adobe-analytics.md)
-

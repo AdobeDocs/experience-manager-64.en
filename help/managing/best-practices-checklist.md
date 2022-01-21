@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
 discoiquuid: 917b4fec-d5fe-4402-b69c-3c9645e6f934
+exl-id: d85fa478-8192-42b9-a5fc-a38a87cfc7dd
 ---
-
 # The Checklist{#the-checklist}
 
 The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status.
@@ -21,7 +21,7 @@ There are checklists for each persona (role) involved in your project. These det
 
 AEM Project Best Practices Checklist v2
 
-[Get File](assets/aem_project_bp_checklistv2.xlsx)
+[Get File](assets/aem_project_bp_checklistv2-64.xlsx)
 
 ## Worksheets {#worksheets}
 

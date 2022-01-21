@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
 discoiquuid: fb354c72-debb-4fb6-9ccf-56ff5785c3ae
+exl-id: 5066e2a2-9904-4203-914f-b0d4da2c88e4
 ---
-
 # Managing Projects{#managing-projects}
 
 Projects lets you organize your project by grouping resources into one entity.
@@ -158,4 +158,3 @@ To make a project inactive (or active):
    ![chlimage_1-267](assets/chlimage_1-267.png)
 
 1. Tap/click **Done** to save your changes.
-

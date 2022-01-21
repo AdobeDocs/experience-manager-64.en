@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 772f6188-5e0b-4e66-b94a-65a0cc267ed3
+exl-id: 38bae0d7-9544-42d0-9766-45c66f254e5c
 ---
-
 # AEM Sites - GDPR Readiness{#aem-sites-gdpr-readiness}
 
 >[!IMPORTANT]
@@ -218,4 +218,3 @@ To clear the ContextHub persistence:
     * ContextHub.Utils.Persistence.Modes.SESSION
     * ContextHub.Utils.Persistence.Modes.COOKIE
     * ContextHub.Utils.Persistence.Modes.WINDOW
-

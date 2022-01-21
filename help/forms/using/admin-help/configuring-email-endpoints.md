@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: dcf15c42-9ec6-4d1c-ad41-083aa0b8c7ae
+exl-id: f24d9260-31e8-4bdf-8b80-c17cdd2d0747
 ---
-
 # Configuring email endpoints {#configuring-email-endpoints}
 
 Email endpoints enable users to invoke a service by sending one or more documents (as email attachments) to a specified email account. The email inbox acts as a collecting point for the attachments. The service monitors the inbox and processes the attachments. The results of the conversion are forwarded to the user defined in the endpoint.
@@ -100,7 +100,7 @@ For forms workflow to receive and handle incoming email messages from users, you
 
 **POP3/IMAP SSL Enabled:** When selected, enables SSL.
 
-**SMTP Host:** The host name of the mail server that the email provider uses to send results and error messages. For example, mail.corp.example.com.
+**SMTP Host:** The host name of the mail server that the email provider uses to send results and error messages. For example, mail.example.com.
 
 **SMTP Port:** The port that is used to connect to the mail server. The default value is 25.
 
@@ -265,4 +265,3 @@ For forms workflow to receive and handle incoming email messages from users, you
 1. In the mailFrom list, select Variable and type `%SENDER%` in the adjacent box. This maps the sender address to the Complete Task process data.
 1. In the results box, type `results`. This causes the Complete Task or Start Process to return a result string.
 1. Click Add.
-

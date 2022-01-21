@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: 1b9f8d98-e7e8-4b9b-a0df-52ccba324da3
+role: Admin
+exl-id: 6609c625-0591-42fd-910b-c7c65d52c5f1
 ---
-
 # Supported Platforms for AEM Forms on JEE {#supported-platforms-for-aem-forms-on-jee}
 
 ## Supported Platforms {#supported-platforms}
@@ -265,7 +266,7 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
    <td><p>Updates and patches</p> </td> 
   </tr> 
   <tr> 
-   <td><p>Red Hat Enterprise Linux 7 (Kernel 3.x)</p> </td> 
+   <td><p>Red Hat Enterprise Linux 7 (Kernel 3.x)</br><b>Note:</b> <a href="https://access.redhat.com/articles/4665701">Red Hat Enterprise Linux 6</a> reaches the End of Maintenance phase and transitions to the Extended Life Cycle Support phase on Nov 30, 2020. Adobe recommends Red Hat Enterprise Linux 7 for upgrades and new installations. Existing installations can use Red Hat Enterprise Linux 6 during the Extended Life Cycle Support phase.</p> </td> 
    <td><p>A: Supported</p> </td> 
    <td><p>Minor releases, cumulative updates, and critical updates</p> </td> 
   </tr> 
@@ -612,21 +613,16 @@ For additional reuirements see:
 
 ### Designer {#designer}
 
-**Note:** To install Designer on Windows, run the installer with Administrative privileges.
-
-* Microsoft® Windows® 2012 Server R2, Microsoft® Windows® 2016 Server, Microsoft Windows 10
-
-  * 1 GHz or faster processor with support for PAE, NX, and SSE2.
-  * 1 GB of RAM for 32-bit or 2 GB of RAM for 64-bit OS 
-  * 16 GB disk space for 32-bit or 20 GB disk space for 64-bit OS
-
+* Microsoft® Windows® 2012 Server R2, Microsoft® Windows® 2016 Server, Microsoft® Windows® 2019 Server, Microsoft® Windows® 10
+* 1 GHz or faster processor with support for PAE, NX, and SSE2.
+* 1 GB of RAM for 32-bit or 2 GB of RAM for 64-bit OS 
+* 16 GB disk space for 32-bit or 20 GB disk space for 64-bit OS
 * Graphics memory - 128 MB of GPU (256 MB recommended)
 * 2.35 GB of available hard-disk space
-* DVD-ROM drive
-* Internet Explorer 10 or 11; Firefox 45.x
 * 1024 X 768 pixels or greater monitor resolution
 * Video hardware acceleration (optional)
-* Acrobat Pro DC, Acrobat Standard DC, or Adobe Acrobat Reader DC.
+* Acrobat Pro DC, Acrobat Standard DC, or Adobe Acrobat Reader DC
+* Administrative privileges to install Designer
 
 ### Adobe Acrobat and Adobe Reader {#adobe-acrobat-and-adobe-reader}
 
@@ -706,7 +702,7 @@ For additional reuirements see:
    <td><p>All updates</p> </td> 
   </tr> 
   <tr> 
-   <td>Safari on iOS 11.0 and above</td> 
+   <td>Safari on iOS 15.1 and above</td> 
    <td>All updates</td> 
   </tr> 
   <tr> 
@@ -737,7 +733,7 @@ AEM Forms app is available on the following platforms:
 
 | **Platform** |**Supported Devices** |
 |---|---|
-| Apple iOS |Apple iPhone, iPad, iPad Air, and iPad mini running iOS 11 and above. |
+| Apple iOS |Apple iPhone, iPad, iPad Air, and iPad mini running iOS 15.1 and above. |
 | Google Android |Android 4.4 (Andoird Kit Kat) and above *[API Level 19 and above]*. AEM Forms app is certified on 7- and 10-inch Samsung Galaxy tablets and 7-inch Google Nexus tablet and popular smartphones. |
 | Microsoft Windows |Microsoft Surface devices, tablets, laptops, and desktops running Microsoft Windows 10 operating system. |
 
@@ -787,3 +783,10 @@ Adobe reserves the right to change the third-party reference platforms supported
 Additional information for third-party patches can also be found by searching the Adobe Enterprise Support site for knowledgebase articles related to your product.
 
 [**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)
+
+## Revision History {#revision-history}
+
+
+* Oct 10, 2021
+
+  * Changed supported version of iOS for AEM Forms App to iOS 15.1. The previous version was iOS 12.

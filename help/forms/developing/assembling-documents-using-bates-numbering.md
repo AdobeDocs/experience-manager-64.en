@@ -1,8 +1,8 @@
 ---
 title: Assembling Documents Using Bates Numbering
 seo-title: Assembling Documents Using Bates Numbering
-description: null
-seo-description: null
+description: Use Bates numbering to assemble PDF documents using the Java and Web Service API. 
+seo-description: Use Bates numbering to assemble PDF documents using the Java and Web Service API. 
 uuid: 28d5faeb-6915-41a2-b6a0-78d255df024f
 contentOwner: admin
 content-type: reference
@@ -10,8 +10,9 @@ geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 77e9b895-1313-4a5b-a2d5-cdb65bdc1966
+role: Developer
+exl-id: 902fc62b-262e-4eb4-b580-dbfbf4344fa6
 ---
-
 # Assembling Documents Using Bates Numbering {#assembling-documents-using-bates-numbering}
 
 You can assemble PDF documents that contain unique page identifiers by using Bates numbering. *Bates numbering* is a method of applying unique identifies to a batch of related documents. Each page in the document (or set of documents) is assigned a Bates number that uniquely identifies the page. For example, manufacturing documents that contain bill of material information and are associated with the production of an assembly can contain an identifier. A Bates number contains a sequentially incremented numeric value and an optional prefix and suffix. The prefix + numeric + suffix is referred to as a *bates pattern*.

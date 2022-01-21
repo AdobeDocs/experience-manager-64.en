@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: dfff6bdc-0d5f-4338-aa8a-7d0eb04bc19a
+exl-id: 3148ba52-4464-4f3e-8741-645cd7a1c970
 ---
-
 # Integrating with Silverpop Engage{#integrating-with-silverpop-engage}
 
 >[!NOTE]
@@ -108,4 +108,3 @@ To configure the API end points :
 1. Click **Save All**. AEM is now ready to connect to Silverpop over secured end points.
 
    ![chlimage_1-45](assets/chlimage_1-45.jpeg)
-

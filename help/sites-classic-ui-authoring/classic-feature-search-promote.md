@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 277d7e67-5778-48cb-89bb-29bcc734a485
+exl-id: 69a1e149-8706-42a5-ab84-2ffcfd1ec3cc
 ---
-
 # Adding Search&amp;Promote features to your page {#adding-search-promote-features-to-your-page}
 
 To integrate Search&amp;Promote capabilities in your web site, use the [!UICONTROL Search&amp;Promote] components to add the following features to your pages:
@@ -143,4 +143,3 @@ The **[!UICONTROL Banners]** component provides one configurable property named 
 This diagram shows the components that are added to a page to create the fully-functional Search&amp;Promote results page below.
 
 ![1328213789109](assets/1328213789109.png) ![sandppageexample](assets/sandppageexample.png)
-

@@ -9,8 +9,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: e00e7cc9-b777-4f9e-906d-824bcb2bbd41
+exl-id: af3f95aa-a162-4212-a20a-68b5a0e72d6d
+feature: Image Sets
+role: User
 ---
-
 # Image Sets {#image-sets}
 
 Image Sets give users an integrated viewing experience, where users can see different views of an item by clicking a thumbnail image. Image Sets let you present alternative views of an item and the viewer offers zooming tools for examining images closely.

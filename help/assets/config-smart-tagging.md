@@ -2,8 +2,10 @@
 title: Configure asset tagging using the Smart Content Service.
 description: Learn how to configure smart tagging and enhanced smart tagging in [!DNL Adobe Experience Manager], using the Smart Content Service.
 contentOwner: AG
+feature: Smart Tags,Tagging
+role: Admin
+exl-id: 11c5dd92-f824-41d2-9ab2-b32bdeae01b6
 ---
-
 # Configure asset tagging using the Smart Content Service {#configure-asset-tagging-using-the-smart-content-service}
 
 You can integrate [!DNL Adobe Experience Manager] with the Smart Content Service using [!DNL Adobe Developer Console]. Use this configuration to access the Smart Content Service from within [!DNL Experience Manager].
@@ -183,4 +185,3 @@ After you have completed the configuration, use a JMX MBean to validate the conf
 >* [Manage Smart Tags](managing-smart-tags.md)
 >* [Overview of and how to train Smart Tags](enhanced-smart-tags.md)
 >* [Guidelines and rules to train the Smart Content Service](smart-tags-training-guidelines.md)
->* [Video tutorial about how to configure smart tags](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/metadata/smart-tags-technical-video-setup.html)

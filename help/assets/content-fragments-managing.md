@@ -9,8 +9,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
 discoiquuid: da8f968b-91cc-45a8-ae4b-757b4f840b8e
+exl-id: b21ba7a1-6e6f-4b95-9336-b49f7e932af5
+feature: Content Fragments
+role: User
 ---
-
 # Managing Content Fragments {#managing-content-fragments}
 
 >[!CAUTION]
@@ -327,4 +329,3 @@ To delete a fragment:
    >[!CAUTION]
    >
    >If the fragment is already referenced in a page you will then see a warning message and be required to confirm that you want to proceed with a **[!UICONTROL Force Delete]**. The fragment, together with its content fragment component, will be deleted from any content pages.
-

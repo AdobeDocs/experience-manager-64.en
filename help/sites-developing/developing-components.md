@@ -10,8 +10,8 @@ topic-tags: components
 content-type: reference
 discoiquuid: 655c576f-d6e3-40a5-ab1f-6382a0c7443c
 legacypath: /content/docs/en/aem/6-2/develop/components/components-touch-optimized
+exl-id: d3c1559a-1a7a-46ed-a935-9ad226cdea33
 ---
-
 # Developing AEM Components{#developing-aem-components}
 
 AEM components are used to hold, format, and render the content made available on your webpages.
@@ -129,8 +129,6 @@ Dialogs are used to allow author to interact with the component. Using a dialog 
 [Coral UI](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) and [Granite UI](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html) define the modern look and feel of AEM.
 
 [Granite UI provides a large range of the basic components (widgets)](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/index.html) needed to create your dialog on the authoring environment. When necessary you can extend this selection and create your own widget.
-
-For more information on developing components using Coral and Granite resource types see: [Building Experience Manager components using Coral/Granite resource types](https://helpx.adobe.com/experience-manager/using/aem64_coral_resourcetypes.html).
 
 For full details see:
 
@@ -278,6 +276,14 @@ For an example, see:
 In the classic UI with ExtJS, it was usual to have listeners for a given widget in the content structure. Achieving the same in the touch-enabled UI is different as JS listener code (or any code at all) is no longer defined in the content.
 
 The content structure describes the semantic structure; it should (must) not imply the nature of the underlying widget. By not having JS code in the content structure, you can change the implementation details without having to change the content structure. In other words, you can change the widget library without needing to touch the content structure.
+
+#### Detecting Availability of the Dialog {#dialog-ready}
+
+If you have a custom JavaScript that needs to be executed only when the dialog is available and ready, you should listen for the `dialog-ready` event.
+
+This event is triggered  whenever the dialog loads (or re-loads) and is ready for use, which means whenever there is a change (create/update) in the DOM of the dialog.
+
+`dialog-ready` can be used to hook in JavaScript custom code that performs customizations on the fields inside a dialog or similar tasks.
 
 ### Field Validation {#field-validation}
 
@@ -451,7 +457,7 @@ When migrating a component that was designed for use with the classic UI to a co
 * Dialogs
 
     * You will need to create a new dialog for use in the touch-enabled UI. However, for compatibility purposes the touch-enabled UI can use the definition of a classic UI dialog, when no dialog has been defined for the touch-enabled UI. 
-    * The [Dialog Conversion Tool](/help/sites-developing/dialog-conversion.md) is provided to help you extend existing components.
+    * The [AEM Modernization Tools](/help/sites-developing/modernization-tools.md) is provided to help you extend existing components.
     * [Mapping ExtJS to Granite UI Components](/help/sites-developing/touch-ui-concepts.md#extjs-and-corresponding-granite-ui-components) provides a convenient overview of ExtJS xtypes and node types with their equivalent Granite UI resource types.
     * Customizing fields, for more information see the AEM Gems session on [Customizing Dialog Fields](https://docs.adobe.com/content/ddc/en/gems/customizing-dialog-fields-in-touch-ui.html).
     * Migrate from vtypes to [Granite UI validation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/clientlibs/foundation/js/validation/index.html)

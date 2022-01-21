@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 8c7e5667-14c5-40f3-968a-c574b04671e3
+exl-id: a89cf964-cc9f-46d7-afd8-150d48948513
 ---
-
 # Concepts of the AEM Touch-Enabled UI{#concepts-of-the-aem-touch-enabled-ui}
 
 With AEM 5.6 Adobe introduced a new touch-enabled UI with [responsive design](/help/sites-authoring/responsive-layout.md) for the author environment. This differs considerably from the original classic UI as it is designed to operate on both touch and desktop devices.
@@ -500,4 +500,3 @@ Purpose:
 Implementation:
 
 * jQuery plugins or AMD-compliant JavaScript modules
-

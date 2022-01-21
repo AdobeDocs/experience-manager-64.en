@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 5a771d8c-cc56-4979-aeab-b508755a2078
+exl-id: 1b1fa592-a145-4abe-a455-df24d551b937
 ---
-
 # Page Diff{#page-diff}
 
 ## Introduction {#introduction}
@@ -104,4 +104,3 @@ There are some situations in which the page diff may not detect a difference as 
 >[!NOTE]
 >
 >For more details about the operation of the page diff mechanism as well as limitations which can affect page diff, please see the [developer documentation](/help/sites-developing/pagediff.md) of this feature.
-

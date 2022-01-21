@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 8556d20a-99bd-4942-b7b8-2db69f64e67c
+exl-id: 05c52802-adfd-4b5f-a273-d6a261a00659
 ---
-
 # Applying Workflows to Pages{#applying-workflows-to-pages}
 
 When authoring, you can invoke workflows to take action on your pages; it is also possible to apply more than one workflow.
@@ -138,4 +138,3 @@ You can specify details:
 When editing a page you can select **Page Information** from the toolbar. The drop down menu has the option **Start in Workflow**. This will open a dialog where you can specify the required workflow, together with a title if required:
 
 ![wf-54](assets/wf-54.png)
-

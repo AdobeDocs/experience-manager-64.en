@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: e18aa345-034c-473b-b4c2-01678bb10616
+exl-id: 449b479a-f8b4-4534-af28-8eaed2d18210
 ---
-
 # Introduction to AEM Forms app {#aem-forms-app}
 
 ## Overview {#overview}
@@ -220,4 +220,3 @@ If you are upgrading to the latest version of AEM Forms app, ensure that you rea
 * **If earlier version of the app is built and installed using the source code (applicable for iOS and Android)**:
 
   Before you install the new app, sync all your data with the AEM Forms server. After the data is synced, uninstall the earlier version of the app, and install the new app.
-

@@ -1,7 +1,7 @@
 ---
 title: Publishing Pages
 seo-title: Publishing Pages
-description: null
+description: Publishing Pages
 seo-description: null
 uuid: 1222859d-ef8d-462e-a125-b76e6cfec26d
 contentOwner: Chris Bohnert
@@ -78,6 +78,10 @@ If you are editing a page, it can be published directly from the editor.
 >[!NOTE]
 >
 >Publishing from the editor is a shallow publish, i.e. only the selected page/pages is/are published and any child pages are not.
+
+>[!NOTE]
+>
+>Pages accessed by [aliases](/help/sites-authoring/editing-page-properties.md#advanced) in the editor can not be published. Publish options in the editor are only available for pages accessed via their actual paths.
 
 ### Publishing from the Console {#publishing-from-the-console}
 
@@ -207,6 +211,10 @@ In a [manner similar to publishing](/help/sites-authoring/publishing-pages.md#pu
 ### Unpublishing from the Editor {#unpublishing-from-the-editor}
 
 When editing a page, if you wish to unpublish that page, select **Unpublish Page** in the **Page Information** menu, much as you would [publish the page](/help/sites-authoring/publishing-pages.md#publishing-from-the-editor).
+
+>[!NOTE]
+>
+>Pages accessed by [aliases](/help/sites-authoring/editing-page-properties.md#advanced) in the editor can not be unpublished. Publish options in the editor are only available for pages accessed via their actual paths.
 
 ### Unpublishing from the Console {#unpublishing-from-the-console}
 

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 4f85cd3c-5158-4f23-abe2-7e375fd0c8d4
+exl-id: 357a130a-af60-4e86-9161-5dc7056aa052
 ---
-
 # Community Group Essentials {#community-group-essentials}
 
 The community groups feature is the ability for a sub-community to be dynamically created within a community site by authorized users from the publish and author environments.
@@ -104,4 +104,3 @@ When creating a group in the author environment, it is necessary to first publis
 * [Communities Groups Console](groups.md)
 * [Groups Function](functions.md#groups-function)
 * [Group Templates](tools-groups.md)
-

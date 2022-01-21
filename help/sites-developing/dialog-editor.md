@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: b7ac457d-3689-4f5d-9ceb-ff6a9944e7eb
+exl-id: ee57a0c5-261e-4ffd-92ca-4804a9e1d132
 ---
-
 # Dialog Editor{#dialog-editor}
 
 The dialog editor provides a graphical interface for easily creating and editing dialog boxes and scaffolds.

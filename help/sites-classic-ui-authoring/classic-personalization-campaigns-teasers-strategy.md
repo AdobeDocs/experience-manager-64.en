@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 86a31407-96a4-467c-9468-da4095ca38d5
+exl-id: 311ffab4-8bc9-486b-9ca5-a958f13f16f8
 ---
-
 # Teasers and Strategies{#teasers-and-strategies}
 
 Campaigns often use teasers as a mechanism to entice a specific segment of the visitor population through to content focused on their interests. One or more teasers are defined for a specific campaign.
@@ -267,4 +267,3 @@ As well as the campaign view in the MCM, the campaign page also gives informatio
    This shows an overview of the teaser definitions and viewing statistics:
 
    ![chlimage_1-8](assets/chlimage_1-8.png)
-

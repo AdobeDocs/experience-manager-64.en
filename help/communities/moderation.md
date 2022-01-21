@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 6c405543-e339-4916-aa0f-b61d0b798cf3
+role: Admin
+exl-id: ded38cee-fbce-46cc-974f-38d3a293a55d
 ---
-
 # Moderation Console {#moderation-console}
 
 In AEM Communities, bulk [moderation of community content](moderate-ugc.md) is possible from both the author and publish environments by administrators and community moderators (trusted community members assigned as moderators).
@@ -332,4 +333,3 @@ To return to the content area display of multiple UGC posts, select the X in the
 For example:
 
 ![chlimage_1-488](assets/chlimage_1-488.png)
-

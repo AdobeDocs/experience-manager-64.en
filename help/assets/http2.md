@@ -9,8 +9,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: c8e145ad-f021-4043-8190-62151775e296
+exl-id: 59cd9f8c-6d01-448d-bf57-bdc9fd2e381b
+feature: Asset Management
+role: Admin,User
 ---
-
 # HTTP2 Delivery of Content {#http-delivery-of-content}
 
 Adobe is excited to announce the availability of HTTP/2 delivery of content with the overall benefit of improved performance.
@@ -52,7 +54,7 @@ To use HTTP/2, you must meet the following requirements:
 
 You must initiate the request to switch over to HTTP/2; it is not automatically done for you.
 
-1. Initiate a Technical Support request to switch over to HTTP2. See [Accessing the AEM Support Portal](https://helpx.adobe.com/experience-manager/kb/accessing-aem-support-portal.html).
+1. Initiate a Technical Support request to switch over to HTTP2. See [Accessing the Customer Support Portal](https://helpx.adobe.com/experience-manager/kb/accessing-aem-support-portal.html).
 
     1. Provide the following information in your support request:
 

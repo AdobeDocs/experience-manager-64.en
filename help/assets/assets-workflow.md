@@ -2,8 +2,10 @@
 title: Process assets to accomplish business processes, do audits, achieve compliance, and maintain basic sanity
 description: Asset processing to convert formats, create renditions, manage assets, validate assets, and run workflows.
 contentOwner: AG
+feature: Workflow,Renditions
+role: User,Admin
+exl-id: 4fb3d12c-feac-45b9-8d09-3b6995591b3d
 ---
-
 # Process digital assets {#process-assets}
 
 [!DNL Adobe Experience Manager Assets] allows you to work on your digital assets in many ways to allow for robust asset processing. You can use the available processing methods or extend the methods to ensure end-to-end business process completion using, audits and compliance of, discovery and distribution of, and basic sanity of your digital assets. You can do all this while achieving the required scale and customization.
@@ -32,7 +34,7 @@ Use workflows in digital assets to activate the asset or create watermarks. Many
 >
 >If a workflow available in Classic UI is not available in Touch enabled UI, like [!UICONTROL Request to Activate] and [!UICONTROL Request to Deactivate], see [make workflow models](/help/sites-developing/workflows-models.md#make-workflow-models-available-in-touchui).
 
-## Apply a workflow to an AEM asset {#apply-a-workflow-to-an-aem-asset}
+## Apply a workflow to an [!DNL Experience Manager] asset {#apply-a-workflow-to-an-aem-asset}
 
 <!-- 
 TBD: Add animated GIF for these steps instead of all these screenshots.
@@ -106,4 +108,3 @@ For a workflow model, users can create a workflow launcher that executes it. A w
 >* [Create workflow models and extend workflow functionality](/help/sites-developing/workflows.md)
 >* [Methods to execute workflows](/help/sites-administering/workflows-starting.md)
 >* [Workflow best practices](/help/sites-developing/workflows-best-practices.md)
->* [Community article on modifying asset using workflow](https://helpx.adobe.com/experience-manager/using/modify_asset_workflow.html)

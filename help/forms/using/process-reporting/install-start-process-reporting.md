@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: process-reporting
 discoiquuid: a0f81621-6ccd-46e2-85d7-2eb4ee3cdb91
+exl-id: 0af2e992-6670-4e31-9d26-ab74c5b9df8e
 ---
-
 # Getting Started with Process Reporting {#getting-started-with-process-reporting}
 
 Process Reporting gives AEM Forms users the ability to query information about AEM Forms processes that are currently defined in the AEM Forms implementation. However, Process Reporting does not access data directly from the AEM Forms repository. The data is first published to the Process Reporting repository on a scheduled basis (*by the ProcessDataPublisher & ProcessDataStorage service*s). The reports and queries in Process Reporting are then generated out of the Process Reporting data published to the repository. Process Reporting is installed as part of the Forms Workflow module.
@@ -284,5 +284,3 @@ For details on the data publishing service and how to schedule this service, see
 * **[!UICONTROL Sync]**: Synchronize the embedded Process Reporting repository with the AEM Forms database.
 * **[!UICONTROL Help]**: View the Help documentation on Process Reporting.
 * **[!UICONTROL Logout]**: Log out of Process Reporting
-
-

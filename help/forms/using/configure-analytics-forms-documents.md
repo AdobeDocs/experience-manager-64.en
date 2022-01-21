@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
 discoiquuid: 6301e0ef-3faa-4e6f-932d-37b049577cec
+exl-id: a55999a8-a92b-4750-bf05-ee326d079f65
 ---
-
 # Configuring analytics and reports {#configuring-analytics-and-reports}
 
 AEM Forms integrates with Adobe Analytics that allows you to capture and track performance metrics for your published forms and documents. The objective behind analyzing these metrics is to make informed decisions based on data about the changes required to make forms or document more usable.
@@ -111,7 +111,7 @@ Perform the following steps to create a report suite.
 Cloud Service configuration is information about your Adobe Analytics account. The configuration enables Adobe Experience Manager (AEM) to connect to Adobe Analytics. Create a separate configuration for each Analytics account that you use.
 
 1. Log in to your AEM author instance as an administrator.
-1. In the top-left corner, click **Adobe Experience Manager** &gt; **Tools** ![tools](assets/tools.png)&gt; **Deployment** &gt; **Cloud Services**.
+1. In the top-left corner, click **Adobe Experience Manager** &gt; **Tools** ![tools](assets/tools.png)&gt; **Cloud Services** &gt; **Legacy Cloud Services**.
 1. Locate **Adobe Analytics** icon. Click **Show Configurations** and then proceed to click **[+]** to add new configuration.
 
    If you are a first-time user, click **Configure now**. 
@@ -190,4 +190,3 @@ Now, you can enable analytics for forms and generate an analytics report.
    **A.** Enable Analytics button **B.** Selected form
 
    For detailed information on viewing forms analytics reports, see [Viewing and understanding AEM Forms analytics reports](/help/forms/using/view-understand-aem-forms-analytics-reports.md)
-

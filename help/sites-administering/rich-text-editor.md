@@ -2,8 +2,8 @@
 title: Configure the Rich Text Editor
 description: Learn to configure the AEM Rich Text Editor.
 contentOwner: AG
+exl-id: 2d5e9ada-1567-43dc-ab19-6891e20e1d0b
 ---
-
 # Configure the Rich Text Editor {#configure-the-rich-text-editor}
 
 The Rich Text Editor (RTE) provides authors with a wide range of functionality for editing their text content. Icons, selection boxes, toolbar, and menus are provided for a WYSIWYG text-editing experience.
@@ -101,21 +101,21 @@ The following table lists the current plug-ins, showing:
 
 |Plug-in ID|features|Description|
 |--- |--- |--- |
-|edit|cut copy paste-default paste-plaintext paste-wordhtml| [Cut, copy and, the three paste modes](/help/sites-administering/configure-rich-text-editor-plug-ins.md#textstyles).|
+|edit|cut copy paste-default paste-plaintext paste-wordhtml| [Cut, copy and, the three paste modes](/help/sites-administering/configure-rich-text-editor-plug-ins.md#text-styles).|
 |[findreplace](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.FindReplacePlugin)|find replace| Find and replace.|
-|[format](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.FormatPlugin)|bold italic underline| [Basic text formatting](/help/sites-administering/configure-rich-text-editor-plug-ins.md#textstyles).|
+|[format](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.FormatPlugin)|bold italic underline| [Basic text formatting](/help/sites-administering/configure-rich-text-editor-plug-ins.md#text-styles).|
 |[image](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.ImagePlugin)|image|Basic image support (drag from content or Content Finder). Depending on the browser, the support has different behaviors for authors|
-|[keys](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.KeyPlugin)||To define this value, see [tab size](/help/sites-administering/configure-rich-text-editor-plug-ins.md#tabsize).|
+|[keys](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.KeyPlugin)||To define this value, see [tab size](/help/sites-administering/configure-rich-text-editor-plug-ins.md#tab-size).|
 |[justify](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.JustifyPlugin)|justifyleft justifycenter justifyright|Paragraph alignment.|
-|[links](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.LinkPlugin)|modifylink unlink anchor|[Hyperlinks and anchors](/help/sites-administering/configure-rich-text-editor-plug-ins.md#linkstyles).|
-|[lists](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.ListPlugin)|ordered unordered indent outdent|This plug-in controls both [indentation and lists](/help/sites-administering/configure-rich-text-editor-plug-ins.md#indentmargin); including nested lists.|
-|[misctools](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.MiscToolsPlugin)|specialchars sourceedit|Miscellaneous tools allow authors to enter [special characters](/help/sites-administering/configure-rich-text-editor-plug-ins.md#spchar) or edit the HTML source. Also, you can add a whole [range of special characters](/help/sites-administering/configure-rich-text-editor-plug-ins.md#definerangechar) if you want to define your own list.|
-|Paraformat|paraformat|The default paragraph formats are Paragraph, Heading 1, Heading 2, and Heading 3 (`<p>`, `<h1>`, `<h2>`, and `<h3>`). You can [add more paragraph formats](/help/sites-administering/configure-rich-text-editor-plug-ins.md#paraformats) or extend the list.|
-|spellcheck|checktext|[Language aware spell checker](/help/sites-administering/configure-rich-text-editor-plug-ins.md#adddict).|
-|styles|styles|Support for styling using a CSS class. [Add new text styles](/help/sites-administering/configure-rich-text-editor-plug-ins.md#textstyles) if you want to add (or extend) your own range of styles for use with text.|
+|[links](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.LinkPlugin)|modifylink unlink anchor|[Hyperlinks and anchors](/help/sites-administering/configure-rich-text-editor-plug-ins.md#link-styles).|
+|[lists](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.ListPlugin)|ordered unordered indent outdent|This plug-in controls both [indentation and lists](/help/sites-administering/configure-rich-text-editor-plug-ins.md#indent-margin); including nested lists.|
+|[misctools](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.MiscToolsPlugin)|specialchars sourceedit|Miscellaneous tools allow authors to enter [special characters](/help/sites-administering/configure-rich-text-editor-plug-ins.md#special-char) or edit the HTML source. Also, you can add a whole [range of special characters](/help/sites-administering/configure-rich-text-editor-plug-ins.md#define-range-char) if you want to define your own list.|
+|Paraformat|paraformat|The default paragraph formats are Paragraph, Heading 1, Heading 2, and Heading 3 (`<p>`, `<h1>`, `<h2>`, and `<h3>`). You can [add more paragraph formats](/help/sites-administering/configure-rich-text-editor-plug-ins.md#para-formats) or extend the list.|
+|spellcheck|checktext|[Language aware spell checker](/help/sites-administering/configure-rich-text-editor-plug-ins.md#add-dict).|
+|styles|styles|Support for styling using a CSS class. [Add new text styles](/help/sites-administering/configure-rich-text-editor-plug-ins.md#text-styles) if you want to add (or extend) your own range of styles for use with text.|
 |subsuperscript|subscript superscript|Extensions to the basic formats, adding sub- and super-script.|
-|table|table removetable insertrow removerow insertcolumn removecolumn cellprops mergecells splitcell selectrow selectcolumns|See [configure table styles](/help/sites-administering/configure-rich-text-editor-plug-ins.md#tablestyles), if you want to add your own styles for either entire tables or individual cells.|
-|undo|undo redo|History size of [undo and redo](/help/sites-administering/configure-rich-text-editor-plug-ins.md#undohistory) operations.|
+|table|table removetable insertrow removerow insertcolumn removecolumn cellprops mergecells splitcell selectrow selectcolumns|See [configure table styles](/help/sites-administering/configure-rich-text-editor-plug-ins.md#table-styles), if you want to add your own styles for either entire tables or individual cells.|
+|undo|undo redo|History size of [undo and redo](/help/sites-administering/configure-rich-text-editor-plug-ins.md#undo-history) operations.|
 
 >[!NOTE]
 >

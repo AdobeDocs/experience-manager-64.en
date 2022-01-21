@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: f25d901a-c62c-46b4-aab7-3ca3da1cea5b
+exl-id: fd167b5f-793e-4b49-affd-5c06d5682d75
 ---
-
 # AEM Portals and Portlets{#aem-portals-and-portlets}
 
 This document describes the following:
@@ -806,4 +806,3 @@ To access the page you added to the portlet:
 
 1. In the portlet's personalization menu, configure the portlet as you configured it in the portal.
 1. Open the configuration (The portlet displays the publish start URL configured in the portlet’s configuration) and make edits as necessary, then save them.
-

@@ -1,16 +1,17 @@
 ---
 title: Importing and Exporting Data
 seo-title: Importing and Exporting Data
-description: null
-seo-description: null
+description: Use the Form Data Integration service to import data into a PDF form and export data from a PDF form using the Java API and Web Service API.
+seo-description: Use the Form Data Integration service to import data into a PDF form and export data from a PDF form using the Java API and Web Service API.
 uuid: 94ccb6f2-6e5f-43ea-a954-9a4402871a17
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 2e783745-c986-45ba-8e65-7437d114ca38
+role: Developer
+exl-id: e9d10d35-6a8d-497d-83f7-67ee6c22baed
 ---
-
 # Importing and Exporting Data {#importing-and-exporting-data}
 
 ## About the Form Data Integration Service {#about-the-form-data-integration-service}

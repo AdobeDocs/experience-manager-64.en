@@ -1,16 +1,17 @@
 ---
 title: Signature Service Java API QuickStart(SOAP)
 seo-title: Signature Service Java API QuickStart(SOAP)
-description: null
-seo-description: null
+description: Use the Signature service to add a signature field to a PDF document, retrieve signature field names, modify a signature field, digitally sign a PDF document, digitally sign an XFA-based form, certify a PDF document, verify a digital signature, verify multiple digital signatures, and remove a digital signature.
+seo-description: Use the Signature service to add a signature field to a PDF document, retrieve signature field names, modify a signature field, digitally sign a PDF document, digitally sign an XFA-based form, certify a PDF document, verify a digital signature, verify multiple digital signatures, and remove a digital signature.
 uuid: ae6adf23-b119-45f6-bd57-73d8d9ca8ecb
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 07fffbd5-5430-4abc-b532-0840ecc7b1b0
+role: Developer
+exl-id: 72726c83-e0e4-40ae-ad1d-8ac9589d9e8f
 ---
-
 # Signature Service Java API Quick Start (SOAP) {#signature-service-java-api-quickstart-soap}
 
 Java API Quick Start(SOAP) is available for the Signature service:
@@ -1331,4 +1332,3 @@ The following Java code example removes a digital signature from a signature fie
   
  
 ```
-

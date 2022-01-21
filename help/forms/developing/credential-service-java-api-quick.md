@@ -1,16 +1,17 @@
 ---
 title: Credential Service Java API QuickStart(SOAP)
 seo-title: Credential Service Java API QuickStart(SOAP)
-description: null
-seo-description: null
+description: Use the Credential Service Java API to import and delete credentials.
+seo-description: Use the Credential Service Java API to import and delete credentials.
 uuid: a00eabfa-3a52-41dd-bcba-c60d00394384
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: b624e255-ae71-4d9c-8554-d48f3e77b799
+role: Developer
+exl-id: a81b2360-9d17-46c7-9443-51b366b0724a
 ---
-
 # Credential Service Java API Quick Start (SOAP) {#credential-service-java-api-quickstart-soap}
 
 Java API Quick Start(SOAP) is available for the Credential service.
@@ -222,4 +223,3 @@ The following code example deletes a credential based on an alias value *secure*
  } 
  
 ```
-

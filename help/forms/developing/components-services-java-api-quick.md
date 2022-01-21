@@ -1,16 +1,17 @@
 ---
 title: Components and Services Java APIQuick Start(SOAP)
 seo-title: Components and Services Java APIQuick Start(SOAP)
-description: null
-seo-description: null
+description: Use the Components and Services Java API Quick Start to deploy a component, set the execution context of a service, disable service security, start a service, modify service configuration values, and remove components.
+seo-description: Use the Components and Services Java API Quick Start to deploy a component, set the execution context of a service, disable service security, start a service, modify service configuration values, and remove components.
 uuid: 7d9ade2d-f927-4558-9e80-df08bd572772
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 14f17126-e744-479b-a8e6-24c131615b46
+role: Developer
+exl-id: 85c77bd4-e424-491f-8db2-73240732a6e4
 ---
-
 # Components and Services Java API Quick Start (SOAP) {#components-and-services-java-apiquick-start-soap}
 
 Java API Quick Start(SOAP) is available for components and services.
@@ -39,7 +40,7 @@ AEM Forms operations can be performed using the AEM Forms strongly-typed API and
 
 >[!NOTE]
 >
->If you have a custom component and you are using SOAP or EJB protocols to invoke DSCs on the same local server, and those invocations stop working after an upgrade, then use in-VM ([DSC_IN_VM_PASSTHROUGH_STRATEGY](https://help.adobe.com/en_US/AEMForms/6-3/ProgramLC/javadoc/com/adobe/idp/dsc/clientsdk/ServiceClientFactoryProperties.html#DSC_IN_VM_PASSTHROUGH_STRATEGY)) invocation strategy. Use the in-VM DSC invocation method with default ServiceClientFactory and do not construct ServiceClientFactory using SOAP or EJB protocols.
+>If you have a custom component and you are using SOAP or EJB protocols to invoke DSCs on the same local server, and those invocations stop working after an upgrade, then use in-VM ([DSC_IN_VM_PASSTHROUGH_STRATEGY](https://www.adobe.io/experience-manager/reference-materials/6-4/forms/programlc/javadoc/com/adobe/idp/dsc/clientsdk/ServiceClientFactoryProperties.html)) invocation strategy. Use the in-VM DSC invocation method with default ServiceClientFactory and do not construct ServiceClientFactory using SOAP or EJB protocols.
 
 ## Quick Start (SOAP mode): Deploying a component using the Java API {#quick-start-soap-mode-deploying-a-component-using-the-java-api}
 
@@ -614,4 +615,3 @@ The following Java code example removes a component by using the Java API.
   
  
 ```
-

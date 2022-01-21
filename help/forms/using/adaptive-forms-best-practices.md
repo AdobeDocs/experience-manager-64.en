@@ -7,8 +7,9 @@ uuid: ed95fc64-56b3-4ea1-a5ba-2e96953fca56
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 43c431e4-5286-4f4e-b94f-5a7451c4a22c
+feature: Adaptive Forms
+exl-id: 0c64940c-273d-4f23-afcb-38bf54cddd36
 ---
-
 # Best practices for working with adaptive forms {#best-practices-for-working-with-adaptive-forms}
 
 ## Overview {#overview}
@@ -266,7 +267,7 @@ You often need to move your AEM projects from one environment to another. Some o
 
 Some best practices to configure AEM to improve the overall performance are as follows:
 
-* Enable HTML client library compression for JavaScript and CSS from Felix Console. See [Clientlibs explained by example](https://blogs.adobe.com/experiencedelivers/experience-management/clientlibs-explained-example/).
+* Enable HTML client library compression for JavaScript and CSS from Felix Console. 
 * Cache all client libraries at `/etc.clientlibs/fd` and any additional custom client libraries on AEM dispatcher to increase the responsiveness and security of your published forms. For more information, see [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html).
 
 * Do not cache `/content/forms/af/` and `/content/dam/formsanddocuments/*` paths. for detailed information about configuring adaptive forms caching, see [Caching adaptive forms](/help/forms/using/configure-adaptive-forms-cache.md).  
@@ -299,4 +300,3 @@ One of the key challenges for organizations is how to handle personally identifi
 
 * Use a secure, external storage like database to store data from draft and submitted forms. See [Configuring external storage for drafts and submitted forms data](/help/forms/using/adaptive-forms-best-practices.md#external-storage).
 * Use Terms and Conditions form component to take explicit consent from user before enabling auto save. In this case, enable auto save only when user agrees to the conditions in Terms and Conditions component.
-

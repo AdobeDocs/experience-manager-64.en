@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 7d2a9de8-13d1-4981-9ba2-9654127556b8
+exl-id: df534e6d-ec34-4851-bbd2-5b9b06d1da10
 ---
-
 # Overview of Forms workflow {#overview-of-forms-workflow}
 
 Forms workflow lets users design, manage, and optimize human-centric processes. Using forms workflow, users can also manage automated business-process applications that connect systems and people.
@@ -107,4 +107,3 @@ On each Forms workflow page in administration console, you can perform a differe
   </tr> 
  </tbody> 
 </table>
-

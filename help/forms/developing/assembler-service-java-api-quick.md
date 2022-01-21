@@ -1,16 +1,17 @@
 ---
 title: Assembler Service Java API QuickStart(SOAP)
 seo-title: Assembler Service Java API QuickStart(SOAP)
-description: null
-seo-description: null
+description: Use the Assembler service to assemble a PDF document, disassemble a PDF document, assemble an encrypted PDF document, assemble a PDF document with bates numbering, assemble a non-interactive PDF document, determine whether a document is PDF/A compliant, validate DDX documents, assemble PDF documents with bookmarks, create a DDX document dynamically, assemble PDF portfolios, and assemble multiple XDP fragments.
+seo-description: Use the Assembler service to assemble a PDF document, disassemble a PDF document, assemble an encrypted PDF document, assemble a PDF document with bates numbering, assemble a non-interactive PDF document, determine whether a document is PDF/A compliant, validate DDX documents, assemble PDF documents with bookmarks, create a DDX document dynamically, assemble PDF portfolios, and assemble multiple XDP fragments.
 uuid: 33ad5f7a-4f4c-4e72-937d-85891498a80e
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: b7b17cf8-def5-4a77-a872-c1f286814881
+role: Developer
+exl-id: 2efc0a84-4808-47dd-a859-76caf98b1872
 ---
-
 # Assembler Service Java API QuickStart(SOAP) {#assembler-service-java-api-quickstart-soap}
 
 Java API Quick Start(SOAP) is available for the Assembler service
@@ -1772,4 +1773,3 @@ public class RedactPDF
     } 
 }
 ```
-

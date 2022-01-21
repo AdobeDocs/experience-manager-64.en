@@ -7,8 +7,8 @@ uuid: ecc98e0d-c964-44dc-b219-9ebe92632d22
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: d2695f71-5126-477c-ae6b-a964fb55728b
+exl-id: 7fbdd976-5a70-4af4-b449-7c2d6bcfd915
 ---
-
 # Employee self-service reference site walkthrough {#employee-self-service-reference-site-walkthrough}
 
 ## Prerequisite {#prerequisite}
@@ -230,4 +230,4 @@ The submission workflow in the leave application triggers a Forms workflow that 
 
 **See it yourself**
 
-Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en/login.html?resource=/aem/inbox.html` and log in using `grios/password` as username/password for Gloria Rios. Open the task created for leave application and approve it. 
+Go to `https://[publishHost]:[publishPort]/content/we-finance/global/en/login.html?resource=/aem/inbox.html` and log in using `grios/password` as username/password for Gloria Rios. Open the task created for leave application and approve it.

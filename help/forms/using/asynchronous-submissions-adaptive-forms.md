@@ -8,8 +8,9 @@ contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 6e4e3af5-4260-4f38-9b29-0818e92bc182
+feature: Adaptive Forms
+exl-id: 1ca492e9-9832-4e5d-8020-2690ac4f5505
 ---
-
 # Asynchronous submission of adaptive forms {#asynchronous-submission-of-adaptive-forms}
 
 Traditionally, web forms are configured to submit synchronously. When users submit a form, they are redirected to an acknowledgement page, or in case of submission failure, an error page. However, modern web experiences like single page applications are gaining popularity where the web page remains static while client-server interaction happens in the background. You can now provide this experience with adaptive forms by configuring asynchronous submission. In this case, an adaptive form behaves like a single page application as the form does not reload or its URL does not change when the submitted form data is validated on the server.
@@ -95,4 +96,3 @@ Perform the following steps to write rules in code editor to handle success and 
 1. In the code editor, tap **[!UICONTROL Edit Code]**. Tap **[!UICONTROL Edit]** on the confirmation dialog.
 1. Choose **[!UICONTROL Successful Submission]** or **[!UICONTROL Error in Submission]** from the **[!UICONTROL Event]** drop-down.
 1. Write a rule for the selected event and tap **[!UICONTROL Done]** to save the rule.
-

@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 5ac2fcef-05b8-46f7-9a15-997cdd79a3db
+role: Admin
+exl-id: f1408709-5402-4f55-bd37-9943fe828af0
 ---
-
 # Communities Sites Console {#communities-sites-console}
 
 The Communities Sites console provides access to:
@@ -109,7 +110,7 @@ The Design panel contains 2 sub-panels for selecing the theme and branding banne
 
 ![sitetheme-1](assets/sitetheme-1.png)
 
-The framework uses [Twitter Bootstrap](https://twitterbootstrap.org/) to bring a responsive, flexible design to the site. One of the many preloaded Bootstrap themes may be selected to style the selected community site template, or a Bootstrap theme may be uploaded.
+The framework uses `Twitter Bootstrap` to bring a responsive, flexible design to the site. One of the many preloaded Bootstrap themes may be selected to style the selected community site template, or a Bootstrap theme may be uploaded.
 
 When selected, the theme will be overlayed with an opaque blue checkmark.
 
@@ -210,7 +211,7 @@ The Settings panel contains several sub-panels presenting features to configure 
 
 >[!NOTE]
 >
-**[!UICONTROL Allowing Social Logins]**
+>**[!UICONTROL Allowing Social Logins]**
 >
 >While sample Facebook and Twitter configurations may exist and be selectable, for a [production environment](../../help/sites-administering/production-ready.md), it is necessary to create custom Facebook and Twitter applications. See [Social Login with Facebook and Twitter](social-login.md).
 
@@ -580,4 +581,3 @@ From the global navigation Sites console, community sites are located in the `Co
 While it is possible to access a community site in this manner, for administrative tasks, the community site should be accessed from the Communities Sites console.
 
 ![chlimage_1-470](assets/chlimage_1-470.png)
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
 discoiquuid: 9da8823c-13a4-4244-bfab-a910a4fd44e7
+exl-id: f3f931db-7085-4fb1-8723-db3f18febaaf
 ---
-
 # Internationalizing UI Strings {#internationalizing-ui-strings}
 
 Java and Javascript APIs enable you to internationalize strings in the following types of resources:
@@ -183,4 +183,3 @@ The preferences node of a user has a path like this:
 `/home/users/<letter>/<hash>/preferences`
 
 ![chlimage_1-1](assets/chlimage_1-1.jpeg)
-

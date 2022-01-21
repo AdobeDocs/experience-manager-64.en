@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 8d3374ac-51dd-4ff5-84c9-495c937ade12
+exl-id: 19df20a9-7c89-4dfa-8eca-81c4a14c21ff
 ---
-
 # OSGI Bundles{#osgi-bundles}
 
 ## Use semantic versioning {#use-semantic-versioning}

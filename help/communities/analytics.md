@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 36ea97a4-4e13-4e89-866b-495f3c30cb94
+role: Admin
+exl-id: cb2f61df-73bb-47f7-86ce-feda4772c8d0
 ---
-
 # Analytics Configuration for Communities Features {#analytics-configuration-for-communities-features}
 
 ## Overview {#overview}
@@ -543,4 +544,3 @@ Adobe Analytics provides APIs that allow you to access, export, and delete user 
 * Adobe Marketing Cloud: [Analytics Help and Reference](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
 * AEM: [Integrating with Adobe Analytics](../../help/sites-administering/adobeanalytics.md)
 * AEM: [Analytics with External Providers](../../help/sites-administering/external-providers.md)
-

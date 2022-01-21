@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: 2feb4a9c-57ad-4c6b-a572-0047bc409bbb
+exl-id: 9c5d956c-06bc-4428-afcd-02b4f81b802f
 ---
-
 # Set up and configure AEM Forms reference sites {#set-up-and-configure-aem-forms-reference-sites}
 
 AEM Forms provides reference site implementation to demonstrate how AEM Forms helps Financial Services Industry and Government organizations in transforming their complex transactions into simple and engaging digital experiences anywhere, anytime, on any device.
@@ -147,7 +147,7 @@ SSL configuration is required to communicate with Adobe Sign servers. For detail
 
 ## Configure Day CQ Link Externalizer configuration {#externalizer}
 
-In AEM, the **Externalizer** is an OSGI service that allows you to programmatically transform a resource path (e.g. /path/to/my/page) into an external and absolute URL (for example, https://www.mycompany.com/path/to/my/page) by prefixing the path with a pre-configured DNS. See [Externalizing URLs](/help/sites-developing/externalizer.md).
+In AEM, the **Externalizer** is an OSGI service that allows you to programmatically transform a resource path (For example,  /path/to/my/page) into an external and absolute URL (for example, https://www.mycompany.com/path/to/my/page) by prefixing the path with a pre-configured DNS. See [Externalizing URLs](/help/sites-developing/externalizer.md).
 
 >[!CAUTION]
 >
@@ -215,8 +215,8 @@ For AEM Forms reference sites, in the AEM DS Settings Service, specify URL of th
 
 Install the following reference sites packages using Software Distribution.
 
-* [AEM-FORMS-6.4-FSI-REF-SITE](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-FSI-REF-SITE)
-* [AEM-FORMS-6.4-GOV-REF-SITE](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-GOV-REF-SITE )
+* [AEM-FORMS-6.4-FSI-REF-SITE](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-FSI-REF-SITE)
+* [AEM-FORMS-6.4-GOV-REF-SITE](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-GOV-REF-SITE)
 
 To learn more about how to use packages, see [How to Work With Packages](/help/sites-administering/package-manager.md).
 
@@ -385,4 +385,3 @@ Now you are all set to explore the reference site. For more information about re
 * [We.Gov reference site walkthrough](/help/forms/using/gov-reference-site-walkthrough.md)  
 
 * [Employee self-service reference site walkthrough](/help/forms/using/employee-self-service-reference-site.md)
-

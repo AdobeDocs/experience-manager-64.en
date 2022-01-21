@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: 8f94c22d-5f08-4a8b-8bb5-5ec757c44bc8
+exl-id: addb71f8-d042-4b14-8775-f15ab9fa5b6b
 ---
-
 # Checklists{#checklists}
 
 The following checklist highlights some of the main issues - please read the other sections related to Testing for full details.
@@ -31,4 +31,3 @@ The following checklist highlights some of the main issues - please read the oth
 >[!NOTE]
 >
 >You can also see the [Managing Projects - Best Practices Checklist](/help/managing/best-practices.md) for further checklists related to the entire project.
-

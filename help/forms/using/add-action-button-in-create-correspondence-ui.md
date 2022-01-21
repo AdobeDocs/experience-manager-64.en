@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 481856df-5db1-4ef5-80d3-3722b5bf8b67
+feature: Correspondence Management
+exl-id: 5bcb26dc-aeb7-4a81-b905-23c8fb05d6d0
 ---
-
 # Add custom action/button in Create Correspondence UI {#add-custom-action-button-in-create-correspondence-ui}
 
 ## Overview {#overview}
@@ -417,11 +418,11 @@ For more information, see [Connecting AEM Forms with Adobe LiveCycle](/help/form
 
    >[!NOTE]
    >
-   >Every time you make any changes at the server sidde, restart the LiveCycle Server. For information on creating your own LiveCycle component, see [Extending LiveCycle ES software through custom DSC development](https://www.adobe.com/devnet/livecycle/articles/dsc_development.html).
+   >Every time you make any changes at the server side, restart the Server. 
 
    The `DSCSample.jar` file uses the `renderLetter` API. For more Information about the renderLetter API, see [Interface LetterRenderService](https://helpx.adobe.com/aem-forms/6-2/javadocs/com/adobe/icc/ddg/api/LetterRenderService.html).
 
-#### Import DSC to LiveCyle {#import-dsc-to-livecyle}
+#### Import DSC to AEM Forms on JEE {#import-dsc-to-livecyle}
 
 `DSCSample.jar` file uses the `renderLetter` API to render letter as PDF bytes from XML data that C give as input. For more Information about the renderLetter and other APIs, see [Letter Render Service](https://helpx.adobe.com/aem-forms/6-2/javadocs/com/adobe/icc/ddg/api/LetterRenderService.html).
 
@@ -445,4 +446,4 @@ After you have configured the action and button for sending the letter for revie
 
 ![sendreview](assets/sendreview.png)
 
-The reviewer receives an email from the system with the letter as a PDF attachment. 
+The reviewer receives an email from the system with the letter as a PDF attachment.

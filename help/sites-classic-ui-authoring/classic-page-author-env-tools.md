@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 278195a6-3452-4966-9d56-022815cf6fb4
+exl-id: f073c876-94cd-405d-885f-bfe433817ff4
 ---
-
 # Authoring - the Environment and Tools{#authoring-the-environment-and-tools}
 
 The authoring environment of AEM provides various mechanisms for organizing and editing your content. The tools provided are accessed from the various consoles and page editors.
@@ -54,7 +54,7 @@ You can use the content finder to locate a range of resources. Where appropriate
 * [Images](#finding-images)
 * [Documents](#finding-documents)
 * [Movies](#finding-movies)
-* [Scene 7 Media Browser](/help/sites-administering/scene7.md#scene7contentbrowser)
+* [Dynamic Media Browser](/help/sites-administering/scene7.md#scene7contentbrowser)
 * [Pages](/help/sites-classic-ui-authoring/classic-page-author-env-tools.md#finding-pages)  
 * [Paragraphs](#referencing-paragraphs-from-other-pages)
 * [Products](/help/sites-classic-ui-authoring/classic-page-author-env-tools.md#products)

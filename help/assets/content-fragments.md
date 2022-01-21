@@ -9,15 +9,17 @@ topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 discoiquuid: 22ae0d3a-083f-40e4-bf4a-7a755ae9e312
+exl-id: e2804707-7b75-4fae-937e-9e258481878f
+feature: Content Fragments
+role: User
 ---
-
 # Working with Content Fragments {#working-with-content-fragments}
 
 >[!CAUTION]
 >
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](/help/release-notes/sp-release-notes.md).
 
-Adobe Experience Manager (AEM) Content Fragments allow you to design, create, curate and [publish page-independent content](/help/sites-authoring/content-fragments.md). They allow you to prepare content ready for use in multiple locations/over multiple channels.
+Adobe Experience Manager (AEM) Content Fragments allow you to design, create, curate, and [publish page-independent content](/help/sites-authoring/content-fragments.md). They allow you to prepare content ready for use in multiple locations/over multiple channels.
 
 Content fragments can also be delivered in JSON format, using the Sling Model (JSON) export capabilities of AEM core components. This form of delivery:
 
@@ -297,4 +299,3 @@ A fragment, with its elements and variations, can be used to create coherent con
 A sample fragment can be seen at:
 
 [http://localhost:4502/assets.html/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten](http://localhost:4502/assets.html/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten)
-

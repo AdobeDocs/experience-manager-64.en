@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: df94dd1b-1b65-478b-a28d-81807a8084b1
+exl-id: af980042-2c54-4015-b35e-cc9d417e6e82
 ---
-
 # Integrating with Adobe Campaign Classic{#integrating-with-adobe-campaign-classic}
 
 >[!NOTE]
@@ -375,4 +375,3 @@ You can also insert target extension data for personalization. Target extension 
 >The data in the target is only available if the AEM content is synchronized with an Adobe Campaign delivery. See [Synchronizing content created in AEM with a delivery from Adobe Campaign](/help/sites-authoring/campaign.md#synchronizing-content-created-in-aem-with-a-delivery-from-adobe-campaign-classic).
 
 ![chlimage_1-148](assets/chlimage_1-148.png)
-

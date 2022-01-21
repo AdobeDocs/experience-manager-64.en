@@ -10,8 +10,9 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: 9474519d-14cc-49e0-a81d-9319966fd1f6
 pagetitle: Administering hybris
+feature: Commerce Integration Framework
+exl-id: 27537d62-f032-4fb5-b2cf-003579b61ea8
 ---
-
 # SAP Commerce Cloud{#sap-commerce-cloud}
 
 After installation you can configure your instance:

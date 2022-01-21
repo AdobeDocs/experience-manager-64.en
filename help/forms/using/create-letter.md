@@ -7,8 +7,9 @@ uuid: b5cdbf01-db85-4ff8-9fda-1489542bffef
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 6cef0bcf-e2f0-4a5a-85a1-6d8a5dd9bd01
+feature: Correspondence Management
+exl-id: 8fa14b30-013c-4a23-bebf-2262e8212461
 ---
-
 # Create Letter {#create-letter}
 
 ## Correspondence Management workflow {#correspondence-management-workflow}
@@ -224,7 +225,7 @@ You need the following in place first to create a correspondence:
 * [Compatibility Package](https://helpx.adobe.com/in/experience-manager/6-4/forms/using/compatibility-package.html). Install the Compatibility Package to view the **Letters** option on the **Forms** page.
 
 * The letter XDP ([layout](/help/forms/using/document-fragments.md)).
-* Other XDPs ([layout fragments](/help/forms/using/document-fragments.md)) that form parts of the letter. The XDPs\Layouts are created in [Designer](https://help.adobe.com/en-US/AEMForms/6.1/DesignerHelp/). 
+* Other XDPs ([layout fragments](/help/forms/using/document-fragments.md)) that form parts of the letter. The XDPs\Layouts are created in [Designer](http://www.adobe.com/go/learn_aemforms_designer_64). 
 
 * The relevant [data dictionary](/help/forms/using/data-dictionary.md) (Optional). 
 * The [data modules](/help/forms/using/document-fragments.md) you want to use in the correspondence.
@@ -472,4 +473,3 @@ You can use an existing letter template to quickly create a letter template with
 1. Tap Paste. The Paste dialog appears. If you are copying and pasting the letters at the same place, the system automatically assigns names and titles to the new copies of letters but you can edit the titles and names of the letters. 
 1. If required, edit the Title and Name with which you want to save the copy of the letter.
 1. Tap Paste. The copy of the letter is created. Now you can make the required changes in your newly created letter.
-

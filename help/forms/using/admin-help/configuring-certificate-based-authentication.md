@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: d958ae65-3008-4d68-9e11-4346e149827f
+exl-id: 88932b5b-2acc-4f21-8ce3-b819a990ad30
 ---
-
 # Configuring certificate-based authentication {#configuring-certificate-based-authentication}
 
 User Management usually performs authentication by using a user name and password. User Management also supports certificate-based authentication, which you can use to authenticate users through Acrobat or to authenticate users programmatically. For details about authenticating users programmatically, see [Programming with AEM forms](https://www.adobe.com/go/learn_aemforms_programming_63).
@@ -92,4 +92,3 @@ When you test a certificate, User Management uploads the certificate checks to e
 
 1. In administration console, click Settings &gt; User Management &gt; Configuration &gt; Certificate Mapping.
 1. Select the check box for the certificate mapping to delete, click Delete, and then click OK.
-

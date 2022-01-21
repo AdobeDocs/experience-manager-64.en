@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: bbc2aac9-ccf1-40c3-be4f-d59c2d0d8a6c
+exl-id: 351b8bc9-557d-4efe-8800-1752bf40f240
 ---
-
 # Targeting your Adobe Campaign{#targeting-your-adobe-campaign}
 
 To target your Adobe Campaign newsletter, you need to first set up segmentation, which is only available in the Classic UI. After that, you can create targeted experiences for Adobe Campaign.
@@ -103,4 +103,3 @@ To create a newsletter with targeted content:
    >[!NOTE]
    >
    >If you also set the segments up in Adobe Campaign, clicking **Preview** will show you the experiences for each segment.
-

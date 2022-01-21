@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
 discoiquuid: 94a05894-743a-4ace-a292-bfee90ba9068
+exl-id: 2bcc2be9-1e8a-44b5-add2-370b9ff80de8
 ---
-
 # Query Builder Predicate Reference{#query-builder-predicate-reference}
 
 ## General {#general}
@@ -213,7 +213,7 @@ This is conceptually `fulltext AND ( (path AND type) OR (path AND type) )`. Be a
 
 ### hasPermission {#haspermission}
 
-Restricts the result to items where the current session has the specified [JCR privileges.](https://docs.adobe.com/content/docs/en/spec/jcr/2.0/16_Access_Control_Management.html#16.2.3%20Standard%20Privileges)
+Restricts the result to items where the current session has the specified [JCR privileges](https://www.adobe.io/experience-manager/reference-materials/spec/jcr/2.0/16_Access_Control_Management.html#16.2.3%20Standard%20Privileges).
 
 This is a filtering-only predicate and cannot leverage a search index. It does not support facet extraction.
 

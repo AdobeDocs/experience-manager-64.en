@@ -2,27 +2,25 @@
 title: XMP writeback to renditions
 description: Learn how the XMP writeback feature propagates the metadata changes for an asset to all or specific renditions of the asset.
 contentOwner: AG
+feature: Metadata
+role: User,Admin
+exl-id: 456f8c91-aacf-4db5-a329-2d1650ff0f2f
 ---
-
 # XMP writeback to renditions {#xmp-writeback-to-renditions}
 
-This XMP Writeback feature in Adobe Experience Manager (AEM) Assets replicates asset metadata changes to the renditions of the asset.
+This XMP writeback feature in [!DNL Adobe Experience Manager Assets] replicates the metadata changes to the renditions of the original asset. When you change the metadata for an asset from within Assets or while uploading the asset, the changes are initially stored in the metadata node in the asset hierarchy.
 
-When you change the metadata for an asset from within AEM Assets or while uploading the asset, changes are initially stored within the asset node in Crx-De.
-
-The XMP Writeback feature propagates the metadata changes to all or specific renditions of the asset.
+The XMP writeback feature lets you propagate the metadata changes to all or specific renditions of the asset. The feature writes back only those metadata properties that use `jcr` namespace, that is, a property named `dc:title` is written back but a property named `mytitle` is not.
 
 Consider a scenario where you modify the [!UICONTROL Title] property of the asset titled `Classic Leather` to `Nylon`.
 
 ![metadata](assets/metadata.png)
 
-In this case, the AEM Assets saves the changes to the **[!UICONTROL Title]** property in the `dc:title` parameter for the asset metadata stored in the asset hierarchy.
+In this case, the [!DNL Experience Manager] Assets saves the changes to the **[!UICONTROL Title]** property in the `dc:title` parameter for the asset metadata stored in the asset hierarchy.
 
 ![metadata_stored](assets/metadata_stored.png)
 
-However, AEM Assets does not automatically propagate any metadata changes to the renditions of an asset.
-
-The XMP Writeback feature lets you propagate the metadata changes to all or specific renditions of the asset. However, the changes are not stored under the metadata node in the asset hierarchy. Instead, this feature embeds the changes in the binary files for the renditions.
+However, [!DNL Experience Manager Assets] does not automatically propagate any metadata changes to the renditions of an asset. See [how to enable XMP writeback](#enabling-xmp-writeback).
 
 ## Enable XMP writeback {#enabling-xmp-writeback}
 
@@ -63,13 +61,13 @@ The metadata changes are propagated to the renditions `thumbnail.140.100.png` an
 
 [!DNL Experience Manager Assets] supports both blocked list and allowed list filtering of properties/nodes for XMP metadata that is read from asset binaries and stored in JCR when assets are ingested.
 
-Filtering using a blocked list lets you import all XMP metadata properties except the properties that are specified for exclusion. However, for asset types such as INDD files that have huge amounts of XMP metadata (for example 1000 nodes with 10,000 properties), the names of nodes to be filtered are not always known in advance. If filtering using a blocked list allows a large number of assets with numerous XMP metadata to be imported, the AEM instance or cluster can encounter stability issues, for example clogged observation queues.
+Filtering using a blocked list lets you import all XMP metadata properties except the properties that are specified for exclusion. However, for asset types such as INDD files that have huge amounts of XMP metadata (for example 1000 nodes with 10,000 properties), the names of nodes to be filtered are not always known in advance. If filtering using a blocked list allows a large number of assets with numerous XMP metadata to be imported, the [!DNL Experience Manager] instance or cluster can encounter stability issues, for example clogged observation queues.
 
 Filtering of XMP metadata via allowed list resolves this issue by letting you define the XMP properties to be imported. This way, any other or unknown XMP properties are ignored. For backward compatibility, you can add some of these properties to the filter that uses a blocked list.
 
 >[!NOTE]
 >
->Filtering works only for the properties derived from XMP sources in asset binaries. For the properties derived from non-XMP sources, such as EXIF and IPTC formats, the filtering does not work. For example, the date of asset creation is stored in property named `CreateDate` in EXIF TIFF. AEM stores this value in the metadata field named `exif:DateTimeOriginal`. As the source is a non-XMP source, filtering does not work on this property.
+>Filtering works only for the properties derived from XMP sources in asset binaries. For the properties derived from non-XMP sources, such as EXIF and IPTC formats, the filtering does not work. For example, the date of asset creation is stored in property named `CreateDate` in EXIF TIFF. [!DNL Experience Manager] stores this value in the metadata field named `exif:DateTimeOriginal`. As the source is a non-XMP source, filtering does not work on this property.
 
 1. Open Configuration Manager from `https://[aem_server]:[port]/system/console/configMgr`.
 1. Open the **[!UICONTROL Adobe CQ DAM XmpFilter]** configuration.

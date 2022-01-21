@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: d23acb18-6761-4290-9e7a-a434582791bd
+role: Admin
+exl-id: 3dd2bdc9-0c4d-43d9-a731-ca8c27503e1c
 ---
-
 # DSRP - Relational Database Storage Resource Provider {#dsrp-relational-database-storage-resource-provider}
 
 ## About DSRP {#about-dsrp}

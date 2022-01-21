@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
 discoiquuid: a8c0cd0f-268f-4b37-83de-0ccbd819a016
+exl-id: a5f36d26-1be4-4e06-9237-3943e903d850
 ---
-
 # eCommerce{#ecommerce}
 
 The integration framework includes an integration layer with an API. This allows you to:
@@ -44,4 +44,3 @@ See the [API documentation](https://helpx.adobe.com/experience-manager/6-4/sites
 >[!NOTE]
 >
 >For a complete article detailing all the steps to build an eCommerce provider see [Creating custom Adobe Experience Manager 6.2 eCommerce providers](https://helpx.adobe.com/experience-manager/using/ecommerce62.html).
-

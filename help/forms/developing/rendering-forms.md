@@ -1,8 +1,8 @@
 ---
 title: Rendering Forms
 seo-title: Rendering Forms
-description: null
-seo-description: null
+description: Use the Forms service to create interactive data capture client applications that validate, process, transform, and deliver forms typically created in Designer. Form authors can develop a single form design that the Forms service renders in PDF, SWF, or HTML in various browser environments.
+seo-description: Use the Forms service to create interactive data capture client applications that validate, process, transform, and deliver forms typically created in Designer. Form authors can develop a single form design that the Forms service renders in PDF, SWF, or HTML in various browser environments.
 uuid: 68d7b7bc-7730-4a83-b7b9-ebe2a29d6c51
 contentOwner: admin
 content-type: reference
@@ -10,8 +10,9 @@ geptopics: SG_AEMFORMS/categories/performing_service_operations_using_apis
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: f8749793-e53f-4812-a093-8278f480e6a8
+role: Developer
+exl-id: 61d63c89-26e8-4a50-b6a3-1bcf1a1b4c54
 ---
-
 # Rendering Forms {#rendering-forms}
 
 **About the Forms service**
@@ -49,6 +50,4 @@ You can accomplish these tasks using the Forms service:
 * Passing Documents. (See [Passing Documents to the Forms Service](/help/forms/developing/passing-documents-forms-service.md)
 * Calculate form data. (See [Calculating Form Data](/help/forms/developing/calculating-form-data.md).)
 * Optimize an application. (See [Optimizing the Performance of the Forms Service](/help/forms/developing/optimizing-performance-forms-service.md).)
-
-  ***Tip**: The Adobe Developer web site contains the following article that discusses how to create a ASP.NET application that invokes the Forms service and renders forms. See [Creating form rendering ASP.NET applications](https://www.adobe.com/devnet/livecycle/articles/asp_net.html).*
 

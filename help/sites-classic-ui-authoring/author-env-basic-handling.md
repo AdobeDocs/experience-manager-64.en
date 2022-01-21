@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 9737ead9-e324-43c9-9780-7abd292f4e5b
+exl-id: 49bf3e19-d299-4c99-896c-b12135f33fb7
 ---
-
 # Basic Handling{#basic-handling}
 
 >[!NOTE]
@@ -223,4 +223,3 @@ The colors next to pages in the **Published** and **Modified** columns indicate 
 The classic UI uses well-known mechanisms for navigating and initiating actions, including click and double-click. Depending on the current situation, a range of context menus (usually opened with the right-mouse-button) are also available:
 
 ![chlimage_1-11](assets/chlimage_1-11.png)
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: edc78306-5e83-45a4-a44b-ce0d21ff0f31
+exl-id: 308cd31b-3974-49d2-8629-6ede58f3200d
 ---
-
 # Authoring in the Classic UI{#authoring-in-the-classic-ui}
 
 ## Classic UI and Touch-Enabled UI {#classic-ui-and-touch-enabled-ui}

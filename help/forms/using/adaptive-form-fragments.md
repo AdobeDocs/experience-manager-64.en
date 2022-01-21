@@ -7,8 +7,9 @@ uuid: 1629dd9e-b04e-4baa-ae87-c18d4550ac0f
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 4df5ee77-5a77-4efd-b7e1-c78e650673a9
+feature: Adaptive Forms
+exl-id: f63478c5-1798-428e-a662-f3db692b27fc
 ---
-
 # Adaptive form fragments {#adaptive-form-fragments}
 
 While every form is designed for a specific purpose, there are some common segments in most forms, such as to provide personal details like name and address, family details, income details, and so on. Form developers are required to create these common segments every time a new form is created.
@@ -105,7 +106,7 @@ Any fragment you insert in adaptive forms appears as a placeholder image. The pl
 Perform the following steps to show complete fragments in forms:
 
 1. Go to AEM web console configuration page at https:[*host*]:[*port*]/system/console/configMgr.
-1. Search and click **[!UICONTROL Adaptive Form Configuration Service]** to open it in edit mode.
+1. Search and click **[!UICONTROL Adaptive Form and Interactive Communication Web Channel Configuration]** to open it in edit mode.
 1. Disable **[!UICONTROL Enable Placeholder in place of Fragment]** checkbox to show complete fragments rather than the placeholder image.
 
 ### Insert a fragment in an adaptive form {#insert-a-fragment-in-an-adaptive-form}

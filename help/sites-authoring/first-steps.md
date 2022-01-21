@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 9086b14c-cd75-4fc9-928e-81c8ad6b6292
+exl-id: c4b0211f-aaaf-44e5-89bb-6b951dbdb98f
 ---
-
 # First Steps for Authors{#first-steps-for-authors}
 
 This section gives you an overview of the main tasks that you will be using when [starting to author content](/help/sites-authoring/author.md#concept-of-authoring-and-publishing) with Adobe Experience Manager (AEM).

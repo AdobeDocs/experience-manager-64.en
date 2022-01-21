@@ -1,16 +1,17 @@
 ---
 title: Prepopulating Forms with Flowable Layouts
 seo-title: Prepopulating Forms with Flowable Layouts
-description: null
-seo-description: null
+description: Prepopulate forms with flowable layout to display data to users within a rendered form using the Java API and the Web Service API.
+seo-description: Prepopulate forms with flowable layout to display data to users within a rendered form using the Java API and the Web Service API.
 uuid: 93ccb496-e1c2-4b79-8e89-7a2abfce1537
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 30a12fc6-07b8-4c7c-b9e2-caa2bec0ac48
+role: Developer
+exl-id: 92bc6878-6963-442a-8441-fba42e89c859
 ---
-
 # Prepopulating Forms with Flowable Layouts {#prepopulating-forms-with-flowable-layouts1}
 
 ## Prepopulating Forms with Flowable Layouts {#prepopulating-forms-with-flowable-layouts2}
@@ -388,4 +389,3 @@ To prepopulate a form with a flowable layout by using the Forms API (web service
 **See also**
 
 [Invoking AEM Forms using Base64 encoding](/help/forms/developing/invoking-aem-forms-using-web.md#invoking-aem-forms-using-base64-encoding)
-

@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: f03ebe60-88c0-4fc0-969f-949490a8e768
+feature: Configuring
+exl-id: e9cd4705-5067-4a2c-badf-8414950b44bd
 ---
-
 # Revision Cleanup{#revision-cleanup}
 
 ## Introduction {#introduction}
@@ -613,4 +614,3 @@ In addition to the methods presented above, you can also trigger the revision cl
   </tr> 
  </tbody> 
 </table>
-

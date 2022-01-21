@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
 discoiquuid: cfc7ad16-965e-4075-bc4d-5630abeaba55
+exl-id: adb20c7e-626e-4a66-84e6-c9c25a67a9c3
 ---
-
 # Page Templates for Mobile Apps {#page-templates-for-mobile-apps}
 
 >[!NOTE]

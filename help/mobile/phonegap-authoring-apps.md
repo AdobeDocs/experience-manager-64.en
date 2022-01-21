@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
 discoiquuid: abfeea65-102d-4800-abeb-304d61afcc13
+exl-id: dbaa5221-4011-49cf-8123-5f8daa7fae76
 ---
-
 # Authoring Mobile Applications{#authoring-mobile-applications}
 
 >[!NOTE]
@@ -123,4 +123,3 @@ To learn about the roles and responsibilities of an Administrator and Developer,
 
 * [Developing for Adobe PhoneGap Enterprise with AEM](/help/mobile/developing-in-phonegap.md)
 * [Administering Content for Adobe PhoneGap Enterprise with AEM](/help/mobile/administer-phonegap.md)
-
