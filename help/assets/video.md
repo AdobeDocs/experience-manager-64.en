@@ -54,7 +54,7 @@ The following step-by-step workflow description is designed to help you get up a
         * [Organizing digital assets](organize-assets.md) 
 
           Learn more about [Best practices for organizing your digital assets for using processing profiles](organize-assets.md#organize-using-folders)
-  
+
         * [Searching video assets](search-video-assets.md) or [Searching assets](managing-assets-touch-ui.md#searching-assets)
 
     * Preview and publish video assets
@@ -66,7 +66,7 @@ The following step-by-step workflow description is designed to help you get up a
           [Viewing video renditions](video-renditions.md)  
 
           [Managing video renditions](managing-assets-touch-ui.md#managing-renditions)
-  
+
         * [Manage viewer presets](managing-viewer-presets.md)
         * [Publishing assets](publishing-dynamicmedia-assets.md)
 
@@ -75,11 +75,11 @@ The following step-by-step workflow description is designed to help you get up a
         * View the properties of an encoded video rendition such as frame rate, audio and video bitrate, and codec:  
 
           [Viewing video rendition properties](video-renditions.md) 
-  
+
         * Edit the properties of video such as the title, description, and tags, custom metadata fields:  
 
           [Editing video properties](managing-assets-touch-ui.md#editing-properties)
-  
+
         * [Managing metadata for digital assets](metadata.md)
         * [Metadata schemas](metadata-schemas.md)
 
@@ -476,7 +476,7 @@ To publish to YouTube, you need a Google account. If you have a GMAIL account th
 1. On the Google Cloud Platform page, near the top, tap **[!UICONTROL Console]**. You may need **Sign in** using your Google account credentials.
 1. On the **[!UICONTROL Dashboard]** page, tap **[!UICONTROL Create Project]**.
 1. In the **[!UICONTROL New Project]** dialog box, enter in a project name.  
-  
+
    Note that your project ID is based on your project name. As such, choose the project name carefully; it cannot be changed after it is created. Also, you will need to enter the same project ID again when you set up YouTube in Adobe Experience Manager later on. You may want to write down the project’s ID.
 1. Tap **[!UICONTROL Create]**.  
 
@@ -490,17 +490,17 @@ To publish to YouTube, you need a Google account. If you have a GMAIL account th
 1. Tap **[!UICONTROL What credentials do I need?]** button.
 1. Under the **[!UICONTROL Create an OAuth 2.0 client ID]** heading, enter a unique name.
 1. In the text field under the **[!UICONTROL Authorized Javascript origins]** heading, enter the following path, substituting your own domain and port number in the path, then press **[!UICONTROL Enter]** to add the path to the list:  
-  
+
    `https://<servername.domain>:<port_number>`  
-  
+
    For example, `https://1a2b3c.mycompany.com:4321`
 
    **Note**: The path example above is intended for illustration purposes only.
 
 1. In the text field under the **[!UICONTROL Authorized redirect URIs]** heading, enter the following, substituting your own domain and port number in the path, then press Enter to add the path to the list:  
-  
+
    `https://<servername.domain>:<port#>/etc/cloudservices/youtube.youtubecredentialcallback.json`  
-  
+
    For example, `https://1a2b3c.mycompany.com:4321/etc/cloudservices/youtube.youtubecredentialcallback.json`
 
    **Note**: The path example above is intended for illustration purposes only.
@@ -540,7 +540,7 @@ Publishing videos to YouTube requires that you have one or more channels. If you
    Remember the name you enter here because you will need to enter it again when you setup YouTube in AEM.
 
 1. (Optional) If necessary, add more channels.  
-  
+
    Now you will add tags for publishing.
 
 ### Add tags for publishing {#adding-tags-for-publishing}
@@ -622,13 +622,13 @@ To create the metadata processing profile, you are first going to copy values fr
     * In the **[!UICONTROL Field Label]** text field, select and copy the value.
 
       Paste the copied value into an open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
-  
+
     * In the **[!UICONTROL Map to property]** text field, select and copy the value.  
 
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open. 
-  
+
     * Under **[!UICONTROL Choices]**, select and copy the default value that you want to use (such as People & Blogs or Science & Technology).
-  
+
       Paste the copied value into the open text editor. You are going to need this value later when you create your metadata processing profile. Leave the text editor open.
 
 1. Under the YouTube Publishing heading, tap **[!UICONTROL YouTube Privacy]**. (Do not tap the YouTube Privacy drop-down list.)
@@ -884,7 +884,7 @@ For video reports to work correctly, a Report Suite ID is automatically created 
     * Near the upper-right corner, tap the **[!UICONTROL Refresh Video Report]** icon.  
 
       You only need to use Refresh if the end date of the report is the current day. This ensures that you see the video tracking that has occurred since the last time you ran the report.
-  
+
     * Near the upper-right corner, tap the **[!UICONTROL Date Picker]** icon.
 
       Specify the beginning and end date range for which you want video data, and then tap **[!UICONTROL Run Report]**.
@@ -919,7 +919,7 @@ To view Video Reports based on a video viewer that you created using the HTML5 V
       If the `config2` parameter is `companypreset`, you do *not* need `&preset=parameter`.  
 
       If `config2` is anything else, set the preset parameter the same as the `config2` parameter. For example, if `config2=companypreset-2`, add `&param2=companypreset-2` to the AppMeasurmentBridge.jsp URL.
-  
+
     * Then, add the AppMeasurementBridge.jsp script: 
 
       `<script language="javascript" type="text/javascript" src="https://s7d1.scene7.com/s7viewers/AppMeasurementBridge.jsp?company=robindallas&preset=companypreset-2"></script>`
@@ -929,7 +929,7 @@ To view Video Reports based on a video viewer that you created using the HTML5 V
     * After calling `s7sdk.Util.init();` create a TrackingManager instance to track events by adding the following: 
 
       `var trackingManager = new s7sdk.TrackingManager();` 
-  
+
     * Connect components to TrackingManager by doing the following: 
 
       In the `s7sdk.Event.SDK_READY` event handler, attach the component you want to track to the TrackingManager. 
@@ -944,7 +944,7 @@ To view Video Reports based on a video viewer that you created using the HTML5 V
 
       ``` 
       var appMeasurementBridge = new AppMeasurementBridge(); appMeasurementBridge.setVideoPlayer(videoPlayer);
-  
+
       ```
 
     * Add the tracking function by adding the following:
@@ -1006,15 +1006,15 @@ See [Serving static (non-image) contents](https://experienceleague.adobe.com/doc
 1. Do one of the following:
 
     * For a pop-up video viewer experience, tap **[!UICONTROL URL]**. In the URL dialog box, select and copy the URL to the Clipboard and then past the URL into a simple text editor. Append the copied URL of the video with the following syntax:  
-  
+
       `&caption=<server_path>/is/content/<path_to_caption.vtt_file,1>`  
-  
+
       Note the `,1` at the end of the caption path. Immediately following the .vtt filename extension in the path, you have the option to enable (turn on) or disable (turn off) the closed caption button on the video player bar by setting to `,1` or `,0`, respectively.
-  
+
     * For an embedded video viewer experience, tap **[!UICONTROL Embed Code]**. In the Embed Code dialog box, select and copy the embed code to the Clipboard and then paste the code into a simple text editor. Append the copied embed code with the following syntax:  
-  
+
       `videoViewer.setParam("caption","<path_to_caption.vtt_file,1>");`  
-  
+
       Note the `,1` at the end of the caption path. Immediately following the .vtt filename extension in the path, you have the option to enable (turn on) or disable (turn off) the closed caption button on the video player bar by setting to `,1` or `,0`, respectively.
 
 ## Add chapter markers to video {#adding-chapter-markers-to-video}
@@ -1026,9 +1026,9 @@ You can make your long form videos easier to watch and navigate by adding chapte
 >The video player that is used must support the use of chapter markers. Dynamic Media video players do support chapter markers but using third party video players may not.
 
 If desired, you can create and brand your own custom video viewer with chapters instead of using a video viewer preset. For instructions on creating your own HTML5 viewer with chapter navigation, in the Adobe HTML5 Viewer SDK API, reference the heading “Customizing Behavior Using Modifiers” under the classes `s7sdk.video.VideoPlayer` and `s7sdk.video.VideoScrubber`. See the [HTML5 Viewer SDK API](https://s7d1.scene7.com/s7sdk/3.10/docs/jsdoc/index.html) documentation.
-  
+
 You create a chapter list for your video in much the same way that you create captions. That is, you create a WebVTT file. Note, however, that this file must be separate from any WebVTT caption file that you may also be using; you cannot combine captions and chapters into one WebVTT file.  
-  
+
 You can use the following sample as an example of the format you use to create a WebVTT file with chapter navigation:
 
 ### WebVTT file with video chapter navigation {#webvtt-file-with-video-chapter-navigation}
@@ -1050,9 +1050,9 @@ Cost-efficient access to rapidly evolving technology.
 ```
 
 In the example above, `Chapter 1` is the cue identifier and is optional. The cue time of `00:00:000 --> 01:04:364` specifies the start time and end time of the chapter, in `00:00:000` format. That last three digits are milliseconds and can be left as `000`, if preferred. The chapter title of `The bicycle store behind it all` is the actual description of the chapter’s contents. The cue identifier, the starting cue time, and the chapter title all appear in a pop-up in the video player when a user hovers their mouse pointer over a visual cue point in the video’s timeline.  
-  
+
 Because you are using an HTML5 video viewer, ensure that the chapter file you create follows the WebVTT (Web Video Text Tracks) standard. The chapter filename extension is .vtt. You can learn more information about the WebVTT captioning standard.  
-  
+
 See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 **To add chapter markers to video:**
@@ -1062,7 +1062,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
    For global support of video chapters in languages other than English, be aware that the WebVTT standard requires that you create separate .vtt files and calls for each language you want to support.
 
 1. Save the `.vtt` file in UTF8 encoding to avoid problems with character rendition in the chapter title text.  
-  
+
    Generally, you want to name the chapter VTT file the same name as the video file, and append it with chapters. By doing so, it can help you with automating the generation of the video URLs using your existing web content management system.
 1. In AEM, upload your WebVTT chapter file.
 
