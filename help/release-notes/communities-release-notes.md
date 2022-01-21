@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 55a0b70e-5212-408b-8560-6e758bd8bb10
+exl-id: 3a341e72-01c5-4c63-8942-6320e5b08440
 ---
-
 # AEM Communities Release Notes {#aem-communities-release-notes}
 
 This section provides information on the improvements to AEM Communities since the 6.3 release. To learn about the new features in greater detail, see [What's New in AEM 6.4 Communities](/help/communities/whats-new-aem-communities.md).
@@ -23,20 +23,20 @@ Community Sites:
 
 * Community Administrators can now:
 
-    * Delete permanently Community Sites
-    * Select a context-aware configuration folder for Community Sites
+  * Delete permanently Community Sites
+  * Select a context-aware configuration folder for Community Sites
 
 Community Groups:
 
 * Community Administrators can now:
 
-    * Delete permanently Community Groups
-    * Create Community Groups in multiple languages
-    * Add enablement catalog & assignments within Community Groups
+  * Delete permanently Community Groups
+  * Create Community Groups in multiple languages
+  * Add enablement catalog & assignments within Community Groups
 
 * Enablement Managers can now
 
-    * Create and assign resources and learning paths within Community Groups
+  * Create and assign resources and learning paths within Community Groups
 
 File Library:
 

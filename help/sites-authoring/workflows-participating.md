@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 37c8b1bd-0e60-42d2-80ed-dece3f5c2342
+exl-id: 7b645497-ddbf-403c-9e78-5e845f6bda50
 ---
-
 # Participating in Workflows{#participating-in-workflows}
 
 Workflows typically include steps that require a person to perform an activity on a page or asset. The workflow selects a user or group to perform the activity and assigns a work item to that person or group. The user receives notification and can then take the appropriate action:
@@ -279,4 +279,3 @@ To view the payload, and resources, of the workflow instance:
    ![wf-78](assets/wf-78.png)
 
 1. The links can be used to open the individual pages.
-

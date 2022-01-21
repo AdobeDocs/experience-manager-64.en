@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: db528b9b-3407-462d-8254-20b3cc2c3ccf
+exl-id: c3c7c007-4814-4bd1-987e-534df4575a4a
 ---
-
 # Which Test Environments will be needed?{#which-test-environments-will-be-needed}
 
 To define which configurations for testing, you should consider the following:

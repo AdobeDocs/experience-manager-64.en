@@ -1,16 +1,17 @@
 ---
 title: Backup and Restore Service APIQuick Starts
 seo-title: Backup and Restore Service APIQuick Starts
-description: null
-seo-description: null
+description: Use the Backup and Restore Service API to enter and leave backup mode using the Java API Quick Start.
+seo-description: Use the Backup and Restore Service API to enter and leave backup mode using the Java API Quick Start.
 uuid: c3992be2-ceb4-480d-9c8f-71eb0ea66dde
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 813162be-dbf5-4dc1-80ff-e37dbc25ef60
+role: Developer
+exl-id: b4fa018f-48a6-4991-9f80-d2d6e0b30555
 ---
-
 # Backup and Restore Service API Quick Starts {#backup-and-restore-service-apiquick-starts}
 
 Java API Quick Start(SOAP) are available for the Backup and Restore Service API.
@@ -21,7 +22,9 @@ Java API Quick Start(SOAP) are available for the Backup and Restore Service API.
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-* ***Note**: Quick Starts located in Programming with AEM Forms are based on the Forms operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).*
+>[!NOTE]
+>
+>Quick Starts located in Programming with AEM Forms are based on the Forms operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
 
 ## Quick Start (SOAP mode): Entering backup mode using the Java API {#quick-start-soap-mode-entering-backup-mode-using-the-java-api}
 
@@ -243,4 +246,3 @@ The following Java code example explicitly causes a Forms Server to leave backup
  } 
  
 ```
-

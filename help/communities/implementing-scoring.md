@@ -10,8 +10,9 @@ topic-tags: administering
 content-type: reference
 discoiquuid: b19b3c24-82a0-468c-a077-9f3edb96afc9
 tagskeywords: scoring, badging, badges, gamification
+role: Admin
+exl-id: 54a4a053-ca44-451a-9a31-f1c1e8cb7002
 ---
-
 # Communities Scoring and Badges {#communities-scoring-and-badges}
 
 ## Overview {#overview}
@@ -357,7 +358,7 @@ The `scoringRules`property on a badging rule simply restricts which scoring rule
      <li>number = score</li> 
      <li>| = the vertical line char (U+007C)</li> 
      <li>path = full path to badge image resource</li> 
-    </ul> The strings must be ordered so that the numbers are increasing in value and no whitespace should appear between the number and path.<br /> Example entry:<br /> <code>80|/etc/community/badging/images/gold-badge/jcr:content/gold.png</code></td> 
+    </ul> The strings must be ordered so that the numbers are increasing in value and no blank pace should appear between the number and path.<br /> Example entry:<br /> <code>80|/etc/community/badging/images/gold-badge/jcr:content/gold.png</code></td> 
   </tr> 
   <tr> 
    <td>badgingType</td> 

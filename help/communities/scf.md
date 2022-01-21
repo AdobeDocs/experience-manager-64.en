@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: d7b5b5e3-2d84-4a6b-bcc2-d490882ff3ed
+exl-id: 9264c888-a583-40eb-9178-273146f8a12b
 ---
-
 # Social Component Framework {#social-component-framework}
 
 The social component framework (SCF) simplifies the process of configuring, customizing, and extending Communities components on both server-side and client-side.
@@ -119,7 +119,7 @@ Visit [Server-Side Customizations](server-customize.md) for information on custo
 
 ## Handlebars JS Templating Language {#handlebars-js-templating-language}
 
-One of the more noticeable changes in the new framework is the use of the [Handlebars JS templating language (HBS)](https://www.handlebarsjs.com/), a popular open-source technology for server-client rendering.
+One of the more noticeable changes in the new framework is the use of the [Handlebars JS](https://handlebarsjs.com/) templating language (HBS), a popular open-source technology for server-client rendering.
 
 HBS scripts are simple, logic-less, compile on both server and client, are easy to overlay and customize, and naturally bind with the client UX because HBS supports client side rendering.
 
@@ -217,5 +217,4 @@ Additional developer information may be found in the [Coding Guidelines](code-gu
 
 ## Troubleshooting {#troubleshooting}
 
-Common concerns and known issues are described in the [Troubleshooting](troubleshooting.md) section.  
-
+Common concerns and known issues are described in the [Troubleshooting](troubleshooting.md) section.

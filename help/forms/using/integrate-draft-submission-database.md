@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: da96d3d8-a338-470a-8d20-55ea39bd15bf
+exl-id: 4d13d69b-1fe6-4fb6-9e3e-3ad0c5ffb829
 ---
-
 # Sample for integrating drafts & submissions component with database {#sample-for-integrating-drafts-submissions-component-with-database}
 
 ## Sample overview {#sample-overview}
@@ -22,7 +22,7 @@ The sample, discussed in this document, is a reference implementation of customi
 >
 >* The examples and configurations explained in this document are according to MySQL 5.6.24 and you must substitute them appropriately for your database system.
 >* Ensure that you have installed latest version of AEM Forms add-on package. For the list of available packages, see the [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article.
->
+>* The sample package works only with Adaptive Forms submit actions.
 
 ## Set up and configure the sample {#set-up-and-configure-the-sample}
 
@@ -75,7 +75,9 @@ Perform the following steps, on all the author and publish instances, to install
 
     * In the Web Console Configuration, find and click Forms Portal Data Service Sample Implementation. You can change the values of data source and data table name.
 
-   **Note**: If you change the table names, provide them in the Form Portal configuration.
+    >[!NOTE]
+    >
+    >If you change the table names, provide them in the Form Portal configuration.  
 
 1. Leave other configurations as is and click **[!UICONTROL Save]**.  
 
@@ -414,4 +416,3 @@ Perform the following steps to create [a client library](/help/sites-developing/
    >If you are using custom client libraries instead of of the guideRuntime and guideRuntimeWithXfa client libraries, use the category name to embed the client library created in this procedure to your custom libraries loaded at runtime.
 
 1. Click **[!UICONTROL Save All.]** Now, when the filename is larger than 150 (including extension) characters a message is displayed.
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
 discoiquuid: f2ac3d66-cc79-498f-83fb-dd96feb88de2
+exl-id: 92c95cb5-fdbf-4200-89a8-10c768e4bc25
 ---
-
 # Initial Setup for Enablement {#initial-setup-for-enablement}
 
 ## Start Author and Publish Instances {#start-author-and-publish-instances}
@@ -210,4 +210,3 @@ Scroll down to `Add User to Groups`:
 * Select **[!UICONTROL Save]**
 
 ![chlimage_1-419](assets/chlimage_1-419.png)
-

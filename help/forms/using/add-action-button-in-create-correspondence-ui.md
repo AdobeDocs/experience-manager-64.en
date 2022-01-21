@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 481856df-5db1-4ef5-80d3-3722b5bf8b67
+feature: Correspondence Management
+exl-id: 5bcb26dc-aeb7-4a81-b905-23c8fb05d6d0
 ---
-
 # Add custom action/button in Create Correspondence UI {#add-custom-action-button-in-create-correspondence-ui}
 
 ## Overview {#overview}
@@ -319,11 +320,10 @@ Handling the action/button on clicking action/button includes logic for:
 
 In this scenario, enable the following components, which are a part of the attached components.zip file:
 
-* DSC component jar (DSCSample.jar)
-* Send letter for review process LCA (SendLetterForReview.lca)
+* DSC component jar (`DSCSample.jar`)
+* Send letter for review process LCA (`SendLetterForReview.lca`)
 
-Download and unzip the components.zip file to get DSCSample.jar and SendLetterForReview.lca files. Use these files as specified in the following procedures.  
-components.zip
+Download and unzip the `components.zip` file to get `DSCSample.jar` and `SendLetterForReview.lca` files. Use these files as specified in the following procedures.  
 
 [Get File](assets/components.zip)
 
@@ -374,7 +374,7 @@ The required LiveCycle process that enables email service process.
 
 1. Click **[!UICONTROL Import]**.
 
-#### Adding ServiceName to the WhiteListed Service list {#adding-servicename-to-the-whitelisted-service-list}
+#### Adding ServiceName to the AllowListed Service list {#adding-servicename-to-the-allowlisted-service-list}
 
 Mention in the AEM server the LiveCycle services you want to access the AEM server.
 
@@ -401,11 +401,11 @@ In this scenario, for Correspondence Management to be able to send an email, con
 
 #### Configure the DSC service {#configure-the-dsc-service}
 
-To use the Correspondence Management API, download the DSCSample.jar (attached in this document as part of components.zip) and upload it to the LiveCycle server. After the DSCSample.jar file is uploaded to the LiveCycle server, the AEM server uses the DSCSample.jar file to access the renderLetter API.   
+To use the Correspondence Management API, download the `DSCSample.jar` (attached in this document as part of `components.zip`) and upload it to the LiveCycle server. After the `DSCSample.jar` file is uploaded to the LiveCycle server, the AEM server uses the `DSCSample.jar` file to access the renderLetter API.  
   
 For more information, see [Connecting AEM Forms with Adobe LiveCycle](/help/forms/using/aem-livecycle-connector.md).
 
-1. Update the AEM server URL in cmsa.properties in DSCSample.jar, which is at the following location:
+1. Update the AEM server URL in cmsa.properties in `DSCSample.jar`, which is at the following location:
 
    DSCSample.jar\com\adobe\livecycle\cmsa.properties
 
@@ -418,20 +418,20 @@ For more information, see [Connecting AEM Forms with Adobe LiveCycle](/help/form
 
    >[!NOTE]
    >
-   >Every time you make any changes at the server sidde, restart the LiveCycle Server. For information on creating your own LiveCycle component, see [Extending LiveCycle ES software through custom DSC development](https://www.adobe.com/devnet/livecycle/articles/dsc_development.html).
+   >Every time you make any changes at the server side, restart the Server. 
 
-   The DSCSample.jar file uses the renderLetter API. For more Information about the renderLetter API, see [Interface LetterRenderService](https://helpx.adobe.com/aem-forms/6-2/javadocs/com/adobe/icc/ddg/api/LetterRenderService.html).
+   The `DSCSample.jar` file uses the `renderLetter` API. For more Information about the renderLetter API, see [Interface LetterRenderService](https://helpx.adobe.com/aem-forms/6-2/javadocs/com/adobe/icc/ddg/api/LetterRenderService.html).
 
-#### Import DSC to LiveCyle {#import-dsc-to-livecyle}
+#### Import DSC to AEM Forms on JEE {#import-dsc-to-livecyle}
 
-DSCSample.jar file uses the renderLetter API to render letter as PDF bytes from XML data that C give as input. For more Information about the renderLetter and other APIs, see [Letter Render Service](https://helpx.adobe.com/aem-forms/6-2/javadocs/com/adobe/icc/ddg/api/LetterRenderService.html).
+`DSCSample.jar` file uses the `renderLetter` API to render letter as PDF bytes from XML data that C give as input. For more Information about the renderLetter and other APIs, see [Letter Render Service](https://helpx.adobe.com/aem-forms/6-2/javadocs/com/adobe/icc/ddg/api/LetterRenderService.html).
 
 1. Start Workbench and log in.
 1. Select **[!UICONTROL Window > Show Views > Components]**. The Components view gets added to Workbench ES2.  
 
 1. Right-click **[!UICONTROL Components]** and select **[!UICONTROL Install Component]**.  
 
-1. Select the **[!UICONTROL DSCSample.jar]** file through the file browser and click **[!UICONTROL Open]**.
+1. Select the `DSCSample.jar` file through the file browser and click **[!UICONTROL Open]**.
 1. Right-click **[!UICONTROL RenderWrapper]** and select **[!UICONTROL Start Component]**. If the component starts, a green arrow appears next to the component name.
 
 ## Send letter for review {#send-letter-for-review}
@@ -446,4 +446,4 @@ After you have configured the action and button for sending the letter for revie
 
 ![sendreview](assets/sendreview.png)
 
-The reviewer receives an email from the system with the letter as a PDF attachment. 
+The reviewer receives an email from the system with the letter as a PDF attachment.

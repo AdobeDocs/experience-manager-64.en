@@ -11,8 +11,8 @@ content-type: reference
 discoiquuid: 7965b7ef-dec4-441a-a012-daf1d60df0fb
 pagetitle: Query Builder API
 tagskeywords: querybuilder
+exl-id: ff305c6d-c11e-4e1c-b262-4802b4f54592
 ---
-
 # Query Builder API{#query-builder-api}
 
 The functionality of the [Asset Share Query Builder](/help/assets/assets-finder-editor.md) is exposed through a Java API and a REST API. This section describes these APIs.
@@ -183,7 +183,7 @@ orderby.sort=desc
 
 ### Search for pages tagged with a certain tag {#search-for-pages-tagged-with-a-certain-tag}
 
-`http://localhost:4502/bin/querybuilder.json?type=cq:Page&tagid=marketing:interest/product&tagid.property=jcr:content/cq:tags``
+`http://localhost:4502/bin/querybuilder.json?type=cq:Page&tagid=marketing:interest/product&tagid.property=jcr:content/cq:tags`
 
 ```xml
 type=cq:Page
@@ -570,4 +570,3 @@ com.day.cq.search.impl.builder.QueryImpl query execution took 272 ms
 | [com.day.cq.search.eval](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/package-summary.html) |Predicate Evaluators |
 | [com.day.cq.search.facets.extractors](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/extractors/package-summary.html) |Facet Extractors (for evaluators) |
 | [com.day.cq.search.writer](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/search/writer/package-summary.html) |JSON Result Hit Writer for Querybuilder servlet (/bin/querybuilder.json) |
-

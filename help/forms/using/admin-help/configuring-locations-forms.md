@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 3d2b7cfb-228c-4cc2-8fcd-d500f0010010
+exl-id: 283ef073-b71d-4b48-882f-15f05581c1de
 ---
-
 # Configuring locations for Forms {#configuring-locations-for-forms}
 
 You can specify the URL, URI, and file locations of attributes such as the web root, the location of the forms to be retrieved, the seed PDF file that is used in PDFForm transformations, and the cache location.
@@ -23,7 +23,9 @@ You can specify the URL, URI, and file locations of attributes such as the web r
 
 **Base URL:** The base URL where form resources such as images and scripts are located. This value is required for HTML transformations that include HREF references to external dependencies, such as images or scripts. One such script is xfasubset.js, which is required for HTML forms to perform XFA intelligence. This value must be the HTTP equivalent of the content root URI.
 
-***Note**: Base URL supports only HTTP or repository protocols. It does not support protocols such as file:///. If you need to access a resource such as a custom CSS or digital signature URI, use the appropriate API parameter value to specify the absolute location.*
+>[!NOTE]
+>
+>Base URL supports only HTTP or repository protocols. It does not support protocols such as file:///. If you need to access a resource such as a custom CSS or digital signature URI, use the appropriate API parameter value to specify the absolute location.
 
 When a dependency path is absolute, the Base URL value is ignored. Otherwise, the dependency path is combined with the base URL.
 
@@ -84,4 +86,3 @@ The default value is an empty string.
 >[!NOTE]
 >
 >If you are using a temp cleaning utility, be aware that while deleting these directories does not affect functionality, it can significantly impact performance for a short time until the new cache is created. To avoid this issue, do not delete these directories while clearing the AEM forms temp directory.
-

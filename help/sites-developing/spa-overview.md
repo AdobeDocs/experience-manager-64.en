@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 897ff73f-15a5-484f-a3a2-616de8ac59dc
+exl-id: 5145b6ab-588a-458f-946f-b730ae319f61
 ---
-
 # SPA Editor Overview{#spa-editor-overview}
 
 Single page applications (SPAs) can offer compelling experiences for website users. Developers want to be able to build sites using SPA frameworks and authors want to seamlessly edit content within AEM for a site built using such frameworks.
@@ -42,7 +42,7 @@ The page component for a SPA doesn't provide the HTML elements of its child comp
 
 ### Page Model Management {#page-model-management}
 
-The resolution and the management of the page model is delegated to a provided `PageModel` library. The SPA must use the Page Model library in order to be initialized and be authored by the SPA Editor. The Page Model library provided indirectly to the AEM Page component via the `cq-react-editable-components` npm. The Page Model is an interpreter between AEM and the SPA and therefore always must be present. When the page is authored, an additional library `cq.authoring.pagemodel.messaging` must be added in order to enable the communication with the page editor.
+The resolution and the management of the page model is delegated to a provided `PageModel` library. The SPA must use the Page Model library in order to be initialized and be authored by the SPA Editor. The Page Model library provided indirectly to the AEM Page component via the `aem-react-editable-components` npm. The Page Model is an interpreter between AEM and the SPA and therefore always must be present. When the page is authored, an additional library `cq.authoring.pagemodel.messaging` must be added in order to enable the communication with the page editor.
 
 If the SPA page component inherits from the page core component, there are two options for making the `cq.authoring.pagemodel.messaging` client library category available:
 
@@ -185,14 +185,29 @@ To enable the author to use the page editor to edit the content of an SPA, your 
 
 The SPA Editor SDK supports the following minimal versions:
 
-* React 16.3
-* Angular 6.x
+* React 16.x and up
+* Angular 6.x and up
 
 Previous versions of these frameworks may work with the AEM SPA Editor SDK, but are not supported.
 
 ### Additional Frameworks {#additional-frameworks}
 
 Additional SPA frameworks can be implemented to work with the AEM SPA Editor SDK. Please see the [SPA Blueprint](/help/sites-developing/spa-blueprint.md) document for the requirements that a framework must fulfill in order to create a framework-specific layer composed of modules, components, and services to work with the AEM SPA Editor.
+
+### Using Multiple Selectors {#multiple-selectors}
+
+ Additional custom selectors can be defined and used as part of an SPA developed for the AEM SPA SDK. However this support requires that the `model` selector be the first selector and the extension be `.json` as [required by the JSON Exporter.](json-exporter-components.md#multiple-selectors)
+
+### Text Editor Requirements {#text-editor-requirements}
+
+ If you want to use the in place editor of a text component created in SPA there is additional configuration required.
+
+ 1. Set an attribute (it can be any) on the container wrapper element containing the text HTML. In case of the WKND Journal sample content, it's a `<div>` element and the selector that has been used is `data-rte-editelement`.
+ 1. Set the configuration `editElementQuery` on the corresponding AEM text component's `cq:InplaceEditingConfig` that points to that selector e.g. `data-rte-editelement`. This lets the editor know which HTML element wraps the HTML text.
+
+ For an example of how this is done, see the [WKND Journal sample content.](https://github.com/adobe/aem-sample-we-retail-journal/pull/16/files)
+
+ For additional information about the `editElementQuery` property and the configuration of the rich text editor, see [Configure the Rich Text Editor.](/help/sites-administering/rich-text-editor.md)
 
 ### Limitations {#limitations}
 

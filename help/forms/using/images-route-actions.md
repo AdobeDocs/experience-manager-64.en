@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 10158c13-47b4-43e3-ac47-690f3cbab158
+exl-id: 7b1f60e7-c8fa-43b6-bef4-88b42e7bbc36
 ---
-
 # Customize images used in route actions {#customize-images-used-in-route-actions}
 
 To customize the images used in route actions, perform the steps described in [Generic Steps of customization](/help/forms/using/generic-steps-html-workspace-customization.md) followed by the steps described in this article.
@@ -41,7 +41,7 @@ To customize the images used in route actions, perform the steps described in [G
 
 ## Task List task action popup {#task-list-task-action-popup}
 
-1. Create a task list action popup, see [Building AEM Forms workspace code](/help/forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3). It requires to use the dev package.
+1. Create a task list action popup, see [Building AEM Forms workspace code](introduction-customizing-html-workspace.md#building-html-workspace-code). It requires to use the dev package.
 
 1. Copy `/libs/ws/js/runtime/templates/task.html` to `/apps/ws/js/runtime/templates/task.html`.
 
@@ -170,5 +170,3 @@ To
 
 1. Replace the text with the following:  
 `"text!/lc/apps/ws/js/runtime/templates/taskdetails.html"`
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

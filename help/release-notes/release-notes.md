@@ -9,36 +9,18 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 2be468e7-2b4e-4e04-881b-b9bdd1f55e57
+exl-id: ee034595-2d2a-4887-86c4-6bf0770da6a2
 ---
-
 # General Release Notes for Adobe Experience Manager 6.4 {#general-release-notes-for-adobe-experience-manager}
 
 ## Release Information {#release-information}
 
-<table> 
- <tbody>
-  <tr>
-   <th>Product</th> 
-   <td>Adobe Experience Manager<br /> </td> 
-  </tr>
-  <tr>
-   <th>Version</th> 
-   <td>6.4</td> 
-  </tr>
-  <tr>
-   <th>Type</th> 
-   <td>Major release</td> 
-  </tr>
-  <tr>
-   <th>General availability date</th> 
-   <td>April 4, 2018<br /> </td> 
-  </tr>
-  <tr>
-   <th>Recommended updates</th> 
-   <td>See <a href="https://helpx.adobe.com/experience-manager/aem-releases-updates.html">AEM releases and updates</a></td> 
-  </tr>
- </tbody>
-</table>
+| Product | Adobe Experience Manager |
+|---|---|
+| Version | 6.4 |
+| Type | Major release |
+| General availability date | April 4, 2018 |
+| Recommended updates | See [AEM releases and updates](https://helpx.adobe.com/experience-manager/aem-releases-updates.html) |
 
 ### Trivia {#trivia}
 
@@ -69,10 +51,10 @@ The Quickstart uses Eclipse Jetty 9.3.22 as servlet engine.
 Various enhancements have been made to the UI to make it more productive and easier to use.
 
 * [New Content Tree rail](/help/sites-authoring/basic-handling.md#content-tree) to quickly navigate a hierarchy. In combination with the list view, this restores the Classic UI interaction model.
-* Improved scrolling experience in card and list view of large folders. 
+* Improved scrolling experience in card and list view of large folders.
 * [Improved interaction with the search results](/help/sites-authoring/search.md) - the back button restores the prior search result.
 * [Additional keyboard shortcuts](/help/sites-authoring/keyboard-shortcuts.md), for most common actions, such as to open a particular rail, to edit, move and delete item, or to open properties.
-* [Ability to disable keyboard shortcuts](/help/sites-authoring/user-properties.md) (enable/disable in Preferences). 
+* [Ability to disable keyboard shortcuts](/help/sites-authoring/user-properties.md) (enable/disable in Preferences).
 * [Stop showing time stamps across all UI](/help/sites-authoring/user-properties.md) relative after 7 days (set default in Preferences).
 
 See the [Authoring documentation](/help/sites-authoring/home.md) for more information on these features.
@@ -83,7 +65,7 @@ See the [Authoring documentation](/help/sites-authoring/home.md) for more inform
 
 #### Content Repository {#content-repository}
 
-* Faster and more efficient compaction by Online Revision Cleanup. Internal tests show that the new tail compaction is up to 10 times faster and can reclaim more disk space with less IOPS compared to AEM 6.3. This results in less performance impact while the Online Revision Cleanup is running. For more information, please see [the documentation page](/help/sites-deploying/revision-cleanup.md#full-and-tail-compaction-modes).  
+* Faster and more efficient compaction by Online Revision Cleanup. Internal tests show that the new tail compaction is up to 10 times faster and can reclaim more disk space with less IOPS compared to AEM 6.3. This results in less performance impact while the Online Revision Cleanup is running. For more information, please see [the documentation page](/help/sites-deploying/revision-cleanup.md#full-and-tail-compaction-modes).
 
 * Continuous Revision Cleanup for MongoMK replaces scheduled cleanup maintenance
 * Improved efficiency for Revision Cleanup on Document Nodestores
@@ -92,10 +74,10 @@ See the [Authoring documentation](/help/sites-authoring/home.md) for more inform
 
 * Enhanced support for Indexing Operations via oak-run (CLI):
 
-    * Index consistency check
-    * Indexing statistics
-    * Index configuration Im/Export
-    * Reindexing
+  * Index consistency check
+  * Indexing statistics
+  * Index configuration import or export
+  * Reindexing
 
 * Reduced Lucene related repository growth for an overall improved system performance
 
@@ -103,7 +85,7 @@ For more information, please visit [this documentation page](/help/sites-deployi
 
 #### Monitoring {#monitoring}
 
-* A new [System Overview](/help/sites-administering/operations-dashboard.md#system-overview) provides a snapshot view on all performance-related system status & activities 
+* A new [System Overview](/help/sites-administering/operations-dashboard.md#system-overview) provides a snapshot view on all performance-related system status and activities.
 * A new set of [Health Checks](/help/sites-administering/operations-dashboard.md#health-checks) around Indexing, Queries and Maintenance
 
 #### Projects and Workflows {#projects-and-workflows}
@@ -129,7 +111,7 @@ The introduction of Fluid Experiences at the start of 2017, backed by Content Fr
 
 **[Content Fragments](/help/assets/content-fragments.md)**
 
-New in 6.4 are a visual [content model](/help/assets/content-fragments-models.md) editor and a new [configurable component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html) to provide flexible HTML output and JSON to include in Content Services.
+New in 6.4 are a visual [content model](/help/assets/content-fragments-models.md) editor and a new [configurable component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/content-fragment-component.html) to provide flexible HTML output and JSON to include in Content Services.
 
 **Experience Fragments**
 
@@ -143,13 +125,13 @@ Various enhancements to Sling Model Exporter and the Core Components are include
 
 AEM 6.4 completes the transformation to the next generation component model. The Core Components concept introduced in AEM 6.3, and now joined by the Style System, provides an efficient way to build new and extend existing sites.
 
-Recommended tutorial to learn on how to best leverage the new component model: [Getting Started with AEM Sites - WKND Tutorial](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop.html)
+Recommended tutorial to learn on how to best leverage the new component model: [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 #### Screens Add-on {#screens-add-on}
 
 Delivering a consistent message across all marketing channels including Digital Signage and kiosk networks is what AEM Screens stands for. AEM 6.4 adds support to run the Signage Player on Microsoft Windows and Google Chrome OS hardware. Further, enhancements to remote device management and schedules (groups of channels) are available.
 
-For more information on the Screens updates, see [AEM Screens User Guide](/help/screens/home.md).
+For more information on the Screens updates, see [AEM Screens User Guide](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html).
 
 ### Experience Manager Communities {#experience-manager-communities}
 
@@ -199,7 +181,7 @@ AEM 6.4 brings in several new features and enhancements to Assets including new,
 
 **Adobe Asset Link**
 
-Adobe Asset Link in Creative Cloud for enterprise streamlines collaboration between creatives and marketers in the content creation process. It is a new native capability in Creative Cloud for enterprise that connects Photoshop CC, Illustrator CC, and InDesign CC to AEM — without creatives having to leave their tools of choice.
+Adobe Asset Link in Creative Cloud for enterprise streamlines collaboration between creatives and marketers in the content creation process. It is a new native capability in Creative Cloud for enterprise that connects Photoshop, Illustrator, and InDesign to AEM — without creatives having to leave their tools of choice.
 
 To learn more about this capability, prerequisites, and how to access it, see [Adobe Asset Link](https://www.adobe.com/creativecloud/business/enterprise/adobe-asset-link.html).
 
@@ -207,9 +189,9 @@ To learn more about this capability, prerequisites, and how to access it, see [A
 
 **AEM desktop app**
 
-AEM desktop app has been updated to Version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM desktop app is provided in a dedicated [AEM desktop app release notes](https://helpx.adobe.com/experience-manager/desktop-app/release-notes.html) document.
+AEM desktop app has been updated to Version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM desktop app is provided in a dedicated [AEM desktop app release notes](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html) document.
 
-Improvements introduced since the AEM 6.3 release include the ability to upload hierarchical folders in the background, a new UI to monitor asset background operations, enhanced caching, networking and login, as well as overall stability improvements. The documentation also includes a [best practices guide](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html).
+Improvements introduced since the AEM 6.3 release include the ability to upload hierarchical folders in the background, a new UI to monitor asset background operations, enhanced caching, networking and login, as well as overall stability improvements. The documentation also includes a [best practices guide](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html).
 
 **Adobe Sensei Services**
 
@@ -223,7 +205,7 @@ Various enhancements include the ability to import and export metadata simultane
 
 **Reports**
 
-Asset reporting underwent a big overhaul in AEM 6.4 with new reporting framework, user experience, and more OOTB reports for customer usecases. To learn how to generate various reports, see [Asset Reports](/help/assets/asset-reports.md).
+Asset reporting underwent a big overhaul in AEM 6.4 with new reporting framework, user experience, and more OOTB reports for customer use cases. To learn how to generate various reports, see [Asset Reports](/help/assets/asset-reports.md).
 
 **User Experience**
 
@@ -231,7 +213,7 @@ Multiple enhancements to improve browsing, searching and admin experience for As
 
 **Brand Portal**
 
-Various enhancements in areas of metadata, reporting, digital rights, login experience, and publish performance for asset distribution. To know about the new enhancements and features, see [What's new in AEM Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/using/whats-new.html).
+Various enhancements in areas of metadata, reporting, digital rights, login experience, and publish performance for asset distribution. To know about the new enhancements and features, see [What's new in AEM Assets Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/whats-new.html).
 
 #### Dynamic Media Add-on {#dynamic-media-add-on}
 
@@ -247,7 +229,7 @@ See [Adding Dynamic Media Assets to Pages](/help/assets/adding-dynamic-media-ass
 
 **Smart Imaging**
 
-Smart imaging leverages each user's unique viewing characteristics to automatically serve images optimized for their experience, resulting in better pefromance and engagement.
+Smart imaging leverages each user's unique viewing characteristics to automatically serve images optimized for their experience, resulting in better performance and engagement.
 
 See [Smart Imaging](/help/assets/imaging-faq.md) documentation to learn more.
 
@@ -258,14 +240,6 @@ See [Smart Imaging](/help/assets/imaging-faq.md) documentation to learn more.
 New viewers, including Panoramic and VR, let you provide more immersive experiences.
 
 See [Panoramic Images](/help/assets/panoramic-images.md) documentation to learn more.
-
-**3D Assets**
-
-New integration with [Adobe Dimension CC](https://www.adobe.com/products/dimension.html), a Creative Cloud application for authoring 3D experiences.
-
-See [Working with 3D assets](/help/assets/assets-3d.md) documentation to learn more.
-
-![do-not-localize/3d](assets/do-not-localize/3d.png)
 
 ### Experience Manager Forms {#experience-manager-forms}
 
@@ -283,13 +257,13 @@ More details on [AEM Forms](forms.md) release notes page. Also, see the [Summary
 
 You can integrate Livefyre with your AEM 6.4 instance. Information on how to integrate Livefyre with AEM is located here:
 
-* [Integrating Livefyre](https://https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html)
+* [Integrating Livefyre](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/livefyre.html)
 
 ### Leverage Customer Focused Development {#leverage-customer-focused-development}
 
 Adobe is using a customer focused development model that allows customers to contribute to all stages of the development process, during specification, development and testing. Our thanks goes to all contributing customers and partners in this process.
 
-Adobe has the procedures and processes in place to enable collection, prioritization, and tracking of customer focused bug resolution and enhancement request development. The [Adobe Marketing Cloud Support Portal](https://helpx.adobe.com/marketing-cloud/contact-support.html) is integrated with the Adobe Enhancement & Defect Tracking System. Customer questions are identified and resolved with Customer Care where possible. When escalated to R&D, all customer information is captured, and used for prioritization and reporting purposes. Priority is given in development to paid support and warrantee issues and paid customer enhancements.
+Adobe has the procedures and processes in place to enable collection, prioritization, and tracking of customer focused bug resolution and enhancement request development. The [Adobe Marketing Cloud Support Portal](https://helpx.adobe.com/contact/enterprise-support.ec.html) is integrated with the Adobe Enhancement & Defect Tracking System. Customer questions are identified and resolved with Customer Care where possible. When escalated to R&D, all customer information is captured, and used for prioritization and reporting purposes. Priority is given in development to paid support and warrantee issues and paid customer enhancements.
 
 This process of prioritization has yielded more than 500 customer focused changes fixed in AEM 6.4.
 
@@ -299,11 +273,11 @@ This process of prioritization has yielded more than 500 customer focused change
 
 * Standalone Quickstart: cq-quickstart-6.4.0.jar
 * Application Server Quickstart: cq-quickstart-6.4.0.war
-* Dispatcher 4.3.1 or newer for various web servers and platforms ([download link](https://helpx.adobe.com/experience-manager/dispatcher/release-notes.html))
-* Plug-in for Eclipse IDE ([read more and download](/help/sites-developing/aem-eclipse.md))  
+* Dispatcher 4.3.1 or newer for various web servers and platforms. See [download link](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/getting-started/release-notes.html).
+* Plug-in for Eclipse IDE. [Read more and download](/help/sites-developing/aem-eclipse.md).
 
-* Extension for Brackets Code Editor ([read more and download](/help/sites-developing/aem-brackets.md))
-* Maven/Gradle dependencies ([download link](https://repo.adobe.com/nexus/content/repositories/releases/com/adobe/aem/uber-jar/6.1.0/))
+* Extension for Brackets Code Editor. [Read more and download](/help/sites-developing/aem-brackets.md).
+* Maven/Gradle dependencies. See [download link](https://repo.adobe.com/nexus/content/repositories/releases/com/adobe/aem/uber-jar/6.1.0/).
 
 **Sites**
 
@@ -313,18 +287,18 @@ This process of prioritization has yielded more than 500 customer focused change
 * AEM Screens Players for various target platforms ([download](https://download.macromedia.com/screens/))
 * Smart Content Language Models. English is pre-installed - more languages can be downloaded
 
-    * [German](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/smartcontent-model-de)
-    * [Spanish](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/smartcontent-model-es)
-    * [Italian](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/smartcontent-model-it)
-    * [French](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/smartcontent-model-fr)
+  * [German](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq630/product/smartcontent-model-de)
+  * [Spanish](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq630/product/smartcontent-model-es)
+  * [Italian](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq630/product/smartcontent-model-it)
+  * [French](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq630/product/smartcontent-model-fr)
 
-* [Dialog Conversion Tool](/help/sites-developing/dialog-conversion.md) to migrate Classic UI components to Coral 3
+* [AEM Modernization Tools](/help/sites-developing/modernization-tools.md) to migrate Classic UI components to Coral 3
 
 **Assets**
 
-* Adobe Experience Manager desktop app ([read more](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html) and [download](https://helpx.adobe.com/experience-manager/kb/download-companion-app.html))
+* Adobe Experience Manager desktop app ([read more](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html) and [download](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html))
 
-* Package to add enhanced PDF Rasterizer ([read more](/help/assets/aem-pdf-rasterizer.md) and [download](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/assets/aem-assets-pdf-rasterizer-pkg))
+* Package to add enhanced PDF Rasterizer ([read more](/help/assets/aem-pdf-rasterizer.md) and [download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/product/assets/aem-assets-pdf-rasterizer-pkg))
 
 * Package to add extended RAW image support ([read more](/help/assets/camera-raw.md))
 
@@ -332,11 +306,11 @@ This process of prioritization has yielded more than 500 customer focused change
 
 * Packages for AEM Forms capabilities:
 
-    * [adobe-aemfd-aix-pkg](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-AIX)
-    * [adobe-aemfd-linux-pkg](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-LX)
-    * [adobe-aemfd-solaris-pkg](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-SOL)
-    * [adobe-aemfd-win-pkg](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-WIN)
-    * [adobe-aemfd-osx-pkg](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-OSX)
+  * [adobe-aemfd-aix-pkg](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html)
+  * [adobe-aemfd-linux-pkg](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html)
+  * [adobe-aemfd-solaris-pkg](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.htmlL)
+  * [adobe-aemfd-win-pkg](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html)
+  * [adobe-aemfd-osx-pkg](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html)
 
 ## Languages {#languages}
 
@@ -363,7 +337,7 @@ Please see [upgrade documentation](/help/sites-deploying/upgrade.md) for detaile
 
 ## Supported Platforms {#supported-platforms}
 
-Please find the complete matrix of supported platforms incl. Support-Level on [AEM 6.4 Technical Requirements](/help/sites-deploying/technical-requirements.md) 
+Please find the complete matrix of supported platforms incl. Support-Level on [AEM 6.4 Technical Requirements](/help/sites-deploying/technical-requirements.md).
 
 >[!NOTE]
 >
@@ -395,7 +369,6 @@ For Adobe Experience Manager 6.4, [read the list of deprecated and removed capab
 
 These sites are only available to customers. If you are a customer and need access, please contact your Adobe account manager.
 
-* [](https://daycare.day.com) [Product Download at licensing.adobe.com](https://licensing.adobe.com/)
-
-* [Customer Support at daycare.day.com](https://daycare.day.com)
-
+* [Product Download at licensing.adobe.com](https://licensing.adobe.com/).
+* Product updates, patches, and packages for additional functionality on [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
+* [Customer Support via Admin Console](https://adminconsole.adobe.com/). For more information, see [New Adobe Customer Support Experience](https://docs.adobe.com/content/help/en/customer-one/using/home.html).

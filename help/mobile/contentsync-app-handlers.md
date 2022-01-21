@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: fec86f03-f81e-460a-9f84-d6304c95128c
+exl-id: b438ffe7-22b0-4bf8-bcfd-0b706d4c39fd
 ---
-
 # Out of the Box App Handlers{#out-of-the-box-app-handlers}
 
 >[!NOTE]
@@ -208,4 +208,3 @@ To learn about the roles and responsibilities of an Administrator and Developer,
 >[!NOTE]
 >
 >To get started with AEM Mobile app development, click [here](/help/mobile/getting-started-aem-mobile.md).
-

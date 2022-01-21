@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: 331f4980-5193-4546-a22e-f27e38bb8250
+exl-id: b498d54e-ff34-49a1-bfad-c6efbb6f75f4
 ---
-
 # Adding Dynamic Media assets to pages{#adding-dynamic-media-assets-to-pages}
 
 To add the Dynamic Media functionality to assets you use on your websites, you can add the **[!UICONTROL Dynamic Media]** or **[!UICONTROL Interactive Media]** component directly on the page. You do this by entering [!UICONTROL Design] mode and enabling the dynamic media components. Then you can add these components to the page and add assets to the component. The dynamic media and interactive media components are smart - they know whether you are adding an image or a video and the options available change accordingly.
@@ -85,7 +85,7 @@ This is the only option available if you are viewing image sets, spin sets, or m
 
 This option is not available if you are viewing image sets, spin sets, or mixed media sets.
 
-**[!UICONTROL Image Modifiers]** &ndash; You can change image effects by supplying additional image commands. These are described in [Managing Image Presets](/help/assets/managing-viewer-presets.md) and the [Command reference](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/c_command_reference.html).
+**[!UICONTROL Image Modifiers]** &ndash; You can change image effects by supplying additional image commands. These are described in [Managing Image Presets](/help/assets/managing-viewer-presets.md) and the [Command reference](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference.html).
 
 This option is not available if you are viewing image sets, spin sets, or mixed media sets.
 
@@ -129,9 +129,9 @@ You can edit the following [!UICONTROL Advanced] settings by clicking **[!UICONT
 
 #### How to delivery secure video {#how-to-delivery-secure-video}
 
-In AEM 6.2, when you install [FP-13480](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480), you can control whether a video is delivered over a secure SSL connection (HTTPS) or an insecure connection (HTTP). By default, the video delivery protocol is automatically inherited from the protocol of the embedding web page. If the web page is loaded over HTTPS, the video is also delivered over HTTPS. And vice versa, if the web page is on HTTP, the video is delivered over HTTP. In most cases, this default behavior is fine and there is no need to make any configuration changes. However, you can override this default behavior by appending `VideoPlayer.ssl=on` to the end of a URL path or to the list of other viewer configuration parameters in an embed code snippet, to force secure video delivery.
+In AEM 6.2, when you install [FP-13480](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq620/featurepack/cq-6.2.0-featurepack-13480), you can control whether a video is delivered over a secure SSL connection (HTTPS) or an insecure connection (HTTP). By default, the video delivery protocol is automatically inherited from the protocol of the embedding web page. If the web page is loaded over HTTPS, the video is also delivered over HTTPS. And vice versa, if the web page is on HTTP, the video is delivered over HTTP. In most cases, this default behavior is fine and there is no need to make any configuration changes. However, you can override this default behavior by appending `VideoPlayer.ssl=on` to the end of a URL path or to the list of other viewer configuration parameters in an embed code snippet, to force secure video delivery.
 
-For more information about secure video delivery and using the `VideoPlayer.ssl` configuration attribute in your URL path, see [Secure Video Delivery](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_video_viewer_20_securevideodelivery.html) in the Viewers Reference Guide. Besides the Video viewer, secure video delivery is available for Mixed Media viewer and Interactive Video viewer.
+For more information about secure video delivery and using the `VideoPlayer.ssl` configuration attribute in your URL path, see [Secure Video Delivery](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/video/c-html5-video-viewer-20-securevideodelivery.html) in the Viewers Reference Guide. Besides the Video viewer, secure video delivery is available for Mixed Media viewer and Interactive Video viewer.
 
 ### Interactive Media Component {#interactive-media-component}
 
@@ -149,7 +149,7 @@ You can edit the following **[!UICONTROL General]** settings by clicking **[!UIC
 
 **[!UICONTROL Width and Height]** &ndash; Enter value in pixels if you want the video to be a fixed size. Leaving these values blank makes it adaptive.
 
-You can edit the following **[!UICONTROL Add To Cart** settings by clicking **[!UICONTROL Edit]** in the component.
+You can edit the following **[!UICONTROL Add To Cart]** settings by clicking **[!UICONTROL Edit]** in the component.
 
 **[!UICONTROL Show Product Asset]** &ndash; By default, this value is selected. The product asset shows an image of the product as defined in the Commerce module. Clear the check mark to not show the product asset.
 

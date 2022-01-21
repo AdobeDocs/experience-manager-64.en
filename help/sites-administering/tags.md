@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: 69253ee9-8c28-436b-9331-6fb875f64cba
+exl-id: 5c78edf8-148f-41a3-8b11-c1dada34090e
 ---
-
 # Administering Tags{#administering-tags}
 
 Tags are a quick and easy method of classifying content within a website. They can be thought of as keywords or labels (metadata) that allow content to be more quickly found as the result of a search.
@@ -197,7 +197,6 @@ When a namespace or other tag is selected, selecting the **`Move`** icon will al
 * **Rename to** 
   Initially displays the current `name`of the tag. A new `name`may be entered.
 
-* 
 * select **Save**
 
 ### Merging Tags {#merging-tags}
@@ -308,4 +307,3 @@ To add a new language to the dialog, see [Adding a New Language to the Edit Tag 
   Information about the tagging framework as well as extending and including tags in custom applications.
 
 * [Classic UI Tagging Console](/help/sites-administering/classic-console.md)
-

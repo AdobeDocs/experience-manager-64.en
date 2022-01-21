@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: f6440a36-719a-4f89-b7db-1af918a3469a
+exl-id: 5c5cdfe6-37f2-45c7-b679-23e3592842b2
 ---
-
 # Branding Customization {#branding-customization}
 
 You can customize the application icon, application name, launch images, and login page to provide a distinct organization-specific appearance to AEM Forms app. For example, you can change the images to use logos from your organization. The AEM Forms app supports the following customizations:
@@ -219,5 +219,3 @@ Ensure that you have following image:
 1. Navigate to the `MWSWindows\www\wsmobile\images`folder.
 1. To change the logo, replace the default `aem_icon.png` file with the custom `aem_icon.png` file.
 1. Build and run AEM Forms app on Windows device.
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

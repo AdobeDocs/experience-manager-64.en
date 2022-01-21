@@ -9,8 +9,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: ec394bd3-2fa6-4f50-b974-bc10f643ecac
+exl-id: e5110a90-ddc9-4244-8466-f91adfca8469
+feature: Asset Management
+role: User
 ---
-
 # Delivering Dynamic Media Assets {#delivering-dynamic-media-assets}
 
 How you can deliver your dynamic media assets - both video and images - depends on how your website is implemented.
@@ -20,9 +22,9 @@ With Dynamic Media you have several options:
 * If your website is hosted on AEM, then you want to add the dynamic media assets directly to your page. 
 * If your website is not on AEM, then you have the choice of either:
 
-    * Embedding your video or image on your website.
-    * Link URLs to your web application. Use linking when you want to deliver a video player as a pop-up or modal window.
-    * If your site is responsive, you can [deliver optimized images.](responsive-site.md)
+  * Embedding your video or image on your website.
+  * Link URLs to your web application. Use linking when you want to deliver a video player as a pop-up or modal window.
+  * If your site is responsive, you can [deliver optimized images.](responsive-site.md)
 
 >[!NOTE]
 >

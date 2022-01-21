@@ -9,8 +9,9 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 46847c9f-c66d-46fa-8ff5-a99d2462c099
+feature: Document Security
+exl-id: fa62a521-1a0b-4856-acc6-71c51ad9e527
 ---
-
 # About document security {#about-document-security}
 
 Document security ensures that only authorized users can use your documents. Using document security, you can safely distribute any information that you have saved in a supported format. Supported file formats include:
@@ -83,7 +84,9 @@ Various types of users work with document security to accomplish different tasks
 
   Users with this role can configure the document security server, using the Configuration page in document security section of administration console. This permission is associated with the role, Manage Configuration.
 
-  **Note**: *Users with this role must also have the administration console User role to be able to log in to administration console and edit any configuration-related settings.*
+  >[!NOTE]
+  >
+  >Users with this role must also have the administration console User role to be able to log in to administration console and edit any configuration-related settings.  
 
   **Document security policy set administrator**
 
@@ -96,7 +99,9 @@ Various types of users work with document security to accomplish different tasks
     * View events
     * Delegate
 
-  **Note**: *Users with this role must also have the administration console User role to be able to log in to administration console and edit any configuration-related settings.*
+    >[!NOTE]
+    >
+    >Users with this role must also have the administration console User role to be able to log in to administration console and edit any configuration-related settings.  
 
   **Document security manage invited and local users**
 
@@ -106,7 +111,9 @@ Various types of users work with document security to accomplish different tasks
     * Invite external users
     * Access end-user web pages
 
-  **Note**: *Users with this role must also have the administration console User role to be able to log in to administration console and edit any configuration-related settings.*
+    >[!NOTE]
+    >
+    >Users with this role must also have the administration console User role to be able to log in to administration console and edit any configuration-related settings.  
 
   **Document security invite user**
 

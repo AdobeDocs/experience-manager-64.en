@@ -1,11 +1,11 @@
 ---
-title: AEM 6.4 Release Notes
+title: Adobe Experience Manager 6.4 Release Notes
 seo-title: AEM 6.4 Release Notes
 description: The AEM Release Notes cover important information about the latest release of AEM, including what's new, supported platforms, deprecated and removed features, and known issues.
 seo-description: The AEM Release Notes cover important information about the latest release of AEM, including what's new, supported platforms, deprecated and removed features, and known issues.
+exl-id: e6ebd0ba-674e-406f-a3ac-98ac9518226e
 ---
-
-# AEM 6.4 Release Notes
+# Adobe Experience Manager 6.4 Release Notes
 
 The AEM Release Notes cover important information about the latest release of AEM, including what's new, supported platforms, deprecated and removed features, and known issues.
 
@@ -25,12 +25,12 @@ The AEM Release Notes cover important information about the latest release of AE
 | [Administering Guide](/help/sites-administering/home.md) | Understand how to administer AEM |
 | [Authoring Guide](/help/sites-authoring/home.md) | This guide explains the concepts of authoring in AEM. |
 | [Classic UI Authoring Guide](/help/sites-classic-ui-authoring/home.md) | This guide explains the concepts of authoring in AEM in the classic user interface. |
-| [Screens User Guide](/help/screens/home.md) | Learn about the digital signage solution to publish dynamic and interactive digital experiences. |
+| [Screens User Guide](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html) | Learn about the digital signage solution to publish dynamic and interactive digital experiences. |
 | [Deploying User Guide](/help/sites-deploying/home.md) | This guide shows you the basics of AEM.  |
 | [Developing User Guide](/help/sites-developing/home.md)| Learn how to build out your AEM instance. |
 | [Managing User Guide](/help/managing/home.md)| This guide describes how to manage an AEM project successfully. |
 | [Mobile User Guide](/help/mobile/home.md)|This guide describes how to create and manage content for mobile applications.|
-| [AEM Livefyre](https://marketing.adobe.com/resources/help/en_US/livefyre/home.html) | This guide shows you how to share user-generated content with Livefyre. |
+| [AEM Livefyre](https://docs.adobe.com/content/help/en/livefyre/using/home.html) | This guide shows you how to share user-generated content with Livefyre. |
 
 ## Key AEM resources
 

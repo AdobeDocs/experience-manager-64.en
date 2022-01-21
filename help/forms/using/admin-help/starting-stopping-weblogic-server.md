@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c908d064-6596-473a-b218-22a2496c83f7
+exl-id: c7a74e20-4cfb-4674-af41-f3333c9b5397
 ---
-
 # Starting and stopping WebLogic Server {#starting-and-stopping-weblogic-server}
 
 Several procedures require you to start or stop the instance of WebLogic Server where you want to deploy AEM forms modules. Ensure that WebLogic Server is stopped or running, depending on the task you are performing.
@@ -112,4 +112,3 @@ After you shut down WebLogic Server, you can close the command prompt from which
 1. Click the Shutdown button below the managed server you want to stop. 
 1. Select When Work Completes to gracefully shut down the server or select Force Shutdown Now to stop the server immediately without completing ongoing tasks.
 1. On the Server Life Cycle Assistant pane, click Yes to complete the shutdown.
-

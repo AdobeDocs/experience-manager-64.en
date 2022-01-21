@@ -6,11 +6,11 @@ seo-description: You can embed adaptive forms in AEM sites pages. Users can fill
 uuid: 59b49e2f-6d95-42e5-b31e-fc40936c42d2
 contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: author
-topic-tags: interactive-communications
+topic-tags: interactive-communications, author
 discoiquuid: 43362643-69cd-4006-a613-f998c79eeddc
+feature: Adaptive Forms
+exl-id: ba5d21a4-231c-4e1e-b172-4d700cb9696e
 ---
-
 # Embed an adaptive form or interactive communication in AEM sites page {#embed-an-adaptive-form-or-interactive-communication-in-aem-sites-page}
 
 ## Overview {#overview}
@@ -93,4 +93,3 @@ Do keep the following points in mind when embedding adaptive forms in AEM sites 
 * The submit action configured on the original form is retained in the embedded form.
 * Experience targeting and A/B tests configured on the original form do not work in the embedded form. However, you can use experience targeting on the sites page to present different forms based on user profiles.
 * If you have Adobe Analytics configured for the original form, the analytics data of the embedded form is captured in Adobe Analytics. However, it is not available in the forms analytics report.
-

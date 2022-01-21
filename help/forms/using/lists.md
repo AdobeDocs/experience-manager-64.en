@@ -7,8 +7,9 @@ uuid: d1baa9eb-dffe-4e02-af95-394e7ee0d6ee
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 7bdf1f06-c298-4695-bad1-e402cf472086
+feature: Correspondence Management
+exl-id: 3bc32053-d35d-4c19-a311-48b0b99eefb8
 ---
-
 # Document Fragments {#document-fragments}
 
 ## Document Fragments {#document-fragments-1}
@@ -402,7 +403,7 @@ For a detailed example of using static and dynamic tables in layout fragments, s
     * **Type**: type of additional column. Field or Target Area. Type is enabled for static place holder tables. Type can be defined at column level and not at cell level. All the cells in an extended column would be of the same type. For a dynamic table, all the columns are of Field type. For non-placeholder tables, you cannot define the type of additional columns. In this case, type of additional cells in extended column is same as the type of last column in that row; and type of cell in additional row is same as type of last cell in that column.
     * **Width ratio:** ratio of the table column widths.
 
-   For a detailed example of using static and dynamic tables in layout fragments, see [Example with sample files: using static and dynamic tables in a letter](#main-pars-header-28).  
+   For a detailed example of using static and dynamic tables in layout fragments, see [Example with sample files: using static and dynamic tables in a letter](create-letter.md#insert-data-modules-and-layout-fragments-in-a-letter-and-configure-them).  
 
 1. Tap **Save**.
 
@@ -539,4 +540,3 @@ To quickly create a document fragment with properties and content similar to an 
 1. Tap Paste. The Paste dialog appears. If you are copying and pasting the document fragments at the same place, the system automatically assigns names and a titles to the new copies of letters, but you can edit the titles and names of the letters. 
 1. If required, edit the Title and Name with which you want to save the copy of the document fragment.
 1. Tap Paste. The copy of the document fragment is created.
-

@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 788c427f-190f-4580-9efd-6a4c4a008837
+exl-id: 68fe3f97-ded8-4223-b4b9-02704077e37e
 ---
-
 # Updating the link to the documentation {#updating-the-link-to-the-documentation}
 
 You can access the default help content for AEM Forms workspace by selecting **Help &gt; Workspace Help**. It points to the online documentation on Adobe's website. However, you can update it to point to any other URL.
@@ -45,5 +45,3 @@ To update the URL of the online documentation, follow the [Generic Steps of cust
 
     1. Open /apps/ws/js/registry.js for editing.
     1. Search and replace `text!/lc/libs/ws/js/runtime/templates/userinfo.html` with `text!/lc/apps/ws/js/runtime/templates/userinfo.html`.
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

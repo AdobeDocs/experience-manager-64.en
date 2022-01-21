@@ -9,8 +9,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
 discoiquuid: da8f968b-91cc-45a8-ae4b-757b4f840b8e
+exl-id: b21ba7a1-6e6f-4b95-9336-b49f7e932af5
+feature: Content Fragments
+role: User
 ---
-
 # Managing Content Fragments {#managing-content-fragments}
 
 >[!CAUTION]
@@ -220,7 +222,7 @@ You can also [associate content](content-fragments-assoc-content.md) with a frag
 
 ## Viewing and Editing the Metadata (Properties) of your Fragment {#viewing-and-editing-the-metadata-properties-of-your-fragment}
 
-You can view, and edit, the properties of a fragment using the [!UICONTROL Metadata](content-fragments-metadata.md) tab.
+You can view, and edit, the properties of a fragment using the [[!UICONTROL Metadata]](content-fragments-metadata.md) tab.
 
 ## Timeline for Content Fragments {#timeline-for-content-fragments}
 
@@ -229,8 +231,8 @@ In addition to the standard options, [Timeline](managing-assets-touch-ui.md#time
 * View information about versions, comments, and annotations
 * Actions for Versions
 
-    * **[!UICONTROL Revert to this Version](#reverting-to-a-version)** (select an existing fragment, then a specific version)
-    * **[!UICONTROL Compare to Current](#comparing-fragment-versions)** (select an existing fragment, then a specific version)
+    * **[[!UICONTROL Revert to this Version]](#reverting-to-a-version)** (select an existing fragment, then a specific version)
+    * **[[!UICONTROL Compare to Current]](#comparing-fragment-versions)** (select an existing fragment, then a specific version)
     * Add a **[!UICONTROL Label]** and/or **[!UICONTROL Comment]** (select an existing fragment, then a specific version)
     * **[!UICONTROL Save as Version]** (select an existing fragment, then the up arrow at the bottom of Timeline)
 
@@ -257,7 +259,7 @@ For example:
 
 ## Comparing Fragment Versions {#comparing-fragment-versions}
 
-The **[!UICONTROL Compare to Current]** action is available from the [!UICONTROL Timeline](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments-managing.html#timeline-for-content-fragments) after you have selected a specific version.
+The **[!UICONTROL Compare to Current]** action is available from the [[!UICONTROL Timeline]](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments-managing.html#timeline-for-content-fragments) after you have selected a specific version.
 
 This will open:
 
@@ -287,7 +289,7 @@ They will be shown side-by-side, where:
 
 You can revert to a specific version of your fragment:
 
-* Directly from the [!UICONTROL Timeline](content-fragments-managing.md#timeline-for-content-fragments).
+* Directly from the [[!UICONTROL Timeline]](content-fragments-managing.md#timeline-for-content-fragments).
 
   Select the required version, then the **[!UICONTROL Revert to this Version]** action.
 
@@ -327,4 +329,3 @@ To delete a fragment:
    >[!CAUTION]
    >
    >If the fragment is already referenced in a page you will then see a warning message and be required to confirm that you want to proceed with a **[!UICONTROL Force Delete]**. The fragment, together with its content fragment component, will be deleted from any content pages.
-

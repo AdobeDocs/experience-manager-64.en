@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 16e57cf6-aaa1-406d-a6ad-71ec60b15386
+exl-id: de97e6f7-25bf-462b-b67d-0d3fbd86a321
 ---
-
 # Customizing the task details page {#customizing-the-task-details-page}
 
 The task details page contains information about a task and its processes. However, you can customize the task details page to add or delete information.
@@ -80,6 +80,4 @@ To customize the task details page:
 >
 >To customize the task details page with tasks created in the **Start Process **tab of AEM Forms workspace, add the new information to `/apps/ws/js/runtime/templates/startprocess.html`.
 >
->To add new styles for the information added in the details page, modify the CSS file by using the *User interface changes* section in [Workspace Customization](/help/forms/using/changing-locale-user-interface.md#main-pars-header-3).
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)
+>To add new styles for the information added in the details page, modify the CSS file by using the *User interface changes* section in [Workspace Customization](/help/forms/using/changing-locale-user-interface.md).

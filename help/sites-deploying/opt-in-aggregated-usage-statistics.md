@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 0c2b1c67-2fa4-4b2e-8512-0973177656e2
+exl-id: f3cfa30a-ca15-48db-bacf-1aebbd0ad458
 ---
-
 # Opting Into Aggregated Usage Statistics Collection{#opting-into-aggregated-usage-statistics-collection}
 
 ## Introduction {#introduction}
@@ -69,4 +69,3 @@ You can opt-in (or opt-out) by using the Web Console as follows:
    ![usage_statisticsselect](assets/usage_statisticsselect.png)
 
 1. Click **Save**.
-

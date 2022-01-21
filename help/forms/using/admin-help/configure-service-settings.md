@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_services
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 2fab4b0c-e5db-47cd-b85a-4ff5ad6eb178
+exl-id: be1f8c59-b5d8-4d87-af7b-1034d73e7e83
 ---
-
 # Configure service settings {#configure-service-settings}
 
 You can use the Service Management page to configure settings for each of the services that are part of AEM forms. The available settings vary depending on the service being configured.
@@ -52,7 +52,9 @@ The following settings are available for the barcoded forms service.
 
 **Read Down:** When selected, barcode images are scanned vertically from top to bottom.
 
-***Note**: By default, all of the options are selected. Deselect an option only if you are certain that no barcodes appear that way on your forms.*
+>[!NOTE]
+>
+>By default, all of the options are selected. Deselect an option only if you are certain that no barcodes appear that way on your forms.
 
 **Base File Path:** The file path relative to which the batch input and output file parameters for the Run XML File Job and Run Flat File Job operations are resolved. In clustered configurations, the base file path must be a shared file system location to which all cluster nodes have read/write access.
 
@@ -150,7 +152,7 @@ New settings can be created through the PDF Generator user interface.
 
 >[!NOTE]
 >
->Adobe® LiveCycle® Content Services ES (Deprecated) is a content management system installed with LiveCycle. It enables users to design, manage, monitor, and optimize human-centric processes. Content Services (Deprecated) support ends on 12/31/2014. See [Adobe product lifecycle document](https://www.adobe.com/support/products/enterprise/eol/eol_matrix.html). To know about configuring Content Services (Deprecated), see [Administering Content Services](https://help.adobe.com/en_US/livecycle/9.0/admin_contentservices.pdf).
+>Adobe® LiveCycle® Content Services ES (Deprecated) is a content management system installed with LiveCycle. It enables users to design, manage, monitor, and optimize human-centric processes. Content Services (Deprecated) support ends on 12/31/2014. See [Adobe product lifecycle document](https://www.adobe.com/support/products/enterprise/eol/eol_matrix.html).
 
 The Document Management service ( `DocumentManagementService`) enables processes to use the content management functionality provided by Content Services (Deprecated). Document Management operations provide basic tasks that are required to maintain spaces and content in the content management system. Examples of such tasks are copy, delete, move, retrieve, and store content, create spaces and associations, and get and set content attributes.
 
@@ -214,7 +216,9 @@ The following settings are available for the Encryption service.
 
 **Default LDAP Password:** If the LDAP server requires authentication, specify the password that corresponds with the user name to be used to connect to the LDAP server.
 
-***Note**: Use simple authentication (user name and password) only when the connection is protected via SSL (using LDAPS).*
+>[!NOTE]
+>
+>Use simple authentication (user name and password) only when the connection is protected via SSL (using LDAPS).
 
 **Compatibility Mode:**
 
@@ -420,7 +424,9 @@ The following settings are available for the Microsoft SharePoint configuration 
 
 **Offline Support:** Enables users to continue using the mobile client applications even when they do not have a connection to the server (for example, when they are out of cell range or in airplane mode). Users must also enable the Offline Support setting on their mobile devices. This feature is available for Android and iOS devices. By default, this feature is off.
 
-**Note**: *If Offline support has been enabled and then you disable it, the users’ provisioning profiles are updated immediately, or as soon as they are online. If a user has been working offline, all pending tasks are returned to their Tasks list and all items in their Queue, including pending forms, tasks, and forms containing validation errors, are deleted from the Queue.*
+>[!NOTE]
+>
+>If Offline support has been enabled and then you disable it, the users’ provisioning profiles are updated immediately, or as soon as they are online. If a user has been working offline, all pending tasks are returned to their Tasks list and all items in their Queue, including pending forms, tasks, and forms containing validation errors, are deleted from the Queue.
 
 **Android:** Allows Android devices to connect to the server.
 
@@ -720,7 +726,9 @@ For example, if it is 8 PM on July 17, 2009 and you specify `C:/Test/WF0/failure
 
 If the path is not absolute but relative, the folder is created inside the watched folder. For more information about file patterns, see [About file patterns](/help/forms/using/admin-help/configuring-watched-folder-endpoints.md#about-file-patterns).
 
-***Note**: The smaller the size of the result folders, the better Watched Folder performance will be. For example, if the estimated load for the watched folder is 1000 files every hour, try a pattern like `result/%Y%M%D%H` so that a new subfolder is created every hour. If the load is smaller (for example, 1000 files per day), you could use a pattern like `result/%Y%M%D`.*
+>[!NOTE]
+>
+>The smaller the size of the result folders, the better Watched Folder performance will be. For example, if the estimated load for the watched folder is 1000 files every hour, try a pattern like `result/%Y%M%D%H` so that a new subfolder is created every hour. If the load is smaller (for example, 1000 files per day), you could use a pattern like `result/%Y%M%D`.
 
 **Stage Folder:** The default name for the stage folder inside the watched folder.
 
@@ -856,4 +864,3 @@ Each service can take advantage of the pooling capabilities to handle incoming i
    **New Instance for Each Request:** A new service instance is created for each invocation received.
 
 1. Click Save.
-

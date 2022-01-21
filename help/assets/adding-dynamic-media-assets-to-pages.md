@@ -9,8 +9,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: d1f45751-1761-4d6b-b17d-110b2f1117ea
+exl-id: bb97b649-a50d-49c8-97aa-18c32f18d527
+feature: Components
+role: User
 ---
-
 # Adding Dynamic Media assets to pages {#adding-dynamic-media-assets-to-pages}
 
 To add the dynamic media functionality to assets you use on your websites, you can add the **Dynamic Media** or **Interactive Media** component directly on the page. You do this by entering Layout mode and enabling the dynamic media components. Then you can add these components to the page and add assets to the component. The dynamic media and interactive media components are smart - they know whether you are adding an image or a video and the options available change accordingly.
@@ -23,22 +25,50 @@ You add dynamic media assets directly to the page if you are using AEM as your W
 
 ## Adding a Dynamic Media component to a page {#adding-a-dynamic-media-component-to-a-page}
 
-Adding the Dynamic Media or Interactive Media component to a page is the same as adding a component to any page. The Dynamic Media and Interactive Media components are described in detail in the following sections.
+Adding a Dynamic Media component to a page is the same as adding a component to any page. The Dynamic Media components are described in detail in the following sections.
 
 >[!NOTE]
 >
->If there is a Dynamic Media component, an Interactive Media component, or both on a web page that is accessed by a user with read-only permissions, the page breaks and the components are not render correctly. The reason is because the page is reconstructed to ensure that the properties of the components are good and any referenced assets and configurations are accessible. The page is then rendered again causing the components to break; the respective component code on the page cannot be re-rendered due to the user’s read-only access.  
+>If there is a Dynamic Media component on a web page that is accessed by a user with read-only permissions, the page breaks and the components are not render correctly. The reason is because the page is reconstructed to ensure that the properties of the components are good and any referenced assets and configurations are accessible. The page is then rendered again causing the components to break; the respective component code on the page cannot be re-rendered due to the user’s read-only access.  
 >  
 >To avoid this issue, ensure that AEM Sites users have the necessary permissions to access the assets.
 
-1. In AEM, open the page where you want to add the Dynamic Media or Interactive Media component.
-1. In the left pane, click the **[!UICONTROL Components]** icon and filter for **[!UICONTROL Dynamic Media]**. If no Dynamic Media component is available, you need to enable the Dynamic Media components. See [Editing Page Templates](/help/sites-authoring/templates.md#editing-templates-template-authors) for more information. 
+1. In AEM, open the page where you want to add the Dynamic Media component.
+1. In the panel on the left side of the page (you may need to toggle the display of the side panel), click the **[!UICONTROL Components]** icon. 
+1. Under the **[!UICONTROL Components]** heading, in the drop-down list, select **[!UICONTROL Dynamic Media]**. If no list of Dynamic Media components is available, you likely need to enable the Dynamic Media components that you want to use. See [Enabling Dynamic Media components](#enabling-dynamic-media-components). 
 
    ![chlimage_1-537](assets/chlimage_1-537.png)
 
-1. Drag the **[!UICONTROL Dynamic Media]** or **[!UICONTROL Interactive Media]** component onto the page in the desired location.
-1. Click the blue box around the component, then tap the **[!UICONTROL Configuration]** (wrench) icon.
+1. Drag a Dynamic Media component that you want to use onto the page in the desired location.
+1. Hover the mouse pointer directly on the component. When the component is surrounded by a blue box, tap once to display the component's toolbar. Tap the **[!UICONTROL Configuration]** (wrench) icon.
 1. [Edit the components](#dynamic-media-components) as necessary and click the checkmark to save changes.
+
+### Enabling Dynamic Media components {#enabling-dynamic-media-components}
+
+If no Dynamic Media components are available to add to a page, it likely means that you need to first enable the components that you want to use.
+
+1. In AEM, open the page where you want to add the Dynamic Media component.
+1. On the left side of the toolbar near the top of the page, tap the Page Information icon, then tap **[!UICONTROL Edit Template]** from the drop-down list.
+
+    ![edit-template](/help/assets/assets-dm/edit-template.png)
+
+1. On the right side of the toolbar near the top of the page, from the drop-down list, tap **[!UICONTROL Structure]**.
+
+    ![Policy](/help/assets/assets-dm/structure-mode.png)
+
+1. Near the bottom of the page, tap **[!UICONTROL Layout Container]** to open its toolbar, then tap the Policy icon.
+1. On the **[!UICONTROL Layout Container]** page, under the **[!UICONTROL Properties]** heading, make sure the **[!UICONTROL Allowed Components]** tab is selected.
+
+    ![Allowed components](/help/assets/assets-dm/allowed-components.png)
+
+1. Scroll until you see **[!UICONTROL Dynamic Media]**.
+1. Tap the > icon to the left of **[!UICONTROL Dynamic Media]** to expand the list, select the Dynamic Media components you want to enable.
+
+    ![Dynamic Media components list](/help/assets/assets-dm/dm-components-select.png)
+
+1. Near the upper-right corner of the **[!UICONTROL Layout Container]** page, tap the Done (checkmark) icon.
+
+1. On the right side of the toolbar near the top of the page, from the drop-down list, tap **[!UICONTROL Initial Content]**, then [add a Dynamic Media component to a page](#adding-a-dynamic-media-component-to-a-page) as usual.
 
 ## Localizing Dynamic Media components {#localizing-dynamic-media-components}
 
@@ -56,11 +86,11 @@ You can localize Dynamic Media components in one of two ways:
 
 ## Dynamic Media components {#dynamic-media-components}
 
-Dynamic Media and Interactive Media are available under the [!UICONTROL Dynamic Media] tab in [!UICONTROL Components]. You use the Interactive Media] component for any interactive assets such as interactive video, interactive images, or carousel sets. For all other dynamic media components, use the Dynamic Media component.
+Dynamic Media and Interactive Media are available under the [!UICONTROL Dynamic Media] tab in [!UICONTROL Components]. You use the [!UICONTROL Interactive Media] component for any interactive assets such as interactive video, interactive images, or carousel sets. For all other dynamic media components, use the Dynamic Media component.
 
 >[!NOTE]
 >
->These components are not available by default and need to be made available via the template editor before using. [After they are made available i](/help/sites-authoring/templates.md#editing-templates-template-authors)n the template editor, you can add the components to your page as you would any other AEM component.
+>These components are not available by default and need to be made available via the template editor before using. [After they are made available](/help/sites-authoring/templates.md#editing-templates-template-authors) in the template editor, you can add the components to your page as you would any other AEM component.
 
 ![chlimage_1-539](assets/chlimage_1-539.png) 
 
@@ -88,7 +118,7 @@ The Dynamic Media component lets you add dynamic images, including image sets, s
 
 You can also configure the viewer preset, image preset, or image format directly in the component. To make an image responsive you can either set the breakpoints or apply a responsive image preset.
 
-You can edit the following Dynamic Media Settings by clicking the **[!UICONTROL Edit]** icon in the component and then **[!UICONTROL Dynamic Media Settings]**.
+You must edit the following Dynamic Media Settings by clicking the **[!UICONTROL Edit]** icon in the component and then **[!UICONTROL Dynamic Media Settings]**.
 
 ![dm-settings-image-preset](assets/dm-settings-image-preset.png)
 
@@ -136,7 +166,7 @@ Use the Dynamic Media component to add dynamic video to your web pages. When you
 
 ![chlimage_1-540](assets/chlimage_1-540.png)
 
-You can edit the following Dynamic Media Settings by clicking **[!UICONTROL Edit]** in the component.
+You must edit the following Dynamic Media Settings by clicking **[!UICONTROL Edit]** in the component.
 
 >[!NOTE]
 >
@@ -148,10 +178,10 @@ Select an existing video viewer preset from the drop-down menu. If the viewer pr
 * **[!UICONTROL Viewer modifiers]**
 Viewer modifiers take the form of name=value pair with a & delimiter and let you change viewers as outlined in the Adobe Viewers Reference Guide. An example of a viewer modifier is posterimage=img.jpg&caption=text.vtt,1
 
-    With viewer modifiers, for example, you can do the following:
+  With viewer modifiers, for example, you can do the following:
 
-    * Associate a caption file with a video [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_caption.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_caption.html)
-    * Associate a navigation file with a video [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_navigation.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_navigation.html)
+    * Associate a caption file with a video [caption.](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/video/command-reference-url-video/r-html5-video-viewer-url-caption.html)
+    * Associate a navigation file with a video [navigation.](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/video/command-reference-url-video/r-html5-video-viewer-url-navigation.html)
 
 You can edit the following [!UICONTROL Advanced Settings] by clicking **[!UICONTROL Edit]** in the component.
 
@@ -192,7 +222,7 @@ This option is not available if you are viewing image sets, spin sets, or mixed 
 You can set an asset to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.
 This option is not available if you are viewing image sets, spin sets, or mixed media sets.
 
-* **[!UICONTROL Height** and **[!UICONTROL Width]**
+* **[!UICONTROL Height]** and **[!UICONTROL Width]**
 Enter value in pixels if you want the smart crop image to be a fixed size. Leaving these values blank makes it adaptive.
 
 ### Interactive Media component {#interactive-media-component}

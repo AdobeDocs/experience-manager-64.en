@@ -9,8 +9,9 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 999ae2be-56ba-48c1-861b-8d4c991a0206
+feature: PDF Generator
+exl-id: 3eecff45-405f-482f-b0de-acf6557a7813
 ---
-
 # Converting files using PDF Generator{#converting-files-using-pdf-generator}
 
 You can use the PDF Generator web pages to convert files.
@@ -69,14 +70,18 @@ If the ZIP file contains more than one HTML file at the lowest level of its fold
     * In Upload File, type the path and filename of the HTML file or ZIP file, or click Browse to locate and select it.
     * In the Specify URL box, type the URL of the page or website to convert.
 
-      ***Note**: The file that you are converting must have a filename extension of .html, .htm, or .zip.*
+    >[!NOTE]
+    >
+    >The file that you are converting must have a filename extension of .html, .htm, or .zip.      
 
 1. Specify the configuration settings:
 
     * To use custom settings, select Use Custom Settings, specify the security and file type settings, and specify a time-out value. The default value is 270 seconds.
 
-      ***Note**: If you configured the Generate PDF service to use Acrobat WebCapture, the File Type Settings that you select on this page do not affect the PDF produced. Instead, make the appropriate changes to the version of Acrobat that is installed on the server. *
-    
+    >[!NOTE]
+    >
+    >If you configured the Generate PDF service to use Acrobat WebCapture, the File Type Settings that you select on this page do not affect the PDF produced. Instead, make the appropriate changes to the version of Acrobat that is installed on the server.  
+  
     * To use an existing settings file, select Upload Settings File and click Browse to go to the file location.
 
 1. To upload an XMP file, click Browse and go to the file location. An XMP file can be used to include standard metadata information. (See [About XMP files](converting-files-using-pdf-generator.md#about-xmp-files).)
@@ -114,4 +119,3 @@ PDF Generator supports reducing the size of PDF files.
     * To use an existing settings file, select Upload Settings File and click Browse to go to the file location.
 
 1. Click Create.
-

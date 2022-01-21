@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 content-strategy: max-2018
 discoiquuid: 7dd08e81-5df6-4522-9f8c-48b4bba8927b
+exl-id: 1afef311-c1e6-48ec-ae23-dbd553a99ac6
 ---
-
 # Publishing and unpublishing forms and documents {#publishing-and-unpublishing-forms-and-documents}
 
 AEM Forms let you create, publish, and unpublish forms easily. For more information about AEM Forms, see [Introduction to managing forms](/help/forms/using/introduction-managing-forms.md).
@@ -137,7 +137,7 @@ Follow these steps to schedule the date and time of publishing and unpublishing 
     1. Move the pointer over an asset and tap **[!UICONTROL Unpublish]** ![unpublish](assets/unpublish.png).
     1. Do one of following and then tap unpublish:
 
-        * If you are in the card view, tap **[!UICONTROL Enter Selection** ![aem6forms_check-circle](assets/aem6forms_check-circle.png), and tap the asset. The asset is selected.
+        * If you are in the card view, tap **[!UICONTROL Enter Selection]** ![aem6forms_check-circle](assets/aem6forms_check-circle.png), and tap the asset. The asset is selected.
         * If you are in the list view, hover over an asset and tap ![selectassetcheckmark](assets/selectassetcheckmark.png) . The asset is selected.
         * Tap an asset to display its details.
         * Display an asset's properties by tapping View Properties ![viewproperties](assets/viewproperties.png).
@@ -195,4 +195,3 @@ To enable authentication for your forms:
 1. In the Apache Sling Authentication Service dialog that appears, use the **+** button to add paths. 
 
    When you add a path, the authentication service is enabled for forms in that path.
-

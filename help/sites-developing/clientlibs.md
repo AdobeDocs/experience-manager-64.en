@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 619de2e4-d7bd-4ca6-9763-1efa8b2dec05
+exl-id: ba604611-03cb-4f97-8ff6-1a559b52263b
 ---
-
 # Using Client-Side Libraries{#using-client-side-libraries}
 
 Modern websites rely heavily on client-side processing driven by complex JavaScript and CSS code. Organizing and optimizing the serving of this code can be a complicated issue.
@@ -127,7 +127,7 @@ In previous versions, client library folders were located below `/etc/clientlibs
 
 >[!NOTE]
 >
->Static resources below the client library folder must be in a folder called *resources*. If you do not have the static resources, such as images, under the folder *resources*, it cannot be referenced on a publish instance. Here is an example: http://localhost:4503/etc.clientlibs/geometrixx/components/clinetlibs/resources/example.gif
+>Static resources below the client library folder must be in a folder called *resources*. If you do not have the static resources, such as images, under the folder *resources*, it cannot be referenced on a publish instance. Here is an example: http://localhost:4503/etc.clientlibs/geometrixx/components/clientlibs/resources/example.gif
 
 >[!NOTE]
 >
@@ -235,7 +235,6 @@ In some cases you may find that the final HTML generated for typical page by you
 <script type="text/javascript" src="/etc/clientlibs/granite/jquery/granite.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/foundation/jquery.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/foundation/shared.js"></script>
-<script type="text/javascript" src="/etc/clientlibs/granite/underscore.js"></script>
 <script type="text/javascript" src="/etc/clientlibs/foundation/personalization/kernel.js"></script>
 ```
 
@@ -425,9 +424,9 @@ Opening the `publicmain.css` file reveals the following code:
 
 ### Discover Client Libraries {#discover-client-libraries}
 
-The `/libs/cq/ui/components/dumplibs/dumplibs` component generates a page of information about all client library folders on the system. The `/libs/cq/ui/content/dumplibs` node has the component as a resource type. To open the page, use the following URL (use a different host and port as required):
+The `/libs/cq/granite/components/dumplibs/dumplibs` component generates a page of information about all client library folders on the system. The `/libs/granite/ui/content/dumplibs` node has the component as a resource type. To open the page, use the following URL (changing the host and port as required):
 
-[http://localhost:4502/libs/cq/ui/content/dumplibs.test.html](http://localhost:4502/libs/cq/ui/content/dumplibs.test.html)
+`https://<host>:<port>/libs/granite/ui/content/dumplibs.test.html`
 
 The information includes the library path and type (CSS or JS), and the values of the library attributes, such as categories and dependencies. Subsequent tables on the page show the libraries in each category and channel.
 
@@ -440,7 +439,7 @@ The `dumplibs` component includes a test selector that displays the source code 
     * From the `dumplibs.html` page, click the link in the **Click here for output testing** text.
     * Open the following URL in your web browser (use a different host and port as required):
 
-      [http://localhost:4502/libs/cq/ui/content/dumplibs.html](http://localhost:4502/libs/cq/ui/content/dumplibs.html)
+      * `http://<host>:<port>/libs/granite/ui/content/dumplibs.html`
 
    The default page shows output for tags with no value for the categories attribute.
 

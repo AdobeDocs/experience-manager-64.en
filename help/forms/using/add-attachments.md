@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 184b5c7f-a704-4b8c-b1ec-f4d6616a1afc
+exl-id: ad1cc63a-cf99-456b-8b83-0605fb3ac6ec
 ---
-
 # Adding attachments {#adding-attachments}
 
 ## Adding attachments in forms synced with AEM Forms Workflow server (AEM Forms on JEE) {#adding-annotations}
@@ -82,5 +82,3 @@ Attachments for mobile forms synced with AEM Forms OSGi servers work similar to 
 Form level attachments are not supported for adaptive forms loaded in the app from an AEM Forms OSGi server. To attach images or text notes, enable field level attachments in the form when you author it. Drag-drop the file attachment component from the components browser on the field.
 
 In case of adaptive forms, you can view the attached files in the document of record (DoR). See, [Generate Document of Record for non-XFA adaptive forms](/help/forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md).
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

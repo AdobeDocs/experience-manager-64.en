@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
 discoiquuid: 282a828a-edb2-4643-9bf7-ec30c29dc6ce
+feature: Upgrading
+exl-id: 8dc2dfb8-037f-40ae-a962-ced89dd3fdd0
 ---
-
 # Lazy Content Migration{#lazy-content-migration}
 
 For the sake of backwards compatibility, content and configuration in **/etc** and **/content** starting with AEM 6.3 will not be touched or transformed immediately with the upgrade. This is done in order to ensure that dependencies of customer applications on those structures stay intact. The functionality relating to these content structures is still the same even though the content in an out of the box AEM 6.4 would be hosted in another place.

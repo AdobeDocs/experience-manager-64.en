@@ -6,11 +6,11 @@ seo-description: Using Calvin you can create test cases in CRXDE and run UI test
 uuid: 2a89d1c0-58f6-4bbf-a367-5fe659851c13
 contentOwner: gtalwar
 content-type: reference
-topic-tags: adaptive_forms
-topic-tags: develop
+topic-tags: adaptive_forms, develop
 discoiquuid: 2daf95b6-bf72-4191-bdb7-e17e76b166f3
+feature: Adaptive Forms
+exl-id: d7406206-d63a-48da-bb95-e62db0f2c8a5
 ---
-
 # Automate testing of adaptive forms {#automate-testing-of-adaptive-forms}
 
 ## Overview {#overview}
@@ -332,4 +332,3 @@ The steps for testing your AEM adaptive forms are similar to steps for testing y
   </tr> 
  </tbody> 
 </table>
-

@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: d11b8fc8-5e98-4a77-a536-d445ac88e1b3
+role: Admin
+exl-id: 9865b366-b9e5-40f3-8863-789ccfb792f5
 ---
-
 # Moderating Community Content {#moderating-community-content}
 
 ## Overview {#overview}
@@ -276,4 +277,3 @@ The following permissions, when assigned to the same resource, are collectively 
 * `Create`
 * `Delete`
 * `Replicate`
-

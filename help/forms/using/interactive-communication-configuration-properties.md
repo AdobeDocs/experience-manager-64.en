@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 topic-tags: interactive-communications
 discoiquuid: 1aef2a51-4391-4075-8841-a62ace5606f9
+feature: Interactive Communication
+exl-id: 2caf7242-8588-4fc9-9429-40e24416d6eb
 ---
-
 # Interactive Communications configuration properties {#interactive-communications-configuration-properties}
 
 Edit default configuration properties for Interactive Communications
@@ -113,4 +114,3 @@ Tap **Adaptive Form and Interactive Communication Web Channel Theme Configuratio
   </tr> 
  </tbody> 
 </table>
-

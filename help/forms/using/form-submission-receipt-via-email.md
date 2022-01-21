@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: 7ffe6317-174b-4d80-9ac6-9bfb5eed7e29
+exl-id: e850d2a5-cb5f-4bd4-81dd-57951923b6d3
 ---
-
 # Sending a form submission acknowledgement via email {#sending-a-form-submission-acknowledgement-via-email}
 
 ## Adaptive form data submission {#adaptive-form-data-submission}
@@ -95,4 +95,3 @@ For example:
 >[!NOTE]
 >
 >Fields in repeatable panels cannot be used as variable placeholders.
-

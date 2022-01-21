@@ -9,11 +9,11 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: 9ba95dce-a801-4a36-8798-45d295371b1b
+exl-id: 93921d23-a2bf-43b6-b002-58a7482b22b0
 ---
-
 # Adding Dynamic Media Classic features to your page{#adding-scene-features-to-your-page}
 
-[Adobe Dynamic Media Classic](https://help.adobe.com/en_US/scene7/using/WS26AB0D9A-F51C-464e-88C8-580A5A82F810.html) is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.
+Adobe Dynamic Media Classic is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.
 
 You can view AEM assets published in Dynamic Media Classic in various viewers:
 
@@ -52,7 +52,7 @@ To publish to Dynamic Media Classic from the Assets console if the assets are in
 
 1. In the AEM classic UI, click **[!UICONTROL Digital Assets]** to access the digital asset manager.  
 
-1. Select the asset (or assets) or folder from within the target folder you want to publish to Dynamic Media Classic and right-click and select **[!UICONTROL Publish to Dynamic Media Classic]**. Alternatively, you can select **[!UICONTROL Publish to Dynamic Media Classic]** from the **[!UICONTROL Tools] menuu.
+1. Select the asset (or assets) or folder from within the target folder you want to publish to Dynamic Media Classic and right-click and select **[!UICONTROL Publish to Dynamic Media Classic]**. Alternatively, you can select **[!UICONTROL Publish to Dynamic Media Classic]** from the **[!UICONTROL Tools]** menu.
 
    ![chlimage_1-76](assets/chlimage_1-76.png)
 
@@ -102,7 +102,7 @@ You do this by configuring the Cloud configuration for the page where the asset 
 
 1. In the sidekick, click the **[!UICONTROL Page]** icon, then click **[!UICONTROL Page Properties]**.  
 
-1. Click **[!UICONTROL Cloud Services > Add services > Dynamic Media Classic (Scene7)**.
+1. Click **[!UICONTROL Cloud Services] > [!UICONTROL Add services] > [!UICONTROL Dynamic Media Classic (Scene7)]**.
 1. In the Adobe Dynamic Media Classic drop-down list, select the desired configuration, then click **[!UICONTROL OK]**.
 
    ![chlimage_1-77](assets/chlimage_1-77.png)
@@ -141,8 +141,6 @@ After they are made available in **[!UICONTROL Design]** mode, you can add the c
 ### Flash viewers end-of-life notice {#flash-viewers-end-of-life-notice}
 
 Effective January 31, 2017, Adobe Dynamic Media Classic officially ended support for the Flash viewer platform.
-
-For more information about this important change, see [Flash viewer end-of-life FAQs](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 ### Adding a Dynamic Media Classic component to a page {#adding-a-scene-component-to-a-page}
 
@@ -233,15 +231,15 @@ The Dynamic Media Classic Image component lets you add Dynamic Media Classic fun
 
 **[!UICONTROL Output Format]** - Select the output format of the image, for example jpeg. Depending on the output format you select, you may have additional configuration options. See [Managing Image Presets](/help/assets/managing-image-presets.md).
 
-**[!UICONTROL Sharpening]** - Select how you want to sharpen the image. Sharpening is explained in detail in [*Adobe Dynamic Media Classic Image Quality and Sharpening Best Practices*](/help/assets/assets/s7_sharpening_images.pdf).
+**[!UICONTROL Sharpening]** - Select how you want to sharpen the image. Sharpening is explained in detail in [*Adobe Dynamic Media Classic Image Quality and Sharpening Best Practices*](/help/assets/assets/sharpening_images.pdf).
 
-**[!UICONTROL URL Modifiers]** - You can change image effects by supplying additional Dynamic Media Classic image commands. These are described in [Managing Image Presets](/help/assets/managing-image-presets.md) and the [Command reference](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/c_command_reference.html).
+**[!UICONTROL URL Modifiers]** - You can change image effects by supplying additional Dynamic Media Classic image commands. These are described in [Managing Image Presets](/help/assets/managing-image-presets.md) and the [Command reference](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/c-command-reference.html).
 
 **[!UICONTROL Breakpoints]** - If your website is responsive, you want to adjust the breakpoints. Breakpoints must be separated by commas `,`.
 
 ### Image Template {#image-template}
 
-[Dynamic Media Classic Image Templates](https://help.adobe.com/en_US/scene7/using/WS60B68844-9054-4099-BF69-3DC998A04D3C.html) are layered Photoshop content that was imported to Dynamic Media Classic, where content and properties were parameterized for variability. The **[!UICONTROL Image template]** component lets you import images and change the text dynamically in AEM. In addition, you can configure the **[!UICONTROL Image template]** component to use values from client context, so that each user experiences the image in a personalized way.
+[Dynamic Media Classic Image Templates](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/template-basics/quick-start-template-basics.html#template-basics) are layered Photoshop content that was imported to Dynamic Media Classic, where content and properties were parameterized for variability. The **[!UICONTROL Image template]** component lets ;you import images and change the text dynamically in AEM. In addition, you can configure the **[!UICONTROL Image template]** component to use values from client context, so that each user experiences the image in a personalized way.
 
 Click **[!UICONTROL Edit]** to configure the component. You can configure [settings common to all Dynamic Media Classic components](/help/sites-administering/scene7.md#settingscommontoalldynamicmediaclassicscomponents) as well as other settings described in this section.
 
@@ -393,4 +391,3 @@ By default, AEM searches the folder selected and all sub-folders.
 **[!UICONTROL Publish Status]** You can filter for assets based on publication status: [!UICONTROL Published] or [!UICONTROL Unpublished]. If you do not select any [!UICONTROL Publish status], AEM by default searches all publish statuses.
 
 ![chlimage_1-98](assets/chlimage_1-98.png)
-

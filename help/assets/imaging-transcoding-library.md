@@ -2,8 +2,10 @@
 title: Imaging Transcoding Library
 description: Learn how to configure and use Adobe's Imaging Transcoding Library, an image processing solution that can perform core image-handling functions, including encoding, transcoding, image resampling, and image resizing.
 contentOwner: AG
+feature: Renditions,Developer Tools,Asset Processing
+role: Admin
+exl-id: 0314626d-e846-4f10-950e-6c1ceb7f4c06
 ---
-
 # Imaging Transcoding Library {#imaging-transcoding-library}
 
 Adobe's Imaging Transcoding Library is a proprietary image processing solution that can perform core image-handling functions, including:
@@ -70,7 +72,7 @@ To configure ITL processing, create a configuration file and update the workflow
 
 To configure the library, create a .conf file to indicate the libraries using the following steps. You need administrator or root permissions.
 
-1. Download the [Imaging Transcoding Library package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem630/product/assets/aem-assets-imaging-transcoding-library-pkg) and install it using the Package Manager. The package is compatible with AEM 6.5.
+1. Download the [Imaging Transcoding Library package from Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem630/product/assets/aem-assets-imaging-transcoding-library-pkg) and install it using the Package Manager. The package is compatible with [!DNL Experience Manager] 6.5.
 
 1. To know a bundle id for `com.day.cq.dam.cq-dam-switchengine`, log in to the Web Console and tap **[!UICONTROL OSGi > Bundles]**. Alternatively, to open the bundles console, access `https://[aem_server:[port]/system/console/bundles/` URL. Locate `com.day.cq.dam.cq-dam-switchengine` bundle and its ID.
 
@@ -101,7 +103,7 @@ To configure the library, create a .conf file to indicate the libraries using th
 
 Update the [!UICONTROL DAM Update Asset] workflow to use the library for processing images.
 
-1. Tap/click the AEM logo, and go to **[!UICONTROL Tools > Workflow > Models]**.
+1. Tap/click the [!DNL Experience Manager] logo, and go to **[!UICONTROL Tools > Workflow > Models]**.
 
 1. From the **[!UICONTROL Workflow Models]** page, open the **[!UICONTROL DAM Update Asset]** workflow model in edit mode.
 

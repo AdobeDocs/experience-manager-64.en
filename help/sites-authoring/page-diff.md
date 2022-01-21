@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 5a771d8c-cc56-4979-aeab-b508755a2078
+exl-id: 1b1fa592-a145-4abe-a455-df24d551b937
 ---
-
 # Page Diff{#page-diff}
 
 ## Introduction {#introduction}
@@ -21,7 +21,7 @@ The page diff feature allows for the convenient side-by-side comparison of two p
 
 >[!CAUTION]
 >
->The user must have the **Modify/Create/Delete** permission on the node `/content/versionhistory` in order to use the feature.
+>If you are running a version prior to AEM 6.4.3, the user must have the **Modify/Create/Delete** permission on the node `/content/versionhistory` in order to use the feature.
 >
 >See [Developing and Page Diff](/help/sites-developing/pagediff.md#operation-details) for more technical details on this feature.
 
@@ -104,4 +104,3 @@ There are some situations in which the page diff may not detect a difference as 
 >[!NOTE]
 >
 >For more details about the operation of the page diff mechanism as well as limitations which can affect page diff, please see the [developer documentation](/help/sites-developing/pagediff.md) of this feature.
-

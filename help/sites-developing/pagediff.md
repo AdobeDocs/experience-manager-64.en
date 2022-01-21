@@ -1,7 +1,7 @@
 ---
 title: Developing and Page Diff
 seo-title: Developing and Page Diff
-description: null
+description: Developing and Page Diff
 seo-description: null
 uuid: 48bbeca3-fe16-48ef-bb4d-ac605fe0ca76
 contentOwner: User
@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 13e8cbef-698f-4e69-9f8c-f9bee82e9fd1
+exl-id: 365e944d-d8a3-4f4e-8925-88629845232f
 ---
-
 # Developing and Page Diff{#developing-and-page-diff}
 
 ## Feature Overview {#feature-overview}
@@ -37,7 +37,7 @@ Because when using the page diff mechanism, AEM recreates the previous version o
 
 >[!CAUTION]
 >
->In order to use the page diff feature, the user needs to have the** Modify/Create/Delete** permission on the node `/content/versionhistory`.
+>In order to use the page diff feature, the user needs to have the **Modify/Create/Delete** permission on the node `/content/versionhistory`.
 
 ### As of AEM 6.4.3 {#as-of-aem}
 
@@ -69,4 +69,3 @@ However there are a number of limitations that need to be considered by the deve
     * Components that use AJAX to inlcude content
     * Single Page Applications
     * Javascript based components that manipulate the DOM upon user interaction.
-

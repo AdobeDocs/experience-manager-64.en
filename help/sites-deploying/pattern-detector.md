@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
 discoiquuid: 8cdcfd3a-7003-4cce-97f4-da7a1a887d1b
+feature: Upgrading
+exl-id: 375e202c-21d4-41f1-a2d5-592ac95c8f25
 ---
-
 # Assessing the Upgrade Complexity with the Pattern Detector{#assessing-the-upgrade-complexity-with-the-pattern-detector}
 
 ## Overview {#overview}
@@ -213,4 +214,3 @@ Currently Pattern Detector allows to check:
 * definitions of Oak indices (compatibility)
 * VLT packages (overuse)
 * rep:User nodes compatibility (in context of OAuth configuration)
-

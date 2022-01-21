@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 07bf0224-6744-42d4-861f-d656ccfad171
+exl-id: 20f3c5d6-0f70-4b66-9e43-be1709dc8eb6
 ---
-
 # Code Samples{#code-samples}
 
 The Adobe Consulting Services Team has generated a series of AEM code samples. These samples are well commented pieces of code to help AEM Developers understand the key building blocks of AEM. The samples are available here: [https://adobe-consulting-services.github.io/acs-aem-samples/](https://adobe-consulting-services.github.io/acs-aem-samples/).
@@ -35,4 +35,3 @@ Additional code samples are available:
 >[!NOTE]
 >
 >These code samples are for educational purposes only and should not be deployed on a production instance of AEM.
-

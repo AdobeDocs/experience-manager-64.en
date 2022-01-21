@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f192a8a3-1116-4d32-9b57-b53d532c0dbf
+exl-id: ee5b0a82-5dd8-4ea6-885c-6154fd41ef4c
 ---
-
 # Backup and recovery strategy for AEM forms{#backup-and-recovery-strategy-for-aem-forms}
 
 If your AEM forms implementation stores additional custom data in a different database, you are responsible for implementing a strategy to back up this data and ensuring that it remains in sync with the AEM forms data. Also, the application must be designed so that it is robust enough to handle a scenario where the additional databases get out of sync. It is highly recommended that any database operation that is performed is done in the context of a transaction to help maintain a consistent state.
@@ -31,7 +31,9 @@ The AEM forms backup strategy involves two types of backups:
 
 **AEM forms specific data:** Application data exists in database, Global Document Storage (GDS), and AEM repository, and must be backed up in real time. GDS is a directory that is used to store long-lived files that are used within a process. These files may include PDFs, policies, or form templates.
 
-***Note**: If Content Services (Deprecated) is installed, also back up the Content Storage Root directory. (See [Content Storage Root directory (Content Services only)](/help/forms/using/admin-help/files-back-recover.md#content-storage-root-directory-content-services-only).)*
+>[!NOTE]
+>
+>If Content Services (Deprecated) is installed, also back up the Content Storage Root directory. See [Content Storage Root directory (Content Services only)](/help/forms/using/admin-help/files-back-recover.md#content-storage-root-directory-content-services-only).
 
 The database is used to store form artifacts, service configurations, process state, and database references to GDS files. If you enabled document storage in the database, persistent data and documents in the GDS are also stored in the database. The database can be backed up and recovered by using the following methods:
 
@@ -43,7 +45,9 @@ The database is used to store form artifacts, service configurations, process st
 
 * **Rolling backup** mode indicates that the system is always in backup mode, with a new backup mode session being initiated as soon as the previous session is released. No time out is associated with rolling backup mode. When the LCBackupMode script or APIs are called to leave rolling backup mode, a new rolling backup mode session begins. This mode is useful for supporting continuous backups but still allowing old and unneeded documents to be cleaned out of the GDS directory. Rolling backup mode is not supported through the Backup and Recovery page. After a recovery scenario, rolling backup mode is still enabled. You can leave the continuous backup mode (rolling backup mode) by using the LCBackupMode script with the `leaveContinuousCoverage` option.
 
-***Note**: Leaving rolling backup mode immediately causes a new backup mode session to begin. To disable rolling backup mode completely, use the `leaveContinuousCoverage` option in the script, which overwrites the existing rolling backup session. When in snapshot backup mode, you may leave backup mode as you usually do. *
+>[!NOTE]
+>
+>Leaving rolling backup mode immediately causes a new backup mode session to begin. To disable rolling backup mode completely, use the `leaveContinuousCoverage` option in the script, which overwrites the existing rolling backup session. When in snapshot backup mode, you may leave backup mode as you usually do.
 
 To prevent data loss, the AEM forms specific data must be backed up in a way that ensures that GDS and Content Storage Root directory documents correlate with database references.
 
@@ -77,7 +81,7 @@ Before you restart the forms server after a recovery, do the following:
     1. Click **Admin Options**.
     1. Click **Start** to synchronize assets from the repository.
 
-1. In a clustered environment, the master node (with respect to AEM) should be up before the slave nodes. 
+1. In a clustered environment, the primary node (with respect to AEM) should be up before the secondary nodes. 
 1. Ensure that no processes are initiated from either internal or external sources such as the Web, SOAP, or EJB process initiators until the normal operation of the system is validated.
 
 If the main AEM forms database is moved or changed, review the install Guides relevant to your application server for information on updating the database connection information for the AEM forms data sources IDP_DS and EDC_DS.

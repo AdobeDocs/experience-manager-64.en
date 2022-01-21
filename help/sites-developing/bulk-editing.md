@@ -9,13 +9,13 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: fe61ee4b-51b6-4a6f-91d8-1c02b29cc1db
+exl-id: 0aefe8c0-662e-4177-a369-feab174fa510
 ---
-
 # Configuring your Page for Bulk Editing of Page Properties {#configuring-your-page-for-bulk-editing-of-page-properties}
 
 [Bulk editing of page properties](/help/sites-authoring/editing-page-properties.md#from-the-sites-console-multiple-pages) allows you to edit the properties of multiple pages at once.
 
-Due to the possibility of different values, page properties are not enabled for bulk editing as default. They must be explicitily whitelisted (enabled). When defining the page properties to be available for bulk editing you need to consider certain implications, such as:
+Due to the possibility of different values, page properties are not enabled for bulk editing as default. They must be explicitily allowed (enabled). When defining the page properties to be available for bulk editing you need to consider certain implications, such as:
 
 * Certain fields are usually unique; for example a page title. You must decide whether it is meaningful to enable such fields for bulk editing, when one value will be applied.  
 * Certain fields might have multiple values - this needs meaningful representation when rendering.
@@ -86,4 +86,3 @@ Fields are enabled on the page component (*not* on the template):
    >    1. Make any changes within `/apps`
 
 1. Select **Save All** to persist your updates.
-

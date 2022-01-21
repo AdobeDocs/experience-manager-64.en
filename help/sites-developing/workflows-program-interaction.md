@@ -1,16 +1,12 @@
 ---
 title: Interacting with Workflows Programmatically
-seo-title: Interacting with Workflows Programmatically
-description: null
-seo-description: null
-uuid: a0f19fc6-b9bd-4b98-9c0e-fbf4f7383026
+description: Learn about how to manage Workflows and programatically interact with Workflows using APIs and scripts.
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: cb621332-a149-4f8d-9425-fd815b033c38
+exl-id: da06850a-c4d5-44dd-b572-771e3b2a66c5
 ---
-
 # Interacting with Workflows Programmatically{#interacting-with-workflows-programmatically}
 
 When [customizing and extending your workflows](/help/sites-developing/workflows-customizing-extending.md) you can access workflow objects:
@@ -625,7 +621,7 @@ wfSession.terminateWorkflow(workflow);
   curl -d "model={id}&payloadType={type}&payload={payload}" http://localhost:4502/etc/workflow/instances
   
   # for example:
-  curl -u admin:admin -d "model=/var/workflow/models/request_for_activation/jcr:content/model&payloadType=JCR_PATH&payload=/content/we-retail/us/en/products" http://localhost:4502/etc/workflow/instances
+  curl -u admin:admin -d "model=/var/workflow/models/request_for_activation&payloadType=JCR_PATH&payload=/content/we-retail/us/en/products" http://localhost:4502/etc/workflow/instances
   ```
 
 * **Listing the instances**
@@ -882,4 +878,3 @@ public class WorkflowEventCatcher implements EventHandler, JobProcessor {
  }
 }
 ```
-

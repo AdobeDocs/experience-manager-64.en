@@ -1,14 +1,17 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: adobe experience manager
+solution: Experience Manager, Experience Manager 6.4, Experience Manager Assets
 audience: end-user
-user-guide-title: AEM 6.4 Assets User Guide
+user-guide-title: Assets Guide
+breadcrumb-title: Assets Guide
+user-guide-description: Create, manage, deliver, and optimize digital assets.
 ---
 
-# AEM 6.4 Assets User Guide {#assets}
+# Assets Guide {#assets}
 
 + [Assets user guide](home.md)
-+ [AEM 6.4 Assets release notes](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/assets.html)
++ [AEM 6.4 Assets release notes](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/assets.html)
 + [About DAM](assets.md)
 + [User experience improvements](ux-improvements.md)
 + [Best practices for assets](best-practices-for-assets.md)
@@ -20,11 +23,11 @@ user-guide-title: AEM 6.4 Assets User Guide
   + [Use Adobe Stock assets in AEM Assets](aem-assets-adobe-stock.md)
   + [Review folder assets and collections](bulk-approval.md)
   + [Activity stream in timeline](activity-stream.md)
-  + [Applying Workflows to Assets](assets-workflow.md)
+  + [Process Assets](assets-workflow.md)
   + [Adding image maps](image-maps.md)
   + [Reuse assets using MSM](reuse-assets-using-msm.md)
 + Dynamic Media{#dynamic}
-  + [Dynamic Media Newsletter by Experience League](dynamic-media-newsletter.md)
+  + [Dynamic Media newsletter archive by Experience League](dynamic-media-newsletter.md)
   + [Setting up Dynamic Media](administering-dynamic-media.md)
   + [Working with Dynamic Media](dynamic-media.md)
   + [Configuring Dynamic Media - Scene7 mode](config-dms7.md)
@@ -40,7 +43,7 @@ user-guide-title: AEM 6.4 Assets User Guide
   + [Dynamic Media Image Profiles](image-profiles.md)
   + [Smart Imaging](imaging-faq.md)
   + [Video](s7-video.md)
-  + [Adding Scene7 features to your page](scene7.md)
+  + [Adding Dynamic Media Classic features to your page](scene7.md)
   + [HTTP2 delivery of content](http2.md)
   + [Delivering Dynamic Media assets](delivering-dynamic-media-assets.md)
   + [Activating hotlink protection in Dynamic Media](hotlink-protection.md)
@@ -95,10 +98,11 @@ user-guide-title: AEM 6.4 Assets User Guide
   + [Using PDF rasterizer](aem-pdf-rasterizer.md)
   + [Configuring asset upload restrictions](configuring-asset-upload-restrictions.md)
   + [AEM and Creative Cloud integration best practices](aem-cc-integration-best-practices.md)
+  + [Configure Adobe Asset Link](configure-asset-link.md)
   + [Integrating AEM Assets with InDesign server](indesign.md)
   + [Metadata profiles](metadata-profiles.md)
   + [Digital Rights Management in Assets](drm.md)
-  + [Using demo package for Asset Insights](touch-ui-using-demo-package-for-asset-insights.md)
+  + [Using demo package for Assets Insights](touch-ui-using-demo-package-for-asset-insights.md)
   + [Assets Offloading Best Practices](assets-offloading-best-practices.md)
   + [Assets file format best practices](assets-file-format-best-practices.md)
   + [Assets Monitoring Best Practices](assets-monitoring-best-practices.md)
@@ -145,31 +149,18 @@ user-guide-title: AEM 6.4 Assets User Guide
   + [Download assets from AEM](download-assets-from-aem.md)
   + [Asynchronous Operations](asynchronous-jobs.md)
   + [Lightbox](touch-ui-light-box.md)
-  + [Enabling Asset Insights through DTM](touch-ui-using-dtm-for-asset-insights.md)
-  + [Configuring Asset Insights](touch-ui-configuring-asset-insights.md)
+  + [Enabling Assets Insights through DTM](touch-ui-using-dtm-for-asset-insights.md)
+  + [Configuring Assets Insights](touch-ui-configuring-asset-insights.md)
   + [Applying translation cloud services to folders](transition-cloud-services.md)
   + [Using Page Tracker and Embed code in web pages](touch-ui-using-page-tracker.md)
   + [Managing Compound Assets](managing-linked-subassets.md)
   + [Related Assets](related-assets.md)
-  + [Asset Insights](touch-ui-asset-insights.md)
+  + [Assets Insights](touch-ui-asset-insights.md)
   + [Searching Video Assets](search-video-assets.md)
   + [Private folder sharing](private-folder.md)
   + [Smart Content Service Training Guidelines](smart-tags-training-guidelines.md)
   + [Video renditions](video-renditions.md)
-+ 3D Assets {#three-d}
-  + [AEM 3D release notes](../release-notes/aem3d-release-notes.md)
-  + [Working with 3D assets](assets-3d.md)
-  + [Installing and configuring AEM 3D](install-config-3d.md)
-  + [Advanced configuration settings](advanced-config-3d.md)
-  + [Working with Adobe Dimension assets](working-dimension-assets.md)
-  + [About the uploading and processing of 3D assets in AEM](upload-processing-3d-assets.md)
-  + [Resolving file dependencies](resolve-file-dependencies.md)
-  + [Viewing 3D assets](viewing-3d-assets.md)
-  + [Rendering 3D assets](rendering-3d-assets.md)
-  + [About the use of stages in AEM 3D](about-the-use-of-stages-in-aem-3d.md)
-  + [Setting up a standard stage with Autodesk Maya and Mental Ray](setting-up-stage-with-ad-mr.md)
-  + [Working with the 3D Sites component](using-the-3d-sites-component.md)
-  + [Integrating AEM 3D with Autodesk Maya](integrate-maya-with-3d.md)
-  + [About working with IBL stages](working-with-ibl-stages.md)
-  + [Integrating AEM 3D with Autodesk 3ds Max](integrating-aem-3d-with-autodesk-3ds-max.md)
-  + [Setting up an IBL stage with Autodesk Maya and Mental Ray](setting-up-an-ibl-stage-with-autodesk-maya-and-mental-ray.md)
++ Integration with other solutions {#integrations}
+  + [Integrations with [!DNL Adobe Workfront]](workfront-integrations.md)
+  + [Install [!DNL enhanced connector] for [!DNL Workfront]](workfront-connector-install.md)
+  + [Configure [!DNL enhanced connector] for [!DNL Workfront]](workfront-connector-configure.md)

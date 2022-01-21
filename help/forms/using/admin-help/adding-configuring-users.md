@@ -5,11 +5,10 @@ description: The User Management settings in the administration console allow yo
 seo-description: The User Management settings in the administration console allow you to create or delete users  and configure other user settings.
 uuid: fe650cdb-7d0d-4f38-9899-e5349559ed32
 contentOwner: admin
-geptopics: SG_AEMFORMS/categories
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 discoiquuid: 20ca99e3-4843-4254-b3e9-0255cc752363
+exl-id: c81dfb71-8901-49fd-b448-a7afdbae24fd
 ---
-
 # Adding and configuring users {#adding-and-configuring-users}
 
 User and group information is maintained in a third-party storage system, such as an LDAP directory. User Management does not write to the third-party storage system. Instead, User Management synchronizes the user and group information with its own database
@@ -126,8 +125,10 @@ Avoid creating user names that begin with a number sign (#). Performing task sea
     * Click **[!UICONTROL Find Group]** and complete the search information. 
     * To add the user to a new group, select the check box for the group, click **[!UICONTROL OK]**, and then click **[!UICONTROL Save]**.
 
-      ***Note**: Local users cannot be added to directory groups. However, directory users can be added to local groups.*
-    
+    >[!NOTE]
+    >
+    >Local users cannot be added to directory groups. However, directory users can be added to local groups.  
+  
     * To remove the user from a group, select the check box for the group, click **[!UICONTROL Delete]**, and then click **[!UICONTROL Save]**.
 
 1. To edit the user’s roles, click the **[!UICONTROL Role Assignments]** tab and do these tasks:

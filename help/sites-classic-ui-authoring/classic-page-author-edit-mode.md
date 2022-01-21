@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 62c6826d-bc8b-4177-a3bb-134ebafed8d2
+exl-id: b6c8c2b8-78d1-43a3-80b5-3535183ebf20
 ---
-
 # Components for Page Authoring{#components-for-page-authoring}
 
 The following components are intended for use when authoring content for a standard web page. They form a subset of the components available out-of-the-box for a standard installation of AEM.
@@ -1351,4 +1351,3 @@ The standard text field can be configured to your required size and with with yo
 This allows you to create a Submit button for use in a workflow.
 
 ![chlimage_1-36](assets/chlimage_1-36.png)
-

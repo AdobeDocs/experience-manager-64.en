@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 8d14017d-d311-45e9-8aea-4a5ca46f1a07
+exl-id: 6d408fd6-9241-4069-9b04-806e30e03ff2
 ---
-
 # Create a Fully-Featured Website (JSP){#create-a-fully-featured-website-jsp}
 
 >[!CAUTION]
@@ -68,7 +68,7 @@ After you have installed AEM, access the CRXDE Lite development environment by c
 
 Use CRXDE Lite to create the mywebsite application structure in the repository:
 
-1. In the tree on the left side of CRXDE Lite, right-click the **`/apps`** folder and click **[!UICONTROL Create > Create Folder]**. In the **Create Folder** dialog, type `mywebsite` as the folder name and click **[!UICONTROL OK**.
+1. In the tree on the left side of CRXDE Lite, right-click the **`/apps`** folder and click **[!UICONTROL Create > Create Folder]**. In the **Create Folder** dialog, type `mywebsite` as the folder name and click **OK**.
 1. Right-click the `/apps/mywebsite` folder and click **[!UICONTROL Create > Create Folder]**. In the **[!UICONTROL Create Folder]** dialog, type `components` as the folder name and click **[!UICONTROL OK]**.
 1. Right-click the `/apps/mywebsite` folder and click **[!UICONTROL Create > Create Folder]**. In the **[!UICONTROL Create Folder]** dialog, type `templates` as the folder name and click **[!UICONTROL OK]**.
 
@@ -139,7 +139,7 @@ A template defines the default content of a new page. Complex websites may use s
 
    When an author creates a page below `/content`, the **[!UICONTROL contentpage]** template appears in a list of available templates to use.
 
-1. Click **[!UICONTROL Next** in the **[!UICONTROL Allowed Parents]** and **[!UICONTROL Allowed Children]** panels and click **[!UICONTROL OK]**. In CRXDE Lite, click **[!UICONTROL Save All]**.
+1. Click **[!UICONTROL Next]** in the **[!UICONTROL Allowed Parents]** and **[!UICONTROL Allowed Children]** panels and click **[!UICONTROL OK]**. In CRXDE Lite, click **[!UICONTROL Save All]**.
 
    ![chlimage_1-106](assets/chlimage_1-106.png)
 
@@ -1075,7 +1075,7 @@ In this section, you include the title component, which is one of the foundation
 
    ![chlimage_1-126](assets/chlimage_1-126.png)
 
->[!Note]
+>[!NOTE]
 >You can set a different Title and the Type/Size in **[!UICONTROL Edit]** mode.
 
 ### Including the Paragraph System Component {#including-the-paragraph-system-component}
@@ -1206,7 +1206,7 @@ In this section, you will view the **[!UICONTROL Products]** page and add your i
 1. Click the **[!UICONTROL Edit]** button to edit the design dialog of par.
 1. In the dialog, a list of **[!UICONTROL Allowed Components]** is shown; navigate to **[!UICONTROL MyWebsite]**, select the **[!UICONTROL My Image Component]** and click **[!UICONTROL OK]**.
 1. Return to **[!UICONTROL Edit mode]**.
-1. Double-click the parsys frame (on **[!UICONTROL Drag components or assets here**). The **[!UICONTROL Insert New Component]** and **[!UICONTROL Sidekick]** selectors look as follows:
+1. Double-click the parsys frame (on **[!UICONTROL Drag components or assets here]**). The **[!UICONTROL Insert New Component]** and **[!UICONTROL Sidekick]** selectors look as follows:
 
    ![chlimage_1-8](assets/chlimage_1-8.jpeg)
 
@@ -1269,7 +1269,7 @@ Your search input box will look as follows on the **[!UICONTROL English]** page:
         * **[!UICONTROL Group]**: MyWebsite
 
     1. Click **[!UICONTROL Next]**, then click **[!UICONTROL Next]** again.
-    1. On the **[!UICONTROL Allowed Parents** panel, click the **[!UICONTROL +]** button and type `*/parsys`.
+    1. On the **[!UICONTROL Allowed Parents]** panel, click the **[!UICONTROL +]** button and type `*/parsys`.
     1. Click **[!UICONTROL Next]** and then click **[!UICONTROL OK]**.
 
 1. Click **[!UICONTROL Save All]**.
@@ -1519,4 +1519,3 @@ For this component you can set several parameters in both edit mode and design m
 1. In your browser, reload the **[!UICONTROL Products]** page. The whole page looks as follows:
 
    ![chlimage_1-9](assets/chlimage_1-9.jpeg)
-

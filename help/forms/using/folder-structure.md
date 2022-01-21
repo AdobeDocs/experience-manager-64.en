@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 7427858d-8eec-423d-a0a9-444140420620
+exl-id: 192c436d-a507-4883-bd68-a6863a6664e0
 ---
-
 # Understanding the folder structure {#understanding-the-folder-structure}
 
 AEM Forms workspace components are designed on MVC architecture using Backbone. Each component has a file for:
@@ -32,5 +32,3 @@ The assets for all the components are placed in the folder structure described b
 **services** Contains service interface to call Adobe Experience Manager server APIs on REST endpoint.
 
 **util** Contains generic utilities usable by multiple components.
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

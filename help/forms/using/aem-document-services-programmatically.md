@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: 32118d3b-54d0-4283-b489-780bdcbfc8d2
+exl-id: 443a49b1-467b-4bdd-ab28-89b20523db64
 ---
-
 # Using AEM Document Services Programmatically {#using-aem-document-services-programmatically}
 
 Client classes required to build Maven Projects using AEM Document Services are available in the [AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) jar. For information around maven projects, see [how to build your AEM project using Maven](/help/sites-developing/ht-projects-maven.md).
@@ -56,7 +56,7 @@ You can perform the following operations using the DocAssurance service:
 
 >[!NOTE]
 >
->All these services use Document object as  input  parameter for which the Javadoc can be found at the URL [https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/index.html](https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/index.html)
+>All these services use Document object as  input  parameter for which the Javadoc can be found at the URL [https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/index.html](https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/index.html)
 
 ### Adding an invisible signature field {#adding-an-invisible-signature-field}
 
@@ -1354,7 +1354,9 @@ A public key certificate contains a user's public key and identifying informatio
 
 In addition, certificate revocation lists (CRLs) provide information about certificates that were revoked prior to their expiration date. CRLs are published periodically by certificate authorities. The revocation status of a certificate can also be retrieved through Online Certificate Status Protocol (OCSP) over the network.
 
-***Note**:* *Before you can encrypt a PDF document with a certificate, you must ensure that you add the certificate to AEM Trust Store*.
+>[!NOTE]
+>
+>Before you can encrypt a PDF document with a certificate, you must ensure that you add the certificate to AEM Trust Store.
 
 **Applying usage rights to PDF documents**
 
@@ -1372,9 +1374,13 @@ PDF documents are signed by means of public-key technology. A signer has two key
 
 The public key is stored in the user's certificate that must be available to recipients to validate the signature. Information about revoked certificates is found in certificate revocation lists (CRLs) and Online Certificate Status Protocol (OCSP) responses distributed by Certificate Authorities (CAs). The time of signing can be obtained from a trusted source known as a Timestamping Authority.
 
-***Note**:* *Before you can digitally sign a PDF document, you must ensure that you add the credential in AEM Keystore. The credential is the private key used for signing*.
+>[!NOTE]
+>
+>Before you can digitally sign a PDF document, you must ensure that you add the credential in AEM Keystore. The credential is the private key used for signing.
 
-***Note:*** AEM Forms also supports *[CAdES](https://en.wikipedia.org/wiki/CAdES_%28computing%29)* specification for digitally signing PDF documents.
+>[!NOTE]
+>
+>AEM Forms also supports *[CAdES](https://en.wikipedia.org/wiki/CAdES_%28computing%29)* specification for digitally signing PDF documents.
 
 **Certifying PDF Documents**
 
@@ -1396,7 +1402,10 @@ At the time of signing, the document is scanned for specific types of content th
 
 For example, an annotation could obscure some text on a page that is important for understanding what is being certified. An explanation (legal attestation) can be provided about such content.
 
-***Note**: Before you can digitally sign a PDF document, you must ensure that you add the credential in AEM Keystore. The credential is the private key used for signing*.
+>[!NOTE]
+>
+>Before you can digitally sign a PDF document, you must ensure that you add the credential in AEM Keystore. The credential is the private key used for signing.
+
 
 **Syntax**: 
 
@@ -5026,4 +5035,3 @@ File createPDF(File inputFile, String inputFilename, String pdfSettings, String 
  }
 }
 ```
-

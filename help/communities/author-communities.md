@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: dc149196-fa56-494e-975c-b11ca1ef193b
+exl-id: 7118dbca-e9b4-4b69-b4c3-34bb52008168
 ---
-
 # Communities Components {#communities-components}
 
 ## Introduction {#introduction}
@@ -81,4 +81,3 @@ See also the interactive [Community Components guide](components-guide.md).
 * Visit [Administering Communities Sites](administer-landing.md) to learn about creating a community site, configuring community site templates, moderating community content, managing members, and configuring messaging.
 
 * Visit [Developing Communities](communities.md) to learn about the social component framework (SCF) and customizing Communities components and features.
-

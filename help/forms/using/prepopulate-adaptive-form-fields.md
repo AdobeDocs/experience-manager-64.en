@@ -7,6 +7,7 @@ uuid: 05d74a59-3950-4513-bfce-6ff3d9d5318c
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 2ddb33a5-0d62-46f4-8f8c-0f0807a975cb
+feature: Adaptive Forms
 ---
 
 # Prefill adaptive form fields {#prefill-adaptive-form-fields}
@@ -24,7 +25,7 @@ An adaptive form can have mix of bound and unbound fields. Bound fields are fiel
 You can prefill both bound and unbound fields of an adaptive form. The prefill data contains the afBoundData and afUnBoundData sections to prefill both bound and unbound fields of an adaptive form. The `afBoundData` section contains the prefill data for bound fields and panels. This data must be compliant with the associated form model schema:
 
 * For adaptive forms using the [XFA form template](/help/forms/using/prepopulate-adaptive-form-fields.md), use the prefill XML compliant with the data schema of the XFA template.
-* For adaptive forms using [XML schema](/help/forms/using/prepopulate-adaptive-form-fields.md#main-pars-header-3), use the prefill XML compliant with the XML schema structure.
+* For adaptive forms using [XML schema](#xml-schema-af), use the prefill XML compliant with the XML schema structure.
 * For adaptive forms using [JSON schema](/help/forms/using/prepopulate-adaptive-form-fields.md#json-schema-based-adaptive-forms), use the prefill JSON compliant with the JSON schema.
 * For adaptive forms using FDM schema, use the prefill JSON compliant with FDM schema.
 * For adaptive forms with [no form model](/help/forms/using/prepopulate-adaptive-form-fields.md#p-adaptive-form-with-no-form-model-p), there is no bound data. Every field is an unbound field and is prefilled using the unbound XML.

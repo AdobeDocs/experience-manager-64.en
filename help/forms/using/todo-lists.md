@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 2cb251a6-d8d0-4563-b0f0-2dca38037155
+exl-id: 0111d1f6-1780-40a2-b7d7-43930c4b96f7
 ---
-
 # Working with To-do lists {#working-with-to-do-lists}
 
 When you view your To-do lists, you may see tasks from a business process that are assigned to you, or to any groups that you belong to, or are the shared tasks of other users. You can open, work on, and complete the tasks as required, such as approving or rejecting a request or adding more information. After you complete a task, it is sent to the next person in the business process,
@@ -269,7 +269,9 @@ First, set your AEM Forms workspace preferences to receive email notifications. 
 
 The email messages may contain a link that opens the task in AEM Forms workspace, an attachment of the form that is used for the task, or actions for completing the task through email. If a form is included in the email message, you can open the form and complete the task if the buttons for completing the task are built in the form. If actions for completing the task are included in the email message, you can complete the task by clicking the actions in the email or by replying to the email with the action typed as the first line in the body of the email.
 
-**Note**: To configure the workspace to use the appropriate email templates, see the [AEM Forms JEE Administrator Guide](https://help.adobe.com/en_US/AEMForms/6.1/AdminHelp/).
+>[!NOTE]
+>
+>To configure the workspace to use the appropriate email templates, see the [AEM Forms JEE Administrator Guide](https://help.adobe.com/en_US/AEMForms/6.1/AdminHelp/).
 
 When you complete a task through email, the task is removed from your To-do list in AEM Forms workspace.
 
@@ -388,5 +390,3 @@ You can set a default person to which all of your tasks are sent. You can also s
    >The process designer may specify that tasks from some processes are always kept private and not forwarded to other users. This setting overrides any settings that you make.
 
 1. When you finish setting preferences, click **Save**. If your settings indicate that you are currently out of the office, your changes take effect immediately. Otherwise, they take effect at the specified start date and time. If you log in while you are out of the office, you are not considered in the office until you change your settings.
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

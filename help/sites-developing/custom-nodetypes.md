@@ -9,13 +9,13 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: aae186eb-e059-4a9d-b02d-86a86c86589d
+exl-id: 3611cfe5-a3bd-4f46-8949-8f13e1bceb4d
 ---
-
 # Custom Node Types{#custom-node-types}
 
 Because AEM is based on Sling and uses a JCR repository, node types offered by both of these are available for use:
 
-* [JCR Node Types](https://docs.adobe.com/content/docs/en/spec/jcr/2.0/3_Repository_Model.html#3.1.7%20Node%20Types)
+* [JCR Node Types](https://www.adobe.io/experience-manager/reference-materials/spec/jcr/2.0/3_Repository_Model.html#3.1.7%20Node%20Types)
 * [Sling Node Types](https://cwiki.apache.org/confluence/display/SLING/Sling+Node+Types)
 
 In addition to these. AEM provides a range of custom node types.
@@ -490,7 +490,7 @@ Poll configuration.
 
 **Definition**
 
-* `[cq:PollConfig] 
+* `[cq:PollConfig]`
     * `mixin`
     * `- source (String) mandatory`
     * `- target (String)`
@@ -519,7 +519,7 @@ A mixin that defines a geographic location in decimal degrees (DD).
 
 **Definition**
 
-* `[cq:GeoLocation]
+* `[cq:GeoLocation]`
     * `mixin`
     * `- latitude (double)`
     * `- longitude (double)`
@@ -546,7 +546,7 @@ MailerService nodetypes. The mailer uses nodes having this mixin as root nodes o
 
 **Description** 
 
-Defines a LiveRelationship mixin. A master node and a slave node can be virtually linked through a LiveRelationship.
+Defines a LiveRelationship mixin. A primary source (controlling) node and a live copy (controlled) node can be virtually linked through a LiveRelationship.
 
 **Definition**
 
@@ -559,9 +559,9 @@ Defines a LiveRelationship mixin. A master node and a slave node can be virtuall
 
 **Description** 
 
-Defines a LiveSync mixin. If a node is involved in a LiveRelationship with a master node as a slave, it is marked a LiveSync.
+Defines a LiveSync mixin. If a node is involved in a LiveRelationship with a primary source (controlling) node and a live copy (controlled) node, it is marked as a LiveSync.
 
-* `@prop cq:master` - Path of the master node of the LiveRelationship.
+* `@prop cq:master` - Path of the primary source (controlling) node of the LiveRelationship.
 * `@prop cq:isDeep` - Defines if the relationship is available for children.
 * `@prop cq:syncTrigger` - Defines when is triggered the sync.
 * `@node * LiveSyncAction` - Actions to perform on sync
@@ -576,7 +576,7 @@ Defines a LiveSync mixin. If a node is involved in a LiveRelationship with a mas
 
 **Description**
 
-Defines a LiveSyncCancelled mixin. Cancel the LiveSync behavior of a slave node which may be involded in a LiveRelationship owing to one of its parents.
+Defines a LiveSyncCancelled mixin. Cancel the LiveSync behavior of a live copy (controlled)  node which may be involded in a LiveRelationship owing to one of its parents.
 
 * `@prop cq:isCancelledForChildren` - Defines whether a LiveSync is cancelled; also for children.
 
@@ -655,7 +655,7 @@ Defines replication status information mixin.
 
 **Definition**
 
-* `[cq:ReplicationStatus]
+* `[cq:ReplicationStatus]`
     * `mixin`
     * `- cq:lastPublished (date) ignore`
     * `- cq:lastPublishedBy (string) ignore`
@@ -918,7 +918,7 @@ Tab panel
 
 **Definition**
 
-* `[cq:TabPanel] > cq:Panel orderable``
+* `[cq:TabPanel] > cq:Panel orderable`
     * `- activeTab (long)`
 
 ### cq:Field {#cq-field}

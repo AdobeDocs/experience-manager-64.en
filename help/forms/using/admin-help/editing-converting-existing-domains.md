@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 44dec184-3ef7-4ba6-a87f-ad171d3cb188
+exl-id: 07ca7715-f7b3-40e0-95bc-e05f0662ed08
 ---
-
 # Editing and converting existing domains{#editing-and-converting-existing-domains}
 
 You can change the settings for existing domains from the Domain Management page. You can also convert an existing enterprise domain to a hybrid domain.
@@ -43,4 +43,3 @@ You can change the settings for existing domains from the Domain Management page
 1. Click Convert to Enterprise Domain.
 1. Review the information that appears regarding user and group data and authentication of users, and click OK.
 1. Click Add Directory and configure the required directory information. (See [Adding directories or custom SPIs](/help/forms/using/admin-help/configuring-directories.md#adding-directories-or-custom-spis).)
-

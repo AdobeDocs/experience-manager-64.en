@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: 7e404b45-1302-4dd1-b3c9-3f47fedb5f94
+role: Admin
+exl-id: f40674c1-a1dd-41ef-8a19-82ece3103bcc
 ---
-
 # Connecting AEM Forms with Adobe LiveCycle {#connecting-aem-forms-with-adobe-livecycle}
 
 Adobe Experience Manager (AEM) LiveCycle connector enables seamless invocation of Adobe LiveCycle ES4 Document Services from within AEM web apps and workflows. LiveCycle provides a rich client SDK, which allows client applications to start LiveCycle services using Java APIs. AEM LiveCycle Connector simplifies using these APIs within the OSGi environment.
@@ -152,7 +153,7 @@ ServiceClientFactory scf = scfProvider.getDefaultServiceClientFactory();
 
 Almost every Document Service in LiveCycle requires authentication. You can use any of the following options to start these services without providing explicit credentials in the code:
 
-### Whitelist configuration {#whitelist-configuration}
+### Whitelist configuration {#allowlist-configuration}
 
 LiveCycle Client SDK configuration contains a setting about service names. This configuration is a list of services for which the invocation logic uses administrator credential out of the box. For example, if you add DirectoryManager services (part of User Management API) to this list, any client code can directly use the service and the invocation layer automatically passes on the configured credentials as part of the request sent to the LiveCycle server
 
@@ -485,5 +486,3 @@ The following services are available:
   <version>11.0.0</version>
 </dependency>
 ```
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

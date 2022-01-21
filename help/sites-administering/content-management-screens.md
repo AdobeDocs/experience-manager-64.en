@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: 014b5fdd-6522-4394-87bb-fe264492ba34
+exl-id: d48f9f7e-bbb8-43d4-9796-029e3fca88ce
 ---
-
 # Content Management for Screens{#content-management-for-screens}
 
 A ***Content Manager*** for AEM Screens is a creative professional who works closely with marketing and knows the campaign, audience, and the desired focus. The content manager is responsible for creating and orchestrating end-user experience by developing different channels and assigning sequences into a timed channel experience.
@@ -23,4 +23,3 @@ An AEM Screens content manager is responsible for the following tasks:
 * Design Schedules
 * Maintain Channel Integrity
 * Video Profiles
-

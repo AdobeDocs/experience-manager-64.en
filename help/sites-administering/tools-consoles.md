@@ -1,16 +1,12 @@
 ---
 title: Tools Consoles
-seo-title: Tools Consoles
-description: Learn about the different tools consoles throughout AEM.
-seo-description: Learn about the different tools consoles throughout AEM.
-uuid: d01382f8-0c8f-4d76-9271-bed9e34b3b4b
+description: Learn about the different tools consoles throughout Adobe Experience Manager.
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 2bf8496d-a485-4b39-a6c9-07222b66d0cd
+exl-id: 7566e1bc-8571-4b3c-b420-4324026bd4dd
 ---
-
 # Tools Consoles{#tools-consoles}
 
 The **Tools** consoles provide access to a number of specialized tools that help you administer your websites, digital assets and other aspects of your content repository. There are currently two flavors of the **Tools** console dependent on the UI you are using:
@@ -340,4 +336,3 @@ The **Tools** consoles provide access to a number of specialized tools that help
 >[!NOTE]
 >
 >Some of the above options actually link to the classic UI.
-

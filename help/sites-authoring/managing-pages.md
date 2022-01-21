@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: a727c57c-87a9-46c2-8d9b-1348f1ed8ac4
+exl-id: 0182155a-0156-458c-b89b-35ab3e27819e
 ---
-
 # Creating and Organizing Pages{#creating-and-organizing-pages}
 
 This section describes how to create and manage pages with Adobe Experience Manager (AEM) so that you can then [create content](/help/sites-authoring/editing-content.md) on those pages.
@@ -371,13 +371,17 @@ AEM offers you the functionality to update any internal links that refer to the 
    >
    >As a security precaution, **the Delete** page icon is not available as a quick action.
 
-1. A dialog will ask for confirmation, use:
+1. A dialog will ask for confirmation.
 
+     * **Do you want to archive pages before deletion?** - If checked, versions of the pages selected for deletion will be created upon deletion.
+       * [Versions can be restored at a later date.](/help/sites-authoring/working-with-page-versions.md)
+       * Pages deleted without previous versions can not be restored.
+       * This option is only available from AEM version 6.4.7.0.
     * **Cancel** to abort the action
     * **Delete** to confirm the action:
 
-        * If the page has no references, the page will be deleted.
-        * If the page has references, a message box will inform you that **One or more pages are referenced.** You can select **Force Delete** or **Cancel**.
+      * If the page has no references, the page will be deleted.
+      * If the page has references, a message box will inform you that **One or more pages are referenced.** You can select **Force Delete** or **Cancel**.
 
 >[!NOTE]
 >
@@ -411,4 +415,3 @@ You can create folders to help organize your files and pages.
    ![chlimage_1-14](assets/chlimage_1-14.png)
 
 1. Select **Create** to create the folder.
-

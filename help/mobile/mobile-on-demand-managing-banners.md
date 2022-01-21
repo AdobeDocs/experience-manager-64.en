@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
 discoiquuid: fb1abaa0-9c02-4f20-aa7c-073def067452
+exl-id: 516a052d-dfe7-42fd-be38-397e92868814
 ---
-
 # Managing Banners{#managing-banners}
 
 >[!NOTE]

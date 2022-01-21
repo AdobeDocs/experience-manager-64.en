@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: process-reporting
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6320c632-c7ec-4e56-9d12-cd27e3e9306e
+exl-id: 21f5fb7e-53b3-485d-9b6a-813182f14781
 ---
-
 # Pre-defined reports in Process Reporting {#pre-defined-reports-in-process-reporting}
 
 AEM Forms Process Reporting ships with the following *out-of-the-box* reports:
@@ -43,11 +43,11 @@ The Long Running Processes report displays the AEM Forms processes that have tak
 
 1. Click **Go** to execute the report.
 
-   The report displays in the **Report **panel on the right of the **Process Reporting** window.
+   The report displays in the **Report** panel on the right of the **Process Reporting** window.
 
    ![long_running_processes](assets/long_running_processes.png)
 
-   Use the options in the upper right corner of the **Report **panel to perform the following operations on the report.
+   Use the options in the upper right corner of the **Report** panel to perform the following operations on the report.
 
     * **Refresh**: Refreshes the report with latest data lying in the storage
     * **Change legend color**: Select and change the color of the report legend
@@ -116,5 +116,3 @@ The Workflow Volume report displays the number of currently running and complete
     * **Refresh**: Refreshes the report with latest data lying in the storage
     * **Change legend color**: Select and change the color of the report legend
     * **Export to CSV**: Export and download the data from the report to a comma-separated file
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

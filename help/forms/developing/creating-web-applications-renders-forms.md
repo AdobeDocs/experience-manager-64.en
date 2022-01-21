@@ -1,8 +1,8 @@
 ---
 title: Creating Web Applications thatRenders Forms
 seo-title: Creating Web Applications thatRenders Forms
-description: null
-seo-description: null
+description: Create a web-based application that uses Java servlets to invoke the Forms service and render forms. The Java servlet serves as the link between the Forms service that returns a form and a client web browser.
+seo-description: Create a web-based application that uses Java servlets to invoke the Forms service and render forms. The Java servlet serves as the link between the Forms service that returns a form and a client web browser.
 uuid: 00de10c5-79bd-4d8a-ae18-32f1fd2623bf
 contentOwner: admin
 content-type: reference
@@ -10,8 +10,9 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: f29b089e-8902-4744-81c5-15ee41ba8069
+role: Developer
+exl-id: f77796ff-f5c9-455f-8616-fa590db7fdbe
 ---
-
 # Creating Web Applications that Renders Forms {#creating-web-applications-thatrenders-forms}
 
 ## Creating Web Applications that Renders Forms {#creating-web-applications-that-renders-forms}
@@ -112,8 +113,7 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 >[!NOTE]
 >
->For information about creating the HTML page that invokes the `RenderFormFragment` Java servlet, see 
-[Creating the web page](/help/forms/developing/rendering-forms.md#creating-the-web-page).
+>For information about creating the HTML page that invokes the `RenderFormFragment` Java servlet, see [Creating the web page](/help/forms/developing/rendering-forms.md#creating-the-web-page).
 
 ### Creating Java application logic for the servlet {#creating-java-application-logic-for-the-servlet}
 
@@ -390,4 +390,3 @@ After you deploy the web application, you can test it by using a web browser. As
 * http://localhost:8080/FragmentsWebApplication/index.html
 
   Select a radio button and click the Submit button. A Form that is based on fragments will appear in the web browser. If problems occur, see the J2EE application server’s log file.
-

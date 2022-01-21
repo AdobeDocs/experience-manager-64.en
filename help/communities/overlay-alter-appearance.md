@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: da3891d3-fa07-4c88-b4ac-077926b3a674
+exl-id: 01a20578-56c3-41b3-8a0e-281104af2481
 ---
-
 # Alter the Appearance {#alter-the-appearance}
 
 ## Modify the Script {#modify-the-script}
@@ -61,5 +61,4 @@ If you login to the publish instance as an administrator, e.g., http://localhost
 
 If you logout and re-login as `aaron.mcdonald@mailinator.com/password` and refresh the page, you will observe that the posted comment no longer displays with an avatar, instead a simple 'xxx' is displayed.
 
-![chlimage_1-43](assets/chlimage_1-43.png) 
-
+![chlimage_1-43](assets/chlimage_1-43.png)

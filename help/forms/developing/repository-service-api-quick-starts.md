@@ -1,16 +1,17 @@
 ---
 title: Repository Service API Quick Starts
 seo-title: Repository Service API Quick Starts
-description: null
-seo-description: null
+description: Use the AEM Forms Repository service to create a folder, write  a resource, list resources, reading a resource, update a resource, search for resources, create relationships between resources, locking a resource, managing access control lists, and delete a resource.
+seo-description: Use the AEM Forms Repository service to create a folder, write  a resource, list resources, reading a resource, update a resource, search for resources, create relationships between resources, locking a resource, managing access control lists, and delete a resource.
 uuid: 9c307e6e-d9a4-4021-8493-9f28a745dedb
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 2fd1a21a-0f90-49d8-9f62-383b268d540d
+role: Developer
+exl-id: 859a2b57-df90-4030-9061-c454d07cb753
 ---
-
 # Repository Service API Quick Starts {#repository-service-api-quick-starts}
 
 The following Quick Starts are available for the AEM Forms Repository service.
@@ -53,7 +54,7 @@ The path to a resource located in the AEM Forms repository is:
 
 >[!NOTE]
 >
->Applications/FormsApplication does not exist by default. To follow along with the quick starts, create this application by using Workbench. For information about creating an application using Workbench, see [Getting started with process design](https://help.adobe.com/en_US/livecycle/11.0/WorkbenchHelp/WS92d06802c76abadb-1cc35bda128261a20dd-7fc4.html).
+>Applications/FormsApplication does not exist by default. To follow along with the quick starts, create this application by using Workbench. For information about creating an application using Workbench, see [Getting started with process design](http://www.adobe.com/go/learn_aemforms_workbench_64).
 
 ## Quick Start (SOAP mode): Creating a folder using the Java API {#quick-start-soap-mode-creating-a-folder-using-the-java-api}
 
@@ -1206,4 +1207,3 @@ The following Java code example deletes Loan.xdp from `Applications/FormsApplica
   
  
 ```
-

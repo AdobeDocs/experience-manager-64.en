@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: a7be7d33-9d06-4d07-b7a0-e23251e26cb8
+exl-id: 706ffc8b-3004-4413-aeb5-d97c0da78040
 ---
-
 # The next release...{#the-next-release}
 
 Implementation of a project is rarely the end of the process. A subsequent release is (nearly) always foreseen, and can even start during the final stages of the current implementation.

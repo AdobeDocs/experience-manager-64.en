@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: 56f36dcf-8fbd-43f8-bf74-e88d5b686160
+feature: Configuring
+exl-id: 357d5f23-3e75-44e3-905f-4efe960858bf
 ---
-
 # Version Purging{#version-purging}
 
 In a standard installation AEM creates a new version of a page or node when you activate a page after updating the content.
@@ -93,7 +94,7 @@ The following options are available:
 
 >[!NOTE]
 >
->It is not recommended to keep a large number of versions in the repository. So, when configuring the version purge operation be mindful not exclude too many versions from the purge otherwise the repository size will not be properly optimized. If you keep a large number versions due to a business requierment please contact Adobe support to find alternative ways of optimizing the repository size.
+>It is not recommended to keep a large number of versions in the repository. So, when configuring the version purge operation be mindful not exclude too many versions from the purge otherwise the repository size will not be properly optimized. If you keep a large number versions due to a business requirement please contact Adobe support to find alternative ways of optimizing the repository size.
 
 ### Combining Retention Options {#combining-retention-options}
 

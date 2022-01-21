@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: 0e842725-57be-4a16-b972-f5677eaad8cb
+exl-id: dcd54a52-f610-4c68-8547-39562c062d84
 ---
-
 # Managing Audiences{#managing-audiences}
 
 The Audiences console enables you to create, organize, and manage audiences for your Adobe Target account or manage segments for ContextHub or Client Context:
@@ -84,13 +84,13 @@ You can create targeting rules for each of the following attributes:
 
 | **Attribute** |**Description** |**For more information** |
 |---|---|---|
-| **Mobile** |Target mobile devices based on parameters such as mobile device, type of device, device vendor, screen dimensions (by pixels), and more. |See [Mobile documentation](https://marketing.adobe.com/resources/help/en_US/target/target/c_mobile.html) at Adobe Target. |
-| **Custom** |Custom parameters are mbox parameters. If you pass any mbox parameters to mboxes, or use the targetPageParams function, those parameters appear here for use in audiences. |See [Custom Parameters documentation](https://marketing.adobe.com/resources/help/en_US/target/target/c_custom_parameters.html) at Adobe Target. |
+| **Mobile** |Target mobile devices based on parameters such as mobile device, type of device, device vendor, screen dimensions (by pixels), and more. |See [Mobile documentation](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/categories-audiences/mobile.html) at Adobe Target. |
+| **Custom** |Custom parameters are mbox parameters. If you pass any mbox parameters to mboxes, or use the targetPageParams function, those parameters appear here for use in audiences. |See [Custom Parameters documentation](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/categories-audiences/custom-parameters.html) at Adobe Target. |
 | **OS** |You can target visitors who use a certain operating system. |Target users who are using Linux, Macintosh, or Windows. |
-| **Site Pages** |Target visitors who are on a specific page or have a specific mbox parameter. |See [Site Pages documentation](https://marketing.adobe.com/resources/help/en_US/target/target/c_site_pages.html) at Adobe Target. |
-| **Browser** |You can target users who use a specific browser or specific browser options when they visit your page. |See [Browser options documentation](https://marketing.adobe.com/resources/help/en_US/target/target/c_browser_options.html)at Adobe Target. |
-| **Visitor Profile** |Target visitors who meet specific profile parameters. |See [Visitor Profile documentation](https://marketing.adobe.com/resources/help/en_US/target/target/c_visitor_profile.html) at Adobe Target. |
-| **Traffic Sources** |Target visitors based on the search engine or landing page that refers them to your site. |See [Traffic Sources documentation](https://marketing.adobe.com/resources/help/en_US/target/target/c_traffic_sources.html) at Adobe Target. |
+| **Site Pages** |Target visitors who are on a specific page or have a specific mbox parameter. |See [Site Pages documentation](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/categories-audiences/site-pages.html) at Adobe Target. |
+| **Browser** |You can target users who use a specific browser or specific browser options when they visit your page. |See [Browser options documentation](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/categories-audiences/browser.html)at Adobe Target. |
+| **Visitor Profile** |Target visitors who meet specific profile parameters. |See [Visitor Profile documentation](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html) at Adobe Target. |
+| **Traffic Sources** |Target visitors based on the search engine or landing page that refers them to your site. |See [Traffic Sources documentation](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/categories-audiences/traffic-sources.html) at Adobe Target. |
 
 ## Modifying an Audience in the Audiences Console {#modifying-an-audience-in-the-audiences-console}
 
@@ -103,4 +103,3 @@ You can edit any ContextHub or Client Context audience from the Audiences consol
 1. In the Navigation console, click or tap **Personalization**. Click or tap **Audiences**.
 1. Tap or click the icon next to the ContextHub or Client Context segment you want to edit, and tap or click **Edit**.
 1. Make any edits in the segment editor. See [Client Context](/help/sites-administering/campaign-segmentation.md) or [ContextHub](/help/sites-administering/contexthub-config.md) documentation.
-

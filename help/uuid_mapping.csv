@@ -486,7 +486,6 @@ Original HelpX Location,UUID,Transformed Markdown File
 /content/help/en/experience-manager/6-4/sites-deploying/configuring-web-console,047274ff-4d7d-4c7d-95be-06f363beae2e,experience-manager/6-4/sites-deploying/configuring-web-console.md
 /content/help/en/experience-manager/6-4/sites-deploying/sustainable-upgrades,59d64af5-6ee0-40c8-b24a-c06848f70daa,experience-manager/6-4/sites-deploying/sustainable-upgrades.md
 /content/help/en/experience-manager/6-4/sites-deploying/command-line-start-and-stop,585f071c-2286-4a2c-af07-404bf298cba8,experience-manager/6-4/sites-deploying/command-line-start-and-stop.md
-/content/help/en/experience-manager/6-4/sites-deploying/assets-performance-sizing,8291c5b9-c543-41cf-8754-445826200930,experience-manager/6-4/sites-deploying/assets-performance-sizing.md
 /content/help/en/experience-manager/6-4/sites-deploying/lazy-content-migration,9c84f7fe-31d3-4b63-8975-9e75a6c44b7d,experience-manager/6-4/sites-deploying/lazy-content-migration.md
 /content/help/en/experience-manager/6-4/sites-deploying/single-sign-on,b8dcb28e-4604-4da5-b8dd-4e1e2cbdda18,experience-manager/6-4/sites-deploying/single-sign-on.md
 /content/help/en/experience-manager/6-4/sites-deploying/expiration-static-objects,ee019a3d-4133-4d40-98ec-e0914b751fb3,experience-manager/6-4/sites-deploying/expiration-static-objects.md
@@ -1360,7 +1359,6 @@ Original HelpX Location,UUID,Transformed Markdown File
 /content/help/en/experience-manager/6-4/sites-deploying/monitoring-and-maintaining,371791ab-2ea3-4d77-9db5-e1672c6b0831,experience-manager/6-4/sites-deploying/monitoring-and-maintaining.md
 /content/help/en/experience-manager/6-4/sites-deploying/revision-cleanup,321f5038-44b0-4f1e-a1aa-2d29074eed70,experience-manager/6-4/sites-deploying/revision-cleanup.md
 /content/help/en/experience-manager/6-4/sites-deploying/aem-with-mongodb,51c463aa-d467-4857-8fff-e5f81d694145,experience-manager/6-4/sites-deploying/aem-with-mongodb.md
-/content/help/en/experience-manager/6-4/sites-deploying/assets-repository-restructuring-in-aem-6-4,0e3d8163-6274-4d1b-91c7-32ca927fb83c,experience-manager/6-4/sites-deploying/assets-repository-restructuring-in-aem-6-4.md
 /content/help/en/experience-manager/6-4/sites-deploying/hybris,a16ae42b-9c33-4da8-a130-52b72a779ec7,experience-manager/6-4/sites-deploying/hybris.md
 /content/help/en/experience-manager/6-4/sites-deploying/best-practices,4546ed2c-43d5-40f3-874f-567b324e78c2,experience-manager/6-4/sites-deploying/best-practices.md
 /content/help/en/experience-manager/6-4/sites-deploying/scaling,de44d48a-e5f7-471f-841d-fb4a4e8670c3,experience-manager/6-4/sites-deploying/scaling.md

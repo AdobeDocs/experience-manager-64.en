@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: 8b96ba2d-007e-472a-875f-2caedd35ecf4
+exl-id: ccc291fc-f4c5-4d14-816a-c57f56a95663
 ---
-
 # Output Service {#output-service}
 
 ## Overview {#overview}

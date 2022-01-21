@@ -1,16 +1,18 @@
 ---
 title: Lightbox
-description: Learn about Lightbox in AEM Assets.
+description: Learn about Lightbox in [!DNL Experience Manager] Assets.
 contentOwner: AG
+feature: Developer Tools,Renditions
+role: User,Admin
+exl-id: acb61924-9b71-474a-833d-e441c0b83cc7
 ---
-
 # Lightbox {#lightbox}
 
-Learn about Lightbox in AEM Assets.
+Learn about Lightbox in [!DNL Experience Manager] Assets.
 
 Lightbox is a special type of collection that provides easy access to assets. You can quickly access Lightbox to add or delete assets. It serves as your personal image gallery.
 
-If you are an Adobe Experience Manager (AEM) Assets user, Lightbox is automatically created when you first log in to the application. It is exclusive to your login. Other users cannot access your Lightbox.
+If you are an Adobe Experience Manager Assets user, Lightbox is automatically created when you first log in to the application. It is exclusive to your login. Other users cannot access your Lightbox.
 
 ## Adding assets to lightbox {#adding-assets-to-lightbox}
 
@@ -33,4 +35,3 @@ If you are an Adobe Experience Manager (AEM) Assets user, Lightbox is automatica
 1. Select the assets you want to remove.
 1. From the toolbar, tap/click **[!UICONTROL Remove]**.
 1. In the dialog, tap/click **[!UICONTROL Remove]** to confirm the delete action. The assets are deleted from Lightbox.
-

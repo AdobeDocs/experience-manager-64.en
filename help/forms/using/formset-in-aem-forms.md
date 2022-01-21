@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: d90f80e7-0c5d-4c56-93a2-c3888b1cbf30
+feature: Mobile Forms
+exl-id: 0d52400a-5a04-4e0b-8fc2-b8d1799f1c08
 ---
-
 # Form set in AEM Forms {#form-set-in-aem-forms}
 
 ## Overview {#overview}
@@ -375,4 +376,3 @@ The following data patterns are not fully supported in Form set:
   </tr> 
  </tbody> 
 </table>
-

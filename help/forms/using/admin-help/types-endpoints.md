@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 8fe572e0-8a53-4129-940f-3fdb990073fe
+exl-id: 7c6b9b6c-d4b5-46a8-8a6a-3b8802ac392d
 ---
-
 # Types of endpoints {#types-of-endpoints}
 
 Before a service can be used, you must configure and enable an endpoint. An endpoint specifies how a service is to be invoked.
@@ -39,4 +39,4 @@ The following types of endpoints can be added to services. Not all services supp
 
 **REST:** Processes created in Workbench can be configured so that you can invoke them through Representational State Transfer (REST) requests. REST requests are sent from HTML pages. That is, you can invoke a AEM forms process directly from a web page using a REST request.
 
-The Email, TaskManager, Watched Folder, and Remoting endpoints expose only a specific operation of the service. Adding these endpoints requires a second configuration step to select a method to invoke the service, setting configuration parameters, and specifying input and output parameter mappings. 
+The Email, TaskManager, Watched Folder, and Remoting endpoints expose only a specific operation of the service. Adding these endpoints requires a second configuration step to select a method to invoke the service, setting configuration parameters, and specifying input and output parameter mappings.

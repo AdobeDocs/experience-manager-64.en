@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: f453427d-c813-48b7-b2f9-adadea39c67d
+exl-id: 533c348e-517f-4d70-a89c-bfc87f71a633
 ---
-
 # The CSRF Protection Framework{#the-csrf-protection-framework}
 
 In addition to the Apache Sling Referrer Filter, Adobe also provides a new CSRF Protection Framework to protect against this type of attack.

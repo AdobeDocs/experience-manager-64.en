@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: e5dd9d0d-6d67-4430-aeb3-2be91356f624
+exl-id: 6f131247-d35e-4298-958f-35b94ff08c58
 ---
-
 # AEM Foundation & Repository {#aem-foundation-repository}
 
 ## List of changes {#list-of-changes}
@@ -117,4 +117,3 @@ discoiquuid: e5dd9d0d-6d67-4430-aeb3-2be91356f624
 
 * Touch UI based Workflow Editor to manage workflow models in a more streamlined manner.
 * Support for project task purge in maintenance tasks.
-

@@ -10,8 +10,8 @@ topic-tags: mobile-web
 content-type: reference
 discoiquuid: 20a0b2a8-7347-4875-a202-9cedd8e187ff
 legacypath: /content/docs/en/aem/6-0/develop/mobile
+exl-id: a8005a0a-b90e-465c-8521-780d21d72e55
 ---
-
 # Mobile Web{#mobile-web}
 
 >[!NOTE]

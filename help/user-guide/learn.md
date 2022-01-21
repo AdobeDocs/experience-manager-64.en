@@ -5,8 +5,8 @@ description: An description of the essential capabilities of AEM 6.4
 seo-description: An description of the essential capabilities of AEM 6.4
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
+exl-id: 5cb966c3-1e19-47c8-a691-067f6d4680c0
 ---
-
 # Learn About AEM 6.4 Capabilities {#learn-about-aem-64-capabilities}
 
 ## AEM Sites {#aem-sites}
@@ -34,7 +34,7 @@ AEM Forms combine form authoring, management, and publishing along with correspo
 
 ## AEM Screens {#aem-screens}
 
-Screens is an Adobe Experience Manager capability that allows you to publish dynamic and interactive digital experiences and interactions involving different types of screens in conjunction with a comprehensive digital marketing platform.  [Learn more.](/help/screens/home.md)
+Screens is an Adobe Experience Manager capability that allows you to publish dynamic and interactive digital experiences and interactions involving different types of screens in conjunction with a comprehensive digital marketing platform.  [Learn more.](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html)
 
 ## AEM Communities {#aem-communities}
 

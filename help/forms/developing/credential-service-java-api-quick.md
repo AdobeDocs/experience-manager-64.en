@@ -1,16 +1,17 @@
 ---
 title: Credential Service Java API QuickStart(SOAP)
 seo-title: Credential Service Java API QuickStart(SOAP)
-description: null
-seo-description: null
+description: Use the Credential Service Java API to import and delete credentials.
+seo-description: Use the Credential Service Java API to import and delete credentials.
 uuid: a00eabfa-3a52-41dd-bcba-c60d00394384
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: b624e255-ae71-4d9c-8554-d48f3e77b799
+role: Developer
+exl-id: a81b2360-9d17-46c7-9443-51b366b0724a
 ---
-
 # Credential Service Java API Quick Start (SOAP) {#credential-service-java-api-quickstart-soap}
 
 Java API Quick Start(SOAP) is available for the Credential service.
@@ -21,9 +22,13 @@ Java API Quick Start(SOAP) is available for the Credential service.
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick starts located in Programming with AEM forms are based on the FormsServer being deployed on JBoss and the Windows operating system. However, if you are using another operating system, such as Unix, replace Windows-specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)*
+>[!NOTE]
+>
+>Quick starts located in Programming with AEM forms are based on the FormsServer being deployed on JBoss and the Windows operating system. However, if you are using another operating system, such as Unix, replace Windows-specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
 
-***Note**: You cannot perform Credential service operations using web services.*
+>[!NOTE]
+>
+>You cannot perform Credential service operations using web services.
 
 ## Quick Start (SOAP mode): Importing credentials using the Java API {#quick-start-soap-mode-importing-credentials-using-the-java-api}
 
@@ -218,4 +223,3 @@ The following code example deletes a credential based on an alias value *secure*
  } 
  
 ```
-

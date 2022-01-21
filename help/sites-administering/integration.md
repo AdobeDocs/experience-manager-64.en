@@ -9,15 +9,14 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: b5ff918d-08ab-4307-a807-693468fc083b
+exl-id: 1ee7ccbd-8654-4d03-8a67-2c41863ae951
 ---
-
 # Solutions Integration{#solutions-integration}
 
 * [Integrating with the Adobe Marketing Cloud](/help/sites-administering/marketing-cloud.md)
 * [Integrating with Third-Party Services](/help/sites-administering/third-party-services.md)
 * [Analytics with External Providers](/help/sites-administering/external-providers.md)
 * [Catalog Producer](/help/sites-administering/catalog-producer.md)
-* [Configuring AEM Assets integration with Marketing Cloud and Creative Cloud](/help/sites-administering/configure-assets-cc-integration.md)
 * [SharePoint Connector](/help/sites-administering/sharepoint-connector.md)
 
 The following information is available about integrating AEM with other Adobe or third-party services:
@@ -29,4 +28,3 @@ The following information is available about integrating AEM with other Adobe or
 >* 3.x is configured with [http://localhost:4502/system/console/configMgr/com.day.commons.httpclient](http://localhost:4502/system/console/configMgr/com.day.commons.httpclient)
 >* 4.x is configured with [http://localhost:4502/system/console/configMgr/org.apache.http.proxyconfigurator](http://localhost:4502/system/console/configMgr/org.apache.http.proxyconfigurator)
 >
-

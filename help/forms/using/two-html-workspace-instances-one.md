@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 1254a7c2-2c67-4661-803e-afd53e817916
+exl-id: ef2ad8e1-5007-4587-97ca-cf21070be9a6
 ---
-
 # Hosting two AEM Forms workspace instances on one server {#hosting-two-aem-forms-workspace-instances-on-one-server}
 
 The default installation and settings of AEM Forms allow for only one AEM Forms workspace to be available on the server. However, you may need to host two different instances of AEM Forms workspace on a single AEM Forms server. The two instances are accessbile by different URLs.
@@ -88,5 +88,3 @@ Follow these steps to configure AEM Forms workspace.
 1. In properties of `ws2`, change value of `sling:redirect` to `content/ws2`.  
 
 1. Change value of `sling:match` to `^[^/\||]/[^/\||]/ws2$`.
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

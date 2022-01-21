@@ -1,16 +1,17 @@
 ---
 title: Output Service Java API Quick Start(SOAP)
 seo-title: Output Service Java API Quick Start(SOAP)
-description: null
-seo-description: null
+description: Use the Output service Java API Quick Start (SOAP) to create a PDF document, create a PDF document based on application XDP file, create a PDF/A document, pass documents to the Output service, pass a document located in the AEM Forms repository to the Output service, create a PDF document based on fragments, printing to a file, sending a print stream to a network printer, create multiple PDF files, create search rules, transform a PDF document.
+seo-description: Use the Output service Java API Quick Start (SOAP) to create a PDF document, create a PDF document based on application XDP file, create a PDF/A document, pass documents to the Output service, pass a document located in the AEM Forms repository to the Output service, create a PDF document based on fragments, printing to a file, sending a print stream to a network printer, create multiple PDF files, create search rules, transform a PDF document.
 uuid: 34cb1fc7-50a9-4db8-aed1-dbd3480d1323
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: f4415aeb-5c1b-4087-b60f-b2ea952c52b5
+role: Developer
+exl-id: 56ec125c-b759-4e97-98c6-bae786a712b9
 ---
-
 # Output Service Java API Quick Start (SOAP) {#output-service-java-api-quick-start-soap}
 
 Java API Quick Start(SOAP) is available for the Output service.
@@ -39,7 +40,10 @@ Java API Quick Start(SOAP) is available for the Output service.
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-* ***Note**: Quick Starts located in Programming with AEM forms are based on the Forms Server operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)*
+>[!NOTE]
+>
+>Quick Starts located in Programming with AEM forms are based on the Forms Server operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties)
+
 
 ## Quick Start (SOAP mode): Creating a PDF document using the Java API {#quick-start-soap-mode-creating-a-pdf-document-using-the-java-api}
 
@@ -1603,4 +1607,3 @@ The following Java code example transforms an interactive PDF document named *Lo
  } 
  
 ```
-

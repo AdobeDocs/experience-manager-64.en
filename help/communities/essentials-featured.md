@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 781625f1-39a0-4e34-948c-d4eab35dd5c1
+exl-id: 4805db0f-18d2-4bbc-a4d6-eaafa7a4c152
 ---
-
 # Featured Content Essentials {#featured-content-essentials}
 
 This page provides the essential information for working with featured content.

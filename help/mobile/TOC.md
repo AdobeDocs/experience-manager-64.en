@@ -1,8 +1,12 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: adobe experience manager
 audience: end-user
 user-guide-title: AEM 6.4 Mobile User Guide
+breadcrumb-title: Mobile Guide
+user-guide-description: Create and manage content for mobile apps.
+feature: Mobile
+role: User
 ---
 
 # AEM 6.4 Mobile User Guide {#mobile}
@@ -73,7 +77,7 @@ user-guide-title: AEM 6.4 Mobile User Guide
   + [Page Templates for Mobile Apps](phonegap-apps-arch-page-templates.md)
   + [Configuring Adobe Target Cloud Service](aem-mobile-configuring-cloud-service.md)
   + [Single Page Applications](phonegap-single-page-applications.md)
-  + [Models in Repository](administer-mobile-apps.md)
+  + [Models in Repository](https://experienceleague.adobe.com/docs/experience-manager-64/mobile/administering/administer-mobile-apps.html)
   + [Starting AEM PhoneGap](starting-aem-phonegap-app.md)
   + [Testing Mobile Apps](develop-mobile-apps-testing.md)
   + [Structure an App](phonegap-structure-an-app.md)

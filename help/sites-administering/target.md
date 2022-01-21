@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 454854f8-6053-406c-888d-f427777bf570
+exl-id: 10c40e33-e62f-451f-b5d4-e34081f4340e
 ---
-
 # Integrating with Adobe Target{#integrating-with-adobe-target}
 
 As part of the Adobe Marketing Cloud, [Adobe Target](http://www.adobe.com/ro/solutions/testing-targeting/testandtarget.html) lets you increase content relevance through targeting and measuring across all channels. Adobe Target is used by marketers to design and execute online tests, create on-the-fly audience segments (based on behavior) and automate the targeting of content and online experiences. AEM has adopted the targeting workflow that is used in Adobe Target Standard. If you use Target, you will be familiar with the targeting editing environment in AEM.
@@ -61,7 +61,7 @@ When the integration is complete, you can [author targeted content](/help/sites-
 
 Integrating AEM with Adobe Target requires knowlege of Adobe Target, AEM Activities management, and AEM Audiences management. You should be familiar with the following information:
 
-* Adobe Target (See the [Adobe Target documentation](https://marketing.adobe.com/resources/help/en_US/target/)).
+* Adobe Target (See the [Adobe Target documentation](https://docs.adobe.com/content/help/en/target/using/target-home.html)).
 * AEM Activities console (See [Managing Activities](/help/sites-authoring/activitylib.md)).
 * AEM Audiences (See [Managing Audiences](/help/sites-authoring/managing-audiences.md)).
 
@@ -74,4 +74,3 @@ Integrating AEM with Adobe Target requires knowlege of Adobe Target, AEM Activit
 >* 50 metrics
 >* 50 reporting segments
 >
-

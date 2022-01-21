@@ -1,16 +1,17 @@
 ---
 title: Form Data Integration Service JavaAPI Quick Start(SOAP)
 seo-title: Form Data Integration Service JavaAPI Quick Start(SOAP)
-description: null
-seo-description: null
+description:  Use the Form Data Integration service to import data into a PDF form and export data from a PDF form using the Java API.
+seo-description:  Use the Form Data Integration service to import data into a PDF form and export data from a PDF form using the Java API.
 uuid: bde8e83d-56d3-4331-a025-82b327c219b7
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 91b738ec-aa00-4f05-bf42-2574ced8d993
+role: Developer
+exl-id: c60ef25a-26a0-4421-b635-ced54baa324d
 ---
-
 # Form Data Integration Service Java API Quick Start (SOAP) {#form-data-integration-service-javaapi-quick-start-soap}
 
 The following Quick Starts are available for the Form Data Integration service.
@@ -21,7 +22,9 @@ The following Quick Starts are available for the Form Data Integration service.
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick Start located in Programming with AEM forms are based on the Forms Server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)*
+>[!NOTE]
+>
+>Quick Start located in Programming with AEM forms are based on the Forms Server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
 
 ## Quick Start (SOAP mode): Importing form data using the Java API {#quick-start-soap-mode-importing-form-data-using-the-java-api}
 
@@ -221,4 +224,3 @@ The following Java code example exports data from a PDF form. The form data is s
      } 
  }
 ```
-

@@ -1,7 +1,7 @@
 ---
 title: Workflow Step Reference
 seo-title: Workflow Step Reference
-description: null
+description: Workflow Step Reference
 seo-description: null
 uuid: 72a64495-d1b1-49e7-8257-d6b2ed36961c
 contentOwner: User
@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 25f0e0f7-9570-4748-81cb-ccec6492c0b4
+exl-id: dfa39c6c-7a1a-4aa4-a72d-caa5e3ebf4a8
 ---
-
 # Workflow Step Reference{#workflow-step-reference}
 
 Workflow models consist of a series of steps of various types. According to the type, these steps can be configured and extended with parameters and scripts to provide the functionality and control you require.
@@ -98,7 +98,7 @@ The **[!UICONTROL AND Split]** creates a split in the workflow, after which both
 
 A **[!UICONTROL Container]** step starts another workflow model that runs as a child workflow.
 
-This **[!UICONTROL Container]]** lets you reuse workflow models to implement common sequences of steps. For example a translation workflow model could be used in multiple editing workflows.
+This **[!UICONTROL Container]** lets you reuse workflow models to implement common sequences of steps. For example a translation workflow model could be used in multiple editing workflows.
 
 ![wf-28](assets/wf-28.png) 
 
@@ -128,7 +128,7 @@ To configure the step, edit and use the following tabs:
 * [**[!UICONTROL Common]**](#step-properties-common-tab)
 * **[!UICONTROL Process]**
 
-    * **[!UICONTROL The step to go to]]**: Select the step to execute.
+    * **[!UICONTROL The step to go to]**: Select the step to execute.
     * **[!UICONTROL Script Path]**: The path to the ECMAScript that determines whether to execute the **[!UICONTROL Goto Step]**.
     * **[!UICONTROL Script]**: The ECMAScript that determines whether to execute the **[!UICONTROL Goto Step]**.
 
@@ -255,7 +255,7 @@ To configure the step, edit and use the following tabs:
 * [**[!UICONTROL User/Group]**](#step-properties-user-group-tab)
 * **[!UICONTROL Dialog]**
 
-    * **[!UICONTROL Dialog Path**: The path to the dialog node of the [dialog you create](#dialog-participant-step-creating-a-dialog).
+    * **[!UICONTROL Dialog Path**]: The path to the dialog node of the [dialog you create](#dialog-participant-step-creating-a-dialog).
 
 #### Dialog Participant Step &ndash; Creating a dialog{#dialog-participant-step-creating-a-dialog}
 
@@ -383,7 +383,7 @@ To configure the step, edit and use the following tabs:
 
 #### Dynamic Participant Step - Developing the participant chooser {#dynamic-participant-step-developing-the-participant-chooser}
 
-You create the participant chooser. Therefore, you can use any selection logic or criteria. For example, your participant chooser can select the user (within a group) that has the fewest work items. You can create any number of participant choosers to use with different instances of the **Dynamic Participant Step*]* component in your workflow models.
+You create the participant chooser. Therefore, you can use any selection logic or criteria. For example, your participant chooser can select the user (within a group) that has the fewest work items. You can create any number of participant choosers to use with different instances of the **Dynamic Participant Step** component in your workflow models.
 
 Create an OSGi service or an ECMAScript that selects a user to assign the work item to.
 
@@ -501,7 +501,7 @@ To configure the step, edit and use the following tabs:
 * [**[!UICONTROL User/Group]**](#step-properties-user-group-tab)
 * **[!UICONTROL Form]**
 
-    * **[!UICONTROL Form Path**: The path to the [form you create](#form-participant-step-creating-the-form).
+    * **[!UICONTROL Form Path]**: The path to the [form you create](#form-participant-step-creating-the-form).
 
 #### Form Participant Step - Creating the form {#form-participant-step-creating-the-form}
 
@@ -575,4 +575,3 @@ To configure the step, edit and use the following tabs:
 
     * **[!UICONTROL Handler Advance]**: Select this option to automatically advance the workflow to the next step after execution. If not selected, the implementation script must handle workflow advancement.
     * **[!UICONTROL Arguments]**: Arguments to be passed to the process.
-

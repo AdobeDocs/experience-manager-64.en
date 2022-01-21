@@ -1,16 +1,17 @@
 ---
 title: XMP Utilities Service Java APIQuick Start(SOAP)
 seo-title: XMP Utilities Service Java APIQuick Start(SOAP)
-description: null
-seo-description: null
+description:  Use the XMP Utilities service to export and import XMP metadata.
+seo-description:  Use the XMP Utilities service to export and import XMP metadata.
 uuid: 5db4c623-75db-4a34-9ad2-3c917619e296
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 1b229ddf-9350-40b6-8056-dcbe0c5afd5b
+role: Developer
+exl-id: fdbf9942-7e4d-4b76-971f-d26d89c4c4cf
 ---
-
 # XMP Utilities Service Java API Quick Start (SOAP) {#xmp-utilities-service-java-apiquick-start-soap}
 
 The following Quick Starts are available for the XMP Utilities service.
@@ -21,7 +22,9 @@ The following Quick Starts are available for the XMP Utilities service.
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick starts located in Programming with AEM forms are based on the Forms server if you are using another operating system, such as UNIX, replace windows-specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)*
+>[!NOTE]
+>
+>Quick starts located in Programming with AEM forms are based on the Forms server if you are using another operating system, such as UNIX, replace windows-specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
 
 ## Quick Start (SOAP mode): Exporting XMP metadata using the Java API {#quick-start-soap-mode-exporting-xmp-metadata-using-the-java-api}
 
@@ -235,4 +238,3 @@ The following code example imports XMP metadata and saves the new PDF file to di
      } 
  }
 ```
-

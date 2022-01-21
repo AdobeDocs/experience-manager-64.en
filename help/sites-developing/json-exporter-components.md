@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: components
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 448ad337-d4bb-4603-a27b-77da93feadbd
+exl-id: ce9a1c1f-a37b-4765-b87e-5b2359312cfe
 ---
-
 # Enabling JSON Export for a Component{#enabling-json-export-for-a-component}
 
 Components can be adapted to generate JSON export of their content based on a modeler framework.
@@ -52,6 +52,16 @@ In addition, this specifies that the Sling Model class can be adapted into the `
 >
 >The `ExporterConstants` and `ComponentExporter` classes come from the `com.adobe.cq.export.json` bundle.
 
+### Using Multiple Selectors {#multiple-selectors}
+
+ Although not a standard use case, it is possible to configure multiple selectors in addition to the `model` selector.
+
+ ```
+ https://<server>:<port>/content/page.model.selector1.selector2.json
+ ```
+
+ However in such a case the `model` selector must be the first selector and the extension must be `.json`.
+
 ## Annotate the Sling Model Interface {#annotate-the-sling-model-interface}
 
 To be taken into account by the JSON Exporter framework, the Model interface should implement the `ComponentExporter` interface (or `ContainerExporter`, in the case of a container component).
@@ -83,4 +93,3 @@ For further details see:
 * [Authoring with Content Fragments](/help/sites-authoring/content-fragments.md)
 * [JSON Exporter for Content Services](/help/sites-developing/json-exporter.md)
 * [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) and the [Content Fragment component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html)
-

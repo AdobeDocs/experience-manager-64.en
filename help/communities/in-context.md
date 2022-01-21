@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: ee104f6f-123b-4a6e-9031-849fc1318cc5
+role: Admin
+exl-id: a7678273-81f6-4089-ac73-2458d940e374
 ---
-
 # In-Context Moderation {#in-context-moderation}
 
 For AEM Communities, moderation may be performed by administrators and trusted community members directly on the published page where the community content was posted.
@@ -160,4 +161,3 @@ Notice
 * Rebekah can not access the moderation console
 
 ![chlimage_1-3](assets/chlimage_1-3.png)
-

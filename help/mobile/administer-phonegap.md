@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-adobe-phonegap-enterprise
 discoiquuid: cd080122-7ae5-4e6e-a8f6-b95dfbb0b511
+exl-id: ad66445b-0c83-48d0-880f-14ab2dce3716
 ---
-
 # Administering Content for Adobe PhoneGap Enterprise with AEM {#administering-content-for-adobe-phonegap-enterprise-with-aem}
 
 >[!NOTE]

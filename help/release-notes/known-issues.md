@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 266634ab-21d3-4aac-acfa-b799a7485507
+exl-id: ba65e853-d69a-4341-93c3-5628c60c403b
 ---
-
 # Known Issues {#known-issues}
 
 This page keeps a list of known issues Adobe Experience Manager 6.4 released on April 2018. For more information about known issues, [contact support](https://helpx.adobe.com/support/experience-manager.html).
@@ -20,11 +20,13 @@ This page keeps a list of known issues Adobe Experience Manager 6.4 released on 
 Hybrid Devices are not supported. Various issues can be encountered when using such devices. The following suggested procedures help resolve many issues:
 
 If you are using Google Chrome as browser:
+
 * Type `chrome://flags/` in the address bar and press Enter.
 * Click on Enable touch events &gt; Disabled.
 * Restart the browser (all tabs and windows).
   
 If you are using Mozilla Firefox as browser:
+
 * Type `about:config` in the address bar and press Enter.
 * Filter the settings to `dom.w3c`.
 * Ensure that the settings are `0` and `false`.
@@ -94,6 +96,7 @@ If you are using Microsoft Edge as browser:
 ### Installation and deployment
 
 * (AEM Forms JEE only) When boostrapping JBoss application server while running Configuration Manager returns EJB invocation and bootstrap failure errors. However, you can ignore them. (Ref# CQ-4229793)
+* When AEM Forms is started, the `SAX Security Manager could not be setup` warning appears. (CQ-4297403)
 
 ### Interactive Communications
 
@@ -102,12 +105,12 @@ If you are using Microsoft Edge as browser:
 * The Interactive Communication Web channel supports only ordered and unordered lists. In list document fragments, compound listing and indentation are not supported for Web channel of the Interactive Communication. (CQ-4233672)
 * The following issues are observed when web channel syncs with print channel:
 
-    * Web channel take a while to sync when switching from print channel for the first time.
-    * Web channel does not sync if the print channel includes an unconfigured chart component. To resolve the issue, delete the chart component and sync again.
-    * Sync sometimes fails with the "An error occurred while synchronizing the Live Copy" error. To resolve the issue, refresh the page.
-    * The static text in a layout fragment is replaced with table cell name when the first column in the table is a header column in the print channel template.
-    * Cannot add components or assets at any location other than at the bottom of a web channel communication. To place it at another location, add a panel at the bottom of web channel and reorder using the content tree.
-    * Can move content into inherited target area of web channel without removing the live copy inheritance.
+  * Web channel take a while to sync when switching from print channel for the first time.
+  * Web channel does not sync if the print channel includes an unconfigured chart component. To resolve the issue, delete the chart component and sync again.
+  * Sync sometimes fails with the "An error occurred while synchronizing the Live Copy" error. To resolve the issue, refresh the page.
+  * The static text in a layout fragment is replaced with table cell name when the first column in the table is a header column in the print channel template.
+  * Cannot add components or assets at any location other than at the bottom of a web channel communication. To place it at another location, add a panel at the bottom of web channel and reorder using the content tree.
+  * Can move content into inherited target area of web channel without removing the live copy inheritance.
 
 (CQ-4239780)
 
@@ -133,3 +136,5 @@ If you are using Microsoft Edge as browser:
 * The Chart component in adaptive forms takes more space than it normally does.
 * An exception is returned when saving properties for adaptive forms, adaptive form fragments, or interactive communications in Forms Manager UI.
 * The specified maximum number of characters for an adaptive form text box is not honored on Android 6.0 Samsung devices. (Ref# CQ-4235205)
+* When you submit a form containing a standard HTML upload field from an Apple iOS device, sometimes, the content of the file is not sent and a 0-byte file is received at the other end. Apple iOS 15.1 provides a fix for the issue.  
+

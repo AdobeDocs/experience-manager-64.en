@@ -1,18 +1,20 @@
 ---
-title: AEM Assets Home Page Experience
-description: Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
+title: [!DNL Experience Manager Assets] Home Page Experience
+description: Personalize the Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
 contentOwner: AG
+feature: Developer Tools,Asset Management
+role: Admin,User
+exl-id: f47c6da7-aa21-4f49-9c66-2a8091e19561
 ---
+# [!DNL Adobe Experience Manager Assets] Home Page Experience {#aem-assets-home-page-experience}
 
-# AEM Assets Home Page Experience {#aem-assets-home-page-experience}
+Personalize the [!DNL Experience Manager Assets] Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
 
-Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
-
-The Adobe Experience Manager (AEM) Assets Home page provides a rich and personalized welcome screen experience, which includes a snapshot of recent activites, such as assets that were recently viewed or uploaded.
+The [!DNL Adobe Experience Manager Assets] Home page provides a rich and personalized welcome screen experience, which includes a snapshot of recent activities, such as assets that were recently viewed or uploaded.
 
 The Assets Home page is disabled by default. To enable it, perform the following steps:
 
-1. To access AEM Configuration Manager, click **[!UICONTROL Tools > Operation > Web Console]**.
+1. To access [!DNL Experience Manager] Configuration Manager, click **[!UICONTROL Tools > Operation > Web Console]**.
 1. Open the **Day CQ DAM Event Recorder** service.
 1. Select the **[!UICONTROL Enable this service]** to enable activity recording.
 
@@ -62,7 +64,7 @@ This section appears below the Welcome section and displays out-of-the-box widge
 
 **Recent**: The **Recently Viewed** widget under this section displays recently accessed entities by the logged-in user, including folders, collections, and projects.
 
-**Discover**: The **New** widget under this section displays the assets and renditions recently uploaded to the AEM Assets instance.
+**Discover**: The **New** widget under this section displays the assets and renditions recently uploaded to the [!DNL Assets] instance.
 
 To enable purging of user activity data, enable the **DAM Event Purge Service** from Configuration Manager. After you enable this service, activities of the logged-in user that exceed a specified number are deleted by the system.
 
@@ -70,7 +72,7 @@ The Welcome screen provides easy navigational aids, for example icons on the too
 
 >[!NOTE]
 >
->Enabling the Day CQ DAM Event Recorder and DAM Event Purge services increases write operations to JCR and search indexing, which significantly increases the load on the AEM server. The additional load on the AEM server can impact its performance.
+>Enabling the Day CQ DAM Event Recorder and DAM Event Purge services increases write operations to JCR and search indexing, which significantly increases the load on the [!DNL Experience Manager] server. The additional load on the [!DNL Experience Manager] server can impact its performance.
 
 >[!CAUTION]
 >

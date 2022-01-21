@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: 0e2e95fa-9e27-4edc-b57b-82cefe8d4088
+exl-id: 9b973d03-fd0a-4c22-8045-7dddc024e553
 ---
-
 # Authoring Targeted Content Using Targeting Mode{#authoring-targeted-content-using-targeting-mode}
 
 Author targeted content using Targeting mode of AEM. Targeting mode and the Target component provide tools for creating content for experiences:
@@ -519,7 +519,7 @@ Use the advanced settings to determine what happens **after** a user encounters 
  </tbody> 
 </table>
 
-See [Adobe Target documentation](https://marketing.adobe.com/resources/help/en_US/target/target/r_success_metrics.html) for more information on success metrics.
+See [Adobe Target documentation](https://docs.adobe.com/content/help/en/target/using/activities/success-metrics/success-metrics.html) for more information on success metrics.
 
 ### Configuring Settings (AEM Targeting) {#configuring-settings-aem-targeting}
 
@@ -558,13 +558,13 @@ To configure goals and settings if using Adobe Target:
 
    ![chlimage_1-84](assets/chlimage_1-84.png)
 
-1. In the **Goal Metric** area, under **My Primary Goal** select the success metric you want to track - Conversion, Revenue, Engagement - and enter how that metric gets measured (or what action the audience takes to indicate a goal has been reached). See definition of the goal metrics in the previous table and see [Adobe Target documentation](https://marketing.adobe.com/resources/help/en_US/target/target/r_success_metrics.html) on success metrics.
+1. In the **Goal Metric** area, under **My Primary Goal** select the success metric you want to track - Conversion, Revenue, Engagement - and enter how that metric gets measured (or what action the audience takes to indicate a goal has been reached). See definition of the goal metrics in the previous table and see [Adobe Target documentation](https://docs.adobe.com/content/help/en/target/using/activities/success-metrics/success-metrics.html) on success metrics.
 
    You can rename the goal by clicking the three dots in the upper right corner and selecting **Rename**.
 
    If you need to clear all the fields, click the three dots in the upper right corner and select **Clear all Fields**.
 
-   All metrics also have advanced settings you can define. Select **Advanced Settings** to access those. See definition of how success metrics are counted in previous table and see [Adobe Target documentation](https://marketing.adobe.com/resources/help/en_US/target/target/r_success_metrics.html).
+   All metrics also have advanced settings you can define. Select **Advanced Settings** to access those. See definition of how success metrics are counted in previous table and see [Adobe Target documentation](https://docs.adobe.com/content/help/en/target/using/activities/success-metrics/success-metrics.html).
 
    >[!NOTE]
    >
@@ -726,4 +726,3 @@ You can customize the Target component by accessing the component's options in o
    You select **Adobe Campaign** as the engine if you are integrating AEM with Adobe Campaign. See [Integrating AEM with Adobe Campaign](/help/sites-administering/campaign.md) for more information.
 
    Select **ContextHub** as the engine if you are using ContextHub for targeting. See [Configuring ContextHub.](/help/sites-administering/contexthub-config.md)
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 5c0fec99-7b1e-45d6-a115-e498d288e9e1
+exl-id: d8d62c2f-3aa5-4fc9-8f42-86d75b6558ce
 ---
-
 # Integrating with Adobe Campaign Standard{#integrating-with-adobe-campaign-standard}
 
 >[!NOTE]
@@ -199,4 +199,3 @@ See [Configure the externalizer](/help/sites-developing/externalizer.md) for gen
 If it points to `localhost:4503` or another server that Adobe Campaign cannot reach, your images will not appear on the Adobe Campaign console.
 
 ![chlimage_1-131](assets/chlimage_1-131.png)
-

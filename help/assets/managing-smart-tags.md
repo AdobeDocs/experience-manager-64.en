@@ -5,8 +5,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 uuid: fd3eedf0-f222-45bf-aac7-90da6b7b7087
 contentOwner: AG
 discoiquuid: 3394b56a-3054-419b-9547-5740f8c35071
+feature: Smart Tags,Tagging,Search
+role: User
+exl-id: 05f43e43-ac72-4ab1-a373-687c137d2bed
 ---
-
 # Managing Smart Tags {#managing-smart-tags}
 
 You can curate Smart tags to remove any inaccurate tags that may have been assigned to your brand images so only the most relevant tags are displayed.
@@ -23,9 +25,9 @@ You can also assign a higher rank to a tag to increase its relevence with respec
 1. Click/tap **[!UICONTROL Save]**, and then click/tap **[!UICONTROL OK]** to close the Success dialog.
 1. Navigate to the properties page for the image. Observe that the tag you promoted is assigned a high relevance and, therefore, appears higher in the search results.
 
-## Understand AEM search results with smart tags {#understand-search-results-with-smart-tags}
+## Understand [!DNL Experience Manager] search results with smart tags {#understand-search-results-with-smart-tags}
 
-By default, AEM search combines the search terms with an `AND` clause. Using smart tags does not change this default behavior. Using smart tags adds an additional `OR` clause to find any of the search terms in the applies smart tags. For example, consider searching for `woman running`. Assets with just `woman` or just `running` keyword in the metadata do not appear in the search results by default. However, an asset tagged with either `woman` or `running` using smart taggs appears in such a search query. So the search results are a combination of,
+By default, [!DNL Experience Manager] search combines the search terms with an `AND` clause. Using smart tags does not change this default behavior. Using smart tags adds an additional `OR` clause to find any of the search terms in the applies smart tags. For example, consider searching for `woman running`. Assets with just `woman` or just `running` keyword in the metadata do not appear in the search results by default. However, an asset tagged with either `woman` or `running` using smart taggs appears in such a search query. So the search results are a combination of,
 
 * assets with both keywords, `woman` and `running` in the metadata.
 * assets smart tagged with either of the keywords.

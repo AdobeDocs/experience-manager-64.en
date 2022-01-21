@@ -9,21 +9,22 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
 discoiquuid: 5e76fe09-4d37-4c8c-8baf-97e75689bd26
+feature: Upgrading
+exl-id: 5798100a-e03a-43f8-9189-ae51c06e192b
 ---
-
 # Backward Compatibility in AEM 6.4{#backward-compatibility-in-aem}
 
 ## Overview {#overview}
 
 >[!NOTE]
 >
->For a list of content and configuration changes that are not under the scope the Compatibility Package, see [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring.md).
+>For a list of content and configuration changes that are not under the scope of the Compatibility Package, see [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring.md).
 
-In AEM 6.4, all features have been developed with backwards compatibility in mind.
+In AEM 6.4, all features have been developed with backward compatibility in mind.
 
-In most cases, customers running AEM 6.3 should not have to change the code or customizations when doing the upgrade. For AEM 6.1 and 6.2 customers there is no additional breaking changes than would be faced during an upgrade to 6.3.
+In most cases, customers running AEM 6.3 should not have to change the code or customizations when doing the upgrade. For AEM 6.1 and 6.2 customers there are no additional breaking changes than would be faced during an upgrade to 6.3.
 
-For exceptions where features could not be kept backward compatible, backward compatibility for bundles and content can be achieved by installing a Compatibility Package for 6.3( please see how to setup below for details on where to download). This compat package will restore compatiblity for applications compliant with AEM 6.3.
+For exceptions where features could not be kept backward compatible, backward compatibility for bundles and content can be achieved by installing a Compatibility Package for 6.3 (please see how to setup below for details on where to download). This compatibility package will restore compatiblity for applications compliant with AEM 6.3.
 
 The Compatibility Package allows you to run AEM in compatibility mode and defer custom development against new AEM features:
 
@@ -55,7 +56,7 @@ Legacy mode is for customers having custom interfaces based on legacy or depreca
 
 ## How to Set Up {#how-to-set-up}
 
-The AEM 6.3 Compatibility Package will be installable as a package using the Package Manager at this [link](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/compatpack/aem-compat-cq64-to-cq63).
+The AEM 6.3 Compatibility Package can be installed as a package using the Package Manager. You can download the [AEM 6.3 Compatibility Package from the Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/compatpack/aem-compat-cq64-to-cq63) site.
 
 Once the Compatibility Package is installed, the routing can be enabled or disabled using a switch in the OSGI configuration as shown below:
 

@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 6dc31bec-b02d-47db-a4f4-be8c14c5619e
+exl-id: f80d006b-6970-4448-aa38-3ffec8b08c18
 ---
-
 # Getting Task Variables in Summary URL {#getting-task-variables-in-summary-url}
 
 The summary page displays task-related information. This article describes how you can reuse task-related information in the summary page.
@@ -25,7 +25,9 @@ In this sample orchestration, an employee submits a leave application form. The 
     * reason
     * duration
 
-   **Note**: This renderer is the summary page template.
+    >[!NOTE]
+    >
+    >This renderer is the summary page template.  
 
    The following sample code for this renderer is contained in:
 
@@ -80,5 +82,3 @@ In this sample orchestration, an employee submits a leave application form. The 
 In AEM Forms workspace, when you open a task, the summary Url accesses the CRX node, and the HTML renderer displays the summary.
 
 The summary layout can be changed without modifying the process. The HTML renderer displays the summary appropriately.
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

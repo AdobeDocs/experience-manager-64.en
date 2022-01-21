@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: c2d564ba-fa5a-4130-b7fe-7e2c64d92170
+exl-id: 89b6c8b4-4872-4bf5-a543-f33a1660636e
 ---
-
 # Using the sendToPrinter API {#using-the-sendtoprinter-api}
 
 ## Overview {#overview}
@@ -64,4 +64,3 @@ Authentication is supported only for CIFS printing. To authenticate, provide the
 1. Go to **[!UICONTROL Main]** > **[!UICONTROL Crypto Support]**.  
 
 1. Enter some Plain text, and click **[!UICONTROL Protect]**.
-

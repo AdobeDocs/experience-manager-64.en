@@ -1,29 +1,29 @@
 ---
-title: Reuse assets using MSM for Assets
-description: Use assets across multiple pages/folders that are derived from and linked to parent assets. The assets stay in sync with a master copy and with a few clicks, receive the updates from parent assets.
+title: Reuse assets using MSM
+description: Use assets across multiple pages/folders that are derived from and linked to parent assets. The assets stay in sync with a primary copy and with a few clicks, receive the updates from parent assets.
 contentOwner: AG
-products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 mini-toc-levels: 1
+feature: Asset Management,Multi Site Manager
+role: User,Admin,Architect
+exl-id: a8e9f8de-ca84-4107-8f73-2fc75eeae1f1
 ---
+# Reuse assets using MSM for [!DNL Assets] {#reuse-assets-using-msm-for-assets}
 
-# Reuse assets using MSM for Assets {#reuse-assets-using-msm-for-assets}
-
-Multi Site Manager (MSM) functionality in Adobe Experience Manager (AEM) enables users to reuse content that is authored once and reused across multiple web-locations. The same is available for digital assets as MSM for Assets functionality. Using MSM for Assets, you can:
+Multi Site Manager (MSM) functionality in [!DNL Adobe Experience Manager] enables users to reuse content that is authored once and reused across multiple web-locations. The same is available for digital assets as MSM for [!DNL Assets] functionality. Using MSM for [!DNL Assets], you can:
 
 * Create assets once and then make copies of these assets to reuse in other areas of the site.
-* Keep multiple copies in synchronization and update the original master copy once to push the changes to the child copies.
+* Keep multiple copies in synchronization and update the original primary copy once to push the changes to the child copies.
 * Make local changes by temporarily or permanently suspending the linking between parent and child assets.
 
 ## Prerequisites {#msm-prerequisites}
 
-To use MSM for Assets, install at least Service Pack 5. For more information, see the release notes.
- [release notes](/help/release-notes/assets.md).
+To use MSM for [!DNL Assets], install at least [!DNL Experience Manager] 6.4 Service Pack 5. For more information, see [the release notes of latest service pack](/help/release-notes/sp-release-notes.md).
 
 ## Understand the benefits and the concepts {#understand-benefits-concepts}
 
 ### How it works and the benefits {#how-it-works-the-benefits}
 
-To understand the usage scenarios for reusing same content (text and assets) across multiple web-locations, see [possible MSM scenarios](/help/sites-administering/msm.md#possible-scenarios). AEM maintains a link between the original asset and its linked copies, called as live copies (LCs). The maintained linking allows centralized changes to be pushed to many live copies. This allows for faster updates while doing away with the limitations of managing duplicate copies. The propagation of changes is error-free and centralized. The functionality allows room for updates that are limited to selected live copies. Users can detach the linking, that is break inheritance, and make local edits that are not overwritten when next time the master copy is updated and changes are rolled out. The detaching can be done for a few select metadata fields or for an entire asset. It allows for flexibility to locally update assets that are originally inherited from a master copy.
+To understand the usage scenarios for reusing same content (text and assets) across multiple web-locations, see [possible MSM scenarios](/help/sites-administering/msm.md). [!DNL Experience Manager] maintains a link between the original asset and its linked copies, called as live copies (LCs). The maintained linking allows centralized changes to be pushed to many live copies. This allows for faster updates while doing away with the limitations of managing duplicate copies. The propagation of changes is error-free and centralized. The functionality allows room for updates that are limited to selected live copies. Users can detach the linking, that is break inheritance, and make local edits that are not overwritten when next time the primary copy is updated and changes are rolled out. The detaching can be done for a few select metadata fields or for an entire asset. It allows for flexibility to locally update assets that are originally inherited from a primary copy.
 
 MSM maintains a live relationship between the source asset and its live copies so that:
 
@@ -33,7 +33,7 @@ MSM maintains a live relationship between the source asset and its live copies s
 
 ### Glossary of MSM for Assets terms {#glossary-msm-for-assets}
 
-* **Source:** The original assets or folders. Master copy from which live copies are derived.
+* **Source:** The original assets or folders. Primary copy from which live copies are derived.
 
 * **Live copy:** The copy of the source assets/folders that is in synchronization with its source. Live copies can be a source of further live copies. See [how to create LCs](#create-live-copy-asset).
 
@@ -41,7 +41,7 @@ MSM maintains a live relationship between the source asset and its live copies s
 
 * **Rollout**: An action that pushes the modifications made to the source downstream to its live copies. It is possible to update one or more live copies in one go using rollout action. See [rollout](#rollout-action).
 
-* **Rollout config:** Rules that determine which properties are synchronized, how and when. These configurations are applied when creating live copies; can be edited later; and a child can inherit rollout configuration from its parent asset. For MSM for Assets, use only the Standard rollout config. The other rollout configurations are not available for MSM for Assets.
+* **Rollout config:** Rules that determine which properties are synchronized, how and when. These configurations are applied when creating live copies; can be edited later; and a child can inherit rollout configuration from its parent asset. For MSM for [!DNL Assets], use only the Standard rollout config. The other rollout configurations are not available for MSM for [!DNL Assets].
 
 * **Synchronize:** Another action, in addition to rollout, that brings parity between source and its live copy by sending the updates from source to live copies. A sync is initiated for a particular live copy and the action pulls the changes from the source. Using this action, is possible to only update one of the live copies. See [synchronize action](#about-synchronize-action).
 
@@ -57,8 +57,8 @@ MSM maintains a live relationship between the source asset and its live copies s
 
 To create live copy from one or more source assets or folders, follow either of the following:
 
-* **Method 1**: Select the source assets and click **[!UICONTROL Create > Live Copy]** from toolbar at the top.
-* **Method 2**: In AEM user interface, click **[!UICONTROL Create > Live Copy]** from upper-right corner of the interface.
+* **Method 1**: Select the source assets and click **[!UICONTROL Create]** > **[!UICONTROL Live Copy]** from toolbar at the top.
+* **Method 2**: In [!DNL Experience Manager] user interface, click **[!UICONTROL Create > Live Copy]** from upper-right corner of the interface.
 
 You can create live copies of an asset or a folder one at a time. You can create live copies that are derived from an asset or a folder that is a live copy itself.
 
@@ -67,15 +67,15 @@ Content Fragments (CFs) are not supported for the use case. When attempting to c
 To create live copies using the first method, follow these steps:
 
 1. Select source assets or folders. From the toolbar, click **[!UICONTROL Create > Live Copy]**.
-![Create live copy from AEM interface](assets/lc_create1.png)
+![Create live copy from [!DNL Experience Manager] interface](assets/lc_create1.png)
 1. Select source asset or folder. Click **[!UICONTROL Next]**.
 1. Provide title and name. Assets do not have children. When creating live copy of folders, you can choose to include or exclude children.
 1. Select a rollout configuration. Click **[!UICONTROL Create]**.
 
 To create live copies using the second method, follow these steps:
 
-1. In AEM interface, from upper-right corner, click **[!UICONTROL Create > Live Copy]**.
-![Create live copy from AEM interface](assets/lc_create2.png)
+1. In [!DNL Experience Manager] interface, from upper-right corner, click **[!UICONTROL Create > Live Copy]**.
+![Create live copy from [!DNL Experience Manager] interface](assets/lc_create2.png)
 1. Select source asset or folder. Click **[!UICONTROL Next]**.
 1. Select destination folder. Click **[!UICONTROL Next]**.
 1. Provide title and name. Assets do not have children. When creating live copy of folders, you can choose to include or exclude children.
@@ -87,14 +87,14 @@ To create live copies using the second method, follow these steps:
 
 ## View various properties and statuses of source and live copy {#view-properties-statuses-source-and-lc}
 
-You can view the information and MSM-related statuses of live copy such as relationship, synchronization, rollouts, and more from the various areas of the AEM user interface. The following two methods work for assets and folders:
+You can view the information and MSM-related statuses of live copy such as relationship, synchronization, rollouts, and more from the various areas of the [!DNL Experience Manager] user interface. The following two methods work for assets and folders:
 
 * Select live copy asset and find the information in its **[!UICONTROL Properties]** page.
 * Select source folder and find the detailed information of each live copy from the **[!UICONTROL Live Copy Console]**.
 
 >[!TIP]
 >
->To check the status of a few separate live copies, use the first method that is see the **[!UICONTROL Properties]** page. To check statuses of many live copies, use the second method, that is, see **[!UICONTROL Relationship Status]** page.
+>To check the status of a few separate live copies, use the first method to check the **[!UICONTROL Properties]** page. To check statuses of many live copies, use the second method to check **[!UICONTROL Relationship Status]** page.
 
 ### Information and status of a live copy {#information-status-of-one-lc}
 
@@ -102,13 +102,13 @@ To check the information and statuses of a live copy asset or a folder, follow t
 
 1. Select a live copy asset or a folder. Click **[!UICONTROL Properties]** from the toolbar. Alternatively, use the keyboard shortcut `p`.
 1. Click **[!UICONTROL Live Copy]**. You can check the path of the source, suspension status, synchronization status, last rollout date, and the user who did the last rollout.
-![Live copy information and statuses](assets/lc_folder_properties.png)
+![Live copy information and statuses are displayed in a console in Properties](assets/lc_folder_properties.png)
 1. You can enable or disable if child assets borrow the live copy configuration.
 1. You can choose the option for the live copy to either inherit the rollout configuration from the parent or change the configuration.
 
 ### Information and statuses of all live copies of a folder {#information-status-of-all-lcs-of-folder}
 
-AEM provides a console to check the statues of all the live copies of a source folder. This console displays the status of all child assets.
+[!DNL Experience Manager] provides a console to check the statues of all the live copies of a source folder. This console displays the status of all child assets.
 
 1. Select a source folder. Click **[!UICONTROL Properties]** from the toolbar. Alternatively, use the keyboard shortcut `p`.
 1. Click **[!UICONTROL Live Copy Source]**. To open the console, click **[!UICONTROL Live Copy Overview]**. This dashboard provides a top-level status of all the child assets.
@@ -118,14 +118,14 @@ AEM provides a console to check the statues of all the live copies of a source f
 
 >[!TIP]
 >
->You can quickly see the statuses of live copies of other folders without having to browse too much. Just change the folder in the pop-up list in the upper middle part of the **[!UICONTROL Live Copy Overview]** interface.
+>You can quickly see the statuses of live copies of other folders without having to browse too much. Change the folder from the upper middle part of the **[!UICONTROL Live Copy Overview]** interface.
 
 ### Quick actions from References rail for source {#quick-actions-from-references-rail-for-source}
 
 For a source asset or folder, you can see the following information and take the following actions directly from the References rail:
 
 * See the paths of live copies.
-* Open or reveal a specific live copy in AEM user interface.
+* Open or reveal a specific live copy in [!DNL Experience Manager] user interface.
 * Synchronize the updates to a specific live copy.
 * Suspend relationship or change rollout configuration for a specific live copy.
 * Access the live copy overview console.
@@ -136,14 +136,14 @@ Select the source asset or folder, open the left rail, and click **[!UICONTROL R
 
 For a specific live copy, click **[!UICONTROL Edit Live Copy]** to suspend relationship or change rollout configuration.
 
-![Suspend relationship or change rollout configuration of a specific live copy](assets/lc_edit_referencerail.png)
+![For a specific live copy, the option to suspend relationship or change rollout configuration is accessible from References rail when source asset is selected](assets/lc_edit_referencerail.png)
 
 ### Quick actions from References rail for live copy {#quick-actions-from-references-rail-for-live-copy}
 
 For a live copy asset or folder, you can see the following information and take the following actions directly from the References rail:
 
 * See the path of its source.
-* Open or reveal a specific live copy in AEM user interface.
+* Open or reveal a specific live copy in [!DNL Experience Manager] user interface.
 * Roll out the updates.
 
 Select a live copy asset or folder, open the left rail, and click **[!UICONTROL References]**. Alternatively, select an asset or folder and use the keyboard shortcut `Alt + 4`.
@@ -176,7 +176,7 @@ Alternatively, you can initiate a rollout action from the [!UICONTROL References
 
 A synchronize action pulls the modifications from a source only to the selected live copy. Sync action respects and maintains the local modifications done after canceling inheritance. The local modifications are not overwritten and the canceled inheritance is not re-established. You can initiate a sync action in three ways.
 
-| Where in AEM interface | When and why to use | How to use |
+| Where in [!DNL Experience Manager] interface | When and why to use | How to use |
 |---|---|---|
 | [!UICONTROL References] rail | Quickly synchronize when you already have the source selected. | See [Quick actions from References rail for source](#quick-actions-from-references-rail-for-source) |
 | Toolbar in the [!UICONTROL Properties] page | Initiate a sync when you already have the live copy properties open. | See [Synchronize a live copy](#synchronize-live-copy) |
@@ -186,13 +186,13 @@ A synchronize action pulls the modifications from a source only to the selected 
 
 To start a sync action, open **[!UICONTROL Properties]** page of a live copy, click **[!UICONTROL Live Copy]** and click the desired action from the toolbar.
 
-To know the statuses and information related to a synchronize action, see [Information and statuses of all live copies of a folder](#information-status-of-all-lcs-of-folder).
+To see the statuses and information related to a synchronize action, see [Information and statuses of all live copies of a folder](#information-status-of-all-lcs-of-folder).
 
 ![Synchronize action pulls the changes made to the source](assets/lc_sync.png)
 
 >[!NOTE]
 >
->If the relationship is suspended, the synchronize action is not available in the toolbar. While synchronize action is available in the [!UICONTROL References] rail, the modifications are not propagated even after a reportedly successful rollout.
+>If the relationship is suspended, the synchronize action is not available in the toolbar. While synchronize action is available in the [!UICONTROL References] rail, the modifications are not propagated even upon a successful rollout.
 
 ## Suspend and resume relationship {#suspend-and-resume-relationship}
 
@@ -206,7 +206,7 @@ Alternatively, you can quickly suspend or resume relationships of multiple asset
 
 A live copy is a replica of the original source when it is created. The metadata values of a live copy are inherited from the source. The metadata fields individually maintain inheritance with the respective fields of the source asset.
 
-However, you have the flexibility to make local modifications to a live copy to change a few select properties. To make local modifications, cancel the inheritance of the desired property. When inheritance of one or more metadata fields is canceled, the live relationship of the asset and the inheritance of the other metadata fields is retained. Any synchronization or rollout does not overwrite the local modifications. To do so, open **[!UICONTROL Properties]** page of a live copy asset, click **[!UICONTROL cancel inheritance]** icon next to a metadata field.
+However, you have the flexibility to make local modifications to a live copy to change a few select properties. To make local modifications, cancel the inheritance of the desired property. When inheritance of one or more metadata fields is canceled, the live relationship of the asset and the inheritance of the other metadata fields is retained. Any synchronization or rollout does not overwrite the local modifications. To do so, open **[!UICONTROL Properties]** page of a live copy asset, click the **[!UICONTROL cancel inheritance]** option next to a metadata field.
 
 You can undo all the local modifications and revert the asset to the state of its source. Reset action irrevocably and instantly overrides all local modifications and re-establishes inheritance on all metadata fields. To revert, from the **[!UICONTROL Properties]** page of a live copy asset, click **[!UICONTROL Reset]** from the toolbar.
 
@@ -214,15 +214,15 @@ You can undo all the local modifications and revert the asset to the state of it
 
 ## Remove live relationship {#remove-live-relationship}
 
-You can completely remove the relationship between a source and a live copy using Detach action. The live copy becomes a stand-alone asset or folder after it is detached. It is displayed as a new asset in AEM interface, immediately after detaching. To detach a live copy from its source, follow these steps.
+You can completely remove the relationship between a source and a live copy using Detach action. The live copy becomes a stand-alone asset or folder after it is detached. It is displayed as a new asset in [!DNL Experience Manager] interface, immediately after detaching. To detach a live copy from its source, follow these steps.
 
-1. Select a live copy asset or folder. Click **[!UICONTROL Properties]** from the toolbar. Alternatively, use the keyboard shortcut p.
+1. Select a live copy asset or folder. Click **[!UICONTROL Properties]** from the toolbar. Alternatively, use the keyboard shortcut `p`.
 1. Click **[!UICONTROL Live Copy]**. Click **[!UICONTROL Detach]** in the toolbar. Click **[!UICONTROL Detach]** from the dialog presented.
 ![Detach action completely removes the relationship between source and live copy](assets/lc_detach.png)
 
 >[!CAUTION]
 >
->The relationship is removed as soon as you click [!UICONTROL Detach] from the dialog. You cannot undo it by clicking [!UICONTROL Cancel] on the Properties page.
+>The relationship is removed immediately when you click [!UICONTROL Detach] from the dialog. You cannot undo it by clicking [!UICONTROL Cancel] on the Properties page.
 
 Alternatively, you can quickly detach multiple assets in a live copy folder from the **[!UICONTROL Live Copy Overview]** console. See [Take actions on many assets in live copy folders](#take-actions-on-many-assets-in-lcfolder).
 
@@ -237,7 +237,7 @@ If you have multiple assets in a live copy folder, initiating actions on each as
 
 ## Extend MSM for Assets {#extend-msm-for-assets}
 
-AEM allows you to extend the functionality using the MSM Java APIs. For Assets, the extending works just the same as it works with MSM for Site. For details, see [Extending the MSM](../sites-developing/extending-msm.md) and the following sections for information about specific tasks:
+[!DNL Experience Manager] allows you to extend the functionality using the MSM Java APIs. For Assets, the extending works just the same as it works with MSM for Site. For details, see [Extending the MSM](../sites-developing/extending-msm.md) and the following sections for information about specific tasks:
 
 * [Overview of APIs](../sites-developing/extending-msm.md#overview-of-the-java-api)
 * [Create a new synchronization action](../sites-developing/extending-msm.md#creating-a-new-synchronization-action)
@@ -246,13 +246,13 @@ AEM allows you to extend the functionality using the MSM Java APIs. For Assets, 
 
 >[!NOTE]
 >
-> * Blueprint in MSM for Site is called Live Copy source in MSM for Assets.
-> * Removing the chapters step in the create site wizard is not supported in MSM for Assets.
-> * Configuring MSM locks on page properties (Touch-enabled UI) is not supported in MSM for Assets.
+>* Blueprint in MSM for Site is called Live Copy source in MSM for Assets.
+>* Removing the chapters step in the create site wizard is not supported in MSM for Assets.
+>* Configuring MSM locks on page properties (Touch-enabled UI) is not supported in MSM for Assets.
 
 ## Impact of asset management tasks on live copies {#impact-of-asset-management-tasks-on-live-copies}
 
-Live copies and sources are assets or folders that can be managed, to a certain extent, as digital assets. Some asset management tasks in AEM have a specific impact on the live copies.
+Live copies and sources are assets or folders that can be managed, to a certain extent, as digital assets. Some asset management tasks in [!DNL Experience Manager] have a specific impact on the live copies.
 
 * Copying a live copy, creates a live copy asset with the same source as the first live copy.
 * When you move either a source or its live copy, the live relationship is retained.
@@ -276,3 +276,5 @@ In more scenarios, MSM for Assets matches the behavior of MSM for Sites function
 Following are the limitation with MSM for Assets.
 
 * Content Fragments (CFs) are not supported for the use case. When attempting to create their live copies, CFs are copied over as is without any relationship. The copied CFs are a snapshot in time and does not update when original CFs are updated.
+
+* MSM does not work with metadata writeback enabled. Upon writeback, the inheritance breaks.

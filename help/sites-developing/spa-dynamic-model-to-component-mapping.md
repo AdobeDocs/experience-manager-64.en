@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 8b4b0afc-8534-4010-8f34-cb10475a8e79
+exl-id: 2bbbfbaa-b0a1-4f8a-9445-51325d80e368
 ---
-
 # Dynamic Model to Component Mapping for SPAs{#dynamic-model-to-component-mapping-for-spas}
 
 This document describes how the dynamic model to component mapping occurs in the Javascript SPA SDK for AEM.
@@ -28,7 +28,7 @@ Each items present in the model contains a `:type` field that exposes an AEM res
 
 Please refer to the [SPA Blueprint](/help/sites-developing/spa-blueprint.md) document for more information about model parsing and the front-end component access to the model.
 
-Also see the npm package: [https://www.npmjs.com/package/@adobe/cq-spa-component-mapping](https://www.npmjs.com/package/@adobe/cq-spa-component-mapping)
+Also see the npm package: [https://www.npmjs.com/package/@adobe/aem-spa-component-mapping](https://www.npmjs.com/package/@adobe/aem-spa-component-mapping)
 
 ## Model-Driven Single Page Application {#model-driven-single-page-application}
 
@@ -51,4 +51,3 @@ Each component is extended with the capabilities of the [ `ModelProvider`](/help
 1. Pieces of the model are finally propagated to each individual child component.
 
 ![app_model_initialization](assets/app_model_initialization.png)
-

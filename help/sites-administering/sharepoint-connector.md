@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: e3f2dc5a-ef5e-432c-be07-b3dedbd6549b
+exl-id: cdb45bec-81d7-4356-ac55-5b6a40b35433
 ---
-
 # SharePoint Connector{#sharepoint-connector}
 
  Day JCR Connector for Microsoft SharePoint 2010 and Microsoft SharePoint 2013, version 4.0.
@@ -128,13 +128,13 @@ The connector can also be configured for multiple workspaces. In this case, each
 `<name>` is the name of the JCR workspace and   
 `<url>` is the URL of the SharePoint server for that workspace.
 
-In AEM, perform one more step apart from above configuration steps. Whitelist the '**com.day.cq.dam.cq-dam-jcr-connectors**' bundle.
+In AEM, perform one more step apart from above configuration steps. Allow list the '**com.day.cq.dam.cq-dam-jcr-connectors**' bundle.
 
-To whitelist bundles in AEM, perform the following steps:
+To allow list bundles in AEM, perform the following steps:
 
 1. Navigate to the OSGi Management Console: http://localhost:4502/system/console/configMgr.
 
-1. Search for " Apache Sling Login Admin Whitelist" service.
+1. Search for "Apache Sling Login Admin Whitelist" service.
 
 1. Select Bypass the whitelist.
 
@@ -288,4 +288,3 @@ The following steps provide guidelines around extending the standard authenticat
 1. Register the `SharepointConnectionFactory` implementation in the connector configuration. In the configuration window of the connector, click **Advanced options**. In the for **Sharepoint Connection Factory** field, specify the name of the implementation `com.day.crx.spi.sharepoint.auth.CustomConnectionFactory`.  
 
 1. Restart the connector.
-

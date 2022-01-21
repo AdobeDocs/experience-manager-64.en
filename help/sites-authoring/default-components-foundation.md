@@ -1,7 +1,7 @@
 ---
 title: Foundation Components
 seo-title: Foundation Components
-description: null
+description: Foundation Components
 seo-description: null
 uuid: c1eccd51-ee65-4c4d-8c27-c99b52574518
 contentOwner: User
@@ -11,8 +11,8 @@ content-type: reference
 discoiquuid: 3619ded2-a67c-4b96-b634-4c0d68f5284a
 legacypath: /content/docs/en/aem/6-2/author/page-authoring/default-components/editmode
 pagetitle: Foundation Components
+exl-id: c85e442a-eb24-4eda-a49b-089e5988150d
 ---
-
 # Foundation Components{#foundation-components}
 
 >[!NOTE]
@@ -330,6 +330,10 @@ The external application is integrated into the paragraph system of the AEM page
 >[!CAUTION]
 >This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) instead.
 
+>[!CAUTION]
+>
+>This component is no longer expected to function out-of-the-box without extensive project-level customization.
+
 The Flash component lets you load a Flash movie. You can drag a flash asset from the content finder onto the component, or you can use the dialog:
 
 * **Flash**
@@ -531,6 +535,10 @@ The following example shows a **List** component the way it may display a list o
 >[!CAUTION]
 >This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) instead.
 
+>[!CAUTION]
+>
+>This component is no longer expected to function out-of-the-box without extensive project-level customization.
+
 These provides the Username and Password fields.
 
 ![chlimage_1-197](assets/chlimage_1-197.png)
@@ -566,6 +574,10 @@ You can configure:
       Text to indicate the user is already logged in.
 
 ### Order Status {#order-status}
+
+>[!CAUTION]
+>
+>This component is no longer expected to function out-of-the-box without extensive project-level customization.
 
 * **Title**
 
@@ -703,6 +715,10 @@ If required you can configure:
 
 >[!CAUTION]
 >This Foundation Component has been deprecated. Adobe recommends leveraging the [Carousel Core Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/carousel.html) instead.
+
+>[!CAUTION]
+>
+>This component is no longer expected to function out-of-the-box without extensive project-level customization.
 
 This component allows you to load a series of images to be displayed as a slideshow on your page.You can add or remove images and assign each a title. Under Advanced you can also specify the size of the display area.
 
@@ -872,6 +888,10 @@ The following example shows a **Title** component being displayed; the design is
 ![dc_title_use](assets/dc_title_use.png) 
 
 ### Video {#video}
+
+>[!CAUTION]
+>
+>This component is no longer expected to function out-of-the-box without extensive project-level customization.
 
 The **Video** component allows you to place a predefined, out-of-the-box video element on a page.
 
@@ -1284,6 +1304,10 @@ The component is configured for immediate use, but you can change the configurat
 >[!CAUTION]
 >This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) instead.
 
+>[!CAUTION]
+>
+>This component is no longer expected to function out-of-the-box without extensive project-level customization.
+
 The Captcha component requires the user to type in an alphanumeric string as displayed on screen. The string changes with each refresh.
 
 ![dc_form_captcha](assets/dc_form_captcha.png)
@@ -1445,4 +1469,3 @@ The standard text field can be configured to your required size and with with yo
 This allows you to create a Submit button for use in a workflow.
 
 ![chlimage_1-204](assets/chlimage_1-204.png)
-

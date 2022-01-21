@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
 discoiquuid: 6fc2751e-f42a-4519-bc8c-695057f21b69
+exl-id: d561bb0a-352f-4be2-95ed-32dd1e2b4019
 ---
-
 # The Checklist - Further Reference{#the-checklist-further-reference}
 
 This page provides further details to elaborate on and/or augment the documents and principles covered by the [Managing Projects - Best Practices Checklist](/help/managing/best-practices.md).
@@ -28,7 +28,7 @@ When implementing AEM (particularly for the first time) you will need to review 
 Consider the features of AEM that you will be using, and the impact on your design; for example:
 
 * [Commerce](/help/sites-administering/ecommerce.md)
-* [Screens](/help/screens/aem-screens-introduction.md)
+* [Screens](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html)
 * [Assets](/help/assets/assets.md)
 * [Tags](/help/sites-administering/tags.md)
 * [Multi Site Management and Translation](/help/sites-administering/msm-and-translation.md)

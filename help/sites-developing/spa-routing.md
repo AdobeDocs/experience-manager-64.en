@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: d9f1e24e-51a9-4f28-b2cd-2e97aed63a24
+exl-id: 865f524d-6b54-43c8-9b28-86a766e010a1
 ---
-
 # SPA Model Routing{#spa-model-routing}
 
 For single page applications in AEM, the app is responsible for the routing. This document describes the routing mechanism, the contract, and options available.
@@ -59,7 +59,7 @@ By default, this behavior is automatically enabled. To disable it, the SPA shoul
 <meta property="cq:pagemodel_router" content="disable"\>
 ```
 
-Note that every route of the SPA should correspond to an accessible resource in AEM (e.g., " `/content/mysite/mypage"`) since the `PageModelManager` will automatically try to load the corresponding page model once the route is selected. Though, if needed, the SPA can also define a "black list" of routes that should be ignored by the `PageModelManager`:
+Note that every route of the SPA should correspond to an accessible resource in AEM (e.g., " `/content/mysite/mypage"`) since the `PageModelManager` will automatically try to load the corresponding page model once the route is selected. Though, if needed, the SPA can also define a "block list" of routes that should be ignored by the `PageModelManager`:
 
 ```
 <meta property="cq:pagemodel_route_filters" content="route/not/found,^(.*)(?:exclude/path)(.*)"/>

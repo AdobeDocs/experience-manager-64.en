@@ -2,19 +2,21 @@
 title: Publish folders to Brand Portal
 description: Learn how to publish and unpublish folders to Brand Portal.
 contentOwner: VG
+feature: Brand Portal
+role: User
+exl-id: f41ab750-5780-42ae-a131-5bc748280215
 ---
-
 # Publish folders to Brand Portal {#publish-folders-to-brand-portal}
 
-As an Adobe Experience Manager (AEM) Assets administrator, you can publish assets and folders to the AEM Assets Brand Portal instance (or schedule the publish workflow to a later date/time) for your organization. However, you must first integrate AEM Assets with Brand Portal. For details, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md).
+As an Adobe Experience Manager Assets administrator, you can publish assets and folders to the [!DNL Experience Manager Assets Brand Portal] instance (or schedule the publish workflow to a later date/time) for your organization. However, you must first integrate [!DNL Experience Manager Assets] with [!DNL Brand Portal]. For details, see [Configure [!DNL Experience Manager Assets] with Brand Portal](configure-aem-assets-with-brand-portal.md).
 
 After you publish an asset or folder, it is available to users in Brand Portal.
 
-If you make subsequent modifications to the original asset or folder in AEM Assets, the changes are not reflected in Brand Portal until you republish the asset or folder. This feature ensures that work-in-progress changes are not available in Brand Portal. Only approved changes that are published by an administrator are available in Brand Portal.
+If you make subsequent modifications to the original asset or folder in [!DNL Assets], the changes are not reflected in Brand Portal until you republish the asset or folder. This feature ensures that work-in-progress changes are not available in Brand Portal. Only approved changes that are published by an administrator are available in Brand Portal.
 
 ## Publish folders to Brand Portal {#publish-folders-to-brand-portal-1}
 
-1. From the AEM Assets interface, hover over the desired folder and select **[!UICONTROL Publish]** option from the quick actions.
+1. From the [!DNL Assets] interface, hover over the desired folder and select **[!UICONTROL Publish]** option from the quick actions.
 
    Alternatively, select the desired folder and follow the further steps.
 
@@ -49,11 +51,11 @@ If you make subsequent modifications to the original asset or folder in AEM Asse
 
 ## Unpublish folders from Brand Portal {#unpublish-folders-from-brand-portal}
 
-You can remove any asset folder published to Brand Portal by unpublishing it from AEM Author instance. After you unpublish the original folder, its copy is no longer available to Brand Portal users.
+You can remove any asset folder published to Brand Portal by unpublishing it from [!DNL Experience Manager] Author instance. After you unpublish the original folder, its copy is no longer available to Brand Portal users.
 
 You have the option to unpublish folders from Brand Portal quickly or schedule it for a later date and time. To unpublish asset folders from Brand Portal:
 
-1. From the AEM Assets interface in AEM Author instance, select the folder you want to unpublish.
+1. From the [!DNL Assets] interface in [!DNL Experience Manager]  Author instance, select the folder you want to unpublish.
 
    ![publish2bp-1](assets/publish2bp-1.png)
 

@@ -8,8 +8,8 @@ contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: bef38e7a-92db-4226-a4ea-8facce573456
+exl-id: b132216a-c9b4-4f8f-97e6-738a5a9632d1
 ---
-
 # Viewing and Understanding Transaction Reports {#viewing-and-understanding-transaction-reports}
 
 Use transaction reports to make an informed decision about the product usage and rebalancing investments in hardware and software.
@@ -52,7 +52,7 @@ Only members of the fd-administrator group can view transaction reports. To allo
 
 ### (Optional) Configure Transaction Flush Period and Outboxes {#optional-configure-transaction-flush-period-and-outboxes}
 
-Transactions are cached in-memory before being stored to the repository. By default, the caching period (Transaction Flush Period) is set to 60 seconds. Perform the following steps to change the default caching period:
+Transactions are cached in memory before being stored in the repository. The process is followed to ensure that there are no frequent writes to the repository. By default, the caching period (Transaction Flush Period) is set to 60 seconds. You can change the default period to suit your environment. Perform the following steps to change the default caching period:
 
 1. Log in to author instances as an administrator. Go to **Tools** &gt; **Operations** &gt; **Web Console**.
 1. Locate and open the **Forms Transaction Repository Storage Provider** service.
@@ -83,11 +83,10 @@ AEM Forms displays transaction reports since the configured date, as shown in a 
 
 ## View transaction reporting logs {#view-transaction-reporting-logs}
 
-Transaction reporting places all the information displayed in the report and some additional information in the logs. The information provided in the logs is helpful for the advanced users. For example, logs divide transactions into multiple granular categories in comparison to three consolidated categories displayed in the report. The logs are at /crx-quickstart/logs/aem-forms-transaction.log.
+Transaction reporting places all the information displayed in the report and some additional information in the logs. The information provided in the logs is helpful for the advanced users. For example, logs divide transactions into multiple granular categories in comparison to three consolidated categories displayed in the report. The logs are available in the `error.log` file at the `/crx-repository/logs/` directory. The logs are available even if you do not enable the transaction reports from AEM Web Console.
 
 ## Related Articles {#related-articles}
 
 * [Transaction Reports Overview](/help/forms/using/transaction-reports-overview.md)
 * [Transaction Reports Billable APIs](/help/forms/using/transaction-reports-billable-apis.md)
 * [Record a transaction for custom implementations](/help/forms/using/record-transaction-custom-implementation.md)
-

@@ -8,8 +8,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: c8a505ab-a075-47da-8007-43645a8c3ce5
+exl-id: b85fc608-9653-4491-8557-f66a0a7da5ea
 ---
-
 # Indexing via the Oak-run Jar{#indexing-via-the-oak-run-jar}
 
 Oak-run supports all indexing use cases on the command line without having to operate from the JMX level. Advantages of the oak-run approach are:
@@ -100,7 +100,7 @@ This process needs to be executed only against a single AEM instance in the clus
 >
 >For more detailed information regarding this scenario, see [Online Reindex - SegmentNodeStore](/help/sites-deploying/oak-run-indexing-usecases.md#onlinereindexsegmentnodestore).
 
-This is the method used before te introudction of the new indexing capabilities of oak-run.jar. It can done by setting the `reindex=true` property on the Oak index.
+This is the method used before the introduction of the new indexing capabilities of oak-run.jar. It can done by setting the `reindex=true` property on the Oak index.
 
 This approach can be used if the time and performance effects to index are acceptable to the customer. This is often the case for small to medium sized AEM installations.
 
@@ -112,7 +112,7 @@ This approach can be used if the time and performance effects to index are accep
 >
 >For more detailed information regarding this scenario, see [Online Reindex - SegmentNodeStore - The AEM Instance is Running](/help/sites-deploying/oak-run-indexing-usecases.md#onlinereindexsegmentnodestoretheaeminstanceisrunning).
 
-Online-reindexing of TarMK is faster than the Online TarkMK reindexing decribed above. However, it also requires execution during a maintenance window, with the methion that the window will be shorter, and more steps are required to perform the re-indexing.
+Online re-indexing of TarMK using the oak-run.jar is faster than the [Online Re-Indexing for TarMK](#onlinere-indexingfortarmk) described above. However, it also requires execution during a maintenance window; with the mention that the window will be shorter, and more steps are required to perform the re-indexing.
 
 >[!NOTE]
 >
@@ -175,4 +175,3 @@ If the time or performance impact of re-indexing using non `oak-run.jar` methods
 If the time or performance impact of re-indexing using non `oak-run.jar` methods is too high, the following `oak-run.jar` based approach can be used to import and re-index Lucene Index definitions in MongoMK based AEM installations.
 
 ![11](assets/11.png)
-

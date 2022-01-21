@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 5260d981-da40-40ab-834e-88e091840813
+feature: Mobile Forms
+exl-id: 8c75d395-1816-4b5a-869c-ec61069a54f6
 ---
-
 # Debugging HTML5 forms {#debugging-html-forms}
 
 This document includes several troubleshooting scenarios. For each scenario, some steps are provided to troubleshoot the problem. Follow these steps and, if the problem persists, configure the Logger to get and review logs for errors/warnings. For more details about HTML5 forms logging, see [Generating Logs for HTML5 forms](/help/forms/using/enable-logs.md).
@@ -50,7 +51,7 @@ Check the following parameters:
 
 ## Problem: Unable to render a form (an error message is displayed) {#problem-unable-to-render-a-form-an-error-message-is-displayed}
 
-1. Ensure that the specified parameters are correct. For detailed information on parameters, see [Render Parameters](/help/forms/using/debug.md#main-pars-table).
+1. Ensure that the specified parameters are correct. For detailed information on parameters, see [Render Parameters](#problem-when-rendering-the-form-i-see-org-apache-sling-api-slingexception-exception-page).
 1. Log in to CRX Package Manager(at https://&lt;server&gt;:&lt;port&gt;/crx/packmgr/index.jsp) and check whether the following packages are correctly installed:
 
     * adobe-lc-forms-content-pkg-&lt;version&gt;.zip
@@ -178,5 +179,3 @@ Check the following parameters:
 1. In the desktop browser, go to Developer Tools -&gt; Resources.
 
    Check on the left side in Frames if that image displays.
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

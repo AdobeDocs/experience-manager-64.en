@@ -1,16 +1,17 @@
 ---
 title: Invoking AEM Forms using the JavaAPI
 seo-title: Invoking AEM Forms using the JavaAPI
-description: null
-seo-description: null
+description: Use the AEM Forms Java API for RMI transport protocol for remote invocation, VM transport for local invocation, SOAP for remote invocation, different authentication, such as user name and password, and synchronous and asynchronous invocation requests.
+seo-description: Use the AEM Forms Java API for RMI transport protocol for remote invocation, VM transport for local invocation, SOAP for remote invocation, different authentication, such as user name and password, and synchronous and asynchronous invocation requests.
 uuid: 5e2fef2a-05f3-4283-8fd3-2d7dca411000
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: 0e6e7850-6137-42c5-b8e2-d4e352fddae2
+role: Developer
+exl-id: 1c239c05-e221-442a-a748-0c28704ee032
 ---
-
 # Invoking AEM Forms using the Java API {#invoking-aem-forms-using-the-javaapi}
 
 AEM Forms can be invoked by using the AEM Forms Java API. When using the AEM Forms Java API, you can use either the Invocation API or Java client libraries. Java client libraries are available for services such as the Rights Management service. These strongly typed APIs let you develop Java applications that invoke AEM Forms.
@@ -27,19 +28,12 @@ The Java API supports the following features:
 * Different authentication, such as user name and password
 * Synchronous and asynchronous invocation requests
 
-**Adobe Developer website**
-
-The Adobe Developer website contains the following articles that discuss invoking AEM Forms services using the Java API:
-
-[Using Java servlets to invoke AEM Forms processes](https://www.adobe.com/devnet/livecycle/articles/java_servlets.html)
-
-[Invoking the AEM Forms Distiller API from Java](https://www.adobe.com/devnet/livecycle/articles/distiller_java_03.html)
 
 **See also**
 
 [Including AEM Forms Java library files](#including-aem-forms-java-library-files)
 
-[Invoking Human-Centric Long-Lived Processes](/help/forms/developing/invoking-human-centric-long-lived.md#main-pars-text-0)
+[Invoking Human-Centric Long-Lived Processes](invoking-human-centric-long-lived.md)
 
 [Invoking AEM Forms using Web Services](/help/forms/developing/invoking-aem-forms-using-web.md)
 
@@ -441,13 +435,17 @@ To successfully invoke a AEM Forms service, set the following connection propert
     * Likewise, if you set this connection property to `JBoss`, the `java.naming.factory.initial` value is set to `org.jnp.interfaces.NamingContextFactory`.
     * You can set the `java.naming.factory.initial` property to a value that meets your requirements if you do not want to use the default values.
 
-  ***Note**: Instead of using a string to set the `DSC_SERVER_TYPE` connection property, you can use a static member of the `ServiceClientFactoryProperties` class. The following values can be used: `ServiceClientFactoryProperties.DSC_WEBSPHERE_SERVER_TYPE`, `ServiceClientFactoryProperties.DSC_WEBLOGIC_SERVER_TYPE`, or `ServiceClientFactoryProperties.DSC_JBOSS_SERVER_TYPE`.
+    >[!NOTE]
+    >
+    >Instead of using a string to set the `DSC_SERVER_TYPE` connection property, you can use a static member of the `ServiceClientFactoryProperties` class. The following values can be used: `ServiceClientFactoryProperties.DSC_WEBSPHERE_SERVER_TYPE`, `ServiceClientFactoryProperties.DSC_WEBLOGIC_SERVER_TYPE`, or `ServiceClientFactoryProperties.DSC_JBOSS_SERVER_TYPE`.  
 
 * **DSC_CREDENTIAL_USERNAME:** Specifies the AEM forms user name. For a user to sucessfully invoke a AEM Forms service, they need the Services User role. A user can also have another role that includes the Service Invoke permission. Otherwise, an exception is thrown when they attempt to invoke a service. If service security is disabled, it is not necessary to specify this connection property.
 * **DSC_CREDENTIAL_PASSWORD:** Specifies the corresponding password value. If service security is disabled, it is not necessary to specify this connection property.
 * **DSC_REQUEST_TIMEOUT:** The default request timeout limit for the SOAP request is 1200000 milliseconds (20 minutes). Sometime, a request can require longer time to complete the operation. For example, a SOAP request that retrieves a large set of records can require a longer timeout limit. You can use the `ServiceClientFactoryProperties.DSC_REQUEST_TIMEOUT` to increase the request call timeout limit for the SOAP requests.
 
-  **Note**: Only SOAP-based invocations support the DSC_REQUEST_TIMEOUT property.
+   >[!NOTE]
+   >
+   >Only SOAP-based invocations support the DSC_REQUEST_TIMEOUT property.  
 
 To set connection properties, perform the following tasks:
 

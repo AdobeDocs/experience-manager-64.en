@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 048f7b30-20c3-4567-bd32-38cf2643cf39
+role: Admin
+exl-id: 65d37adc-d5fa-4171-bb7f-05b631cad180
 ---
-
 # MSRP - MongoDB Storage Resource Provider {#msrp-mongodb-storage-resource-provider}
 
 ## About MSRP {#about-msrp}
@@ -94,7 +95,7 @@ On author, to access the Storage Configuration console:
 
 ### MongoDB Replica Set {#mongodb-replica-set}
 
-For the production environment, it is strongly recommended to setup a replica set, a cluster of MongoDB servers that implements master-slave replication and automated failover.
+For the production environment, it is strongly recommended to setup a replica set, a cluster of MongoDB servers that implements primary-secondary replication and automated failover.
 
 To learn more about replica sets, visit MongoDB's [Replication](https://docs.mongodb.org/manual/replication/) documentation.
 
@@ -262,4 +263,3 @@ If an attempt to make a secured connection to the MongoDB server fails due to a 
 
 * [AEM with MongoDB](../../help/sites-deploying/aem-with-mongodb.md)
 * [MongoDB Documentation](https://docs.mongodb.org/)
-

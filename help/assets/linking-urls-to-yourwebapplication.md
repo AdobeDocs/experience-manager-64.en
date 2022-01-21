@@ -9,8 +9,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: d12e6ea3-aaf4-4672-9679-3c16c76d7d5b
+exl-id: e076349d-8b1a-487f-b982-9440d7de13b9
+feature: Configuration
+role: User
 ---
-
 # Linking URLs to your Web Application {#linking-urls-to-your-web-application}
 
 Your websites and applications access Dynamic Media services by way of URL calls. After you publish an asset, Dynamic Media activates a URL string that references the asset. You can paste these URLs into a web browser for testing.
@@ -132,7 +134,7 @@ Dynamic Media supports the delivery of static assets, which are additional asset
 
    For example, if the registration ID was `87654321|MyCompany`, the customer name would be `MyCompany`.
 
-1. Near the upper-left corner of the page, tap **[!UICONTROL Cloud Services**, then tap the AEM icon and navigate to **[!UICONTROL General > CRXDE Lite]**.
+1. Near the upper-left corner of the page, tap **[!UICONTROL Cloud Service]s**, then tap the AEM icon and navigate to **[!UICONTROL General > CRXDE Lite]**.
 1. Copy down the entire video rendition path from the JCR (Java Content Repository).
 
    For example, the video's rendition path may appear similar to the following:

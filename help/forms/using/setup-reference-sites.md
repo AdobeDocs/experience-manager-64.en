@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: 2feb4a9c-57ad-4c6b-a572-0047bc409bbb
+exl-id: 9c5d956c-06bc-4428-afcd-02b4f81b802f
 ---
-
 # Set up and configure AEM Forms reference sites {#set-up-and-configure-aem-forms-reference-sites}
 
 AEM Forms provides reference site implementation to demonstrate how AEM Forms helps Financial Services Industry and Government organizations in transforming their complex transactions into simple and engaging digital experiences anywhere, anytime, on any device.
@@ -50,7 +50,7 @@ Before you set up the reference site, ensure that you have the following:
   To use digital signing capabilities, Adobe Sign developer account is required. See [Adobe Sign](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html).
 
 * A running instance of Microsoft Dynamics 365 to integrate with AEM Forms. To run the reference site, you import the sample data into the Microsoft Dynamics instance to prefill the interactive communication used in the reference site.
-* A running instance of AEM 6.4 with Forms add-on package. For more information, see [Installing and configuring AEM Forms](https://helpx.adobe.com/experience-manager/6-3/forms/using/installing-configuring-aem-forms-osgi.html).
+* A running instance of AEM 6.4 with Forms add-on package. For more information, see [Installing and configuring AEM Forms](installing-configuring-aem-forms-osgi.md).
 
 Perform the following steps in the recommended sequence to set up and configure the reference sites.
 
@@ -147,7 +147,7 @@ SSL configuration is required to communicate with Adobe Sign servers. For detail
 
 ## Configure Day CQ Link Externalizer configuration {#externalizer}
 
-In AEM, the **Externalizer** is an OSGI service that allows you to programmatically transform a resource path (e.g. /path/to/my/page) into an external and absolute URL (for example, https://www.mycompany.com/path/to/my/page) by prefixing the path with a pre-configured DNS. See [Externalizing URLs](/help/sites-developing/externalizer.md).
+In AEM, the **Externalizer** is an OSGI service that allows you to programmatically transform a resource path (For example,  /path/to/my/page) into an external and absolute URL (for example, https://www.mycompany.com/path/to/my/page) by prefixing the path with a pre-configured DNS. See [Externalizing URLs](/help/sites-developing/externalizer.md).
 
 >[!CAUTION]
 >
@@ -213,12 +213,12 @@ For AEM Forms reference sites, in the AEM DS Settings Service, specify URL of th
 
 ## Deploy reference sites packages {#refsite}
 
-Install the following reference sites packages using package share.
+Install the following reference sites packages using Software Distribution.
 
-* [AEM-FORMS-6.4-FSI-REF-SITE](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-FSI-REF-SITE)
-* [AEM-FORMS-6.4-GOV-REF-SITE](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-GOV-REF-SITE )
+* [AEM-FORMS-6.4-FSI-REF-SITE](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-FSI-REF-SITE)
+* [AEM-FORMS-6.4-GOV-REF-SITE](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-GOV-REF-SITE)
 
-To learn more about how to use packages and package share, see [How to Work With Packages](/help/sites-administering/package-manager.md).
+To learn more about how to use packages, see [How to Work With Packages](/help/sites-administering/package-manager.md).
 
 After you have installed the packages and started the author and publish instances, visit the following URLs in your browser:
 
@@ -314,7 +314,7 @@ Do the following on both author and publish instances:
 1. Navigate to **/conf/global/settings/cloudconfigs/fdm/roi-rest/jcr:content/swaggerFile** and open the swagger file.
 1. Update the host and port settings as per your environment.
 1. Save the settings.
-1. (**Author instance only**) Go to **[!UICONTROL Tools** > **Cloud Services** > **Data Sources** > **global]**. Select **[!UICONTROL roi-rest]** and tap **[!UICONTROL Properties]**. Tap **[!UICONTROL Authentication Settings]** and set **[!UICONTROL Authentication Type]** to **[!UICONTROL Basic Authentication]**. Specify `admin`/ `admin`as the username/password to access the service. Tap **[!UICONTROL Save & Close]**.
+1. (**Author instance only**) Go to **[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Data Sources]** > **[!UICONTROL global]**. Select **[!UICONTROL roi-rest]** and tap **[!UICONTROL Properties]**. Tap **[!UICONTROL Authentication Settings]** and set **[!UICONTROL Authentication Type]** to **[!UICONTROL Basic Authentication]**. Specify `admin`/ `admin`as the username/password to access the service. Tap **[!UICONTROL Save & Close]**.
 
 ## Integrate with Marketing Cloud {#integrate-with-marketing-cloud}
 
@@ -385,4 +385,3 @@ Now you are all set to explore the reference site. For more information about re
 * [We.Gov reference site walkthrough](/help/forms/using/gov-reference-site-walkthrough.md)  
 
 * [Employee self-service reference site walkthrough](/help/forms/using/employee-self-service-reference-site.md)
-

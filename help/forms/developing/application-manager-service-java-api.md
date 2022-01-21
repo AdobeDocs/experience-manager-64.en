@@ -1,16 +1,17 @@
 ---
 title: Application Manager Service JavaAPI Quick Start(SOAP)
 seo-title: Application Manager Service JavaAPI Quick Start(SOAP)
-description: null
-seo-description: null
+description: Use the Application Manager service to deploy and remove applications using the Java API Quick Start.
+seo-description: Use the Application Manager service to deploy and remove applications using the Java API Quick Start.
 uuid: 01a9bce3-868b-495b-bdee-bc60f029129e
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 12da2a9b-4009-496e-953f-c2ae0352f59f
+role: Developer
+exl-id: 1d93a7c2-631a-4cf7-938f-0133536c7e09
 ---
-
 # Application Manager Service JavaAPI Quick Start (SOAP) {#application-manager-service-javaapi-quick-start-soap}
 
 Java API Quick Start(SOAP) is available for the Application Manager service.
@@ -25,7 +26,9 @@ Java API Quick Start(SOAP) is available for the Application Manager service.
 
 AEM Forms operations can be performed using the AEM Forms strongly typed API and the connection mode should be set to SOAP.
 
-* ***Note**: Java API(SOAP) Quick Start located in Programming with AEM forms are based on the Forms if you are using another operating system, such as Unix, replace windows specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)*
+>[!NOTE]
+>
+>Java API(SOAP) Quick Start located in Programming with AEM forms are based on the Forms if you are using another operating system, such as Unix, replace windows specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
 
 ## Quick Start (SOAP mode): Deploying Applications using the Java API {#quick-start-soap-mode-deploying-applications-using-the-java-api}
 
@@ -240,4 +243,3 @@ The following Java code example removes an application named *EncryptDocument*.
  } 
  
 ```
-

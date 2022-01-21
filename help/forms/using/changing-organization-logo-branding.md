@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 2c651302-f4ef-4211-b897-f5942ed0ffb1
+exl-id: 890e98af-0491-4b59-9a9b-6c245db54f0f
 ---
-
 # Changing the organization logo for branding {#changing-the-organization-logo-for-branding}
 
 The organization logo is displayed at the upper-left corner of AEM Forms workspace. To update the logo, follow the [Generic steps of AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md#generic-steps-for-html-workspace-customization) and then the following steps.
@@ -28,11 +28,9 @@ The organization logo is displayed at the upper-left corner of AEM Forms workspa
 1. Reference the new logo image in style sheet at /apps/ws/css/newStyle.css by adding following style.
 
    ```css
+
    #logo {
    
-          background: url(../images/NewWorkspace.png) no-repeat 14px 11px;
-   
-   }
+          background: url(../images/NewWorkspace.png) no-repeat 14px 11px; 
+         }
    ```
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

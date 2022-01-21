@@ -6,12 +6,11 @@ seo-description: Managing a project to implement Adobe Experience Manager (AEM) 
 uuid: 61b45b1b-af0b-4b1b-9a52-6767611fc1ab
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
-topic-tags: managing-checklist
+topic-tags: managing-checklist, introduction
 content-type: reference
-topic-tags: introduction
 discoiquuid: b891009b-d3b1-402a-920a-014366f342f0
+exl-id: 1699b24f-cf2a-419b-a2f9-be294fa3591f
 ---
-
 # Managing Projects - Best Practices Checklist{#managing-projects-best-practices-checklist}
 
 Managing a project to implement Adobe Experience Manager (AEM) requires planning and understanding to ensure you are aware of the issues and (related) decisions that you need to make (both before and while implementing your project).

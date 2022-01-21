@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 884b3e75-78b5-421a-938e-97fe6d77c8c2
+exl-id: 9f57087f-895d-43b9-9b6a-9cfb4c794c7b
 ---
-
 # Scaffolding{#scaffolding}
 
 Sometimes you may need to create a large set of pages that share the same structure but have differing content. Through the standard AEM interface, you would need to create each page, drag the appropriate components onto the page and fill each of them in individually.
@@ -167,4 +167,3 @@ After unlocking you can restore inheritance by clicking on the unlocked padlock 
 >[!NOTE]
 >
 >If the inheritance is canceled at the page level (from the Livecopy tab of Page Properties) then all components will be editable in **Scaffolding** mode (they will be shown in unlocked state).
-

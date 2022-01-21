@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: e30e5a21-ac86-4653-bd1f-7351852db3f3
+exl-id: 41727155-2a67-44b6-b925-22001891a348
 ---
-
 # Setting up your campaign{#setting-up-your-campaign}
 
 Setting up a new campaign includes the following (generic) steps:
@@ -392,4 +392,3 @@ To view the leads that belong to a list:
    ![screen_shot_2012-02-21at10828pm](assets/screen_shot_2012-02-21at10828pm.png)
 
 1. Click **Close** to return to the MCM.
-

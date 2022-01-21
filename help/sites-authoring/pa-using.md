@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 42d2195a-1327-45c0-a14c-1cf5ca196cfc
+exl-id: 6509c0ce-fc3a-4248-8dc7-db10602c30d6
 ---
-
 # Seeing Page Analytics Data{#seeing-page-analytics-data}
 
 Use page analytics data to gauge the effectiveness of the page content.

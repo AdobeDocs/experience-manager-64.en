@@ -1,8 +1,8 @@
 ---
 title: Configuring Layout Container and Layout Mode
 seo-title: Configuring Layout Container and Layout Mode
-description: Lear how to configure Layout Container and Layout Mode.
-seo-description: Lear how to configure Layout Container and Layout Mode.
+description: Learn how to configure Layout Container and Layout Mode.
+seo-description: Learn how to configure Layout Container and Layout Mode.
 uuid: 952b7c86-76ab-4699-8530-8638e46bb50f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
@@ -10,8 +10,8 @@ topic-tags: operations
 content-type: reference
 discoiquuid: 10940000-808a-48ae-8e46-61eccef71eab
 legacypath: /content/docs/en/aem/6-2/administer/operations/page-authoring/configuring-responsive-layouting
+exl-id: 3a85fd49-5929-4eb0-9f40-e62c904dbca0
 ---
-
 # Configuring Layout Container and Layout Mode{#configuring-layout-container-and-layout-mode}
 
 [Responsive Layout](/help/sites-authoring/responsive-layout.md) is a mechanism for realizing [responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design). This allows the user to create web pages that have a layout and dimensions dependent on the devices their users use.
@@ -306,4 +306,3 @@ You can configure the number of columns available for each specific instance of 
     * Components that can be added to the current component:
 
         * `components="[/libs/wcm/foundation/components/responsivegrid, ...`
-

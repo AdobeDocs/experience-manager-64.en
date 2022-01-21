@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 2a9be3b7-b325-4d74-a5bc-8d24db491920
+exl-id: 04adbbc9-9e4c-4c64-aab1-20b17bd75bb5
 ---
-
 # Mapping Component Data with Adobe Analytics Properties{#mapping-component-data-with-adobe-analytics-properties}
 
 Add components to the framework that gather the data to send to Adobe Analytics. Components that are designed to gather analytics data store the data in the appropriate **CQ variable**. When you add such a component to a framework, the framework displays the list of CQ variables so that you can each to the appropriate **Analytics variable**.
@@ -198,9 +198,7 @@ Taking the above image as an example, the **AEM view** has the following propert
 >* e.g. next to `prop3` you can add  
 >* `'`* `Adobe:'+pagedata.title+':'+pagedata.sitesection`  
 >  to send the *title* of a page concatenated with its *sitesection* using *:* (colon) and prefixed with *Adobe* as `prop3`
->
 
 >[!CAUTION]
 >
 >Only one CQ variable can be mapped to a Adobe Analytics variable at any given time.
-

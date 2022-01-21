@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 80a70f5c-dcc4-425f-9971-9e0feec094d6
+exl-id: 4831abe0-7d82-4cdd-8579-9736aa6a94d6
 ---
-
 # Introduction to Customizing AEM form workspace {#introduction-to-customizing-aem-form-workspace}
 
 AEM form workspace provides capabilities to modify the presentation semantics and functionality of its interface. The types of customizations to change the style, layout, formatting, branding, and core functionality are described below.
@@ -373,5 +373,3 @@ mvn clean -P Dev install on client-pkg
 * html.jsp
 * content.xml
 * _rep_policy.xml
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 1cc8ce66-2c03-44e4-9ddd-8d6944d85c99
+role: Admin
+exl-id: 834df392-df38-498c-9e2a-489484e20e0a
 ---
-
 # Tagging User Generated Content {#tagging-user-generated-content}
 
 ## Overview {#overview}
@@ -50,4 +51,3 @@ See [Setting Tag Permissions](../../help/sites-administering/tags.md#setting-tag
 The following is how it appears in CRXDE when an administrator applies read permissions to `/etc/tag/discussions` for the group `*Community Engage Members*`.
 
 ![chlimage_1-74](assets/chlimage_1-74.png)
-

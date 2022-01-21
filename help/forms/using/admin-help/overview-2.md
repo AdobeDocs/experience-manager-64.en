@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 986d16fc-4c81-4785-b1f3-fe8bd7ff669e
+exl-id: 4817d150-9bfe-4cb9-8f06-6ff4eaaa6f55
 ---
-
 # Basics of managing certificates and credentials {#basics-of-managing-certificates-and-credentials}
 
 A *credential* contains your private key information needed for signing or identifying documents. A *certificate* is public key information that you configure for trust. AEM forms uses certificates and credentials for several purposes:
@@ -29,7 +29,7 @@ AEM forms does not provide any option to generate a key pair. However, you can g
 
 [https://docs.oracle.com/cd/E19798-01/821-1841/gjrgy/index.html](https://docs.oracle.com/cd/E19798-01/821-1841/gjrgy/index.html)
 
-[https://blogs.adobe.com/livecycle/2010/01/creating_ssl_keys_and_certific.html](https://blogs.adobe.com/livecycle/2010/01/creating_ssl_keys_and_certific.html)
+[https://helpcenter.gsx.com/hc/en-us/articles/115015960428-How-to-Generate-a-Self-Signed-Certificate-and-Private-Key-using-OpenSSL](https://helpcenter.gsx.com/hc/en-us/articles/115015960428-How-to-Generate-a-Self-Signed-Certificate-and-Private-Key-using-OpenSSL)
 
 The following signature types are supported and can be imported in AEM forms:
 
@@ -47,4 +47,3 @@ If you suspect that your key is lost or has been compromised, take the following
 1. Inform the certifying authority, so that they add the compromised key on the certificate revocation list to revoke the key.
 1. Obtain a new key and its certificates from the certifying authority.
 1. Sign the documents that were signed using the compromised key again using the new key.
-

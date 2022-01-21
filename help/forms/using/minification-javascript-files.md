@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: c88a3013-5da2-4b09-9f29-ac1fb00822ec
+exl-id: 8394151e-e9cf-4f68-97a3-ba1d1dd6a2d2
 ---
-
 # Minification of the JavaScript files {#minification-of-the-javascript-files}
 
 Minification removes from the source code the redundant characters, such as white space, new line, and comments. This improves the performance by reducing the size of the code. While minification does not impact the functionality, it reduces the readability of the code.
@@ -68,5 +68,3 @@ To generate minified code for semantic changes follow these steps.
 >[!NOTE]
 >
 >If you minify, upgrade is impacted.
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

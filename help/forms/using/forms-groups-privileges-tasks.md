@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 topic-tags: Configuration
 discoiquuid: 71412f5d-ff34-415f-baf8-d300756b93a9
+role: Admin
+exl-id: a79e863e-c316-422e-a565-b0ffdeffcc00
 ---
-
 # AEM Forms on OSGi Groups and Privileges {#aem-forms-on-osgi-groups-and-privileges}
 
 Assign users to the groups to manage AEM Forms on OSGi
@@ -26,7 +27,7 @@ Once you install [AEM Forms add-on package](/help/forms/using/installing-configu
    <td>Tasks</td> 
   </tr>
   <tr>
-   <td>forms-user <sup><a href="#main-pars-text">[1]</a></sup></td> 
+   <td>forms-user <sup>[1]</sup></td> 
    <td>
     <ul> 
      <li>Create, preview, publish, and submit adaptive forms</li> 
@@ -36,7 +37,7 @@ Once you install [AEM Forms add-on package](/help/forms/using/installing-configu
     </ul> </td> 
   </tr>
   <tr>
-   <td>forms-power-user</td> 
+   <td>forms-power-users</td> 
    <td>
     <ul> 
      <li>Create, preview, publish, and submit adaptive forms</li> 
@@ -56,18 +57,10 @@ Once you install [AEM Forms add-on package](/help/forms/using/installing-configu
     </ul> </td> 
   </tr>
   <tr>
-   <td>template-authors <sup><a href="#main-pars-text">[2]</a></sup></td> 
+   <td>template-authors <sup>[2]</sup></td> 
    <td>
     <ul> 
      <li>Create and preview adaptive forms or interactive communications templates</li> 
-    </ul> </td> 
-  </tr>
-  <tr>
-   <td>template-power-user</td> 
-   <td>
-    <ul> 
-     <li>Create and preview adaptive forms or interactive communications templates</li> 
-     <li>Create scripts for adaptive forms or interactive communications templates using code editor</li> 
     </ul> </td> 
   </tr>
   <tr>
@@ -114,4 +107,3 @@ Once you install [AEM Forms add-on package](/help/forms/using/installing-configu
 
 1. The user with forms-user group privileges cannot write scripts for adaptive forms.
 1. The user with template-authors group privileges cannot write scripts for templates.
-

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 32da99f0-f058-40ae-95a8-2522622438ce
+exl-id: 2ab55a72-2eb2-49dc-8716-0a8a4d0c4b73
 ---
-
 # Running AEM in Production Ready Mode{#running-aem-in-production-ready-mode}
 
 With AEM 6.1, Adobe introduces the new `"nosamplecontent"` runmode aimed at automating the steps required to prepare an AEM instance for deployment in a production environment.
@@ -46,13 +46,13 @@ More specifically, the following configuration changes will be performed when AE
 1. The **Apache Sling Simple WebDAV Access to repositories** ( `org.apache.sling.jcr.webdav`) bundle will only be available on **author** instances.
 
 1. Newly created users will be required to change the password on the first login. This does not apply to the admin user.  
-1. **Generate debug info** is disabled for the **Apache Java Script Handler**.
+1. **Generate debug info** is disabled for the **Apache Sling Java Script Handler**.
 
 1. **Mapped content** and **Generate debug info** are disabled for the **Apache Sling JSP Script Handler**.
 
 1. The **Day CQ WCM Filter** is set to `edit` on **author** and `disabled` on **publish** instances.
 
-1. **The Adobe Granite HTML Library Manager** is configured with the following settings:
+1. The **Adobe Granite HTML Library Manager** is configured with the following settings:
 
     1. **Minify:** `enabled`
     1. **Debug:** `disabled`
@@ -69,4 +69,3 @@ More specifically, the following configuration changes will be performed when AE
 | XML rendition |disabled |disabled |
 | json.maximumresults |1000 |100 |
 | Auto Index |disabled |disabled |
-

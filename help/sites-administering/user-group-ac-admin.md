@@ -2,14 +2,15 @@
 title: User, Group and Access Rights Administration
 seo-title: User, Group and Access Rights Administration
 description: Learn about user, group and access rights administration in AEM.
+feature: Security
 seo-description: Learn about user, group and access rights administration in AEM.
 uuid: 30e0d4dc-261d-4dc2-aff7-29179eca1cc2
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: cc0637ef-4a9e-454f-899d-655c9caebe2b
+exl-id: 9c14e57b-019e-45ae-9e96-40424fa609c2
 ---
-
 # User, Group and Access Rights Administration{#user-group-and-access-rights-administration}
 
 Enabling access to a CRX repository involves several topics:
@@ -56,7 +57,7 @@ CRX allows you to configure the access rights for both user and groups accounts.
 
 >[!NOTE]
 >
->CRX implements [access control as defined by JSR-283](https://docs.adobe.com/content/docs/en/spec/jcr/2.0/16_Access_Control_Management.html). 
+>CRX implements [access control as defined by JSR-283](https://www.adobe.io/experience-manager/reference-materials/spec/jcr/2.0/16_Access_Control_Management.html). 
 >
 >A standard installation of a CRX repository is configured to use resource-based access control lists. This is one possible implementation of JSR-283 access control and one of the implementations present with Jackrabbit.
 
@@ -634,4 +635,3 @@ The order in the list indicates the order in which the policies are applied.
 1. Click **Test** to see the results for your selection:
 
    ![crx_accesscontrol_test](assets/crx_accesscontrol_test.png)
-

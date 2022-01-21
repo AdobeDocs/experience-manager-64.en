@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: eb8fd2b3-0a31-425e-b0f1-38f09e1106df
+exl-id: c6ad3c2b-8776-4ec4-99da-ab73ecc61153
 ---
-
 # Messaging Essentials {#messaging-essentials}
 
 This page documents the details of working with using the Messaging component to include a messaging feature on a website.
@@ -102,10 +102,10 @@ See also [Client-side Customizations](client-customize.md)
 >
 >For example:
 >
->```>
+>```
 >valid: mb.setInboxPath( "/mail/inbox" );
 > not valid: mb.setInboxPath( "/mail/inbox/" );
->```>
+>```
 
 ### Community Site {#community-site}
 
@@ -231,4 +231,3 @@ public class MessagingEventHandler implements EventHandler {
     }
 }
 ```
-

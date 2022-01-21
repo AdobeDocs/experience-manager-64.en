@@ -9,18 +9,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 599f1925-a17e-4bae-93d9-b54edcee92b0
+feature: Mobile Forms
+exl-id: 5bb8b307-93f0-4ccd-89ac-de82d65021e6
 ---
-
 # Architecture of HTML5 forms {#architecture-of-html-forms}
 
 ## Architecture {#architecture}
 
 HTML5 forms functionality is deployed as a package within the embedded AEM instance and is exposesd as a REST end point over HTTP/S using RESTful [Apache Sling Architecture](https://sling.apache.org/).
 
-    [ ![01-aem-forms-architecture](assets/01-aem-forms-architecture.jpg)  
-*View Full Size*](javascript:void(0).md)
-
-    [ ![02-aem-forms-architecture_large](assets/02-aem-forms-architecture_large.jpg)](javascript:void(0).md)
+![02-aem-forms-architecture_large](assets/02-aem-forms-architecture_large.jpg)
 
 ### Using Sling Framework {#using-sling-framework}
 
@@ -179,5 +177,4 @@ For more information on CQ Client Libs, see [CQ Clientlib Documentation](https:/
 As described above, the profile renderer JSP calls Forms Service via a sling include. This JSP also sets various debug options based on admin configuration or request parameters.  
 
 HTML5 forms allow developers to create Profile and Profile Renderer to customize the appearance of the forms. For example, HTML forms allow developers to integrate forms in a panel or &lt;div&gt; section of an existing HTML portal.  
-For more details on creating custom profiles, see [Creating a Custom Profile](/help/forms/using/custom-profile.md).   
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**
+For more details on creating custom profiles, see [Creating a Custom Profile](/help/forms/using/custom-profile.md).

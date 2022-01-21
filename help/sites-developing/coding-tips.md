@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 4adce3b4-f209-4a01-b116-a5e01c4cc123
+exl-id: edc06f41-d0ee-45b0-b2f9-a8fa80e6a8d2
 ---
-
 # Coding Tips{#coding-tips}
 
 ## Use taglibs or HTL as much as possible {#use-taglibs-or-htl-as-much-as-possible}

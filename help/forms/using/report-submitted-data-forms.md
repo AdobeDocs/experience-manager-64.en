@@ -6,11 +6,11 @@ seo-description: AEM Forms provides APIs that you can use to query and take acti
 uuid: c47c8392-e5a9-4c40-b65e-4a7f379a6b45
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: publish
-topic-tags: developer-reference
+topic-tags: publish, developer-reference
 discoiquuid: 9457effd-3595-452f-a976-ad9eda6dc909
+feature: Forms Portal
+exl-id: 6d860fe3-6884-4141-ad3a-5315c514c843
 ---
-
 # APIs to work with submitted forms on forms portal {#apis-to-work-with-submitted-forms-on-forms-portal}
 
 AEM Forms provides APIs that you can use to query forms data submitted through forms portal. In addition, you can post comments or update properties of submitted forms using the APIs explained in this document.
@@ -224,4 +224,3 @@ https://[host]:[port]/content/forms/portal/submission.review.json?func=updateSub
 ```java
 {"formName":"form2","owner":"admin","jcr:lastModified":1446727516593,"path":"/content/forms/fp/admin/submit/metadata/1403037413508500.html","submitID":"1403037413508500","status":"submitted"}
 ```
-

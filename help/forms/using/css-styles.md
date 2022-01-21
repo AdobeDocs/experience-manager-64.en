@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: a8d986ab-2a4c-488b-957e-4606f7391bd3
+feature: Mobile Forms
+exl-id: 9e381e71-63ff-41ab-a6ec-9f92447b65a0
 ---
-
 # Creating CSS styles for HTML5 forms {#creating-css-styles-for-html-forms}
 
 HTML5 rendition of a XFA-based form template consists of several HTML elements. These elements are arranged in an order. Every element has well-defined CSS classes. You can use these CSS class to select and change the appearance of an element.
@@ -244,5 +245,3 @@ When the validation of a field results in a warning, an inline warning is displa
 `Styling Fields with Validation Errors`
 
 When validation for a field fails, the style of the widget changes. This style change is done by applying a CSS class **widgetError** on the widget component. To modify the default styling, override the **widgetError** class.
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

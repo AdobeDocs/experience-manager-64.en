@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 5150867a-02a9-45c9-b2fd-e536b60ffa8c
+exl-id: 9c588691-0649-4d59-ab97-ebadfcd1252c
 ---
-
 # Managing Access to Workflows{#managing-access-to-workflows}
 
 Configure ACLs according to user accounts to allow (or disable) starting, and participating in, workflows.
@@ -112,4 +112,3 @@ You can then add an ACL to the folder itself.
 1. Click **Save All**.
 
    The models in the `prototypes` folder are no longer available to members of the `content-authors` group.
-

@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: a3aac07e-7d67-4a4f-b941-ff25a981092f
+exl-id: 5ca6212f-d3c7-4239-beba-9a0bdac4b1ec
 ---
-
 # Updating general settings {#updating-general-settings}
 
 General settings of the AEM Forms app let you specify settings such as fetching attachments, offline mode, landing screen, default category, and autsave frequency.
@@ -62,5 +62,3 @@ You can make the following changes to the settings of your app.
 >Clearing the cache will immediately log you out of the app.
 >
 >However, you will be prompted to confirm the clear cache operation.
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

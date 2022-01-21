@@ -1,17 +1,17 @@
 ---
 title: Understanding AEM Forms Processes
 seo-title: Understanding AEM Forms Processes
-description: null
-seo-description: null
+description: Learn how to use AEM Forms business processes to automate operations. Activate the processes to create a service so that you can invoke it like other services. Processes can be short-lived or long-lived.
+seo-description: Learn how to use AEM Forms business processes to automate operations. Activate the processes to create a service so that you can invoke it like other services. Processes can be short-lived or long-lived.
 uuid: 7cbebe7d-f222-42fa-8eb6-d2443458a791
 contentOwner: admin
 content-type: reference
-topic-tags: coding
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: development-tools
+topic-tags: development-tools, coding
 discoiquuid: ac9fe461-63e7-442b-bd1c-eb9576ef55aa
+role: Developer
+exl-id: 0ae0ddbf-ded6-4494-bf94-bf6cf7f1fd46
 ---
-
 # Understanding AEM Forms Processes {#understanding-aem-forms-processes}
 
 A common use case is for a set of AEM Forms services to operate on a single document. You can send a request to the service container by creating a process using Workbench. A process represents a business process that you are automating. For information about creating processes, see [Using Workbench](https://www.adobe.com/go/learn_aemforms_workbench_63).
@@ -28,8 +28,10 @@ However, there are situations where a process cannot be completed synchronously 
 
   These types of processes are known as long-lived processes. A long-lived process is performed asynchronously, allowing for systems to interact as resources permit and allowing for the tracking and monitoring of the operation. When a long-lived process is invoked, AEM Forms creates an invocation identifier value as part of a record that tracks the long-lived process status. The record is stored in the AEM Forms database. You can purge long-lived process records when they are no longer required.
 
-  ***Note**: AEM Forms does not create a record when a short-lived process is invoked. *
-
+>[!NOTE]
+>
+>AEM Forms does not create a record when a short-lived process is invoked.
+  
   Using the invocation identifier value, you can track the status of the long-lived process. For example, you can use the process invocation identifier value to perform Process Manager operations such as terminating a running process instance.
 
 **Short lived process example**
@@ -72,4 +74,3 @@ This process is invoked when an applicant submits a loan form. The process is no
 >[!NOTE]
 >
 >This process can be created by following the tutorial specified in [Creating Your First AEM Forms Application](https://www.adobe.com/go/learn_aemforms_firstapp_ds_63).
-

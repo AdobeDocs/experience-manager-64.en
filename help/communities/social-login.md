@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: c0a71870-8f95-40c8-9ffd-b7af49723288
+role: Admin
+exl-id: 85dcae2f-0773-4867-a24c-056bd2f5585e
 ---
-
 # Social Login with Facebook and Twitter {#social-login-with-facebook-and-twitter}
 
 Social login is the capability to present a site visitor the option to sign in with their Facebook or Twitter account. Therefore, including permitted Facebook or Twitter data in their AEM member profile.
@@ -91,7 +92,7 @@ Once the application has been created, locate the **[!UICONTROL App ID]** and **
 
 ### Create a Facebook Connect Cloud Service {#create-a-facebook-connect-cloud-service}
 
-The [Adobe Granite OAuth Application and Provider](https://chl-author.corp.adobe.com/content/help/en/experience-manager/6-4/communities/using/social-login.html#AdobeGraniteOAuthApplicationandProvider) instance, instantiated by creating a cloud service configuration, identifies the Facebook application and the member group(s) to which the new users are added.
+The [Adobe Granite OAuth Application and Provider](#adobe-granite-oauth-application-and-provider) instance, instantiated by creating a cloud service configuration, identifies the Facebook application and the member group(s) to which the new users are added.
 
 1. On the AEM author instance, sign in with administrator privileges.
 1. From global navigation, select **[!UICONTROL Tools > Cloud Services > Facebook Social login configuration]**.
@@ -103,6 +104,7 @@ The [Adobe Granite OAuth Application and Provider](https://chl-author.corp.adobe
 1. Go to **[!UICONTROL Tools > General > Configuration Browser]**. Select your context and edit properties. Enable Cloud Configurations if not enabled yet.
 
    ![config-propertiespng](assets/config-propertiespng.png)
+   * See the [Configuration Browser documentation](/help/sites-administering/configurations.md) for more information.
 
 1. Create/Edit Facebook cloud service configuration.
 
@@ -249,6 +251,7 @@ The [Adobe Granite OAuth Application and Provider](#adobe-granite-oauth-applicat
 1. Go to **[!UICONTROL Tools > General > Configuration Browser]**. Select your context and edit properties. Enable Cloud Configurations if not enabled yet.
 
    ![twitterconfigproppng](assets/twitterconfigproppng.png)
+   * See the [Configuration Browser documentation](/help/sites-administering/configurations.md) for more information.
 
 1. Create/Edit Twitter cloud service configuration.
 

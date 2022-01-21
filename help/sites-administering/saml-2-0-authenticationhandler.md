@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 6ed09b5d-5089-43d2-b9d5-e7db57be5c02
+exl-id: 4868daad-0f3e-48cb-9b20-08dee270e74e
 ---
-
 # SAML 2.0 Authentication Handler{#saml-authentication-handler}
 
 AEM ships with a [SAML](http://saml.xml.org/saml-specifications) authentication handler. This handler provides support for the [SAML](http://saml.xml.org/saml-specifications) 2.0 Authentication Request Protocol (Web-SSO profile) using the `HTTP POST` binding.
@@ -19,14 +19,14 @@ It supports:
 
 * signing and encryption of messages
 * automatic creation of users  
-* synching groups to existsing ones in AEM
+* synching groups to existing ones in AEM
 * Service Provider and Identity Provider initiated authentication
 
 This handler stores the encrypted SAML response message in the user-node ( `usernode/samlResponse`) to facilitate communication with a third-party Service Provider.
 
 >[!NOTE]
 >
->See [a demonstration of AEM and SAML integration](https://helpx.adobe.com/cq/kb/saml-demo.html).
+>See [a demonstration of AEM and SAML integration](https://helpx.adobe.com/experience-manager/kb/simple-saml-demo.html).
 >
 >To read an end to end community article, click: [Integrating SAML with Adobe Experience Manager](https://helpx.adobe.com/experience-manager/using/aem63_saml.html).
 
@@ -44,7 +44,7 @@ The [Web console](/help/sites-deploying/configuring-osgi.md) provides access to 
 
 >[!NOTE]
 >
->SAML assertions are signed and may optionally be encrypted. In order for this to work you have to provide at least the public certificate of the Indentity Provider in the TrustStore. See [Adding the IdP certificate to the TrustStore](/help/sites-administering/saml-2-0-authenticationhandler.md#add-the-idp-certificate-to-the-aem-truststore) section for more information.
+>SAML assertions are signed and may optionally be encrypted. In order for this to work you have to provide at least the public certificate of the Identity Provider in the TrustStore. See [Adding the IdP certificate to the TrustStore](/help/sites-administering/saml-2-0-authenticationhandler.md#add-the-idp-certificate-to-the-aem-truststore) section for more information.
 
 **Path** Repository path for which this authentication handler should be used by Sling. If this is empty, the authentication handler will be disabled.
 
@@ -129,4 +129,3 @@ You can set up a Logger in order to debug any issues that might arise from misco
     * **Log Level:** Debug
     * **Log File:** logs/saml.log
     * **Logger:** com.adobe.granite.auth.saml
-

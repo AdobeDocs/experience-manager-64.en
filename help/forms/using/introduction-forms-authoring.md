@@ -5,12 +5,12 @@ description: AEM Forms provide easy-to-use yet powerful interface for authoring 
 seo-description: AEM Forms provide easy-to-use yet powerful interface for authoring adaptive forms. It provides a host of components and tools that you can use to build forms.
 uuid: 07ff8e79-daf7-4608-9171-91854619cc0b
 content-type: reference
-topic-tags: author
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: introduction
+topic-tags: introduction, author
 discoiquuid: c7a1d13e-cb61-4082-8ae7-7f5eee9e0a51
+feature: Adaptive Forms
+exl-id: 62f1ddd3-9fc2-49dd-b588-0c3520e1cdd2
 ---
-
 # Introduction to authoring adaptive forms  {#introduction-to-authoring-adaptive-forms}
 
 ## Overview {#overview}
@@ -148,7 +148,7 @@ The sidebar comprises the following browsers:
   </tr> 
   <tr> 
    <td>File attachment</td> 
-   <td><p>Adds a button that allows users to browse and attach supporting documents to a form.</p> <p><strong>Note: </strong>The File Attachment component supports a pre-defined set of file formats in adaptive forms enabled for Adobe Sign. For more information, see <a href="https://helpx.adobe.com/document-cloud/help/supported-file-formats-fill-sign.html#main-pars_text">Supported file formats</a>.</p> </td> 
+   <td><p>Adds a button that allows users to browse and attach supporting documents to a form.</p> <p><strong>Note: </strong>The File Attachment component supports a pre-defined set of file formats in adaptive forms enabled for Adobe Sign. For more information, see <a href="https://helpx.adobe.com/document-cloud/help/supported-file-formats-fill-sign.html">Supported file formats</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>File attachment listing</td> 
@@ -385,4 +385,3 @@ The content structure typically contains the following primary components:
 * **[!UICONTROL toolbar]**: An adaptive form container has an associated global toolbar, which is global to the form. This toolbar can be added using the **Add Toolbar** action in the edit bar, which allows authors to add actions, such as Submit, Save, Reset, and so on.
 
 * **[!UICONTROL assets]**: This node contains additional information used for form authoring. For example, form model details, localization details, and so on).
-

@@ -8,20 +8,22 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 85048fe4-ca1b-41fa-8e19-6eeb8dd09962
+exl-id: ae0463de-271f-47c0-b947-f6d149ded8ab
 ---
-
 # Set up the Visual Studio project and build the Windows app {#set-up-the-visual-studio-project-and-build-the-windows-app}
 
-AEM Forms provides the complete source code of the AEM Forms app. The source contains all components to build a custom workspace application. The source code archive, `adobe-lc-mobileworkspace-src-<version>.zip`is a part of the `adobe-aemfd-forms-app-src-pkg-<version>.zip` package on package share.
+AEM Forms provides the complete source code of the AEM Forms app. The source contains all components to build a custom workspace application. The source code archive, `adobe-lc-mobileworkspace-src-<version>.zip`is a part of the `adobe-aemfd-forms-app-src-pkg-<version>.zip` package on Software Distribution.
 
 To get the AEM Forms app source, perform the following steps:
 
-1. Navigate to package share
-
-   URL: `https://<server>:<port>/crx/packageshare`.
-
-1. Download the source package. When you download the package, it is added in your AEM Forms package manager.
-1. After it is downloaded, navigate to: `https://<server>:<port>/crx/packmgr/index.jsp`, and install `adobe-aemfd-forms-app-src-pkg-<version>.zip`.
+1. Open [Software Distribution](https://experience.adobe.com/downloads). You require an Adobe ID to log in to the Software Distribution.
+1. Tap **[!UICONTROL Adobe Experience Manager]** available in the header menu.
+1. In the **[!UICONTROL Filters]** section:
+   1. Select **[!UICONTROL Forms]** from the **[!UICONTROL Solution]** drop-down list.
+   2. Select the version and type for the package. You can also use the **[!UICONTROL Search Downloads]** option to filter the results.
+1. Tap the package name applicable to your operating system, select **[!UICONTROL Accept EULA Terms]**, and tap **[!UICONTROL Download]**.
+1. Open [Package Manager](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html)  and click **[!UICONTROL Upload Package]** to upload the package.
+1. Select the package and click **[!UICONTROL Install]**.
 
 1. To download the source code archive, open `https://<server>:<port>/crx/de/content/forms/mobileapps/src/adobe-lc-mobileworkspace-src-<version>.zip` in your browser. 
 
@@ -157,4 +159,3 @@ To install the app on Windows using Visual Studio:
 
 1. With your app open in Visual Studio, choose Windows-x64, Windows-x86, or Windows-AnyCPU from the Solution Platforms list, and select **Remote Machine**.
 1. Your app is deployed on the remote machine.
-

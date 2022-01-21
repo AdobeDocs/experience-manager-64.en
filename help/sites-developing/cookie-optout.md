@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 5773ec1a-f15b-462d-8f9f-54ee1d7ead44
+exl-id: 7f604d89-c6ad-405d-98cd-80f057466e61
 ---
-
 # Configuring Cookie Usage{#configuring-cookie-usage}
 
 AEM provides a service that enables you to configure and control how cookies are used with your web pages:
@@ -100,7 +100,7 @@ A boolean value of `true` if a cookie is found that indicates no consent, and a 
 
 ### maySetCookie(cookieName) function {#maysetcookie-cookiename-function}
 
-Determines whether a specific cookie can be used on the user's browser. This function is equivalent to using the `isOptedOut` function in conjunction with determining whether the given cookie is included in the list that the `getWhitelsitCookieNames` function returns.
+Determines whether a specific cookie can be used on the user's browser. This function is equivalent to using the `isOptedOut` function in conjunction with determining whether the given cookie is included in the list that the `getWhitelistCookieNames` function returns.
 
 **Parameters**
 

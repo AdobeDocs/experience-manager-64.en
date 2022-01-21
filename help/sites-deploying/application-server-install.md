@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 6fdce35d-2709-41cc-87fb-27a4b867e960
+exl-id: 65346618-e5a6-43d0-a2b3-698268d3cf64
 ---
-
 # Application Server Install{#application-server-install}
 
 >[!NOTE]
@@ -192,7 +192,8 @@ Before a deployment read the [General Description](#general-description) above.
     * Tomcat enables neither admin nor manager access at installation. Therefore you have to manually edit `tomcat-users.xml` to allow access for these accounts:
 
         * Edit `tomcat-users.xml` to include access for admin and manager. The configuration should look similar to the following example:
-        * ```        
+
+        ```xml        
           <?xml version='1.0' encoding='utf-8'?>
            <tomcat-users>
            <role rolename="manager"/>
@@ -205,7 +206,7 @@ Before a deployment read the [General Description](#general-description) above.
            <user username="admin" password="admin" roles="admin,manager-gui"/>
            <user username="role1" password="tomcat" roles="role1"/>
            </tomcat-users>
-          ```
+        ```
 
     * If you like to deploy AEM with context root "/" then you have to change context root of the existing ROOT webapp:
 
@@ -219,14 +220,14 @@ Before a deployment read the [General Description](#general-description) above.
     
       and increase the max-file-size and max-request-size to at least 500MB, see the following `multipart-config` example of such a a `web.xml` file:
         
-        ```        
-          <multipart-config>
-           <!-- 500MB max -->
-           <max-file-size>524288000</max-file-size>
-           <max-request-size>524288000</max-request-size>
-           <file-size-threshold>0</file-size-threshold>
-           </multipart-config>
-        ```
+      ```        
+      <multipart-config>
+       <!-- 500MB max -->
+       <max-file-size>524288000</max-file-size>
+       <max-request-size>524288000</max-request-size>
+       <file-size-threshold>0</file-size-threshold>
+       </multipart-config>
+      ```
 
 * **Deploy AEM web application**
 
@@ -247,4 +248,3 @@ Before a deployment read the [General Description](#general-description) above.
 For information on dealing with issues that may come up during installation, see:
 
 * [Troubleshooting](/help/sites-deploying/troubleshooting.md)
-

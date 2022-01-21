@@ -7,8 +7,10 @@ uuid: de88f68f-4697-4ff0-8008-3ae6a4684a84
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 821eb27e-67c9-4589-9196-30dacb84fa59
+exl-id: 1e122f97-ac37-44f5-a1cd-bf53ffda6f5b
+feature: Configuration,Hybrid Mode
+role: Admin,User,Developer
 ---
-
 # Configuring Dynamic Media - Hybrid mode {#configuring-dynamic-media-hybrid-mode}
 
 Dynamic Media &ndash; Hybrid needs to be enabled and configured for use. Depending on your use case, Dynamic Media has several [supported configurations](#supported-dynamic-media-configurations).
@@ -133,7 +135,7 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
 
 By enabling Dynamic Media, the dynamic media features will be available in the UI and every uploaded image asset receives a `cqdam.pyramid.tiff` rendition that is used for fast delivery of dynamic image renditions. Those PTIFFs have significant advantages including (1) the ability to manage only a single master image and generate infinite renditions on-the-fly without any additional storage and (2) the ability to use interactive visualization such as zoom, pan, spin, and so on.
 
-If you want to use Dynamic Media Classic (Scene7) in AEM, you should not enable Dynamic Media unless you are using a [specific scenario](/help/sites-administering/scene7.md#aem-scene-integration-versus-dynamic-media). Dynamic Media is disabled unless you enable dynamic media by way of the runmode.
+If you want to use Dynamic Media Classic in AEM, you should not enable Dynamic Media unless you are using a [specific scenario](/help/sites-administering/scene7.md#aem-scene-integration-versus-dynamic-media). Dynamic Media is disabled unless you enable Dynamic Media by way of the runmode.
 
 To enable dynamic media, you must enable the dynamic media runmode either from the command line or from the quickstart file name.
 
@@ -145,14 +147,13 @@ To enable dynamic media, you must enable the dynamic media runmode either from t
 
    ```shell
    java -Xmx4096m -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=500000 -jar cq-quickstart-6.4.0.jar -r dynamicmedia
-
    ```
 
    If you are publishing to s7delivery, then you also need to include the following trustStore arguments:
 
-   ```
+   ```shell
    -Djavax.net.ssl.trustStore=<absoluteFilePath>/customerTrustStoreFileName>
-  
+
     -Djavax.net.ssl.trustStorePassword=<passwordForTrustStoreFile>
    ```
 
@@ -202,7 +203,6 @@ To disable dynamic media after you have enabled it, you remove the **[!UICONTROL
 
    ```shell
    java -Xmx4096m -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=500000 -jar cq-quickstart-6.4.0.jar
-
    ```
 
 1. Request `http://localhost:4502/is/image`. You receive a message that Dynamic Media is disabled.
@@ -252,11 +252,11 @@ After you have configured the replication agent, you need to [validate and test 
 
 ### Setting up Authentication {#setting-up-authentication}
 
-You need to set up replication authentication on author in order to replicate images to the Dynamic Media image delivery service. You do this by obtaining a KeyStore and then saving it under the **[!UICONTROL dynamic-media-replication]** user and configuring it. Your company administrator should have received a welcome email with the KeyStore file and necessary credentials during the provisioning process. If you did not receive this, please contact Customer Care.
+You need to set up replication authentication on author in order to replicate images to the Dynamic Media image delivery service. You do this by obtaining a KeyStore and then saving it under the **[!UICONTROL dynamic-media-replication]** user and configuring it. Your company administrator should have received a welcome email with the KeyStore file and necessary credentials during the provisioning process. If you did not receive this, please contact Customer Support.
 
 **To set up authentication**:
 
-1. Contact Customer Care for your KeyStore file and password if you do not already have this. This is part of provisioning and it will associate the keys to your account.
+1. Contact Customer Support for your KeyStore file and password if you do not already have this. This is part of provisioning and it will associate the keys to your account.
 1. In AEM, tap the AEM logo to access the global navigation console, then tap **[!UICONTROL Tools > Security > Users]**.
 1. On the User Management page, navigate to the **[!UICONTROL dynamic-media-replication]** user, then tap to open.
 
@@ -278,9 +278,9 @@ You need to set up replication authentication on author in order to replicate im
 
    * In the **[!UICONTROL New Alias]** field, enter the name of an alias that you will later use in the replication configuration; for example, **replication**.
    * Tap **[!UICONTROL KeyStore File]**. Navigate to the KeyStore file provided to you by Adobe, select it, then tap **[!UICONTROL Open]**.
-   * In the **[!UICONTROL KeyStore File Password]** field, enter the KeyStore File password. This is _not_ the KeyStore password that you created in step 5 but is the KeyStore File password Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a KeyStore File password.
-   * In the **[!UICONTROL Private Key Password]** field, enter the private key password (may be the same private key password provided in the previous step). Adobe provides the private key password in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key password.
-   * In the **[!UICONTROL Private Key Alias]** field, enter the private key alias. For example, `companyname-alias`. Adobe provides the private key alias in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key alias.
+   * In the **[!UICONTROL KeyStore File Password]** field, enter the KeyStore File password. This is _not_ the KeyStore password that you created in step 5 but is the KeyStore File password Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Support if you did not receive a KeyStore File password.
+   * In the **[!UICONTROL Private Key Password]** field, enter the private key password (may be the same private key password provided in the previous step). Adobe provides the private key password in the Welcome email sent to you during provisioning. Contact Adobe Customer Support if you did not receive a private key password.
+   * In the **[!UICONTROL Private Key Alias]** field, enter the private key alias. For example, `companyname-alias`. Adobe provides the private key alias in the Welcome email sent to you during provisioning. Contact Adobe Customer Support if you did not receive a private key alias.
 
    ![edit_settings_fordynamic-media-replication2](assets/edit_settings_fordynamic-media-replication2.png)
 
@@ -297,7 +297,7 @@ You need to set up replication authentication on author in order to replicate im
 
    * **[!UICONTROL Enabled]** - Select this check box to enable the replication agent.
    * **[!UICONTROL Region]** - Set to the appropriate region: North America, Europe, or Asia
-   * **[!UICONTROL Tenant ID]** - This value is the name of your company/tenant that is publishing to the Replication Service. This value is the Tenant ID that Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive this.
+   * **[!UICONTROL Tenant ID]** - This value is the name of your company/tenant that is publishing to the Replication Service. This value is the Tenant ID that Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Support if you did not receive this.
    * **[!UICONTROL Key Store Alias]** - This value is the same as the** New Alias** value set when generating the key in [Setting Up Authentication](#setting-up-authentication); for example, `replication`. (See step 7 in [Setting Up Authentication](#setting-up-authentication).)
    * **[!UICONTROL Key Store Password]** - This is the KeyStore password that was created when you tapped **[!UICONTROL Create KeyStore]**. Adobe does not provide this password. See step 5 of [Setting up Authentication](#setting-up-authentication).
 
@@ -413,7 +413,6 @@ Replication test to s7delivery:https://replicate-na.assetsadobe.com/is-publish
 02.08.2016 14:37:44 - * Using OAuth 2.0 Authorization Grants
 02.08.2016 14:37:44 - * OAuth 2.0 User: dynamic-media-replication
 02.08.2016 14:37:44 - Transfer failed for ReplicationAction{type=TEST, path[0]='/content/dam', time=1470173864834, userId='admin', revision='null'}. com.adobe.granite.keystore.KeyStoreNotInitialisedException: Uninitialised key store for user dynamic-media-replication
-
 ```
 
 **Solution**:
@@ -519,14 +518,14 @@ You can configure video reporting across multiple installations of AEM using Dyn
 
 **Get started:** Configure video reporting by completing the following three tasks.
 
-1. Create a Video Analytics preset package after you configure **[!UICONTROL Dynamic Media Configuration (Pre 6.3)]** on the first Author node. This initial task is important because it allows a new configuration to continue using the same report suite.
-1. Install the Video Analytics preset package to any ***new*** Author node ***before*** you configure Dynamic Media Configuration (Pre 6.3).
+1. Create a [!DNL Video Analytics] preset package after you configure **[!UICONTROL Dynamic Media Configuration (Pre 6.3)]** on the first Author node. This initial task is important because it allows a new configuration to continue using the same report suite.
+1. Install the [!DNL Video Analytics] preset package to any ***new*** Author node ***before*** you configure Dynamic Media Configuration (Pre 6.3).
 
 1. Verify and debug the package installation.
 
-### Creating a Video Analytics preset package after configuring the first Author node {#creating-a-video-analytics-preset-package-after-configuring-the-first-author-node}
+### Creating a [!DNL Video Analytics] preset package after configuring the first Author node {#creating-a-video-analytics-preset-package-after-configuring-the-first-author-node}
 
-When you have finished this task, you will have a package file that contains the Video Analytics presets. These presets contain a report suite, the tracking server, the tracking namespace, and the Marketing Cloud Organization ID, if available.
+When you have finished this task, you will have a package file that contains the [!DNL Video Analytics] presets. These presets contain a report suite, the tracking server, the tracking namespace, and the Marketing Cloud Organization ID, if available.
 
 1. If you have not already done so, configure **[!UICONTROL Dynamic Media Configuration (Pre 6.3)]**.
 1. (Optional) View and copy the **[!UICONTROL Report Suite ID]** (you must have access to the JCR). While having the **[!UICONTROL Report Suite ID]** is not required, it makes validation easier.
@@ -536,24 +535,24 @@ When you have finished this task, you will have a package file that contains the
    In AEM: `/conf/global/settings/dam/dm/presets/analytics/jcr:content/userdata`
 
 1. Build the package.
-1. Download or share the Video Analytics preset package so that it can be shared with subsequent new Author nodes.
+1. Download or share the [!DNL Video Analytics] preset package so that it can be shared with subsequent new Author nodes.
 
-### Installing the Video Analytics preset package before you configure additional Author nodes {#installing-the-video-analytics-preset-package-before-you-configure-additional-author-nodes}
+### Installing the [!DNL Video Analytics] preset package before you configure additional Author nodes {#installing-the-video-analytics-preset-package-before-you-configure-additional-author-nodes}
 
 Be sure that you complete this task _before_ you configure **[!UICONTROL Dynamic Media Configuration (Pre 6.3)]**. Failure to do so results in the creation of another unused report suite. In addition, even though video reporting will continue to work correctly, the gathering of data is not optimized.
 
-Make sure that the Video Analytics preset package from the first Author node is accessible on the new Author node.
+Make sure that the [!DNL Video Analytics] preset package from the first Author node is accessible on the new Author node.
 
-1. Upload the Video Analytics preset package that you created eariler to **[!UICONTROL Package Manager]**.
-1. Install the Video Analytics preset package.
+1. Upload the [!DNL Video Analytics] preset package that you created eariler to **[!UICONTROL Package Manager]**.
+1. Install the [!DNL Video Analytics] preset package.
 1. Configure **[!UICONTROL Dynamic Media Configuration (Pre 6.3)]**.
 
 ### Verifying and debugging the package installation {#verifying-and-debugging-the-package-installation}
 
 1. Do any one of the following to verify and, if necessary, debug the package installation:
 
-    * **Check the Video Analytics preset by way of the JCR** 
-      To check the Video Analytics preset by way of the JCR, you must have access to **[!UICONTROL CRXDE Lite]**.  
+    * **Check the [!DNL Video Analytics] preset by way of the JCR** 
+      To check the [!DNL Video Analytics] preset by way of the JCR, you must have access to **[!UICONTROL CRXDE Lite]**.  
   
       AEM - In **[!UICONTROL CRXDE Lite]**, navigate to `/conf/global/settings/dam/dm/presets/analytics/jcr:content/userdata  `
   
@@ -561,11 +560,11 @@ Make sure that the Video Analytics preset package from the first Author node is 
   
       If you do not have access to **[!UICONTROL CRXDE Lite]** on the Author node, you can check the preset through the Publish server.
 
-    * **Check the Video Analytics preset through the Image Server**
+    * **Check the [!DNL Video Analytics] preset through the Image Server**
 
-      You can validate the Video Analytics preset directly by making an Image Server `req=userdata` request.
+      You can validate the [!DNL Video Analytics] preset directly by making an Image Server `req=userdata` request.
 
-      For example, to see the Analytics preset on the Author node, you can make the following request:  
+      For example, to see the [!DNL Video Analytics] preset on the Author node, you can make the following request:  
   
       `http://localhost:4502/is/image/conf/global/settings/dam/dm/presets/analytics?req=userdata`  
   
@@ -578,7 +577,7 @@ Make sure that the Video Analytics preset package from the first Author node is 
        trackingServer=aemvideodal.d2.sc.omtrdc.net
       ```
 
-    * **Check the Video Analytics preset through the Video Reporting tool in AEM**
+    * **Check the [!DNL Video Analytics] preset through the Video Reporting tool in AEM**
 
       Tap **[!UICONTROL Tools > Assets > Video Reporting]** `http://localhost:4502/mnt/overlay/dam/gui/content/s7dam/videoreports/videoreport.html`  
   
@@ -599,12 +598,12 @@ Make sure that the Video Analytics preset package from the first Author node is 
 ### Troubleshooting the video reporting configuration {#troubleshooting-the-video-reporting-configuration}
 
 * During installation, sometimes connections to the Analytics API server times out. The installation retries the connection 20 times, but it still fails. When this situation occurs, the log file records multiple errors. Search for `SiteCatalystReportService`.
-* Not installing the Analytics Preset package first can cause the creation of a new report suite.
+* Not installing the [!DNL Video Analytics] preset package first can cause the creation of a new report suite.
 * Upgrading from AEM 6.3 to AEM 6.4 or AEM 6.4.1, then configuring **[!UICONTROL Dynamic Media Configuration (Pre 6.3)]**, still creates a report suite. This issue is known and slated to be fixed for AEM 6.4.2.
 
-### About the Video Analytics preset {#about-the-video-analytics-preset}
+### About the [!DNL Video Analytics] preset {#about-the-video-analytics-preset}
 
-The Video Analytics preset—sometimes known simply as analytics preset--is stored next to the Viewer presets in Dynamic Media. It is basically the same as a Viewer preset but with information used to configure AppMeasurement and Video Heartbeat reporting.
+The [!DNL Video Analytics] preset—sometimes known simply as analytics preset--is stored next to the Viewer presets in Dynamic Media. It is basically the same as a Viewer preset but with information used to configure AppMeasurement and Video Heartbeat reporting.
 
 The preset’s properties are the following:
 
@@ -685,7 +684,7 @@ If you are using Dynamic Media for 1) imaging in production _or_ 2) imaging and 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Dynamic Media Classic (Scene7) integration</td> 
+   <td>Dynamic Media Classic integration</td> 
    <td><p>filter-images</p> <p>filter-sets</p> <p>filter-video</p> </td> 
    <td><p>Starts with <strong>image/</strong></p> <p>Contains <strong>application/</strong> and ends with <strong>set</strong>.</p> <p>Starts with <strong>video/</strong></p> </td> 
    <td><p>You configure the Transport URI to point to your AEM publish server instead of the Adobe Dynamic Media Cloud Replication Service URL. Setting up this filter will allow Dynamic Media Classic to deliver assets instead of the AEM publish instance.</p> <p>The out-of-the-box "filter-images," "filter-sets," and "filter-video" will:</p> 
@@ -813,7 +812,7 @@ Configuring the Dynamic Media Image Server involves editing the Adobe CQ Scene7 
 >
 >Dynamic Media works out-of-the-box [after it is enabled](#enabling-dynamic-media). However, you can optionally choose to fine tune your installation by configuring Dynamic Media Image Server to meet certain specifications or requirements.
 
-**Prerequisite**: _Before_ you configure Dynamic Media Image Server, ensure that your VM of Windows includes an installation of the Microsoft Visual C++ Libraries. The libraries are necessary to run Dynamic Media Image Server. You can [download the Microsoft Visual C++ 2010 Redistributable Package (x64) here](https://www.microsoft.com/en-us/download/details.aspx?id=14632).
+**Prerequisite**: _Before_ you configure Dynamic Media Image Server, ensure that your VM of Windows includes an installation of the Microsoft Visual C++ Libraries. The libraries are necessary to run Dynamic Media Image Server. You can [download the Microsoft Visual C++ 2010 Redistributable Package (x64) here](https://www.microsoft.com/en-us/download/details.aspx?id=26999).
 
 **To configure Dynamic Media Image Server settings**:
 
@@ -917,42 +916,42 @@ Table of Manifest settings and their default values:
   <tr> 
    <td>bkgcolor</td> 
    <td>FFFFFF</td> 
-   <td><p>Default background color. RGB value used to fill in any area of a reply image which does not contain actual image data.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_bkgcolor.html">BkgColor</a> in the Image Serving API.</p> </td> 
+   <td><p>Default background color. RGB value used to fill in any area of a reply image which does not contain actual image data.</p> <p>See also <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-bkgcolor.html">BkgColor</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>defaultpix</td> 
    <td>300,300</td> 
-   <td><p>Default view size. The server constrains reply images to be no larger than this width and height, if the request does not specify the view size explicitly using wid=, hei=, or scl=.</p> <p>Specified as two integer numbers, 0 or larger, separated by a comma. Width and height in pixels. Either or both values may be set to 0 to keep them unconstrained. Does not apply to nested/embedded requests.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_defaultpix.html">DefaultPix</a> in the Image Serving API.</p> <p>Usually, however, you are using a viewer preset or image preset to deliver the asset. Defaultpix only applies to an asset that is not using a viewer preset or image preset.</p> </td> 
+   <td><p>Default view size. The server constrains reply images to be no larger than this width and height, if the request does not specify the view size explicitly using wid=, hei=, or scl=.</p> <p>Specified as two integer numbers, 0 or larger, separated by a comma. Width and height in pixels. Either or both values may be set to 0 to keep them unconstrained. Does not apply to nested/embedded requests.</p> <p>See also <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-defaultpix.html">DefaultPix</a> in the Image Serving API.</p> <p>Usually, however, you are using a viewer preset or image preset to deliver the asset. Defaultpix only applies to an asset that is not using a viewer preset or image preset.</p> </td> 
   </tr> 
   <tr> 
    <td>defaultthumbpix</td> 
    <td>100,100</td> 
-   <td><p>Default thumbnail size. Used instead of attribute::DefaultPix for thumbnail requests (req=tmb).</p> <p>The server constrains reply images to be no larger than this width and height, if a thumbnail request (req=tmb) does not specify the size explicitly not specify the view size explicitly using wid=, hei=, or scl=.</p> <p>Specified as two integer numbers, 0 or larger, separated by a comma. Width and height in pixels. Either or both values may be set to 0 to keep them unconstrained. </p> <p>Does not apply to nested/embedded requests.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_defaultthumbpix.html">DefaultThumbPix</a> in the Image Serving API. </p> </td> 
+   <td><p>Default thumbnail size. Used instead of attribute::DefaultPix for thumbnail requests (req=tmb).</p> <p>The server constrains reply images to be no larger than this width and height, if a thumbnail request (req=tmb) does not specify the size explicitly not specify the view size explicitly using wid=, hei=, or scl=.</p> <p>Specified as two integer numbers, 0 or larger, separated by a comma. Width and height in pixels. Either or both values may be set to 0 to keep them unconstrained. </p> <p>Does not apply to nested/embedded requests.</p> <p>See also <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-defaultthumbpix.html">DefaultThumbPix</a> in the Image Serving API. </p> </td> 
   </tr> 
   <tr> 
    <td>expiration</td> 
    <td>36000000</td> 
-   <td><p>Default client cache time to live. Provides a default expiration interval in case a particular catalog record does not contain a valid catalog::Expiration value.</p> <p>Real number, 0 or greater. Number of milliseconds until expiration since the reply data was generated. Set to 0 to always expire the reply image immediately, which effectively disables client caching. By default, this value is set to 10 hours, which means that if a new image is published, it takes 10 hours for the old image to leave the user's cache. Contact Customer Care if you need the cache cleared sooner.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_expiration.html">Expiration</a> in the Image Serving API.</p> </td> 
+   <td><p>Default client cache time to live. Provides a default expiration interval in case a particular catalog record does not contain a valid catalog::Expiration value.</p> <p>Real number, 0 or greater. Number of milliseconds until expiration since the reply data was generated. Set to 0 to always expire the reply image immediately, which effectively disables client caching. By default, this value is set to 10 hours, which means that if a new image is published, it takes 10 hours for the old image to leave the user's cache. Contact Customer Support if you need the cache cleared sooner.</p> <p>See also <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-expiration.html">Expiration</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>jpegquality</td> 
    <td>80</td> 
-   <td><p>Default JPEG encoding attributes. Specifies the default attributes for JPEG reply images.</p> <p>Integer number and flag, separated by a comma. The first value is in the range 1..100 and defines the quality. The second value may be 0 for normal behavior, or 1 to disable the RGB chromaticity down-sampling usually employed by JPEG encoders.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_jpegquality.html">JpegQuality</a> in the Image Serving API.</p> </td> 
+   <td><p>Default JPEG encoding attributes. Specifies the default attributes for JPEG reply images.</p> <p>Integer number and flag, separated by a comma. The first value is in the range 1..100 and defines the quality. The second value may be 0 for normal behavior, or 1 to disable the RGB chromaticity down-sampling usually employed by JPEG encoders.</p> <p>See also <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-jpegquality.html">JpegQuality</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>maxpix</td> 
    <td>2000,2000</td> 
-   <td><p>Reply image size limit. Maximum reply image width and height that is returned to the client.</p> <p>The server returns an error if a request causes a reply image whose width or height is larger than attribute::MaxPix.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_maxpix.html">MaxPix</a> in the Image Serving API.</p> </td> 
+   <td><p>Reply image size limit. Maximum reply image width and height that is returned to the client.</p> <p>The server returns an error if a request causes a reply image whose width or height is larger than attribute::MaxPix.</p> <p>See also <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-maxpix.html">MaxPix</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>resmode</td> 
    <td>SHARP2</td> 
-   <td><p>Default resampling mode. Specifies the default resampling and interpolation attributes to be used for scaling image data.</p> <p>Used when resMode= is not specified in a request.</p> <p>Allowed values include BILIN, BICUB, or SHARP2.</p> <p>Enum. Set to 2 for bilin, 3 for bicub, or 4 for sharp2 interpolation mode. Use sharp2 for best results.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_is_cat_resmode.html">ResMode</a> in the Image Serving API.</p> </td> 
+   <td><p>Default resampling mode. Specifies the default resampling and interpolation attributes to be used for scaling image data.</p> <p>Used when resMode= is not specified in a request.</p> <p>Allowed values include BILIN, BICUB, or SHARP2.</p> <p>Enum. Set to 2 for bilin, 3 for bicub, or 4 for sharp2 interpolation mode. Use sharp2 for best results.</p> <p>See also <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-is-cat-resmode.html">ResMode</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>resolution</td> 
    <td>72</td> 
-   <td><p>Default object resolution. Provides a default object resolution in case a particular catalog record does not contain a valid catalog::Resolution value.</p> <p>Real number, larger than 0. Typically expressed as pixels per inch, but may also be in other units, such as pixels per meter.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_resolution.html">Resolution</a> in the Image Serving API.</p> </td> 
+   <td><p>Default object resolution. Provides a default object resolution in case a particular catalog record does not contain a valid catalog::Resolution value.</p> <p>Real number, larger than 0. Typically expressed as pixels per inch, but may also be in other units, such as pixels per meter.</p> <p>See also <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-resolution.html">Resolution</a> in the Image Serving API.</p> </td> 
   </tr> 
   <tr> 
    <td>thumbnailtime</td> 
@@ -974,13 +973,13 @@ You can configure dynamic media color management and configure image presets usi
 
 Advanced use cases could use a manual configure **[!UICONTROL icc=]** modifier to explicitly select an output color profile:
 
-* **[!UICONTROL icc]** - [https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_icc.html](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_icc.html)
+* **[!UICONTROL icc]** - [Output color profile.](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-icc.html)
 
-* **[!UICONTROL iccEmbed]** - [https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_iccembed.html](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_iccembed.html)
+* **[!UICONTROL iccEmbed]** - [Embed color profile.](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/r-iccembed.html)
 
 >[!NOTE]
 >
->The standard set of Adobe color profiles are only available if you have [Feature Pack 12445](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-12445) installed. All feature packs and service packs are available via [Package Share](https://www.adobeaemcloud.com/content/packageshare.html). Feature Pack 12445 provides the Adobe color profiles.
+>The standard set of Adobe color profiles are only available if you have [Feature Pack 12445 from Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-12445) installed. All feature packs and service packs are available at [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html). Feature Pack 12445 provides the Adobe color profiles.
 
 ### Installing feature pack 12445 {#installing-feature-pack}
 
@@ -988,9 +987,9 @@ You must install feature pack 12445 to use the dynamic media color management ca
 
 **To install feature pack 12445**:
 
-1. Navigate to [Package Share](https://www.adobeaemcloud.com/content/packageshare.html) and download either `cq-6.3.0-featurepack-12445`.
+1. Navigate to [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html) and download `cq-6.3.0-featurepack-12445`.
 
-   See [How to Work with Packages](/help/sites-administering/package-manager.md) for more information on using Package Share and Packages in AEM.
+   See [How to work with packages](/help/sites-administering/package-manager.md) for more information on using packages in [!DNL Adobe Experience Manager].
 
 1. Install the feature pack.
 
@@ -1023,55 +1022,55 @@ After you install the feature pack, you need to configure the appropriate defaul
       <td><strong>Description</strong></td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilergb.html">iccprofilergb</a></td> 
+      <td><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccprofilergb.html">iccprofilergb</a></td> 
       <td>String</td> 
       <td>&lt;empty&gt;</td> 
       <td>Name of the default RGB color profile.</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilecmyk.html">iccprofilecmyk</a></td> 
+      <td><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccprofilecmyk.html">iccprofilecmyk</a></td> 
       <td>String</td> 
       <td>&lt;empty&gt;</td> 
       <td>Name of the default CMYK color profile.</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilegray.html">iccprofilegray</a></td> 
+      <td><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccprofilegray.html">iccprofilegray</a></td> 
       <td>String</td> 
       <td>&lt;empty&gt;</td> 
       <td>Name of the default Gray color profile.</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilesrcrgb.html">iccprofilesrcrgb</a></td> 
+      <td><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccprofilesrcrgb.html">iccprofilesrcrgb</a></td> 
       <td>String</td> 
       <td>&lt;empty&gt;</td> 
       <td>Name of the default RGB color profile used for RGB images that do not have an embedded color profile</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilesrccmyk.html">iccprofilesrccmyk</a></td> 
+      <td><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccprofilesrccmyk.html">iccprofilesrccmyk</a></td> 
       <td>String</td> 
       <td>&lt;empty&gt;</td> 
       <td>Name of the default CMYK color profile used for CMYK images that do not have an embedded color profile.</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccprofilesrcgray.html">iccprofilesrcgray</a></td> 
+      <td><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccprofilesrcgray.html">iccprofilesrcgray</a></td> 
       <td>String</td> 
       <td>&lt;empty&gt;</td> 
       <td>Name of the default Gray color profile used for CMYK images that do not have an embedded color profile.</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccblackpointcompensation.html">iccblackpointcompensation</a></td> 
+      <td><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccblackpointcompensation.html">iccblackpointcompensation</a></td> 
       <td>Boolean</td> 
       <td>True</td> 
       <td>Specifies whether black point compensation should be done during color correction. Adobe recommends this to be on.</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccdither.html">iccdither</a></td> 
+      <td><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccdither.html">iccdither</a></td> 
       <td>Boolean</td> 
       <td>False</td> 
       <td>Specifies whether dithering should be done during color correction.</td> 
       </tr> 
       <tr> 
-      <td><a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/image_catalog/r_iccrenderintent.html">iccrenderintent</a></td> 
+      <td><a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/attributes/r-iccrenderintent.html">iccrenderintent</a></td> 
       <td>String</td> 
       <td>relative</td> 
       <td><p>Specifies the render intent. Acceptable values are: <strong>perceptual, relative, saturation, absolute. </strong><i></i>Adobe recommends <strong>relative </strong><i></i>as the default.</p> </td> 

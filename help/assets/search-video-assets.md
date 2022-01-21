@@ -1,9 +1,11 @@
 ---
 title: Searching Video Assets
-description: Use keywords, file properties such as a Mime type, size, or recently modified time stamp to quickly find your file in AEM Assets.
+description: Use keywords, file properties such as a Mime type, size, or recently modified time stamp to quickly find your file in [!DNL Experience Manager] Assets.
 contentOwner: AG
+feature: Video,Search
+role: User
+exl-id: d5f0beb2-e59f-47cd-8e83-698d8a1dcec3
 ---
-
 # Searching Video Assets {#searching-video-assets}
 
 To save time and effort from having to browse through potentially hundreds of videos, use keywords, file properties such as a file's type, or recently modified time stamp to quickly find your file.

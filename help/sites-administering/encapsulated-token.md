@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 2c263c0d-2521-49df-88ba-f304a25af8ab
+exl-id: 2339657a-20ac-42af-96fb-aebafd5044c7
 ---
-
 # Encapsulated Token Support{#encapsulated-token-support}
 
 ## Introduction {#introduction}
@@ -47,6 +47,13 @@ You can see how this works in a geographically distributed deployment with Mongo
 >
 
 ## Configuring the Encapsulated Token {#configuring-the-encapsulated-token}
+
+>[!NOTE]
+>All authentication handlers that synchronize users and rely on token authentication (like SAML & OAuth) will only work with encapsulated tokens if:
+>
+>* Sticky sessions are enabled, or
+>
+>* Users are already created in AEM when the synchronization starts. This means that encapsulated tokens will not be supported in situations where the handlers **create** users during the sync process.
 
 There are a few things you need to take into consideration when configuring the Encapsulated Token:
 
@@ -89,4 +96,3 @@ Once the HMAC key has been replicated, you can enable the Encapsulated Token via
 1. Point your browser to `https://serveraddress:port/system/console/configMgr`
 1. Look for an entry called **Day CRX Token Authentication Handler** and click it.
 1. In the following window, tick the **Enable encapsulated token support** box and press **Save**.
-

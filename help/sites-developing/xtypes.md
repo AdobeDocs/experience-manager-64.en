@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: adb70b43-1b0b-4302-905a-c7612675dabb
+exl-id: 81d7fa0c-86db-47a1-8fac-44941d3affde
 ---
-
 # Using xtypes (Classic UI){#using-xtypes-classic-ui}
 
 This page describes all the xtypes that are available with Adobe Experience Manager (AEM).

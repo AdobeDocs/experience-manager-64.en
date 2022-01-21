@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 54326a05-3fb0-4111-a6ec-230b6473052e
+exl-id: 2c0dab68-d77e-46fb-832d-90edea510750
 ---
-
 # Generic steps for AEM Forms workspace customization {#generic-steps-for-aem-forms-workspace-customization}
 
 The generic steps to perform any customizations are:
@@ -85,5 +85,3 @@ The generic steps to perform any customizations are:
 1. Click **[!UICONTROL Save All]**, clear cache, and refresh AEM Forms workspace.
 
    Access the URL `https://[server]:[port]/lc/ws` and log in with administrator/password credentials. The browser redirects to `https://[server]:[port]/lc/apps/ws/index.html`.
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

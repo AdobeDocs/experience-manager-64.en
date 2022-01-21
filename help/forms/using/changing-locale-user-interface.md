@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: e4ca8188-fb9a-44bf-8437-a98abaa7521a
+exl-id: 9968f399-454b-4cb2-b6af-2c16428ca7b4
 ---
-
 # Changing the locale of AEM Forms workspace user interface {#changing-the-locale-of-aem-forms-workspace-user-interface}
 
 AEM Forms workspace provides out of the box support for English, French, German, and Japanese languages. It also provides capability to localize AEM Forms workspace user interface to any other language.
@@ -45,7 +45,7 @@ Perform the following steps to add support for a language *New* and the browser 
 
 ## Localizing collapsed categories, queues, and processes {#localizing-collapsed-categories-queues-and-processes}
 
-AEM Forms workspace uses images to display headers of categories, queues, and processes. You require development package to localize these headers. For detailed information about creating development package, see [Building AEM Forms workspace code.](/help/forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3)
+AEM Forms workspace uses images to display headers of categories, queues, and processes. You require development package to localize these headers. For detailed information about creating development package, see [Building AEM Forms workspace code.](introduction-customizing-html-workspace.md#building-html-workspace-code)
 
 In the following steps, it is assumed that the new localized image files are *Categories_nw.png*, *Queue_nw.png*, and *Processes_nw.png*. The recommended width of the images is 19px.
 
@@ -105,7 +105,7 @@ Perform the following steps to localize the images:
 
 ## Localizing Date Picker {#localizing-date-picker}
 
-You require development package to localize the *datepicker *API. For detailed information about creating development package, see [Building AEM Forms workspace code](/help/forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3).
+You require development package to localize the *datepicker *API. For detailed information about creating development package, see [Building AEM Forms workspace code](introduction-customizing-html-workspace.md#building-html-workspace-code).
 
 1. Download and extract the [jQuery UI Package](https://jqueryui.com/download/all/), navigate to *&lt;extracted jquery UI package&gt;*\jquery-ui-1.10.2.zip\jquery-ui-1.10.2\ui\i18n.
 1. Copy the jquery.ui.datepicker-nw.js file for locale code nw to apps/ws/js/libs/jqueryui and make locale specific changes to the file. 
@@ -179,6 +179,8 @@ You require development package to localize the *datepicker *API. For detailed i
     
    ```
 
+to
+
    ```
    if (locale === 'ja-JP') {
        $.datepicker.setDefaults($.datepicker.regional.ja);
@@ -192,5 +194,3 @@ You require development package to localize the *datepicker *API. For detailed i
        $.datepicker.setDefaults($.datepicker.regional['']);
    }
    ```
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: e135fa01-fede-4285-b4dd-2d23acbb4d26
+feature: Mobile Forms
+exl-id: 248e56c7-51b7-41d3-8bc9-a5d737bf178b
 ---
-
 # Designing form templates for HTML5 forms {#designing-form-templates-for-html-forms}
 
 The HTML5 forms component in AEM offers rendering XFA form template to HTML5 format. Form designers can design form templates using [Forms Designer](https://www.adobe.com/go/learn_aemforms_designer_63) and use the HTML5 rendition capability. These form templates, along with their assets, can reside in AEM repository, file system, or exposed via http. However, if you plan to manage your forms using Forms Manager, the templates and assets should reside in the AEM repository.
@@ -29,5 +30,3 @@ The Preview HTML tab is added in the Design mode for Form Designers to preview f
 The key target for HTML5 forms is touch devices. Therefore, a new scribble signature control is added in AEM Forms Designer. You can click or drag-and-drop the scribble signature control on your form template and configure it. It is rendered as a scribble field in HTML5 rendition and can be used to scribble signature on touch devices. On desktop machines, it can be used as a scribble field using mouse control. For more information on how to use this feature, see [XFA Scribble Field](/help/forms/using/scribble-signature.md).
 
 ![4](assets/4.png)
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

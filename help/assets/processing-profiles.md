@@ -1,16 +1,14 @@
 ---
 title: Profiles for Processing Metadata, Images, and Videos
-seo-title: Profiles for Processing Metadata, Images, and Videos
 description: A profile a set of rules around the options to be applied to assets uploaded to a folder. Specify what metadata profile and video encoding profile to apply to video assets that you upload. For image assets, you can also specify what imaging profile to apply to image assets to have them properly cropped.
-seo-description: A profile a set of rules around the options to be applied to assets uploaded to a folder. Specify what metadata profile and video encoding profile to apply to video assets that you upload. For image assets, you can also specify what imaging profile to apply to image assets to have them properly cropped.
-uuid: d95978b9-ffa4-4895-854f-3f7bd396e019
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 347a90ae-a0c5-44f5-8e80-edc3edc1386f
+feature: Workflow,Asset Management,Renditions
+role: User,Admin
+exl-id: 78d76b4f-a46c-4ffc-b772-ed925eb8e34c
 ---
-
 # About profiles for processing metadata, images, and videos {#profiles-for-processing-metadata-images-and-videos}
 
 A profile is a recipe for what options to apply to assets that get uploaded to a folder. For example, you can specify what metadata profile and video encoding profile to apply to video assets that you upload. Or, what imaging profile to apply to image assets to have them properly cropped.
@@ -25,7 +23,7 @@ You must have Administrator rights to create, edit, and delete metadata, image, 
 
 After you create your metadata, image, or video profile, you assign it to one or more folders that you use as the destination for newly uploaded assets.
 
-An important concept regarding the use of profiles in AEM Assets is that they are assigned to folders. Within a profile are settings in the form of metadata profiles, along with video profiles or image profiles. These settings process the contents of a folder along with any of its sub-folders. Therefore, how you name files and folders, how you arrange sub-folders, and how you handle the files within these folders has a significant impact on how those assets are processed by a profile. By using consistent and appropriate file and folder naming strategies, along with good metadata practice, you can make the most of your digital asset collection and ensure that the right files are processed by the right profile. For an example, see [organize assets using folders](organize-assets.md#organize-using-folders).
+An important concept regarding the use of profiles in [!DNL Experience Manager] Assets is that they are assigned to folders. Within a profile are settings in the form of metadata profiles, along with video profiles or image profiles. These settings process the contents of a folder along with any of its sub-folders. Therefore, how you name files and folders, how you arrange sub-folders, and how you handle the files within these folders has a significant impact on how those assets are processed by a profile. By using consistent and appropriate file and folder naming strategies, along with good metadata practice, you can make the most of your digital asset collection and ensure that the right files are processed by the right profile. For an example, see [organize assets using folders](organize-assets.md#organize-using-folders).
 
 >[!NOTE]
 >
@@ -37,7 +35,7 @@ An important concept regarding the use of profiles in AEM Assets is that they ar
 
 >[!NOTE]
 >
->Applies to *Dynamic Media - Scene7 mode* only in AEM 6.4.7.0 or later.
+>Applies to *Dynamic Media - Scene7 mode* only in [!DNL Experience Manager] 6.4.7.0 or later.
 
 You can reprocess assets in a folder that already has an existing processing profile that you later changed. 
 
@@ -80,11 +78,11 @@ See [Adjusting the batch size of the reprocess workflow](#adjusting-load).
 
 1. Click **[!UICONTROL Start]**, then click **[!UICONTROL Confirm]**.
 
-    To monitor the workflow or check its progress, from the AEM main console page, click **[!UICONTROL Tools > Workflow]**. On the Workflow Instances page, select a workflow. On the menu bar, click **[!UICONTROL Open History]**. You can also terminate, suspend, or rename a selected workflow from the same Workflow Instances page.
+    To monitor the workflow or check its progress, from the [!DNL Experience Manager] main console page, click **[!UICONTROL Tools > Workflow]**. On the Workflow Instances page, select a workflow. On the menu bar, click **[!UICONTROL Open History]**. You can also terminate, suspend, or rename a selected workflow from the same Workflow Instances page.
 
 ### Adjusting the batch size of the reprocess workflow {#adjusting-load}
 
-(Optional) The default batch size in the reprocessing workflow is 50 assets per job. This optimal batch size is governed by the average asset size and the mime types of assets on which the reprocess is run. A higher value means you will have many files in a single reprocessing job. Accordingly, the processing banner stays on AEM assets for a longer time. However, if the average file size is small&ndash;1 MB or less&ndash;Adobe recommends that you increase the value to several hundred, but never more than a 1000. If the average file size is large&ndash;hundreds of megabytes&ndash;Adobe recommends that you lower the batch size up to 10.
+(Optional) The default batch size in the reprocessing workflow is 50 assets per job. This optimal batch size is governed by the average asset size and the mime types of assets on which the reprocess is run. A higher value means you will have many files in a single reprocessing job. Accordingly, the processing banner stays on [!DNL Experience Manager] assets for a longer time. However, if the average file size is small&ndash;1 MB or less&ndash;Adobe recommends that you increase the value to several hundred, but never more than a 1000. If the average file size is large&ndash;hundreds of megabytes&ndash;Adobe recommends that you lower the batch size up to 10.
 
 **To optionally adjust the batch size of the reprocess workflow**
 
@@ -99,17 +97,17 @@ See [Adjusting the batch size of the reprocess workflow](#adjusting-load).
 
     ![Scene7 Batch Upload component](/help/assets/assets-dm/reprocess-assets8.png)
 
-1. On the **[!UICONTROL Batch Upload to Scene7&mdash;Step Properties]** dialog box, set the following:
+1. On the **[!UICONTROL Batch Upload to Scene7&ndash;Step Properties]** dialog box, set the following:
     * In the **[!UICONTROL Title]** and **[!UICONTROL Description]** text fields, enter a new title and description for the job, if desired.
     * Select **[!UICONTROL Handler Advance]** if your handler will advance to the next step.
     * In the **[!UICONTROL Timeout]** field, enter the external process timeout (seconds).
-    * In the **[!UICONTROL Period]** field, enter a polling interval (seconds) to test for the completion of the external process. 
+    * In the **[!UICONTROL Period]** field, enter a polling interval (seconds) to test for the completion of the external process.
     * In the **[!UICONTROL Batch field]**, enter the maximum number of assets (50-1000) to process in a Dynamic Media server batch processing upload job.
     * Select **[!UICONTROL Advance on timeout]** if you want to advance when the timeout is reached. Deselect if you want to proceed to the inbox when the timeout is reached. 
 
     ![Properties dialog box](/help/assets/assets-dm/reprocess-assets3.png)
 
-1. In the upper-right corner of the **[!UICONTROL Batch Upload to Scene7 &ndash; Step Properties]** dialog box, tap **[!UICONTROL Done]**.
+1. In the upper-right corner of the **[!UICONTROL Batch Upload to Scene7&ndash;Step Properties]** dialog box, tap **[!UICONTROL Done]**.
 
 1. In the upper-right corner of the Scene7: Reprocess Assets workflow model page, tap **[!UICONTROL Sync]**. When you see **[!UICONTROL Synced]**, the workflow runtime model is successfully synchronized and ready to reprocess asset in a folder.
 
@@ -134,5 +132,5 @@ See [Adjusting the batch size of the reprocess workflow](#adjusting-load).
     ![Saving the new property](/help/assets/assets/workflow-models10.png)
 
 1. On the menu bar of the CRXDE Lite page, tap **[!UICONTROL Save All]**.
-1. In the upper-left corner of the page, tap **[!UICONTROL CRXDE Lite]** to return to the main AEM console
+1. In the upper-left corner of the page, tap **[!UICONTROL CRXDE Lite]** to return to the main [!DNL Experience Manager] console
 1. Repeat steps 1-7 to re-synchronize the new batch size to the Scene7: Reprocess Assets workflow model. -->

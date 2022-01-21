@@ -1,16 +1,17 @@
 ---
 title: User Manager Java API Quick Start(SOAP)
 seo-title: User Manager Java API Quick Start(SOAP)
-description: null
-seo-description: null
+description: Use User Manager API to add users, delete users, create groups, manage users and groups, manage roles and permissions, synchronize users programmatically, and manage the Preferences Nodes programmatically.
+seo-description: Use User Manager API to add users, delete users, create groups, manage users and groups, manage roles and permissions, synchronize users programmatically, and manage the Preferences Nodes programmatically.
 uuid: 0a2aa4ab-9329-485f-a30e-47bb471ce1b5
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: e0c20fd2-b084-4f61-936c-5282826a8d3d
+role: Developer
+exl-id: 130b5669-4533-4e88-9a64-bbbd7c68a5ca
 ---
-
 # User Manager Java API Quick Start (SOAP) {#user-manager-java-api-quick-start-soap}
 
 Java API Quick Start(SOAP) is available for the User Manager API.
@@ -31,7 +32,10 @@ Java API Quick Start(SOAP) is available for the User Manager API.
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick start located in Programming with AEM forms are based on the Document if you are using another operating system, such as Unix, replace Windows-specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)*
+>[!NOTE]
+>
+>Quick start located in Programming with AEM forms are based on the Document if you are using another operating system, such as Unix, replace Windows-specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
+
 
 ## Quick Start (SOAP mode): Adding users using the Java API {#quick-start-soap-mode-adding-users-using-the-java-api}
 
@@ -1082,4 +1086,3 @@ public class ManagePreferences {
 } 
 }
 ```
-

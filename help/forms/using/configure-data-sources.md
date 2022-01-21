@@ -7,8 +7,9 @@ uuid: 292217c2-8110-4232-a78b-edea212765d2
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
 discoiquuid: 1dafd400-16c0-416d-9e81-7bf53b761f98
+feature: Form Data Model
+exl-id: a8f200ac-cf9f-47b7-9856-e62aa8b229eb
 ---
-
 # Configure data sources {#configure-data-sources}
 
 Learn how to configure different types of data sources and leverage to create form data models.
@@ -39,7 +40,7 @@ You can configure relational databases using AEM Web Console Configuration. Do t
     * JDBC connection URI
     * Username and password to establish connection with the JDBC driver
 
-   >[!NOTE] {grayBox="true"}
+   >[!NOTE]
    >
    >Ensure that you encrypt sensitive information like passwords before configuring the data source. To encrypt:
    >
@@ -71,7 +72,7 @@ You can configure AEM user profile using User Profile Connector configuration in
     * `name=profile/phoneNumber,type=string`
     * `name=profile/empLocation/*/city,type=string`
 
-   >[!NOTE] {grayBox="true"}
+   >[!NOTE]
    >
    >The **&ast;** in the above example denotes all nodes under the `profile/empLocation/` node in AEM user profile in CRXDE structure. It means that the form data model can access the `city` property of type `string` present in any node under the `profile/empLocation/` node. However, the nodes that contain the specified property must follow a consistent structure.
 
@@ -79,13 +80,16 @@ You can configure AEM user profile using User Profile Connector configuration in
 
 ## Configure folder for cloud service configurations {#cloud-folder}
 
-**Note**: Configuration for cloud services folder is required for configuring cloud services for RESTful, SOAP, and OData services.
+>[!NOTE]
+>
+>Configuration for cloud services folder is required for configuring cloud services for RESTful, SOAP, and OData services.
 
 All cloud service configurations in AEM are consolidated in the `/conf` folder in AEM repository. By default, the `conf` folder contains the `global` folder where you can create cloud service configurations. However, you need to manually enable it for cloud configurations. You can also create additional folders in `conf` to create and organize cloud service configurations.
 
 To configure the folder for cloud service configurations:
 
 1. Go to **[!UICONTROL Tools > General > Configuration Browser]**.
+   * See the [Configuration Browser documentation](/help/sites-administering/configurations.md) for more information.
 1. Do the following to enable the global folder for cloud configurations or skip this step to create and configure another folder for cloud service configurations.
 
     1. In the **[!UICONTROL Configuration Browser]**, select the `global` folder and tap **[!UICONTROL Properties]**.
@@ -126,7 +130,11 @@ SOAP-based web services are described using [Web Services Description Language (
 1. Specify the following for the SOAP web service:
 
     * WSDL URL for the web service.
-    * Select the authentication type — None, OAuth2.0, Basic Authentication, or Custom Authentication — to access the SOAP service, and accordingly provide the details for authentication.
+    * Service Endpoint. Specify a value in this field to override the service endpoint mentioned in WSDL.
+    * Select the authentication type — None, OAuth2.0, Basic Authentication, Custom Authentication, or X509 Token — to access the SOAP service, and accordingly provide the details for authentication.
+
+      If you select X509 Token as the Authentication type, configure the X509 certificate. For more information, see [Set up certificates](install-configure-document-services.md#set-up-certificates-for-reader-extension-and-encryption-service).
+      Specify the KeyStore alias for the X509 certificate in the **[!UICONTROL Key Alias]** field. Specify the time, in seconds, until the authentication request remains valid, in the **[!UICONTROL Time To Live]** field. Optionally, select to sign the message body or timestamp header or both.
 
 1. Tap **[!UICONTROL Create]** to create the cloud configuration for the SOAP web service.
 

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 6696c325-d188-41c8-a39f-c8ae7f339fe8
+exl-id: 9a779cde-dfdf-4d70-a452-5e7d12bf3f28
 ---
-
 # Deploying and Maintaining{#deploying-and-maintaining}
 
 In this page you will find:
@@ -51,8 +51,7 @@ Once you have familiarized yourself with these basics, you will find in more adv
 * [Introduction to the AEM Platform](/help/sites-deploying/platform.md)
 * [Performance Guidelines](/help/sites-deploying/performance-guidelines.md)
 * [Getting Started with AEM Mobile](/help/mobile/getting-started-aem-mobile.md)
-* [Update Release Vehicle Definitions](/help/sites-deploying/update-release-vehicle-definitions.md)
-* [What is AEM Screens?](/help/screens/aem-screens-introduction.md)
+* [What is AEM Screens?](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html)
 
 ## Basic Concepts {#basic-concepts}
 
@@ -121,7 +120,7 @@ With AEM Managed Services customers can realize the following benefits:
 
 **Cloud Manager**: Cloud Manager, part of the Adobe Experience Manager Managed Services offering is a self-service portal that further enables organizations to self-manage Adobe Experience Manager in the cloud. It includes a state-of-the-art continuous integration and continuous delivery (CI/CD) pipeline that lets IT teams and implementation partners speed the delivery of customizations or updates without compromising performance or security. Cloud Manager is only available for Adobe Managed Service customers.
 
-To learn more about Cloud Manger and its resources, please refer to [**Cloud Manager User Guide**](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html).
+To learn more about Cloud Manager and its resources, please refer to [**Cloud Manager User Guide**](https://helpx.adobe.com/experience-manager/cloud-manager/user-guide.html).
 
 ## Getting Started {#getting-started}
 
@@ -313,6 +312,4 @@ The above section should give you a good understanding of the basics of AEM inst
 * [Introduction to the AEM Platform](/help/sites-deploying/platform.md)
 * [Performance Guidelines](/help/sites-deploying/performance-guidelines.md)
 * [Getting Started with AEM Mobile](/help/mobile/getting-started-aem-mobile.md)
-* [Update Release Vehicle Definitions](/help/sites-deploying/update-release-vehicle-definitions.md)
-* [What is AEM Screens?](/help/screens/aem-screens-introduction.md)
-
+* [What is AEM Screens?](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html)

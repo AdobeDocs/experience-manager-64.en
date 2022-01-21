@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 5cb571ae-eeb5-4943-a6b8-92e346e85be2
+role: Admin
+exl-id: 0e906f67-b908-4c41-b243-e4f90100ce5d
 ---
-
 # Configuring Messaging {#configuring-messaging}
 
 ## Overview {#overview}
@@ -41,7 +42,7 @@ To add a new configuration, select the plus '**+**' icon next to the service's n
 
 ![chlimage_1-64](assets/chlimage_1-64.png)
 
-* **[!UICONTROL Message Fields Whitelist]** 
+* **[!UICONTROL Message Fields Allowlist]** 
   Specifies the properties of the Compose Message component users can edit and persist. If new form elements are added, then the element id would need to be added if desired to be stored in SRP. Default is two entries: *subject* and *content*.
 
 * **[!UICONTROL Message box size limit]** 
@@ -83,23 +84,23 @@ To add a new configuration, select the plus '**+**' icon next to the service's n
 * **[!UICONTROL maxTotalAttachmentSize.name]** 
   If supportAttachments is checked, this value specifies the maximum allowed total size (in bytes) of all attachments. Default is *104857600* (100 MB).
 
-* **[!UICONTROL attachmentTypeBlacklist.name]** 
-  A blacklist of file extensions, prefixed with '**.**', that will be rejected by the system. If not blacklisted, then the extension is allowed. Extensions may be added or removed using the '**+**' and '**-**' icons. Default is *DEFAULT*.
+* **[!UICONTROL attachmentTypeBlocklist.name]** 
+  A blocklist of file extensions, prefixed with '**.**', that will be rejected by the system. If not blocklisted, then the extension is allowed. Extensions may be added or removed using the '**+**' and '**-**' icons. Default is *DEFAULT*.
 
 * **[!UICONTROL allowedAttachmentTypes.name]** 
-  **(*Action Required*)** A whitelist of file extensions, the opposite of the blacklist. To allow all file extensions, except for those blacklisted, use the '**-**' icon to remove the single empty entry.
+  **(*Action Required*)** An allowlist of file extensions, the opposite of the blocklist. To allow all file extensions, except for those blocklisted, use the '**-**' icon to remove the single empty entry.
 
 * **[!UICONTROL serviceSelector.name]**
   (*Required*) An absolute path (endpoint) through which the service is invoked (a virtual resource). The root of the path chosen must be one included in the *Execution Paths* configuration setting of OSGi config [ `Apache Sling Servlet/Script Resolver and Error Handler`](http://localhost:4502/system/console/configMgr/org.apache.sling.servlets.resolver.SlingServletResolver), such as `/bin/`, `/apps/`, and `/services/`. To select this configuration for a site's messaging feature, this endpoint is provided as the **`Service selector`** value for the `Message List and Compose Message components` (see [Message Feature](configure-messaging.md)). The default is */bin/messaging* .
 
-* **[!UICONTROL fieldWhitelist.name]**
-  Use **Message Fields Whitelist**.
+* **[!UICONTROL fieldAllowlist.name]**
+  Use **Message Fields Allowlist**.
 
 >[!CAUTION]
 >
 >Each time a `Messaging Operations Service` configuration is opened for edit, if `allowedAttachmentTypes.name` had been removed, an empty entry is re-added to make the property configurable. A single empty entry effectively disables file attachments.
 >
->To allow all file extensions, except for those blacklisted, use the '**-**' icon to (again) remove the single empty entry before clicking **[!UICONTROL Save]**.
+>To allow all file extensions, except for those blocklisted, use the '**-**' icon to (again) remove the single empty entry before clicking **[!UICONTROL Save]**.
 
 ## Troubleshooting {#troubleshooting}
 

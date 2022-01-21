@@ -1,16 +1,17 @@
 ---
 title: Creating Document Output Streams 
 seo-title: Creating Document Output Streams 
-description: null
-seo-description: null
+description: Use the Output service to convert documents as PDF (including PDF/A documents), PostScript, Printer Control Language (PCL), and Zebra - ZPL, Intermec - IPL, Datamax - DPL, and TecToshiba - TPCL label formats.
+seo-description: Use the Output service to convert documents as PDF (including PDF/A documents), PostScript, Printer Control Language (PCL), and Zebra - ZPL, Intermec - IPL, Datamax - DPL, and TecToshiba - TPCL label formats.
 uuid: 80c28efa-35ce-4073-9ca6-2d93bcd67fdd
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: de527d50-991b-4ca3-a8ac-44d5cab988e9
+role: Developer
+exl-id: 31f60907-0b9c-43ac-bb9f-74eacf6976d7
 ---
-
 # Creating Document Output Streams  {#creating-document-output-streams}
 
 **About the Output Service**
@@ -60,7 +61,9 @@ You can accomplish these tasks by using the Output service:
 * [Creating Search Rules](creating-document-output-streams.md#creating-search-rules)
 * [Flattening PDF Documents](creating-document-output-streams.md#flattening-pdf-documents)
 
-  ***Note**: For more information about the Output service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).*
+>[!NOTE]
+>
+>For more information about the Output service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).  
 
 ## Creating PDF Documents {#creating-pdf-documents}
 
@@ -390,11 +393,11 @@ When a PDF/A document is opened in Acrobat, a message is displayed that confirms
 
 >[!NOTE]
 >
->The AIIM web site has a PDF/A FAQ section that you can access at [https://www.aiim.org/documents/standards/19005-1_FAQ.pdf](https://www.aiim.org/documents/standards/19005-1_FAQ.pdf).
+>The AIIM web site has a PDF/A FAQ section that you can access at [https://www.loc.gov/preservation/digital/formats/fdd/fdd000125.shtml](https://www.loc.gov/preservation/digital/formats/fdd/fdd000125.shtml).
 
 >[!NOTE]
 >
->For more information about the Output service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).
+>For more information about the Output service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_64).
 
 ### Summary of steps {#summary_of_steps-1}
 

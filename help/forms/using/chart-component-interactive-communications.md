@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: interactive-communications
 discoiquuid: 16c7e698-258d-4e63-9828-f538dc7d3294
+feature: Interactive Communication
+exl-id: 99077042-cba9-4429-b1e0-830739de5939
 ---
-
 # Using charts in Interactive Communications {#using-charts-in-interactive-communications}
 
 Using charts in an Interactive Communication, you can condense large amounts of information into an easy to analyze and understand visual format  
@@ -88,7 +89,7 @@ To accomplish this, you need to specify:
 * **[!UICONTROL Title]** for the X and Y axis (for Column type chart in the print channel only in this example) - in this example, Amount ($) for the X axis and Expense for the Y axis.
 * **[!UICONTROL Label Direction]** (for Column type chart in the print channel only in this example) - in this example `Tilt Left`
 
-* **[!UICONTROL Tooltip]** to display on mouse over of an expense (web channel only) - in this example `${x}: $ ${y}`, which displays as [Expense Label: $ Amount] (Example: Theme Park Visit: $ 315)
+* **[!UICONTROL Tooltip]** to display on mouse over of an expense (web channel only) - in this example `${x}: $ ${y}`, which displays as `[Expense Label: $ Amount]` (Example: Theme Park Visit: $ 315)
 
 ![Column chart in the print output of an Interactive Communication](assets/chartprintchannel.png)
 **Figure:** *Column chart in the print output of an Interactive Communication*
@@ -238,4 +239,4 @@ Once you have written a custom function, do the following to make it available f
 
 1. Click **Save All** to save the configuration.
 
-The function is now available for use in the Chart.  
+The function is now available for use in the Chart.

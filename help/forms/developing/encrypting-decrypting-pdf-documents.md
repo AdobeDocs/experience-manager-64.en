@@ -1,16 +1,17 @@
 ---
 title: Encrypting and Decrypting PDF Documents
 seo-title: Encrypting and Decrypting PDF Documents
-description: null
-seo-description: null
+description: Use the Encryption service to encrypt and decrypt documents. The Encryption service tasks include encrypting a PDF document with a password, encrypting a PDF document with a certificate, removing password-based encryption from a PDF document, removing certificate-based encryption from a PDF document, unlocking the PDF document so that other service operations can be performed, and determining the encryption type of a secured PDF document.
+seo-description: Use the Encryption service to encrypt and decrypt documents. The Encryption service tasks include encrypting a PDF document with a password, encrypting a PDF document with a certificate, removing password-based encryption from a PDF document, removing certificate-based encryption from a PDF document, unlocking the PDF document so that other service operations can be performed, and determining the encryption type of a secured PDF document.
 uuid: 4e4e2716-c21f-4bfe-ae7a-7e91442414ef
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 5e4bda3a-5648-4c0f-b2f8-bdbebb88f537
+role: Developer
+exl-id: 670d9680-6125-4a48-82ef-78f1630d780f
 ---
-
 # Encrypting and Decrypting PDF Documents {#encrypting-and-decrypting-pdf-documents}
 
 **About the Encryption Service**
@@ -26,7 +27,9 @@ You can accomplish these tasks using the Encryption service:
 * Unlock the PDF document so that other service operations can be performed. For example, after a password-encrypted PDF document is unlocked, you can apply a digital signature to it. (See [Unlocking Encrypted PDF Documents](encrypting-decrypting-pdf-documents.md#unlocking-encrypted-pdf-documents).)
 * Determine the encryption type of a secured PDF document. (See [Determining Encryption Type](encrypting-decrypting-pdf-documents.md#determining-encryption-type).)
 
-  ***Note**: For more information about the Encryption service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).*
+   >[!NOTE]
+   >
+   >For more information about the Encryption service, see [Services Reference for AEM Forms](https://www.adobe.com/go/learn_aemforms_services_63).  
 
 ## Encrypting PDF Documents with a Password {#encrypting-pdf-documents-with-a-password}
 

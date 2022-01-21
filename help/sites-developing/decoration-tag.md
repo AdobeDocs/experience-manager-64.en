@@ -1,31 +1,17 @@
 ---
 title: Decoration Tag
-seo-title: Decoration Tag
 description: When a component in a web page is rendered, an HTML element can be generated, wrapping the rendered component within itself. For developers, AEM offers clear and simple logic controlling the decoration tags that wrap included components.
-seo-description: When a component in a web page is rendered, an HTML element can be generated, wrapping the rendered component within itself. For developers, AEM offers clear and simple logic controlling the decoration tags that wrap included components.
-uuid: db796a22-b053-48dd-a50c-354dead7e8ec
-contentOwner: user
-products: SG_EXPERIENCEMANAGER/6.4/SITES
-topic-tags: components
-content-type: reference
-discoiquuid: 8cb9fd6e-5e1f-43cd-8121-b490dee8c2be
+exl-id: b5edfd56-8e21-44b9-9ea4-3bbdcdb23b50
 ---
-
-# Decoration Tag{#decoration-tag}
-
->[!NOTE]
->
->The decoration tag behavior and options described in this article are based on [AEM 6.3 CFP1](https://helpx.adobe.com/experience-manager/release-notes--aem-6-3-cumulative-fix-pack.html).
->
->The behavior of the decoration tag in 6.3 prior to CFP1 is similar to that of AEM 6.2.
+# Decoration Tag {#decoration-tag}
 
 When a component in a web page is rendered, an HTML element can be generated, wrapping the rendered component within itself. This primarily serves two purposes:
 
 * A component can only be edited when it is wrapped with an HTML element.
 * The wrapping element is used to apply HTML classes that provide:
 
-    * layout information
-    * styling information
+  * layout information
+  * styling information
 
 For developers, AEM offers clear and simple logic controlling the decoration tags that wrap included components. Whether and how the decoration tag is rendered is defined by the combination of two factors, which this page will dive into:
 
@@ -45,12 +31,10 @@ Here are some general recommendations of when to include the wrapper element tha
 The following properties and nodes can be applied to the components to control the behavior of their decoration tag:
 
 * **`cq:noDecoration {boolean}`:** This property can be added to a component and a true value forces AEM not to generate any wrapper elements over the component.
-
 * **`cq:htmlTag` node :** This node can be added under a component and can have the following properties:
-
-    * **`cq:tagName {String}` :** This can be used to specify a custom HTML tag to be used for wrapping the components instead of the default DIV element.
-    * **`class {String}` :** This can be used to specify css class names to be added to the wrapper.
-    * Other property names will be added as HTML attributes with the same String value as provided.
+  * **`cq:tagName {String}` :** This can be used to specify a custom HTML tag to be used for wrapping the components instead of the default DIV element.
+  * **`class {String}` :** This can be used to specify css class names to be added to the wrapper.
+  * Other property names will be added as HTML attributes with the same String value as provided.
 
 ## Script Controls {#script-controls}
 
@@ -158,4 +142,3 @@ When including a component using `cq:includ`e or `sling:include`, the default be
 The following decision tree illustrates how `cq:noDecoration`, `cq:htmlTag`, `cq:tagName`, and `decorationTagName` affect the wrapper behavior.
 
 ![chlimage_1-3](assets/chlimage_1-3.jpeg)
-

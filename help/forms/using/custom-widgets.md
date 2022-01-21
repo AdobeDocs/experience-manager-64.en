@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 5d860f05-3257-4cf7-93dd-77d226d59b39
+feature: Mobile Forms
+exl-id: e9e53b6d-6403-4d37-bac1-efaff0317f34
 ---
-
 # Create custom appearances in HTML5 forms {#create-custom-appearances-in-html-forms}
 
 You can plug in custom widgets to a Mobile Forms. You can extend existing jQuery Widgets or develop your own custom widgets using appearances framework. XFA engine uses various widgets, see [Appearance framework for adaptive and HTML5 forms](/help/forms/using/introduction-widgets.md) for detailed information.
@@ -84,12 +85,14 @@ window.formBridge.registerConfig("widgetConfig",
 
 The widget configuration is provided as a JSON object (a collection of key value pairs) where the key identifies the fields and value represents the widget to use with those fields. A sample configuration looks like:
 
+```
 *{*
 
 *“identifier1” : “customwidgetname”,  
 “identifier2” : “customwidgetname2”,  
 ..  
 }*
+```
 
 where “identifier” is a jQuery CSS selector that represents a particular field, a set of fields of a particular type, or all fields. The following lists the value of the identifier in different cases:
 
@@ -98,5 +101,3 @@ where “identifier” is a jQuery CSS selector that represents a particular fie
 | Particular field with name fieldname |Identifier:"div.fieldname" |All fields with the name ‘fieldname’ are rendered using the widget. |
 | All fields of type ‘type’(where type is NumericField, DateField, and so on.): |Identifier: "div.type" |For Timefield and DateTimeField, the type is textfield as these fields are not supported. |
 | All fields |Identifier: "div.field" |  |
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

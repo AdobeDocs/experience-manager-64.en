@@ -9,8 +9,9 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 0f069fbc-10c2-403e-9419-5e9920035d75
+feature: Document Security
+exl-id: 571c1391-dc60-4bed-b4f9-482a508e4bd4
 ---
-
 # Configure the document security server {#configure-the-document-security-server}
 
 1. In administration console, click Services &gt; document security &gt; Configuration &gt; Server Configuration.
@@ -22,7 +23,9 @@ discoiquuid: 0f069fbc-10c2-403e-9419-5e9920035d75
 
 If you are using IPv6, enter the Base URL as the computer name or the DNS name. If you use a numerical IP address, Acrobat will fail to open policy protected files. Also, use HTTP secure (HTTPS) URL for your server.
 
-***Note**: The base URL is embedded in policy-protected files. Client applications use the base URL to connect back to the server. Secured files will continue to contain the base URL, even if it is changed later. If you change the base URL, configuration information will need to be updated for all connecting clients.*
+>[!NOTE]
+>
+>The base URL is embedded in policy-protected files. Client applications use the base URL to connect back to the server. Secured files will continue to contain the base URL, even if it is changed later. If you change the base URL, configuration information will need to be updated for all connecting clients.
 
 **Default Offline Lease Period:** The default length of time that a user can use a protected document offline. This setting determines the initial value of the Auto-Offline lease period setting when you create a policy. (See Creating and editing policies.) When the lease period expires, the recipient must synchronize the document again to continue using it.
 
@@ -545,7 +548,7 @@ Document security automatically generates a registration invitation email when t
 
 The registration email contains a link to a Registration page and information about how to register. After the invited user registers, document security issues an activation email with a link to an Activation page. When activated, the account remains valid until you deactivate or delete it.
 
-If you enable built-in registration, you specify your SMTP server, registration email details, access capabilities, and reset password email information only once. Before you enable built-in registration, ensure that you have created a local domain in User Management have assigned the “Document security Invite User” role to the appropriate users and groups in your organization. (See [Add a local domain](/help/forms/using/admin-help/adding-domains.md#add-a-local-domain) and [Creating and configuring roles](/help/forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles).) If you do not use built-in registration, you must have your own user registration system created using the AEM forms SDK. See the help on “Developing SPIs for AEM forms” in [Programming with AEM forms](https://www.adobe.com/go/learn-aemforms-programming-63). If you do not use the Built-in Registration option, it is recommended that you configure a message in the activation email and on the client login screen to notify users about how to contact the administrator for a new password or for other information.
+If you enable built-in registration, you specify your SMTP server, registration email details, access capabilities, and reset password email information only once. Before you enable built-in registration, ensure that you have created a local domain in User Management have assigned the “Document security Invite User” role to the appropriate users and groups in your organization. (See [Add a local domain](/help/forms/using/admin-help/adding-domains.md#add-a-local-domain) and [Creating and configuring roles](/help/forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles).) If you do not use built-in registration, you must have your own user registration system created using the AEM forms SDK. See the help on “Developing SPIs for AEM forms” in [Programming with AEM forms](/help/forms/developing/introducing-java-api-soap-quick.md). If you do not use the Built-in Registration option, it is recommended that you configure a message in the activation email and on the client login screen to notify users about how to contact the administrator for a new password or for other information.
 
 **Enable and configure invited user registration**
 
@@ -739,11 +742,6 @@ You can make the following changes using the configuration file:
 1. In administration console, click Services &gt; document security 11 &gt; Configuration &gt; Manual Configuration.
 1. Click Browse to go to the configuration file and then click Import. You cannot type the path directly in the File Name box.
 1. Click OK.
-
-1. 
-1. 
-1. 
-1.
 
 ### Specify a timeout period for offline synchronization {#specify-a-timeout-period-for-offline-synchronization}
 
@@ -1042,4 +1040,3 @@ You can increase the scalability of the document security server by limiting the
    >By default, the value of the `DisableGlobalOfflineSynchronizationData`key is set to `false`.
 
 1. Save and import the configuration file. (See [Manually editing the document security configuration file](/help/forms/using/admin-help/configuring-client-server-options.md#manually-editing-the-document-security-configuration-file).)
-

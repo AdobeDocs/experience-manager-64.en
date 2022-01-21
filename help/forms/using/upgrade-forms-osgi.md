@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: e745033f-8015-4fae-9d82-99d35802c0a6
+role: Admin
+exl-id: 183ed9c6-6a9a-4932-8405-5ae2c6fac1ec
 ---
-
 # Upgrade to AEM 6.4 Forms on OSGi {#upgrade-to-aem-forms-osgi}
 
 Use one of the following upgrade paths, as appropriate for your environment.
@@ -43,14 +44,16 @@ You can perform a direct upgrade from AEM 6.2 Forms or AEM 6.3 Forms to AEM 6.4 
 
 1. Install AEM Forms add-on package. The steps are listed below:
 
-    1. Log in to the AEM server as an administrator and open the package share. The default URL of the package share is `https://[server]:[port]/crx/packageshare`.
-    1. In package share, search **[!UICONTROL AEM 6.4 Forms add-on packages]**, click the package applicable to your operating system, and click **[!UICONTROL Download]**. Read and accept the license agreement and click **[!UICONTROL OK]**. The download starts. Once downloaded, the word **[!UICONTROL Downloaded]** appears next to the package.
+    1. Open [Software Distribution](https://experience.adobe.com/downloads). You require an Adobe ID to log in to the Software Distribution.
+    1. Tap **[!UICONTROL Adobe Experience Manager]** available in the header menu.
+    1. In the **[!UICONTROL Filters]** section:
+       1. Select **[!UICONTROL Forms]** from the **[!UICONTROL Solution]** drop-down list.
+       1. Select the version and type for the package. You can also use the **[!UICONTROL Search Downloads]** option to filter the results.
+    1. Tap the package name applicable to your operating system, select **[!UICONTROL Accept EULA Terms]**, and tap **[!UICONTROL Download]**.
+    1. Open [Package Manager](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html)  and click **[!UICONTROL Upload Package]** to upload the package.
+    1. Select the package and click **[!UICONTROL Install]**.
 
-       Alternately, you can also use the hyperlinks listed in [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) to manually download a package.
-    
-    1. After the download is complete, click **[!UICONTROL Downloaded]**. You are redirected to package manager. In the package manager, search the downloaded package, and click **[!UICONTROL Install]**.
-
-       If you manually download the package using the direct link listed in [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html), then open AEM Package Manager, click **[!UICONTROL Upload Package]**, select the downloaded package, and click upload. After the package is uploaded, click package name, and click **[!UICONTROL Install]**.
+       You can also download the package using the direct link listed in [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article.
 
        >[!NOTE]
        >
@@ -67,9 +70,9 @@ You can perform a direct upgrade from AEM 6.2 Forms or AEM 6.3 Forms to AEM 6.4 
 
     * **Run Migration Utility**
 
-      The migration utility makes the adaptive forms and correspondence management assets of earlier versions compatible with AEM 6.4 forms. You can download the utility from AEM package share. For step-by-step information to configure and use the migration utility, see [migration utility](/help/forms/using/migration-utility.md).
+      The migration utility makes the adaptive forms and correspondence management assets of earlier versions compatible with AEM 6.4 forms. You can download the utility from AEM Software Distribution. For step-by-step information to configure and use the migration utility, see [migration utility](/help/forms/using/migration-utility.md).
 
-      If you are using [Sample for integrating drafts & submissions component](https://helpx.adobe.com/experience-manager/6-3/forms/using/integrate-draft-submission-database.html) with the database and upgrading from a previous version, then run the following SQL queries after performing the upgrade:
+      If you are using [Sample for integrating drafts & submissions component](integrate-draft-submission-database.md) with the database and upgrading from a previous version, then run the following SQL queries after performing the upgrade:
 
       ```    
       UPDATE metadata m, additionalmetadatatable am

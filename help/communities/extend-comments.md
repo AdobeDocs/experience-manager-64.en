@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: a07a4690-0e47-4a76-84cb-96abdc70b835
+exl-id: f6722953-ff71-4fba-b76e-1d566f71f6d5
 ---
-
 # Extend Comments Component {#extend-comments-component}
 
 The intention of [extending](client-customize.md#extensions) a default component is to alter the appearance or behavior of a component for specific uses.
@@ -34,4 +34,3 @@ To extend comments you will need to:
 1. [Create the Components](extend-create-components.md)
 1. [Add Comment to Sample Page](extend-sample-page.md)
 1. [Alter the Appearance](extend-alter-appearance.md)
-

@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 90d0f584-b598-4b21-85d7-31da5f13d404
+exl-id: cb9de2d7-04ad-4221-8db7-403464c9888b
 ---
-
 # Displaying information in the Task Summary pane {#displaying-information-in-the-task-summary-pane}
 
 When you open a task in AEM Forms workspace, a Task Summary pane can display a summary of the task. This additional and relevant information for a task adds more value for the end-user of AEM Forms workspace.
@@ -46,5 +46,3 @@ AEM Forms workspace allows you to display a web page of your choice in the Task 
 
     * Set the value of task summary url as `/lc/content/SampleSummary.html` in Assign Task step.
     * When the task associated with this Assign Task step is opened in AEM Forms workspace, the `html.esp` at `/apps/SampleSummary` is rendered in task summary pane.
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

@@ -1,8 +1,8 @@
 ---
 title: Rendering Forms By Value
 seo-title: Rendering Forms By Value
-description: null
-seo-description: null
+description: Use the Forms API (Java) to render a form by value using the Java API and Web Service API.
+seo-description: Use the Forms API (Java) to render a form by value using the Java API and Web Service API.
 uuid: b932cc54-662f-40ae-94e0-20ac82845f3b
 contentOwner: admin
 content-type: reference
@@ -10,8 +10,9 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: ddbb2b82-4c57-4845-a5be-2435902d312b
+role: Developer
+exl-id: 50c34781-45e3-4255-a997-44f694527c92
 ---
-
 # Rendering Forms By Value {#rendering-forms-by-value}
 
 Typically, a form design that is created in Designer is passed by reference to the Forms service. Form designs can be large and, as a result, it is more efficient to pass them by reference to avoid having to marshal form design bytes by value. The Forms service can also cache the form design so that when cached, it does not have to continually read the form design.
@@ -70,7 +71,7 @@ To render a form by value, pass a `com.adobe.idp.Document` instance that contain
 
 >[!NOTE]
 >
->If you want to display data within the form, the data must be specified within the `xfa:datasets` element. For information about XFA architecture, go to [https://partners.adobe.com/public/developer/xml/index_arch.html](https://partners.adobe.com/public/developer/xml/index_arch.html).
+>If you want to display data within the form, the data must be specified within the `xfa:datasets` element. For information about XFA architecture, go to [https://www.pdfa.org/norm-refs/XFA-3_3.pdf](https://www.pdfa.org/norm-refs/XFA-3_3.pdf).
 
 **Write the form data stream to the client web browser**
 

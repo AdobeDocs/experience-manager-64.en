@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 5dae9ed9-77a3-44f5-a94d-ca5c355c8730
+exl-id: 210cb5f2-cc5c-4664-b324-5c6f70f7b593
 ---
-
 # Troubleshooting guidelines for AEM Forms workspace {#troubleshooting-guidelines-for-aem-forms-workspace}
 
 This article discusses how to debug AEM Forms workspace by enabling logging and by using debugger in a browser. It also explains some common issues that you can encounter when using AEM Forms workspace and their workarounds.
@@ -188,5 +188,3 @@ Scripts and styles can be debugged in different browsers.
 1. HTML forms, using Process Properties in their design, when rendered in AEM Forms workspace, display Submit button inside the form.
 
    When designing forms, when you use Process Properties, it adds a Submit button inside the form. When rendered as a PDF in AEM Forms workspace, the Submit button is not visible to the end user. However, when rendering as an HTML form in AEM Forms workspace, the Submit button is visible to the end user. Clicking on this Submit button inside the form does not initiate any action. Clicking on the Submit button at the bottom of the AEM Forms workspace, outside the form, completes the task.
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

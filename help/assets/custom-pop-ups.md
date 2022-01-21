@@ -1,5 +1,5 @@
 ---
-title: Using Quickviews to create custom pop-ups
+title: Creating custom pop-ups using Quickviews
 seo-title: Using Quickviews to create custom pop-ups
 description: The default Quickview is used in ecommerce experiences whereby a pop-up is displayed with product information to drive a purchase. You can trigger custom content to display in the pop-ups.
 seo-description: The default Quickview is used in ecommerce experiences whereby a pop-up is displayed with product information to drive a purchase. You can trigger custom content to display in the pop-ups.
@@ -9,9 +9,11 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 4bcab3f4-500f-432e-b16b-cdc26b9bab4d
+exl-id: 56b070e4-b445-4488-acff-685b7ce5785f
+feature: Configuration
+role: Admin,User,Developer
 ---
-
-# Using Quickviews to create custom pop-ups {#using-quickviews-to-create-custom-pop-ups}
+# Create custom pop-ups using Quickviews {#using-quickviews-to-create-custom-pop-ups}
 
 The default Quickview is used in ecommerce experiences whereby a pop-up is displayed with product information to drive a purchase. However, you can trigger custom content to display in the pop-ups. Depending on the viewer you are using, this functionality lets users click on a hotspot, or a thumbnail image, or on an image map to see information or related content.
 
@@ -23,7 +25,7 @@ Quickviews are supported by the following viewers in Dynamic Media:
 
 While the functionality of each viewer differs, the process of creating a Quickview is the same across all three supported viewers.
 
-**To use Quickviews to create custom pop-ups,**
+**To create custom pop-ups using Quickviews:**
 
 1. Create a Quickview for an uploaded asset.
 
@@ -101,10 +103,10 @@ While the functionality of each viewer differs, the process of creating a Quickv
 
    Learn more about `setHandlers()` method at the following:
 
-    * Interactive Image viewer: [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_image_viewer_javascriptapiref_sethandlers.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_image_viewer_javascriptapiref_sethandlers.html)
-    * Interactive Video viewer: [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_javascriptapiref_sethandlers.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_javascriptapiref_sethandlers.html)
+    * Interactive Image viewer: [setHandlers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/interactive-images/jsapi-interactive-image/r-html5-aem-int-image-viewer-javascriptapiref-sethandlers.html)
+    * Interactive Video viewer: [setHandlers](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/interactive-video/jsapi-interactive-video/r-html5-aem-int-video-javascriptapiref-sethandlers.html)
 
-1. You now need to configure the quickViewActivate `` handler.
+1. You now need to configure the `quickViewActivate` handler.
 
    The quickViewActivate handler controls the Quickviews in the viewer. The handler contains the variable list and function calls for use with the Quickview. The embed code provides mapping for the SKU variable set in the Quickview as well as a sample loadQuickView function call.
 
@@ -133,9 +135,9 @@ While the functionality of each viewer differs, the process of creating a Quickv
 
    Learn more about quickViewActivate method at the following:
 
-    * Interactive Image viewer: [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_aem_interactive_image_event_callbacks.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_aem_interactive_image_event_callbacks.html)
-    * Interactive Video viewer: [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_aem_int_video_event_callbacks.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_aem_int_video_event_callbacks.html)
-    * Interactive data support in Interactive Video viewer: [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_aem_int_video_int_data_support.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_aem_int_video_int_data_support.html)
+    * Interactive Image viewer &ndash; [Event callbacks](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/interactive-images/c-html5-aem-interactive-image-event-callbacks.html)
+    * Interactive Video viewer &ndash; [Event callbacks](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/interactive-video/c-html5-aem-int-video-event-callbacks.html)
+    * Interactive data support in Interactive Video viewer &ndash; [Interactive data support](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/interactive-video/c-html5-aem-int-video-int-data-support.html)
 
 1. Do the following:
 
@@ -210,8 +212,8 @@ While the functionality of each viewer differs, the process of creating a Quickv
 
    Learn more about `init()` method at the following:
 
-    * Interactive Image viewer: [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_image_viewer_javascriptapiref_init.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_image_viewer_javascriptapiref_init.html)
-    * Interactive Video viewer: [https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_javascriptapiref_init.html](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_int_video_javascriptapiref_init.html)
+    * Interactive Image viewer &ndash; [init](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/interactive-images/jsapi-interactive-image/r-html5-aem-int-image-viewer-javascriptapiref-init.html)
+    * Interactive Video viewer &ndash; [init](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/interactive-video/jsapi-interactive-video/r-html5-aem-int-video-javascriptapiref-init.html)
 
 1. To attach the pop-up--described in the previous steps--to the viewer, use the following code:
 
@@ -261,4 +263,3 @@ While the functionality of each viewer differs, the process of creating a Quickv
    `s7interactiveimageviewer.init()`
 
    After you embed the viewer into your host page, be sure that the viewer instance is created and the handlers are loaded before the viewer is invoked using `init()`.
-

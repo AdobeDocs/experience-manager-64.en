@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
 discoiquuid: 27605eb7-59b2-42d4-8cc5-02cfa52b4491
+exl-id: 79d2dbfb-5e44-4a96-ab9b-ba5d93fc3aae
 ---
-
 # Creating a new AEM Mobile app using create wizard{#creating-a-new-aem-mobile-app-using-create-wizard}
 
 >[!NOTE]
@@ -31,7 +31,7 @@ You can also provide an image file to use as the application thumbnail, select t
 Additional (and optional) tabs exist for build cloud service and integrating the Adobe Mobile Services SDK plug-in into your app.
 
 * Build: Click manage configurations and set up your build.phonegap.com build service here. Then from the drop-down you will be able to select the newly created PhoneGap build cloud service.
-* Analytics: Click manage configurations and set up your [Adobe Mobile Services SDK](https://marketing.adobe.com/developer/en_US/get-started/mobile/c-measuring-mobile-applications) cloud service. Then from the drop-down you will be able to select the newly created Mobile Service to integrate into your mobile app.
+* Analytics: Click manage configurations and set up your [Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/download-sdk.html) cloud service. Then from the drop-down you will be able to select the newly created Mobile Service to integrate into your mobile app.
 
 ## Using App Templates {#using-app-templates}
 

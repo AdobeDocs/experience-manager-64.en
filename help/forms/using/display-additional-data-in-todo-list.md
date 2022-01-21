@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: b74a0933-2b96-4a88-9995-6fb21df141aa
+exl-id: 42d8472d-0eab-4cf9-a7c3-bf2775ee6bec
 ---
-
 # Displaying additional data in ToDo list {#displaying-additional-data-in-todo-list}
 
 By default, the AEM Forms workspace To-do list displays the task display name and description. However, you can add other information such as creation date, deadline date. You can also add icons and change the style of the display.
@@ -32,7 +32,7 @@ For more information about the JSON Object description, see [this](/help/forms/u
    For example change `/apps/ws/locales/en-US/translation.json` for English:
 
    ```
-   
+
    "task" : {
            "reminder" : {
                "value" : "Reminder",
@@ -109,7 +109,7 @@ For more information about the JSON Object description, see [this](/help/forms/u
 1. For example, add information inside the task block:
 
    ```
-   
+
    "stepname" : {
                "value" : "Step Name",
                "tooltip" : "This task belongs to __stepName__ step"
@@ -123,7 +123,7 @@ For more information about the JSON Object description, see [this](/help/forms/u
    For example add:
 
    ```css
-   
+
    .task .taskProperties .stepname{
        width: 25px;
        background: url(../images/stepname.png) no-repeat; /*-------- Or just reuse background image / image-sprite defined .task .taskProperties span of style.css---------------------*/
@@ -145,9 +145,7 @@ Finally, you need to include an entry in the dev package for each property that 
    For example, add under `div class="taskProperties"`:
 
    ```
-   
-   <span class="stepname" alt="<%= $.t('task.stepname.value')%>" title = '<%= $.t("task.stepname.tooltip",{stepName:stepName})%>'/>
-   
-   ```
 
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)
+   <span class="stepname" alt="<%= $.t('task.stepname.value')%>" title = '<%= $.t("task.stepname.tooltip",{stepName:stepName})%>'/>
+
+   ```

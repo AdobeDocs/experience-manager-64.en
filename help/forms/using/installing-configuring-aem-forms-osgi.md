@@ -7,8 +7,9 @@ uuid: ce253b5a-eeb2-47d2-a6c9-e6f59384159a
 contentOwner: khsingh
 topic-tags: installing
 discoiquuid: 1bb8360c-5543-484e-9712-590822211298
+role: Admin
+exl-id: 45b0fb99-9f7f-47e6-a4de-4db321867f8f
 ---
-
 # Install and configure data capture capabilities {#install-and-configure-data-capture-capabilities}
 
 Install and configure adaptive forms, PDF Forms, and HTML5 Forms. Configure Adobe Analytics and Adobe Target for adaptive forms to analyze usage of forms and target users based on their profile.
@@ -84,17 +85,19 @@ Before you begin to install and configure data capture capability AEM Forms, ens
 
 AEM Forms add-on package is an application deployed onto AEM. The package contains AEM Forms data capture and other capabilities. Perform the following steps to install the add-on package:
 
-1. Log in to the [AEM server](http://localhost:4502) as an administrator and open [package share](http://localhost:4502/crx/packageshare). You require an Adobe ID to log in to the package share.
-1. In [AEM package share](http://localhost:4502/crx/packageshare/login.html), search **[!UICONTROL AEM 6.4 Forms add-on packages]**, click the package applicable to your operating system, and click **[!UICONTROL Download]**. Read and accept the license agreement and click **[!UICONTROL OK]**. The download starts. Once downloaded, the word **[!UICONTROL Downloaded]** appears next to the package.
+1. Open [Software Distribution](https://experience.adobe.com/downloads). You require an Adobe ID to log in to the Software Distribution.
+1. Tap **[!UICONTROL Adobe Experience Manager]** available in the header menu.
+1. In the **[!UICONTROL Filters]** section:
+   1. Select **[!UICONTROL Forms]** from the **[!UICONTROL Solution]** drop-down list.
+   2. Select the version and type for the package. You can also use the **[!UICONTROL Search Downloads]** option to filter the results.
+1. Tap the package name applicable to your operating system, select **[!UICONTROL Accept EULA Terms]**, and tap **[!UICONTROL Download]**.
+1. Open [Package Manager](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html)  and click **[!UICONTROL Upload Package]** to upload the package.
+1. Select the package and click **[!UICONTROL Install]**.
 
-   You can also use the version number to search an add-on package. For version number of the latest package, see the [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article.
-
-1. After the download completes, click **[!UICONTROL Downloaded]**. You are redirected to package manager. In the package manager, search the downloaded package, and click **[!UICONTROL Install]**.
-
-   If you manually download the package via the direct link listed in the [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article, log in to the package manager, click **[!UICONTROL Upload Package]**, select the downloaded package, and click upload. After the package is uploaded, click package name, and click **[!UICONTROL Install]**.
+   You can also download the package via the direct link listed in the [AEM Forms releases](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) article.
 
 1. After the package is installed, you are prompted to restart the AEM instance. **Do not immediately restart the server.** Before stopping the AEM Forms server, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the [AEM-Installation-Directory]/crx-quickstart/logs/error.log file and the log is stable.
-1. Repeat steps 1-4 on all the Author and Publish instances.
+1. Repeat steps 1-7 on all the Author and Publish instances.
 
 ## Post-installation configurations {#post-installation-configurations}
 
@@ -119,6 +122,7 @@ Perform the following steps on all the Author and Publish instances to boot dele
    ```
 
 1. (AIX only) Add the following properties to the sling.properties file:
+
     ```
     sling.bootdelegation.xerces=org.apache.xerces.*
     ```
@@ -128,11 +132,11 @@ Perform the following steps on all the Author and Publish instances to boot dele
 
 #### Configure the serialization agent {#configure-the-serialization-agent}
 
-Perform the following steps on all the Author and Publish instances to whitelist the package:
+Perform the following steps on all the Author and Publish instances to add the package to the allowlist:
 
 1. Open AEM Configuration Manager in a browser window. The default URL is `https://[server]:[port]/system/console/configMgr`.
 1. Search and open **[!UICONTROL Deserialization Firewall Configuration]**.
-1. Add the **[!UICONTROL sun.util.calendar]** package to the **[!UICONTROL whitelist]** field. Click **[!UICONTROL Save]**.
+1. Add the **[!UICONTROL sun.util.calendar]** package to the **[!UICONTROL allowlist]** field. Click **[!UICONTROL Save]**.
 1. Repeat step 1-3 on all the Author and Publish instances.
 
 ### Optional post-installation configurations {#optional-post-installation-configurations}
@@ -202,4 +206,3 @@ You have configured an environment to use AEM Forms data capture capabilities. N
 * [Create your first adaptive form](/help/forms/using/create-your-first-adaptive-form.md)
 * [Create your first PDF form](https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/designer-quickstart.pdf)
 * [Introduction to HTML5 Forms](/help/forms/using/introduction.md)
-

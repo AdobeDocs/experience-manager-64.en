@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: process-reporting
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 0cfe62b8-839e-414b-95e5-1bfce6a9d16a
+exl-id: 279b2f89-5b91-4b8f-ab0f-8ade9b9f3932
 ---
-
 # Introduction to Process Reporting {#introduction-to-process-reporting}
 
  ![process-reporting](assets/process-reporting.png)
@@ -63,5 +63,3 @@ AEM Forms servers run numerous processes in parallel. These processes keep on tr
 Process Reporing provides permission-based access to the user interface.
 
 This means only users with reporting permissions have access to the Process Reporting user interface.
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

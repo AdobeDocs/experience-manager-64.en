@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: a7958411-b509-428e-bbe2-42efe8fd1add
+feature: Language Copy
+exl-id: 6387fd5d-d8de-4ea8-b1e6-3274b53d4f41
 ---
-
 # Connecting to Microsoft Translator{#connecting-to-microsoft-translator}
 
 Create a configuration for the Microsoft Translator cloud service to use your Microsoft Translation account for translating AEM page content, community content, or assets.
@@ -75,6 +76,5 @@ Microsoft Translation configuration pages provide a convenient link to the Micro
 
 You need to activate your cloud service configurations to support translated content that is replicated to the publish instance. Use the method of [activating a complete section (tree)](/help/sites-authoring/publishing-pages.md#publishing-and-unpublishing-a-tree) to activate the repository nodes that store the Microsoft Translator or third-party cloud service configurations. The nodes are located below the following parent nodes:
 
-* Microsoft Translation Service: /etc/cloudservices/msft-translation
+* Microsoft Translation Service: /libs/settings/cloudconfigs/translation/msft-translation
 * Third-party Translation: /etc/cloudservices/machine-translation
-

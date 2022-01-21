@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: cb75b826-d044-44be-b364-790c046513e0
+feature: Mobile Forms
+exl-id: ccdb2045-9339-4f39-acb5-85999c4667b9
 ---
-
 # Rendering form template for HTML5 forms {#rendering-form-template-for-html-forms}
 
 ## Render Endpoint {#render-endpoint}
@@ -78,5 +79,3 @@ HTML5 forms support three methods for passing the render parameters. You can pas
 ### Submit Parameters {#submit-parameters}
 
 HTML5 forms submit data; execute server-sided scripts and web-services on AEM servers. For detailed information on parameters used to execute server-sided scripts and web-services on AEM servers, see [HTML5 forms Service Proxy](/help/forms/using/service-proxy.md).
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

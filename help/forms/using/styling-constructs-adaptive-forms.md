@@ -7,8 +7,9 @@ uuid: 45590fd5-6438-4bb3-8ef8-f0b8f9da3ae9
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: d28997b4-49d2-46da-bfa1-ed6876a65639
+feature: Adaptive Forms
+exl-id: 8d7d4a7a-8899-4ad5-9ca8-b961f3f15528
 ---
-
 # Styling constructs for adaptive forms {#styling-constructs-for-adaptive-forms}
 
 ## Prerequisites {#prerequisites}
@@ -17,7 +18,7 @@ Knowledge of CSS and the LESS framework.
 
 ## What can be customized {#what-can-be-customized}
 
-The article lists publicly available css classes of adaptive forms. You can leverage these classes to style various components of an adaptive form. The styling of authoring components, such as dialogs and status bars that display warnings are beyond the scope of this article. Use these styling constructs to create styles (using CSS or Less) only when you are unable to style components using [theme editor](https://helpx.adobe.com/experience-manager/6-3/forms/using/themes.html).
+The article lists publicly available css classes of adaptive forms. You can leverage these classes to style various components of an adaptive form. The styling of authoring components, such as dialogs and status bars that display warnings are beyond the scope of this article. Use these styling constructs to create styles (using CSS or Less) only when you are unable to style components using [theme editor](themes.md).
 
 ## Customizing styles in adaptive forms {#customizing-styles-in-adaptive-forms}
 
@@ -1065,4 +1066,3 @@ These variables in the following table influence the mobile fixed toolbar layout
   </tr> 
  </tbody> 
 </table>
-

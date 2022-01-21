@@ -8,20 +8,22 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 2dec23f7-6cca-4cc9-a78a-acd23ae7da5f
+exl-id: e03beca1-1a95-42c7-b20b-4a2d9eab4df9
 ---
-
 # Set up the Xcode project and build the iOS app {#set-up-the-xcode-project-and-build-the-ios-app}
 
-AEM Forms provides the complete source code of the AEM Forms app. The source contains all components to build custom AEM Forms app. The source code archive, `adobe-lc-mobileworkspace-src-<version>.zip` is a part of the `adobe-aemfd-forms-app-src-pkg-<version>.zip` package on package share.
+AEM Forms provides the complete source code of the AEM Forms app. The source contains all components to build custom AEM Forms app. The source code archive, `adobe-lc-mobileworkspace-src-<version>.zip` is a part of the `adobe-aemfd-forms-app-src-pkg-<version>.zip` package on Software Distribution.
 
 To get the AEM Forms app source, perform the following steps:
 
-1. Navigate to package share 
-
-   URL: `https://<server>:<port>/crx/packageshare`.
-
-1. Download the source package. When you download the package, it is added in your AEM Forms package manager.
-1. After it is downloaded, navigate to: `https://<server>:<port>/crx/packmgr/index.jsp`, and install `adobe-aemfd-forms-app-src-pkg-<version>.zip`.
+1. Open [Software Distribution](https://experience.adobe.com/downloads). You require an Adobe ID to log in to the Software Distribution.
+1. Tap **[!UICONTROL Adobe Experience Manager]** available in the header menu.
+1. In the **[!UICONTROL Filters]** section:
+   1. Select **[!UICONTROL Forms]** from the **[!UICONTROL Solution]** drop-down list.
+   2. Select the version and type for the package. You can also use the **[!UICONTROL Search Downloads]** option to filter the results.
+1. Tap the package name applicable to your operating system, select **[!UICONTROL Accept EULA Terms]**, and tap **[!UICONTROL Download]**.
+1. Open [Package Manager](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html)  and click **[!UICONTROL Upload Package]** to upload the package.
+1. Select the package and click **[!UICONTROL Install]**.
 
 1. To download the source code archive, open `https://<server>:<port>/crx/de/content/forms/mobileapps/src/adobe-lc-mobileworkspace-src-<version>.zip` in your browser.  
 
@@ -157,5 +159,3 @@ You need to archive the Xcode project to build the installer (an .ipa file) and 
 1. Open the `AEM Forms-info.plist` file in an editor.
 1. Replace all the spaces in the URL of your .ipa file with %20.
 1. Save and close the `AEM Forms-info.plist` file.
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

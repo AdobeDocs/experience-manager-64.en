@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 72fe5749-2fa2-442f-b679-7889faeafcac
+exl-id: 9eabafbe-2193-4799-9bdd-c2be42ead0b9
 ---
-
 # Importing and exporting global settings {#importing-and-exporting-global-settings}
 
 You can import and export search template definitions and global settings for Workspace.
@@ -90,13 +90,13 @@ These settings appear only if you have upgraded from Adobe LiveCycle ES 2.5 or e
 
 You may need to change the UDP values for the multicast IP address (mcast_addr), the multicast IP port (mcast_port), and the TTL for the multicast packets (ip_ttl). By default, the multicast IP address and port values are randomly generated and, generally, the values do not need to be changed. However, if your company has any network policies regarding specific multicast ranges for multicast IP addresses, you may need to change the values.
 
-***Note**: The TTL must be greater than the number of network switches between the servers in the cluster; however, if the value is set too high, it can cause multicast packets to travel into subnets, where they will be discarded.*
+>[!NOTE]
+>
+>The TTL must be greater than the number of network switches between the servers in the cluster; however, if the value is set too high, it can cause multicast packets to travel into subnets, where they will be discarded.
 
 The remaining properties in this setting should not be changed.
 
 **server_remoteevents_JGroupName:** The name of the JGroup used for remote event communication. This value is randomly generated to avoid conflicts in clusters. This value should not be changed.
-
-For additional information on JGroups and Workspace, see [JGroups and AEM forms Workspace - Explained](https://blogs.adobe.com/livecycle/2011/03/jgroups-and-livecycle-workspace-explained.html).
 
 ### formView settings {#formview-settings}
 
@@ -118,10 +118,12 @@ For additional information on JGroups and Workspace, see [JGroups and AEM forms 
 
 **client_pollingInterval:** Sets the polling interval (in seconds) used on the (Deprecated for AEM forms on JEE) Flex Workspace to detect new and modified tasks. The default is 3 seconds. This does not work for AEM Forms Workspace.
 
-**client_systemContext_name:** Specify a custom name (e.g. Citizen) to display in the Added By field (in the Attachments tab) for the attachments of a task in AEM Forms Workspace.
+**client_systemContext_name:** Specify a custom name (For example,  Citizen) to display in the Added By field (in the Attachments tab) for the attachments of a task in AEM Forms Workspace.
 
 To define the custom name:
 
 `<client_systemContext_name>[custom name to display]</client_systemContext_name>`
 
-**Note**: *For the Demo application, the default display name is **Citizen**. For a custom application that you create, the default display name is **System Context Account**.*
+>[!NOTE]
+>
+>For the Demo application, the default display name is **Citizen**. For a custom application that you create, the default display name is **System Context Account**.

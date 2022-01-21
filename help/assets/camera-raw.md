@@ -2,11 +2,13 @@
 title: Camera Raw support
 description: Learn how to enable Camera Raw support in Adobe Experience Manager Assets.
 contentOwner: AG
+feature: Developer Tools
+role: Admin
+exl-id: 637c57ae-55a6-4032-9821-b55839b3e567
 ---
+# Use Camera Raw to process images {#camera-raw-support}
 
-# Support to process images using Camera Raw {#camera-raw-support}
-
-You can enable the Camera Raw support to process raw file formats, such as CR2, NEF, and RAF, and render the images in JPEG format. The functionality is supported in Adobe Experience Manager Assets using the [Camera Raw package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem630/product/assets/aem-assets-cameraraw-pkg) available via Package Share.
+You can enable the Camera Raw support to process raw file formats, such as CR2, NEF, and RAF, and render the images in JPEG format. The functionality is supported in Adobe Experience Manager Assets using the [Camera Raw package](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem630/product/assets/aem-assets-cameraraw-pkg) available from Software Distribution.
 
 >[!NOTE]
 >
@@ -14,7 +16,7 @@ You can enable the Camera Raw support to process raw file formats, such as CR2, 
 
 To enable Camera Raw support in Adobe Experience Manager Assets, follow these steps:
 
-1. Download the [Camera Raw package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem630/product/assets/aem-assets-cameraraw-pkg) from the Package Share.
+1. Download the [Camera Raw package](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/aem630/product/assets/aem-assets-cameraraw-pkg) from the Software Distribution.
 
 1. Access `https://[aem_server]:[port]/workflow`. Open the **[!UICONTROL DAM Update Asset]** workflow.
 
@@ -51,7 +53,7 @@ To enable Camera Raw support in Adobe Experience Manager Assets, follow these st
 >
 >Ensure that the above configuration is the same as the **[!UICONTROL Sample DAM Update Asset With Camera RAW and DNG Handling Step]** configuration.
 
-You can now import camera raw files into AEM Assets. After you install the Camera RAW package and configure the required workflow, **[!UICONTROL Image Adjust]** option appears in the list of side panes.
+You can now import camera raw files into [!DNL Experience Manager] Assets. After you install the Camera RAW package and configure the required workflow, **[!UICONTROL Image Adjust]** option appears in the list of side panes.
 
    ![chlimage_1-337](assets/chlimage_1-337.png)
 

@@ -6,8 +6,9 @@ seo-description: Use document security to safely distribute any information that
 uuid: 04c67a84-01ad-45b7-a590-822b1c067d52
 contentOwner: khsingh
 discoiquuid: 600d13e7-6655-41c5-aab4-c8e9e2a8d14f
+role: Admin
+exl-id: 9ce5e89b-76c9-464d-9caf-26a387c698fa
 ---
-
 # Installing and configuring the document security server {#installing-and-configuring-the-document-security-server}
 
 Use document security to safely distribute any information that you have saved in a supported format. Only authorized users can access protected documents. 

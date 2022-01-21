@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 4dc54701-68b9-49dd-a212-b0b53330c1c0
+exl-id: 8f716a59-1116-4855-baeb-3997de71b55f
 ---
-
 # Experience the Published Site {#experience-the-published-site}
 
 ## Browse to New Site on Publish {#browse-to-new-site-on-publish}

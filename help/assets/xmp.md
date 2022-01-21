@@ -1,22 +1,24 @@
 ---
 title: XMP Metadata
-description: Learn about the XMP (Extensible Metadata Platform) metadata standard used by AEM Assets for metadata management. XMP provides a standard format for the creation, processing, and interchange of metadata for a wide variety of applications.
+description: Learn about the XMP (Extensible Metadata Platform) metadata standard used by [!DNL Experience Manager] Assets for metadata management. XMP provides a standard format for the creation, processing, and interchange of metadata for a wide variety of applications.
 contentOwner: AG
+feature: Metadata
+role: User,Admin
+exl-id: 32c4ca3d-2e9e-46a3-b4c7-70dcc50daaaa
 ---
-
 # XMP metadata {#xmp-metadata}
 
-XMP (Extensible Metadata Platform) is the metadata standard used by AEM Assets for all metadata management. XMP provides a standard format for the creation, processing, and interchange of metadata for a wide variety of applications.
+XMP (Extensible Metadata Platform) is the metadata standard used by [!DNL Experience Manager] Assets for all metadata management. XMP provides a standard format for the creation, processing, and interchange of metadata for a wide variety of applications.
 
-Aside from offering universal metadata encoding that can be embedded into all file formats, XMP provides a rich [content model](xmp.md#xmp-core-concepts) and is [supported by Adobe](xmp.md#advantages-of-xmp) and other companies, so that users of XMP in combination with AEM Assets have a powerful platform to build upon.
+Aside from offering universal metadata encoding that can be embedded into all file formats, XMP provides a rich [content model](xmp.md#xmp-core-concepts) and is [supported by Adobe](xmp.md#advantages-of-xmp) and other companies, so that users of XMP in combination with [!DNL Experience Manager] Assets have a powerful platform to build upon.
 
 The [XMP specification](https://www.adobe.com/devnet/xmp.html) is available from Adobe.
 
 ## What is XMP? {#what-is-xmp}
 
-AEM Assets natively supports the XMP - the Extensible Metadata Platform spearheaded by Adobe. XMP is a standard for processing and storing standardized and proprietary metadata in digital assets. XMP is designed to be the common standard that allows multiple applications to work effectively with metadata.
+[!DNL Experience Manager] Assets natively supports the XMP - the Extensible Metadata Platform spearheaded by Adobe. XMP is a standard for processing and storing standardized and proprietary metadata in digital assets. XMP is designed to be the common standard that allows multiple applications to work effectively with metadata.
 
-Production professionals, for example, use the built-in XMP support within Adobe's applications to pass information across multiple file formats. The AEM Assets repository extracts the XMP metadata and uses it to manage the content lifecycle and offers the ability to create automation workflows.
+Production professionals, for example, use the built-in XMP support within Adobe's applications to pass information across multiple file formats. The [!DNL Experience Manager] Assets repository extracts the XMP metadata and uses it to manage the content lifecycle and offers the ability to create automation workflows.
 
 XMP standardizes how metadata is defined, created, and processed by providing a data model, a storage model, and schemas. All of these concepts are covered in this section.
 
@@ -76,4 +78,4 @@ For example, a typical subset used by many Adobe applications might include the 
 
 ### Language Alternatives {#language-alternatives}
 
-XMP offers you the ability to add an **xml:lang** property to text properties to specify the language of the text.  
+XMP offers you the ability to add an **xml:lang** property to text properties to specify the language of the text.

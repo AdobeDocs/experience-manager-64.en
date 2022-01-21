@@ -1,23 +1,25 @@
 ---
 title: Assets Sizing Guide
-description: Best practices to determine efficient metrics for estimating the infrastructure and resources required for deploying AEM Assets. 
+description: Best practices to determine efficient metrics for estimating the infrastructure and resources required for deploying [!DNL Experience Manager] Assets. 
 uuid: f847c07d-2a38-427a-9c38-8cdca3a1210c
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 82c1725e-a092-42e2-a43b-72f2af3a8e04
+feature: Asset Management
+role: Architect,Admin
+exl-id: 6115e5e8-9cf5-417c-91b3-0c0c9c278b5b
 ---
-
 # Assets Sizing Guide {#assets-sizing-guide}
 
-When sizing the environment for an Adobe Experience Manager (AEM) Assets implementation, it is important to ensure that there are sufficient resources available in terms of disk, CPU, memory, IO, and network throughput. Sizing many of these resources requires an understanding of how many assets are being loaded into the system. If a better metric is not available, you can divide the size of the existing library by the age of the library to find the rate at which assets are created.
+When sizing the environment for an Adobe Experience Manager Assets implementation, it is important to ensure that there are sufficient resources available in terms of disk, CPU, memory, IO, and network throughput. Sizing many of these resources requires an understanding of how many assets are being loaded into the system. If a better metric is not available, you can divide the size of the existing library by the age of the library to find the rate at which assets are created.
 
 ## Disk {#disk}
 
 ### DataStore {#datastore}
 
-A common mistake made when sizing the required disk space for an Assets implementation is to base the calculations on the size of the raw images to be ingested into the system. By default, AEM creates three renditions in addition to the original image for use in rendering the AEM UI elements. In previous implementations, these renditions have been observed to assume twice the size of the assets that are ingested.
+A common mistake made when sizing the required disk space for an Assets implementation is to base the calculations on the size of the raw images to be ingested into the system. By default, [!DNL Experience Manager] creates three renditions in addition to the original image for use in rendering the [!DNL Experience Manager] UI elements. In previous implementations, these renditions have been observed to assume twice the size of the assets that are ingested.
 
-Most users define custom renditions in addition to the out-of-the-box renditions. In addition to the renditions, AEM Assets lets you extract sub-assets from common file types, such as InDesign and Illustrator.
+Most users define custom renditions in addition to the out-of-the-box renditions. In addition to the renditions, Assets lets you extract sub-assets from common file types, such as InDesign and Illustrator.
 
 Finally, AEM’s versioning capabilities store duplicates of the assets in the version history. You can configure the versions to be purged often. However, many users choose to retain versions in the system for a long time, which consumes additional storage space.
 
@@ -26,11 +28,11 @@ Considering these factors, you require a methodology to calculate an acceptably 
 1. Determine the size and number of assets that will be loaded into the system.
 1. Get a representative sample of the assets to be uploaded into AEM. For instance, if you plan to load PSD, JPG, AI and PDF files into the system, you require multiple sample images of each file format. In addition, these samples should be representative of the different file sizes and complexities of images.
 1. Define the renditions to be used.
-1. Create the renditions in AEM using ImageMagick or Adobe’s Creative Cloud applications. In addition to the renditions that the users specify, create out-of-the-box renditions. For users who implement Scene7, you can use the IC binary to generate the PTIFF renditions to be stored in AEM.
+1. Create the renditions in [!DNL Experience Manager] using ImageMagick or Adobe’s Creative Cloud applications. In addition to the renditions that the users specify, create out-of-the-box renditions. For users who implement Dynamic Media Classic, you can use the IC binary to generate the PTIFF renditions to be stored in AEM.
 1. If you plan to use subassets, generate them for the appropriate file types. See online documentation on how to generate subasset pages from InDesign files or PNG/PDF files from Illustrator layers.
 1. Compare the size of the output images, renditions, and subassets with the original images. It allows you to generate an expected growth factor when the system is loaded. For example, if you generate renditions and subassets with a combined size of 3GB after processing 1GB of assets, the rendition growth factor is 3.
 1. Determine the maximum time for which asset versions are to be maintained in the system.
-1. Determine how often existing assets are modified in the system. If AEM is used as a collaboration hub in creative workflows, the amount of changes are high. If only finished assets are uploaded to the system, this number is much lower.
+1. Determine how often existing assets are modified in the system. If [!DNL Experience Manager] is used as a collaboration hub in creative workflows, the amount of changes are high. If only finished assets are uploaded to the system, this number is much lower.
 1. Determine how many assets are loaded into the system each month. If you are unsure, ascertain the number of assets that are currently available, and divide the number by the age of the oldest asset to calculate an approximate number.
 
 Performing steps 1-9 helps you determine the following:
@@ -43,7 +45,7 @@ Performing steps 1-9 helps you determine the following:
 * Number of new assets loaded each month
 * Years of growth to allocate space for
 
-You can specify these numbers in the Network Sizing spreadsheet to determine the total space required for your datastore. It is also a useful tool to determine the impact of maintaining asset versions or modifying assets in AEM on disk growth.
+You can specify these numbers in the Network Sizing spreadsheet to determine the total space required for your datastore. It is also a useful tool to determine the impact of maintaining asset versions or modifying assets in [!DNL Experience Manager] on disk growth.
 
 The example data populated in the tool demonstrates how important it is to perform the steps mentioned. If you size the datastore based solely on the raw images being loaded (1TB), you may have underestimated the repository size by a factor of 15.
 
@@ -98,11 +100,11 @@ For the repository, use SSDs or disks with an IOPS level greater than 3000. To e
 
 ## Network {#network}
 
-AEM Assets has a number of use cases that make network performance more important than on many of our AEM projects. A customer can have a fast server, but if the network connection is not large enough to support the load of the users who are uploading and downloading assets from the system, then it will still appear to be slow. There is a good methodology for determining the choke point in a user's network connection to AEM at [AEM Asset considerations for user experience, instance sizing, workflow evaluation, and network topology](assets-network-considerations.md).
+[!DNL Assets] has a number of use cases that make network performance more important than on many of our [!DNL Experience Manager] projects. A customer can have a fast server, but if the network connection is not large enough to support the load of the users who are uploading and downloading assets from the system, then it will still appear to be slow. There is a good methodology for determining the choke point in a user's network connection to [!DNL Experience Manager] at [[!DNL Experience Manager]  Asset considerations for user experience, instance sizing, workflow evaluation, and network topology](assets-network-considerations.md).
 
 ## WebDAV {#webdav}
 
-If you add the AEM desktop app to the mix, network issues become more severe due to inefficiencies in the WebDAV protocol.
+If you add the [!DNL Experience Manager] desktop app to the mix, network issues become more severe due to inefficiencies in the WebDAV protocol.
 
 To illustrate these inefficiencies, Adobe tested the system performance using WebDAV on OS X. A 3.5MB InDesign file was opened, edited, and the changes saved. The following observations were made:
 
@@ -114,7 +116,7 @@ To illustrate these inefficiencies, Adobe tested the system performance using We
 
 While analyzing the average save time for files over WebDAV, it was found that performance increases dramatically as bandwidth increases up until the 5-10Mbps level. Therefore, Adobe recommends that each user concurrently accessing the system should have at least 10Mbps of upload speed and 5-10Mbps of bandwidth.
 
-For more information, see [Troubleshooting AEM desktop app](https://helpx.adobe.com/experience-manager/kb/troubleshooting-companion-app.html).
+For more information, see [Troubleshooting [!DNL Experience Manager] desktop app](https://helpx.adobe.com/experience-manager/kb/troubleshooting-companion-app.html).
 
 ## Limitations {#limitations}
 
@@ -134,8 +136,8 @@ The limit to the number of files that can exist in a datastore can be 2.1 billio
 
 If the renditions are incorrectly generated, use the Camera Raw library. However, in this case, the longest side of the image should not be greater than 65000 pixels. In addition, the image should not contain more than 512 MP (512 &ast; 1024 &ast; 1024 pixels)'. *The size of the asset is inconsequential*.
 
-It is difficult to accurately estimate the size of the TIFF file supported out-of-the-box (OOTB) with a specific heap for AEM because additional factors, such as pixel size influence processing. It is possible that AEM can process a file of size of 255 MB OOTB, but cannot process a file size of 18 MB bacause the latter comprises of an unusually higher number pixels compared to the former.
+It is difficult to accurately estimate the size of the TIFF file supported out-of-the-box (OOTB) with a specific heap for [!DNL Experience Manager] because additional factors, such as pixel size influence processing. It is possible that [!DNL Experience Manager] can process a file of size of 255 MB OOTB, but cannot process a file size of 18 MB bacause the latter comprises of an unusually higher number pixels compared to the former.
 
 ## Size of Assets {#size-of-assets}
 
-By default, AEM allows you to upload assets of file sizes up to 2 GBs. To upload very large assets in AEM, see [Configuration to upload very large assets](managing-video-assets.md#configuration-to-upload-video-assets-that-are-larger-than-gb).
+By default, [!DNL Experience Manager] allows you to upload assets of file sizes up to 2 GBs. To upload very large assets in AEM, see [Configuration to upload very large assets](managing-video-assets.md#configuration-to-upload-video-assets-that-are-larger-than-gb).

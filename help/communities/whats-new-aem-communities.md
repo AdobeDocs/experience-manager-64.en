@@ -1,13 +1,11 @@
 ---
 title: What's New in AEM 6.4 Communities
-seo-title: What's New in AEM 6.4 Communities
-description: null
-seo-description: null
+description: AEM Communities offers a framework to businesses to collaborate among their partners, customers and employees.
 uuid: e4bf343c-59cd-48ac-bee4-85db109e4c65
 contentOwner: mgulati
 discoiquuid: 3e3c867f-afb0-4402-94f4-16e1a556ddee
+exl-id: fcdc65c9-929d-4a87-8ff7-5e3cf5711fd9
 ---
-
 # What's New in AEM 6.4 Communities {#what-s-new-in-aem-communities}
 
 AEM Communities offers a framework to businesses to collaborate among their partners, customers and employees. It imparts social capabilities to website structure, and helps businesses to engage and impart knowledge to their stakeholders, to enhance their brand value their way.
@@ -88,7 +86,7 @@ AEM 6.4 Communities provides Delete Site icon on the existing community sites, i
 
 ## Managing UGC and user profiles {#managing-ugc-and-user-profiles}
 
-Keeping user data protection at the heart of communities experience, AEM Communities exposes [APIs out-of-the-box](user-ugc-management-service.md) and [sample servlet](https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/master/bundles/communities-ugc-management-servlet). These APIs help bulk manage (bulk delete and bulk export) user generated content and delete user profiles, and are instrumental in handling EU GDPR compliance requests.
+Keeping user data protection at the heart of communities experience, AEM Communities exposes [APIs out-of-the-box](user-ugc-management-service.md) and [sample servlet](https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/main/bundles/communities-ugc-management-servlet). These APIs help bulk manage (bulk delete and bulk export) user generated content and delete user profiles, and are instrumental in handling EU GDPR compliance requests.
 
 ## What's Changed {#what-s-changed}
 

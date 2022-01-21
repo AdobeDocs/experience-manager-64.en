@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 2791c9a1-38a2-4154-8bea-2f7c564b46c8
+feature: Mobile Forms
+exl-id: 42da25de-7ad0-4e9a-8139-149954f9bd8e
 ---
-
 # HTML5 forms service proxy {#html-forms-service-proxy}
 
 HTML5 forms Service Proxy is a configuration to register a proxy for the submission service. To configure Service Proxy, specify the URL of submission service through request parameter *submissionServiceProxy*.
@@ -128,5 +129,3 @@ The submit service proxy selects a topology if the submiturl is present in the r
 * If proxy posts the data, the proxy service passes all the parameters except submitUrl to the */bin/xfaforms/submitaction* end point and receives xml bytes in response stream. Then, the proxy service posts the data xml bytes to the submitUrl for processing.  
 
 * Before sending data (POST request) to a server, HTML5 forms verify connectivity and availability of the server. To verify connectivity and availability, HTML forms send an empty head request to the server. If the server is available, HTML5 form sends data (POST request) to the server. If the server is not available, an error message, *Could’t connect to the server,* is displayed. The advance detection prevents users from the hassle of refilling the form. The proxy servlet handles head request and does not throw exception.
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

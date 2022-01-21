@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
 discoiquuid: e862c8a9-b5b6-4857-a154-03d3ffac3e67
+feature: Configuring
+exl-id: e83317bb-e69c-4e2c-92f8-4f613786e7ae
 ---
-
 # Troubleshooting Replication{#troubleshooting-replication}
 
 This page provides information on how to troubleshoot replication issues.
@@ -105,4 +106,3 @@ In some cases the replication queue is blocked when trying to replicate namespac
 1. Enter the name of the user.
 1. Select `jcr:namespaceManagement` from the privileges list.
 1. Click OK.
-

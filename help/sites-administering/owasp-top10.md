@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: e5323ae8-bc37-4bc6-bca6-9763e18c8e76
+exl-id: c29472c8-9a93-4cb1-9cb1-05fc155ba736
 ---
-
 # OWASP Top 10{#owasp-top}
 
 The [Open Web Application Security Project](https://www.owasp.org) (OWASP) maintains a list of what they regard as the [Top 10 Web Application Security Risks](https://www.owasp.org/index.php/OWASP_Top_Ten_Project).
@@ -41,7 +41,7 @@ All access to data objects is mediated by the repository and therefore restricte
 
 Cross-Site Request Forgery (CSRF) is mitigated by automatically injecting a cryptographic token into all forms and AJAX requests and verifying this token on the server for every POST.
 
-In addition, AEM ships with a referrer-header based filter, which can be configured to only allow POST requests from specifically white-listed hosts.
+In addition, AEM ships with a referrer-header based filter, which can be configured to *only* allow POST requests from specific hosts (defined in a list).
 
 ## 6. Security Misconfiguration {#security-misconfiguration}
 
@@ -57,7 +57,7 @@ Sensitive data such as third-party credentials are stored in encrypted form usin
 
 ## 8. Failure to Restrict URL Access {#failure-to-restrict-url-access}
 
-The repository allows the setting of [finely-grained privileges (as specified by JCR)](https://docs.adobe.com/content/docs/en/spec/jcr/2.0/16_Access_Control_Management.html) for any given user or group at any given path, through access control entries. Access restrictions are enforced by the repository.
+The repository allows the setting of [finely-grained privileges (as specified by JCR)](https://www.adobe.io/experience-manager/reference-materials/spec/jcr/2.0/16_Access_Control_Management.html) for any given user or group at any given path, through access control entries. Access restrictions are enforced by the repository.
 
 ## 9. Insufficient Transport Layer Protection {#insufficient-transport-layer-protection}
 
@@ -65,5 +65,4 @@ Mitigated by server configuration (e.g. use HTTPS only).
 
 ## 10. Unvalidated Redirects and Forwards {#unvalidated-redirects-and-forwards}
 
-Mitigated by restricting all redirects to user-supplied destinations to internal locations.  
-
+Mitigated by restricting all redirects to user-supplied destinations to internal locations.

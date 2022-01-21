@@ -9,15 +9,15 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c187daa4-41b7-47dc-9669-d7120850cafd
+exl-id: 1888b8c7-d077-4e54-b442-5df0ba557513
 ---
-
 # Configuring SSL for JBoss Application Server {#configuring-ssl-for-jboss-application-server}
 
 To configure SSL on JBoss Application Server, you need an SSL credential for authentication. You can use the Java keytool to create a credential or request and import a credential from a certificate authority (CA). You must then enable SSL on JBoss.
 
 You can run keytool by using a single command that includes all of the information needed to create the keystore.
 
-In this procedure:
+In this procedure: 
 
 * `[appserver root]` is the home directory of the application server running AEM forms.
 * `[type]` is a folder name that varies, depending on the type of install you performed.
@@ -118,7 +118,7 @@ In this procedure:
    </security-realm>
    ```
 
-   On the master node of the Server Cluster, in the [appserver root]\domain\configuration\domain_&lt;dbname&gt;.xml, locate the &lt;server&gt; section present after the following code:
+   On the primary node of the Server Cluster, in the [appserver root]\domain\configuration\domain_&lt;dbname&gt;.xml, locate the &lt;server&gt; section present after the following code:
 
    `<http-listener name="default" socket-binding="http" redirect-socket="https" max-post-size="104857600"/>`
 

@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/get_started_with_administering_aem_forms_on_jee
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: bd648c38-731b-420e-973d-a4728b69868e
+exl-id: 8f7e7fa4-3971-43cb-9403-a91304b46690
 ---
-
 # General AEM Forms settings {#general-aem-forms-settings}
 
 The Core Configurations page in administration console provides settings that can help improve system performance. After configuring or updating these settings, restart your application server.
@@ -35,7 +35,9 @@ For information about enabling safe backup mode, see [Enabling and disabling saf
 * Storing long-lived documents. Long-lived documents do not have an expiration time and persist until they are removed (for example, the PDF files used within a workflow process). The long-lived documents are a critical part of the overall system state. If some or all these documents are lost or corrupted, the forms server may become unstable. Therefore, it is important that this directory is stored on a RAID device.
 * Storing temporary documents needed during processing.
 
-  ***Note**: You can also enable document storage in the AEM forms database. However, system performance is better when you use the GDS.*
+>[!NOTE]
+>
+>You can also enable document storage in the AEM forms database. However, system performance is better when you use the GDS.  
 
 * Transferring documents between nodes in a cluster. If you are running AEM forms in a clustered environment, this directory must be accessible from all nodes within the cluster.
 * Receiving incoming parameters from remote API calls.
@@ -46,9 +48,13 @@ If you do not specify a GDS root directory, the directory defaults to an applica
 * `*[WEBSPHERE_HOME]*/installedApps/adobe/*[server]*/DocumentStorage`
 * `*[WEBLOGIC_HOME]*/user_projects/<domain>/*[server]*/adobe/AEMformsserver/DocumentStorage`
 
-***Note**: Changing the value of the GDS root directory setting should be done with special care. The GDS directory is used to store both long-lived files used within a process as well as critical AEM forms product components. Changing the location of the GDS directory is a major system change. Incorrectly configuring the location of the GDS directory will render AEM forms inoperative and may require a complete reinstallation of AEM forms. If you specify a new location for the GDS directory, the application server needs to be shut down and the data migrated before the server can be restarted. The system administrator must move all files from the old location to the new location but keep the internal directory structure.*
+>[!NOTE]
+>
+>Changing the value of the GDS root directory setting should be done with special care. The GDS directory is used to store both long-lived files used within a process as well as critical AEM forms product components. Changing the location of the GDS directory is a major system change. Incorrectly configuring the location of the GDS directory will render AEM forms inoperative and may require a complete reinstallation of AEM forms. If you specify a new location for the GDS directory, the application server needs to be shut down and the data migrated before the server can be restarted. The system administrator must move all files from the old location to the new location but keep the internal directory structure.
 
-***Note**: Do not specify the same directory for the temp directory and the GDS directory.*
+>[!NOTE]
+>
+>Do not specify the same directory for the temp directory and the GDS directory.
 
 For additional information about the GDS directory, see [Preparing to Install AEM forms (Single Server)](https://www.adobe.com/go/learn_aemforms_prepareInstallsingle_63).
 
@@ -84,7 +90,9 @@ FIPS mode does not support encryption algorithms that are used in Adobe AcrobatÂ
 
 In general, when FIPS is enabled, the Assembler service will not apply password encryption to any document. If this is attempted, a FIPSModeException is thrown indicating that "Password encryption is not permitted in FIPS mode." Additionally, the Document Description XML (DDX) PDFsFromBookmarks element is not supported in FIPS mode when the base document is password-encrypted.
 
-***Note**: AEM forms software does not validate code to ensure FIPS compatibility. It provides a FIPS operation mode so that FIPS-approved algorithms are used for cryptographic services from the FIPS-approved libraries (RSA).*
+>[!NOTE]
+>
+>AEM forms software does not validate code to ensure FIPS compatibility. It provides a FIPS operation mode so that FIPS-approved algorithms are used for cryptographic services from the FIPS-approved libraries (RSA).
 
 **Enable WSDL** Select this option to enable Web Service Definition Language (WSDL) generation for all services that are part of AEM forms.
 

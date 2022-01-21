@@ -1,16 +1,17 @@
 ---
 title: Invocation API Quick Starts
 seo-title: Invocation API Quick Starts
-description: null
-seo-description: null
+description: Use the Quick Starts to programmatically invoke AEM Forms services.
+seo-description: Use the Quick Starts to programmatically invoke AEM Forms services.
 uuid: acf67177-98a4-4c99-95a5-3086907d7c2c
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: dcf83c9f-b818-44a2-9079-80a4fc357c4f
+role: Developer
+exl-id: dcfc1c9f-fedd-4e00-9b09-19268620fc6d
 ---
-
 # Invocation API Quick Starts {#invocation-api-quick-starts}
 
 The following Quick Starts are available for programmatically invoking AEM Forms services:
@@ -102,7 +103,9 @@ The following Quick Starts are available for programmatically invoking AEM Forms
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick Starts located in Programming with AEM forms are based on Forms server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)*
+>[!NOTE]
+>
+>Quick Starts located in Programming with AEM forms are based on Forms server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
 
 ## Quick Start: Invoking a short-lived process using the Invocation API {#quick-start-invoking-a-short-lived-process-using-the-invocation-api}
 
@@ -1105,4 +1108,3 @@ An unsecured PDF document based on a PDF file named *Loan.pdf* is passed to the 
 >[!NOTE]
 >
 >Many quick starts that show how to perform service operations include a SwaRef code example.
-

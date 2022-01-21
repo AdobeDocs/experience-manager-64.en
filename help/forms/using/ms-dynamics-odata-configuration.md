@@ -7,8 +7,9 @@ uuid: c9b2764f-9127-4a99-a469-b6ebcdee8fdf
 topic-tags: integration
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 62f9d1de-c397-46b5-964e-19777ddd130c
+feature: Form Data Model
+exl-id: 18df57b6-789a-4b61-9418-fa12294b226f
 ---
-
 # Microsoft Dynamics OData configuration {#microsoft-dynamics-odata-configuration}
 
 Leverage, integrate, and work with online and on-premises Microsoft Dynamics services through form data model.
@@ -28,7 +29,7 @@ When the package is installed, the following entities and services are available
 * MS Dynamics OData Cloud Service (OData Service)
 * Form data model with preconfigured Microsoft Dynamics entities and services.
 
-The OData Cloud Service and form data model with preconfigured Microsoft Dynamics entities and services are available on your AEM Forms instance only if the run mode for the AEM instance is set as `samplecontent`(default). For more information on configuring run modes for an AEM instance, see [Run Modes](https://helpx.adobe.com/in/experience-manager/6-4/sites-deploying/configure-runmodes.html).
+The OData Cloud Service and form data model with preconfigured Microsoft Dynamics entities and services are available on your AEM Forms instance only if the run mode for the AEM instance is set as `samplecontent`(default). For more information on configuring run modes for an AEM instance, see [Run Modes](/help/sites-deploying/configure-runmodes.md).
 
 ## Prerequisites {#prerequisites}
 

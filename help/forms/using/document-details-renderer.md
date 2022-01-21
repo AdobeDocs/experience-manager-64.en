@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: b6e88080-6ffc-4796-98c7-d7462bca454e
+exl-id: 192ba4c4-a133-4e16-9882-98005f25ba7f
 ---
-
 # Document details for renderer {#document-details-for-renderer}
 
 ## Introduction {#introduction}
@@ -85,11 +85,8 @@ AEM Forms workspace listens on `window.global.postMessage([Message],[Payload])`
 
 **AEM Forms workspace to third-party application communication**
 
-If AEM Forms workspace's direct action buttons are visible, it calls `window.[External-App-Name].getMessage([Action])`, where [ `Action]` is read from the `routeActionMap`. The third-party application must listen on this interface, and then notify AEM Forms workspace via the `postMessage ()` API.
+If AEM Forms workspace's direct action buttons are visible, it calls `window.[External-App-Name].getMessage([Action])`, where `[Action]` is read from the `routeActionMap`. The third-party application must listen on this interface, and then notify AEM Forms workspace via the `postMessage ()` API.
 
 For example, a Flex application can define `ExternalInterface.addCallback('getMessage', listener)` to support this communication. If the third-party application wants to handle form submission via its own buttons, then you should specify `hideDirectActions = true() in the runtimeMap` and you may skip this listener. Hence, this construct is optional.
 
 You can read more on third-party application integration with respect to Correspondence Management at [Integrating Correspondence Management in AEM Forms workspace](/help/forms/using/integrating-correspondence-management-html-workspace.md).
-
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

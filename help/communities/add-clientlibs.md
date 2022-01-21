@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: c84040b0-7850-4960-b676-ffa0a74c8cb2
+exl-id: 9b8c3d1c-a9b1-4dde-9044-46c8f2b22c22
 ---
-
 # Add Clientlibs {#add-clientlibs}
 
 ## Add a ClientLibraryFolder (clientlibs) {#add-a-clientlibraryfolder-clientlibs}
@@ -117,7 +117,7 @@ Once apps.an-scf-sandbox clientlibs is included, the SCF comments component appe
 
 ![chlimage_1-225](assets/chlimage_1-225.png)
 
-The include statement belongs in the <head> section of the <html> script. The default **`foundation head.jsp`** includes a script that can be overlaid: **`headlibs.jsp`**.
+The include statement belongs in the `<head>` section of the `<html>` script. The default **`foundation head.jsp`** includes a script that can be overlaid: **`headlibs.jsp`**.
 
 **Copy headlibs.jsp and include clientlibs:**
 

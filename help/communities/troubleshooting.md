@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: cdb2d80a-2fbf-4ee6-b89b-b5d74e6d3bfc
+exl-id: 1a1de20d-53f6-4787-92e3-e12f30d925d3
 ---
-
 # Troubleshooting {#troubleshooting}
 
 This section contains common concerns and known issues.
@@ -48,7 +48,7 @@ Thus, any code using RelativeTimeFormat() API would need to change
 
 The failure is different on author and publish. On author it fails silently and simply does not display the forum topics. On publish it throws up the error on the page.
 
-See the [com.day.cq.commons.date.RelativeTimeFormat](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/date/RelativeTimeFormat.html) API for more information.
+See the [com.day.cq.commons.date.RelativeTimeFormat](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/date/RelativeTimeFormat.html) API for more information.
 
 ## Common Concerns {#common-concerns}
 

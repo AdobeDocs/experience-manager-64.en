@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6e4b4dfa-3af5-4c21-a2a1-b90ef02d8514
+exl-id: 5230222b-53f8-414c-aaa1-848d6e9369e8
 ---
-
 # Customizing search templates {#customizing-search-templates}
 
 You can create search templates to be used in Workspace to search for instances of processes from the To Do and Tracking pages. You can also edit or delete existing search templates.
@@ -62,7 +62,9 @@ You can create as many search templates as required.
     * In the Columns To Report list, select the process or task element and click the Up Arrow or Down Arrow to move it to its place in the column order. The column headings in the search results will appear in the order that they are listed here.
     * (Optional) To change the name of the element for the column heading, select the element from the Columns To Report list and provide the new name.
 
-      **Note**: *The layout specified in the search template overrides the user’s preferences specified for column headings in Workspace.*
+    >[!NOTE]
+    >
+    >The layout specified in the search template overrides the user’s preferences specified for column headings in Workspace.  
 
 1. (Optional) For each column to sort in the search results, click the Sort tab and perform the following steps:
 
@@ -78,4 +80,3 @@ You can create as many search templates as required.
 
 1. On the Identification tab, select a name from the Search Template Name list.
 1. Click Delete This Template and click OK.
-

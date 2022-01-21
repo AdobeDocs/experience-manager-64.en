@@ -1,16 +1,17 @@
 ---
 title: Invoking AEM Forms using REST Requests
 seo-title: Invoking AEM Forms using REST Requests
-description: null
-seo-description: null
+description: Invoke processes created in Workbench using REST requests.
+seo-description: Invoke processes created in Workbench using REST requests.
 uuid: 3a19a296-f3fe-4e50-9143-b68aed37f9ef
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: df7b60bb-4897-479e-a05e-1b1e9429ed87
+role: Developer
+exl-id: 82770ac6-aafc-44b9-82fb-6f193bb3a128
 ---
-
 # Invoking AEM Forms using REST Requests {#invoking-aem-forms-using-rest-requests}
 
 Processes created in Workbench can be configured so that you can invoke them through Representational State Transfer (REST) requests. REST requests are sent from HTML pages. That is, you can invoke a Forms process directly from a web page using a REST request. For example, you can open a new instance of a web page. Then you can invoke a Forms process and load a rendered PDF document with data that was sent in an HTTP POST request.
@@ -45,7 +46,11 @@ The following data types are supported when invoking AEM Forms services using RE
   If a Froms service is invoked with the HTTP POST method, the arguments are passed inside the HTTP request body. If the AEM Forms service’s signature has a string input parameter, the request body can contain the text value of the input parameter. If the service’s signature defines multiple string parameters, the request can follow the HTTP’s `application/x-www-form-urlencoded` notation with the parameter’s names used as the form’s field names.
 
   If a Forms service returns a string parameter, the result is a textual representation of the output parameter. If a service returns multiple string parameters, the result is an XML document encoding the output parameters in the following format:
-  ` <result> <output-paramater1>output-parameter-value-as-string</output-paramater1> . . . <output-paramaterN>output-parameter-value-as-string</output-paramaterN> </result>`***Note**: The `output-paramater1` value represents the output parameter name. *
+  ` <result> <output-paramater1>output-parameter-value-as-string</output-paramater1> . . . <output-paramaterN>output-parameter-value-as-string</output-paramaterN> </result>`
+
+  >[!NOTE]
+  >
+  >The `output-paramater1` value represents the output parameter name.
 
   If a Forms service requires a `com.adobe.idp.Document` parameter, the service can only be invoked using the HTTP POST method. If the service requires one `com.adobe.idp.Document` parameter, the HTTP request body becomes the content of the input Document object.
 
@@ -312,4 +317,4 @@ The complete URL to invoke the process is https://hiro-xp:8080/rest/services/MyA
 
 If the process requires a PDF document as an input value, ensure that you submit the form as PDF, as shown in the previous illustration. Also, to successfully invoke a process, the process must return a PDF document. Otherwise Acroabt cannot handle the return value and an error occurs. You do not have to specify the name of the input process variable. For example, the* MyApplication/EncryptDocument* process has an input variable named `inDoc`. You do not have to specify inDoc, as long as the form is submited as PDF.
 
-You can also submit form data as XML to a Forms process, To submit XML data, ensure that the `Submit As` drop down specifies XML. Because the return value of the process must be a PDF document, the PDF document is displayed in Acrobat. 
+You can also submit form data as XML to a Forms process, To submit XML data, ensure that the `Submit As` drop down specifies XML. Because the return value of the process must be a PDF document, the PDF document is displayed in Acrobat.

@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/connecting_to_a_content_management_system
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: be4994de-12f8-436e-926a-49a6783b006e
+exl-id: 3a3d59c2-6811-4513-8384-aa77fdc38686
 ---
-
 # Configuring Connector for IBM FileNet {#configuring-connector-for-ibm-filenet}
 
 Connector for IBM FileNet enables communication between AEM forms and IBM FileNet. For additional background information, see "Connectors for ECM" in [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
@@ -80,8 +80,9 @@ The following options are available:
 
 **repository provider:** Makes the native repository provider the provider for the repository
 
-***Note**: To select a repository service provider other than those listed, configure RepositoryService in Applications and Services. <!-- Fix broken link(See Managing Services) -->*
+>[!NOTE]
+>
+>To select a repository service provider other than those listed, configure RepositoryService in Applications and Services. <!-- Fix broken link(See Managing Services) -->
 
 1. In administration console, click Services > Connector for IBM FileNet.
 1. In the Repository Service Provider Information area, select the alternative repository service provider, and then click Save.
-

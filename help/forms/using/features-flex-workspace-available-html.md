@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: ef5c957a-9d5a-42be-ad85-bdca876f56bc
+exl-id: d3125110-1098-413b-ba09-50c182797d27
 ---
-
 # Features of Flex workspace not available in AEM Forms workspace {#features-of-flex-workspace-not-available-in-aem-forms-workspace}
 
 AEM Forms workspace is the brand new workspace. The following are some of the features of Flex-based workspace that are not available in AEM Forms workspace.
@@ -22,5 +22,3 @@ AEM Forms workspace is the brand new workspace. The following are some of the fe
 * The option to manage Column headings for Tracking page is not available in AEM Forms workspace.
 * Setting an approval container or custom container for a user task is not honored in AEM Forms workspace.
 * An option to search templates is available in the Tracking tab but not in the ToDo tab.
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

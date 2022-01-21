@@ -6,11 +6,11 @@ seo-description: This article lists the keyboard shortcuts that can be used with
 uuid: 1a16c2e6-c0f1-42e0-9ab4-692f3e58eeaf
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 content-type: reference
-topic-tags: author
-topic-tags: correspondence-management
+topic-tags: author, correspondence-management
 discoiquuid: 010e3639-b1a9-40fb-8615-7d18c4784b73
+feature: Adaptive Forms
+exl-id: 08cf95bc-3417-48d4-9df2-5bd56797bc5d
 ---
-
 # AEM Forms Keyboard Shortcuts {#aem-forms-keyboard-shortcuts}
 
 This article lists the keyboard shortcuts that can be used with Adaptive Form Editor, Theme Editor, Content Browser, and Correspondence Management for Windows and Macintosh operating systems.
@@ -80,7 +80,7 @@ This article lists the keyboard shortcuts that can be used with Adaptive Form Ed
 
 This section lists various keyboards and accessibility shortcuts that you can use in Correspondence Management text editor. You can use these shortcuts while you are:
 
-* Creating or editing a [Text](/help/forms/using/document-fragments.md#main-pars-header-0) asset
+* Creating or editing a [Text](document-fragments.md) asset
 * Editing a text module after tapping the relevant Edit icon ( ![edittextmodule](assets/edittextmodule.png)) when [creating a correspondence](/help/forms/using/create-correspondence.md).
 
 ### Text selection and moving the cursor around {#text-selection-and-moving-the-cursor-around}
@@ -352,4 +352,3 @@ This section lists various keyboards and accessibility shortcuts that you can us
   </tr>
  </tbody>
 </table>
-

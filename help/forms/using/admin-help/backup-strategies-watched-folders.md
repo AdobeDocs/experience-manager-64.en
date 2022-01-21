@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6f775933-e989-4456-ad01-9bdf5dee3dad
+exl-id: ae6b4caa-5bd0-4a09-9ccf-077405ea3868
 ---
-
 # Backup strategies for watched folders {#backup-strategies-for-watched-folders}
 
 This content describes how watched folders are affected by different backup and recovery scenarios, the limitations and outcomes of these scenarios, and how to minimize data loss.
@@ -162,7 +162,9 @@ The following strategies can minimize output and input folder data loss when res
 
   If files are in Stage 1, they will be manipulated. If files are in Stage 2 or 3, place them in the input folder for manipulation to take place again.
 
-  **Note**: If manipulation of a file occurs more than once, data loss will be prevented but results may be duplicated. *
+  >[!NOTE]
+  >
+  >If manipulation of a file occurs more than once, data loss will be prevented but results may be duplicated.  
 
 ## Conclusion {#conclusion}
 

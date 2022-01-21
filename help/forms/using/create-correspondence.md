@@ -7,8 +7,9 @@ uuid: 72c06a81-65c8-4ddd-964d-91f0256a8f79
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 2c1be479-9f44-4348-b074-a08af8df51fa
+feature: Correspondence Management
+exl-id: 645b990f-279c-4731-b552-07d0aa052eb8
 ---
-
 # Create Correspondence {#create-correspondence}
 
 ## Create correspondence in the Create Correspondence user interface {#create-correspondence-in-the-create-correspondence-user-interface}
@@ -51,9 +52,7 @@ Select the letter to preview using the following steps:
 
    >[!NOTE]
    >
-  
    >For more information on switching between HTML or PDF rendition mode of letter preview, see [Change rendition mode of letter](#changerenditionmode). For more information on PDF support in Correspondence Management and AEM, see [Discontinuation of NPAPI browser plug-ins and its impact](https://helpx.adobe.com/aem-forms/kb/discontinuation-of-npapi-plugins-impact-on-aem-forms.html) and [PDF Forms to HTML5 Forms](https://helpx.adobe.com/aem-forms/kb/pdf-forms-to-html5-forms.html). 
-   >
 
 ### Enter data {#enterdata}
 
@@ -81,7 +80,7 @@ In the content tab, manage the content such as document fragments and content va
 
    In the Content or Data tab, by tapping Highlight Selected Modules ( ![highlightselectedmodulesincontentccr](assets/highlightselectedmodulesincontentccr.png)) on upper left of the HTML letter preview, you can disable or enable functionality to go to the content/data module when the relevant text, paragraph, or data field is selected in the letter preview.
 
-   For more information on the actions available for various modules in the Create Correspondence user interface, see [Actions and info available in the Create Correspondence user interface](/help/forms/using/create-letter.md#main-pars-header-9).
+   For more information on the actions available for various modules in the Create Correspondence user interface, see [Actions and info available in the Create Correspondence user interface](create-letter.md).
 
 1. To locate content modules, use the Find field. Enter full or partial name or title of the content module to search for it in the correspondence. 
 1. Tap the Display icon ( ![display](assets/display.png)) in front of a list, text, condition, or target area to show or hide it in the letter. 
@@ -228,7 +227,7 @@ You can make layout and content related changes to ensure the letter looks the w
 
    By tapping Highlight Selected Modules in Content ( ![highlightselectedmodulesincontentccr](assets/highlightselectedmodulesincontentccr.png)), you can disable or enable functionality to highlight the content module in Content tab when the relevant text, paragraph, or data field is tapped in the letter preview.
 
-   For more information on the actions available for various modules in the Create Correspondence user interface, see [Actions and info available in the Create Correspondence user interface](/help/forms/using/create-letter.md#main-pars-header-9).
+   For more information on the actions available for various modules in the Create Correspondence user interface, see [Actions and info available in the Create Correspondence user interface](create-letter.md).
 
 1. To add a page break to the letter, tap where you want to insert a page break and select Page Break Before or Page Break After ( ![pagebreakbeforeafter](assets/pagebreakbeforeafter.png)).
 
@@ -244,7 +243,7 @@ You can make layout and content related changes to ensure the letter looks the w
 
    ![saveasdraft](assets/saveasdraft.png)
 
-   The Draft Letter Name dialog appears with the letter instance id. You can, optionally edit this ID. Make a note of the letter Id and then tap **Done**. You can later use this ID to [reload the draft letter](/help/forms/using/submit-letter-topostprocess.md#main-pars-header-1).
+   The Draft Letter Name dialog appears with the letter instance id. You can, optionally edit this ID. Make a note of the letter Id and then tap **Done**. You can later use this ID to [reload the draft letter](submit-letter-topostprocess.md#reloaddraft).
 
 1. To preview the letter as a flattened PDF with the exact layout and page breaks as it will be submitted, tap ( ![preview](assets/preview.png)) Preview.
 
@@ -350,4 +349,3 @@ To change the preview mode of the letter, complete the following steps:
 1. Go to `https://[system]:[port]/system/console/configMgr` and, if necessary, log in as Admin.
 1. Go to **[!UICONTROL Correspondence Management Configurations]** > **[!UICONTROL Rendition Type]** and select **HTML Rendition** (Default) or **PDF Rendition**. 
 1. Click **[!UICONTROL Save]**.
-

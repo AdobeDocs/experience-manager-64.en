@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: process-reporting
 discoiquuid: c668bd53-f2d8-4f8c-83f2-be0afd65392a
+exl-id: 010d019b-a6ec-4a69-96c1-41b82a2a1839
 ---
-
 # Custom Reports in Process Reporting {#custom-reports-in-process-reporting}
 
 You can use REST interface of QueryBuilder or create an OSGi service using QueryBuilder API to create a custom report.
@@ -657,5 +657,3 @@ The prerequisites to creating a separate UI for displaying results are [Sling Ba
 Import the `sample-report-pkg-1.zip` package to integrate custom reports and UI discussed in the article to the Process management UI.
 
 [Get File](assets/sample-report-pkg-1.zip)
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

@@ -1,16 +1,18 @@
 ---
 title: Dynamic Media image profiles
 seo-title: Dynamic Media image profiles
-description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
-seo-description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
+description: Create image profiles that contain settings for unsharp mask, and smart crop or smart swatch, or both, then apply the profile to a folder of image assets.
+seo-description: Create image profiles that contain settings for unsharp mask, and smart crop or smart swatch, or both, then apply the profile to a folder of image assets.
 uuid: 9049fab9-d2be-4118-8684-ce58f3c8c16a
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 4f9301db-edf8-480b-886c-b5e8fca5bf5c
+exl-id: 895103c8-df58-40f0-85d6-e29637edce53
+feature: Image Profiles
+role: Admin,User
 ---
-
 # Dynamic Media image profiles {#image-profiles}
 
 When uploading images, you can automatically crop the image upon upload by applying an image profile to the folder.
@@ -19,9 +21,19 @@ When uploading images, you can automatically crop the image upon upload by apply
 >
 >Smart Crop is available only in Dynamic Media - Scene7 mode.
 
+>[!IMPORTANT]
+>
+>Image profiles are not applicable to PDF, animated GIF, or INDD (Adobe InDesign) files.
+
 ## Crop options {#crop-options}
 
-You have two image cropping options to choose from and an option for automating the creation of color and image swatches.
+<!-- CQDOC-16069 for paragraph directly below -->
+
+Smart Crop coordinates are aspect ratio dependent. That is, for the various smart crop settings in an image profile, if the aspect ratio is the same for the added dimensions in the image profile, then the same aspect ratio is sent to Dynamic media. Because of this, Adobe recommends that you use the same crop area. Doing so will ensure that there is no impact to different dimensions used in the image profile.
+
+Be aware that each Smart Crop generation that you create requires extra processing. For example, adding more than five Smart Crop aspect ratios can result in a slow asset ingestion rate. It may also cause an increased load on systems. Because you can apply Smart Crop at the folder level, Adobe recommends that you use it on folders *only* where it is needed.
+
+You have two image crop options from which you can choose. You also have an option for automating the creation of color and image swatches.
 
 <table> 
  <tbody> 
@@ -40,7 +52,7 @@ You have two image cropping options to choose from and an option for automating 
      <li>Crop starting point: Left is X and Top is Y</li> 
      <li>Horizontal calculation: horizontal pixel dimension of original image minus Left and then minus Right.</li> 
      <li>Vertical calculation: vertical pixel height minus Top, and then minus Bottom.</li> 
-    </ul> <p>For example, suppose you have a 4000 x 3000 pixel image. You use values: Top=250; Bottom=500; Left=300; Right=700.</p> <p>From Top Left (300,250) crop using the fill space of (4000-300-700, 3000-250-500, or 3000,2250).</p> </td> 
+    </ul> <p>For example, suppose you have a 4000 x 3000 pixel image. You use values: Top=250, Bottom=500, Left=300, Right=700.</p> <p>From Top Left (300,250) crop using the fill space of (4000-300-700, 3000-250-500, or 3000,2250).</p> </td> 
   </tr> 
   <tr> 
    <td>Smart Crop</td> 
@@ -50,12 +62,12 @@ You have two image cropping options to choose from and an option for automating 
   <tr> 
    <td>Color and Image Swatch</td> 
    <td>Bulk generate an image swatch for each image.</td> 
-   <td><p><strong>Note</strong>: Smart Swatch is not supported in Dynamic Media Classic.</p> <p>Automatically locate and generate high-quality swatches from product images that show color or texture.</p> <p>To use Color and Image Swatch, select <strong>Smart Crop</strong> from the Cropping Options drop-down list, then to the right of Color and Image Swatch, enable (turn on) the feature. Enter a pixel value in the Width and Height text boxes.</p> <p>While all image crops are available from the Renditions rail, swatches are only used by way of the Copy URL feature. Note that you must use your own viewing component to render the swatch on your site. (The exception to this is carousel banners. Dynamic Media provides the viewing component for the swatch used in carousel banners.)</p> <p><strong>Using image swatches</strong></p> <p>The URL for image swatches is straightforward. That is:</p> <p><code>/is/image/company/&lt;asset_name&gt;:Swatch</code></p> <p>where <code>:Swatch</code> is appended to the asset request.</p> <p><strong>Using color swatches</strong></p> <p>To use color swatches, you make a <code>req=userdata</code> request with the following:</p> <p><code>/is/image/&lt;company_name&gt;/&lt;swatch_asset_name&gt;:Swatch?req=userdata</code></p> <p>For example, the following is a swatch asset in Dynamic Media Classic (Scene7):</p> <p><code>https://my.company.com:8080/is/image/DemoCo/Sleek:Swatch</code></p> <p>and here is the swatch asset's corresponding <code>req=userdata</code> URL:</p> <p><code>https://my.company.com:8080/is/image/DemoCo/Sleek:Swatch?req=userdata</code></p> <p>The <code>req=userdata</code> response is as follows:</p> <p><code class="code">SmartCropDef=Swatch
+   <td><p><strong>Note</strong>: Smart Swatch is not supported in Dynamic Media Classic.</p> <p>Automatically locate and generate high-quality swatches from product images that show color or texture.</p> <p>To use Color and Image Swatch, select <strong>Smart Crop</strong> from the Cropping Options drop-down list, then to the right of Color and Image Swatch, enable (turn on) the feature. Enter a pixel value in the Width and Height text boxes.</p> <p>While all image crops are available from the Renditions rail, swatches are only used by way of the Copy URL feature. Note that you must use your own viewing component to render the swatch on your site. (The exception to this is carousel banners. Dynamic Media provides the viewing component for the swatch used in carousel banners.)</p> <p><strong>Using image swatches</strong></p> <p>The URL for image swatches is straightforward. That is:</p> <p><code>/is/image/company/&lt;asset_name&gt;:Swatch</code></p> <p>where <code>:Swatch</code> is appended to the asset request.</p> <p><strong>Using color swatches</strong></p> <p>To use color swatches, you make a <code>req=userdata</code> request with the following:</p> <p><code>/is/image/&lt;company_name&gt;/&lt;swatch_asset_name&gt;:Swatch?req=userdata</code></p> <p>For example, the following is a swatch asset in Dynamic Media Classic:</p> <p><code>https://my.company.com:8080/is/image/DemoCo/Sleek:Swatch</code></p> <p>and here is the swatch asset's corresponding <code>req=userdata</code> URL:</p> <p><code>https://my.company.com:8080/is/image/DemoCo/Sleek:Swatch?req=userdata</code></p> <p>The <code>req=userdata</code> response is as follows:</p> <p><code class="code">SmartCropDef=Swatch
        SmartCropHeight=200.0
        SmartCropRect=0.421671,0.389815,0.0848564,0.0592593,200,200
        SmartCropType=Swatch
        SmartCropWidth=200.0
-       SmartSwatchColor=0xA56DB2</code></p> <p>You can also request a <code>req=userdata</code> response in either XML or JSON format, as in the following respective URL examples:</p> <p><code>https://<span class="code">my.company.com</code>:8080/is/image/DemoCo/Sleek:Swatch?req=userdata,json</span><br /> <br /> <code>https://my.company.com:8080/is/image/DemoCo/Sleek:Swatch?req=userdata,xml</code></p> <p><strong>Note</strong>: You must create your own WCM component to request a color swatch and parse the <code>SmartSwatchColor</code> attribute, represented by a 24-bit RGB hexidecimal value.</p> <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_userdata.html" target="_blank">userdata in the Viewers Reference Guide</a>.</p> </td> 
+       SmartSwatchColor=0xA56DB2</code></p> <p>You can also request a <code>req=userdata</code> response in either XML or JSON format, as in the following respective URL examples:</p> <p><code>https://<span class="code">my.company.com</code>:8080/is/image/DemoCo/Sleek:Swatch?req=userdata,json</span><br /> <br /> <code>https://my.company.com:8080/is/image/DemoCo/Sleek:Swatch?req=userdata,xml</code></p> <p><strong>Note</strong>: You must create your own WCM component to request a color swatch and parse the <code>SmartSwatchColor</code> attribute, represented by a 24-bit RGB hexadecimal value.</p> <p>See also <a href="https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/http-protocol-reference/command-reference/req/r-userdata.html" target="_blank">userdata in the Viewers Reference Guide</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,7 +78,7 @@ You use **Unsharp Mask** to fine-tune a sharpening filter effect on the final do
 
 >[!NOTE]
 >
->Unsharp mask is only applied to downscaled renditions within the PTIFF (pyramid tiff) that are downsampled more than 50%. That means that the largest-sized renditions within the ptiff are not affected by unsharp mask whereas smaller-sized renditions such as thumbnails are altered (and will show the unsharp mask).
+>Unsharp mask is only applied to downscaled renditions within the PTIFF (pyramid tiff) that are downsampled more than 50%. That means the largest-sized renditions within the PTIFF are not affected by unsharp mask whereas smaller-sized renditions such as thumbnails are altered (and will show the unsharp mask).
 
 In **Unsharp Mask**, you have the following filtering options:
 
@@ -91,7 +103,7 @@ In **Unsharp Mask**, you have the following filtering options:
  </tbody> 
 </table>
 
-Sharpening is described in [Sharpening Images](/help/assets/assets/s7_sharpening_images.pdf).
+Sharpening is described in [Sharpening Images](/help/assets/assets/sharpening_images.pdf).
 
 ## Creating Dynamic Media image profiles {#creating-image-profiles}
 
@@ -149,7 +161,7 @@ Folders that have a profile already assigned to it are indicated by the display 
 
 #### Applying Dynamic Media image profiles to folders from Properties {#applying-image-profiles-to-folders-from-properties}
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Assets]** and then to the folder that you want to apply an image profile to.
+1. Tap the AEM logo and navigate to **[!UICONTROL Assets]**. Then navigate to the parent folder of the folder to which you want to apply an image profile.
 1. On the folder, tap the check mark to select it and then tap **[!UICONTROL Properties]**.
 1. Tap the **[!UICONTROL Image Profiles]** tab. From the **[!UICONTROL Profile Name]** drop-down list, select the profile, then tap **[!UICONTROL Save & Close]**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
@@ -193,7 +205,7 @@ See also [Editing the smart crop or smart swatch of multiple images](#editing-th
 
 1. Tap the folder to open its contents.
 1. Tap the image whose smart crop or smart swatch you want to adjust.
-1. On the toolbar, tap **[!UICONTROL Smart Crop]**.  
+1. In the toolbar, tap **[!UICONTROL Smart Crop]**.  
 
 1. Do any of the following:
 
@@ -241,7 +253,7 @@ You can re-run smart crop to generate the additional crops again, if required.
     * Move the smart crop box. Do any one of the following:
 
         * If the image has a smart crop or a smart swatch only, on the image, drag the crop box to a new location.
-        * If the image has both a smart crop and a smart swatch, on the image, drag the smart crop box to a new location. Or, tap or click the smart swatch below the image (color swatches are static), then drag the smart swatch crop box to a new location.
+        * If the image has both a smart crop and a smart swatch, on the image, drag the smart crop box to a new location. Or, tap the smart swatch below the image (color swatches are static), then drag the smart swatch crop box to a new location.
 
        ![edit_smart_crops-move](assets/edit_smart_crops-move.png)
 
@@ -272,6 +284,6 @@ You can remove an image profile from a folder from within the **[!UICONTROL Tool
 1. Tap the AEM logo and navigate **[!UICONTROL Assets]** and then to the folder that you want to remove an image profile from.
 1. On the folder, tap the check mark to select it, then tap **[!UICONTROL Properties]**.
 1. Select the **[!UICONTROL Image Profiles]** tab.
-1. From the **[!UICONTROL Profile Name]** drop-down menu, select **[!UICONTROL None]**, then tap **[!UICONTROL Save & Close]**.
+1. From the **[!UICONTROL Profile Name]** drop-down list, select **[!UICONTROL None]**, then tap **[!UICONTROL Save & Close]**.
 
     Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.

@@ -6,11 +6,10 @@ seo-description: AEM Inbox allows you to launch Forms-centric workflows through 
 uuid: 5173558a-542a-4130-8bb6-5ac555ecc507
 contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
-topic-tags: document_services
-topic-tags: publish
+topic-tags: document_services, publish
 discoiquuid: c1515c58-7d9a-4a36-9390-f6d6b980b801
+exl-id: 7076807a-40ad-4f3b-beb0-70c1577a8ee7
 ---
-
 # Manage Forms applications and tasks in AEM Inbox {#manage-forms-applications-and-tasks-in-aem-inbox}
 
 One of the many ways to launch or trigger a Forms-centric workflow is through applications in AEM Inbox. You need to create a workflow application to make a Forms workflow available as application in Inbox. For more information about workflow application and other ways to launch Forms workflows, see [Launch a Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md#launch).
@@ -21,7 +20,7 @@ The Inbox user interface provides list and calendar views to view tasks. You can
 
 In summary, Inbox allows you to create a new application and manage assigned tasks.
 
->[!NOTE] {grayBox="true"}
+>[!NOTE]
 >
 >You must be a member of the workflow-users group to be able to use AEM Inbox.
 
@@ -115,4 +114,3 @@ The task details section displays information such as action taken, task status,
 The **[!UICONTROL Workflow Details]** tab shows each step of the workflow. Tap **[!UICONTROL View details]** for a step for detailed information.
 
 ![completed-task-workflow](assets/completed-task-workflow.png)
-

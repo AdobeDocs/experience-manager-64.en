@@ -8,8 +8,9 @@ contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 155aaf96-1e9c-4e73-8e43-d96878d69b16
+feature: Adaptive Forms
+exl-id: 8bb350f2-a160-4943-bd6a-00f87f4e6cbc
 ---
-
 # Adaptive Form Templates {#adaptive-form-templates}
 
 When you author a form, you add fields and components to define form structure, content, and actions in the editor. You add fields and components in the `guideRootPanel` of the form container. With Template Editor, you can create a template that contains basic structure and initial content that authors can use to create forms.
@@ -103,11 +104,11 @@ When the Initial Content option is selected, the Adaptive Form Container of the 
 
 Form authors use it as a base to create a form. Content flow structure is specified in the Initial Content layer of the template. To switch to editing initial content of the form template, before Preview in the page toolbar, tap ![canvas-drop-down](assets/canvas-drop-down.png)**[!UICONTROL > Initial Content]**. 
 
-    [ ![Initial Content layer in Template Editor](assets/initial-content-layer.png)
+![Initial Content layer in Template Editor](assets/initial-content-layer.png)
 
 Initial Content layer in Template Editor showing Adaptive Form Container selected for specifying properties.
 
-](assets/initial-content-layer-1.png) In the Initial Content layer, you create the adaptive form template that your authors use as a base. Authoring a template is similar to authoring a form, you use options available in the Sidebar. Sidebar provides content, properties, assets, and components browsers.
+In the Initial Content layer, you create the adaptive form template that your authors use as a base. Authoring a template is similar to authoring a form, you use options available in the Sidebar. Sidebar provides content, properties, assets, and components browsers.
 
 See [Sidebar](/help/forms/using/introduction-forms-authoring.md#sidebar).
 
@@ -135,11 +136,11 @@ To create the General Information and Professional Information tabs, add two pan
 
 #### Adding content in tabs {#adding-content-in-tabs}
 
-    [ ![Adding fields in the adaptive form template](assets/template-edit-initial-content.png)
+![Adding fields in the adaptive form template](assets/template-edit-initial-content.png)
 
 Adding fields in the template
 
-](assets/template-edit-initial-content-1.png) After you add panels and structure them as tabs, you can add fields inside the tabs. When you select a tab in the editor, you can see the **[!UICONTROL Drag components here]** option. You can drag-drop components such as text-boxes, list items, and buttons. You can drag-drop components from the components browser in the sidebar.
+After you add panels and structure them as tabs, you can add fields inside the tabs. When you select a tab in the editor, you can see the **[!UICONTROL Drag components here]** option. You can drag-drop components such as text-boxes, list items, and buttons. You can drag-drop components from the components browser in the sidebar.
 
 Each component has properties that enhance data capturing and manipulation. For example, you can enable the **[!UICONTROL Required field]** property of a component. Your authors can specify a message that your customers see when they skip filling a required field. Specify the message in **[!UICONTROL Required Field Message]** property.
 
@@ -191,4 +192,3 @@ Perform the following steps to show and hide templates:
 * If you want to add a breakpoint, create it when you author an adaptive form template. 
 
   For more information on breakpoints, see [Responsive Layout](/help/sites-authoring/responsive-layout.md).
-

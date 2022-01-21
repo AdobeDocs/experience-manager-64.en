@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: fbe70162-ced6-4989-9322-e12772edbcbc
+feature: Mobile Forms
+exl-id: b7f0b209-3970-49ad-a1d8-5a053be0d2bc
 ---
-
 # Frequently asked questions (FAQ) for HTML5 forms {#frequently-asked-questions-faq-for-html-forms}
 
 There are some frequently asked questions (FAQ) about layout, scripting support, and scope of HTML5 forms.
@@ -199,5 +200,3 @@ There are some frequently asked questions (FAQ) about layout, scripting support,
 1. Are there any reserved keywords in HTML5 forms?
 
    Answer: All HTML5 forms APIs are reserved keywords. For custom APIs/functions, use a name that is not identical to [HTML5 forms APIs](/help/forms/using/scripting-support.md). Apart from reserved keywords, if you use object names that begin with an underscore (_), it is recommended to add a unique prefix after the underscore. Adding a prefix helps avoid any possible conflict with HTML5 forms internal APIs. For example, `_fpField1`
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

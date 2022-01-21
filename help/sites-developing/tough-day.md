@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: f48fa5ba-749b-4d3d-a4dd-c802006c8f07
+exl-id: 80442184-212a-424d-b320-5b301a54f974
 ---
-
 # Tough Day{#tough-day}
 
 ## What is Tough Day 2 {#what-is-tough-day}
@@ -19,7 +19,7 @@ Tough Day 2 is a an application that allows you to stress test the limits of you
 
 ## How to run Tough Day 2 {#how-to-run-tough-day}
 
-Download the latest version of Tough Day 2 from the [Adobe Repository](https://repo.adobe.com/nexus/content/repositories/releases/com/adobe/qe/toughday2/). After you download the application, you can run it out of the box by providing the `host` parameter. In the following example, the AEM instance runs locally so the `localhost` value is used:
+Download the latest version of Tough Day 2 from the [Adobe Repository](https://repo1.maven.org/maven2/com/adobe/qe/toughday2/). After you download the application, you can run it out of the box by providing the `host` parameter. In the following example, the AEM instance runs locally so the `localhost` value is used:
 
 ```xml
 java -jar toughday2.jar --host=localhost
@@ -214,7 +214,7 @@ tests:
 
 ### Working with Predefined Test Suites {#working-with-predefined-test-suites}
 
-The examples below show how to add a test to a predifined suite and how to reconfigure and exclude an existing test from a predefined suite.
+The examples below show how to add a test to a predefined suite and how to reconfigure and exclude an existing test from a predefined suite.
 
 You can add a new test to a predefined suite using the `add` parameter and specifying the targeted predefined suite.
 

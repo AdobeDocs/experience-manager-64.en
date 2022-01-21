@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 88dbfd34-1f8d-47a2-893d-20faf1a80f95
+exl-id: 654387e3-d837-4bde-a9e4-962862ad69e9
 ---
-
 # Connecting to Adobe Analytics and Creating Frameworks{#connecting-to-adobe-analytics-and-creating-frameworks}
 
 To track web data from your AEM pages in Adobe Analytics, create a Adobe Analytics Cloud Services configuration and a Adobe Analytics framework:
@@ -37,11 +37,11 @@ The Adobe Analytics account needs to:
 
 ![chlimage_1-316](assets/chlimage_1-316.png)
 
-Before proceeding, ensure your credentials allow you to log in to Adobe Analytics. Via either:
+Before proceeding, ensure your credentials let you sign in to Adobe Analytics using either one of the following methods:
 
-* [https://marketing.adobe.com](https://marketing.adobe.com)  
+* [Adobe Experience Cloud Sign In](https://login.experiencecloud.adobe.com/exc-content/login.html)  
 
-* [https://sc.omniture.com/login/](https://sc.omniture.com/login/)
+* [Adobe Analytics Sign In](https://sc.omniture.com/login/)
 
 ### Configuring AEM to Use Your Adobe Analytics Data Centers {#configuring-aem-to-use-your-adobe-analytics-data-centers}
 
@@ -177,7 +177,7 @@ Descendents of the page inherit the association with the framework. For example,
 1. Select **Save & Close**.
 1. **[Publish](/help/sites-authoring/publishing-pages.md)** the page to activate the page and any connected configurations/files.
 1. The final step is to visit the page on the publish instance and search for a keyword (e.g. aubergine) using the **Search** component.
-1. You can then check the calls made to Adobe Analytics using an appropriate tool; for example, [Adobe Marketing Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html).
+1. You can then check the calls made to Adobe Analytics using an appropriate tool; for example, [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html).
 1. Using the example provided, the call should contain the value entered (i.e. aubergine) in eVar7 and the events list should contain event3.
 
 ### Page Views {#page-views}
@@ -212,5 +212,4 @@ When editing an Adobe Analytics configuration, you also need to press the **Edit
 
 To delete an Adobe Analytics framework, first [open it for editing](#editing-adobe-analytics-configurations-and-or-frameworks).
 
-Then select **Delete Framework** from the **Page** tab of the sidekick.  
-
+Then select **Delete Framework** from the **Page** tab of the sidekick.

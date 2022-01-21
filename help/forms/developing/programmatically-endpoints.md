@@ -1,16 +1,17 @@
 ---
 title: Programmatically Managing Endpoints
 seo-title: Programmatically Managing Endpoints
-description: null
-seo-description: null
+description: Use the Endpoint Registry service to add EJB endpoints, add SOAP endpoint, add Watched Folder endpoints, add Email endpoints, add  Remoting endpoints, add Task Manager endpoints, modify endpoints, remove endpoints, and retrieve endpoint connector information.
+seo-description: Use the Endpoint Registry service to add EJB endpoints, add SOAP endpoint, add Watched Folder endpoints, add Email endpoints, add  Remoting endpoints, add Task Manager endpoints, modify endpoints, remove endpoints, and retrieve endpoint connector information.
 uuid: 5dc50946-3323-4c5d-a43b-31c1c980bd04
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 076889a7-9c9f-4b6f-a45b-67a9b3923c36
+role: Developer
+exl-id: 1dc43962-dffe-4062-838f-737b3100ad28
 ---
-
 # Programmatically Managing Endpoints {#programmatically-managing-endpoints}
 
 **About Endpoint Registry Service**
@@ -22,9 +23,11 @@ The Endpoint Registry service provides the ability to programmatically manage en
 * Watched Folder
 * Email
 * (Deprecated for AEM forms) Remoting
-* Task Manager
+* Task Manager  
 
-  ***Note**: SOAP, EJB, and (Deprecated for AEM forms on JEE) Remoting endpoints are automatically created for each activated service. The SOAP and EJB endpoints enable SOAP and EJB for all service operations.*
+  >[!NOTE]
+  >
+  >SOAP, EJB, and (Deprecated for AEM forms on JEE) Remoting endpoints are automatically created for each activated service. The SOAP and EJB endpoints enable SOAP and EJB for all service operations.
 
   A Remoting endpoint enables Flex clients to invoke operations on the AEM Forms service that the endpoint is added to. A Flex destination with the same name as the endpoint is created and Flex clients can create RemoteObjects that point to this destination to invoke operations on the relevant service.
 
@@ -314,7 +317,7 @@ The following list specifies configuration values that are set when programmatic
 
 * **url**: Specifies the watched folder location. In a clustered environment, this value must point to a shared network folder that is accessible from every computer in the cluster.
 * **asynchronous**: Identifies the invocation type as asynchronous or synchronous. Transient and synchronous processes can only be invoked synchronously. The default value is true. Asynchronous is recommended.
-* **cronExpression**: Used by quartz to schedule the polling of the input directory. For details about configuring the cron expression, see [https://quartz.sourceforge.net/javadoc/org/quartz/CronTrigger.html](https://quartz.sourceforge.net/javadoc/org/quartz/CronTrigger.html).
+* **cronExpression**: Used by quartz to schedule the polling of the input directory.
 * **purgeDuration**: This is a mandatory attribute. Files and folders in the result folder are purged when they are older than this value. This value is measured in days. This attribute is useful in ensuring the result folder does not become full. A value of -1 days indicates to never delete the results folder. The default value is -1.
 * **repeatInterval**: The interval, in seconds, for scanning the Watched Folder for input. Unless throttling is enabled, this value should be longer than the time to process an average job; otherwise, the system may become overloaded. The default value is 5.
 * **repeatCount**: The number of times a Watched Folder scans the folder or directory. A value of -1 indicates indefinite scanning. The default value is -1.

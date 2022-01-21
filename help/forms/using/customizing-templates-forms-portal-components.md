@@ -8,6 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: 842d3a5a-8e09-4a21-b9a2-a8f4f5b699bd
+feature: Forms Portal
 ---
 
 # Customizing templates for forms portal components {#customizing-templates-for-forms-portal-components}

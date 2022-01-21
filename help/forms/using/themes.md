@@ -5,12 +5,12 @@ description: You can use themes to stylize and provide a visual identity to an a
 seo-description: You can use themes to stylize and provide a visual identity to an adaptive form or interactive communication. You can share a theme across any number of adaptive forms or interactive communications.
 uuid: 7fa8afd9-8454-44a5-939b-b213b9a800cc
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: develop
-topic-tags: interactive-communications
+topic-tags: develop, interactive-communications
 content-strategy: max-2018
 discoiquuid: c5933e2a-fb8d-4d1b-a301-c8a2bc7ee226
+feature: Adaptive Forms
+exl-id: a5a1c824-e53a-4ae7-b0aa-6abbedf28a86
 ---
-
 # Creating and using themes {#creating-and-using-themes}
 
 ## Introduction {#introduction}
@@ -679,4 +679,3 @@ You can see the generated CSS using the following options:
   Use theme editor if you want to style header and footer using styling options such as font style, background, and transparency.   
   
   If you want to provide information such as a logo image, company name in header, and copyright information in the footer, use the form editor options.
-

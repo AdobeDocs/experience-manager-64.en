@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: a483ac24-cfe7-4156-a3a8-c0f14282490c
+exl-id: f313b955-c561-4827-aefc-850e45922f26
 ---
-
 # Page Templates - Static{#page-templates-static}
 
 A Template is used to create a Page and defines which components can be used within the selected scope. A template is a hierarchy of nodes that has the same structure as the page to be created, but without any actual content.
@@ -320,4 +320,3 @@ This example illustrates how to allow a template to be used for certain content 
 1. Change the `allowedPaths` property and other properties used for [template availabillity](/help/sites-developing/templates.md#template-availability). For example, `allowedPaths`: `/content/geometrixx-outdoors/[^/]+(/.*)?` means that this template is allowed in any path under `/content/geometrixx-outdoors`.
 
    ![chlimage_1-252](assets/chlimage_1-252.png)
-

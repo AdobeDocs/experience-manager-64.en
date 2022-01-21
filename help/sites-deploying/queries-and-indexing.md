@@ -10,8 +10,9 @@ content-type: reference
 topic-tags: deploying
 discoiquuid: 492741d5-8d2b-4a81-8f21-e621ef3ee685
 legacypath: /content/docs/en/aem/6-0/deploy/upgrade/queries-and-indexing
+feature: Configuring
+exl-id: 5f43de8d-9d26-456e-b695-3ffa71a4f3bf
 ---
-
 # Oak Queries and Indexing{#oak-queries-and-indexing}
 
 >[!NOTE]
@@ -126,7 +127,7 @@ The Lucene Index has the following configuration options:
 * The **type** property which will specify the type of index must be set to **lucene**
 * The **async** property which must be set to **async**. This will send the index update process to a background thread.
 * The **includePropertyTypes** property, which will define what subset of property types will be included in the index.
-* The **excludePropertyNames** property which will define a blacklist of property names - properties that should be excluded from the index.
+* The **excludePropertyNames** property which will define a list of property names - properties that should be excluded from the index.
 * The **reindex** flag which when set to **true**, triggers a full content re-index.
 
 ### The Lucene Property Index {#the-lucene-property-index}
@@ -169,7 +170,7 @@ Once the node has been created, add the following properties:
   
   ```
 
-* **includePropertyNames:** `["alias"] (of type String)`
+* **includePropertyNames:** `[alias]` (of type String)
 
 >[!NOTE]
 >
@@ -489,4 +490,3 @@ You can gather additional details in order to help troubleshoot the problem, suc
 
 1. The Oak version your instance is running on. You can see this by opening CRXDE and looking at the version in the lower right corner of the welcome page, or by checking the version of the `org.apache.jackrabbit.oak-core` bundle.
 1. The QueryBuilder Debugger output of the troublesome query. The debugger can be accessed at: `https://serveraddress:port/libs/cq/search/content/querydebug.html`
-

@@ -1,14 +1,16 @@
 ---
 title: How to edit or add metadata
-description: Learn about asset metadata in AEM Assets an various ways by which you can edit asset metadata.
+description: Learn about asset metadata in [!DNL Experience Manager] Assets an various ways by which you can edit asset metadata.
 contentOwner: AG
+feature: Metadata
+role: User,Admin
+exl-id: f0522343-f8a9-4d89-8ce8-b3357ae3fe70
 ---
-
 # How to edit or add metadata {#how-to-edit-or-add-metadata}
 
 Metadata is additional information about the asset that can be searched. It is automatically extracted when you upload an image. You can edit the existing metadata or add new metadata properties to existing fields (for example, when a metadata field is blank).
 
-Because companies need controlled and reliable metadata vocabularies, AEM Assets does not allow for adhoc adding of new metadata properties. Although authors cannot add new metadata fields for assets, developers can. See [Creating New Metadata Property for Assets](meta-edit.md#editing-metadata-schema).
+Because companies need controlled and reliable metadata vocabularies, [!DNL Experience Manager] Assets does not allow for adhoc adding of new metadata properties. Although authors cannot add new metadata fields for assets, developers can. See [Creating New Metadata Property for Assets](meta-edit.md#editing-metadata-schema).
 
 ## Editing metadata for an asset {#editing-metadata-for-an-asset}
 
@@ -20,7 +22,7 @@ To edit metadata:
     * From the asset thumbnail, select the **[!UICONTROL View Properties]** quick action.
     * From the asset page, click/tap the **[!UICONTROL View Properties]** icon ![info icon](assets/do-not-localize/info_icon.png) from the toolbar.
 
-   The asset page displays all of the asset's metadata. This metadata was automatically extracted when it was uploaded (ingested) into AEM Assets.
+   The asset page displays all of the asset's metadata. This metadata was automatically extracted when it was uploaded (ingested) into [!DNL Experience Manager] Assets.
 
    ![chlimage_1-169](assets/chlimage_1-169.png)
 
@@ -38,7 +40,7 @@ XMP write-back is supported and enabled for the platforms and file formats descr
 
 For details on how to edit metadata schema, see [Editing metadata schema forms](metadata-schemas.md#editing-metadata-schema-forms).
 
-## Registering a custom namespace within AEM {#registering-a-custom-namespace-within-aem}
+## Registering a custom namespace within [!DNL Experience Manager] {#registering-a-custom-namespace-within-aem}
 
 You can add your own namespaces within AEM. Just as there are predefined namespaces such as cq, jcr and sling, you can have a namespace for your repository metadata and xml processing.
 
@@ -47,3 +49,11 @@ You can add your own namespaces within AEM. Just as there are predefined namespa
 
 1. To add a namespace, click or tap **[!UICONTROL New]** at the bottom.
 1. Specify a custom namespace in the XML namespace convention (Specify the id in the form of a URI and an associated prefix for the id), and click or tap **[!UICONTROL Save]**.
+
+## Tips and limitations {#best-practices-limitations}
+
+* The metadata updates via Touch-UI changes the metadata properties in the `dc` namespace. Any updates made via the HTTP API changes the metadata properties in the `jcr` namespace. See [how to update metadata using HTTP API](/help/assets/mac-api-assets.md#update-asset-metadata).
+
+>[!MORELIKETHIS]
+>
+>* [About metadata and its need in Assets](metadata.md)

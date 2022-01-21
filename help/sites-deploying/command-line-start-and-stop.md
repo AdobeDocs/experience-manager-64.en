@@ -9,15 +9,15 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 9333ff84-f624-4cfa-a9e4-c5e3882171ff
+exl-id: 9d2682c2-6360-402e-a020-0021f5051a2d
 ---
-
 # Command Line Start and Stop{#command-line-start-and-stop}
 
 ## Starting Adobe Experience Manager from the Command Line {#starting-adobe-experience-manager-from-the-command-line}
 
 The `start` script is available under *the &lt;cq-installation&gt;/bin* directory. Both Unix and Windows versions are provided. The script starts the instance installed in *&lt;cq-installation&gt;* directory.
 
-Those two versions support a list of environement variables that could be used to start and tune the AEM instance.
+Those two versions support a list of environment variables that could be used to start and tune the AEM instance.
 
 <table> 
  <tbody> 
@@ -117,5 +117,4 @@ If you just want to preconfigure the repository (without relocating it) you only
 
 * create `bootstrap.properties` and define `repository.config`
 
-Again, before starting the actual installation.  
-
+Again, before starting the actual installation.

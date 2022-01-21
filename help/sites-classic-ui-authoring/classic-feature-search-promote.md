@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 277d7e67-5778-48cb-89bb-29bcc734a485
+exl-id: 69a1e149-8706-42a5-ab84-2ffcfd1ec3cc
 ---
-
 # Adding Search&amp;Promote features to your page {#adding-search-promote-features-to-your-page}
 
 To integrate Search&amp;Promote capabilities in your web site, use the [!UICONTROL Search&amp;Promote] components to add the following features to your pages:
@@ -88,7 +88,7 @@ You can configure the following component properties in [!UICONTROL Edit] mode t
 
 You can enable users to filter search results by facets. The **[!UICONTROL Checkbox List Facet]**, **[!UICONTROL Dropdown Facet]**, and **[!UICONTROL Link List Facet]** components enable users to select one or more facets for filtering. When using these components, you should also include the **[!UICONTROL Breadcrumbs]** component. Breadcrumbs indicate the current filters that are used.
 
-The **[!UICONTROL Checkbox List Facet**, **[!UICONTROL Dropdown Facet]**, and **[!UICONTROL Link List Facet]** components each have the following properties that you configure in **[!UICONTROL Edit]** mode:
+The **[!UICONTROL Checkbox List Facet]**, **[!UICONTROL Dropdown Facet]**, and **[!UICONTROL Link List Facet]** components each have the following properties that you configure in **[!UICONTROL Edit]** mode:
 
 * **[!UICONTROL Facet Name]** &ndash; The name of the facet that is used for filters.
 
@@ -143,4 +143,3 @@ The **[!UICONTROL Banners]** component provides one configurable property named 
 This diagram shows the components that are added to a page to create the fully-functional Search&amp;Promote results page below.
 
 ![1328213789109](assets/1328213789109.png) ![sandppageexample](assets/sandppageexample.png)
-

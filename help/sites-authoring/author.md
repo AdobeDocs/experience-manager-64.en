@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 72ee013a-7a60-41ee-9421-2846e4c6bc68
+exl-id: 23e30de9-1a30-484a-b370-f9f0d45b4e41
 ---
-
 # Concept of Authoring and Publishing{#authoring}
 
 AEM provides you with two environments:
@@ -28,10 +28,6 @@ The author environment provides the mechanisms for creating, updating and review
 ![chlimage_1-289](assets/chlimage_1-289.png)
 
 On the author environment the functionality of AEM is made available through two UIs. For the publish environment you design the entire look-and-feel of the interface made available to your users.
-
->[!NOTE]
->
->AEM and the Dispatcher are used to publish this AEM documentation. 
 
 ## Author Environment {#author-environment}
 

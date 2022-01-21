@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 9a3c6ab4-8bb9-40c7-8c56-59153b364887
+exl-id: 14303b8f-40a7-4bc5-8282-7526e0319264
 ---
-
 # Working in the offline mode {#working-in-the-offline-mode}
 
 The offline mode of the AEM Forms app lets you work seamlessly even if the app goes offline. You can open, update, and submit a form without requiring any network connectivity.
@@ -44,5 +44,3 @@ To configure the server-side offline component of AEM Forms app:
     * **Resource Observation Paths**: Specifies paths where the offline service monitors for resource changes. If any changes occur in the specified paths, the offline cache of all dependent forms is updated. For example, `/etc/clientlibs/fd,/content/dam/images`.
 
 1. In the **Manual Resource Cache** tab, specify the form dependencies offline service cannot identify. You can specify resources such as images loaded from within JavaScript. AEM Forms app will download these resources as well for the offline mode.
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

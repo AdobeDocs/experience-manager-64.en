@@ -1,16 +1,17 @@
 ---
 title: Managing Users
 seo-title: Managing Users
-description: null
-seo-description: null
+description: Use the User Management API to create client applications that can manage roles, permissions, and principals (which can be users or groups), as well as authenticate users.
+seo-description: Use the User Management API to create client applications that can manage roles, permissions, and principals (which can be users or groups), as well as authenticate users.
 uuid: 68d8a0bc-6e3d-4286-ba5c-534dcf58cb84
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 95804bff-9e6f-4807-aae4-790bd9e7cb57
+role: Developer
+exl-id: b03acdb5-e951-49d6-b63f-2df273fcb4c7
 ---
-
 # Managing Users {#managing-users}
 
 **About User Management**

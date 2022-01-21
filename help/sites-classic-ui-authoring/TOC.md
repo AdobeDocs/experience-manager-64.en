@@ -1,8 +1,13 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: adobe experience manager
+solution: Experience Manager, Experience Manager Sites
 audience: end-user
 user-guide-title: AEM 6.4 Classic UI Authoring User Guide
+breadcrumb-title: Classic UI Authoring Guide
+user-guide-description: This guide covers the concepts of authoring in AEM in the classic user interface.
+feature: Authoring
+role: User
 ---
 
 # AEM 6.4 Classic UI Authoring User Guide {#classic-ui}
@@ -59,10 +64,8 @@ user-guide-title: AEM 6.4 Classic UI Authoring User Guide
     + [Working with the Marketing Campaign Manager](classic-personalization-campaigns-mktg-manager.md)
     + [E-mail Marketing](classic-personalization-campaigns-email.md)
     + [Tracking Bounced Emails](classic-personalization-campaigns-email-tracking-bounces.md)
-    + [Teasers and Strategies](classic-personalization-campaigns-teasers-strategy.md)
     + [Setting up your campaign](classic-personalization-campaigns-setting-up-your.md)
     + [Publishing an Email to Email Service Providers](classic-personalization-campaigns-email-newsletters.md)
-    + [Working with the Marketing Campaign Manager](classic-personalization-campaigns-mktg-manager.md)
     + [Creating an Effective Newsletter Landing Page](classic-personalization-campaigns-email-landingpage.md)
     + [Managing Subscriptions](classic-personalization-campaigns-email-subscriptions.md)
 + Adobe Campaign {#campaign}
@@ -72,17 +75,9 @@ user-guide-title: AEM 6.4 Classic UI Authoring User Guide
     + [Targeting your Adobe Campaign](classic-personalization-ac-target.md)
 + Assets Authoring in Classic UI {#assets}
     + [Working with Assets](classicui-assets.md)
-    + [About working with IBL stages](classicui-stages-aem3d-ibl.md)
-    + [Rendering 3D assets](classicui-rendering-3d.md)
-    + [Viewing 3D assets](classicui-view-3d-assets.md)
     + [Delivering Dynamic Media Assets](dynamic-media-assets-delivering.md)
-    + [Setting up a standard stage with Autodesk Maya and Mental Ray](classicui-stages-aem3d-ad-mr.md)
     + [Adding Dynamic Media Assets to Pages](dynamic-media-assets-adding-to-page.md)
-    + [Adding Scene7 Features to your Page](manage-assets-classic-s7.md)
+    + [Adding Dynamic Media Classic (Scene7) Features to your Page](manage-assets-classic-s7.md)
     + [Working with Dynamic Media](dynamic-media-assets.md)
-    + [Working with 3D assets](classicui-3dassets.md)
     + [Video](manage-assets-classic-s7-video.md)
     + [Naming conventions for assets testing](asset-naming-conventions.md)
-    + [About the uploading and processing of 3D assets in AEM](classicui-upload-proc-3d.md)
-    + [About the use of stages in AEM 3D](classicui-stages-aem3d.md)
-    + [Resolving file dependencies](classicui-upload-proc-3d-resolve-dependencies.md)

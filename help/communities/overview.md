@@ -9,13 +9,15 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 418cc919-0ae3-4c6c-8566-7e9a206f02a8
+exl-id: 3a8b21f8-75da-4867-9a8a-80fddf7946ed
 ---
-
 # AEM Communities Overview {#aem-communities-overview}
 
 Adobe Experience Manager (AEM) Communities provides the ability to quickly create an on-premise community site that has improved performance, improved site management, and encourages the conversion of site visitors to valuable community members.
 
+<!--
 Contact your account representative for information regarding licensing of AEM Communities as well as additional licensing for enablement features and Adobe Analytics.
+-->
 
 ## Communities Features {#communities-features}
 
@@ -222,4 +224,3 @@ The AEM Demo Machine requires a valid AEM license.
 * Visit [Developing Communities](communities.md) to learn about the social component framework (SCF) and customizing Communities components and features.
 
 * Visit [Authoring Communities Components](author-communities.md) to learn how to author with and configure Communities components.
-

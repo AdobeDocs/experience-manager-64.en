@@ -1,16 +1,17 @@
 ---
 title: Convert PDF Service Java API QuickStart(SOAP)
 seo-title: Convert PDF Service Java API QuickStart(SOAP)
-description: null
-seo-description: null
+description: Use the Convert PDF service Java API to convert a PDF document to PostScript and JPEG files.
+seo-description: Use the Convert PDF service Java API to convert a PDF document to PostScript and JPEG files.
 uuid: 97253ac7-f0c1-4766-a7bd-c19af52adf51
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: bdd9bb56-14f6-448b-be4a-7c11f670e901
+role: Developer
+exl-id: af0cb623-c29c-4b9e-9ffd-736047a45b8d
 ---
-
 # Convert PDF Service Java API Quick Start (SOAP) {#convert-pdf-service-java-api-quickstart-soap}
 
 The following Quick Starts are available for the Convert PDF service API.
@@ -21,7 +22,9 @@ The following Quick Starts are available for the Convert PDF service API.
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick Start located in Programming with AEM forms are based on the Forms Server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)*
+>[!NOTE]
+>
+>Quick Start located in Programming with AEM forms are based on the Forms Server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
 
 ## Quick Start (SOAP mode): Converting a PDF document to PostScript using the Java API {#quick-start-soap-mode-converting-a-pdf-document-to-postscript-using-the-java-api}
 
@@ -272,4 +275,3 @@ The following Java code example converts a PDF document called *Loan.pdf* to a s
      } 
  }
 ```
-

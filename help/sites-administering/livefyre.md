@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: integration
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: bb3fcb53-b8c3-4b1d-9125-4715f34ceb0b
+exl-id: 39ecacda-2941-4b57-a001-e7ad1349723c
 ---
-
 # Integrating with Livefyre{#integrating-with-livefyre}
 
 Learn how to integrate Livefyre's industry-leading curation capabilities with your AEM 6.4 instance, allowing you to publish valuable user-generated content (UGC) from social networks to your site in minutes.
@@ -32,28 +32,20 @@ AEM 6.4 comes with Livefyre feature package 1.2.6 pre-installed. This package on
 
    ![livefyre-aem-uninstall-64](assets/livefyre-aem-uninstall-64.png)
 
-1. Return to the AEM homepage, click Tools, then navigate to **Deployment &gt; Package Share**.
+1. Download Livefyre package from [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
 
-   A list of feature packs and hotfixes available for download displays.
-
-1. In the keyword search, search for "Livefyre", then select the Livefyre feature pack corresponding to your AEM version.
-
-   ![livefyre-aem3-6-4](assets/livefyre-aem3-6-4.png)
-
-1. On the feature pack information page, click **Download**, then read the Package License Agreement and click **Accept**.
-1. Return to the Package Manager, locate the newly downloaded package, and click **Install**.
+1. From the Package Manager, install the downloaded package. For instructions to use Software Distribution and packages in AEM, see [How to Work with Packages](/help/sites-administering/package-manager.md).
 
    ![livefyre-aem4-6-4](assets/livefyre-aem4-6-4.png)
 
    Your Livefyre-AEM package is now installed. Before you can begin using the integration features, you must Configure AEM to use Livefyre.
-
-   For more information on packages, see [How to Work With Packages](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/package-manager.html).
 
    For more information and release notes on feature packs, see [Feature Packs](https://helpx.adobe.com/experience-manager/6-3/release-notes/feature-packs-release-notes.html).
 
 ### Configure AEM to use Livefyre: Create a Configuration Folder {#configure-aem-to-use-livefyre-create-a-configuration-folder}
 
 1. From the AEM homepage, click the **Tools** icon in the left rail, then navigate to **General &gt; Configuration Browser**.
+   * See the [Configuration Browser documentation](/help/sites-administering/configurations.md) for more information.
 1. Click **Create** to open the Create Configuration dialog.
 1. Name your configuration and check the **Cloud Configurations** checkbox.   
   
@@ -75,6 +67,8 @@ Configure AEM to use your organization's Livefyre license credentials, allowing 
    >Folders must have Cloud Configurations enabled in their properties before Livefyre configurations can be added to them. Configuration folders are created and managed in the Configuration Browser. 
    >
    >You cannot create a name for a configuration—it is referenced by the path of the folder it is in. You can only have one configuration per folder.
+   >
+   >See the [Configuration Browser documentation](/help/sites-administering/configurations.md) for more information.
 
 1. Select the newly created Livefyre configuration card, then click **Properties**.
 
@@ -143,7 +137,7 @@ You can import Twitter and Instagram user-generated content (UGC) from Livefyre 
 
 >[!NOTE]
 >
->Before using Assets to import UGC, you must set up Social Accounts and Rights Requests accounts in Livefyre Studio. See [Setting: Rights Requests](https://marketing.adobe.com/resources/help/en_US/livefyre/c_how_requesting_rights_works.html) for more information.
+>Before using Assets to import UGC, you must set up Social Accounts and Rights Requests accounts in Livefyre Studio. See [Setting: Rights Requests](https://docs.adobe.com/content/help/en/livefyre/using/rights-requests/c-how-requesting-rights-works.html) for more information.
 
 To import UGC into AEM Assets:
 
@@ -232,4 +226,3 @@ After you import the product catalog, the products show up in real time in your 
 | Storify 2 |  |X |X |X |
 | Trending |  |X |X |X |
 | Upload Button |  |X |X |X |
-

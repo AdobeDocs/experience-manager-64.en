@@ -5,12 +5,12 @@ description: Adaptive forms rule editor allows you to add dynamic behavior and b
 seo-description: Adaptive forms rule editor allows you to add dynamic behavior and build complex logic into forms without coding or scripting.
 uuid: 15c9bb41-ddae-4d3e-b130-5eb1b7572e6e
 content-type: reference
-topic-tags: adaptive_forms
-topic-tags: develop
+topic-tags: adaptive_forms, develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 66a3528a-489b-4fd0-be6c-b8c4b9b1f908
+feature: Adaptive Forms
+exl-id: 7cd73bdf-6717-4923-91ca-e8b6d44429ca
 ---
-
 # Adaptive forms rule editor {#adaptive-forms-rule-editor}
 
 ## Overview {#overview}
@@ -325,7 +325,7 @@ Users in the forms-power-users group can access code editor. For other users, co
 AEM Forms tracks the rule editor mode you used last to write a rule. When you launch the rule editor next time, it opens in that mode. However, you can also configure a default mode to open the rule editor in the specified mode. To do so:
 
 1. Go to AEM web console at https://[host]:[port]/system/console/configMgr.
-1. Click to edit **[!UICONTROL Adaptive Form Configuration Service]**.
+1. Click to edit **[!UICONTROL Adaptive Form and Interactive Communication Web Channel Configuration]**.
 1. choose **[!UICONTROL Visual Editor]** or **[!UICONTROL Code Editor]** from the **[!UICONTROL Default Mode for Rule Editor]** drop-down
 
 1. Click **[!UICONTROL Save]**.
@@ -785,4 +785,3 @@ In the purchase order form explained in the previous example, you want to restri
 ![example-validate](assets/example-validate.png)
 
 ![example-validate-code](assets/example-validate-code.png)
-

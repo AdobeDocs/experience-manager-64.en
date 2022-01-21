@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 772f6188-5e0b-4e66-b94a-65a0cc267ed3
+exl-id: 38bae0d7-9544-42d0-9766-45c66f254e5c
 ---
-
 # AEM Sites - GDPR Readiness{#aem-sites-gdpr-readiness}
 
 >[!IMPORTANT]
@@ -45,13 +45,13 @@ AEM has a [cookie opt-out service](/help/sites-developing/cookie-optout.md ) tha
 
 AEM Sites includes an optional integration with Enhanced Insights by Analytics which uses functionality within the Adobe Analytics On-demand Service.
 
-For further information on managing GDPR data subject requests related to Adobe Analytics see [Adobe Analytics and GDPR](https://marketing.adobe.com/resources/help/en_US/analytics/gdpr/).
+For further information on managing GDPR data subject requests related to Adobe Analytics see [Adobe Analytics and GDPR](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/an-gdpr-overview.html).
 
 ## Enhanced Personalization by Target {#enhanced-personalization-by-target}
 
 AEM Sites includes an optional integration with Enhanced Personalization by Target which uses functionality within the Adobe Target On-demand Service.
 
-For further information on managing GDPR data subject requests related to Adobe Target see [Adobe Target - Privacy and General Data Protection Regulation](https://marketing.adobe.com/resources/help/en_US/target/target/privacy-and-general-data-protection-regulation.html).
+For further information on managing GDPR data subject requests related to Adobe Target see [Adobe Target - Privacy and General Data Protection Regulation](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation.html).
 
 ## ContextHub {#contexthub}
 
@@ -218,4 +218,3 @@ To clear the ContextHub persistence:
     * ContextHub.Utils.Persistence.Modes.SESSION
     * ContextHub.Utils.Persistence.Modes.COOKIE
     * ContextHub.Utils.Persistence.Modes.WINDOW
-

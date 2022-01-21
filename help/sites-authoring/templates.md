@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 5a96c306-790a-4721-a146-86fbceb376db
+exl-id: 2af8eaed-3963-4016-9efa-a630d16a982b
 ---
-
 # Creating Page Templates {#creating-page-templates}
 
 When creating a page you must select a template, which will be used as the basis for creating the new page. The template defines the structure of the resultant page, any initial content, and the components that can be used.
@@ -309,7 +309,7 @@ The following aspects of a template can be edited:
 
 * [Layout](#editing-a-template-layout-template-author)
 
-  Here you can predefine the template layout for the required device formats. **Layout** mode for template authoring has the same functionality as the **[Layout](/help/sites-authoring/responsive-layout.md#defining-layouts-layout-mode)** mode for page authoring].
+  Here you can predefine the template layout for the required device formats. **Layout** mode for template authoring has the same functionality as the **[Layout](/help/sites-authoring/responsive-layout.md#defining-layouts-layout-mode)** mode for page authoring.
 
 * [Page Policies](#editing-a-template-structure-template-author)
 
@@ -721,4 +721,3 @@ When creating templates you should consider:
 
 1. [Creating your own folders](#creating-a-template-folder-admin) for your site-specific templates.
 1. [Publish your templates](#publishing-a-template-template-author) from the **Templates** console.
-

@@ -7,13 +7,13 @@ uuid: af3ab863-e895-4fac-84f4-0a77a66f5094
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 43dc10c2-8cfc-4ca3-8ccb-9b3f268663b7
+exl-id: cceea4d1-8fc2-4118-b22e-91f27e69c7e4
 ---
-
 # Reference adaptive form fragments {#reference-adaptive-form-fragments}
 
 [Adaptive form fragment](/help/forms/using/adaptive-form-fragments.md) is a group of fields, or a panel containing a group of fields that you can use when you create a form. It lets you create a form easily and quickly. You can drag-drop an adaptive form fragment into a form using the assets browser in sidebar, and you can edit it in the form editor.
 
-For adaptive forms authors, reference fragments are provided in the AEM Forms package [AEM-FORMS-6.3-REFERENCE-FRAGMENTS](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/fd/AEM-FORMS-6.3-REFERENCE-FRAGMENTS). It includes the following fragments:
+For adaptive forms authors, reference fragments are provided in the [AEM Forms add-on package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html). It includes the following fragments:
 
 * Address
 * Contact Information

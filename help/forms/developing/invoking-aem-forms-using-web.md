@@ -1,16 +1,17 @@
 ---
 title: Invoking AEM Forms using Web Services
 seo-title: Invoking AEM Forms using Web Services
-description: null
-seo-description: null
+description:  Invoke AEM Forms processes using web services with full support for WSDL generation.
+seo-description:  Invoke AEM Forms processes using web services with full support for WSDL generation.
 uuid: 66bcd010-c476-4b66-831d-a48307d8d67a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: d5722281-bea9-4fc7-abdc-e678899e0a15
+role: Developer
+exl-id: cd4b5e40-afd5-422d-ae2e-cfde0f4d6b1a
 ---
-
 # Invoking AEM Forms using Web Services {#invoking-aem-forms-using-web-services}
 
 Most AEM Forms services in the service container are configured to expose a web service, with full support for web service definition language (WSDL) generation. That is, you can create proxy objects that consume the native SOAP stack of an AEM Forms service. As a result, AEM Forms services can exchange and process the following SOAP messages:
@@ -28,7 +29,7 @@ AEM Forms supports the following web service standards:
 * **MTOM**: Represents a way to encode attachments with SOAP requests. (See [Invoking AEM Forms using MTOM](#invoking-aem-forms-using-mtom).)
 * **SwaRef**: Represents another way to encode attachments with SOAP requests. (See [Invoking AEM Forms using SwaRef](#invoking-aem-forms-using-swaref).)
 * **SOAP with attachments**: Supports both MIME and DIME (Direct Internet Message Encapsulation). These protocols are standard ways of sending attachments over SOAP. Microsoft Visual Studio .NET applications use DIME. (See [Invoking AEM Forms using Base64 encoding](#invoking-aem-forms-using-base64-encoding).)
-* **WS-Security**: Supports a user name password token profile, which is a standard way of sending user names and passwords as part of the WS Security SOAP header. AEM Forms also supports HTTP basic authentication. (See [Passing credentials using WS-Security headers](https://www.adobe.com/devnet/livecycle/articles/passing_credentials.html).)
+* **WS-Security**: Supports a user name password token profile, which is a standard way of sending user names and passwords as part of the WS Security SOAP header. AEM Forms also supports HTTP basic authentication. 
 
 To invoke AEM Forms services using a web service, typically you create a proxy library that consumes the service WSDL. The *Invoking AEM Forms using Web Services* section uses JAX-WS to create Java proxy classes to invoke services. (See [Creating Java proxy classes using JAX-WS](#creating-java-proxy-classes-using-jax-ws).)
 
@@ -340,14 +341,6 @@ The following table lists Java data types and shows the corresponding web servic
  </tbody> 
 </table>
 
-**Adobe Developer website**
-
-The Adobe Developer website contains the following article that discusses invoking AEM Forms services using the web service API:
-
-[Creating form rendering ASP.NET applications](https://www.adobe.com/devnet/livecycle/articles/asp_net.html)
-
-[Invoking web services using custom components](https://www.adobe.com/devnet/livecycle/articles/extend_webservices.html)
-
 >[!NOTE]
 >
 >Invoking web services using custom components describes how to create a AEM Forms component that invokes third party web services.
@@ -478,7 +471,7 @@ You can generate Axis Java library files by performing the following steps:
     * Add the bin directory to your class path.
     * Set the `ANT_HOME` environment variable to the directory where you installed Ant.
 
-1. Install Apache Axis 1.4 on the client computer. It is available at [https://ws.apache.org/axis/]( https://ws.apache.org/axis/.md). 
+1. Install Apache Axis 1.4 on the client computer. It is available at [https://ws.apache.org/axis/](https://ws.apache.org/axis/). 
 1. Set up the class path to use the Axis JAR files in your web service client, as described in the Axis installation instructions at [https://ws.apache.org/axis/java/install.html](https://ws.apache.org/axis/java/install.html).
 1. Use the Apache WSDL2Java tool in Axis to generate Java proxy classes. Create an Ant build script to accomplish this task. The following script is a sample Ant build script named build.xml:
 
@@ -1744,4 +1737,3 @@ The following C# code example signs an interactive form that is rendered by the 
 ### Services starting with the letter I produce invalid proxy files {#services-starting-with-the-letter-i-produce-invalid-proxy-files}
 
 The name of some AEM Forms generated proxy classes are incorrect when using Microsoft .Net 3.5 and WCF. This issue occurs when proxy classes are created for the IBMFilenetContentRepositoryConnector, IDPSchedulerService or any other service whose name starts with the letter I. For example, the name of the generated client in case of IBMFileNetContentRepositoryConnector is `BMFileNetContentRepositoryConnectorClient`. The letter I is missing in the generated proxy class.
-

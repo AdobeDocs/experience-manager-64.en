@@ -1,12 +1,14 @@
 ---
 title: Asset Templates
-description: Learn about Asset templates in AEM Assets and how to use Asset templates to create marketing collateral.
+description: Learn about Asset templates in [!DNL Experience Manager] Assets and how to use Asset templates to create marketing collateral.
 uuid: 7ba87c1d-70cd-4b89-86f3-971b93885f1e
 contentOwner: AG
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 340b62f7-2405-4d2d-846d-2c444d6cc77b
+feature: Asset Management,Developer Tools
+role: User
+exl-id: 9b4f16e6-dd91-4179-9629-576d801fcf43
 ---
-
 # Asset Templates {#asset-templates}
 
 Asset templates are a special class of assets that facilitate quick re-purposing of visually-rich content for digital and print media. An asset template includes two parts, the fixed messaging section and the editable section.
@@ -15,9 +17,9 @@ The fixed messaging section can contain proprietary content, such as brand logo 
 
 The flexibility to make limited edits while securing global signages makes asset templates ideal building blocks for quick content adaptation and distribution as content artifacts for various functions. Repurposing content helps reduce the cost for managing print and digital channels and deliver holistic and consistent experiences across these channels.
 
-As a marketer, you can store and manage templates within AEM Assets and use a single base template to create multiple personalized print experiences with ease. You can create various types of marketing collateral, including brochures, flyers, postcards, business cards, and so on to lucidly convey your marketing message to customers. You can also assemble multi-page print outputs from existing or new print outputs. Above all, you can simultaneously deliver both digital and print experiences with ease to provide a consistent, integrated experience for users.
+As a marketer, you can store and manage templates within [!DNL Experience Manager] Assets and use a single base template to create multiple personalized print experiences with ease. You can create various types of marketing collateral, including brochures, flyers, postcards, business cards, and so on to lucidly convey your marketing message to customers. You can also assemble multi-page print outputs from existing or new print outputs. Above all, you can simultaneously deliver both digital and print experiences with ease to provide a consistent, integrated experience for users.
 
-While asset templates are mostly InDesign files, proficiency in InDesign is not a barrier to creating stellar artifacts. You need not map the fields of your InDesign template with your product fields that you otherwise require to when creating catalogs. You can edit the templates in WYSIWYG mode directly on the web interface. However, for InDesign to process your editing changes, you must first configure AEM Assets to integrate with InDesign server.
+While asset templates are mostly InDesign files, proficiency in InDesign is not a barrier to creating stellar artifacts. You need not map the fields of your InDesign template with your product fields that you otherwise require to when creating catalogs. You can edit the templates in WYSIWYG mode directly on the web interface. However, for InDesign to process your editing changes, you must first configure [!DNL Experience Manager] Assets to integrate with InDesign server.
 
 The ability to edit InDesign templates from the web interface helps foster greater collaboration between Creative and Marketing personnel, while reducing the time to market for local promotion initiatives.
 
@@ -29,7 +31,7 @@ You can do the following with asset templates:
 * Preview template edits
 * Merge multiple template files to create a multi-page artifact
 
-When you choose a template for your collateral, AEM Assets creates a copy of the template that you can edit. The original template is preserved, which ensures that your global signage remains intact and can be reused to enforce brand consistency.
+When you choose a template for your collateral, [!DNL Assets] creates a copy of the template that you can edit. The original template is preserved, which ensures that your global signage remains intact and can be reused to enforce brand consistency.
 
 You can export the updated file within the parent folder in the following formats:
 
@@ -41,9 +43,9 @@ You can also download the output in these formats to your local system.
 
 ## Create a Collateral {#creating-a-collateral}
 
-Consider a scenario where you want to create digital printable collateral, such as brochures, flyers, and ads for an upcoming campaign and share with outlet stores globally. Creating collateral based on a template helps deliver a unified customer experience across channels. Designers can create the campaign templates (single-page or multi-page) using a creative solution, such as InDesign and upload the templates to AEM Assets for you. Before creating a collateral, have one or more INDD templates uploaded to and available in Experience Manager in advance.
+Consider a scenario where you want to create digital printable collateral, such as brochures, flyers, and ads for an upcoming campaign and share with outlet stores globally. Creating collateral based on a template helps deliver a unified customer experience across channels. Designers can create the campaign templates (single-page or multi-page) using a creative solution, such as InDesign and upload the templates to [!DNL Assets] for you. Before creating a collateral, have one or more INDD templates uploaded to and available in Experience Manager in advance.
 
-1. Click or tap the AEM logo, and then click/tap **[!UICONTROL Assets]** on the Navigation page.
+1. Click the [!DNL Experience Manager] logo, and then click **[!UICONTROL Assets]** on the Navigation page.
 1. From the options, choose **[!UICONTROL Templates]**.
 
    ![chlimage_1-306](assets/chlimage_1-306.png)
@@ -89,17 +91,17 @@ You can edit a collateral immediately after you create it. Alternatively, you op
 
    You can uses the text editor to modify the text you want displayed in the text field. You can modify the font size, style, color, and type at the tag level.
 
-   Using the asset finder, you can browse or search for images within AEM Assets and replace the editable images in the template with images of your choice.
+   Using the asset finder, you can browse or search for images within [!DNL Assets] and replace the editable images in the template with images of your choice.
 
    ![chlimage_1-314](assets/chlimage_1-314.png)
 
-   The editable are displayed on the right. For a field to be editable in AEM Assets, corresponding field in the template must be tagged in InDesign. In other words, they should be maked as editable in InDesign.
+   The editable are displayed on the right. For a field to be editable in [!DNL Assets], corresponding field in the template must be tagged in InDesign. In other words, they should be maked as editable in InDesign.
 
    ![chlimage_1-315](assets/chlimage_1-315.png)
 
    >[!NOTE]
    >
-   >Ensure that your AEM instance is integrated with an InDesign server to enable AEM Assets to extract data from the InDesign template and make it available for editing. For details, see [Integrating AEM Assets with InDesign Server](indesign.md).
+   >Ensure that your [!DNL Experience Manager] instance is integrated with an InDesign server to enable [!DNL Assets] to extract data from the InDesign template and make it available for editing. For details, see [Integrating [!DNL Assets] with InDesign Server](indesign.md).
 
 1. To modify the text in an editable field, click/tap the text field from the list of editable fields and edit the text in the field.
 
@@ -119,7 +121,7 @@ You can edit a collateral immediately after you create it. Alternatively, you op
 
    ![chlimage_1-319](assets/chlimage_1-319.png)
 
-   You can also search for images using keywords, tags, and based on their publish status. You can browse through the AEM Assets repository and navigate to the location of the desired image.
+   You can also search for images using keywords, tags, and based on their publish status. You can browse through the [!DNL Assets] repository and navigate to the location of the desired image.
 
    ![chlimage_1-320](assets/chlimage_1-320.png)
 
@@ -135,17 +137,17 @@ You can edit a collateral immediately after you create it. Alternatively, you op
 
    >[!NOTE]
    >
-   >The Preview and Done icons are enabled only when the editable image fields within the collateral do not have any missing icons. If there are missing icons in your collateral, it is because AEM is unable to resolve the images in the InDesign template. Usually, AEM is unable to resolve images in the following cases:
+   >The Preview and Done icons are enabled only when the editable image fields within the collateral do not have any missing icons. If there are missing icons in your collateral, it is because [!DNL Experience Manager] is unable to resolve the images in the InDesign template. Usually, [!DNL Experience Manager] is unable to resolve images in the following cases:
    >
-   >* Images are not embeded in the underlying InDesign template
+   >* Images are not embedded in the underlying InDesign template
    >* Images are linked from the local file system
    >
-   >To enable AEM to resolve images, do the following:
+   >To enable [!DNL Experience Manager] to resolve images, do the following:
    >
    >* Embed images while creating InDesign templates (See [About links and embedded graphics](https://helpx.adobe.com/indesign/using/graphics-links.html)).
-   >* Mount AEM to your local file system, and then map missing icons with existing AEM assets.
+   >* Mount [!DNL Experience Manager] to your local file system, and then map missing icons with existing [!DNL Experience Manager] assets.
    >
-   >For more information around working with InDesign documents, see [Best Practices for Working with InDesign Documents in AEM](https://helpx.adobe.com/experience-manager/kb/best-practices-idd-docs-aem.html).
+   >For more information around working with InDesign documents, see [Best Practices for Working with InDesign Documents in [!DNL Experience Manager]](https://helpx.adobe.com/experience-manager/kb/best-practices-idd-docs-aem.html).
 
 1. To generate a PDF rendition for the brochure, select the Acrobat option in the dialog and then click **[!UICONTROL Continue]**.
 1. The collateral is created in the folder you started with. To view the renditions, open the collateral and choose **[!UICONTROL Renditions]** from the GlobalNav list.
@@ -177,7 +179,7 @@ You can edit a collateral immediately after you create it. Alternatively, you op
 
    ![chlimage_1-328](assets/chlimage_1-328.png)
 
-   You can browse through the AEM Assets repository or collections, and navigate to the location of the desired templates and then select them to merge.
+   You can browse through the [!DNL Assets] repository or collections, and navigate to the location of the desired templates and then select them to merge.
 
    ![chlimage_1-329](assets/chlimage_1-329.png)
 
@@ -199,4 +201,3 @@ You can edit a collateral immediately after you create it. Alternatively, you op
    >[!NOTE]
    >
    >You cannot edit a merged collateral later or use it to create other collateral.
-

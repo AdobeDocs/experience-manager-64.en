@@ -1,7 +1,7 @@
 ---
 title: Extending Workflow Functionality
 seo-title: Extending Workflow Functionality
-description: null
+description: Extending Workflow Functionality
 seo-description: null
 uuid: 9f4ea2a8-8b21-4e7c-ac73-dd37d9ada111
 contentOwner: User
@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: f23408c3-6b37-4047-9cce-0cab97bb6c5c
+exl-id: e7b368b4-2fcd-43bc-b59f-ab4ba6b61f0d
 ---
-
 # Extending Workflow Functionality{#extending-workflow-functionality}
 
 This topic describes how to develop custom step components for your workflows, then how to interact programmatically with workflows.
@@ -312,7 +312,7 @@ The workflow `MetaDataMap` is available to Java and ECMA script process implemen
 
 ### Example: Retrieving the Arguments of the Process Step Component {#example-retrieving-the-arguments-of-the-process-step-component}
 
-The edit dialog of the **Process Step** component includes the **Arguments** property. The value of the **Arguments** property is stored in the worklow metadata, and is associated with the `PROCESS_ARGS` key.
+The edit dialog of the **Process Step** component includes the **Arguments** property. The value of the **Arguments** property is stored in the workflow metadata, and is associated with the `PROCESS_ARGS` key.
 
 In the following diagram, the value of the **Arguments** property is `argument1, argument2`:
 
@@ -1027,7 +1027,7 @@ The `_cq_dialog/.content.xml` sample used in this example:
 >
 >Classic UI model editor dialogs will still work with the standard, touch-enabled UI editor.
 >
->Though AEM has a [dialog conversion](/help/sites-developing/dialog-conversion.md) tool if you want to upgrade your classic UI step dialogs to standard UI dialogs. After conversion there are still some manual improvements that could be done to the dialog for certain cases.  
+>AEM has [modernization tools](/help/sites-developing/modernization-tools.md) if you want to upgrade your classic UI step dialogs to standard UI dialogs. After conversion there are still some manual improvements that could be done to the dialog for certain cases.  
 >
 >* In cases where an upgraded dialog is empty you can look at dialogs in `/libs` that have similar functionality as examples of how to provide a solution. For example: 
 >

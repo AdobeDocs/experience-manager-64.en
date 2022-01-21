@@ -5,8 +5,8 @@ description: Questions, answers, and resources for users new to AEM
 seo-description: Questions, answers, and resources for users new to AEM
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
+exl-id: 654c2576-93c0-4095-ba66-9c6ffb41c953
 ---
-
 # Resources for New AEM Users {#resources-for-new-aem-users}
 
 ## What is Adobe Experience Manager (AEM) and where to get documentation? {#what-is-aem}

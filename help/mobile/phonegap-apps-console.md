@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: 9890d045-cead-4d70-b797-95319284e0d8
+exl-id: 7317fd2f-9756-4231-b343-ea808ea159ec
 ---
-
 # Creating and Editing Apps Using the Apps Console{#creating-and-editing-apps-using-the-apps-console}
 
 >[!NOTE]
@@ -64,7 +64,6 @@ Mobile applications are based on a blueprint that defines a page structure and p
 
 * **Title:** The application title.
 * **Destination Path:** The location in the repository where the application is stored. Leave the default to create a path based on the app name.  
-
 * **Name:** The default value is the value of the Title property with space characters removed. The name is used within CQ to refer to the application, for example for the repository node that represents the application.
 * **Description:** A description of the application.
 * **Server URL:** The URL that provides Over-the-Air (OTA) content updates to the application. The default value is the publish server URL of the instance that is used to create an application (taken from the externalizer service). Note, this must be a publish server instance rather than an author, which requires authentication.
@@ -74,7 +73,7 @@ You can also provide an image file to use as the application thumbnail, select t
 Additional (and optional) tabs exist for build cloud service and integrating the Adobe Mobile Services SDK plug-in into your app.
 
 * Build: Click manage configurations and set up your build.phonegap.com build service here. Then from the drop-down you will be able to select the newly created PhoneGap build cloud service.
-* Analytics: Click manage configurations and set up your [Adobe Mobile Services SDK](https://marketing.adobe.com/developer/en_US/get-started/mobile/c-measuring-mobile-applications) cloud service. Then from the drop-down you will be able to select the newly created Mobile Service to integrate into your mobile app.
+* Analytics: Click manage configurations and set up your [Adobe Mobile Services SDK](https://docs.adobe.com/content/help/en/mobile-services/using/manage-app-settings-ug/configuring-app/download-sdk.html) cloud service. Then from the drop-down you will be able to select the newly created Mobile Service to integrate into your mobile app.
 
 >[!NOTE]
 >

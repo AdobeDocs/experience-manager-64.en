@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 0798ae5c-e06e-425f-ba8a-9309eb233083
+exl-id: 22110676-c102-4730-ab38-45396b15a274
 ---
-
 # Monitoring Server Resources Using the JMX Console{#monitoring-server-resources-using-the-jmx-console}
 
 The JMX Console enables you to monitor and manage services on the CRX server. The sections that follow summarize the attributes and operations that are exposed through the JMX framework.
@@ -590,12 +590,12 @@ Read-only.
 
 * Returned value: none
 
-**becomeClusterMaster** Sets this repository node as the master node of the cluster. If not already master, this command stops the current master instance's listener and starts a master listener on the current node. This node is then set as the master node and restarts, causing all slave nodes to connect to this instance.
+**becomeClusterMaster** Sets this repository node as the master node of the cluster. If not already master, this command stops the current master instance's listener and starts a master listener on the current node. This node is then set as the master node and restarts, causing all other nodes in the cluster (i.e. those that are controlled by the master) to connect to this instance.
 
 * Arguments: none
 * Returned value: none
 
-**joinCluster** Adds this repository to a cluster as a slave node. You must provide a user name and password for authentication purposes. The connection uses basic authentication. The security credentials are base-64 encoded before being sent to the server.
+**joinCluster** Adds this repository to a cluster as a node that is controlled by the cluster master. You must provide a user name and password for authentication purposes. The connection uses basic authentication. The security credentials are base-64 encoded before being sent to the server.
 
 * Arguments:
 
@@ -942,4 +942,3 @@ In order to access CRX's internal monitoring and configuration options, go to th
 Within that section, select the desired attribute or operation in the left pane.
 
 ![screen_shot_2012-03-26at115728am](assets/screen_shot_2012-03-26at115728am.png)
-

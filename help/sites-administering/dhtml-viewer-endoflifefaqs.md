@@ -1,21 +1,20 @@
 ---
 title: DHTML Viewer End-of-Life FAQs
-seo-title: DHTML Viewer End-of-Life FAQs
-description: Effective January 31, 2014, Scene7's DHTML viewer platform will officially end-of-life. This notification provides you answers to frequently asked questions so you can prepare for this transition over to our new HTML5 viewer platform.
-seo-description: Effective January 31, 2014, Scene7's DHTML viewer platform will officially end-of-life. This notification provides you answers to frequently asked questions so you can prepare for this transition over to our new HTML5 viewer platform.
-uuid: a78c03b3-6513-42e1-881f-6a9551659769
+description: Effective January 31, 2014, DHTML viewer platform will officially end-of-life.
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: d94244ac-a5f6-4c95-ab8c-26b41d25863f
+exl-id: 7a9d6e97-2592-43cb-b5ab-4238409bd7f3
 ---
+# DHTML Viewer End-of-Life {#dhtml-viewer-end-of-life-}
 
-# DHTML Viewer End-of-Life FAQs{#dhtml-viewer-end-of-life-faqs}
+Effective January 31, 2014, the DHTML viewer platform is officially end-of-life.
 
-Effective January 31, 2014, Scene7's DHTML viewer platform will officially end-of-life. This notification provides you answers to frequently asked questions so you can prepare for this transition over to our new HTML5 viewer platform.
+See the [Dynamic Media Viewers Reference Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) for the latest supported viewers.
 
-**What is the change?**
+<!-- **What is the change?**
 
 Effective January 31, 2014, Scene7 will officially end-of-life support for the DHTML viewer platform.
 
@@ -124,4 +123,5 @@ Although you can still be live in production with DHTML-based viewers, it is imp
 
 **Who do I contact for more information?**
 
-If this FAQ did not answer all of your questions, please contact support ([s7support@adobe.com](mailto:s7support@adobe.com)) or your Adobe account manager.
+If this FAQ did not answer all of your questions, please [use the Admin Console to create a support case](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) or contact your Adobe account manager.
+ -->

@@ -9,8 +9,10 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: d2decc31-a04b-4a8e-bb19-65f21cf7107e
+exl-id: 4b9fd241-82db-466e-95bd-6d212717801d
+feature: Content Fragments
+role: User
 ---
-
 # Creating Translation Projects for Content Fragments {#creating-translation-projects-for-content-fragments}
 
 In addition to assets, Adobe Experience Manager (AEM) Assets supports language copy workflows for [content fragments](content-fragments.md) (including variations). No additional optimization is required to run language copy workflows on content fragments. In each workflow, the entire content fragment is sent for translation.
@@ -46,13 +48,13 @@ You can also create temporary language copies for fragments similar to the way y
 
 ## Translating mixed media fragments {#translating-mixed-media-fragments}
 
-AEM lets you translate content fragments that include various types of media assets and collections. If you translate a content fragment that includes inline assets, the translated copies of these assets are stored under the target language root.
+[!DNL Experience Manager] lets you translate content fragments that include various types of media assets and collections. If you translate a content fragment that includes inline assets, the translated copies of these assets are stored under the target language root.
 
 If the content fragment includes a collection, the assets within the collection are translated along with the content fragment. The translated copies of the assets are stored within the appropriate target language root at a location that matches the physical location of the source assets under the source language root.
 
 To be able to translate content fragments that include mixed media, first edit the default translation framework to enable the translation of inline assets and collections associated with content fragments.
 
-1. Click/tap the AEM logo, and navigate to **[!UICONTROL Tools > Deployment > Cloud Services]**.
+1. Click/tap the [!DNL Experience Manager] logo, and navigate to **[!UICONTROL Tools > Deployment > Cloud Services]**.
 1. Locate **[!UICONTROL Translation Integration]** under **[!UICONTROL Adobe Marketing Cloud]**, and click/tap **[!UICONTROL Show Configurations]**. 
 
    ![chlimage_1-444](assets/chlimage_1-444.png)
@@ -156,4 +158,3 @@ To be able to translate content fragments that include mixed media, first edit t
    >[!NOTE]
    >
    >The procedures for adding a content fragment to an existing project or to perform update workflows are similar to the corresponding procedures for assets. For guidance on these procedures, refer to the procedures described for assets.
-

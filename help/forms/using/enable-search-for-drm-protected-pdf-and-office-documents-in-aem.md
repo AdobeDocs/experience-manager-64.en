@@ -9,8 +9,9 @@ geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 7eebef08-83b9-4b56-90ec-35ab3b0c27e8
 noindex: true
+feature: Document Security
+exl-id: dbf97dc1-cf05-4d45-859e-60ff01186e51
 ---
-
 # Enable AEM to search document security protected PDF and Microsoft Office documents{#enable-aem-to-search-document-security-protected-pdf-and-microsoft-office-documents}
 
 Adobe Experience Manager provides a user interface to search and locate various assets stored in AEM. The native search is capable of searching and locating AEM assets and performing  text  search on various commonly used document formats such as plain-text files, Microsoft Office documents, and PDF documents. You can also extend and enable the native search to perform  full-text  search on DRM protected PDF and Microsoft Office documents.
@@ -20,7 +21,7 @@ Perform the following steps to enable AEM to search document security protected 
 ## Before you start {#before-you-start}
 
 * Install and configure AEM Forms document security.
-* Add package sun.util.calendar to the whitelist of the **Deserialization Firewall Configuration.** The configuration is listed at `https://[server]:[port]/system/console/configMgr`.
+* Add package sun.util.calendar to the allowlist of the **Deserialization Firewall Configuration.** The configuration is listed at `https://[server]:[port]/system/console/configMgr`.
 * Ensure that all AEM bundles are up and running. The bundles are listed at `https://[server]:[port]/system/console/bundles`. If all the bundles are not active, wait, and check the status of the bundles after for a few minutes.
 
 ## Establish a secure connection within AEM Forms workflow (AEM Forms on JEE) {#establish-a-secure-connection-within-aem-forms-workflow-aem-forms-on-jee}
@@ -62,4 +63,3 @@ A secure connection enables  seamless  flow of information between AEM Forms on 
 
 1. Log in to AEM Assets as an administrator.
 1. Create a folder in AEM Digital Asset Manager and upload a policy-protected PDF or Microsoft Office document to the newly created folder. Now, search contents of the policy-protected documents using AEM search. It must return the document containing searched text.
-

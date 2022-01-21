@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: 3c2a44a7-24e7-49ee-bf18-eab0e44efa42
+exl-id: 272d3ec1-7f92-4f4a-9e98-954136b20b27
 ---
-
 # Appearance framework for adaptive and HTML5 forms {#appearance-framework-for-adaptive-and-html-forms}
 
 Forms (adaptive forms and HTML5 forms) use [jQuery](https://jquery.com/), [Backbone.js](https://backbonejs.org/) and [Underscore.js](https://underscorejs.org/) libraries for appearance and scripting. The forms also use the [jQuery UI](https://jqueryui.com/) **Widgets** architecture for all interactive elements (such as fields and buttons) in the form. This architecture enables Form developer to use a rich set of available jQuery widgets and plug-ins in Forms. You can also implement form-specific logic while capturing data from users like leadDigits/trailDigits restrictions or implementing picture clauses. Form developers can create and use custom apperances to improve the data capture experience and make it more user-friendly.
@@ -263,5 +263,3 @@ All custom widgets should conform to the above specifications. To use the featur
 | months  |Localized month names for that field.  |
 | zero  |The localized text for the number 0.  |
 | clearText  |The localized text for clear button.  |
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

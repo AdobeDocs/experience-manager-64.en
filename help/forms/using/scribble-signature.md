@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: designer
 discoiquuid: abb5513f-c824-4dc2-8617-29ea47684afe
+feature: Designer
+exl-id: 8b6b151d-2422-4261-9edb-66efe3d33f8b
 ---
-
 # Using Scribble Signature in HTML5 forms {#using-scribble-signature-in-html-forms}
 
 HTML5 forms are increasingly being used on touch devices, and one common requirement is to support signatures. Scribing (Writing with a stylus or finger) is becoming an accepted way of signing forms on mobile devices. HTML5 forms and Forms Designer now enable the option of having a scribble signature field on the form. When the form is rendered in the browser, one can sign on these fields using a stylus, mouse, or touch.
@@ -97,5 +98,3 @@ To delete the signatures from the form:
 
 * (Mobile devices) Long press the signature field, and on the confirmation dialog, tap **Yes**.
 * (Desktop) Hover over the signature field, click the **Cancel** icon, and on the confirmation dialog, click **Yes**.
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

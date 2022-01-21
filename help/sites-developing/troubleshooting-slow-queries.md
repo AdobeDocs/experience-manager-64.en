@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting Slow Queries
 seo-title: Troubleshooting Slow Queries
-description: null
+description: Troubleshooting Slow Queries
 seo-description: null
 uuid: ad09546a-c049-44b2-99a3-cb74ee68f040
 contentOwner: User
@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: c01e42ff-e338-46e6-a961-131ef943ea91
+exl-id: edffa86c-a157-45bc-a565-a57200debb37
 ---
-
 # Troubleshooting Slow Queries{#troubleshooting-slow-queries}
 
 ## Slow Query Classifications {#slow-query-classifications}
@@ -75,11 +75,11 @@ Before adding the cq:tags index rule
 
 * **Query Builder query**
 
-    * ``` 
-      type=cq:Page
-       property=jcr:content/cq:tags
-       property.value=my:tag
-      ```
+    ```
+    type=cq:Page
+     property=jcr:content/cq:tags
+     property.value=my:tag
+    ```
 
 * **Query plan**
 
@@ -91,19 +91,19 @@ After adding the cq:tags index rule
 
 * **cq:tags Index Rule**
 
-    * ```
-      /oak:index/cqPageLucene/indexRules/cq:Page/properties/cqTags
-       @name=jcr:content/cq:tags
-       @propertyIndex=true
-      ```
+    ```
+    /oak:index/cqPageLucene/indexRules/cq:Page/properties/cqTags
+     @name=jcr:content/cq:tags
+     @propertyIndex=true
+    ```
 
 * **Query Builder query**
 
-    * ``` 
-      type=cq:Page
-       property=jcr:content/cq:tags
-       property.value=myTagNamespace:myTag
-      ```
+    ```
+    type=cq:Page
+     property=jcr:content/cq:tags
+     property.value=myTagNamespace:myTag
+    ```
 
 * **Query plan**
 
@@ -139,7 +139,7 @@ This helps avoiding resource intensive queries (ie. not backed by any index or b
 
 #### Post-Deployment {#post-deployment-2}
 
-* Monitor the logs for queries triggering large node traversal or large heap memory consumption : ``
+* Monitor the logs for queries triggering large node traversal or large heap memory consumption :
 
     * `*WARN* ... java.lang.UnsupportedOperationException: The query read or traversed more than 100000 nodes. To avoid affecting other tasks, processing was stopped.`
     * Optimize the query to reduce the number of traversed nodes
@@ -180,20 +180,18 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-        * 
-          ```
-           property=jcr:content/contentType
-           property.value=article-page
-          ```
+      ```
+       property=jcr:content/contentType
+       property.value=article-page
+      ```
 
     * **Optimized query**
 
-        * 
-          ```
-           type=cq:Page 
-           property=jcr:content/contentType 
-           property.value=article-page
-          ```
+      ```
+       type=cq:Page 
+       property=jcr:content/contentType 
+       property.value=article-page
+      ```
 
    Queries lacking a nodetype restriction force AEM to assume the `nt:base` nodetype, which every node in AEM is a subtype of, effectively resulting in no nodetype restriction.
 
@@ -203,19 +201,19 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-        * ``` 
-          type=nt:hierarchyNode
-          property=jcr:content/contentType
-          property.value=article-page
-          ```
+      ```
+      type=nt:hierarchyNode
+      property=jcr:content/contentType
+      property.value=article-page
+      ```
 
     * **Optimized query**
 
-        * ``` 
-          type=cq:Page
-          property=jcr:content/contentType
-          property.value=article-page
-          ```
+      ```
+      type=cq:Page
+      property=jcr:content/contentType
+      property.value=article-page
+      ```
 
    `nt:hierarchyNode` is the parent nodetype of `cq:Page`, and assuming `jcr:content/contentType=article-page` is only applied to `cq:Page` nodes via our custom application, this query will only return `cq:Page` nodes where `jcr:content/contentType=article-page`. This is a suboptimal restriction though, because:
 
@@ -228,17 +226,17 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-        * ``` 
-          property=jcr:content/contentType
-          property.value=article-page
-          ```
+      ```
+        property=jcr:content/contentType
+        property.value=article-page
+      ```
 
     * **Optimized query**
 
-        * ```
-          property=jcr:content/sling:resourceType
-          property.value=my-site/components/structure/article-page
-          ```
+      ```
+      property=jcr:content/sling:resourceType
+      property.value=my-site/components/structure/article-page
+      ```
 
    Changing the property restriction from `jcr:content/contentType` (a custom value) to the well known property `sling:resourceType` lets the query to resolve to the property index `slingResourceType` which indexes all content by `sling:resourceType`.
 
@@ -248,21 +246,21 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-        * ``` 
-          type=cq:Page
-          path=/content
-          property=jcr:content/contentType
-          property.value=article-page
-          ```
+      ```
+      type=cq:Page
+      path=/content
+      property=jcr:content/contentType
+      property.value=article-page
+      ```
 
     * **Optimized query**
 
-        * ```
-          type=cq:Page
-          path=/content/my-site/us/en
-          property=jcr:content/contentType
-          property.value=article-page
-          ```
+      ```
+      type=cq:Page
+      path=/content/my-site/us/en
+      property=jcr:content/contentType
+      property.value=article-page
+      ```
 
    Scoping the path restriction from `path=/content`to `path=/content/my-site/us/en` allows the indexes to reduce the number of index entries that need to be inspected. When the query can restrict the path very well, beyond just `/content` or `/content/dam`, ensure the index has `evaluatePathRestrictions=true`.
 
@@ -272,20 +270,20 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-        * ```
-          type=cq:Page
-          property=jcr:content/contentType
-          property.operation=like
-          property.value=%article%
-          ```
+      ```
+      type=cq:Page
+      property=jcr:content/contentType
+      property.operation=like
+      property.value=%article%
+      ```
 
     * **Optimized query**
 
-        * ```
-          type=cq:Page
-          fulltext=article
-          fulltext.relPath=jcr:content/contentType
-          ```
+      ```
+      type=cq:Page
+      fulltext=article
+      fulltext.relPath=jcr:content/contentType
+      ```
 
    The LIKE condition is slow to evaluate because no index can be used if the text starts with a wildcard ("%...'). The jcr:contains condition allows using a fulltext index, and is therefore preferred. This requires the resolved Lucene Property Index to have indexRule for `jcr:content/contentType` with `analayzed=true`.
 
@@ -297,18 +295,18 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Unoptimized query**
 
-        * ``` 
-          type=cq:Page
-          path=/content
-          ```
+      ```
+      type=cq:Page
+      path=/content
+      ```
 
     * **Optimized query**
 
-        * ```
-          type=cq:Page
-          path=/content
-          p.guessTotal=100
-          ```
+      ```
+      type=cq:Page
+      path=/content
+      p.guessTotal=100
+      ```
 
    For cases where query execution is fast but the number of results are large, p. `guessTotal` is a critical optimization for Query Builder queries.
 
@@ -322,20 +320,20 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Query Builder query**
 
-        * ``` 
-          query type=cq:Page
-          path=/content/my-site/us/en
-          property=jcr:content/contentType
-          property.value=article-page
-          orderby=@jcr:content/publishDate
-          orderby.sort=desc
-          ```
+      ```
+      query type=cq:Page
+      path=/content/my-site/us/en
+      property=jcr:content/contentType
+      property.value=article-page
+      orderby=@jcr:content/publishDate
+      orderby.sort=desc
+      ```
 
     * **XPath generated from Query Builder query**
 
-        * ```
-          /jcr:root/content/my-site/us/en//element(*, cq:Page)[jcr:content/@contentType = 'article-page'] order by jcr:content/@publishDate descending
-          ```
+      ```
+      /jcr:root/content/my-site/us/en//element(*, cq:Page)[jcr:content/@contentType = 'article-page'] order by jcr:content/@publishDate descending
+      ```
 
 1. Provide the XPath (or JCR-SQL2) to [Oak Index Definition Generator](https://oakutils.appspot.com/generate/index) to generate the optimized Lucene Property Index definition.
 
@@ -371,17 +369,17 @@ The following example uses Query Builder as it's the most common query language 
 
     * **Query Builder query**
 
-        * ```
-          type=myApp:Author
-          property=firstName
-          property.value=ira
-          ```
+      ```
+      type=myApp:Author
+      property=firstName
+      property.value=ira
+      ```
 
     * **XPath generated from Query Builder query**
 
-        * ```
-          //element(*, myApp:Page)[@firstName = 'ira']
-          ```
+      ```
+      //element(*, myApp:Page)[@firstName = 'ira']
+      ```
 
 1. Provide the XPath (or JCR-SQL2) to [Oak Index Definition Generator](https://oakutils.appspot.com/generate/index) to generate the optimized Lucene Property Index definition.
 
@@ -470,4 +468,3 @@ Therefore, ensure an indexes satisfy queries, except if the combination of path 
 
     * Google Chrome web browser extension that exposes per-request log data, including executed queries and their query plans, in the browser's dev tools console.
     * Requires [Sling Log Tracer 1.0.2+](https://sling.apache.org/downloads.cgi) to be installed and enabled on AEM.
-

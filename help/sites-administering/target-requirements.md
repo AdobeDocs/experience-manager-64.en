@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: a84fd0ab-0bcd-48cf-bba3-fb29308fa0f8
+exl-id: f47e5c6a-ed52-4493-83bd-73e5e693d117
 ---
-
 # Prerequisites for Integrating with Adobe Target{#prerequisites-for-integrating-with-adobe-target}
 
 As part of the [integration of AEM and Adobe Target](/help/sites-administering/target.md), you need to register with Adobe Target, configure the replication agent, and secure activity settings on the publish node.
@@ -26,7 +26,7 @@ The Client Code identifies the Adobe Target customer account when calling the Ad
 >Your account must also be enabled by the Target team in order to use the integration.  
 >
 >
->If it's not the case, please contact [Adobe Target Customer Care](https://marketing.adobe.com/resources/help/en_US/target/target/r_problem.html).
+>If it's not the case, please contact [Adobe Target Customer Care](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html).
 
 ## Enabling the Target Replication Agent {#enabling-the-target-replication-agent}
 
@@ -67,4 +67,3 @@ To configure the AEM externalizer:
 1. Find **Day CQ Link Externalizer** and enter the domain for the author node.
 
    ![chlimage_1-120](assets/chlimage_1-120.png)
-

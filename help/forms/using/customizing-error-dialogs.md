@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: f547c0c1-3917-4092-9d63-c1b3aaefcef0
+exl-id: e45f7f79-a5c3-439c-bf6c-7b14590cd3fc
 ---
-
 # Customizing error dialogs {#customizing-error-dialogs}
 
 AEM Forms workspace allows you to customize error dialogs. Perform the [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md) followed by the steps below to customize error dialogs.
@@ -278,5 +278,3 @@ To
     padding-top: 15px;
 }
 ```
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

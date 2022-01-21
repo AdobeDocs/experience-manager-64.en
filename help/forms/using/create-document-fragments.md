@@ -7,8 +7,9 @@ uuid: 215d09a6-949c-45ef-b2b0-88cd0cb4b99c
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e9b78e2b-af7d-49d7-b37f-c96ec732015e
+feature: Interactive Communication
+exl-id: 50d93998-6393-4607-b89b-5b97aad530a3
 ---
-
 # Tutorial: Create document fragments {#tutorial-create-document-fragments}
 
 Create document fragments for Interactive Communication
@@ -42,7 +43,7 @@ Each document fragment includes fields with static text, data received from form
 
 While creating document fragments in this tutorial, variables are created for fields that receive data using the Agent UI.
 
-Use **FDM_Create_First_IC**, as described in the [Create form data model](/help/forms/using/create-form-data-model0.md) section, as the form data model to create document fragments in this tutorial.
+Use **FDM_Create_First_IC**, as described in the [Create form data model](create-form-data-model-tutorial.md) section, as the form data model to create document fragments in this tutorial.
 
 ## Step 1: Create Bill Details text document fragment {#step-create-bill-details-text-document-fragment}
 
@@ -57,7 +58,7 @@ The Bill Details document fragment includes the following fields:
 
 Execute the following steps to create variables for fields with Agent UI as the data source, create static text, and use form data model elements in the document fragment:
 
-1. Select **Forms** > **Document Fragments**.   
+1. Select **[!UICONTROL Forms]** > **[!UICONTROL Document Fragments]**.  
 
 1. Select **Create** > **Text**.
 1. Specify the following information:
@@ -119,7 +120,7 @@ The Customer Details document fragment includes the following fields:
 
 Execute the following steps to create variables for fields with Agent UI as the data source, create static text, and use form data model elements in the document fragment:
 
-1. Select **Forms** > **Document Fragments**. 
+1. Select **[!UICONTROL Forms]** > **[!UICONTROL Document Fragments]**.
 1. Select **Create** > **Text**.
 1. Specify the following information:
 
@@ -154,7 +155,7 @@ Execute the following steps to create variables for fields with Agent UI as the 
    ![customer_details_static_text_fdm](assets/customer_details_static_text_fdm.png)
 
 1. Place the cursor next to the **Mobile Number** field and double-click the **customer** &gt; **mobilenum** property.
-1. Place the cursor next to the **Alternate Contact Number** field and double-click the** customer** &gt; **alternatemobilenumber** property.
+1. Place the cursor next to the **Alternate Contact Number** field and double-click the **customer** &gt; **alternatemobilenumber** property.
 1. Place the cursor next to the **Relationship Number** field and double-click the **customer** > **relationshipnumber** property.
 1. Select the **Variables** tab, place the cursor next to the **Place of Supply** field and double-click the **Placesupply** variable.
 1. Place the cursor next to the **State Code** field and double-click the **Statecode** variable.
@@ -179,7 +180,7 @@ The Bill Summary document fragment includes the following fields:
 
 Execute the following steps to create variables for fields with Agent UI as the data source, create static text, and use form data model elements in the document fragment:
 
-1. Select **Forms** > **Document Fragments**. 
+1. Select **[!UICONTROL Forms]** > **[!UICONTROL Document Fragments]**.
 1. Select **Create** > **Text**.
 1. Specify the following information:
 
@@ -243,11 +244,11 @@ The Summary of charges document fragment includes the following fields:
 
 Execute the following steps to create static text and use form data model elements in the document fragment:
 
-1. Select **Forms** &gt; **Document Fragments**. 
+1. Select **[!UICONTROL Forms]** > **[!UICONTROL Document Fragments]**.
 1. Select **Create** &gt; **Text**.
 1. Specify the following information:
 
-    1. Enter **summary_charges_first_ic **as the name in the **Title** field. The title gets auto-populated in the Name field.
+    1. Enter **summary_charges_first_ic** as the name in the **Title** field. The title gets auto-populated in the Name field.
     1. Select **Form Data Model** from the **Data Model** section.
     1. Select **FDM_Create_First_IC** as the form data model and tap **Select**.
     1. Tap **Next**.
@@ -291,4 +292,3 @@ Execute the following steps to create static text and use form data model elemen
    ![create_rules_caption](assets/create_rules_caption.gif)
 
 1. Click **Save** to create the Summary of charges text document fragment.
-

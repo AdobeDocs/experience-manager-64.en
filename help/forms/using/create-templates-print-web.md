@@ -7,8 +7,9 @@ uuid: d7b0d9a5-f5f0-4c21-a6f8-622bf94f4491
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 40c0a17b-6894-44cc-b1f7-490913061532
+feature: Interactive Communication
+exl-id: 5822145f-d317-4807-a3f0-1d2aea0a779b
 ---
-
 # Tutorial: Create templates {#tutorial-create-templates}
 
 Create Print and Web templates for Interactive Communication
@@ -109,7 +110,7 @@ Execute the following steps to create an XDP template for the Print channel:
 
 Once you have created an XDP template using the Forms Designer, you must upload it to AEM Forms server so that the template is available for use while creating the Interactive Communication.
 
-1. Select **Forms** &gt; **Forms & Documents**.
+1. Select **[!UICONTROL Forms]** &gt; **[!UICONTROL Forms & Documents]**.
 1. Tap **Create** &gt; **File Upload**.
 
    Navigate and select the **create_first_ic_print_template** template (XDP) and tap **Open** to import the XDP template to the AEM Forms server.
@@ -171,8 +172,9 @@ To create a Web channel template, define a folder where you can save the created
 
 Execute the following steps to create a folder for the editable templates:
 
-1. Tap **Tools** ![](https://helpx.adobe.com/content/dam/help/en/aem-forms/icons/Tools.png) &gt; **Configuration Browser**.
-1. In the Configuration Browser page, tap **Create**. 
+1. Tap **Tools** ![Tools](assets/tools-icon.svg) &gt; **Configuration Browser**.
+   * See the [Configuration Browser documentation](/help/sites-administering/configurations.md) for more information.
+1. In the Configuration Browser page, tap **Create**.
 1. In the **Create Configuration** dialog, specify **Create_First_IC_templates** as the title for the folder, check **Editable Templates**, and tap **Create**.
 
    ![create_first_ic_web_template](assets/create_first_ic_web_template.png)
@@ -246,7 +248,7 @@ Once you have created the Web template, you must enable it to use the template w
 
 Execute the following steps to enable the Web template:
 
-1. Tap **Tools** ![](https://helpx.adobe.com/content/dam/help/en/aem-forms/icons/Tools.png) &gt; **Templates**.
+1. Tap **Tools** ![Tools](assets/tools-icon.svg) &gt; **Templates**.
 1. Navigate to the **Create_First_IC_Web_Template** template, select it, and tap **Enable**.
 1. Tab **Enable** again to confirm.
 
@@ -266,4 +268,3 @@ Based on the use case, you must include the **Pay Now** and **Subscribe** button
    ![allowed_components_af](assets/allowed_components_af.png)
 
 1. Tap ![done_icon](assets/done_icon.png) to save the properties.
-

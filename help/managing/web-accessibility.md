@@ -6,12 +6,11 @@ seo-description: Learn how to create accessible websites and content with AEM.
 uuid: b68281af-3e8a-4842-b762-1c59f9132795
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
-topic-tags: managing-accessibility
+topic-tags: managing-accessibility, introduction
 content-type: reference
-topic-tags: introduction
 discoiquuid: 13c7e0bd-54af-49f3-9743-075ce6f3314d
+exl-id: f0ccdeae-3dbb-4dba-89cf-4c8b759da22b
 ---
-
 # AEM and the Web Accessibility Guidelines{#aem-and-the-web-accessibility-guidelines}
 
 There are many social, economical, and legal motivations for ensuring that web content is designed to be as accessible as possible to the target audience, regardless of any disability or limitations they may have. Web accessibility is therefore an increasingly important aspect of good web design.

@@ -1,17 +1,17 @@
 ---
 title: Invoking AEM Forms using APIs
 seo-title: Invoking AEM Forms using APIs
-description: null
-seo-description: null
+description: Adobe Experience Manager Forms is J2EE-based enterprise software that consists of services that operate within a shared infrastructure. Learn how to use client applications to invoke AEM Forms programmatically using a Java API, web services, Remoting, and REST API. 
+seo-description: Adobe Experience Manager Forms is J2EE-based enterprise software that consists of services that operate within a shared infrastructure. Learn how to use client applications to invoke AEM Forms programmatically using a Java API, web services, Remoting, and REST API.
 uuid: d100e106-e508-4d3c-ba8c-b5fe13c9e2d6
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-topic-tags: coding
-topic-tags: development-tools
+topic-tags: development-tools, coding
 discoiquuid: 1825e12c-0306-4e0a-9643-47ce1ce82132
+role: Developer
+exl-id: 6b60209f-aced-4698-97f1-b1a7782eef46
 ---
-
 # Invoking AEM Forms using APIs {#invoking-aem-forms-using-apis}
 
 Adobe Experience Manager Forms is J2EE-based enterprise software that consists of services that operate within a shared infrastructure. Service operations typically consume or produce documents. By using AEM Forms, you can combine forms workflow with electronic forms, document security, and document generation in an integrated and cohesive set of services. These services can be accessed from inside and outside the firewall.
@@ -25,4 +25,3 @@ Services require a service container to run, similar to how Enterprise JavaBeans
 >[!NOTE]
 >
 >Programming with AEM forms does not include information on how to invoke AEM Forms using Watched Folders or e-mail.
-

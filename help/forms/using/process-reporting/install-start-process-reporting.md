@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: process-reporting
 discoiquuid: a0f81621-6ccd-46e2-85d7-2eb4ee3cdb91
+exl-id: 0af2e992-6670-4e31-9d26-ab74c5b9df8e
 ---
-
 # Getting Started with Process Reporting {#getting-started-with-process-reporting}
 
 Process Reporting gives AEM Forms users the ability to query information about AEM Forms processes that are currently defined in the AEM Forms implementation. However, Process Reporting does not access data directly from the AEM Forms repository. The data is first published to the Process Reporting repository on a scheduled basis (*by the ProcessDataPublisher & ProcessDataStorage service*s). The reports and queries in Process Reporting are then generated out of the Process Reporting data published to the repository. Process Reporting is installed as part of the Forms Workflow module.
@@ -46,6 +46,8 @@ Perform the following steps to change the publishing schedule:
 >
 >If you are running your AEM Forms implementation on a cluster, perform the following steps on each node of the cluster.
 
+#### JBoss Application Server {#jboss-application-server}
+
 1. Stop the AEM Forms server instance.
     * (For Windows) Open the `[*JBoss root*]/bin/run.conf.bat` file in an editor.
     * (For Linux, AIX and Solaris) `[*JBoss root*]/bin/run.conf.sh` file in an editor.
@@ -59,6 +61,8 @@ Perform the following steps to change the publishing schedule:
 1. Save and close the `run.conf.bat` file.  
 
 1. Restart the AEM Forms server instance.
+
+#### WebSphere Application Server {#websphere-application-server}
 
 1. Stop the AEM Forms server instance.
 1. Log in to the WebSphere Administrative Console. In the navigation tree, click **Servers** &gt;  **Application servers** and then, in the right pane, click the server name.  
@@ -76,6 +80,8 @@ Perform the following steps to change the publishing schedule:
 1. Click **Apply**, click OK, and then click **Save directly to the master configuration**.  
 
 1. Restart the AEM Forms server instance.
+
+#### WebLogic Application Server {#weblogic-application-server}
 
 1. Stop the AEM Forms server instance.
 1. Log in to the WebLogic Administration Console. The default address of WebLogic Administration Console is `https://[hostname]:[port]/console`.  
@@ -278,5 +284,3 @@ For details on the data publishing service and how to schedule this service, see
 * **[!UICONTROL Sync]**: Synchronize the embedded Process Reporting repository with the AEM Forms database.
 * **[!UICONTROL Help]**: View the Help documentation on Process Reporting.
 * **[!UICONTROL Logout]**: Log out of Process Reporting
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

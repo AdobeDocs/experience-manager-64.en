@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 72c3a451-fa57-4b12-8d25-fc2e6fa98adb
+exl-id: 5c60d1a6-a4a2-4131-81e6-e39a5ab07dcf
 ---
-
 # Set up environment for AEM Forms app {#set-up-environment-for-aem-forms-app}
 
 You need the following hardware, software, and licenses to build and deploy the AEM Forms app:
@@ -39,5 +39,3 @@ You need the following hardware, software, and licenses to build and deploy the 
 >[!NOTE]
 >
 >The adobe-lc-mobileworkspace-src.zip contains PhoneGap SDK 5.0. Ensure that PhoneGap SDK is not pre-installed.
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

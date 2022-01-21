@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: e9ab4796-a050-40de-b073-af7d33cff009
+exl-id: 39419e0e-ad37-4ca5-8205-c29fc2cd1474
 ---
-
 # Starting Workflows{#starting-workflows}
 
 When administering workflows you can start them using a variety of methods:
@@ -169,7 +169,7 @@ A workflow package:
       This launcher property is a comma separated list of items: ``
 
         * `property-name` ignore any `jcr` event which triggered on the specified property name. ``
-        * `event-user-data:<*someValue*>` ignores any event that contains the `*<someValue*`> `user-data` set through the [ `ObservationManager` API](https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/observation/ObservationManager.html#setUserData(java.lang.String).
+        * `event-user-data:<*someValue*>` ignores any event that contains the `*<someValue*`> `user-data` set through the [`ObservationManager` API](https://www.adobe.io/experience-manager/reference-materials/spec/jsr170/javadocs/jcr-2.0/javax/jcr/observation/ObservationManager.html#setUserData(java.lang.String.
 
       For example:
 

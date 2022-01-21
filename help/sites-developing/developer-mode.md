@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: efbe46a3-c37f-4b67-8b3a-188cfc75118b
+exl-id: 733eddf1-48f9-45c2-a1b4-138cf32b4b59
 ---
-
 # Developer Mode{#developer-mode}
 
 When editing pages in AEM, several [modes](/help/sites-authoring/author-environment-tools.md#page-modes) are available, including Developer mode. This opens a side panel with several tabs that provide a developer with infomation about the current page. The three tabs are:
@@ -31,12 +31,8 @@ These help a developer to:
 >
 >* Is only available in the touch-enabled UI (when editing pages).
 >* Is not available on mobile devices or small windows on desktop (due to space restrictions).  
->
->  * This occurs when the width is less than 1024px.  
->
->* Requires the appropriate permissions/privileges:  
->
->  * Access to Developer Mode is given to users who have write access on `/apps`.
+>   * This occurs when the width is less than 1024px.  
+>* Is only available to users who are members of the `administrators` group.
 
 >[!CAUTION]
 >

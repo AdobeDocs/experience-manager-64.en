@@ -9,8 +9,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 discoiquuid: 759068fa-dc1b-4cf5-bc7b-62b8c5464831
+feature: Document Security
+exl-id: c405c69b-3588-4701-8f36-1ea0680e056d
 ---
-
 # Enable AEM to search document security protected PDF documents {#enable-aem-to-search-document-security-protected-pdf-documents}
 
 AEM search is capable of searching and locating AEM assets and performing text search on various commonly used document formats such as plain-text files, Microsoft Office documents, and PDF documents. You can also extend the native search to perform full-text search on [PDF Documents protected with AEM Document security](/help/forms/using/admin-help/document-security.md). To enable AEM to perform full-text search on such documents, perform the following steps:
@@ -31,7 +32,7 @@ AEM search is capable of searching and locating AEM assets and performing text s
     * For AEM Forms on OSGi, the bundles are listed at `https://[server]:[port]/system/console/bundles`.
     * For AEM Forms on JEE, the bundles are listed at `https://[server]:[port]/[context-path]/system/console/bundles`. For example `http://localhost:8080/lc/system/console/bundles`.
 
-* Whitelist the *sun.util.calendar* package. To whitelist the package, perform the following steps:
+* Add the *sun.util.calendar* package to the allowlist. To add the package to the allowlist, perform the following steps:
 
     1. Open AEM Web Console. The URL is `https://[server]:[port]/system/console/configMgr`.
     1. Locate and open **Deserialization Firewall Configuration**.
@@ -78,4 +79,3 @@ You can use one of the following methods to establish the secure connection:
 1. Create a folder in AEM Digital Asset Manager and upload the policy-protected PDF documents to the newly created folder.
 
    Now, you can search the policy-protected documents using AEM search.
-

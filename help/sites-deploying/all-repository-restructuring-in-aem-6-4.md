@@ -9,14 +9,16 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: 80bd707f-c02d-4616-9b45-90f6c726abea
+feature: Upgrading
+exl-id: df03f65b-9951-4fd4-abf7-1672618fc1df
 ---
-
 # Common Repository Restructuring in AEM 6.4{#common-repository-restructuring-in-aem}
 
 As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes potentially impacting all solutions. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
 
 **With 6.4 Upgrade**
 
+* [ContextHub Configurations](#contexthub-6.4)
 * [Workflow Instances](/help/sites-deploying/all-repository-restructuring-in-aem-6-4.md#workflow-instances)
 * [Workflow Models](/help/sites-deploying/all-repository-restructuring-in-aem-6-4.md#workflow-models)
 * [Workflow Launchers](/help/sites-deploying/all-repository-restructuring-in-aem-6-4.md#workflow-launchers)
@@ -45,6 +47,22 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
 * [Workflow Notification Email Templates](/help/sites-deploying/all-repository-restructuring-in-aem-6-4.md#workflow-notification-email-templates)
 
 ## With 6.4 Upgrade {#with-upgrade}
+
+### ContextHub Configurations {#contexthub-6.4}
+
+ From AEM 6.4 onwards, there is no default ContextHub configuration. Therefore on the root level of the site a `cq:contextHubPathproperty` should be set to indicate which configuration should be used.
+
+1. Navigate to the root of the site.
+1. Open the page properties of the root page and select the Personalization tab.
+1. In the Contexthub Path field enter your own ContextHub configuration path.
+
+Additionally on the ContextHub configuration, the `sling:resourceType` needs to be updated to be relative and not absolute.
+
+1. Open the properties of ContextHub configuration node in CRX DE Lite, e.g. `/apps/settings/cloudsettings/legacy/contexthub`
+1. Change `sling:resourceType` from `/libs/granite/contexthub/cloudsettings/components/baseconfiguration` to `granite/contexthub/cloudsettings/components/baseconfiguration`
+
+I.e. the `sling:resourceType` of the ContextHub configuration must be relative rather than absolute.
+
 
 ### Workflow Models {#workflow-models}
 
@@ -831,4 +849,3 @@ As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-dep
   </tr>
  </tbody>
 </table>
-

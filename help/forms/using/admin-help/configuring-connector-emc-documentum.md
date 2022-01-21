@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/connecting_to_a_content_management_system
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e62370a7-9d9e-43a3-8014-8e53800c870d
+exl-id: 86cc01f0-b6c0-4beb-a203-96dc1989d8f0
 ---
-
 # Configuring Connector for EMC Documentum {#configuring-connector-for-emc-documentum}
 
 Connector for EMC Documentum enables communication between AEM forms and EMC Documentum. For additional background information, see "Connectors for ECM" in [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
@@ -61,7 +61,9 @@ You can configure which repository service provider to use with Documentum. Repo
 
 **repository provider:** Makes the native repository provider the provider for the repository
 
-***Note**: To select a repository service provider other than those listed, configure RepositoryService in Applications and Services > Service Management. <!-- Fix broken link (See Managing Services) -->*
+>[!NOTE]
+>
+>To select a repository service provider other than those listed, configure RepositoryService in Applications and Services > Service Management. <!-- Fix broken link (See Managing Services) -->
 
 1. In administration console, click Services > Connector for EMC Documentum > Configuration Settings.
 1. In the Repository Service Provider Information area, select the alternative repository service provider.
@@ -108,4 +110,3 @@ Some manual steps are required to ensure that the Request for Sharing of Task Qu
 1. In the Variables view, open the properties of the "theForm" variable and change the URI to match the path where you placed the QueueSharing.swf file in step 5.
 1. Save the process.
 1. Migrate the process to the production environment according to your organization's policy.
-

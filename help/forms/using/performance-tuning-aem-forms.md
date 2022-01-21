@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: 5d672b56-00c4-46a0-974b-e174fbdf07d6
+role: Admin
+exl-id: bc750571-08a5-414c-aed5-4e839f6695ae
 ---
-
 # Performance tuning of AEM Forms server {#performance-tuning-of-aem-forms-server}
 
 This article discusses strategies and best practices you can implement to reduce bottlenecks and optimize the performance of your AEM Forms deployment.
@@ -48,9 +49,12 @@ set CQ_JVM_OPTS=%CQ_JVM_OPTS% -Xms8192m
 set CQ_JVM_OPTS=%CQ_JVM_OPTS% -Xmx8192m
 set CQ_JVM_OPTS=%CQ_JVM_OPTS% -XX:PermSize=256m
 set CQ_JVM_OPTS=%CQ_JVM_OPTS% -XX:MaxPermSize=1024m
+
 ```
 
-**Note**: The recommended settings are for Windows 2008 R2 8 Core and Oracle HotSpot 1.7 (64-bit) JDK and should be scaled up or down as per your system configuration.
+>[!NOTE]
+>
+>The recommended settings are for Windows 2008 R2 8 Core and Oracle HotSpot 1.7 (64-bit) JDK and should be scaled up or down as per your system configuration.
 
 ## Using a web server {#using-a-web-server}
 
@@ -58,7 +62,9 @@ Adaptive forms and HTML5 forms render in HTML5 format. The resultant output coul
 
 For example, perform the following steps to enable compression on Apache Web Server 2.0 32-bit with JBoss:
 
-***Note**: The following instructions do not apply to any server other than the Apache Web Server 2.0 32-bit. For steps specific to any other server, see the corresponding product documentation.*
+>[!NOTE]
+>
+>The following instructions do not apply to any server other than the Apache Web Server 2.0 32-bit. For steps specific to any other server, see the corresponding product documentation.
 
 Following steps demonstrates changes required to enable compression with Apache Web Server
 
@@ -164,4 +170,3 @@ To improve the performance, you can direct the antivirus software to exclude the
 >
 >* If the AEM Forms server performs slow even after excluding the suggested directories, then exclude the Java executable file (java.exe) also.   
 >
-

@@ -8,8 +8,8 @@ contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: 82e72ffb-2faa-45fe-8bb2-f485d8fa043e
+exl-id: 18b5c6e2-3b0c-4ec8-9e65-c4105b47be4e
 ---
-
 # Transaction Reports Billable APIs {#transaction-reports-billable-apis}
 
 List of all the APIs that are accounted as transactions
@@ -77,7 +77,7 @@ Billing APIs does not account for the number of pages, the length of a document 
    <td> </td> 
   </tr>
   <tr>
-   <td><a href="https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/com/adobe/pdfg/service/api/GeneratePDFService.html#htmlFileToPdf-com.adobe.aemfd.docmanager.Document-java.lang.String-java.lang.String-com.adobe.aemfd.docmanager.Document-com.adobe.aemfd.docmanager.Document-">htmlFileToPdf</a></td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/com/adobe/pdfg/service/api/GeneratePDFService.html#htmlFileToPdf-com.adobe.aemfd.docmanager.Document-java.lang.String-java.lang.String-com.adobe.aemfd.docmanager.Document-com.adobe.aemfd.docmanager.Document-">htmlFileToPdf</a></td> 
    <td><p>Creates PDF from HTML pages.</p> </td> 
    <td>Documents Processed<br /> </td> 
    <td> </td> 
@@ -270,8 +270,8 @@ Billing APIs does not account for the number of pages, the length of a document 
    <td>Additional Information</td> 
   </tr>
   <tr>
-   <td><a href="https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/com/adobe/fd/assembler/service/AssemblerService.html#invoke-com.adobe.aemfd.docmanager.Document-java.util.Map-com.adobe.fd.assembler.client.AssemblerOptionSpec-">invoke</a></td> 
-   <td>Executes the specified DDX document and returns an <a href="https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/com/adobe/fd/assembler/client/AssemblerResult.html">AssemblerResult</a> object containing the resultant documents. </td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/com/adobe/fd/assembler/service/AssemblerService.html#invoke-com.adobe.aemfd.docmanager.Document-java.util.Map-com.adobe.fd.assembler.client.AssemblerOptionSpec-">invoke</a></td> 
+   <td>Executes the specified DDX document and returns an <a href="https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/com/adobe/fd/assembler/client/AssemblerResult.html">AssemblerResult</a> object containing the resultant documents. </td> 
    <td>Documents Processed</td> 
    <td>The following operations are not accounted as transactions:
     <ul> 
@@ -281,7 +281,7 @@ Billing APIs does not account for the number of pages, the length of a document 
   </tr>
   <tr>
    <td><a href="https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/com/adobe/fd/assembler/service/AssemblerService.html#invoke-com.adobe.aemfd.docmanager.Document-java.util.Map-com.adobe.fd.assembler.client.AssemblerOptionSpec-" target="_blank">invoke</a></td> 
-   <td>Executes the specified DDX document and returns an <a href="https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/com/adobe/fd/assembler/client/AssemblerResult.html"> AssemblerResult</a> object containing the resultant documents. </td> 
+   <td>Executes the specified DDX document and returns an <a href="https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/com/adobe/fd/assembler/client/AssemblerResult.html"> AssemblerResult</a> object containing the resultant documents. </td> 
    <td>Documents Processed</td> 
    <td>All the input file formats that PDF Generator, Forms, and Output services support, Assembler service supports all those formats as output file formats. </td> 
   </tr>
@@ -340,7 +340,7 @@ Billing APIs does not account for the number of pages, the length of a document 
 
 ## Billable Data Capture APIs {#billable-data-capture-apis}
 
-All the submission events of adaptive forms, HTML5 Forms, and form set are accounted as transactions. By default, submission of a PDF Form is not accounted as a transaction. Use the provided [transaction reports API](https://www.bdnsw.gov.bn/PublishingImages/page-under-construction.jpg) to recording a PDF Forms submission as a transaction.
+All the submission events of adaptive forms, HTML5 Forms, and form set are accounted as transactions. By default, submission of a PDF Form is not accounted as a transaction. Use the provided [transaction reports API](record-transaction-custom-implementation.md) to recording a PDF Forms submission as a transaction.
 
 ### Adaptive Forms {#adaptive-forms}
 
@@ -491,4 +491,3 @@ Actions like submitting a PDF Form, using Agent UI to preview an interactive com
 * [Transaction Reports Overview](/help/forms/using/transaction-reports-overview.md)
 * [Viewing and Understanding a Transaction Reports](/help/forms/using/viewing-and-understanding-transaction-reports.md)
 * [Record a transaction for custom implementations](/help/forms/using/record-transaction-custom-implementation.md)
-

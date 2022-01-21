@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 7ec0698a-9e6e-48d4-bba2-5a6eee313900
+exl-id: d6b2f389-bff4-481d-93bf-87f56114a91b
 ---
-
 # Synchronizing directories {#synchronizing-directories}
 
 To synchronize domains, you can choose to do a manual or scheduled synchronization. A *manual synchronization* synchronizes any selected domains. A *scheduled synchronization* synchronizes all domains.
@@ -18,8 +18,6 @@ To synchronize domains, you can choose to do a manual or scheduled synchronizati
 Directory synchronization is used to pull details from the directory servers that you specified in your directory settings into the User Management database. Later, you can also do a manual synchronization if changes or updates occur on the directory servers. For example, you can do a manual synchronization if users and groups are added or changes are made to a user’s account.
 
 You can also set a daily synchronization schedule to automatically synchronize the User Management database with changes or updates to the source directory servers. However, be aware that this process uses network and server resources. Choose low-usage time periods and avoid scheduling unnecessary synchronizations that tie up system and network resources. To minimize unnecessary synchronizations, use the immediate synchronize option instead.
-
-You can also specify whether to push user and group information into Adobe LiveCycle Content Services 9 (deprecated) when synchronizing domains.
 
 >[!NOTE]
 >
@@ -31,7 +29,7 @@ You can also specify whether to push user and group information into Adobe LiveC
 
 >[!NOTE]
 >
->Adobe® LiveCycle® Content Services ES (Deprecated) is a content management system installed with LiveCycle. It enables users to design, manage, monitor, and optimize human-centric processes. Content Services (Deprecated) support ends on 12/31/2014. See [Adobe product lifecycle document](https://www.adobe.com/support/products/enterprise/eol/eol_matrix.html). To know about configuring Content Services (Deprecated), see [Administering Content Services](https://help.adobe.com/en_US/livecycle/9.0/admin_contentservices.pdf).
+>Adobe® LiveCycle® Content Services ES (Deprecated) is a content management system installed with LiveCycle. It enables users to design, manage, monitor, and optimize human-centric processes. Content Services (Deprecated) support ends on 12/31/2014. See [Adobe product lifecycle document](https://www.adobe.com/support/products/enterprise/eol/eol_matrix.html).
 
 ## Enable delta directory synchronization {#enable-delta-directory-synchronization}
 
@@ -93,4 +91,3 @@ The cron expression usage is based on the Quartz open source job-scheduling syst
 
 1. In administration console, click Settings &gt; User Management &gt; Domain Management.
 1. Click Abort. This button is displayed only while a directory synchronization is in progress.
-

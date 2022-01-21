@@ -7,8 +7,9 @@ uuid: 4f33c10f-e862-4113-9d5a-67e6208e1e66
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 9f3ba207-b5a3-43a2-b59c-0d74d62c03fc
+feature: Adaptive Forms
+exl-id: ce6fa21c-aa83-4c5e-be7f-ad4f6e0811f8
 ---
-
 # Adaptive Form Expressions {#adaptive-form-expressions}
 
 Adaptive forms provide optimized and simplified form filling experience for end users with dynamic scripting capabilities. It allows you to write expressions to add various behaviors such as dynamic show/hide fields and panels. It also lets you add calculated fields, make fields read-only, add validation logic, and many more. The dynamic behavior is based on the user input or prefilled data.
@@ -40,7 +41,7 @@ Repeating panels are instances of a panel that are added or removed dynamically,
 
 In adaptive forms, you can write expressions to add behaviors such as dynamic show/hide fields and panels. You can also write expressions to add calculated fields, make fields read-only, validation logic, and many more. Adaptive forms support following expressions:
 
-* **[Access expressions](/help/forms/using/adaptive-form-expressions.md#main-pars-header-4)**: to enable/disable a field.
+* **[Access expressions](#access-expression-enablement-expression)**: to enable/disable a field.
 * **[Calculate expressions](/help/forms/using/adaptive-form-expressions.md#p-calculate-expression-p)**: to auto-compute value of a field.
 * **[Click expression](/help/forms/using/adaptive-form-expressions.md#p-click-expression-p)**: to handle actions on click event of a button. 
 * **[Initialization Script](/help/forms/using/adaptive-form-expressions.md#p-initialization-script-p):** perform an action on initialization of a field.  
@@ -280,4 +281,3 @@ Perform the following steps to create a custom pattern for a specific field type
 
    ![Creating custom patterns for fields in CrxDe](assets/creating-custom-patterns.png)
 **Figure:** *Creating custom patterns*
-

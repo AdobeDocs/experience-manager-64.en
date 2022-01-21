@@ -2,9 +2,9 @@
 title: AEM 6.4 Managing User Guide
 seo-title: AEM 6.4 Managing User Guide
 description: This guide covers how to manage an AEM project successfully 
-seo-description: Covers how to manage an AEM project successfully 
+seo-description: Covers how to manage an AEM project successfully
+exl-id: 4fa34d1f-c41e-4b9b-98d3-8c364a60776d
 ---
-
 # AEM 6.4 Managing User Guide
 
 This guide covers how to manage an AEM project successfully 
@@ -27,12 +27,12 @@ This guide covers how to manage an AEM project successfully
 | [Administering Guide](/help/sites-administering/home.md) | Understand how to administer AEM |
 | [Authoring Guide](/help/sites-authoring/home.md) | This guide explains the concepts of authoring in AEM. |
 | [Classic UI Authoring Guide](/help/sites-classic-ui-authoring/home.md) | This guide explains the concepts of authoring in AEM in the classic user interface. |
-| [Screens User Guide](/help/screens/home.md) | Learn about the digital signage solution to publish dynamic and interactive digital experiences. |
+| [Screens User Guide](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html) | Learn about the digital signage solution to publish dynamic and interactive digital experiences. |
 | [Deploying User Guide](/help/sites-deploying/home.md) | This guide shows you the basics of AEM.  |
 | [Developing User Guide](/help/sites-developing/home.md)| Learn how to build out your AEM instance. |
 | [Managing User Guide](/help/managing/home.md)| This guide describes how to manage an AEM project successfully. |
 | [Mobile User Guide](/help/mobile/home.md)|This guide describes how to create and manage content for mobile applications.|
-| [AEM Livefyre](https://marketing.adobe.com/resources/help/en_US/livefyre/home.html) | This guide shows you how to share user-generated content with Livefyre. |
+| [AEM Livefyre](https://docs.adobe.com/content/help/en/livefyre/using/home.html) | This guide shows you how to share user-generated content with Livefyre. |
 
 ## Key AEM resources
 

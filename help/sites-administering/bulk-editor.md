@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 4da555b4-7fb2-4d55-b29f-8bd21f474c1a
+exl-id: 61d85393-2764-447d-afcc-3af1d99e8dbb
 ---
-
 # The Bulk Editor{#the-bulk-editor}
 
 The Bulk Editor allows for very efficient editing when the visual page context is not needed as it lets you:
@@ -155,4 +155,3 @@ To import content:
    
 1. Click **Import**.
 1. Select the `.tsv` file. The data are imported into the repository.
-

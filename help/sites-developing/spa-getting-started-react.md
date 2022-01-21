@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 0843ceff-2607-4733-8383-681820e513d1
+exl-id: 43376dfd-9cef-46f5-af14-21e379fbb79a
 ---
-
 # Getting Started with SPAs in AEM - React {#getting-started-with-spas-in-aem-react}
 
 Single page applications (SPAs) can offer compelling experiences for website users. Developers want to be able to build sites using SPA frameworks and authors want to seamlessly edit content within AEM for a site built using SPA frameworks.
@@ -56,9 +56,9 @@ The `package.json` file defines the requirements of the overall SPA package. The
 
 ```
   "dependencies": {
-    "@adobe/cq-react-editable-components": "~1.0.3",
-    "@adobe/cq-spa-component-mapping": "~1.0.3",
-    "@adobe/cq-spa-page-model-manager": "~1.0.4"
+    "@adobe/aem-react-editable-components": "~1.0.4",
+    "@adobe/aem-spa-component-mapping": "~1.0.5",
+    "@adobe/aem-spa-page-model-manager": "~1.0.3"
   }
 ```
 
@@ -116,9 +116,9 @@ Actually building the app leverages [Webpack](https://webpack.js.org/) for trans
 
 Once built, the package can be uploaded to an AEM instance.
 
-### Maven Archetype for SPA Starter Kit {#maven-archetype-for-spa-starter-kit}
+### AEM Project Archetype {#aem-project-archetype}
 
-Adobe recommends leveraging the [Maven Archetype for SPA Starter Kit](https://github.com/adobe/aem-spa-project-archetype) to help you start your own SPA project for AEM.
+Any AEM project should leverage the [AEM Project Archetype](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/archetype/overview.html), which supports SPA projects using React or Angular and leverages the SPA SDK.
 
 ## Application Structure {#application-structure}
 
@@ -132,10 +132,10 @@ A simplified image component is used as an example, but all components of the ap
 
 The entry point into the SPA is of course the `index.js` file shown here simplified to focus on the important content.
 
-```
+```javascript
 import ReactDOM from 'react-dom';
 import App from './App';
-import { ModelManager, Constants } from "@adobe/cq-spa-page-model-manager";
+import { ModelManager, Constants } from "@adobe/aem-spa-page-model-manager";
 
 ...
 
@@ -160,7 +160,7 @@ When the component is instantiated statically using the component template (e.g.
 By rendering the app, `index.js` calls `App.js`, which is shown here in a simplified version to focus on the important content.
 
 ```
-import {Page, withModel } from '@adobe/cq-react-editable-components';
+import {Page, withModel } from '@adobe/aem-react-editable-components';
 
 ...
 
@@ -175,10 +175,10 @@ export default withModel(App);
 
 ### Page.js {#page-js}
 
-By rendering the page, `App.js` calls `Page.js` listed here in a simplfied version.
+By rendering the page, `App.js` calls `Page.js` listed here in a simplified version.
 
 ```
-import {Page, MapTo, withComponentMappingContext } from "@adobe/cq-react-editable-components";
+import {Page, MapTo, withComponentMappingContext } from "@adobe/aem-react-editable-components";
 
 ...
 
@@ -200,7 +200,7 @@ With the page rendered, the components such as `Image.js` as shown here can be r
 
 ```
 import React, {Component} from 'react';
-import {MapTo} from '@adobe/cq-react-editable-components';
+import {MapTo} from '@adobe/aem-react-editable-components';
 
 require('./Image.css');
 
@@ -243,7 +243,7 @@ You can export a component and keep it editable.
 
 ```
 import React, { Component } from 'react';
-import { MapTo } from '@cq/cq-react-editable-components';
+import { MapTo } from '@adobe/aem-react-editable-components';
 
 ...
 

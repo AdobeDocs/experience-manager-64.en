@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 637342e8-fbdd-4cda-b175-56a805b3b480
+feature: Correspondence Management
+exl-id: d2dfdab8-815e-4378-b287-81e31c9d9333
 ---
-
 # Post processing of letters and interactive communications {#post-processing-of-letters-and-interactive-communications}
 
 ## Post Processing {#post-processing}
@@ -20,7 +21,7 @@ Agents can associate and execute post processing workflows on letters and intrea
 
 To associate post processes with letters or interactive communications, you first need to set up the post processes. Two types of workflows can be executed on submitted letters:
 
-1. **Forms Workflow:** These are the AEM Forms on JEE process management workflows. Instructions for setting up [Forms Workflow](/help/forms/using/submit-letter-topostprocess.md#main-pars-header-3).
+1. **Forms Workflow:** These are the AEM Forms on JEE process management workflows. Instructions for setting up [Forms Workflow](#formsworkflow).
 
 1. **AEM Workflow:** AEM workflows can also be used as post processes for submitted letters. Instructions for setting up [AEM Workflow](/help/forms/using/aem-forms-workflow.md).
 

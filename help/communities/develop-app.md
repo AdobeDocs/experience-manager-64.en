@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 910229a3-38b1-44f1-9c09-55f8fd6cbb1d
+exl-id: cd036e4a-0884-4ba0-83e9-7013583bbbae
 ---
-
 # Develop Sandbox Application {#develop-sandbox-application}
 
 In this section, now that the template has been setup in the [initial application](initial-app.md) section, and the initial pages established in the [initial content](initial-content.md) section, the application can be developed using foundation scripts including the ability to enable authoring with Communities components. At the end of this section, the website will be functional.
@@ -26,9 +26,10 @@ The first step is to add a resource super type property to the `/apps/an-scf-san
 Using CRXDE Lite:
 
 <!--Resolve steps below-->
-    * Name: `sling:resourceSuperType`
-    * Type: `String`
-    * Value: `foundation/components/page`
+
+* Name: `sling:resourceSuperType`
+* Type: `String`
+* Value: `foundation/components/page`
 
 1. Click the green **[!UICONTROL [+] Add]**
 1. Click **[!UICONTROL Save All]**
@@ -112,7 +113,7 @@ Using CRXDE Lite:
 
 **View the page in a browser in edit mode:**
 
-* Standard UI: [http://localhost:4502/editor.html/content/an-scf-sandbox/en/play.html]( http://localhost:4502/editor.html/content/an-scf-sandbox/en/play.md)
+* Standard UI: `http://localhost:4502/editor.html/content/an-scf-sandbox/en/play.html`
 
 You should not only see the heading **Community Play**, but also the UI for editing page content.
 
@@ -120,7 +121,7 @@ The Assets/Component side panel is seen when both the side panel is toggled open
 
 ![chlimage_1-232](assets/chlimage_1-232.png)
 
-* Classic UI: [http://localhost:4502/cf#/content/an-scf-sandbox/en/play.html](http://localhost:4502/cf#/content/an-scf-sandbox/en/play.html)
+* Classic UI: `http://localhost:4502/cf#/content/an-scf-sandbox/en/play.html`
 
 Following is how the play page appears in the classic UI including with content finder (cf):
 
@@ -159,7 +160,7 @@ In a multi-language environment, the root page would include a script which woul
 
 In this simple example, the root page is being statically set to redirect to the english page, which may be developed in the future to be the main landing page with a link to the play page.
 
-Change the browser URL to the root page: [http://localhost:4502/editor.html/content/an-scf-sandbox.html](https://locahost:4502/editor.html/content/an-scf-sandbox.html)
+Change the browser URL to the root page: `http://localhost:4502/editor.html/content/an-scf-sandbox.html`
 
 * Select the Page Information icon
 * Select **[!UICONTROL Open Properties]**
@@ -172,4 +173,4 @@ Change the browser URL to the root page: [http://localhost:4502/editor.html/cont
 
 Once the site is published, browsing to the root page on a publish instance will redirect to the english page.  
 
-The last step before playing with the communities SCF components is to add a Client Library Folder (clientlibs) .... **[⇒](add-clientlibs.md)** 
+The last step before playing with the communities SCF components is to add a Client Library Folder (clientlibs) .... **[⇒](add-clientlibs.md)**

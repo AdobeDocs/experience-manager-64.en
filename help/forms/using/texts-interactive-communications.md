@@ -7,8 +7,9 @@ uuid: b2188d34-14f9-4c4e-bbe0-a2e763ed2958
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 7677327a-cc56-413b-b2e3-7b10d0d0319d
+feature: Interactive Communication
+exl-id: a689aead-7b39-4d66-8922-ae8910c5e9ef
 ---
-
 # Texts in Interactive Communications {#texts-in-interactive-communications}
 
 Creating and editing text document fragments to be used in Interactive Communications - text is one of the four types of document fragments used to build Interactive Communications. The other three are conditions, lists, and layout fragments.
@@ -22,7 +23,7 @@ The text document fragment in Interactive Communication supports the following t
 * **Data model objects**: The data properties use a back end data source. 
 * **Rule based content**: Parts of content in a text that appear or get hidden based on a rule. A rule could also be based on form data model properties and variables. 
 * **Variables**: In text document fragment, variables are not bound to a backend data source. The agent fills in/selects values in variables or binds the variables to data sources while preparing the Interactive Communication for submitting it to a post process. 
-* **Repeat**: You may have dynamic information in your Interactive Communication, such as transactions in a credit card statement, the number of occurrences of which may keep changing with each generated Interactive Communication. Using repeat, you can format and structure such dynamic information. For more information, see [Inline condition and repeat](https://helpx.adobe.com/experience-manager/6-3/forms/using/cm-inline-condition.html).
+* **Repeat**: You may have dynamic information in your Interactive Communication, such as transactions in a credit card statement, the number of occurrences of which may keep changing with each generated Interactive Communication. Using repeat, you can format and structure such dynamic information. For more information, see [Inline condition and repeat](cm-inline-condition.md).
 
 ## Create text {#createtext}
 
@@ -80,8 +81,6 @@ If you have specified a form data model while creating a text, the properties in
 * To insert an FDM property into text, place the cursor where you want to insert the property, then select the **`[A]`** property in the left pane by tapping on it, and tap **`[B]`** **[!UICONTROL Add Selected]**. You can also just double-tap the property to insert it at the **`[C]`** cursor position. Form data model properties are highlighted in a brownish background color. 
 
 * To allow the agents to edit an FDM property's value in the agent UI while [Prepare and send Interactive Communication](/help/forms/using/prepare-send-interactive-communication.md) using the Agent UI, tap the **`[D]`** lock icon for that property and ensure it is in an unlocked state. The default state of the property is locked and an agent cannot edit the property in the Agent UI. 
-
-*
 
 You can also use form data model properties to construct rules for displaying or hiding parts of content. For more information, see [Create rules in text](#rules).
 
@@ -187,11 +186,10 @@ Using rule editor in a text, you can create rules to display or hide strings of 
 ## Formatting text {#formatting}
 
 While creating or editing text, the toolbar changes depending on the type of edits you choose to make: Paragraph, Alignment, or Listing:
-    [ ![Select type of toolbar](do-not-localize/toolbarselection.png)
 
 Select type of toolbar: Paragraph, Alignment, or Listing
 
-](assets/toolbarselection.png) ![Font editing toolbar](do-not-localize/paragraphtoolbar-1.png)
+![Font editing toolbar](do-not-localize/paragraphtoolbar-1.png)
 
 Font editing toolbar
 

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
 discoiquuid: 4d3c4650-3e2a-43b1-ad2d-8d0ae2254ca9
+exl-id: 21c10b39-ca37-4085-86f8-063c30a180ed
 ---
-
 # Technical Requirements{#technical-requirements}
 
 Adobe supports Adobe Experience Manager (AEM) on the platforms as detailed in the following information in this document.
@@ -161,14 +161,14 @@ Various options exist to deploy the repository of Adobe Experience Manager. See 
    <td>A: Supported</td> 
   </tr> 
   <tr> 
-   <td>MongoDB Enterprise 3.6 [5]</td> 
+   <td>MongoDB Enterprise 3.6 [5, 6]</td> 
    <td>Repository</td> 
-   <td>A: Supported</td> 
+   <td>A: Supported with limitations</td> 
   </tr> 
   <tr> 
-   <td>MongoDB Enterprise 3.4 [2, 3]</td> 
+   <td>MongoDB Enterprise 3.4 [2, 3, 6]</td> 
    <td>Repository</td> 
-   <td>A: Supported</td> 
+   <td>A: Supported with limitations</td> 
   </tr> 
   <tr> 
    <td>MySQL 5.7</td> 
@@ -223,6 +223,7 @@ Various options exist to deploy the repository of Adobe Experience Manager. See 
 1. MongoDB Storage Engine WiredTiger is supported only.
 1. Not supported for AEM Forms.
 1. MongoDB Enterprise 3.6 is supported starting with AEM version 6.4.2.0.
+1. Support for MongoDB 3.4 has reached end of life (EOL), while MongoDB 3.6 is expected to reach EOL on April 30th, 2021. Please note that Adobe will only be providing support for AEM product related issues going forward.
 
 >[!NOTE]
 >
@@ -309,7 +310,7 @@ Adobe Experience Manager works with the following server platforms:
  </tbody> 
 </table>
 
-1. Linux Kernel 2.6, 3.x and 4.x includes derivatives from Red Hat distribution, including Red Hat Enterprise Linux, CentOS, Oracle Linux and Amazon Linux. AEM form add-on features are only supported on CentOS 7 and Red Hat Enterprise Linux 6.5 and 7.
+1. Linux Kernel 2.6, 3.x and 4.x includes derivatives from Red Hat distribution, including Red Hat Enterprise Linux, CentOS, Oracle Linux and Amazon Linux. AEM Forms add-on features are only supported on CentOS 7 and Red Hat Enterprise Linux 7.
 1. AEM Assets: Please see the section [Support for XMP metadata write-back](#requirements-for-aem-assets-xmp-metadata-write-back)
 1. AEM Assets: No support for Dynamic Media Imaging. Dynamic Media Video is supported.  
 1. AEM Forms is supported only on Ubuntu 16.04 LTS.
@@ -613,6 +614,19 @@ x86
 >* The OCR PDF, Optimize PDF, and Export PDF features are supported only on Windows.
 >* A version of Acrobat is bundled with AEM Forms to enable PDF Generator functionality. The bundled version should only be accessed programmatically only with AEM Forms, during the term of the AEM Forms license, for use with AEM Forms PDF Generator. For more information, refer to AEM Forms product description as per your deployment ([On-Premise](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html) or [Managed Services](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html))”
 >
+
+### Requirements for AEM Forms Designer {#requirements-for-aem-forms-designer}
+
+* Microsoft® Windows® 2012 Server R2, Microsoft® Windows® 2016 Server, Microsoft® Windows® 2019 Server, Microsoft® Windows® 10
+* 1 GHz or faster processor with support for PAE, NX, and SSE2.
+* 1 GB of RAM for 32-bit or 2 GB of RAM for 64-bit OS 
+* 16 GB disk space for 32-bit or 20 GB disk space for 64-bit OS
+* Graphics memory - 128 MB of GPU (256 MB recommended)
+* 2.35 GB of available hard-disk space
+* 1024 X 768 pixels or greater monitor resolution
+* Video hardware acceleration (optional)
+* Acrobat Pro DC, Acrobat Standard DC, or Adobe Acrobat Reader DC
+* Administrative privileges to install Designer
 
 ### Requirements for AEM Assets XMP metadata write-back {#requirements-for-aem-assets-xmp-metadata-write-back}
 

@@ -1,15 +1,16 @@
 ---
 title: "Tutorial: Create form data model "
 seo-title: Create Form Data Model Tutorial
-description: null
-seo-description: null
+description: AEM Forms data integration module allows you to create a form data model from disparate backend data sources such as AEM user profile, RESTful web services, SOAP-based web services, OData services, and relational databases. Learn how to configure MySQL database as data source, create, configure, and test a form data model.
+seo-description: AEM Forms data integration module allows you to create a form data model from disparate backend data sources such as AEM user profile, RESTful web services, SOAP-based web services, OData services, and relational databases. Learn how to configure MySQL database as data source, create, configure, and test a form data model.
 page-status-flag: de-activated
 uuid: 81d40278-4df9-4b61-93ad-eae2fce0a35c
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 31e97723-d637-4a18-999d-36e00fbd031a
+feature: Adaptive Forms
+exl-id: 2f83e853-2468-4ea2-85f6-8cf7fe9de6a8
 ---
-
 # Tutorial: Create form data model  {#tutorial-create-form-data-model}
 
  ![04-create-form-data-model-main](assets/04-create-form-data-model-main.png)
@@ -82,7 +83,7 @@ Do the following to configure your MySQL database:
 
 ## Step 2: Create form data model {#create-fdm}
 
-AEM Forms provides an intuitive user interface to [create a form data mode](/help/forms/using/data-integration.md#main-pars-header-1524967585)l from configured data sources. You can use multiple data sources in a form data model. For our use case, we will use the configured MySQL data source.
+AEM Forms provides an intuitive user interface to [create a form data model](data-integration.md) from configured data sources. You can use multiple data sources in a form data model. For our use case, we will use the configured MySQL data source.
 
 Do the following to create form data model:
 
@@ -222,4 +223,3 @@ Do the following to run the test:
    Now, if you test the read model service again for the id 7107215, it will fetch and display the updated customer details as shown below.
 
    ![read-updated](assets/read-updated.png)
-

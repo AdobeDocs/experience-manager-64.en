@@ -7,8 +7,9 @@ uuid: 3ead2b82-f895-4a7b-9683-495fcd94fade
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: d570ead9-8f9c-4668-8b23-e8984d9b25e9
+feature: Adaptive Forms
+exl-id: 92d88888-343c-4edb-9b11-8e876539573a
 ---
-
 # Improve performance of large forms with lazy loading {#improve-performance-of-large-forms-with-lazy-loading}
 
 ## Introduction to lazy loading {#introduction-to-lazy-loading}
@@ -79,4 +80,3 @@ Important points to keep in mind while developing scripts for lazy loading panel
 * Use panel reset feature to reset everything visible on the panel by using the following click expression.
 
   guideBridge.resolveNode(guideBridge.getFocus({"focusOption": "navigablePanel"})).resetData()
-

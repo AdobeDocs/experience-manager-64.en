@@ -7,8 +7,9 @@ uuid: e73b4b4c-6ad7-4400-b776-5892549970c3
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: bcda96ff-6c7d-46c4-a9e8-7e0fb245cde9
+feature: Adaptive Forms
+exl-id: 42c41625-7441-479c-bd07-7e96e867cc0a
 ---
-
 # Creating adaptive forms using JSON Schema {#creating-adaptive-forms-using-json-schema}
 
 ## Prerequisites {#prerequisites}
@@ -453,4 +454,3 @@ You have two options:
 
 * Scroll through the tree structure  
 * Use the Search box to find an element
-

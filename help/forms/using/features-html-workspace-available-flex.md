@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 66c3cdc4-0e4c-4597-a107-f457dd0cc166
+exl-id: 109adc91-2291-4a10-af7b-e93ae8947258
 ---
-
 # Features of AEM Forms workspace not available in Flex workspace {#features-of-aem-forms-workspace-not-available-in-flex-workspace}
 
 AEM Forms workspace innovates beyond Flex-based workspace, to offer features, and capabilities that help improve business integration and user productivity.
@@ -36,5 +36,3 @@ The capability to integrate with third-party applications can be used to bring y
 ## Support for custom task rendering based on end user's device {#support-for-custom-task-rendering-based-on-end-user-s-device}
 
 AEM Forms workspace provides support for HTML rendition of XDP forms. This support, when used in a render process that routes to different renditions of XDP based on the device or user-agent, allows users to view an XDP form as HTML on the mobile devices and as PDF on a desktop. This helps in providing seamless coverage of Process Management to users who work in varied environments on different devices.
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

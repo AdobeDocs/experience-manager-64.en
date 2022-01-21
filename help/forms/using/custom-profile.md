@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 9cd22244-9aa6-4b5f-96cf-c9cb3d6f9c8a
+feature: Mobile Forms
+exl-id: 4630c43f-5b47-435c-8ce5-b4e0d986ec02
 ---
-
 # Creating a custom profile for HTML5 forms {#creating-a-custom-profile-for-html-forms}
 
 A profile is a resource node in [Apache Sling](https://sling.apache.org/). It represents custom version of HTML5 forms rendition service. You can use the HTML5 forms Rendition service to customize appearance, behavior, and interactions of the HTML5 forms. A profile node exists in the `/content` folder in the JCR repository. You can place the node directly under the `/content` folder or any subfolder of the `/content` folder.
@@ -77,5 +78,3 @@ After creating a custom profile, add render information to this profile. On rece
 1. To verify that th profile is created, open URL `https://[server]:[port]/content/xfaforms/profiles/hrform.html`
 
 To verify your forms, [Import your forms](/help/forms/using/get-xdp-pdf-documents-aem.md) from your local file system to AEM Forms and [preview the form](/help/forms/using/previewing-forms.md) on AEM server author instance.
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

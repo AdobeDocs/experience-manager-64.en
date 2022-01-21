@@ -2,8 +2,10 @@
 title: Creating Translation Projects
 description: Learn how to create translation projects in AEM.
 contentOwner: AG
+feature: Translation
+role: Architect,Admin
+exl-id: 1b931fef-eed0-4758-993d-cdf8d478fb6f
 ---
-
 # Creating Translation Projects {#creating-translation-projects}
 
 To create a language copy, trigger one of the following language copy workflows available under the References rail in the Assets UI:
@@ -274,9 +276,9 @@ If you use this option, the set of assets are added to an existing translation p
 
 ## Creating temporary language copies {#creating-temporary-language-copies}
 
-When you run a translation workflow to update a language copy with edited versions of original assets, the existing language copy is preserved until you approve the translated asset(s). AEM Assets stores the newly-translated asset(s) at a temporary location and updates the existing language copy after you explicitly approve the asset(s). If you reject the asset(s), the language copy remains unchanged.
+When you run a translation workflow to update a language copy with edited versions of original assets, the existing language copy is preserved until you approve the translated asset(s). [!DNL Experience Manager] Assets stores the newly-translated asset(s) at a temporary location and updates the existing language copy after you explicitly approve the asset(s). If you reject the asset(s), the language copy remains unchanged.
 
-1. Click/tap the source root folder under **[!UICONTROL Language Copies]** for which you already created a languag copy, and then click/tap **[!UICONTROL Reveal in Assets]** to open the folder in AEM Assets.
+1. Click/tap the source root folder under **[!UICONTROL Language Copies]** for which you already created a languag copy, and then click/tap **[!UICONTROL Reveal in Assets]** to open the folder in [!DNL Experience Manager] Assets.
 
    ![chlimage_1-99](assets/chlimage_1-99.png)
 
@@ -305,4 +307,4 @@ When you run a translation workflow to update a language copy with edited versio
 
 1. Navigate to the Assets console, and open the Properties page for each of the translated assets to view the translated metadata.
 
-For tips on translating metadata for assets efficiently, see [5 Steps for Efficiently Translating Metadata](https://blogs.adobe.com/experiencedelivers/experience-management/translate_aemassets_metadata/).
+For tips on translating metadata for assets efficiently, see this archived page about [5 steps to efficiently translate metadata](https://web.archive.org/web/20181217033517/https://blogs.adobe.com/experiencedelivers/experience-management/translate_aemassets_metadata/).

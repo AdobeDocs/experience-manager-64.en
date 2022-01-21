@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: a7f31bc8-c583-439f-b2af-1dcc58f9c481
+exl-id: 0c989965-c6cc-4ec7-a90f-6c52e8362485
 ---
-
 # Classic UI Tagging Console{#classic-ui-tagging-console}
 
 This section is for the Classic UI Tagging Console.
@@ -179,4 +179,3 @@ In general, the language of the tag is taken from the page language if the page 
 >[!NOTE]
 >
 >The tag cloud and the meta keywords in the standard page component use the localized tag `titles`based on the page language, if available.
-

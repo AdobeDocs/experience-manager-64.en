@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 2f45a965-590b-43b1-95c6-df4b74ad15b9
+exl-id: 1e772376-d25a-4471-bf7c-5a8a8cdeb543
 ---
-
 # Troubleshoot AEM Forms app {#troubleshoot-aem-forms-app}
 
 This article describes the error messages that might be displayed while building AEM Forms app and the steps to resolve them.
@@ -28,8 +28,8 @@ The sections in this article include:
 AEM Forms app for iOS configured to sync with AEM Forms on OSGi supports only field-level attachments. All the attachments must have unique names. If multiple attachments have identical name, only one attachment is kept and all other with identical name are lost. Perform the following steps to prevent users on iOS devices from experiencing data loss:
 
 1. On the connected server, navigate to **Adobe Experience Manager &gt; Tools &gt; Operations &gt; Web Console**.
-1. Find and click **Adaptive Form Configuration Service**.
-1. In the Adaptive Form Configuration Service dialog, enable **Make File Names Unique**. 
+1. Find and click **[!UICONTROL Adaptive Form and Interactive Communication Web Channel Configuration]**.
+1. In the [!UICONTROL Adaptive Form and Interactive Communication Web Channel Configuration] dialog, enable **Make File Names Unique**. 
 
    If **Make File Names Unique** setting is disabled, users experience data loss if they try to submit adaptive forms with multiple attachments.
 
@@ -99,4 +99,3 @@ For example, the Android Studio console recommends downgrading the Gradle versio
 Select **Build** &gt; **Build APK** again to resolve the error and generate the .apk file.
 
 ![gradle_wrapper_properties](assets/gradle_wrapper_properties.png)
-

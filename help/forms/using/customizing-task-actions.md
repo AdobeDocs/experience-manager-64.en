@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: ca3f6025-7e17-4173-8267-e24a338ea4a1
+exl-id: 3534864b-3d1c-42ca-96a0-5becbfbc8ce6
 ---
-
 # Customizing Task Actions {#customizing-task-actions}
 
 AEM Forms workspace allows users to customize the task actions. Before customizing the task actions, ensure that you follow the steps listed at [Generic steps for AEM Forms workspace customization](/help/forms/using/generic-steps-html-workspace-customization.md).
@@ -131,7 +131,7 @@ To show only images for actions, customize the images used in route actions. For
 
 ### Task List task action&nbsp;pop-up menu {#task-list-task-action-nbsp-pop-up-menu}
 
-1. You require development package to customize items of the AEM Forms workspace Task list task action pop-up menu. For detailed information about creating development package, see [Building AEM Forms workspace code.](/help/forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3)
+1. You require development package to customize items of the AEM Forms workspace Task list task action pop-up menu. For detailed information about creating development package, see [Building AEM Forms workspace code.](/help/forms/using/introduction-customizing-html-workspace.md#building-html-workspace-code)
 
 1. Copy /libs/ws/js/runtime/templates/task.html to `/apps/ws/js/runtime/templates/task.html`replace the following code snippet:
 

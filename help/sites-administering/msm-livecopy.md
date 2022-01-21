@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 161b591b-5871-4b5f-9c63-823b6e67b1fd
+feature: Multi Site Manager
+exl-id: 13d044bd-fa61-4e24-ac1d-69a6f10847a4
 ---
-
 # Creating and Synchronizing Live Copies{#creating-and-synchronizing-live-copies}
 
 You can create a live copy from a page or blueprint configuration, then can manage inheritance and synchronization.
@@ -48,7 +49,7 @@ To create a blueprint configuration:
 1. [Navigate](/help/sites-authoring/basic-handling.md#global-navigation) to the **Tools** menu, then select the **Sites** menu.
 1. Select **Blueprints** to open the **Blueprint Configurations** console:
 
-   ![chlimage_1-209](assets/chlimage_1-209.png)
+   ![chlimage_1-209](assets/blueprint-configurations.png)
 
 1. Select **Create**.
 1. Select the blueprint template, then **Next** to continue.
@@ -67,14 +68,12 @@ You can edit or delete an existing blueprint configuration:
 1. [Navigate](/help/sites-authoring/basic-handling.md#global-navigation) to the **Tools** menu, then select the **Sites** menu.
 1. Select **Blueprints** to open the **Blueprint Configurations** console:
 
-   ![chlimage_1-210](assets/chlimage_1-210.png)
+   ![chlimage_1-210](assets/blueprint-configurations.png)
 
 1. Select the required blueprint configuration - the appropriate actions will become available in the toolbar:
 
     * **Properties**; you can use this to view and then edit the properties of the configuration.
     * **Delete**
-
-   ![chlimage_1-211](assets/chlimage_1-211.png)
 
 ## Creating a Live Copy {#creating-a-live-copy}
 
@@ -87,7 +86,7 @@ You can create a live copy of any page or branch. When you create the live copy,
 
 You can create a live copy of any page:
 
-* Pages are that are referenced by a [blueprint configuration](#creating-a-blueprint-configuration),
+* Pages that are referenced by a [blueprint configuration](#creating-a-blueprint-configuration).
 * And pages that have no connection to a configuration.
 * AEM also supports creating a live copy within the pages of another live copy.
 
@@ -155,7 +154,7 @@ To create a live copy of a site from a blueprint configuration:
 1. In the **Sites** console, select **Create**, then **Site** from the drop down selector.
 1. Select the blueprint configuration to use as the source of the live copy and proceed with **Next**:
 
-   ![chlimage_1-216](assets/chlimage_1-216.png)
+   ![chlimage_1-216](assets/blueprint-configuration-select.png)
 
 1. Use the **Initial Languages** selector to specify the language(s) of the blueprint site to use for the live copy.
 
@@ -333,6 +332,10 @@ You can suspend the live copy inheritance for a live copy page so that you can c
 >
 >You can also [detach a live copy](#detaching-a-live-copy) from its blueprint to remove all connections. The Detach action is permanent and non-reversible.
 
+>[!NOTE]
+>
+>If the component is marked as a container, the cancellation and suspend actions do not apply to its child components. See also [MSM Best Practices](/help/sites-administering/msm-best-practices.md#components-and-container-synchronization) for additional information.
+
 #### Suspending Inheritance from Page Properties {#suspending-inheritance-from-page-properties}
 
 To suspend inheritance on a page:
@@ -436,6 +439,10 @@ To specify or change the depth:
 ### Cancelling Inheritance for a Component {#cancelling-inheritance-for-a-component}
 
 Cancel the live copy inheritance for a component so that the component is no longer synchronized with the source component. You can enable inheritance at a later point if required.
+
+>[!NOTE]
+>
+>If the component is marked as a container, the cancellation and suspend actions do not apply to its child components. See also [MSM Best Practices](/help/sites-administering/msm-best-practices.md#components-and-container-synchronization) for additional information.
 
 >[!NOTE]
 >
@@ -620,4 +627,3 @@ The [Detach action is also available from the Live Copy Overview](/help/sites-ad
 1. Confirm the **Detach** action in the **Detach Live Copy** dialog:
 
    ![chlimage_1-237](assets/chlimage_1-237.png)
-

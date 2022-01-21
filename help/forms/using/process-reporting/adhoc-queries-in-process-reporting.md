@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: process-reporting
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 812f9212-2732-4966-a7fa-389aa2332c7e
+exl-id: a5ac05b2-076a-4d3d-8325-32813657a7b3
 ---
-
 # Ad-hoc Queries in Process Reporting {#ad-hoc-queries-in-process-reporting}
 
 Ad-hoc queries in Process Reporting allow you to create custom queries that you can use to search for process and task details of the AEM Forms process instances defiend in your AEM Forms environment.
@@ -264,5 +264,3 @@ You can view the details of a specific AEM Forms process/task:
    For a process, the query result displays the details of the tasks contained in the process.
 
    For a task, the query result displays the details the forms contained in the task.
-
-[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)

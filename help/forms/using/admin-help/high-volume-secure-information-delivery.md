@@ -9,8 +9,9 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: b76d7d93-23a5-4c08-81f5-a56267b1556a
+feature: Document Security
+exl-id: 78fc7c4a-a634-4628-927a-c9622bdc13fc
 ---
-
 # High-volume secure information delivery {#high-volume-secure-information-delivery}
 
 In a mass production environment, such as one that generates secured monthly invoices for a telecom company, creating licenses that are specific to each document can become a resource-intensive process. In such cases, document security supports the association of licenses to users, rather than to the documents. The license generated for a user is used for all documents that are protected for that user.

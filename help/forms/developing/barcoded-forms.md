@@ -1,16 +1,17 @@
 ---
 title: Working with barcoded forms
 seo-title: Working with barcoded forms
-description: null
-seo-description: null
+description: Decode data from a PDF form or an image that contains a barcode using the Java API and Web Service API.
+seo-description: Decode data from a PDF form or an image that contains a barcode using the Java API and Web Service API.
 uuid: e56c3c94-384d-401f-b418-dd34cdc57eda
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: eb28ac30-265c-4611-8247-1f4bc826f254
+role: Developer
+exl-id: 9d459939-a311-4770-84db-f2a4b7869072
 ---
-
 # Working with barcoded forms {#working-with-barcoded-forms}
 
 ## About the barcoded forms Service {#about-the-barcoded-forms-service}

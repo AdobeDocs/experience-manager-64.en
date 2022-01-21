@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: cd9d2bea-48d8-4a17-8544-ea25dcad69f3
+exl-id: 814285ca-5584-49fc-a190-eff431790d59
 ---
-
 # Add Adobe Analytics to your Mobile Application{#add-adobe-analytics-to-your-mobile-application}
 
 >[!NOTE]
@@ -98,7 +98,7 @@ After performing these steps your app will be enabled to report all the lifecycl
 
 ### Instrument your code for full App tracking {#instrument-your-code-for-full-app-tracking}
 
-There are several tracking APIs provided in the [AMS Phonegap Plugin API.](https://marketing.adobe.com/resources/help/en_US/mobile/ios/phonegap_methods.html)
+There are several tracking APIs provided in the [AMS Phonegap Plugin API.](https://docs.adobe.com/content/help/en/mobile-services/ios/phonegap-ios/phonegap-methods.html)
 
 These will allow you to track states and actions such as where pages your users are navigating to in your app, which controls are being used the most. The easiest way to instrument you app for tracking is to make use of the Analytics APIs provided by the AMS plugin.
 
@@ -113,7 +113,9 @@ By instrumenting your source code with these method calls you are able to collec
 
 ![](do-not-localize/chlimage_1.jpeg)
 
-Optionally before deploying to production you can use the Adobe tool [Bloodhound](https://marketing.adobe.com/developer/gallery/bloodhound-app-measurement-qa-tool-1) to test your analytics configuration. In order to test you analytics configuration you will need to edit your ADBMobileConfig.json file to point to the server where Bloodhound is running instead of the actual Analytics server. To make this change, from your ADBMobileConfig.json change the following entry.
+<!--NOTE TO WRITER: Reference to Bloodhound no longer valid. Bloodhound is EOL. Russell Whitchurch can provide details/alternate options.-->
+
+Optionally before deploying to production you can use the Adobe tool Bloodhound to test your analytics configuration. In order to test you analytics configuration you will need to edit your ADBMobileConfig.json file to point to the server where Bloodhound is running instead of the actual Analytics server. To make this change, from your ADBMobileConfig.json change the following entry.
 
 ```xml
 ...
@@ -144,4 +146,3 @@ This will redirect all the data collected by the AMS plugin to Bloodhound so tha
 | API Endpoint |The base URL of the Adobe Mobile Services HTTP APIs |https://api.omniture.com |
 | Config Endpoint |The URL used to retrieve the ADB Mobile Config for the given report suite id |/ams/1.0/app/config/ |
 | Mobile Service Apps |Get a list of apps within the users company |/ams/1.0/apps |
-

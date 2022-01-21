@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: b1d45f01-78de-423c-8f6b-5cb7067c3a2f
+exl-id: f603b208-5f7b-4e5d-afa8-c3b249f67fb8
 ---
-
 # Troubleshooting your Adobe Campaign Integration{#troubleshooting-your-adobe-campaign-integration}
 
 >[!NOTE]
@@ -129,4 +129,4 @@ When creating a mail template for Adobe Campaign, you must include the property 
 
 ## If you get the error "com.day.cq.mcm.campaign.servlets.util.ParameterMapper" in your logs {#if-you-get-the-error-com-day-cq-mcm-campaign-servlets-util-parametermapper-in-your-logs}
 
-When using your custom template, you get the error "com.day.cq.mcm.campaign.servlets.util.ParameterMapper" in your logs. In this event, be sure to install Featurepack 6576 from [Package Share](/help/sites-administering/package-manager.md#package-share). This is an issue where if the acMapping property is set to a value other than recipient.firstName, a blank value is created on the Adobe Campaign Manager side. 
+When using your custom template, you get the error "com.day.cq.mcm.campaign.servlets.util.ParameterMapper" in your logs. In this event, be sure to install Featurepack 6576 from [Package Share](/help/sites-administering/package-manager.md#package-share). This is an issue where if the acMapping property is set to a value other than recipient.firstName, a blank value is created on the Adobe Campaign Manager side.

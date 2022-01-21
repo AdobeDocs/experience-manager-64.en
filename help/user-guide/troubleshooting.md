@@ -5,8 +5,8 @@ description: Troubleshooting AEM
 seo-description: Troubleshooting AEM
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
+exl-id: fef17396-eed2-4c0b-a962-c1f2ae2c5d1d
 ---
-
 # Troubleshooting AEM {#troubleshooting-aem}
 
 ## Troubleshooting Author Instance Performance {#performance}

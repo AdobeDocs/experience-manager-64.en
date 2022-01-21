@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: ac8f44df-39fb-44ea-ae17-ead0dbd1f6c0
+exl-id: 99efe308-bf8a-41ad-8203-b57fce20820c
 ---
-
 # Adding ContextHub to Pages and Accessing Stores {#adding-contexthub-to-pages-and-accessing-stores}
 
 Add ContextHub to your pages to enable the ContextHub features and to link to the ContextHub Javascript libraries

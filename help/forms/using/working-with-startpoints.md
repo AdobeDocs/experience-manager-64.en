@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 265eee8a-364e-4edf-b2a0-f42617169944
+exl-id: ef9352c7-c164-4cbf-8f18-5b97aa5f56be
 ---
-
 # Working with Startpoints {#working-with-startpoints}
 
 A startpoint invokes a process created in Workbench. It is associated with a form which invokes the process when the form is submitted. See [Geometrixx Finance Reference Site walkthrough](/help/forms/using/finance-reference-site-walkthrough.md) to understand processes.
@@ -42,5 +42,3 @@ If the app is offline, the form and its data is saved in the Outbox folder.
 If the app is online, the task is synchronized with the AEM Forms server and assigned to the user specified in the process.
 
 To work with the task in your task list, see [Opening a task](/help/forms/using/open-task.md).
-
-**[Contact Support](https://www.adobe.com/account/sign-in.supportportal.html)**

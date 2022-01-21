@@ -1,16 +1,17 @@
 ---
 title: Task Manager Service Java API QuickStart(SOAP)
 seo-title: Task Manager Service Java API QuickStart(SOAP)
-description: null
-seo-description: null
+description: Use the Task Manager service to assign tasks, lock tasks, retrieve tasks assigned to users, retrieve form data from tasks, modify form data, retrieve file attachments, and retrieve task information.
+seo-description: Use the Task Manager service to assign tasks, lock tasks, retrieve tasks assigned to users, retrieve form data from tasks, modify form data, retrieve file attachments, and retrieve task information.
 uuid: fd6fceb1-865e-47a7-83fc-a63dcc2c21de
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 532e607d-5bc5-4ccc-92c6-30efe1081872
+role: Developer
+exl-id: 302b38e9-71fc-4e83-af01-856d7bd9af40
 ---
-
 # Task Manager Service Java API Quick Start (SOAP) {#task-manager-service-java-api-quickstart-soap}
 
 The following Quick Starts are available for the Task Manager service.
@@ -31,9 +32,13 @@ The following Quick Starts are available for the Task Manager service.
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: You cannot search for tasks assigned to users by using the web service API. The reason is because you cannot invoke the `taskList` method, which is a necessary method call to perform this task.*
+>[!NOTE]
+>
+>You cannot search for tasks assigned to users by using the web service API. The reason is because you cannot invoke the `taskList` method, which is a necessary method call to perform this task.
 
-***Note**: Quick Start located in Programming with AEM Forms are based on the Forms server operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).)*
+>[!NOTE]
+>
+>Quick Start located in Programming with AEM Forms are based on the Forms server operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. See [Setting connection properties](/help/forms/developing/invoking-aem-forms-using-java.md#setting-connection-properties).
 
 ## Quick Start (SOAP mode): Assigning tasks using the Java API {#quick-start-soap-mode-assigning-tasks-using-the-java-api}
 
@@ -857,4 +862,3 @@ The following Java code example retrieves all tasks that are based on a process 
      } 
  
 ```
-

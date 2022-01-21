@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: fa331c03-5587-452d-ab96-ac2926ae0da3
+exl-id: 2df7c08f-db17-4666-ba39-e81cc2e656d7
 ---
-
 # Working with Page Versions{#working-with-page-versions}
 
 Versioning creates a "snapshot" of a page at a specific point in time. With versioning, you can perform the following actions:
@@ -158,4 +158,4 @@ Timewarp makes a best effort to reproduce a page at a selected point in time. Ho
 
 >[!CAUTION]
 >
-> Timewarp is designed as a tool to assit authors with understanding and creating their content. It is not intended as an audit log or for legal purposes.
+>Timewarp is designed as a tool to assit authors with understanding and creating their content. It is not intended as an audit log or for legal purposes.

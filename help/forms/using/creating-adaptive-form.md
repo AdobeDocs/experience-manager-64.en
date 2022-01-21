@@ -8,8 +8,9 @@ content-type: reference
 topic-tags: author
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f06b8cb2-6f98-465f-beec-1e91e3f45707
+feature: Adaptive Forms
+exl-id: 4b6d3533-cd1f-4944-b580-49fd90fcf87a
 ---
-
 # Creating an adaptive form {#creating-an-adaptive-form}
 
 ## <strong>Create an adaptive form</strong> {#strong-create-an-adaptive-form-strong}
@@ -60,7 +61,7 @@ Follow these steps to create an adaptive form.
 
    For information about adaptive form authoring interface and available components, see [Introduction to authoring adaptive forms](/help/forms/using/introduction-forms-authoring.md).
 
-   >[!NOTE] {grayBox="true"}
+   >[!NOTE]
    >
    >Allow pop up windows in your browser to open the newly created form in a new tab.
 
@@ -123,7 +124,7 @@ Do the following to use XML or JSON schema as form model for an adaptive form:
     * **[!UICONTROL Upload from disk]** - Select this option and tap Upload Schema Definition to browse and upload an XML schema or JSON schema from your file system. The uploaded schema file resides with the form and is not accessible to other adaptive forms.
     * **[!UICONTROL Search in repository]** - Select this option to select from the list of schema definition files available in the repository. Select the XML or JSON schema file as form model. The selected schema will be associated with the form by reference and will be accessible for use in other adaptive forms.
 
-   >[!CAUTION] {grayBox="true"}
+   >[!CAUTION]
    >
    >Ensure that the JSON schema filename ends with **.schema.json**. For example: mySchema.schema.json
 
@@ -147,7 +148,7 @@ In addition, you can use the template editor to create your own templates. For m
 
 >[!NOTE]
 >
->When you open an adaptive form created using the advanced template for editing, an error message appears. The advanced template has a Signature Step component and Adobe Sign is enabled for it by default. Create and select an [Adobe Sign cloud configuration](/help/forms/using/adobe-sign-integration-adaptive-forms.md) and [configure a signer](/help/forms/using/working-with-adobe-sign.md#main-pars-header-1374317451) to resolve the error.
+>When you open an adaptive form created using the advanced template for editing, an error message appears. The advanced template has a Signature Step component and Adobe Sign is enabled for it by default. Create and select an [Adobe Sign cloud configuration](/help/forms/using/adobe-sign-integration-adaptive-forms.md) and [configure a signer](/help/forms/using/working-with-adobe-sign.md#addsignerstoanadaptiveform) to resolve the error.
 
 ## Edit Form Model properties of an adaptive form {#edit-form-model}
 

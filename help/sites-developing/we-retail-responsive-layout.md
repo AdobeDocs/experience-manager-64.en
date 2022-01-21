@@ -1,7 +1,7 @@
 ---
 title: Trying out Responsive Layout in We.Retail
 seo-title: Trying out Responsive Layout in We.Retail
-description: null
+description: Trying out Responsive Layout in We.Retail
 seo-description: null
 uuid: d9613655-f54e-458f-9175-d07bb868f58b
 contentOwner: User
@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 2d374e88-ea09-43d5-986c-5d77b0705b93
+exl-id: ccb792f7-e837-4790-818f-e2c446328e71
 ---
-
 # Trying out Responsive Layout in We.Retail{#trying-out-responsive-layout-in-we-retail}
 
 All We.Retail pages use the Layout Container component to implement responsive design. The layout container provides a paragraph system that allows you to position components within a responsive grid. This grid can rearrange the layout according to the device/window size and format. The component is used in conjunction with the **Layout** mode in the page editor, which allows you to create and edit your responsive layout dependent on device.

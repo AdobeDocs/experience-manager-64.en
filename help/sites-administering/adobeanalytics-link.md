@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: fe6ba6af-f500-4c0d-b984-fb617d4bf48a
+exl-id: d60d4fb1-7c8c-462d-a699-7aa62fa924a1
 ---
-
 # Configuring Link Tracking for Adobe Analytics{#configuring-link-tracking-for-adobe-analytics}
 
 When users click links on pages of your website you can capture related information in Adobe Analytics. For example, use link tracking to learn how users interact with your site, track file downloads, and track exit links.
@@ -135,7 +135,7 @@ s.linkTrackVars= 'prop4';
 
 ## Example Link Tracking Configuration {#example-link-tracking-configuration}
 
-Perform the following procedures to explore the link tracking behavior of the Adobe Analytics integration. The procedures show results from [Adobe Marketing Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html).
+Perform the following procedures to explore the link tracking behavior of the Adobe Analytics integration. The procedures show results from [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html).
 
 ### General configuration {#general-configuration}
 
@@ -348,4 +348,3 @@ Use the following procedure to configure link tracking for a **Text** component:
    Separate multiple values with a comma.
 
 1. Select **OK**.
-

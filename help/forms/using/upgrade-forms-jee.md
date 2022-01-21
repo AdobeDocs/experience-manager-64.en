@@ -9,8 +9,9 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: e745033f-8015-4fae-9d82-99d35802c0a6
+role: Admin
+exl-id: e41eb0fa-ae88-44d5-9181-0d925b8b62c6
 ---
-
 # Upgrade to AEM 6.4 Forms on JEE {#upgrade-to-aem-forms-jee}
 
 Use one of the following upgrade paths, as appropriate for your environment.
@@ -31,7 +32,7 @@ Perform the following procedure to upgrade existing AEM 6.2 Forms on JEE or AEM 
 
 ## AEM 6.0 Forms on JEE > AEM 6.3 Forms on JEE {#aem-forms-jee-60-to-63}
 
-Direct upgrade from LiveCycle ES2, LiveCycle ES3, AEM 6.0 Forms, AEM 6.1 Forms to AEM 6.4 Forms is not available. You can perform an intermediate upgrade to one or more versions of LiveCycle or AEM Forms and then upgrade from AEM 6.4 Forms. For the list of intermediate versions and corresponding upgrade instructions, see [Choose an upgrade path](/help/forms/using/upgrade.md#main-pars-header).
+Direct upgrade from LiveCycle ES2, LiveCycle ES3, AEM 6.0 Forms, AEM 6.1 Forms to AEM 6.4 Forms is not available. You can perform an intermediate upgrade to one or more versions of LiveCycle or AEM Forms and then upgrade from AEM 6.4 Forms. For the list of intermediate versions and corresponding upgrade instructions, see [Choose an upgrade path](upgrade.md).
 
 ## LiveCycle ES4 SP1 > AEM 6.4 Forms on JEE {#livecycle-es4sp1-forms-jee}
 
@@ -116,24 +117,32 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES3 s
         
         If you create a fresh instance of the database, import the data backed up in step 3 to the database. For information about how to import data to a database, see documentation of corresponding database vendor.  
         
-        >[!NOTE] If you are using RDBMK persistence format, use single database for both repository persistence and document services running on AEM Forms on JEE.
+        >[!NOTE]
+        >
+        >If you are using RDBMK persistence format, use single database for both repository persistence and document services running on AEM Forms on JEE.
         
 1.  Perform the upgrade:
     
     1.  Install AEM 6.4 Forms on JEE on a new server by running the installation program. The installer places all of the required files onto your computer, within one installation directory structure.
     1.  After installation is complete, run the **Configuration Manager** to configure various AEM Forms modules and set appropriate configurations. Along with configuring settings, it allows to specify the path of Global Data Storage (GDS) and crx-repository.
         
-        >[!NOTE] On the Upgrade Task Selection screen, select the **[!UICONTROL Upgrade from Adobe Experience Manager Forms 6.2.0]** option. The **[!UICONTROL Upgrade from Adobe Experience Manager Forms 6.2.0]** option allows the configuration manager to upgrade from LiveCycle ES3 to AEM 6.4 Forms.  
+        >[!NOTE]
+        >
+        >On the Upgrade Task Selection screen, select the **[!UICONTROL Upgrade from Adobe Experience Manager Forms 6.2.0]** option. The **[!UICONTROL Upgrade from Adobe Experience Manager Forms 6.2.0]** option allows the configuration manager to upgrade from LiveCycle ES3 to AEM 6.4 Forms.  
         
     1.  (Not required for AEM Forms document security module) Upgrade and import the CRX repository to AEM 6.4 Forms server.
         
-        >[!NOTE] After the crx-repository is upgraded and the content is migrated, change the password of the admin account. For detailed instructions, see [Changing the Password for an Existing User](/help/sites-administering/granite-user-group-admin.md).
+        >[!NOTE]
+        >
+        >After the crx-repository is upgraded and the content is migrated, change the password of the admin account. For detailed instructions, see [Changing the Password for an Existing User](/help/sites-administering/granite-user-group-admin.md).
 1.  Perform the post-deployment tasks to verify login credentials, configure document services, correspondence management, document security, and more depending on your use case.
 1.  Verify that the server is upgraded successfully:  
     
     Perform a few routine operations on upgraded AEM Forms server to ensure that the server is upgraded successfully. You can fill and submit a few migrated forms or protect documents to ensure a successful upgrade.  
     
-    >[!NOTE] In AEM 6.4 Forms, the structure of crx-repository has changed. After you upgrade to AEM 6.4 forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see [Forms Repository Restructuring in AEM 6.4](/help/sites-deploying/forms-repository-restructuring-in-aem-6-4.md).
+    >[!NOTE]
+    >
+    >In AEM 6.4 Forms, the structure of crx-repository has changed. After you upgrade to AEM 6.4 forms, use the changed paths for customization that you create afresh. For the complete list of changed paths, see [Forms Repository Restructuring in AEM 6.4](/help/sites-deploying/forms-repository-restructuring-in-aem-6-4.md).
 
 **Depending on your existing environment and application server, choose one of the following documents and follow the detailed instructions:**
 

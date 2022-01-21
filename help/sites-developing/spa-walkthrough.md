@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 77b42490-15db-41d5-9757-17009f1c1efd
+exl-id: 85179139-a841-42b0-8590-d1fb88c1ebbf
 ---
-
 # SPA Introduction and Walkthrough{#spa-introduction-and-walkthrough}
 
 Single page applications (SPAs) can offer compelling experiences for website users. Developers want to be able to build sites using SPA frameworks and authors want to seamlessly edit content within AEM for a site built using such frameworks.
@@ -40,7 +40,7 @@ The walkthrough is based on standard AEM functionality and the sample We.Retail 
 >
 >This document uses the [We.Retail Journal app](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail-journal) for demonstration purposes only. It should not be used for any project work.
 >
->All SPA projects on AEM should be based on the [Maven Archetype for SPA Starter Kit](https://github.com/adobe/aem-spa-project-archetype).
+>Any AEM project should leverage the [AEM Project Archetype](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/archetype/overview.html), which supports SPA projects using React or Angular and leverages the SPA SDK.
 
 ### What is a SPA? {#what-is-a-spa}
 
@@ -114,6 +114,9 @@ When an SPA is built to leverage the AEM SPA Editor, the content author notices 
 1. Edit the content as normal within AEM and note that the changes are persisted.
 
    ![screen_shot_2018-06-07at143419](assets/screen_shot_2018-06-07at143419.png)
+
+   >[!NOTE]
+   >See the [SPA Editor Overview](spa-overview.md#requirements-limitations) for further information about the in place text editor and SPAs.
 
 1. Use the Assets Browser to drag-and-drop a new image into an image component.
 

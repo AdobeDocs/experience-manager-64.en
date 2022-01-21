@@ -9,8 +9,8 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 968c2574-ec9a-45ca-9c64-66f4caeec285
+exl-id: 5bbb51d8-db91-458a-bfdd-e3f874ef1723
 ---
-
 # Configuring SSL for WebLogic Server {#configuring-ssl-for-weblogic-server}
 
 To configure SSL on WebLogic Server, you need an SSL credential for authentication. You can use Java keytool to perform the following tasks to create a credential:
@@ -52,8 +52,8 @@ The keytool command is typically located in the Java jre/bin directory and must 
    <td><p>The location and name of the keystore file.</p><p>The location can include the absolute path of the file. Or, it can be relative to the current directory of the command prompt where the keytool command is entered.</p></td> 
    <td> 
     <ul> 
-     <li><p>Custom Identity keystore: <code>[</code><i>appserverdomain]</i><code>/adobe/</code><i>[server name]</i><code>/ads-ssl.jks</code></p></li> 
-     <li><p>Custom Trust keystore: <code>[</code><i>appserverdomain]</i><code>/adobe/</code><i>[server name]</i><code>/ads-ca.jks</code></p></li> 
+     <li><p>Custom Identity keystore: <code>[</code><i>appserverdomain<code>]</code></i><code>/adobe/</code><i>[server name]</i><code>/ads-ssl.jks</code></p></li> 
+     <li><p>Custom Trust keystore: <code>[</code><i>appserverdomain<code>]</code></i><code>/adobe/</code><i>[server name]</i><code>/ads-ca.jks</code></p></li> 
     </ul></td> 
   </tr> 
   <tr> 
@@ -206,4 +206,3 @@ Configure WebLogic so that it uses the Custom Identity keystore and Custom Trust
 
 1. Under Change Center, click Lock & Edit to modify selections and values. 
 1. Restart the application server.
-

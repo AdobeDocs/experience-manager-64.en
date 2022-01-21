@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 3fe5b6cc-1494-43e1-add7-2f7828b676ad
+exl-id: be2465a5-8875-4c9c-bd0d-32631b0fe294
 ---
-
 # Authoring Pages{#authoring-pages}
 
 The following provides an overview to authoring with AEM:
@@ -45,4 +45,3 @@ To aid you when authoring pages the author environment provides features such as
 
 * **Search as you type** 
   In certain scenarios (for example, path selection in edit dialogs) searching for content through the AEM interface presents dynamic matches as you type the query.
-

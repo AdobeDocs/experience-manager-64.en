@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 397b3267-1437-4263-963c-9d68ccc928ab
+exl-id: 3f2cb2f9-2a4e-4c5d-b937-b693f27e11da
 ---
-
 # AEM Assets Release Notes {#aem-assets-release-notes}
 
 The key features, highlights, and enhancements done in AEM 6.4 Assets are covered in these release notes. For detailed information, follow the provided links.
@@ -99,7 +99,7 @@ AEM 6.4 delivers significant Asset reporting enhancements:
 
 ## AEM desktop app {#aem-desktop-app}
 
-AEM desktop app is updated to version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM desktop app is provided in a dedicated [AEM desktop app release notes](https://helpx.adobe.com/experience-manager/desktop-app/release-notes.html) document.  
+AEM desktop app is updated to version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM desktop app is provided in a dedicated [AEM desktop app release notes](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html) document.  
 Here is a list of AEM desktop app highlights since AEM 6.3 was released:
 
 * Ability to upload hierarchical folders in the background.
@@ -111,9 +111,8 @@ Here is a list of AEM desktop app highlights since AEM 6.3 was released:
 
 For easier access to the documentation and best practices, the following documentation is available:
 
-* [User guide](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html), aimed at end users working with the application
-* [Best practices guide](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app-best-practices.html), aimed at end users and administrators
-* [Installation guide](https://helpx.adobe.com/experience-manager/desktop-app/install-configure-aem-desktop-app.html), aimed at administrators setting up AEM and AEM desktop app to work together
+* [User guide](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html), aimed at end users working with the application.
+* [Installation guide](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/install-upgrade.html), aimed at administrators setting up AEM and AEM desktop app to work together
 
 ## Tiered Storage {#tiered-storage}
 
@@ -162,7 +161,3 @@ See [Smart Imaging](../assets/imaging-faq.md) documentation to learn more.
 * VR Viewer provides immersive experience for properties, locations, and landscapes.
 * Vertical Image Viewer optimized for product imagery.
 * Keyboard accessibility improvements.
-
-### 3D and integration with Dimension CC {#d-and-integration-with-dimension-cc}
-
-Integration with [Adobe Dimension CC](https://www.adobe.com/products/dimension.html) for more seamless 3D workflow has been introduced. To learn more, see [Working with 3D assets](../assets/assets-3d.md) documentation.

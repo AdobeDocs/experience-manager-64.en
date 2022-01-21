@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: d15ded18-7417-47e2-9783-b23fa05a0cda
+exl-id: 84db73b0-1bc3-4c39-9bc2-0840e24832b0
 ---
-
 # Best Practices{#best-practices}
 
 Authoring best practices describe how to use AEM in the most efficient and most effective way possible. This growing list of topics includes a variety of areas in AEM.
@@ -48,7 +48,7 @@ Best practices around Assets, including the dynamic media capability and Scene 7
   <tr>
    <td>Dynamic Imaging</td> 
    <td><a href="/help/assets/best-practices-for-optimizing-the-quality-of-your-images.md">Dynamic Imaging best practices</a></td> 
-   <td><p>Describes how to sharpen an image for best results and the best way to optimize the quality of your images if you're using the Dynamic Media functionality or are integrating with Scene7. </p> </td> 
+   <td><p>Describes how to sharpen an image for best results and the best way to optimize the quality of your images if you're using the Dynamic Media functionality or are integrating with Dynamic Media.</p> </td> 
   </tr>
   <tr>
    <td>Mulltilingual Assets</td> 

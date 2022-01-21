@@ -8,8 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 4a864547-edbe-4d2d-a8ee-39bc65dffe88
+feature: Correspondence Management
+exl-id: cd565ec5-f453-4692-83f8-e1fb06dc28c7
 ---
-
 # Remote functions in Expression Builder {#remote-functions-in-expression-builder}
 
 Using the Expression Builder, you can create expressions or conditions that perform computations on data values provided by the Data Dictionary or by end users. Correspondence Management uses the result of the expression evaluation to select assets such as text, images, lists, and conditions and insert them in the correspondence as required.
