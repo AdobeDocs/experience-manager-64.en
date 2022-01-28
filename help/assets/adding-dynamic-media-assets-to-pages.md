@@ -1,8 +1,6 @@
 ---
-title: Adding Dynamic Media Assets to Pages
-seo-title: Adding Dynamic Media Assets to Pages
-description: How to add Dynamic Media components to a page in AEM
-seo-description: How to add Dynamic Media components to a page in AEM
+title: Add Dynamic Media Assets to pages
+description: How to add Dynamic Media components to pages in Adobe Experience Manager
 uuid: 77abcb87-2df7-449b-be52-540d749890b6
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
@@ -13,7 +11,7 @@ exl-id: bb97b649-a50d-49c8-97aa-18c32f18d527
 feature: Components
 role: User
 ---
-# Adding Dynamic Media assets to pages {#adding-dynamic-media-assets-to-pages}
+# Adding Dynamic Media Assets to pages {#adding-dynamic-media-assets-to-pages}
 
 To add the dynamic media functionality to assets you use on your websites, you can add the **Dynamic Media** or **Interactive Media** component directly on the page. You do this by entering Layout mode and enabling the dynamic media components. Then you can add these components to the page and add assets to the component. The dynamic media and interactive media components are smart - they know whether you are adding an image or a video and the options available change accordingly.
 
