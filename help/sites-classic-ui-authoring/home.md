@@ -1,10 +1,10 @@
 ---
 title: AEM 6.4 Classic UI Authoring User Guide
 seo-title: AEM 6.4 Classic UI Authoring User Guide
-description: This guide covers the concepts of authoring in AEM in the classic user interface. 
-seo-description: Covers the concepts of authoring in AEM in the classic UI. 
+description: This guide covers the concepts of authoring in AEM in the classic user interface.
+seo-description: Covers the concepts of authoring in AEM in the classic UI.
+exl-id: 56522aaf-9a8d-48b8-b748-3b57d5e9c8ef
 ---
-
 # AEM 6.4 Classic UI Authoring User Guide
 
 This guide covers the concepts of authoring in AEM in the classic user interface. 

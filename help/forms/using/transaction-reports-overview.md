@@ -8,8 +8,8 @@ contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: 1fb11e02-d8f1-41a0-8e23-cb890b4e2244
+exl-id: a545aa0a-9d71-48ba-ba3e-ed30a7e34f3d
 ---
-
 # Transaction Reports Overview {#transaction-reports-overview}
 
 Keep a count of all the forms submitted, interactive communication rendered, Documents converted to one format to another, and more
@@ -59,4 +59,3 @@ The transaction count is reverse replicated from publish instances to author or 
 * [Viewing and Understanding a Transaction Reports](/help/forms/using/viewing-and-understanding-transaction-reports.md)
 * [Transaction Reports Billable APIs](/help/forms/using/transaction-reports-billable-apis.md)
 * [Record a transaction for custom implementations](/help/forms/using/record-transaction-custom-implementation.md)
-

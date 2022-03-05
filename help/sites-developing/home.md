@@ -3,8 +3,8 @@ title: AEM 6.4 Developing User Guide
 seo-title: AEM 6.4 Developing User Guide
 description: This guide covers how to build out your AEM instance.
 seo-description: Covers how to build out your AEM instance.
+exl-id: 82ba239f-f83a-4ee1-b201-d44c220fd193
 ---
-
 # AEM 6.4 Developing User Guide
 
 This guide covers how to build out your AEM instance. 

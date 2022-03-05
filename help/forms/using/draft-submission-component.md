@@ -8,8 +8,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: 219dd379-5bc9-40b0-bdc2-2fb347da29d8
+exl-id: d95d3586-ea4b-4068-a8f2-a198c27a0096
 ---
-
 # Drafts and submissions component {#drafts-and-submissions-component}
 
 The Drafts & Submissions component lists all the forms that are in the draft state and the forms that are already submitted. The component has separate sections (tabs) for drafts and submitted forms. The users can view only their drafts and submitted forms.

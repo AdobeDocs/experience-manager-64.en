@@ -1,10 +1,10 @@
 ---
 title: AEM 6.4 Deploying User Guide
 seo-title: AEM 6.4 Deploying User Guide
-description: This guide covers all AEM Deploying tasks, such as installing and deploying AEM. 
-seo-description: Covers all AEM Deploying tasks, such as installing and deploying AEM. 
+description: This guide covers all AEM Deploying tasks, such as installing and deploying AEM.
+seo-description: Covers all AEM Deploying tasks, such as installing and deploying AEM.
+exl-id: ff85787a-1203-4620-bf14-1b09893c3be8
 ---
-
 # AEM 6.4 Deploying User Guide
 
 This guide covers all AEM Deploying tasks, such as installing and deploying AEM. 
