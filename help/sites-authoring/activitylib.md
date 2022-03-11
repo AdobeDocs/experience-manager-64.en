@@ -84,13 +84,13 @@ Add an activity or edit an existing activity to focus your marketing efforts on 
 
 >[!NOTE]
 >
->New Adobe Target activities need to be ***created*** in the targeted content editor, not in the **Activities** console, as synchronization to Adobe Target will fail.
+>New Adobe Target activities need to be **created** in the targeted content editor, not in the **Activities** console, as synchronization to Adobe Target will fail.
 >
 >You can, however, edit existing Adobe Target activities in the console.
 
 To add an activity:
 
-1. Click or tap the brand for which you are creating the activity, and then click or tap **Create** then **Create Activity**. If editing, select the activity in the Master Area screen and clicking or tapping **Edit Activity**.
+1. Click or tap the brand for which you are creating the activity, and then click or tap **Create** then **Create Activity**. If you are editing, select the activity and then click or tap **Edit**.
 1. Provide the following information and then click or tap **Next**:
 
     * A name for the activity.
