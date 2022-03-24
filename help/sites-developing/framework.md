@@ -58,9 +58,9 @@ The TagID consists of a [namespace](#tag-namespace) followed by the local TagID.
 
 ### Taxonomy Root Node {#taxonomy-root-node}
 
-The taxonomy root node is the base path for all tags in the repository. The taxonomy root node must *not* be a node of type `  cq   :Tag`.
+The taxonomy root node is the base path for all tags in the repository. The taxonomy root node must *not* be a node of type `cq:Tag`.
 
-In AEM, the base path is `/content/  cq   :tags` and the root node is of type `  cq   :Folder`.
+In AEM, the base path is `/content/cq:tags` and the root node is of type `cq:Folder`.
 
 ### Tag Namespace {#tag-namespace}
 
