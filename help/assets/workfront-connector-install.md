@@ -9,6 +9,10 @@ exl-id: 967391db-e7ba-4cf8-af9e-28c28d2d96d5
 
 A user with administrator access in [!DNL Adobe Experience Manager] installs the enhanced connector. Before you install, review the platform support and other [prerequisites for the connector](https://one.workfront.com/s/csh?context=2467&pubname=the-new-workfront-experience).
 
+>[!TIP]
+>
+>Are you searching for the enhanced connector for Workfront documentation for AEM as a Cloud Service? Click [here](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en).
+
 >[!IMPORTANT]
 >
 >Adobe requires deployment and configuration of the [!DNL Adobe Workfront for Experience Manager enhanced connector] only via certified partners or [!DNL Adobe Professional Services]. If deployed and configured without a certified partner or [!DNL Adobe Professional Services], it is not supported by Adobe.
