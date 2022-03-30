@@ -2129,7 +2129,7 @@ There are two ways to automatically install AEM 6.4.8.0 into a running instance:
 
 A. Place the package into ..*/crx-quickstart/install* folder while the server is running. The package gets installed automatically.
 
-B. Use the [HTTP API from Package Manager](https://docs.adobe.com/content/docs/en/crx/2-3/how_to/package_manager.html) - make sure you use `cmd=install&recursive=true` - so the nested package are installed.
+B. Use the [HTTP API from Package Manager](/help/sites-administering/package-manager.md) - make sure you use `cmd=install&recursive=true` - so the nested package are installed.
 
 >[!NOTE]
 >
