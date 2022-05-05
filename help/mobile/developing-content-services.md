@@ -8,8 +8,8 @@ contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 discoiquuid: 6a7e5472-cb57-4c78-b183-7c6dcac11a4e
+exl-id: e900d93e-f7cd-4a0d-a866-7fc6c7882797
 ---
-
 # Content Services{#content-services}
 
 >[!NOTE]
@@ -46,4 +46,3 @@ Once you have set the Content Services flag and enabled data models in Configura
 
 * Models in Repository
 * Rendering and Delivery
-

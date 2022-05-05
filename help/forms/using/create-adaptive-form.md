@@ -1,14 +1,14 @@
 ---
-title: "Tutorial: Create an adaptive form"
-seo-title: "Create an adaptive form"
+title: 'Tutorial: Create an adaptive form'
+seo-title: Create an adaptive form
 description: Learn to create, layout, and preview an adaptive form. Also, learn to configure submit actions.
 seo-description: Learn to create, layout, and preview an adaptive form. Also, learn to configure submit actions.
 page-status-flag: de-activated
 uuid: 0010d274-a683-499e-9fa6-ce355d7898a0
 discoiquuid: 55c08940-8c25-4938-8e49-25bce20aaf22
 feature: Adaptive Forms
+exl-id: 144f7c0a-66af-4a8f-8d8c-f960cb612104
 ---
-
 # Tutorial: Create an adaptive form {#do-not-publish-tutorial-create-an-adaptive-form}
 
  ![02-create-adaptive-form-main-image](assets/02-create-adaptive-form-main-image.png)

@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: 842d3a5a-8e09-4a21-b9a2-a8f4f5b699bd
 feature: Forms Portal
+exl-id: 378e7e16-d22d-4fc3-93f4-fbfcdb28deb5
 ---
-
 # Customizing templates for forms portal components {#customizing-templates-for-forms-portal-components}
 
 ## Prerequisites {#prerequisites}
@@ -175,4 +175,3 @@ Support for localization, sorting, and using configuration properties on the use
 * [Sample for integrating drafts & submissions component with database](/help/forms/using/integrate-draft-submission-database.md)
 * [Customizing templates for forms portal components](/help/forms/using/customizing-templates-forms-portal-components.md)
 * [Introduction to publishing forms on a portal](/help/forms/using/introduction-publishing-forms.md)
-

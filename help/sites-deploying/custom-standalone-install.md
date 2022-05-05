@@ -1,16 +1,16 @@
 ---
 title: Custom Standalone Install
 seo-title: Custom Standalone Install
-description: Learn about the options available when installing a standalone AEM instance. 
-seo-description: Learn about the options available when installing a standalone AEM instance. 
+description: Learn about the options available when installing a standalone AEM instance.
+seo-description: Learn about the options available when installing a standalone AEM instance.
 uuid: e1cb45c4-3b2b-4951-8f67-213072e825b3
 contentOwner: Tyler Rushton
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: c9e51008-6009-49a2-9c74-1c610cef2e7f
+exl-id: 0933f733-50bf-48ae-a5da-be5dc9335253
 ---
-
 # Custom Standalone Install{#custom-standalone-install}
 
 This section describes the options available when installing a standalone AEM instance. You can also read [Storage Elements](/help/sites-deploying/storage-elements-in-aem-6.md) for more information on choosing the backend storage type after freshly installing AEM 6.

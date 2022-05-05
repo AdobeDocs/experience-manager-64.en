@@ -1,10 +1,10 @@
 ---
 title: AEM 6.4 Authoring User Guide
 seo-title: AEM 6.4 Authoring User Guide
-description: This guide explains the concepts of authoring in AEM. 
-seo-description: Explains the concepts of authoring in AEM. 
+description: This guide explains the concepts of authoring in AEM.
+seo-description: Explains the concepts of authoring in AEM.
+exl-id: c507de40-d840-4457-ae40-59c81afbe7aa
 ---
-
 # AEM 6.4 Authoring User Guide
 
 This guide explains the concepts of authoring in AEM. 

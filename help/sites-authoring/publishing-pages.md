@@ -9,8 +9,8 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 8f2714bc-9d6c-4e6f-97a1-3b4f977348c5
+exl-id: 3de608f3-569f-438d-8ce7-24e82e5c1ec6
 ---
-
 # Publishing Pages{#publishing-pages}
 
 Once you have created and reviewed your content on the author environment, the goal is to [make it available on your public website](/help/sites-authoring/author.md#concept-of-authoring-and-publishing) (your publish environment).
@@ -277,4 +277,3 @@ You can detemine the publication status of a page:
 * In the [Page Information menu](/help/sites-authoring/author-environment-tools.md#page-information) when editing a page
 
   ![screen_shot_2018-03-21at154456](assets/screen_shot_2018-03-21at154456.png)
-

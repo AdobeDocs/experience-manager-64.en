@@ -9,8 +9,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: 377548fa-987a-4a59-84a3-067a3541b6b2
+exl-id: 9d6ede9e-7df4-407e-8f2f-67bda86f0f94
 ---
-
 # Track App Performance with Adobe Mobile Analytics{#track-app-performance-with-adobe-mobile-analytics}
 
 >[!NOTE]
