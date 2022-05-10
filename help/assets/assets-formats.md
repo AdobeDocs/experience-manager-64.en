@@ -155,7 +155,7 @@ Document formats supported for Dynamic Media features are as follows:
 | QXP | | | | | |
 | EPUB | | | | | |
 
->[!Note]
+>[!NOTE]
 >
 >For secure PDFs, only Upload is supported.
 
