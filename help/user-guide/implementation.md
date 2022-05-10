@@ -23,7 +23,7 @@ Are you an AEM developer? [Get started developing on AEM.](/help/sites-developin
 
 ## Cloud Manager for AEM {#cloud-manager-for-aem}
 
-[Understand how to use Cloud Manager with AEM.](https://docs.adobe.com/content/help/en/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html)
+[Understand how to use Cloud Manager with AEM.](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html?lang=en)
 
 ## Dispatcher Configuration {#dispatcher-configuration}
 
