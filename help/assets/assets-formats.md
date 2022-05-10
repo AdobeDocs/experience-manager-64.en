@@ -140,7 +140,7 @@ Document formats supported for Dynamic Media features are as follows:
 | DOC | | | | | |
 | DOCX | | | | | |
 | ODT | | | | | |
-| [PDF](managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
+| [PDF](managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) (See Note below) | &#10003; | &#10003; | &#10003; | &#10003; | &#10003; |
 | HTML | | | | | |
 | RTF | | | | | |
 | TXT | | | | | |
@@ -154,6 +154,10 @@ Document formats supported for Dynamic Media features are as follows:
 | PS | | | | | |
 | QXP | | | | | |
 | EPUB | | | | | |
+
+>[!Note]
+>
+>For secure PDFs, only Upload is supported.
 
 In addition to the above functionality, consider the following:
 
