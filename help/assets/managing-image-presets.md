@@ -279,7 +279,7 @@ When you create or edit image presets, you have the options described in this se
 
 * **[!UICONTROL Format]** (**[!UICONTROL Basic]** tab) &ndash; Select **[!UICONTROL JPEG]** or another format that meets your requirements. All web browsers support the JPEG image format; it offers a good balance between small files sizes and image quality. However, JPEG format images use a lossy compression scheme that can introduce unwanted image artifacts if the compression setting is too low. For that reason, Adobe recommends setting the compression quality to 75. This setting offers a good balance between image quality and small file size.
 * **[!UICONTROL Enable Simple Sharpening]** &ndash; Do not select **[!UICONTROL Enable Simple Sharpening]** (this sharpening filter offers less control than Unsharp Masking settings).
-* **[!UICONTROL Sharpening: Resampling Mode]** &ndash; Select **[!UICONTROL Bi-Cubic]**.
+* **[!UICONTROL Sharpening: Resampling Mode]** &ndash; Select **[!UICONTROL Sharp2]**.
 
 #### Basic tab options {#basic-tab-options}
 
