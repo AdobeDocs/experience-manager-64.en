@@ -187,7 +187,7 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
   </tr> 
   <tr> 
    <td>MySQL</td> 
-   <td><p>MySQL Connector/J 5.7</p> <p>mysql-connector-java-5.1.30-bin.jar(version 5.1.30)</p> </td> 
+   <td><p>MySQL Connector/J 5.7</p> <p>mysql-connector-java-5.1.44-bin.jar(version 5.1.44)</p> </td> 
    <td><p>Supplied with AEM Forms on JEE installation</p> </td> 
   </tr> 
   <tr> 
