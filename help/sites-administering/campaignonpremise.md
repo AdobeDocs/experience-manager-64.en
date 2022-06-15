@@ -370,6 +370,9 @@ To deactivate a personalization block among those available:
 
 You can also insert target extension data for personalization. Target extension data (also called 'Target Data'), comes from enriching or adding data in a query in a campaign workflow for example. For more information, refer to the [Creating queries](https://docs.campaign.adobe.com/doc/AC/en/PTF_Creating_queries_About_queries_in_Campaign.html) and [Enriching data](https://docs.campaign.adobe.com/doc/AC/en/WKF_Use_cases_Enriching_data.html) sections.
 
+The target extension data is only visible if you select the option **Enable but do not execute** in your Campaign Classic workflow before running it. In this case, the workflow temporary table will be stored, and data will be available in the Adobe Experience Manager template. 
+If you select the **Do not enable** option to disable the delivery activity, the temporary table will not be stored, and you will only be able to see the **Recipient** and **Personalization** blocks in the Target Extension menu in Adobe Experience Manager.
+
 >[!NOTE]
 >
 >The data in the target is only available if the AEM content is synchronized with an Adobe Campaign delivery. See [Synchronizing content created in AEM with a delivery from Adobe Campaign](/help/sites-authoring/campaign.md#synchronizing-content-created-in-aem-with-a-delivery-from-adobe-campaign-classic).
