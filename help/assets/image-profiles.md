@@ -25,7 +25,16 @@ When uploading images, you can automatically crop the image upon upload by apply
 >
 >Image profiles are not applicable to PDF, animated GIF, or INDD (Adobe InDesign) files.
 
+
 ## Crop options {#crop-options}
+
+When you implement Smart Crop on images, Adobe recommends the following best practice and enforces the following limit:
+
+| Limit type | Best practice | Implemented limit |
+| --- | --- | --- |
+| Number of Smart Crops per image | 5 | 100 |
+
+See also [Dynamic Media limitations](/help/assets/limitations.md).
 
 <!-- CQDOC-16069 for paragraph directly below -->
 

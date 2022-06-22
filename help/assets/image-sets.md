@@ -31,6 +31,15 @@ For example, suppose you want to present images of caps with different color bil
 >
 >For information on the Assets user interface, see [Managing assets with the Touch UI](managing-assets-touch-ui.md).
 
+When you create an Image Set, Adobe recommends the following best practices and enforces the following limits:
+
+| Asset - Limit type | Best practice | Implemented limit | Changes to limit December 31, 2022 |
+| --- | --- | --- | --- |
+| **Image Set** - Number of duplicate assets per set | No duplicates | 100 | 20 |
+| **Image Set** - Maximum number of images per set | 5-10 images per set | 1000 |
+
+See also [Dynamic Media limitations](/help/assets/limitations.md).
+
 ## Quick Start: Image Sets {#quick-start-image-sets}
 
 To get you up and running quickly:
@@ -121,6 +130,15 @@ When you add assets to your set, they are automatically added in alphanumeric or
 >[!NOTE]
 >
 >Image sets are not supported for assets with `,` (comma) in the file name.
+
+When you create an Image Set, Adobe recommends the following best practices and enforces the following limits:
+
+| Asset - Limit type | Best practice | Implemented limit | Changes to limit December 31, 2022 |
+| --- | --- | --- | --- |
+| **Image Set** - Number of duplicate assets per set | No duplicates | 100 | 20 |
+| **Image Set** - Maximum number of images per set | 5-10 images per set | 1000 |
+
+See also [Dynamic Media limitations](/help/assets/limitations.md).
 
 **To create an Image Set**:
 

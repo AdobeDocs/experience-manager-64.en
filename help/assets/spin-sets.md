@@ -23,6 +23,14 @@ Spin Sets are designated by a banner with the word **[!UICONTROL SPINSET]**. In 
 >
 >For information on the Assets user interface, see [Managing assets with the Touch UI](managing-assets-touch-ui.md).
 
+When you create a Spin Set, Adobe recommends the following best practice and enforces the following limit:
+
+| Limit type | Best practice | Implemented limit |
+| --- | --- | --- |
+| Maximum number of rows/columns per 2D set | 12-18 images per set | 1000 |
+
+See also [Dynamic Media limitations](/help/assets/limitations.md).
+
 ## Quick Start: Spin Sets {#quick-start-spin-sets}
 
 To get you up and running quickly with Spin Sets, follow this workflow:
@@ -100,6 +108,14 @@ The order in which images appear in a spin set matter. Be sure to order them so 
 >Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.
 >
 >See "Creating batch set presets to auto-generate Image Sets and Spin Sets" in [Configuring Dynamic Media - Scene7 mode](/help/assets/config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets).
+
+When you create a Spin Set, Adobe recommends the following best practice and enforces the following limit:
+
+| Limit type | Best practice | Implemented limit |
+| --- | --- | --- |
+| Maximum number of rows/columns per 2D set | 12-18 images per set | 1000 |
+
+See also [Dynamic Media limitations](/help/assets/limitations.md).
 
 **To create Spin Sets:**
 

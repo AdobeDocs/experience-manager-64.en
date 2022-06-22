@@ -180,7 +180,7 @@ Dynamic Media enables batch uploading of assets by way of FTP server. If you int
 | | Image Editing Options | You can preserve the clipping masks in images, and choose a color profile.<br> See [Setting image editing options at upload](#setting-image-editing-options-at-upload). |
 | | Postscript Options | You can rasterize PostScript® files, crop files, maintain transparent backgrounds, choose a resolution, and choose a color space.<br> See [Setting PostScript and Illustrator upload options](#setting-postscript-and-illustrator-upload-options). |
 | | Photoshop Options | You can create templates from Adobe® Photoshop® files, maintain layers, specify how layers are named, extract text, and specify how images are anchored into templates.<br> Note that templates are not supported in AEM.<br> See [Setting Photoshop upload options](#setting-photoshop-upload-options). |
-| | PDF Options | You can rasterize the files, extract search words and links, auto-generate an eCatalog, set the resolution, and choose a color space.<br> Note that eCatalogs are not supported in AEM. <br> See [Setting PDF upload options](#setting-pdf-upload-options). |
+| | PDF Options | You can rasterize the files, extract search words and links, auto-generate an eCatalog, set the resolution, and choose a color space.<br> Note that eCatalogs are not supported in AEM. <br> See [Setting PDF upload options](#setting-pdf-upload-options)<br>**Note**: The maximum number of pages for a PDF to be considered for extraction is 5000 for new uploads. This limit will change to 100 pages on December 31, 2022. See also [Dynamic Media limitations](/help/assets/limitations.md). |
 | | Illustrator Options | You can rasterize Adobe Illustrator® files, maintain transparent backgrounds, choose a resolution, and choose a color space.<br> See [Setting PostScript and Illustrator upload options](#setting-postscript-and-illustrator-upload-options). |
 | | EVideo Options | You can transcode a video file by choosing a Video Preset.<br> See [Setting eVideo upload options](#setting-evideo-upload-options). |
 | | Batch Set Presets | To create an Image Set, or Spin Set from the uploaded files, click the Active column for the preset you want to use. You can select more than one preset. You create the presets in the Application Setup/Batch Set Presets page of Dynamic Media Classic.<br> See [Configuring Batch Set Presets to Auto-Generate Image Sets and Spin Sets](config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets) to learn more about creating batch set presets.<br> See [Setting Batch Set Presets at upload](#setting-batch-set-presets-at-upload). |
@@ -251,6 +251,8 @@ Use the **[!UICONTROL Crop Options]** and **[!UICONTROL Color Profile Options]**
 #### Set PDF upload options {#setting-pdf-upload-options}
 
 When you upload a PDF file, you can format it in various ways. You crop its pages, extract search words, enter a pixels-per-inch resolution, and choose a color space. PDF files often contain a trim margin, crop marks, registration marks, and other printer’s marks. You can crop these marks from the sides of pages as you upload a PDF file.
+
+The maximum number of pages for a PDF to be considered for extraction is 5000 for new uploads. This limit will change to 100 pages on December 31, 2022. See also [Dynamic Media limitations](/help/assets/limitations.md).
 
 >[!NOTE]
 >
