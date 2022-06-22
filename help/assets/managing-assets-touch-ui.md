@@ -2,10 +2,9 @@
 title: Manage your digital assets using [!DNL Experience Manager] Assets
 description: Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of [!DNL Experience Manager] Assets
 contentOwner: AG
-mini-toc-levels: 1
 feature: Asset Management,Search,Renditions,Collaboration
 role: User
-mini-toc-levels: 3
+mini-toc-levels: 4
 exl-id: aa1a702b-18dd-496b-a6e0-aa593af6e57c
 ---
 # Manage your digital assets {#managing-assets-with-the-touch-optimized-ui}
