@@ -47,6 +47,7 @@ user-guide-description: Create, manage, deliver, and optimize digital assets.
   + [HTTP2 delivery of content](http2.md)
   + [Delivering Dynamic Media assets](delivering-dynamic-media-assets.md)
   + [Activating hotlink protection in Dynamic Media](hotlink-protection.md)
+  + [Dynamic Media limitations](limitations.md)
   + [Image Sets](image-sets.md)
   + [Mixed Media Sets](mixed-media-sets.md)
   + [Spin Sets](spin-sets.md)
