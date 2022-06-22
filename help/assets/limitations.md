@@ -29,9 +29,11 @@ When you create a Spin Set or an Image Set, or upload PDFs for page extraction, 
 | **Image Set** - Number of duplicate assets per set | No duplicates | 100 | 20 |
 | **Image Set** - Maximum number of images per set | 5-10 images per set  | 1000 |
 | **Spin Set** - Maximum number of rows/columns per 2D set | 12-18 images per set | 1000 |
-| **PDF** - Maximum number of pages for a PDF to be considered for extraction |  | 5000 (for new uploads) | 100 |
 
+<!-- NO PDF UPLOAD OPTION IN AEMaaCS | **PDF** - Maximum number of pages for a PDF to be considered for extraction |  | 5000 (for new uploads) | 100 | -->
 <!-- See also [Dynamic Media limitations](/help/assets/limitations.md). -->
+
+
 
 <!-- ## Unsupported web browser and operating system combinations for Dynamic Media Viewers
 
