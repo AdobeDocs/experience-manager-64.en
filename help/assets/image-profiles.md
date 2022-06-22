@@ -34,7 +34,7 @@ When you implement Smart Crop on images, Adobe recommends the following best pra
 | --- | --- | --- |
 | Number of Smart Crops per image | 5 | 100 |
 
-See also [Dynamic Media limitations](/elp/assets/limitations.md).
+See also [Dynamic Media limitations](/help/assets/limitations.md).
 
 <!-- CQDOC-16069 for paragraph directly below -->
 
