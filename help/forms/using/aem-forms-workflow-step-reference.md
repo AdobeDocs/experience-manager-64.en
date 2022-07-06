@@ -216,6 +216,7 @@ The Sign Document step enables you to use Adobe Sign to sign documents. The Sign
 * **Adobe Sign Cloud Configuration**: Choose an Adobe Sign Cloud Configuration. If you have not configured Adobe Sign for AEM Forms, see [Integrate Adobe Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md). 
 
 * **Document to be Signed:** You can choose a document from a location relative to the payload, use payload as the document, or specify an absolute path of the document.
+* **Input Attachment Path**:The documents (Relative to Payload or Variable) that are to be signed are appended at the end of generated DoR. PDF files that are supported by Adaptive forms are supported here as well.  
 * **Days Until Deadline:** A document is marked due (passed deadline) after there is no activity on the task for the number of days specifies in the **Days Until Deadline** field. The number of days are counted after the documented is assigned to a user for signing.
 
 * **Reminder Email Frequency:** You can send a reminder email at daily or weekly interval. The week is counted from the day the documented is assigned to a user for signing.
