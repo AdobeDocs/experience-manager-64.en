@@ -118,7 +118,7 @@ The Document of Record step has the following properties:
 
 **Input Data Path:** Path of the input data for the adaptive form. You can keep the data at a location relative to the payload or specify an absolute path of the data. The input data is merged with the adaptive form to create a document of record.
 
-**Input Attachement Path:** Input Attachment Path: Path of the attachments. These attachments are included in the Document of Record. You can keep the attachments at a location relative to the payload or specify an absolute path of the attachments.
+**Input Attachment Path:** Input Attachment Path: Path of the attachments. These attachments are included in the Document of Record. You can keep the attachments at a location relative to the payload or specify an absolute path of the attachments.
 
 If you specify the path of a folder, for example, attachments, all the files directly available in the folder are attached to Document of Record. If any files are available in the folders directly available in the specified attachment path, the files are included in Document of Record as attachments. If there are any folders in directly available folders, those are skipped.
 
