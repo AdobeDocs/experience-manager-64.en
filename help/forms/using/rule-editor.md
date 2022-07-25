@@ -132,7 +132,7 @@ While writing a When rule, you can trigger the Clear Value Of action. Clear Valu
 
 In addition to form data model service, you can specify a direct WSDL URL to invoke a web service. However, a form data model service has many benefits and the recommended approach to invoke a service.
 
-For more information about configuring services in form data model, see [AEM Forms Data Integration](\help\forms\using\data-integration.md).
+For more information about configuring services in form data model, see [AEM Forms Data Integration](/help/forms/using/data-integration.md).
 
 **Set value of** Computes and sets the value of the specified object. You can set the object value to a string, the value of another object, the computed value using mathematical expression or function, the value of a property of an object, or the output value from a configured form data model service. When you choose the web service option, it displays all services configured in all form data models on your AEM instance. On choosing a form data model service, additional fields appear where you can map form objects with input and output parameters for the specified service.
 
