@@ -31,7 +31,7 @@ Rule editor replaces the scripting capabilities in AEM 6.1 Forms and earlier rel
 
 Users added to the forms-power-users group can create new scripts and edit existing ones. Users in the forms-users group can use the scripts but not create or edit scripts.
 
-##Understanding a rule {#understanding-a-rule}
+## Understanding a rule {#understanding-a-rule}
 
 A rule is a combination of actions and conditions. In rule editor, actions include activities such as hide, show, enable, disable, or compute the value of an object in a form. Conditions are Boolean expressions that are evaluated by performing checks and operations on the state, value, or property of a form object. Actions are performed based on the value ( `True` or `False`) returned by evaluating a condition.
 
