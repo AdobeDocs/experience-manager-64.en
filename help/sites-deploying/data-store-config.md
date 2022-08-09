@@ -201,13 +201,13 @@ If you need to upgrade to a new version of the 1.8.x S3 connector (for example, 
 
 1. Download the latest version of the 1.8.x feature pack from the [Adobe Repository](https://repo.adobe.com/nexus/content/groups/public/com/adobe/granite/com.adobe.granite.oak.s3connector/).
 1. Unzip the contents to a separate folder, then navigate to `jcr_root/libs/system/install/15`.
-1. Copy the jar files to **&lt;aem-install&gt;**/crx-quickstart/install/15 in the AEM installation folder. 
+1. Copy the jar files to **&lt;aem-install&gt;**/crx-quickstart/install/15 in the AEM installation folder.
 1. Start AEM and check the connector functionality.
 
 You can use the configuration file with the following options:
 
 * accessKey: The AWS access key.
-* secretKey: The AWS secret access key. **Note:** Alternatively, [IAM roles](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/java-dg-roles.html) can be used for authentication. If you are using IAM roles you no longer need to specify the `accessKey` and `secretKey`.
+* secretKey: The AWS secret access key. **Note:** When the `accessKey` or `secretKey` is not specified then the [IAM role](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/java-dg-roles.html) is used for authentication.
 * s3Bucket: The bucket name.
 * s3Region: The bucket region.
 * path: The path of the data store. The default is **&lt;AEM install folder&gt;/repository/datastore**
