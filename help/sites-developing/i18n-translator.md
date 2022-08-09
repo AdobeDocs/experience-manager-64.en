@@ -376,7 +376,7 @@ Similarly, testing of dictionary strings should be performed as part of your nor
 
 >[!NOTE]
 >
->Regular publish functionality, or replication, should not be used for dictionaries. Instead dictionaires should be treated the same way as code and configuration. This includes using source control to track changes, and using content packages to apply changes to author and publish.
+>Regular publish functionality, or replication, should not be used for dictionaries. Instead dictionaries should be treated the same way as code and configuration. This includes using source control to track changes, and using content packages to apply changes to author and publish.
 
 >[!NOTE]
 >
