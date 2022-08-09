@@ -57,7 +57,7 @@ It is also possible to add the i18n dictonaries to a translation project from th
 
 ## Creating a Dictionary {#creating-a-dictionary}
 
-Create a dictionary for managing your localized UI strings. After you create a dictionary you can use the Translation tool to manage it.
+Create a dictionary for managing your localized UI strings. After you create a dictionary, you can use the Translation tool to manage it.
 
 1. Using CRXDE Lite, add the root node ( `sling:Folder`) for your new dictionary as the structure to hold the language definitions:
 
@@ -105,7 +105,7 @@ The strings that you add to a dictionary must exactly match the string that is s
 
 **Providing Translation Hints**
 
-Use the Commenet poperty of the dictionary string to provide information to the translator to clarify the meaning of the string. Typically, the UI assists users to determine the meaning of ambiguous words. However, the translator does not see the string within the context of the UI. The translation hint removes the ambiguity. For example, a comment helps the translator to understand that the English word Request is used as a noun rather than a verb.
+Use the Comment property of the dictionary string to provide information to the translator to clarify the meaning of the string. Typically, the UI assists users to determine the meaning of ambiguous words. However, the translator does not see the string within the context of the UI. The translation hint removes the ambiguity. For example, a comment helps the translator to understand that the English word Request is used as a noun rather than a verb.
 
 Translation hints also distinguish strings that are identical and have different meanings. For example the word Search can be a noun or a verb, requiring two "Search" entries in the dictionary with two different translation hints. The code that requests the string also includes the translation hint so that the correct string is used in the UI.
 
@@ -304,7 +304,7 @@ Use the following procedure to add or remove languages.
 
 ### Making Languages Available to Authors {#making-languages-available-to-authors}
 
-After defing a dictionary for a language new to your AEM instance you need to make this available for selection by the authors (for example, for use in **Preferences**):
+After defing a dictionary for a language new to your AEM instance, you need to make this available for selection by the authors (for example, for use in **Preferences**):
 
 1. To change the list of available languages available in **Preferences** of the **Security** console:
 
@@ -315,7 +315,7 @@ After defing a dictionary for a language new to your AEM instance you need to ma
         and update as required.
        ```
 
-1. To make the language available in **Preferences** from the **Websites** console you need to make the following changes in your application:
+1. To make the language available in **Preferences** from the **Websites** console, you need to make the following changes in your application:
 
     1. Create an overlay for the structure under: 
 
@@ -376,7 +376,7 @@ Similarly, testing of dictionary strings should be performed as part of your nor
 
 >[!NOTE]
 >
->Regular publish functionality, or replication, should not be used for dictionaries. Instead dictionaires should be treated the same way as code and configuration. This includes using source control to track changes, and using content packages to apply changes to author and publish.
+>Regular publish functionality, or replication, should not be used for dictionaries. Instead, dictionaires should be treated the same way as code and configuration. This includes using source control to track changes, and using content packages to apply changes to author and publish.
 
 >[!NOTE]
 >
