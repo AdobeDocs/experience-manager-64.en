@@ -10,6 +10,12 @@ exl-id: 11c5dd92-f824-41d2-9ab2-b32bdeae01b6
 
 You can integrate [!DNL Adobe Experience Manager] with the Smart Content Service using [!DNL Adobe Developer Console]. Use this configuration to access the Smart Content Service from within [!DNL Experience Manager].
 
+>[!NOTE]
+>
+>* Smart Content Services is no longer available to [!DNL Experience Manager Assets] On-Premise customers. Existing On-Premise customers, who already have this capability enabled, can continue using Smart Content Services.
+>* Smart Content Services is available for existing [!DNL Experience Manager Assets] Managed Services customers, who already have this capability enabled.
+>* New [!DNL Experience Manager Assets] Managed Services customers can follow the instructions mentioned in this article to set up Smart Content Services.
+
 The article details out the following key tasks that are required to configure the Smart Content Service. At the back end, the [!DNL Experience Manager] server authenticates your service credentials with the [!DNL Adobe Developer Console] gateway before forwarding your request to the Smart Content Service.
 
 1. [Create a Smart Content Service](#obtain-public-certificate) configuration in [!DNL Experience Manager] to generate a public key. [Obtain public certificate](#obtain-public-certificate) for OAuth integration.
@@ -44,7 +50,14 @@ A public certificate allows you to authenticate your profile on [!DNL Adobe Deve
 
 1. In the **[!UICONTROL AEM Smart Content Service]** dialog, use the following values:
 
-   **[!UICONTROL Service URL]**: `https://mc.adobe.io/marketingcloud/smartcontent`
+   **[!UICONTROL Service URL]**: `https://smartcontent.adobe.io/<name-of-your-closest-region>`
+
+   For example, `https://smartcontent.adobe.io/apac`. You can specify `na`, `emea`, or, `apac` as the name of your closest region.
+
+   >[!NOTE]
+   >
+   >If you are provisioned on Smart Content Services by Adobe corporate provisioning team, use the following Service URL:
+   `https://mc.adobe.io/marketingcloud/smartcontent`
 
    **[!UICONTROL Authorization Server]**: `https://ims-na1.adobelogin.com`
 
