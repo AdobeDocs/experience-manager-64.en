@@ -12,7 +12,7 @@ You can integrate [!DNL Adobe Experience Manager] with the Smart Content Service
 
 >[!NOTE]
 >
->* Smart Content Services is no longer available to [!DNL Experience Manager Assets] On-Premise customers. Existing On-Premise customers, who already have this capability enabled, can continue using Smart Content Services.
+>* Smart Content Services is no longer available to new [!DNL Experience Manager Assets] On-Premise customers. Existing On-Premise customers, who already have this capability enabled, can continue using Smart Content Services.
 >* Smart Content Services is available for existing [!DNL Experience Manager Assets] Managed Services customers, who already have this capability enabled.
 >* New [!DNL Experience Manager Assets] Managed Services customers can follow the instructions mentioned in this article to set up Smart Content Services.
 
@@ -56,7 +56,7 @@ A public certificate allows you to authenticate your profile on [!DNL Adobe Deve
 
    >[!NOTE]
    >
-   >If the Experience Manager Managed Service is provisioned before September 01, use the following Service URL:
+   >If the Experience Manager Managed Service is provisioned before September 01, 2022, use the following Service URL:
    >`https://mc.adobe.io/marketingcloud/smartcontent`
 
    **[!UICONTROL Authorization Server]**: `https://ims-na1.adobelogin.com`
