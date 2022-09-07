@@ -87,8 +87,8 @@ Change the password, before you configure Dynamic Media Cloud Services. After yo
     
       >[!IMPORTANT]
       >
-      >Only one Dynamic Media Configuration in Cloud Services is supported on an instance of Experience Manager; do not add more than one configuration. Multiple Dynamic Media Configurations on an Experience Manager instance is _not_ supported or recommended by Adobe.<!-- CQDOC-19579 and CQDOC-19612 -->
-    * **[!UICONTROL Company Root Folder Path]**
+      >Only one Dynamic Media Configuration in Cloud Services is supported on an instance of Experience Manager; do not add more than one configuration. Multiple Dynamic Media Configurations on an Experience Manager instance is *not* supported or recommended by Adobe.<!-- CQDOC-19579 and CQDOC-19612 -->
+    * **[!UICONTROL Company Root Folder Path]** - Your company’s root folder path.
     * **[!UICONTROL Publishing Assets]** - the option **[!UICONTROL Immediately]** means that when assets are uploaded, the system ingests the assets and provides the URL/Embed instantly. There is no user intervention necessary to publish assets. The option **[!UICONTROL Upon Activation]** means that you must explicitly publish the asset first before a URL/Embed link is provided.
     * **[!UICONTROL Secure Preview Server]** - lets you specify the URL path to your secure renditions preview server. That is, after renditions are generated, Experience Manager can securely access and preview the remote Dynamic Media renditions (no binaries are sent back to the Experience Manager instance).  
 
