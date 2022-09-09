@@ -84,7 +84,7 @@ AEM eCommerce provides:
 
     * the AEM search
     * the search of the eCommerce system
-    * a third party search (such as Search&Promote) 
+    * a third party search 
     * or a combination thereof.
 
   ![chlimage_1-151](assets/chlimage_1-151.png)
