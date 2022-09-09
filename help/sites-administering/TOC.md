@@ -126,7 +126,6 @@ role: Admin
     + [Integrating with Adobe Campaign Standard](campaignstandard.md)
     + [Flash Viewers End-of-Life Notice](flash-viewers-eol.md)
     + [Integrating with Adobe Creative Cloud](https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/aem-cc-integration-best-practices.html)
-    + [Product Feed](product-feed.md)
     + [Integrating with Adobe Dynamic Tag Management](dtm.md)
     + [Opting Into Adobe Analytics and Adobe Target](opt-in.md)
     + [AEM Portals and Portlets](aem-as-portal.md)
