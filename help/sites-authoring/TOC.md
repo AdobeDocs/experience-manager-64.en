@@ -72,7 +72,6 @@ role: User
     + [Content Insight](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/siteandpage/content-insights.html)
     + [Analyzing Page Performance](ci-analyze.md)
     + [Seeing Page Analytics Data](pa-using.md)
-    + [Adding Search&Promote Features To Your Page](search-and-promote.md)
 + Personalization {#personalization}
     + [Personalization](personalization.md)
     + [Previewing Pages Using ContextHub Data](ch-previewing.md)
