@@ -242,8 +242,6 @@ Various parameters can be set, including:
 
 * **Default Extensions** The list of extensions for which the default behavior will be used. This means that the last path segment of the resource type can be used as the script name.
 
-**Day Commons GFX Font Helper** When rendering graphics you can use DrawText to embed text. For this you can also install your own fonts:
-
 * Define the **Font Path** to be searched for project specific fonts. 
 
   For example, `/apps/myapp/fonts`.
