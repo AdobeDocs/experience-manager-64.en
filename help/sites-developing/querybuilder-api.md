@@ -3,14 +3,6 @@ title: Query Builder API
 seo-title: Query Builder API
 description: The functionality of the Asset Share Query Builder is exposed through a Java API and a REST API.
 seo-description: The functionality of the Asset Share Query Builder is exposed through a Java API and a REST API.
-uuid: 6928c3e9-96a1-44ad-9785-350d95f1869a
-contentOwner: msm-service
-products: SG_EXPERIENCEMANAGER/6.4/SITES
-topic-tags: platform
-content-type: reference
-discoiquuid: 7965b7ef-dec4-441a-a012-daf1d60df0fb
-pagetitle: Query Builder API
-tagskeywords: querybuilder
 exl-id: ff305c6d-c11e-4e1c-b262-4802b4f54592
 ---
 # Query Builder API{#query-builder-api}
@@ -31,11 +23,11 @@ The REST API provides access to exactly the same features through HTTP with resp
 
 ## Gem Session {#gem-session}
 
-[AEM Gems](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) is a series of technical deep dives into Adobe Experience Manager delivered by Adobe experts. This session dedicated to the query builder is very useful for an overview and use of the tool.
+[AEM Gems](https://experienceleague.adobe.com/docs/experience-manager-gems-events/gems/overview.html) is a series of technical deep dives into Adobe Experience Manager delivered by Adobe experts. This session dedicated to the query builder is very useful for an overview and use of the tool.
 
 >[!NOTE]
 >
->See the AEM Gem session [Search forms made easy with the AEM querybuilder](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-search-forms-using-querybuilder.html) for a detailed overview of the query builder.
+>See the AEM Gem session [Search forms made easy with the AEM querybuilder](https://experienceleague.adobe.com/docs/experience-manager-gems-events/gems/gems2017/aem-search-forms-using-querybuilder.html) for a detailed overview of the query builder.
 
 ## Sample Queries {#sample-queries}
 

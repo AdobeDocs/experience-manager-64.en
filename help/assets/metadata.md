@@ -151,7 +151,7 @@ The application-specific metadata includes technical and descriptive metadata. I
 ### Print-specific metadata {#print-specific-metadata}
 
 * PDF and PDF/X - Adobe PDF and third-party applications.
-* PRISM - [Publishing Requirements for Industry Standard Metadata](http://www.prismstandard.org/specifications/).
+* PRISM - [Publishing Requirements for Industry Standard Metadata](https://idealliance.org/specifications/prism-metadata/).
 * XMP - [!DNL Extensible Metadata Platform].
 * `xmpPG` - XMP metadata for paged text.
 

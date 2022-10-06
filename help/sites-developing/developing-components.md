@@ -3,13 +3,6 @@ title: Developing AEM Components
 seo-title: Developing AEM Components
 description: AEM components are used to hold, format, and render the content made available on your webpages.
 seo-description: AEM components are used to hold, format, and render the content made available on your webpages.
-uuid: bf789fb8-0bb8-406c-b4d6-c360b02a46d8
-contentOwner: User
-products: SG_EXPERIENCEMANAGER/6.4/SITES
-topic-tags: components
-content-type: reference
-discoiquuid: 655c576f-d6e3-40a5-ab1f-6382a0c7443c
-legacypath: /content/docs/en/aem/6-2/develop/components/components-touch-optimized
 exl-id: d3c1559a-1a7a-46ed-a935-9ad226cdea33
 ---
 # Developing AEM Components{#developing-aem-components}
@@ -193,7 +186,7 @@ For examples, see:
 >
 >See:
 >
->* the AEM Gems session on [Customizing Dialog Fields](https://docs.adobe.com/content/ddc/en/gems/customizing-dialog-fields-in-touch-ui.html).
+>* the AEM Gems session on [Customizing Dialog Fields](https://experienceleague.adobe.com/docs/experience-manager-gems-events/gems/gems2015/aem-customizing-dialog-fields-in-touch-ui.html).
 >* the related sample code covered under [Code Sample - How to Customize Dialog Fields](/help/sites-developing/developing-components-samples.md#code-sample-how-to-customize-dialog-fields).  
 >
 
@@ -459,9 +452,9 @@ When migrating a component that was designed for use with the classic UI to a co
     * You will need to create a new dialog for use in the touch-enabled UI. However, for compatibility purposes the touch-enabled UI can use the definition of a classic UI dialog, when no dialog has been defined for the touch-enabled UI. 
     * The [AEM Modernization Tools](/help/sites-developing/modernization-tools.md) is provided to help you extend existing components.
     * [Mapping ExtJS to Granite UI Components](/help/sites-developing/touch-ui-concepts.md#extjs-and-corresponding-granite-ui-components) provides a convenient overview of ExtJS xtypes and node types with their equivalent Granite UI resource types.
-    * Customizing fields, for more information see the AEM Gems session on [Customizing Dialog Fields](https://docs.adobe.com/content/ddc/en/gems/customizing-dialog-fields-in-touch-ui.html).
+    * Customizing fields, for more information see the AEM Gems session on [Customizing Dialog Fields](https://experienceleague.adobe.com/docs/experience-manager-gems-events/gems/gems2015/aem-customizing-dialog-fields-in-touch-ui.html).
     * Migrate from vtypes to [Granite UI validation](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/clientlibs/foundation/js/validation/index.html)
-    * Using JS listeners, for more information see [Handling Field Events](#handling-field-events) and the AEM Gems session on [Customizing Dialog Fields](https://docs.adobe.com/content/ddc/en/gems/customizing-dialog-fields-in-touch-ui.html).
+    * Using JS listeners, for more information see [Handling Field Events](#handling-field-events) and the AEM Gems session on [Customizing Dialog Fields](https://experienceleague.adobe.com/docs/experience-manager-gems-events/gems/gems2015/aem-customizing-dialog-fields-in-touch-ui.html).
 
 ### Migrating cq:listener Code {#migrating-cq-listener-code}
 
