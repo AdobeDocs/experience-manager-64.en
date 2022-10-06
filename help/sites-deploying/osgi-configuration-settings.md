@@ -54,8 +54,6 @@ The following OSGi configuration settings (listed according to bundle) are relev
 
 * Other changes should not be necessary and care must be taken as they can affect access to the repository.
 
-**Wiki Mail Service** Configure the email settings for emails sent by a wiki.
-
 **Apache Felix OSGi Management Console** Configure:
 
 * **Plugins**, the main navigation items (console plugins) to be available in the **Apache Felix Web Management Console** as top level menu items. Disable any you do not need as each requires space and resources.
@@ -244,8 +242,6 @@ Various parameters can be set, including:
 
 * **Default Extensions** The list of extensions for which the default behavior will be used. This means that the last path segment of the resource type can be used as the script name.
 
-**Day Commons GFX Font Helper** When rendering graphics you can use DrawText to embed text. For this you can also install your own fonts:
-
 * Define the **Font Path** to be searched for project specific fonts. 
 
   For example, `/apps/myapp/fonts`.
@@ -282,7 +278,7 @@ When creating a new configuration, do not make changes to the factory configurat
 
 >[!CAUTION]
 >
->When changing the setting for either **Minify** or **Gzip** you will also need to delete the contents of `/var/clientlibs`. This is a cached version of the clientlibs and will be rebuilt when next requested.
+>When changing the setting for either **Minify** or **Gzip** you will also need to delete the contents of clientlibs cache. Refer to this [Knowledge Base article](https://helpx.adobe.com/ca/experience-manager/kb/How-to-force-a-recompilation-of-all-Sling-scripts-jsps-java-sightly-on-AEM-6-4.html) for details.
 
 >[!NOTE]
 >
@@ -442,10 +438,6 @@ Controls the HTML Parser for the CQ rewriter.
 **Day Commons JDBC Connections Pool** Configure access to an external database being used as a source for content.
 
 This is a Factory Configuration, so multiple instances can be configured.
-
-**Adobe CQ Media DPS Sessions Service** Manage DPS Sessions for use with Publications.
-
-In particular you can define the `dps.session.service.url.name`: default is set to [https://dpsapi2.digitalpublishing.acrobat.com/webservices/sessions](https://dpsapi2.digitalpublishing.acrobat.com/webservices/sessions)
 
 **CDN Rewriter** Communication between AEM and a CDN must be ensured so that assets/binaries are delivered to end user in a secure way. This involves two tasks:
 

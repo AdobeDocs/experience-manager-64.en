@@ -17,9 +17,9 @@ If you use Adobe Experience Manager set up for different environments, such deve
 
 The following architecture diagram describes how Dynamic Media - Scene7 mode works.
 
-With the new architecture, Experience Manager is responsible for master assets and synchs with Dynamic Media for asset processing and publishing:
+With the new architecture, Experience Manager is responsible for primary assets and synchs with Dynamic Media for asset processing and publishing:
 
-1. When the master asset is uploaded to Experience Manager, it is replicated to Dynamic Media. At that point, Dynamic Media handles all asset processing and rendition generation, such as video encoding and dynamic variants of an image. 
+1. When the primary asset is uploaded to Experience Manager, it is replicated to Dynamic Media. At that point, Dynamic Media handles all asset processing and rendition generation, such as video encoding and dynamic variants of an image. 
 1. After the renditions are generated, Experience Manager can securely access and preview the remote Dynamic Media renditions (no binaries are sent back to the Experience Manager instance). 
 1. After content is ready to be published and approved, it triggers the Dynamic Media service to push content out to delivery servers and cache content at the CDN.
 
@@ -27,13 +27,13 @@ With the new architecture, Experience Manager is responsible for master assets a
 
 ## Enabling Dynamic Media in Scene7 mode {#enabling-dynamic-media-in-scene-mode}
 
-[Dynamic Media](https://www.adobe.com/solutions/web-experience-management/dynamic-media.html) is disabled by default. To take advantage of Dynamic Media features, you must enable it.
+[Dynamic Media](https://www.adobe.com/marketing-cloud/enterprise-content-management/dynamic-media.html) is disabled by default. To take advantage of Dynamic Media features, you must enable it.
 
 >[!WARNING]
 >
 >Dynamic Media - Scene7 mode is for the *Experience Manager Author instance only*. As such, configure `runmode=dynamicmedia_scene7`on the Experience Manager Author instance, *not* the Experience Manager Publish instance.
 
-To enable Dynamic Media, you must startup Experience Manager using the `dynamicmedia_scene7` run mode from the command line by entering the following in a terminal window (example port used is 4502):
+To enable Dynamic Media, you must start Experience Manager using the `dynamicmedia_scene7` run mode from the command line by entering the following in a terminal window (example port used is 4502):
 
 ```shell
 java -Xms4096m -Xmx4096m -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=500000 -jar cq-quickstart-6.4.0.jar -gui -r author,dynamicmedia_scene7 -p 4502
@@ -83,8 +83,12 @@ Change the password, before you configure Dynamic Media Cloud Services. After yo
 
 1. If the connection is successful, you can also set the following:
 
-    * **[!UICONTROL Company]** - the name of the Dynamic Media account. It is possible to have multiple Dynamic Media accounts for different subbrands, divisions, or different staging/production environments.
-    * **[!UICONTROL Company Root Folder Path]**
+    * **[!UICONTROL Company]** - the name of the Dynamic Media account.
+    
+      >[!IMPORTANT]
+      >
+      >Only one Dynamic Media Configuration in Cloud Services is supported on an instance of Experience Manager; do not add more than one configuration. Multiple Dynamic Media Configurations on an Experience Manager instance is *not* supported or recommended by Adobe.<!-- CQDOC-19579 and CQDOC-19612 -->
+    * **[!UICONTROL Company Root Folder Path]** - Your company’s root folder path.
     * **[!UICONTROL Publishing Assets]** - the option **[!UICONTROL Immediately]** means that when assets are uploaded, the system ingests the assets and provides the URL/Embed instantly. There is no user intervention necessary to publish assets. The option **[!UICONTROL Upon Activation]** means that you must explicitly publish the asset first before a URL/Embed link is provided.
     * **[!UICONTROL Secure Preview Server]** - lets you specify the URL path to your secure renditions preview server. That is, after renditions are generated, Experience Manager can securely access and preview the remote Dynamic Media renditions (no binaries are sent back to the Experience Manager instance).  
 
@@ -183,7 +187,7 @@ Dynamic media color management lets you color correct assets. With color correct
 
 1. Open the [Dynamic Media Classic desktop application](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/signing-out.html#getting-started), then sign in to your account using credentials provided during provisioning. Navigate to **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]**.
 1. Expand the **[!UICONTROL Publish Setup]** area and select **[!UICONTROL Image Server]**. Set **[!UICONTROL Publish Context]** to **[!UICONTROL Image Serving]** when setting defaults for publish instances.
-1. Scroll to the property you must change. For example, a property in the **[!UICONTROL Color Management Attributes]** area.
+1. Scroll to the property that you must change. For example, a property in the **[!UICONTROL Color Management Attributes]** area.
 
    You can set the following color correction properties:
 
@@ -228,7 +232,7 @@ See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 1. On the right side of the CRXDE Lite page, in the lower portion:
 
     * double-click the **[!UICONTROL enabled]** field. By default all asset mime types are enabled (set to **[!UICONTROL true]**), which means the assets are synched to Dynamic Media for processing. If you want to exclude this asset mime type from being processed, change this setting to **[!UICONTROL false]**.
-    * double-click **[!UICONTROL jobParam]** to open its associated text field. See [Supported Mime Types](assets-formats.md#supported-mime-types) for a list of permitted processing parameter values you can use for a given mime type.
+    * double-click **[!UICONTROL jobParam]** to open its associated text field. See [Supported Mime Types](assets-formats.md#supported-mime-types) for a list of permitted processing parameter values that you can use for a given mime type.
 
 1. Do one of the following:
 
@@ -239,7 +243,7 @@ See [Uploading Assets](managing-assets-touch-ui.md#uploading-assets).
 
 #### Adding custom MIME types for unsupported formats {#adding-custom-mime-types-for-unsupported-formats}
 
-You can add custom MIME types for unsupported formats in Experience Manager Assets. To ensure that any new node you add in CRXDE Lite is not deleted by Experience Manager, move the MIME type before **[!UICONTROL image_]** and its enabled value is set to **[!UICONTROL false]**.
+You can add custom MIME types for unsupported formats in Experience Manager Assets. To ensure that any new node that you add in CRXDE Lite is not deleted by Experience Manager, move the MIME type before **[!UICONTROL image_]** and its enabled value is set to **[!UICONTROL false]**.
 
 **To add custom MIME types for unsupported formats:**
 
@@ -322,7 +326,7 @@ Two elements are available for definition, **[!UICONTROL Match]** and **[!UICONT
 
    >[!NOTE]
    >
-   >De-activated form fields perform no validation that your regular expressions are correct. You see results of the regular expression you are building for each element after the Result line. The complete regular expression is visible at the bottom of the page.
+   >De-activated form fields perform no validation that your regular expressions are correct. You see results of the regular expression that you are building for each element after the Result line. The complete regular expression is visible at the bottom of the page.
 
 1. Expand each element as necessary and enter the naming conventions you want to use.
 1. As necessary, do any of the following:

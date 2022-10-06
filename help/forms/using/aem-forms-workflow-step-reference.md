@@ -118,7 +118,7 @@ The Document of Record step has the following properties:
 
 **Input Data Path:** Path of the input data for the adaptive form. You can keep the data at a location relative to the payload or specify an absolute path of the data. The input data is merged with the adaptive form to create a document of record.
 
-**Input Attachement Path:** Input Attachment Path: Path of the attachments. These attachments are included in the Document of Record. You can keep the attachments at a location relative to the payload or specify an absolute path of the attachments.
+**Input Attachment Path:** Input Attachment Path: Path of the attachments. These attachments are included in the Document of Record. You can keep the attachments at a location relative to the payload or specify an absolute path of the attachments.
 
 If you specify the path of a folder, for example, attachments, all the files directly available in the folder are attached to Document of Record. If any files are available in the folders directly available in the specified attachment path, the files are included in Document of Record as attachments. If there are any folders in directly available folders, those are skipped.
 
@@ -216,6 +216,9 @@ The Sign Document step enables you to use Adobe Sign to sign documents. The Sign
 * **Adobe Sign Cloud Configuration**: Choose an Adobe Sign Cloud Configuration. If you have not configured Adobe Sign for AEM Forms, see [Integrate Adobe Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md). 
 
 * **Document to be Signed:** You can choose a document from a location relative to the payload, use payload as the document, or specify an absolute path of the document.
+* **Input Attachment Path:** Select an attachment. These attachments are included in the Signing Document. You can keep the attachments at a location relative to the payload or specify an absolute path of the attachments.
+
+    If you specify the path of a folder, for example, attachments, all the files directly available in the folder are attached to Document of Record. If any files are available in the folders directly available in the specified attachment path, the files are included in Signing Document as attachments. If there are any folders in directly available folders, those are skipped.  
 * **Days Until Deadline:** A document is marked due (passed deadline) after there is no activity on the task for the number of days specifies in the **Days Until Deadline** field. The number of days are counted after the documented is assigned to a user for signing.
 
 * **Reminder Email Frequency:** You can send a reminder email at daily or weekly interval. The week is counted from the day the documented is assigned to a user for signing.
