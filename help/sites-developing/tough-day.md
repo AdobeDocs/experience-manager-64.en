@@ -15,7 +15,7 @@ exl-id: 80442184-212a-424d-b320-5b301a54f974
 
 ## What is Tough Day 2 {#what-is-tough-day}
 
-Tough Day 2 is a an application that allows you to stress test the limits of your AEM instance. It can be run out of the box with the default test suite or it can be configured to fit your testing needs. You can watch [this recording](https://docs.adobe.com/ddc/en/gems/Toughday2---A-new-and-improved-stress-testing-and-benchmarking-tool.html) for a presentation of the application.
+Tough Day 2 is a an application that allows you to stress test the limits of your AEM instance. It can be run out of the box with the default test suite or it can be configured to fit your testing needs. You can watch [this recording](https://experienceleague.adobe.com/docs/experience-manager-gems-events/gems/gems2017/aem-toughday2-stress-testing-benchmarking-tool.html) for a presentation of the application.
 
 ## How to run Tough Day 2 {#how-to-run-tough-day}
 

@@ -99,6 +99,6 @@ For information on how Adobe Experience Manager integrates with Adobe Campaign, 
 
 Learn about Adobe Experience Manager and Livefyre:
 
-* [Getting Started with Livefyre](https://answers.livefyre.com/developers/getting-started)  
+* [Getting Started with Livefyre](https://experienceleague.adobe.com/docs/livefyre/implementation/getting-started/c-getting-started.html)  
 
-* [Livefyre and Adobe Experience Manager](https://answers.livefyre.com/product/livefyre-for-adobe-experience-manager-aem/livefyre-for-adobe-experience-manager/)
+* [Livefyre and Adobe Experience Manager](/help/sites-administering/livefyre.md)

@@ -23,9 +23,9 @@ The AEM Livefyre Package provides an out-of-box implementation, whereas the trad
 
 ### AEM Integration {#aem-integration}
 
-The Livefyre Adobe Experience Manager Package is available for AEM 6.1, 6.2SP1, 6.3, ,6.4 and 6.4 SP1. AEM 5.x and 6.0 are not supported. For detailed instructions, see [Integrating with Livefyre](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html).
+The Livefyre Adobe Experience Manager Package is available for AEM 6.1, 6.2SP1, 6.3, ,6.4 and 6.4 SP1. AEM 5.x and 6.0 are not supported. For detailed instructions, see [Integrating with Livefyre](/help/sites-administering/livefyre.md).
 
-To see which Livefyre Apps are supported, see the [AEM Support Matrix for Livefyre Apps](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/livefyre.html#AEMSupportMatrixforLivefyreApps).
+To see which Livefyre Apps are supported, see the [AEM Support Matrix for Livefyre Apps](/help/sites-administering/livefyre.md#aem-support-matrix-for-livefyre-apps).
 
 ### Traditional Implementation (for customized AEM components) {#traditional-implementation-for-customized-aem-components}
 
@@ -125,29 +125,26 @@ For advanced customizations using the SDK, please see [StreamHub SDKs](https://g
 * [Customize Single Sign on Integration](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/livefyre.html#CustomizeSingleSignonIntegration) for AEM Identity Management
 * [Identity Integration](https://docs.adobe.com/content/help/en/livefyre/implementation/identity-integration/t-about-identity-integration.html) for third party authentication platforms
 
-### Customer Examples {#customer-examples-1}
-
-* [Poise (Kimberly Klark)](https://www.poise.com/en-us/advice-and-support/blog-and-podcast/blog/5-holiday-party-tips-for-managing-lbl)
 
 ## Use Livefyre AEM Assets integration to import UGC in AEM Assets {#use-livefyre-aem-assets-integration-to-import-ugc-in-aem-assets}
 
 **Livefyre Setup (for UGC Curation and Rights Management):**
 
-1. [Configure Streams and Add Rules to curate UGC to Livefyre Asset Library Folders](https://docs.adobe.com/content/help/en/livefyre/using/streams/c-streams.html).
+1. [Configure Streams and Add Rules to curate UGC to Livefyre Asset Library Folders](https://experienceleague.adobe.com/docs/livefyre/using/streams/c-streams.html).
 
     1. For training videos on streaming UGC, see [Create Automatic Content Streams and Search Social Content in Adobe Experience Manager Livefyre](https://helpx.adobe.com/experience-manager/tutorials.html).
 
-1. [Gather, organize, and manage curated UGC in Livefyre Asset Library folders](https://docs.adobe.com/content/help/en/livefyre/using/library/assets/c-assets.html).
+1. [Gather, organize, and manage curated UGC in Livefyre Asset Library folders](https://experienceleague.adobe.com/docs/livefyre/using/library/assets/c-assets.html).
 
     1. For training videos on creating and managing folders in the Livefyre Studio Asset Library, see [Work with Assets in Adobe Experience Manager Livefyre](https://helpx.adobe.com/experience-manager/tutorials.html).
 
-1. [Request Rights for curated UGC using Livefyre Studio](https://docs.adobe.com/content/help/en/livefyre/using/rights-requests/c-how-requesting-rights-works.html).
+1. [Request Rights for curated UGC using Livefyre Studio](https://experienceleague.adobe.com/docs/livefyre/using/rights-requests/c-how-requesting-rights-works.html).
 
 **AEM Setup (for importing UGC to AEM Assets):**
 
-1. [Getting Started](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/livefyre.html#GettingStarted)
-1. [Configure AEM to use Livefyre](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/livefyre.html#ConfigureAEMtouseLivefyre)
-1. [Import UGC curated by Livefyre in to AEM Assets](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/livefyre.html#UseLivefyrewithAEMAssets)
+1. [Getting Started](/help/sites-administering/livefyre.md#getting-started)
+1. [Configure AEM to use Livefyre](/help/sites-administering/livefyre.md#configure-aem-to-use-livefyre-create-a-configuration-folder)
+1. [Import UGC curated by Livefyre in to AEM Assets](/help/sites-administering/livefyre.md#use-livefyre-with-aem-assets)
 
 * [Tourism Australia](https://www.australia.com/en-us)
 

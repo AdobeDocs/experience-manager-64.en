@@ -15,8 +15,7 @@ exl-id: 77111a12-1d9d-4f2d-a2f2-6b2f66709fce
 
 ## AEM 6.4 Tutorial Videos {#aem-64-tutorial-videos}
 
-* [AEM 6.4 Training Videos](https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html)
-* [AEM Tutorials](https://helpx.adobe.com/experience-manager/tutorials.html)
+* [AEM Tutorials and Videos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html#tutorials)
 
 ## Classes and Certification {#classes-and-certification}
 

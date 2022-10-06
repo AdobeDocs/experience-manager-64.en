@@ -18,8 +18,7 @@ Adobe has a number of key resources to help you get the best from AEM.
 
 The AEM Community is constantly producing example workflows, tutorials and content code samples from suggestions and collaborative work.
 
-* [A full list of AEM 6.4 tutorials and videos is here.](https://helpx.adobe.com/experience-manager/kt/index/aem-6-4-videos.html)
-* [A full list of AEM Community how-ro articles is here.](https://helpx.adobe.com/experience-manager/topics/how-to.html)
+* [A full list of AEM 6.4 tutorials and videos is here.](https://experienceleague.adobe.com/docs/experience-manager-tutorials.html#videos-and-tutorials)
 * [A full list of AEM knowledge base articles is here.](https://helpx.adobe.com/experience-manager/kb/index/full_kb_list.html)
 
 ## Best practices for AEM {#best-practices}
@@ -40,9 +39,9 @@ AEM has many uses in organizations and is broad enough to deliver functionality 
 * [AEM Forms Getting Started](/help/forms/using/introduction-aem-forms.md)
 * [AEM Mobile Getting Started](/help/mobile/getting-started-aem-mobile.md)
 * [AEM Communities Getting Started](/help/communities/getting-started.md)
-* [AEM Livefyre Getting Started](https://answers.livefyre.com/developers/getting-started/)
+* [AEM Livefyre Getting Started](https://experienceleague.adobe.com/docs/livefyre/implementation/getting-started/c-getting-started.html)
 
-We also have a new [WKND tutorial, which is a step-by-step guide to the creation of your first website using AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) as well as a [step-by-step recipe for deploying our Digital Foundation solution](https://helpx.adobe.com/marketing-cloud/how-to/digital-foundation.html), for which AEM is a key building block.
+We also have a new [WKND tutorial, which is a step-by-step guide to the creation of your first website using AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) as well as a [step-by-step recipe for deploying our Digital Foundation solution](https://experienceleague.adobe.com/#courses), for which AEM is a key building block.
 
 ## Recommended deployments for AEM {#deployments}
 

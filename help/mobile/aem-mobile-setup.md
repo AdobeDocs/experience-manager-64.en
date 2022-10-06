@@ -31,7 +31,7 @@ To get started with AEM Mobile set up, you need to:
 
 * **Request an API key**: To access the On-Demand Services API, you need to request an API key. To request the API key, complete the [PDF form](https://helpx.adobe.com/digital-publishing-solution/help/integrating-dps.html). Send the completed form to Adobe Developer Support: [wwds@adobe.com](mailto:wwds@adobe.com)
 
-* **Generate the Device ID and Device Token**: Once you have received your API key, you can generate the device id and device token. Go to [https://aex.aemmobile.adobe.com](https://aex.aemmobile.adobe.com/) and do the following:
+* **Generate the Device ID and Device Token**: Once you have received your API key, you can generate the device id and device token. Go to aex.aemmobile.adobe.com and do the following:
 
   * Provide the API Key
   * Login with an Adobe ID that you have added to an AEM Mobile project with following permissions (see below steps to create project)
