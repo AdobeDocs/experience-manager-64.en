@@ -51,4 +51,4 @@ With the default permissions:
 
 ## Protect against Cross-Site Request Forgery Attacks {#protect-against-cross-site-request-forgery-attacks}
 
-For more information on the security mechanisms AEM employs to mitigate CSRF attacks, see the [Sling Referrer Filter](/help/sites-administering/security-checklist.md#protect-against-cross-site-request-forgery) section of the Security Checklist and the [CSRF Protection Framwork documentation](/help/sites-developing/csrf-protection.md).
+For more information on the security mechanisms AEM employs to mitigate CSRF attacks, see the [Sling Referrer Filter](/help/sites-administering/security-checklist.md#protect-against-cross-site-request-forgery) section of the Security Checklist and the [CSRF Protection Framework documentation](/help/sites-developing/csrf-protection.md).
