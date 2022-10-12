@@ -3,12 +3,6 @@ title: Security
 seo-title: Security
 description: Application Security starts during the development phase
 seo-description: Application Security starts during the development phase
-uuid: efd5f3bc-da07-4fc8-a6ce-f1e6f5084c9e
-contentOwner: Guillaume Carlino
-products: SG_EXPERIENCEMANAGER/6.4/SITES
-topic-tags: introduction
-content-type: reference
-discoiquuid: d2267663-6c1d-413c-9862-e82e21ae6906
 exl-id: 22c48f8c-38df-4c9b-88cf-67f6ae46e7e1
 ---
 # Security{#security}
