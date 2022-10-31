@@ -23,16 +23,16 @@ The reference sites allow you to explore and showcase the following key capabili
 * Data integration to connect to disparate data sources to prefill and submit form data through a form data model.
 * Forms workflow to automate business processes and workflows.
 * Advanced user data managing and processing capabilities.
-* Integration with Adobe Sign to securely sign and submit adaptive forms.
+* Integration with Acrobat Sign to securely sign and submit adaptive forms.
 * Integration with Adobe Target to serve targeted recommendations and perform A/B testing to maximize the ROI from a form.
 * Integration with Adobe Analytics to measure the performance of a form or a campaign and take informed decisions.
 * Enhanced form filling experience.
 
 The reference sites provide reusable assets that you can use as templates to create your own assets.
 
-* Integration with Adobe Sign to securely sign and submit adaptive forms.
+* Integration with Acrobat Sign to securely sign and submit adaptive forms.
 
-* Integration with Adobe Sign to securely sign and submit adaptive forms.
+* Integration with Acrobat Sign to securely sign and submit adaptive forms.
 
 ## Prerequisites and steps to set up reference sites {#prerequisites-and-steps-to-set-up-reference-sites}
 
@@ -45,9 +45,9 @@ Before you set up the reference site, ensure that you have the following:
 * **An SMTP service** 
   You can use any SMTP service.
 
-* **Adobe Sign developer account and Adobe Sign API application**
+* **Acrobat Sign developer account and Acrobat Sign API application**
   
-  To use digital signing capabilities, Adobe Sign developer account is required. See [Adobe Sign](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html).
+  To use digital signing capabilities, Acrobat Sign developer account is required. See [Acrobat Sign](https://acrobat.adobe.com/us/en/why-adobe/developer-form.html).
 
 * A running instance of Microsoft Dynamics 365 to integrate with AEM Forms. To run the reference site, you import the sample data into the Microsoft Dynamics instance to prefill the interactive communication used in the reference site.
 * A running instance of AEM 6.4 with Forms add-on package. For more information, see [Installing and configuring AEM Forms](installing-configuring-aem-forms-osgi.md).
@@ -69,7 +69,7 @@ Perform the following steps in the recommended sequence to set up and configure 
   <tr> 
    <td><a href="#ssl">Configure SSL</a></td> 
    <td>Author and Publish<br /> </td> 
-   <td>Enable HTTP over SSL for secure communications with Adobe Sign.</td> 
+   <td>Enable HTTP over SSL for secure communications with Acrobat Sign.</td> 
   </tr> 
   <tr> 
    <td><p><a href="#externalizer">Configure Day CQ Link Externalizer configuration</a></p> </td> 
@@ -107,12 +107,12 @@ Perform the following steps in the recommended sequence to set up and configure 
    <td>Configure the OAuth cloud service in AEM Forms to enable communication between AEM Forms and Microsoft Dynamics. </td> 
   </tr> 
   <tr> 
-   <td><a href="#scheduler">Configure Adobe Sign Scheduler</a></td> 
+   <td><a href="#scheduler">Configure Acrobat Sign Scheduler</a></td> 
    <td>Author and Publish<br /> </td> 
    <td>Change the configuration of the scheduler to check status every two minutes.</td> 
   </tr> 
   <tr> 
-   <td><a href="#sign-service">Configure Reference Site Adobe Sign Cloud Service</a></td> 
+   <td><a href="#sign-service">Configure Reference Site Acrobat Sign Cloud Service</a></td> 
    <td>Author and Publish<br /> </td> 
    <td>A configuration that comes with reference sites packages and needs reconfiguration with valid credentials.</td> 
   </tr> 
@@ -139,7 +139,7 @@ Install and deploy AEM Forms as described in [Installing and configuring AEM For
 
 ## Configure SSL {#ssl}
 
-SSL configuration is required to communicate with Adobe Sign servers. For detailed steps, see [Enabling HTTP Over SSL](/help/sites-administering/ssl-by-default.md).
+SSL configuration is required to communicate with Acrobat Sign servers. For detailed steps, see [Enabling HTTP Over SSL](/help/sites-administering/ssl-by-default.md).
 
 >[!CAUTION]
 >
@@ -269,33 +269,33 @@ Configure the OAuth cloud service in AEM Forms to enable communication between A
 1. In the input request section, specify the value for customer ID as “900001” and click **[!UICONTROL Test]**. The Output section displays the records fetched from Microsoft Dynamics for customer ID 900001.
 1. Repeat steps 1-6 on the publish instance.
 
-## Configure Adobe Sign Scheduler {#scheduler}
+## Configure Acrobat Sign Scheduler {#scheduler}
 
 Do the following on both author and publish instances:
 
 1. Go to AEM Web Configuration console at `https://[server]:[host]/system/console/configMgr`.
-1. Find and tap **[!UICONTROL Adobe Sign Configuration Service]** to open it for configuration.
+1. Find and tap **[!UICONTROL Acrobat Sign Configuration Service]** to open it for configuration.
 1. Configure **[!UICONTROL Status Update Scheduler Expression]** as **0 0/2 &ast; &ast; &ast; ?**.
 
    >[!NOTE]
    >
-   >The above scheduler configuration checks the status of the Adobe Sign service every two minutes.
+   >The above scheduler configuration checks the status of the Acrobat Sign service every two minutes.
 
 1. Tap **[!UICONTROL Save]**.
 
-## Configure reference site Adobe Sign cloud service {#sign-service}
+## Configure reference site Acrobat Sign cloud service {#sign-service}
 
 Do the following on both author and publish instances:
 
-1. Go to **[!UICONTROL Tools > Cloud Services > Adobe Sign > global]**. Select **[!UICONTROL AEM Forms Reference Site Sign]** and tap **[!UICONTROL Properties]**.
+1. Go to **[!UICONTROL Tools > Cloud Services > Acrobat Sign > global]**. Select **[!UICONTROL AEM Forms Reference Site Sign]** and tap **[!UICONTROL Properties]**.
 
    >[!CAUTION]
    >
-   >Ensure that the https://[host]:[ssl_port]/mnt/overlay/adobesign/cloudservices/adobesign/properties.html URL is added to the redirect URL list of OAuth configuration of Adobe Sign API application.
+   >Ensure that the https://[host]:[ssl_port]/mnt/overlay/adobesign/cloudservices/adobesign/properties.html URL is added to the redirect URL list of OAuth configuration of Acrobat Sign API application.
 
-1. Specify Client Id and secret of the Adobe Sign application OAuth configuration.
-1. (Optional) Select the **[!UICONTROL Enable Adobe Sign for attachments also]** option, and tap **[!UICONTROL Connect to Adobe Sign]**. It appends the files attached to an adaptive forms to the corresponding Adobe Sign document sent for signing.
-1. Tap **[!UICONTROL Connect to Adobe Sign]** and log in with your Adobe Sign credentials.
+1. Specify Client Id and secret of the Acrobat Sign application OAuth configuration.
+1. (Optional) Select the **[!UICONTROL Enable Acrobat Sign for attachments also]** option, and tap **[!UICONTROL Connect to Acrobat Sign]**. It appends the files attached to an adaptive forms to the corresponding Acrobat Sign document sent for signing.
+1. Tap **[!UICONTROL Connect to Acrobat Sign]** and log in with your Acrobat Sign credentials.
 
 ## Configure Forms Common Configuration Service {#anonymous}
 

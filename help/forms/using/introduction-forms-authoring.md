@@ -103,8 +103,8 @@ The sidebar comprises the following browsers:
    <th><strong>Functionality</strong></th> 
   </tr> 
   <tr> 
-   <td>Adobe Sign Block</td> 
-   <td>Adds a block of text with placeholders for fields to be filled while signing using Adobe Sign.</td> 
+   <td>Acrobat Sign Block</td> 
+   <td>Adds a block of text with placeholders for fields to be filled while signing using Acrobat Sign.</td> 
   </tr> 
   <tr> 
    <td>Button</td> 
@@ -148,7 +148,7 @@ The sidebar comprises the following browsers:
   </tr> 
   <tr> 
    <td>File attachment</td> 
-   <td><p>Adds a button that allows users to browse and attach supporting documents to a form.</p> <p><strong>Note: </strong>The File Attachment component supports a pre-defined set of file formats in adaptive forms enabled for Adobe Sign. For more information, see <a href="https://helpx.adobe.com/document-cloud/help/supported-file-formats-fill-sign.html">Supported file formats</a>.</p> </td> 
+   <td><p>Adds a button that allows users to browse and attach supporting documents to a form.</p> <p><strong>Note: </strong>The File Attachment component supports a pre-defined set of file formats in adaptive forms enabled for Acrobat Sign. For more information, see <a href="https://helpx.adobe.com/document-cloud/help/supported-file-formats-fill-sign.html">Supported file formats</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>File attachment listing</td> 

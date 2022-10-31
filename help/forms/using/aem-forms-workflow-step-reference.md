@@ -12,7 +12,7 @@ exl-id: f8e25989-6ed3-4b35-95e5-fbfd7c51d622
 
 ## Forms Workflow Steps {#forms-workflow-steps}
 
-Forms workflow steps perform AEM Forms-specific operations in an AEM workflow. These steps allow you rapidly build adaptive forms based Forms-centric workflow on OSGi. These workflows can be used for developing basic review- and approval-workflows, internal- and acros- the-firewall business processes. You can also use Forms Workflow steps to start document services, integrate with Adobe Sign signature workflow, and perform other AEM Forms operations. You require [AEM Forms add-on](https://www.adobe.com/go/learn_aemforms_documentation_63) to use these steps in a workflow.
+Forms workflow steps perform AEM Forms-specific operations in an AEM workflow. These steps allow you rapidly build adaptive forms based Forms-centric workflow on OSGi. These workflows can be used for developing basic review- and approval-workflows, internal- and acros- the-firewall business processes. You can also use Forms Workflow steps to start document services, integrate with Acrobat Sign signature workflow, and perform other AEM Forms operations. You require [AEM Forms add-on](https://www.adobe.com/go/learn_aemforms_documentation_63) to use these steps in a workflow.
 
 ## Assign task step {#assign-task-step}
 
@@ -100,7 +100,7 @@ The email step uses Day CQ Mail Service to send emails. Before using the email s
 * **Asset URL:** Use the option to embed a web link of an interactive communication to the email. After selecting the option, browse and choose the interactive communication to embed. The asset can reside on the author or the publish server.
 * **Image:** Use the option to embed an image to the email. After selecting the option, browse and choose the image. The image option is available only for the image tags (&lt;img src="&ast;"/&gt;) available in the email template.
 
-**Sender’s / Recipient's Email Address:** Select the **Literal** option to manually specify an email address or select the **Retrieve from Workflow metadata** option to retrieve the email address from a metadata property. You can also specify a list of metadata property arrays for the **Retrieve from Workflow metadata** option.
+**Sender's / Recipient's Email Address:** Select the **Literal** option to manually specify an email address or select the **Retrieve from Workflow metadata** option to retrieve the email address from a metadata property. You can also specify a list of metadata property arrays for the **Retrieve from Workflow metadata** option.
 
 **File Attachment Path:** The asset available at the specified location is attached to the email. The path of the asset can be relative to the payload or absolute path. An example path is [Payload_Directory]/attachments/
 
@@ -209,11 +209,11 @@ The Invoke Form Data Model Service step has the below listed fields to facilitat
 
 ## Sign Document step {#sign-document-step}
 
-The Sign Document step enables you to use Adobe Sign to sign documents. The Sign Document step has the following properties:
+The Sign Document step enables you to use Acrobat Sign to sign documents. The Sign Document step has the following properties:
 
 * **Agreement Name:** Specify the title of the agreement. The agreement name becomes part of the subject and body text of the email sent to the signers.
 * **Locale:** Specify the language for the email and verification options.
-* **Adobe Sign Cloud Configuration**: Choose an Adobe Sign Cloud Configuration. If you have not configured Adobe Sign for AEM Forms, see [Integrate Adobe Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md). 
+* **Acrobat Sign Cloud Configuration**: Choose an Acrobat Sign Cloud Configuration. If you have not configured Acrobat Sign for AEM Forms, see [Integrate Acrobat Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md). 
 
 * **Document to be Signed:** You can choose a document from a location relative to the payload, use payload as the document, or specify an absolute path of the document.
 * **Input Attachment Path:** Select an attachment. These attachments are included in the Signing Document. You can keep the attachments at a location relative to the payload or specify an absolute path of the attachments.
@@ -229,8 +229,8 @@ The Sign Document step enables you to use Adobe Sign to sign documents. The Sign
 * **Select Signers:** Specify the method to choose signers for the document. You can dynamically assign the workflow to a user or a group or manually add details of a signer.
 * **Script or service to select signers:** The option is available only if the Dynamically option is selected in the Select Signers field. You can specify an ECMAScript or a service to choose signers and verification options for a document.  
 
-* **Signer Details:** The option is available only if the Manually option is selected in the Select Signers field. Specify email address and choose an optional verification mechanism. Before selecting a 2-step verification mechanism, ensure that the corresponding verification option is enabled for the configured Adobe Sign account.
-* **Status Variable:** An Adobe Sign enabled document stores signing status of the document in a variable. Specify the name of the status variable (adobeSignStatus). A status variable of an instance is available in CRXDE at /etc/workflow/instances/&lt;server&gt;/&lt;date-time&gt;/&lt;instance of workflow model&gt;/workItems/&lt;node&gt;/metaData contains status of a variable.
+* **Signer Details:** The option is available only if the Manually option is selected in the Select Signers field. Specify email address and choose an optional verification mechanism. Before selecting a 2-step verification mechanism, ensure that the corresponding verification option is enabled for the configured Acrobat Sign account.
+* **Status Variable:** An Acrobat Sign enabled document stores signing status of the document in a variable. Specify the name of the status variable (adobeSignStatus). A status variable of an instance is available in CRXDE at /etc/workflow/instances/&lt;server&gt;/&lt;date-time&gt;/&lt;instance of workflow model&gt;/workItems/&lt;node&gt;/metaData contains status of a variable.
 * **Signed Document Path:** Specify the location to keep signed documents. You can choose to overwrite the payload file or place the signed document at a location within the payload directory.
 
 ## Document Services steps {#document-services-steps}
@@ -311,4 +311,4 @@ Encrypt, Sign, and certify a document. AEM Forms supports both password based an
 Send a document directly to a printer. It supports the following printing access mechanisms:
 
 * **Direct accessible printer**: A printer that is installed on the same computer is called a direct accessible printer, and the computer is named printer host. This type of printer can be a local printer that is connected to the computer directly.
-* **Indirect accessible printer**: The printer that is installed on a print server is accessed from other computers. Technologies such as the common UNIX® printing system (CUPS) and the Line Printer Daemon (LPD) protocol are available to connect to a network printer. To access an indirect accessible printer, specify the print server’s IP or host name. Using this mechanism, you can send a document to an LPD URI when the network has an LPD running. The mechanism lets you route the document to any printer that is connected to the network that has an LPD running.
+* **Indirect accessible printer**: The printer that is installed on a print server is accessed from other computers. Technologies such as the common UNIX&reg; printing system (CUPS) and the Line Printer Daemon (LPD) protocol are available to connect to a network printer. To access an indirect accessible printer, specify the print server's IP or host name. Using this mechanism, you can send a document to an LPD URI when the network has an LPD running. The mechanism lets you route the document to any printer that is connected to the network that has an LPD running.

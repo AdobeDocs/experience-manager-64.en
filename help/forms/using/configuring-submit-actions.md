@@ -16,7 +16,7 @@ exl-id: 2a842bdc-6dcf-42cc-9a45-57ac15b79eb7
 
 A submit action is triggered when a user clicks the Submit button on an adaptive form. You can configure the submit action on adaptive form. Adaptive forms provide a few out of the box submit actions. You can copy and extend the default submit actions to create you own submit action. However, based on your requirements,you can write and register your own submit action to process data in the submitted form.
 
-When a form is prefilled or submitted, the submitted data is routed through AEM for data massaging to intermediate formats. Data is not saved on an AEM instance except when the adaptive form uses Adobe Sign, verify, forms portal draft or submit, or AEM Workflows
+When a form is prefilled or submitted, the submitted data is routed through AEM for data massaging to intermediate formats. Data is not saved on an AEM instance except when the adaptive form uses Acrobat Sign, verify, forms portal draft or submit, or AEM Workflows
 
 You can configure a submit action in the **[!UICONTROL Submission]** section of the Adaptive Form Container properties, in the sidebar.
 

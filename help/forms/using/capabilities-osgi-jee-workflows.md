@@ -147,7 +147,7 @@ Form-centric AEM Workflows on OSGi and AEM Forms JEE Workflows (AEM Forms on JEE
    <td>Supported</td> 
   </tr>
   <tr>
-   <td>E-signature (Adobe Sign)</td> 
+   <td>E-signature (Acrobat Sign)</td> 
    <td>Supported <sup>[1]</sup></td> 
    <td>Supported <sup>[5]</sup></td> 
   </tr>
@@ -319,7 +319,7 @@ Form-centric AEM Workflows on OSGi and AEM Forms JEE Workflows (AEM Forms on JEE
 1. You require access to AEM Inbox to run and monitor AEM Forms OSGi AEM Workflows and HTML Workspace to run and monitor AEM Forms JEE Workflows.  
 1. Native AEM Forms Document Services are available for both Form-centric AEM Workflows on OSGi and AEM Forms on JEE Workflows. AEM Workflow uses native document services for Form-centric AEM Workflows on OSGi and AEM Forms JEE (Process Management) Workflows.
 1. AEM Forms JEE Workflows can only render an adaptive form. It does not support rendering an adaptive form as a PDF document.
-1. AEM forms JEE Workflows do not have a separate step for Adobe Sign. You require an Adobe Sign enabled adaptive form for AEM forms JEE Workflows. For more details, see [Adobe Sign documentation](/help/forms/using/working-with-adobe-sign.md#add-and-configure-the-signature-step-component).
+1. AEM forms JEE Workflows do not have a separate step for Acrobat Sign. You require an Acrobat Sign enabled adaptive form for AEM forms JEE Workflows. For more details, see [Acrobat Sign documentation](/help/forms/using/working-with-adobe-sign.md#add-and-configure-the-signature-step-component).
 1. You can use the [Invoke Form Data Model Service](/help/forms/using/aem-forms-workflow-step-reference.md#p-invoke-form-data-model-service-step-p) step to invoke a web-service service and post or retrieve data from a third-party application. 
 1. You can use the [Send Email](/help/forms/using/aem-forms-workflow-step-reference.md#send-email-step) step to send emails.
 

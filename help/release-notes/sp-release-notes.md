@@ -936,7 +936,7 @@ The key highlights for AEM 6.4.4.0 forms are:
 
 **Forms add-on package**
 
-**Adobe Sign Integration**
+**Acrobat Sign Integration**
 
 * AEM 6.4 Forms Client SDK does not contain adobesign-recipent package. NPR-27735: Hotfix for CQ-4259372
 

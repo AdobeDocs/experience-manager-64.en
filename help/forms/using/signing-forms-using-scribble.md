@@ -29,17 +29,17 @@ Both the components provide a window, as displayed below, to sign a form. You ca
    >
    >The Signature Step component takes up full width available for the form. It is recommended to not have any other component on the section containing the Signature Step component.
 
-1. In the Content browser, tap **Form Container**, and tap the **Configure** ![configure](assets/configure.png) icon. It opens properties browser and displays Adaptive Form container properties. Navigate to **Adaptive Form Container** &gt; **Electronic Signature** and deselect the **Enable Adobe Sign** option. Tap the Done ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png) icon to save the changes.
+1. In the Content browser, tap **Form Container**, and tap the **Configure** ![configure](assets/configure.png) icon. It opens properties browser and displays Adaptive Form container properties. Navigate to **Adaptive Form Container** &gt; **Electronic Signature** and deselect the **Enable Acrobat Sign** option. Tap the Done ![aem_6_3_forms_save](assets/aem_6_3_forms_save.png) icon to save the changes.
 
    >[!NOTE]
    >
-   >When you add a Signature Step component to an adaptive form, the Enable Adobe Sign option is selected automatically.
+   >When you add a Signature Step component to an adaptive form, the Enable Acrobat Sign option is selected automatically.
 
 1. Tap the **Configure** ![configure](assets/configure.png) icon. It opens properties browser and displays Signature step properties. Configure the following properties:
 
     * **Element Name**: Specify name of the component.
     * **Title:** Specify unique title of the component.
-    * **Template message:** Specify the message to be displayed while the signature PDF is being loaded. Adobe Sign services take some time to prepare and load signature PDF.
+    * **Template message:** Specify the message to be displayed while the signature PDF is being loaded. Acrobat Sign services take some time to prepare and load signature PDF.
     * **Signing Service:** Select the **Scribble Signature** option.
     * **CSS Class**: Specify CSS class of the client library, if any. It is recommended to use [themes](/help/forms/using/themes.md) and [in-line styles](/help/forms/using/inline-style-adaptive-forms.md) instead of CSS Class.
 

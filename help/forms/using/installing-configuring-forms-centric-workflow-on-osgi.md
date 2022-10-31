@@ -15,7 +15,7 @@ exl-id: 308b106f-4c5a-49d6-a7f6-c1e8a0bf62e9
 
 Enterprises collect and process data from multiple forms, back-end systems, and other data sources. The processing of data involves review and approval procedures, repetitive tasks, and data archiving. For example, reviewing a form and converting it to PDF document. When done manually, the repetitive tasks can take a lot of time and resources.
 
-You can use [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md) to rapidly build adaptive forms-based workflows. These workflows can help you automate review and approval workflows, business process workflows, and other repetitive tasks. These workflows also help process documents (create, assemble, distribute, and archive PDF documents, add digital signatures to limit access to documents, decode barcoded forms, and more) and use Adobe Sign signature workflow with forms and documents.
+You can use [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md) to rapidly build adaptive forms-based workflows. These workflows can help you automate review and approval workflows, business process workflows, and other repetitive tasks. These workflows also help process documents (create, assemble, distribute, and archive PDF documents, add digital signatures to limit access to documents, decode barcoded forms, and more) and use Acrobat Sign signature workflow with forms and documents.
 
 Once set up, these workflows can be triggered manually to complete a defined process or run programmatically when users submit a form or interactive communication. The capability is included in AEM Forms add-on package.
 
@@ -182,13 +182,13 @@ Perform the following steps to configure the adaptive forms cache:
    >
    >To disable the cache, set the value in the Number of Adaptive Forms field to **0**. The cache is reset and all forms and documents are removed from the cache when you disable or change the cache configuration.
 
-#### Configure Adobe Sign {#configure-adobe-sign}
+#### Configure Acrobat Sign {#configure-adobe-sign}
 
-Adobe Sign enables e-signature workflows for adaptive forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.
+Acrobat Sign enables e-signature workflows for adaptive forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.
 
-In a typical Adobe Sign and Forms-centric workflow on OSGi scenario, a user fills an adaptive form to apply for a service. For example, a credit card application and a citizen benefits form. When a user fills, submits, and signs the application form, an approval/rejection workflow is started. The service provider reviews the application in AEM Inbox and uses Adobe Sign to electronically sign the application. To enable similar electronic-signature workflows, you can integrate Adobe Sign with AEM Forms.
+In a typical Acrobat Sign and Forms-centric workflow on OSGi scenario, a user fills an adaptive form to apply for a service. For example, a credit card application and a citizen benefits form. When a user fills, submits, and signs the application form, an approval/rejection workflow is started. The service provider reviews the application in AEM Inbox and uses Acrobat Sign to electronically sign the application. To enable similar electronic-signature workflows, you can integrate Acrobat Sign with AEM Forms.
 
-To use Adobe Sign with AEM Forms, [Integrate Adobe Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md).
+To use Acrobat Sign with AEM Forms, [Integrate Acrobat Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md).
 
 ## Next steps {#next-steps}
 
