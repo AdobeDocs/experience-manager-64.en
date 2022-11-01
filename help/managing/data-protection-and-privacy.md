@@ -124,7 +124,7 @@ AEM Forms includes components and workflows that capture, process, and store dat
 
 * [Forms Portal](/help/forms/using/forms-portal-handling-user-data.md)
 * [Correspondence Management](/help/forms/using/correspondence-management-handling-user-data.md)
-* [Integration with Adobe Sign](/help/forms/using/integration-adobe-sign-handling-user-data.md)
+* [Integration with Acrobat Sign](/help/forms/using/integration-adobe-sign-handling-user-data.md)
 * [Forms-centric workflows on OSGi](/help/forms/using/forms-workflow-osgi-handling-user-data.md)
 * [Forms JEE workflows](/help/forms/using/forms-workflow-jee-handling-user-data.md) (AEM Forms JEE only)
 * [Document Security](/help/forms/using/document-security-handling-user-data.md) (AEM Forms JEE only)

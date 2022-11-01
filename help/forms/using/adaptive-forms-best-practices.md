@@ -179,9 +179,9 @@ Adaptive forms require Submit actions to process user-specified data. A Submit a
 * You can write a custom submit action if the default submit actions do not fulfill your use case. For more information, see [Writing custom Submit action for adaptive forms](/help/forms/using/custom-submit-action-form.md). 
 * Include server-side validations to prevent submission of invalid data submission.
 
-You can leverage multi-sign experience of Adobe Sign in adaptive forms. Consider the following when configuring Adobe Sign in adaptive forms. For details, see [Using Adobe Sign in an adaptive form](/help/forms/using/working-with-adobe-sign.md).
+You can leverage multi-sign experience of Acrobat Sign in adaptive forms. Consider the following when configuring Acrobat Sign in adaptive forms. For details, see [Using Acrobat Sign in an adaptive form](/help/forms/using/working-with-adobe-sign.md).
 
-* Adobe Sign enabled adaptive form is submitted only after all the signers have signed the form. Forms appear in Pending Sign state until the form is signed by all signers.   
+* Acrobat Sign enabled adaptive form is submitted only after all the signers have signed the form. Forms appear in Pending Sign state until the form is signed by all signers.   
 * You can configure in-form signing experience or redirect signers to a signing page on submission.
 * Configure sequential or parallel signing experience, as appropriate.
 

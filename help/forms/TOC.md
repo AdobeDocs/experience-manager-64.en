@@ -113,7 +113,7 @@ role: User
     + [Forms JEE workflows](using/forms-workflow-jee-handling-user-data.md)
     + [Forms Portal](using/forms-portal-handling-user-data.md)
     + [Correspondence Management](using/correspondence-management-handling-user-data.md)
-    + [Integration with Adobe Sign](/help/forms/using/integration-adobe-sign-handling-user-data.md)
+    + [Integration with Acrobat Sign](/help/forms/using/integration-adobe-sign-handling-user-data.md)
     + [Document Security](/help/forms/using/document-security-handling-user-data.md)
   + Hardening AEM Forms Environment {#hardening-aem-forms-environment}
     + [Hardening and Securing AEM forms on OSGi environment](using/hardening-securing-aem-forms-environment.md)
@@ -155,7 +155,7 @@ role: User
 + Adaptive Forms - Advanced Authoring {#adaptive-forms-advanced-authoring}
   + [Creating adaptive forms using JSON Schema](using/adaptive-form-json-schema-form-model.md)
   + [Creating adaptive forms using XML Schema](using/adaptive-form-xml-schema-form-model.md)
-  + [Using Adobe Sign in an adaptive form](using/working-with-adobe-sign.md)
+  + [Using Acrobat Sign in an adaptive form](using/working-with-adobe-sign.md)
   + [Creating and using themes](using/themes.md)
   + [Adaptive forms rule editor](using/rule-editor.md)
   + [API to invoke form data model service from adaptive forms](using/invoke-form-data-model-services.md)
@@ -175,7 +175,7 @@ role: User
   + [Automate testing of adaptive forms](using/calvin.md)
   + [Styling constructs for adaptive forms](using/styling-constructs-adaptive-forms.md)
   + [Synchronizing Adaptive Forms with XFA Form Templates](using/synchronizing-adaptive-forms-xfa.md)
-  + [Integrate Adobe Sign with AEM Forms](using/adobe-sign-integration-adaptive-forms.md)
+  + [Integrate Acrobat Sign with AEM Forms](using/adobe-sign-integration-adaptive-forms.md)
   + [Creating and managing reviews for assets in forms](using/create-reviews-forms.md)
   + [Standard validation error messages for adaptive forms](using/standard-validation-error-messages-adaptive-forms.md)
 + Interactive Communications {#interactive-communications}

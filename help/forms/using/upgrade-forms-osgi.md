@@ -88,9 +88,9 @@ You can perform a direct upgrade from AEM 6.2 Forms or AEM 6.3 Forms to AEM 6.4 
       
       ```
 
-    * **(If upgrading from AEM 6.2 Forms or previous versions only) Reconfigure Adobe Sign**
+    * **(If upgrading from AEM 6.2 Forms or previous versions only) Reconfigure Acrobat Sign**
 
-      If you had Adobe Sign configured in the previous version of AEM Forms, then reconfigure Adobe Sign from AEM Cloud services. For more details, see [Integrate Adobe Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md).
+      If you had Acrobat Sign configured in the previous version of AEM Forms, then reconfigure Acrobat Sign from AEM Cloud services. For more details, see [Integrate Acrobat Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md).
     
     * **(If upgrading from AEM 6.2 Forms or previous versions only) Reconfigure analytics and reports**
 

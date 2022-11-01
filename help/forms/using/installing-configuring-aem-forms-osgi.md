@@ -18,7 +18,7 @@ Install and configure adaptive forms, PDF Forms, and HTML5 Forms. Configure Adob
 
 AEM Forms provides a set of forms to obtain data from end user: adaptive forms, HTML5 Forms, and PDF Forms. It also provides tools to list all the available forms on a webpage, analyze usage of forms, and target users based on their profile. These capabilities are included in AEM Forms add-on package. The add-on package is deployed on an Author or Publish instance of AEM.
 
-**Adaptive forms:** These forms change appearance based on the screen size of the device, are engaging, and interactive in nature. Adaptive Forms can also integrate with Adobe Analytics, Adobe Sign, and Adobe Target. It enabled you to deliver personalized forms and process-oriented experiences to users based on their demography and other features. You can also integrate adaptive forms with Adobe Sign.
+**Adaptive forms:** These forms change appearance based on the screen size of the device, are engaging, and interactive in nature. Adaptive Forms can also integrate with Adobe Analytics, Acrobat Sign, and Adobe Target. It enabled you to deliver personalized forms and process-oriented experiences to users based on their demography and other features. You can also integrate adaptive forms with Acrobat Sign.
 
 **PDF Forms** are suitable for pixel-perfect printing and digital information capture within a PDF document. In the digital avatar, you can use Adobe Acrobat or Acrobat Reader to fill these forms. You can host these forms on your website or use the forms portal to list these forms on an AEM site. You can also email these forms to others as attachments. These forms are best suited for desktop environments.
 
@@ -101,7 +101,7 @@ AEM Forms add-on package is an application deployed onto AEM. The package contai
 
 ## Post-installation configurations {#post-installation-configurations}
 
-AEM Forms has a few mandatory and optional configurations. The mandatory configurations include configuring BouncyCastle libraries and serialization agent. The optional configurations include configuring dispatcher, Forms portal, Adobe Sign, Adobe Analytics, and Adobe Target.
+AEM Forms has a few mandatory and optional configurations. The mandatory configurations include configuring BouncyCastle libraries and serialization agent. The optional configurations include configuring dispatcher, Forms portal, Acrobat Sign, Adobe Analytics, and Adobe Target.
 
 ### Mandatory post-installation configurations {#mandatory-post-installation-configurations}
 
@@ -179,13 +179,13 @@ You can enable SSL communication for Form Data Model. To enable SSL communicatio
 
 `keytool -import -alias <alias-name> -file <pathTo .cer certificate file> -keystore <<pathToJRE>\lib\security\cacerts>`
 
-#### Configure Adobe Sign {#configure-adobe-sign}
+#### Configure Acrobat Sign {#configure-adobe-sign}
 
-Adobe Sign enables e-signature workflows for adaptive forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.
+Acrobat Sign enables e-signature workflows for adaptive forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.
 
-In a typical Adobe Sign and adaptive forms scenario, a user fills an adaptive form to apply for a service. For example, a credit card application and a citizen benefits form. When a user fills, submits, and signs the application form, the form is sent to the service provider for further action. Service provider reviews the application and uses Adobe Sign to mark the application approved. To enable similar electronic-signature workflows, you can integrate Adobe Sign with AEM Forms.
+In a typical Acrobat Sign and adaptive forms scenario, a user fills an adaptive form to apply for a service. For example, a credit card application and a citizen benefits form. When a user fills, submits, and signs the application form, the form is sent to the service provider for further action. Service provider reviews the application and uses Acrobat Sign to mark the application approved. To enable similar electronic-signature workflows, you can integrate Acrobat Sign with AEM Forms.
 
-To use Adobe Sign with AEM Forms, [Integrate Adobe Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md).
+To use Acrobat Sign with AEM Forms, [Integrate Acrobat Sign with AEM Forms](/help/forms/using/adobe-sign-integration-adaptive-forms.md).
 
 #### Configure Adobe Analytics {#configure-adobe-analytics}
 

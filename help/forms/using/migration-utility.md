@@ -132,7 +132,7 @@ When you run the Migration Utility for the first time, a log is created with the
         * Source path: /etc/cloudservices/recaptcha 
         * Target path: /conf/global/settings/cloudconfigs/recaptcha
 
-    * Adobe Sign
+    * Acrobat Sign
 
         * Source path: /etc/cloudservices/echosign 
         * Target path: /conf/global/settings/cloudconfigs/echosign

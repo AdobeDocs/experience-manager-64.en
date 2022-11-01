@@ -29,7 +29,7 @@ Once you create a form, any changes to the original template content structure a
 AEM QuickStart provides the following adaptive form templates:
 
 * Basic: Lets you create a multi-tab adaptive form using a tabs-on-left layout, where you can visit tabs in any random order.
-* Basic wiith Adobe Sign: Lets you create a form with mulitple tabs and wizard. It uses a tabs-on-left layout that lets you visit tabs in any order. It uses Adobe Document Cloud esign services for signing and verification.  
+* Basic wiith Acrobat Sign: Lets you create a form with mulitple tabs and wizard. It uses a tabs-on-left layout that lets you visit tabs in any order. It uses Adobe Document Cloud esign services for signing and verification.  
 * Blank Template: Lets you create a form without any header, footer, and initial content. You can add components such as text boxes, buttons, and images. The blank template lets you create a form that you can [embed in AEM Site pages](/help/forms/using/embed-adaptive-form-aem-sites.md).
 
 These templates have the `sling:resourceType` property set to the corresponding page component. The page component renders the CQ page, containing adaptive form container, which in turn renders adaptive form.

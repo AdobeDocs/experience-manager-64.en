@@ -110,7 +110,7 @@ Also, see the following documentation for more information about features used i
 * [Rule Editor](/help/forms/using/rule-editor.md)
 * [Themes](/help/forms/using/themes.md)
 * [Data Integration](/help/forms/using/data-integration.md)
-* [Using Adobe Sign in adaptive forms](/help/forms/using/working-with-adobe-sign.md)
+* [Using Acrobat Sign in adaptive forms](/help/forms/using/working-with-adobe-sign.md)
 * [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md)
 
 ### See it yourself {#a-see-it-yourself}
@@ -153,7 +153,7 @@ We.Finance receives the credit card application submitted by Sarah. A task is as
 
 When Sarah fills and submits the credit card application, a Forms Workflow triggers and a task is created in Gloria's AEM inbox.
 
-AEM Forms on OSGi provides forms-centric workflows that allow you to build adaptive forms-based workflows. These workflows can be used for review and approvals, business process flows, to start document services, integrate with Adobe Sign signature workflow, and so on. For more information, see [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md).
+AEM Forms on OSGi provides forms-centric workflows that allow you to build adaptive forms-based workflows. These workflows can be used for review and approvals, business process flows, to start document services, integrate with Acrobat Sign signature workflow, and so on. For more information, see [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md).
 
 The following image depicts the AEM workflow that processes the credit card application and generates a PDF output of the application.
 
@@ -398,7 +398,7 @@ Also, see the following documentation for more information about features used i
 * [Rule Editor](/help/forms/using/rule-editor.md)
 * [Themes](/help/forms/using/themes.md)
 * [Data Integration](/help/forms/using/data-integration.md)
-* [Using Adobe Sign in adaptive forms](/help/forms/using/working-with-adobe-sign.md)
+* [Using Acrobat Sign in adaptive forms](/help/forms/using/working-with-adobe-sign.md)
 * [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md)
 
 #### See it yourself {#see-it-yourself-6}
@@ -427,7 +427,7 @@ The task is reassigned to Gloria. She reviews the attached ID and approves the a
 
 When Sarah fills and submits the home mortgage application, a Forms Workflow triggers and a task is created in Gloria's AEM inbox. As Gloria reviews the application and requests for more information, the task is assigned to John Doe. When John Doe attaches the ID and resubmits the application, it is assigned to Gloria. This is defined in the AEM Workflow associated with the mortgage application.
 
-AEM Forms on OSGi provides forms-centric workflows that allow you to build adaptive forms-based workflows. These workflows can be used for review and approvals, business process flows, to start document services, integrate with Adobe Sign signature workflow, and so on. For more information, see [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md).
+AEM Forms on OSGi provides forms-centric workflows that allow you to build adaptive forms-based workflows. These workflows can be used for review and approvals, business process flows, to start document services, integrate with Acrobat Sign signature workflow, and so on. For more information, see [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md).
 
 The following image depicts the AEM workflow associated with the mortgage application.
 
@@ -712,7 +712,7 @@ Also, see the following documentation for more information about features used i
 * [Rule Editor](/help/forms/using/rule-editor.md)
 * [Themes](/help/forms/using/themes.md)
 * [Data Integration](/help/forms/using/data-integration.md)
-* [Using Adobe Sign in adaptive forms](/help/forms/using/working-with-adobe-sign.md)
+* [Using Acrobat Sign in adaptive forms](/help/forms/using/working-with-adobe-sign.md)
 * [Forms-centric workflow on OSGi](/help/forms/using/aem-forms-workflow.md)
 
 #### See it yourself {#see-it-yourself-12}
