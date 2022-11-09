@@ -4,7 +4,7 @@ seo-title: Creating and Synchronizing Live Copies
 description: Learn how to create and synchronize Live Copies.
 seo-description: Learn how to create and synchronize Live Copies.
 uuid: f6f410d4-8c72-48b7-a217-afd6076b512d
-contentOwner: Alison Heimoz
+contentOwner: AEM Docs
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference

@@ -4,7 +4,7 @@ seo-title: Working with Content Fragments
 description: Learn how Content Fragments allow you to design, create, curate and use page-independent content.
 seo-description: Learn how Content Fragments allow you to design, create, curate and use page-independent content.
 uuid: aa5acda2-4c20-4fe7-929d-6c065b252cf2
-contentOwner: Alison Heimoz
+contentOwner: AEM Docs
 topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference

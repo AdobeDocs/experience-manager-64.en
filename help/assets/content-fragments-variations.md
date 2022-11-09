@@ -4,7 +4,7 @@ seo-title: Variations - Authoring Fragment Content
 description: Variations allow you to author content for the fragment, then create variations of that content according to purpose (if required).
 seo-description: Variations allow you to author content for the fragment, then create variations of that content according to purpose (if required).
 uuid: affccda0-be5f-47d2-85b6-8701b77ac932
-contentOwner: Alison Heimoz
+contentOwner: AEM Docs
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference

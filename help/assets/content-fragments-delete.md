@@ -4,7 +4,7 @@ seo-title: Content Fragments - Delete Considerations
 description: Content Fragments - Delete Considerations
 seo-description: Content Fragments - Delete Considerations
 uuid: b4161a0e-7e17-4547-9bdd-cf3b1d0d7d63
-contentOwner: aheimoz
+contentOwner: AEM Docs
 topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference

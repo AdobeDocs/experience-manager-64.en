@@ -5,7 +5,7 @@ description: Data types used in Content Fragment Models can be customized.
 seo-description: Data types used in Content Fragment Models can be customized.
 page-status-flag: de-activated
 uuid: d8215dbf-2dbe-43cb-a5c1-dc1cb412a204
-contentOwner: aheimoz
+contentOwner: AEM Docs
 discoiquuid: a8b8155c-852c-4d16-b59b-7e19527c2bd4
 noindex: true
 ---
