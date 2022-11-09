@@ -4,7 +4,7 @@ seo-title: Applying Workflows to Pages
 description: When authoring, you can invoke workflows to take action on your pages; it is also possible to apply more than one workflow..
 seo-description: When authoring, you can invoke workflows to take action on your pages; it is also possible to apply more than one workflow..
 uuid: 8a1d16f8-69fc-4e3a-b72a-b799ea381024
-contentOwner: Alison Heimoz
+contentOwner: AEM Docs
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features

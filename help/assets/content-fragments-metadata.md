@@ -4,7 +4,7 @@ seo-title: Metadata - Fragment Properties
 description: You can view and edit the metadata (properties) for content fragments.
 seo-description: You can view and edit the metadata (properties) for content fragments.
 uuid: 2744610b-215a-4ee8-893e-e167376f9df5
-contentOwner: Alison Heimoz
+contentOwner: AEM Docs
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference

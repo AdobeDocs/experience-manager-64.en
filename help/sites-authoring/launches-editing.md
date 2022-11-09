@@ -4,7 +4,7 @@ seo-title: Editing Launches
 description: After creating a launch for your page (or set of pages) you can edit the content in the launch copy of the page(s). 
 seo-description: After creating a launch for your page (or set of pages) you can edit the content in the launch copy of the page(s). 
 uuid: 851bcbbe-1dff-457f-a3bc-468ace9b4ac4
-contentOwner: Alison Heimoz
+contentOwner: AEM Docs
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
