@@ -54,7 +54,7 @@ The General components are the basic components that you use to create content.
 ### Account Item {#account-item}
 
 >[!CAUTION]
->This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) instead.
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) instead.
 
 You can define a link with title and description.
 
@@ -63,7 +63,7 @@ You can define a link with title and description.
 ### Adaptive Image {#adaptive-image}
 
 >[!CAUTION]
->This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components Image Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/image.html) instead.
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components Image Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/image.html) instead.
 
 The Adaptive Image foundation component generates images that are sized to fit the window in which the web page is opened. To use the component, you provide an image resource either from the file system or DAM. When the web page is opened, the web browser downloads a copy of the image that has been resized so that it is suitable for the current window.
 
@@ -328,7 +328,7 @@ The external application is integrated into the paragraph system of the AEM page
 ### Flash {#flash}
 
 >[!CAUTION]
->This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) instead.
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) instead.
 
 >[!CAUTION]
 >
@@ -533,7 +533,7 @@ The following example shows a **List** component the way it may display a list o
 ### Login {#login}
 
 >[!CAUTION]
->This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) instead.
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) instead.
 
 >[!CAUTION]
 >
@@ -628,7 +628,7 @@ Once configured the content will appear exactly as on the source page. The fact 
 ### Search {#search-features}
 
 >[!CAUTION]
->This Foundation Component has been deprecated. Adobe recommends leveraging the [Quick Search Core Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/quick-search.html) instead.
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Quick Search Core Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/quick-search.html) instead.
 
 The Search component adds search capability to your page.
 
@@ -697,7 +697,7 @@ The following example shows a search term that is misspelled and not available:
 ### Sitemap {#sitemap}
 
 >[!CAUTION]
->This Foundation Component has been deprecated. Adobe recommends leveraging the [Navigation](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/navigation.html), [Language Navigation](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/language-navigation.html), and [Breadcrumb Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/breadcrumb.html) instead.
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Navigation](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/navigation.html), [Language Navigation](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/language-navigation.html), and [Breadcrumb Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/breadcrumb.html) instead.
 
 An automatic sitemap listing, which (with the default settings) lists all pages (as active links) in the current website. For example, an extract shows:
 
@@ -714,7 +714,7 @@ If required you can configure:
 ### Slideshow {#slideshow}
 
 >[!CAUTION]
->This Foundation Component has been deprecated. Adobe recommends leveraging the [Carousel Core Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/carousel.html) instead.
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Carousel Core Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/carousel.html) instead.
 
 >[!CAUTION]
 >
@@ -747,7 +747,7 @@ The slideshow component then repeatedly displays each in sequence, for a short p
 ### Table {#table}
 
 >[!CAUTION]
->This Foundation Component has been deprecated. Adobe recommends leveraging the [Text Core Component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/text.html) instead.
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Text Core Component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/text.html) instead.
 
 >[!NOTE]
 >
@@ -1071,7 +1071,7 @@ In between the start and end of a form, you can add form components that define 
 
 >[!NOTE]
 >
->The foundation components form component only supports the use of other foundation components form components (button, text, hidden, etc.). Using [core components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) form components within a foundation component form (and vice versa) is not supported.
+>The foundation components form component only supports the use of other foundation components form components (button, text, hidden, etc.). Using [core components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) form components within a foundation component form (and vice versa) is not supported.
 
 #### Start of Form {#start-of-form}
 
@@ -1302,7 +1302,7 @@ The component is configured for immediate use, but you can change the configurat
 ### Captcha {#captcha}
 
 >[!CAUTION]
->This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) instead.
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) instead.
 
 >[!CAUTION]
 >
@@ -1331,7 +1331,7 @@ You can specify various parameters including a title, description and element na
 ### Credit Card Details {#credit-card-details}
 
 >[!CAUTION]
->This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html) instead.
+>This Foundation Component has been deprecated. Adobe recommends leveraging the [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) instead.
 
 This allows you to provide the fields needed for entering credit card details. You can configure it to specify the types of card accepted and the information required (for example, security code).
 

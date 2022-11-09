@@ -250,7 +250,7 @@ AEM 6.4 Service Pack 3 onwards, the available options in the RTE flow downstream
 * If the user interface configuration of the RTE removed or doesn't enable an item, the content policy cannot configure it.
 * An author has access to only such functionality as is made available by the user interface configurations and the content policies.
 
-As an example, you can see the [Text Core Component documentation](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/text.html#the-text-component-and-the-rich-text-editor).  
+As an example, you can see the [Text Core Component documentation](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/text.html#the-text-component-and-the-rich-text-editor).  
 
 ## Customize mapping between toolbar icons and commands {#iconstoolbar}
 

@@ -67,7 +67,7 @@ role: Developer
       + [Developing (generic)](generic.md)
       + [Developing with SAP Commerce Cloud](sap-commerce-cloud.md)
 + Components{#components}
-    + [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)
+    + [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html)
     + [Style System](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/siteandpage/style-system.html)
     + [Components Overview](components.md)
     + [AEM Components - The Basics](components-basics.md)

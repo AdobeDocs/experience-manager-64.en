@@ -40,4 +40,4 @@ These sites are only available to customers. If you are a customer and require a
 * [Product Access](https://login.experiencecloud.adobe.com/exc-content/login.html)
 * [Product Download at licensing.adobe.com](https://licensing.adobe.com/).
 * Product updates, patches, and packages for additional functionality on [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
-* [Customer Support via Admin Console](https://adminconsole.adobe.com/). For more information, see [New Adobe Customer Support Experience](https://docs.adobe.com/content/help/en/customer-one/using/home.html).
+* [Customer Support via Admin Console](https://adminconsole.adobe.com/). For more information, see [New Adobe Customer Support Experience](https://experienceleague.adobe.com/docs/customer-one/using/home.html).

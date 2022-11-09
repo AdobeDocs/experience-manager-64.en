@@ -99,7 +99,7 @@ AEM 6.4.8.3 is a Cumulative Fix Pack (CFP) that is dependent on AEM 6.4 Service 
 
 In AEM 6.4.8.3, the built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.23.
 
-For information on CFP and other types of releases, see [AEM Update Release Vehicle Definitions](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/update-release-vehicle-definitions.html)
+For information on CFP and other types of releases, see [AEM Update Release Vehicle Definitions](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/update-release-vehicle-definitions.html)
 
 Adobe Experience Manager 6.4.8.3 provides fixes for the following issues.
 
@@ -193,7 +193,7 @@ AEM 6.4.8.2 is a Cumulative Fix Pack (CFP) that is dependent on AEM 6.4 Service 
 
 In AEM 6.4.8.2, the built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.22.
 
-For information on CFP and other types of releases, see [AEM Update Release Vehicle Definitions](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/update-release-vehicle-definitions.html)
+For information on CFP and other types of releases, see [AEM Update Release Vehicle Definitions](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/update-release-vehicle-definitions.html)
 
 Adobe Experience Manager 6.4.8.2 provides fixes for the following issues.
 
@@ -339,7 +339,7 @@ Some of the key highlights of AEM 6.4.8.1 are:
 * Removed Package Share integration with Adobe Experience Manager.
 * The built-in repository (Apache Jackrabbit Oak) is updated to version 1.8.21.
 
-For information on CFP and other types of releases, see [AEM Update Release Vehicle Definitions](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/update-release-vehicle-definitions.html)
+For information on CFP and other types of releases, see [AEM Update Release Vehicle Definitions](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/deploying/update-release-vehicle-definitions.html)
 
 Adobe Experience Manager 6.4.8.1 provides fixes to the following issues.
 
@@ -517,7 +517,7 @@ which will copy new viewer presets to /conf location.
 
 1. Ensure that you have installed the AEM Cumulative Fix Pack.
 1. Download the corresponding forms add-on package listed at [AEM Forms releases](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html#forms-updates) for your operating system.
-1. Install the forms add-on package as described in [Installing AEM forms add-on packages](https://docs.adobe.com/content/help/en/experience-manager-64/forms/install-aem-forms/osgi-installation/installing-configuring-aem-forms-osgi.html#install-aem-forms-add-on-package).
+1. Install the forms add-on package as described in [Installing AEM forms add-on packages](https://experienceleague.adobe.com/docs/experience-manager-64/forms/install-aem-forms/osgi-installation/installing-configuring-aem-forms-osgi.html#install-aem-forms-add-on-package).
 
 ### Install AEM Forms JEE installer {#install-aem-forms-jee-installer}
 
@@ -557,7 +557,7 @@ This section lists features and capabilities that have been removed or deprecate
 | Area |Feature |Replacement |Version |
 |---|---|---|---|
 | Assets |Manage Tag Action for Subassets |No Replacement |AEM 6.4.2.0 |
-| Assets and Adobe Creative Cloud integration | [AEM to Creative Cloud folder sharing](https://docs.adobe.com/content/help/en/experience-manager-64/assets/administer/aem-cc-folder-sharing-best-practices.html) was introduced in AEM 6.2 as a way to give creative users access to assets from AEM. A new capability released in Creative Cloud application, Adobe Asset Link, provides a much better user experience and more powerful access to assets from AEM directly from inside Photoshop, InDesign, and Illustrator. Adobe will not make further enhancements to the folder sharing capability. While the feature is included in AEM, customers ar(e strongly advised to use the replacement. | Adobe Asset Link or desktop app. For more info, see [AEM Creative Cloud integration](/help/assets/aem-cc-integration-best-practices.md) article. | AEM 6.4.4.0 |
+| Assets and Adobe Creative Cloud integration | [AEM to Creative Cloud folder sharing](https://experienceleague.adobe.com/docs/experience-manager-64/assets/administer/aem-cc-folder-sharing-best-practices.html) was introduced in AEM 6.2 as a way to give creative users access to assets from AEM. A new capability released in Creative Cloud application, Adobe Asset Link, provides a much better user experience and more powerful access to assets from AEM directly from inside Photoshop, InDesign, and Illustrator. Adobe will not make further enhancements to the folder sharing capability. While the feature is included in AEM, customers ar(e strongly advised to use the replacement. | Adobe Asset Link or desktop app. For more info, see [AEM Creative Cloud integration](/help/assets/aem-cc-integration-best-practices.md) article. | AEM 6.4.4.0 |
 
 ## Known Issues {#known-issues}
 
@@ -589,4 +589,4 @@ List of Content Packages included in AEM 6.4.8.4
 These sites are only available to customers. If you are a customer and need access, please contact your Adobe account manager.
 
 * [Product download at licensing.adobe.com](https://licensing.adobe.com/)
-* [Contact customer support](https://docs.adobe.com/content/help/en/customer-one/using/home.html)
+* [Contact customer support](https://experienceleague.adobe.com/docs/customer-one/using/home.html)
