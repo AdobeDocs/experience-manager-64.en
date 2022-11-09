@@ -99,7 +99,7 @@ AEM 6.4 delivers significant Asset reporting enhancements:
 
 ## AEM desktop app {#aem-desktop-app}
 
-AEM desktop app is updated to version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM desktop app is provided in a dedicated [AEM desktop app release notes](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html) document.  
+AEM desktop app is updated to version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM desktop app is provided in a dedicated [AEM desktop app release notes](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html) document.  
 Here is a list of AEM desktop app highlights since AEM 6.3 was released:
 
 * Ability to upload hierarchical folders in the background.
@@ -111,8 +111,8 @@ Here is a list of AEM desktop app highlights since AEM 6.3 was released:
 
 For easier access to the documentation and best practices, the following documentation is available:
 
-* [User guide](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html), aimed at end users working with the application.
-* [Installation guide](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/install-upgrade.html), aimed at administrators setting up AEM and AEM desktop app to work together
+* [User guide](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html), aimed at end users working with the application.
+* [Installation guide](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/install-upgrade.html), aimed at administrators setting up AEM and AEM desktop app to work together
 
 ## Tiered Storage {#tiered-storage}
 

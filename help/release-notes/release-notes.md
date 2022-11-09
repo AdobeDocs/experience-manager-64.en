@@ -111,7 +111,7 @@ The introduction of Fluid Experiences at the start of 2017, backed by Content Fr
 
 **[Content Fragments](/help/assets/content-fragments.md)**
 
-New in 6.4 are a visual [content model](/help/assets/content-fragments-models.md) editor and a new [configurable component](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/components/content-fragment-component.html) to provide flexible HTML output and JSON to include in Content Services.
+New in 6.4 are a visual [content model](/help/assets/content-fragments-models.md) editor and a new [configurable component](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/components/content-fragment-component.html) to provide flexible HTML output and JSON to include in Content Services.
 
 **Experience Fragments**
 
@@ -125,13 +125,13 @@ Various enhancements to Sling Model Exporter and the Core Components are include
 
 AEM 6.4 completes the transformation to the next generation component model. The Core Components concept introduced in AEM 6.3, and now joined by the Style System, provides an efficient way to build new and extend existing sites.
 
-Recommended tutorial to learn on how to best leverage the new component model: [Getting Started with AEM Sites - WKND Tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+Recommended tutorial to learn on how to best leverage the new component model: [Getting Started with AEM Sites - WKND Tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 #### Screens Add-on {#screens-add-on}
 
 Delivering a consistent message across all marketing channels including Digital Signage and kiosk networks is what AEM Screens stands for. AEM 6.4 adds support to run the Signage Player on Microsoft Windows and Google Chrome OS hardware. Further, enhancements to remote device management and schedules (groups of channels) are available.
 
-For more information on the Screens updates, see [AEM Screens User Guide](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html).
+For more information on the Screens updates, see [AEM Screens User Guide](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/aem-screens-introduction.html).
 
 ### Experience Manager Communities {#experience-manager-communities}
 
@@ -189,9 +189,9 @@ To learn more about this capability, prerequisites, and how to access it, see [A
 
 **AEM desktop app**
 
-AEM desktop app has been updated to Version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM desktop app is provided in a dedicated [AEM desktop app release notes](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html) document.
+AEM desktop app has been updated to Version 1.8, which is compatible with AEM 6.4. The full list of changes for AEM desktop app is provided in a dedicated [AEM desktop app release notes](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html) document.
 
-Improvements introduced since the AEM 6.3 release include the ability to upload hierarchical folders in the background, a new UI to monitor asset background operations, enhanced caching, networking and login, as well as overall stability improvements. The documentation also includes a [best practices guide](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html).
+Improvements introduced since the AEM 6.3 release include the ability to upload hierarchical folders in the background, a new UI to monitor asset background operations, enhanced caching, networking and login, as well as overall stability improvements. The documentation also includes a [best practices guide](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html).
 
 **Adobe Sensei Services**
 
@@ -213,7 +213,7 @@ Multiple enhancements to improve browsing, searching and admin experience for As
 
 **Brand Portal**
 
-Various enhancements in areas of metadata, reporting, digital rights, login experience, and publish performance for asset distribution. To know about the new enhancements and features, see [What's new in AEM Assets Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/introduction/whats-new.html).
+Various enhancements in areas of metadata, reporting, digital rights, login experience, and publish performance for asset distribution. To know about the new enhancements and features, see [What's new in AEM Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/introduction/whats-new.html).
 
 #### Dynamic Media Add-on {#dynamic-media-add-on}
 
@@ -257,7 +257,7 @@ More details on [AEM Forms](forms.md) release notes page. Also, see the [Summary
 
 You can integrate Livefyre with your AEM 6.4 instance. Information on how to integrate Livefyre with AEM is located here:
 
-* [Integrating Livefyre](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/livefyre.html)
+* [Integrating Livefyre](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/livefyre.html)
 
 ### Leverage Customer Focused Development {#leverage-customer-focused-development}
 
@@ -273,7 +273,7 @@ This process of prioritization has yielded more than 500 customer focused change
 
 * Standalone Quickstart: cq-quickstart-6.4.0.jar
 * Application Server Quickstart: cq-quickstart-6.4.0.war
-* Dispatcher 4.3.1 or newer for various web servers and platforms. See [download link](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/getting-started/release-notes.html).
+* Dispatcher 4.3.1 or newer for various web servers and platforms. See [download link](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/getting-started/release-notes.html).
 * Plug-in for Eclipse IDE. [Read more and download](/help/sites-developing/aem-eclipse.md).
 
 * Extension for Brackets Code Editor. [Read more and download](/help/sites-developing/aem-brackets.md).
@@ -296,7 +296,7 @@ This process of prioritization has yielded more than 500 customer focused change
 
 **Assets**
 
-* Adobe Experience Manager desktop app ([read more](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/using.html) and [download](https://docs.adobe.com/content/help/en/experience-manager-desktop-app/using/release-notes.html))
+* Adobe Experience Manager desktop app ([read more](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/using.html) and [download](https://experienceleague.adobe.com/docs/experience-manager-desktop-app/using/release-notes.html))
 
 * Package to add enhanced PDF Rasterizer ([read more](/help/assets/aem-pdf-rasterizer.md) and [download](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html?package=/content/software-distribution/en/details.html/content/dam/aem/public/adobe/packages/cq640/product/assets/aem-assets-pdf-rasterizer-pkg))
 
@@ -371,4 +371,4 @@ These sites are only available to customers. If you are a customer and need acce
 
 * [Product Download at licensing.adobe.com](https://licensing.adobe.com/).
 * Product updates, patches, and packages for additional functionality on [Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/aem.html).
-* [Customer Support via Admin Console](https://adminconsole.adobe.com/). For more information, see [New Adobe Customer Support Experience](https://docs.adobe.com/content/help/en/customer-one/using/home.html).
+* [Customer Support via Admin Console](https://adminconsole.adobe.com/). For more information, see [New Adobe Customer Support Experience](https://experienceleague.adobe.com/docs/customer-one/using/home.html).

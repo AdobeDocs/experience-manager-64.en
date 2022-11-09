@@ -14,9 +14,9 @@ role: User
 
 + [AEM 6.4 Forms Guide](home.md)
 + Release Notes {#release-notes-new-features}
-  + [Release Notes](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/forms.html)
+  + [Release Notes](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/forms.html)
   + [New features summary](using/whats-new.md)
-  + [Deprecated features](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/deprecated-removed-features.html)
+  + [Deprecated features](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/deprecated-removed-features.html)
 + Getting Started {#getting-started}
   + [Introduction to AEM Forms](using/introduction-aem-forms.md)
   + [Introduction to authoring adaptive forms](using/introduction-forms-authoring.md)
@@ -567,8 +567,8 @@ role: User
   + [Ad-hoc Queries in Process Reporting](/help/forms/using/process-reporting/adhoc-queries-in-process-reporting.md)
   + [Troubleshooting Process Reporting](/help/forms/using/process-reporting/troubleshooting-process-management.md)
 + Developer Reference {#developer-reference}
-  + [Developer basics](https://docs.adobe.com/content/help/en/experience-manager-64/developing/home.html)
-  + [HTML Template Language](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html)
+  + [Developer basics](https://experienceleague.adobe.com/docs/experience-manager-64/developing/home.html)
+  + [HTML Template Language](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html)
   + [AEM plug-in to debug adaptive forms](https://adobe-consulting-services.github.io/acs-aem-tools/aem-chrome-plugin/adaptive-form/)
   + [AEM Forms Java API Reference](https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/index.html)
   + [AEM Forms on JEE Java API Reference](https://helpx.adobe.com/experience-manager/6-4/forms/ProgramLC/javadoc/index.html)

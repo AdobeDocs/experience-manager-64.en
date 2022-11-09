@@ -31,15 +31,11 @@ exl-id: f4dea584-3cd1-4d9f-ae3c-2573726dde95
 
 ## AEM Screens {#aem-screens}
 
-[Learn about the digital signage solution to publish dynamic and interactive experiences.](https://docs.adobe.com/content/help/en/experience-manager-screens/user-guide/aem-screens-introduction.html)
+[Learn about the digital signage solution to publish dynamic and interactive experiences.](https://experienceleague.adobe.com/docs/experience-manager-screens/user-guide/aem-screens-introduction.html)
 
 ## AEM Communities {#aem-communities}
 
 [Create online experiences such as forums, user groups, learning resources, and other social features.](/help/communities/home.md)
-
-## AEM Livefyre {#aem-livefyre}
-
-[Share user-generated content with AEM Livefyre.](https://docs.adobe.com/content/help/en/livefyre/using/home.html)
 
 ## AEM Mobile {#aem-mobile}
 

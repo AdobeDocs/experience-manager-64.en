@@ -43,7 +43,7 @@ This package integrates Livefyre's industry leading curation capabilities with y
 * Seamlessly integrate your existing product catalogue into Livefyre to drive user engagement and conversion in your sites, as well as delivering shoppable UGC experiences.
 * Edit or delete items in your AEM Commerce Product Catalog and automatically update changes in Livefyre.
 
-For help with installation, see [Integrating with Livefyre](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/livefyre.html).
+For help with installation, see [Integrating with Livefyre](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/livefyre.html).
 
 ### Additional Release Information {#additional-release-information}
 
@@ -56,7 +56,7 @@ Due to updates affecting the aggregation of content from Instagram non-business 
 #### New feature or improvement {#new-feature-or-improvement}
 
 * Added the ability to search UGC before setting up rights request social accounts in Livefyre. You must setup social accounts to request rights, or override the rights request if you own the content.
-* Instagram and Twitter [UGC rights request workflow](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/livefyre.html) has been updated to comply with latest APIs.
+* Instagram and Twitter [UGC rights request workflow](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/livefyre.html) has been updated to comply with latest APIs.
 * Rights status and appropriate actions are now displayed on the rights request screen.
 
 #### Bug fixes {#bug-fixes}

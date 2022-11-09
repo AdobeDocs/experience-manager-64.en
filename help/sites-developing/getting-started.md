@@ -21,9 +21,9 @@ The goal for this multi-part tutorial is to teach a developer who is new to AEM 
 
 ## WKND Developer Tutorial {#wknd-developer-tutorial}
 
-The tutorial is available [here](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) or click the image below.
+The tutorial is available [here](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) or click the image below.
 
-[![click image](assets/screen_shot_2018-11-23at152453.png)](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+[![click image](assets/screen_shot_2018-11-23at152453.png)](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 ## Core Concepts {#core-concepts}
 
@@ -32,7 +32,7 @@ The tutorial implementation leverages many powerful features of AEM. The site wi
 * [HTL](https://helpx.adobe.com/experience-manager/htl/user-guide.html)
 * [Sling Models](https://sling.apache.org/documentation/bundles/models.html)
 * [Touch UI](/help/sites-developing/touch-ui-concepts.md)
-* [Core Components](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/introduction.html)
+* [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html)
 * [Editable Templates](/help/sites-developing/page-templates-editable.md)
 
 Please progress through the tutorial before diving into the above concepts in detail.
