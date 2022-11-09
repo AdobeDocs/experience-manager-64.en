@@ -37,10 +37,6 @@ exl-id: f4dea584-3cd1-4d9f-ae3c-2573726dde95
 
 [Create online experiences such as forums, user groups, learning resources, and other social features.](/help/communities/home.md)
 
-## AEM Livefyre {#aem-livefyre}
-
-[Share user-generated content with AEM Livefyre.](https://docs.adobe.com/content/help/en/livefyre/using/home.html)
-
 ## AEM Mobile {#aem-mobile}
 
 [Create and manage content for mobile apps.](/help/mobile/home.md)
