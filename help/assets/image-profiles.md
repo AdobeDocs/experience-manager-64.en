@@ -30,9 +30,9 @@ When uploading images, you can automatically crop the image upon upload by apply
 
 When you implement Smart Crop on images, Adobe recommends the following best practice and enforces the following limit:
 
-| Limit type | Best practice | Limit imposed | Change to limit on December 31, 2022 |
-| --- | --- | --- | --- |
-| Number of Smart Crops per image | 5 | 100 | 20 |
+| Limit type | Best practice | Limit imposed |
+| --- | --- | --- |
+| Number of Smart Crops per image | 5 | 100 |
 
 See also [Dynamic Media limitations](/help/assets/limitations.md).
 
@@ -42,7 +42,21 @@ Smart Crop coordinates are aspect ratio dependent. That is, for the various smar
 
 Be aware that each Smart Crop generation that you create requires extra processing. For example, adding more than five Smart Crop aspect ratios can result in a slow asset ingestion rate. It may also cause an increased load on systems. Because you can apply Smart Crop at the folder level, Adobe recommends that you use it on folders *only* where it is needed.
 
-You have two image crop options from which you can choose. You also have an option for automating the creation of color and image swatches.
+**Guidelines for defining Smart Crop in an Image profile**
+To keep Smart Crop usage under control, and to optimize for processing time and storage of crops, Adobe recommends the following guidelines and tips:
+
+* Avoid creating duplicate smart crop profiles that have the same width and height values.
+* Name smart crops based on crop dimensions, not on end usage. Doing so helps to optimize for duplicates where a single dimension is used on multiple pages.
+* Create page-wise/asset type-wise Image profiles for specific folders and subfolders instead of a common smart crop profile that is applied to all folders or all assets.
+* An Image profile that you apply to subfolders overrides an Image profile that is applied to the folder.
+* Ideally, have 10-15 smart crops per image to optimize for screen ratios and processing time.
+
+You have two image crop options from which to choose. You can also choose to automate the creation of color and image swatches or preserve crop content across target resolutions.
+
+>[!IMPORTANT]
+>
+>&bull; Adobe recommends that you review any generated crops and swatches to ensure that they are appropriate and relevant to your brand and values.
+>&bull; CMYK image format is not supported with smart crop.
 
 <table> 
  <tbody> 
@@ -83,7 +97,7 @@ You have two image crop options from which you can choose. You also have an opti
 
 ## Unsharp Mask {#unsharp-mask}
 
-You use **Unsharp Mask** to fine-tune a sharpening filter effect on the final downsampled image. You can control intensity of effect, radius of the effect (measured in pixels), and a threshold of contrast that will be ignored. This effect uses the same options as Adobe Photoshop’s “Unsharp Mask” filter.
+You use **Unsharp Mask** to fine-tune a sharpening filter effect on the final downsampled image. You can control intensity of effect, radius of the effect (measured in pixels), and a threshold of contrast that will be ignored. This effect uses the same options as Adobe Photoshop's "Unsharp Mask" filter.
 
 >[!NOTE]
 >
