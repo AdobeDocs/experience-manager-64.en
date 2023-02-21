@@ -115,7 +115,6 @@ role: Developer
     + [HTTP API](https://experienceleague.adobe.com/docs/experience-manager-64/assets/extending/mac-api-assets.html)
     + [Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-64/assets/fragments/content-fragments.html)
     + [Experience Fragments](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html)
-    + [Understanding Content Fragments and Content Services in AEM](https://helpx.adobe.com/experience-manager/kt/sites/using/content-fragments-content-services-feature-video-understand.html)
 + Development Tools{#devtools}
     + [Development Tools](dev-tools.md)
     + [AEM Modernization Tools](modernization-tools.md)
@@ -216,3 +215,8 @@ role: Developer
     + [Responsive Design for Web Pages](responsive.md)
     + [Creating Sites for Mobile Devices](mobile.md)
     + [Emulators](emulators.md)
+
+<!--
+Deleted link to broken helpx video:
+    + [Understanding Content Fragments and Content Services in AEM](https://helpx.adobe.com/experience-manager/kt/sites/using/content-fragments-content-services-feature-video-understand.html)
+-->
