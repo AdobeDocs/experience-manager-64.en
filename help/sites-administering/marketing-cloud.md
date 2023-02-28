@@ -94,11 +94,3 @@ The Audience Manager integration has been removed in Adobe Experience Manager 6.
 [Adobe Campaign](https://www.adobe.com/solutions/campaign-management.html) lets you manage email delivery content directly in Adobe Experience Manager.
 
 For information on how Adobe Experience Manager integrates with Adobe Campaign, see [Integrating with Adobe Campaign](/help/sites-administering/campaignstandard.md).
-
-## Integrating with Livefyre {#integrating-with-livefyre}
-
-Learn about Adobe Experience Manager and Livefyre:
-
-* [Getting Started with Livefyre](https://experienceleague.adobe.com/docs/livefyre/implementation/getting-started/c-getting-started.html)  
-
-* [Livefyre and Adobe Experience Manager](/help/sites-administering/livefyre.md)
