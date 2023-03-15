@@ -1,8 +1,8 @@
 ---
-title: Dynamic Media image profiles
-seo-title: Dynamic Media image profiles
-description: Create image profiles that contain settings for unsharp mask, and smart crop or smart swatch, or both, then apply the profile to a folder of image assets.
-seo-description: Create image profiles that contain settings for unsharp mask, and smart crop or smart swatch, or both, then apply the profile to a folder of image assets.
+title: Dynamic Media Image Profiles
+seo-title: Dynamic Media Image Profiles
+description: Create Image Profiles that contain settings for unsharp mask, and smart crop or smart swatch, or both, then apply the profile to a folder of image assets.
+seo-description: Create Image Profiles that contain settings for unsharp mask, and smart crop or smart swatch, or both, then apply the profile to a folder of image assets.
 uuid: 9049fab9-d2be-4118-8684-ce58f3c8c16a
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
@@ -13,9 +13,9 @@ exl-id: 895103c8-df58-40f0-85d6-e29637edce53
 feature: Image Profiles
 role: Admin,User
 ---
-# Dynamic Media image profiles {#image-profiles}
+# Dynamic Media Image Profiles {#image-profiles}
 
-When uploading images, you can automatically crop the image upon upload by applying an image profile to the folder.
+When uploading images, you can automatically crop the image upon upload by applying an Image Profile to the folder.
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ When uploading images, you can automatically crop the image upon upload by apply
 
 >[!IMPORTANT]
 >
->Image profiles are not applicable to PDF, animated GIF, or INDD (Adobe InDesign) files.
+>Image Profiles are not applicable to PDF, animated GIF, or INDD (Adobe InDesign) files.
 
 
 ## Crop options {#crop-options}
@@ -38,18 +38,21 @@ See also [Dynamic Media limitations](/help/assets/limitations.md).
 
 <!-- CQDOC-16069 for paragraph directly below -->
 
-Smart Crop coordinates are aspect ratio dependent. That is, for the various smart crop settings in an image profile, if the aspect ratio is the same for the added dimensions in the image profile, then the same aspect ratio is sent to Dynamic media. Because of this, Adobe recommends that you use the same crop area. Doing so will ensure that there is no impact to different dimensions used in the image profile.
+Smart Crop coordinates are aspect ratio dependent. That is, for each smart crop setting in an Image Profile, if the aspect ratio is the same for the added dimensions in the Image Profile, then the same aspect ratio is sent to Dynamic Media. As a result, Adobe recommends that you use the same crop area. Doing so ensures that there is no impact to different dimensions used in the Image Profile.
 
-Be aware that each Smart Crop generation that you create requires extra processing. For example, adding more than five Smart Crop aspect ratios can result in a slow asset ingestion rate. It may also cause an increased load on systems. Because you can apply Smart Crop at the folder level, Adobe recommends that you use it on folders *only* where it is needed.
+Each Smart Crop generation that you create requires extra processing. For example, adding more than five Smart Crop aspect ratios can result in a slow asset ingestion rate. It may also cause an increased load on systems. Because you can apply Smart Crop at the folder level, Adobe recommends that you use it on folders *only* where it is needed.
 
-**Guidelines for defining Smart Crop in an Image profile**
+**Guidelines for defining Smart Crop in an Image Profile**
 To keep Smart Crop usage under control, and to optimize for processing time and storage of crops, Adobe recommends the following guidelines and tips:
 
-* Avoid creating duplicate smart crop profiles that have the same width and height values.
-* Name smart crops based on crop dimensions, not on end usage. Doing so helps to optimize for duplicates where a single dimension is used on multiple pages.
-* Create page-wise/asset type-wise Image profiles for specific folders and subfolders instead of a common smart crop profile that is applied to all folders or all assets.
-* An Image profile that you apply to subfolders overrides an Image profile that is applied to the folder.
+* Image assets that are going to have a smart crop applied to them must be a minimum of 50 x 50 pixels or larger. <!-- CQDOC-20087>
+* An Image Profile that contains duplicate smart crop dimensions is not permitted. <!-- CQDOC-20087>
+* Duplicate named Image Profiles that have smart crop options set are not permitted. <!-- CQDOC-20087>
+* Create page-wise/asset type-wise Image Profiles for specific folders and subfolders instead of a common smart crop profile that is applied to all folders or all assets.
+* An Image Profile that you apply to subfolders overrides an Image Profile that is applied to the folder.
 * Ideally, have 10-15 smart crops per image to optimize for screen ratios and processing time.
+<!-- * Avoid creating duplicate smart crop profiles that have the same width and height values. 
+* Name smart crops based on crop dimensions, not on end usage. Doing so helps to optimize for duplicates where a single dimension is used on multiple pages.-->
 
 You have two image crop options from which to choose. You can also choose to automate the creation of color and image swatches or preserve crop content across target resolutions.
 
@@ -85,7 +88,7 @@ You have two image crop options from which to choose. You can also choose to aut
   <tr> 
    <td>Color and Image Swatch</td> 
    <td>Bulk generate an image swatch for each image.</td> 
-   <td><p><strong>Note</strong>: Smart Swatch is not supported in Dynamic Media Classic.</p> <p>Automatically locate and generate high-quality swatches from product images that show color or texture.</p> <p>To use Color and Image Swatch, select <strong>Smart Crop</strong> from the Cropping Options drop-down list, then to the right of Color and Image Swatch, enable (turn on) the feature. Enter a pixel value in the Width and Height text boxes.</p> <p>While all image crops are available from the Renditions rail, swatches are only used by way of the Copy URL feature. Note that you must use your own viewing component to render the swatch on your site. (The exception to this is carousel banners. Dynamic Media provides the viewing component for the swatch used in carousel banners.)</p> <p><strong>Using image swatches</strong></p> <p>The URL for image swatches is straightforward. That is:</p> <p><code>/is/image/company/&lt;asset_name&gt;:Swatch</code></p> <p>where <code>:Swatch</code> is appended to the asset request.</p> <p><strong>Using color swatches</strong></p> <p>To use color swatches, you make a <code>req=userdata</code> request with the following:</p> <p><code>/is/image/&lt;company_name&gt;/&lt;swatch_asset_name&gt;:Swatch?req=userdata</code></p> <p>For example, the following is a swatch asset in Dynamic Media Classic:</p> <p><code>https://my.company.com:8080/is/image/DemoCo/Sleek:Swatch</code></p> <p>and here is the swatch asset's corresponding <code>req=userdata</code> URL:</p> <p><code>https://my.company.com:8080/is/image/DemoCo/Sleek:Swatch?req=userdata</code></p> <p>The <code>req=userdata</code> response is as follows:</p> <p><code class="code">SmartCropDef=Swatch
+   <td><p><strong>Note</strong>: Smart Swatch is not supported in Dynamic Media Classic.</p> <p>Automatically locate and generate high-quality swatches from product images that show color or texture.</p> <p>To use Color and Image Swatch, select <strong>Smart Crop</strong> from the Cropping Options drop-down list, then to the right of Color and Image Swatch, enable (turn on) the feature. Enter a pixel value in the Width and Height text boxes.</p> <p>While all image crops are available from the Renditions rail, swatches are only used by way of the Copy URL feature. It's required that you use your own viewing component to render the swatch on your site. (The exception to this rule is carousel banners. Dynamic Media provides the viewing component for the swatch used in carousel banners.)</p> <p><strong>Using image swatches</strong></p> <p>The URL for image swatches is straightforward:</p> <p><code>/is/image/company/&lt;asset_name&gt;:Swatch</code></p> <p>where <code>:Swatch</code> is appended to the asset request.</p> <p><strong>Using color swatches</strong></p> <p>To use color swatches, you make a <code>req=userdata</code> request with the following:</p> <p><code>/is/image/&lt;company_name&gt;/&lt;swatch_asset_name&gt;:Swatch?req=userdata</code></p> <p>For example, the following is a swatch asset in Dynamic Media Classic:</p> <p><code>https://my.company.com:8080/is/image/DemoCo/Sleek:Swatch</code></p> <p>and here is the swatch asset's corresponding <code>req=userdata</code> URL:</p> <p><code>https://my.company.com:8080/is/image/DemoCo/Sleek:Swatch?req=userdata</code></p> <p>The <code>req=userdata</code> response is as follows:</p> <p><code class="code">SmartCropDef=Swatch
        SmartCropHeight=200.0
        SmartCropRect=0.421671,0.389815,0.0848564,0.0592593,200,200
        SmartCropType=Swatch
@@ -97,11 +100,11 @@ You have two image crop options from which to choose. You can also choose to aut
 
 ## Unsharp Mask {#unsharp-mask}
 
-You use **Unsharp Mask** to fine-tune a sharpening filter effect on the final downsampled image. You can control intensity of effect, radius of the effect (measured in pixels), and a threshold of contrast that will be ignored. This effect uses the same options as Adobe Photoshop's "Unsharp Mask" filter.
+You use **Unsharp Mask** to fine-tune a sharpening filter effect on the final downsampled image. You can control intensity of effect, radius of the effect (measured in pixels), and a threshold of contrast that is ignored. This effect uses the same options as Adobe Photoshop's "Unsharp Mask" filter.
 
 >[!NOTE]
 >
->Unsharp mask is only applied to downscaled renditions within the PTIFF (pyramid tiff) that are downsampled more than 50%. That means the largest-sized renditions within the PTIFF are not affected by unsharp mask whereas smaller-sized renditions such as thumbnails are altered (and will show the unsharp mask).
+>Unsharp mask is only applied to downscaled renditions within the PTIFF (pyramid tiff) that are downsampled more than 50%. That means the largest-sized renditions within the PTIFF are not affected by unsharp mask whereas smaller-sized renditions such as thumbnails are altered (and show the unsharp mask).
 
 In **Unsharp Mask**, you have the following filtering options:
 
@@ -128,17 +131,17 @@ In **Unsharp Mask**, you have the following filtering options:
 
 Sharpening is described in [Sharpening Images](/help/assets/assets/sharpening_images.pdf).
 
-## Creating Dynamic Media image profiles {#creating-image-profiles}
+## Creating Dynamic Media Image Profiles {#creating-image-profiles}
 
 To define advanced processing parameters for other asset types, see [Configuring Asset Processing](config-dms7.md#configuring-asset-processing).
 
-**To create Dynamic Media image profiles**:
+**To create Dynamic Media Image Profiles**:
 
 1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Image Profiles]**.
-1. Tap **[!UICONTROL Create]** to add a new image profile.
+1. Tap **[!UICONTROL Create]** to add an Image Profile.
 1. Enter a profile name, and values for unsharp mask, crop, or swatch, or both.
 
-   You may find it helpful to use a profile name that is specific to its intended purpose. For example, if you want to create a profile that generates swatches only--that is, Smart Crop is disable (turned off) and Color and Image Swatch is enabled (turned on)--you could use the profile name "Smart Swatches".
+   You may find it helpful to use a profile name that is specific to its intended purpose. For example, if you want to create a profile that generates swatches only&mdash;where Smart Crop is disabled and Color and Image Swatch is enabled&mdash;you could use the profile name "Smart Swatches".
 
    See also [Smart Crop and Smart Swatch Options](#crop-options) and [Unsharp Mask](#unsharp-mask).
 
@@ -146,55 +149,55 @@ To define advanced processing parameters for other asset types, see [Configuring
 
 1. Tap **[!UICONTROL Save]**. The newly created profile appears in the list of available profiles.
 
-## Editing or deleting Dynamic Media image profiles {#editing-or-deleting-image-profiles}
+## Editing or deleting Dynamic Media Image Profiles {#editing-or-deleting-image-profiles}
 
 1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Image Profiles]**.
-1. Select the image profile you want to edit or remove. To edit it, select **[!UICONTROL Edit Image Processing Profile]**. To remove it, select **[!UICONTROL Delete Image Processing Profile]**.
+1. Select the Image Profile that you want to edit or remove. To edit it, select **[!UICONTROL Edit Image Processing Profile]**. To remove it, select **[!UICONTROL Delete Image Processing Profile]**.
 
    ![chlimage_1-254](assets/chlimage_1-254.png)
 
 1. If editing, save the changes. If deleting, confirm that you want to remove the profile.
 
-## Applying a Dynamic Media image profile to folders {#applying-an-image-profile-to-folders}
+## Applying a Dynamic Media Image Profile to folders {#applying-an-image-profile-to-folders}
 
-When you assign an image profile to a folder, any subfolders automatically inherit the profile from its parent folder. This means that you can assign only one image profile to a folder. As such, consider carefully the folder structure of where you upload, store, use, and archive assets.
+When you assign an Image Profile to a folder, any subfolders automatically inherit the profile from its parent folder. This workflow means that you can assign only one Image Profile to a folder. As such, consider carefully the folder structure of where you upload, store, use, and archive assets.
 
-If you assigned a different image profile to a folder, the new profile overrides the previous profile. The previously existing folder assets remain unchanged. The new profile is applied on the assets that are added to the folder later.
+If you assigned a different Image Profile to a folder, the new profile overrides the previous profile. The previously existing folder assets remain unchanged. The new profile is applied on the assets that are added to the folder later.
 
-Folders that have a profile assigned to it are indicated in the user interface by the name of the profile appearing in the card.
+Folders that have a profile assigned to it are indicated in the user interface by the profile's name appearing in the card.
 
-When you add smart crop to an existing image profile, you need to re-trigger the [DAM Update Asset workflow](assets-workflow.md) if you want to generate crops for existing assets in your asset repository.
+When you add smart crop to an existing Image Profile, you must retrigger the [DAM Update Asset workflow](assets-workflow.md) if you want to generate crops for existing assets in your asset repository.
 
-You can apply image profiles to specific folders or globally to all assets.
+You can apply Image Profiles to specific folders or globally to all assets.
 
-### Applying Dynamic Media image profiles to specific folders {#applying-image-profiles-to-specific-folders}
+### Applying Dynamic Media Image Profiles to specific folders {#applying-image-profiles-to-specific-folders}
 
-You can apply an image profile to a folder from within the **[!UICONTROL Tools]** menu or if you are in the folder, from **[!UICONTROL Properties]**. This section describes how to apply image profiles to folders both ways.
+You can apply an Image Profile to a folder from within the **[!UICONTROL Tools]** menu or if you are in the folder, from **[!UICONTROL Properties]**. This section describes how to apply Image Profiles to folders both ways.
 
 Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
-#### Applying Dynamic Media image profiles to folders from Profiles user interface {#applying-image-profiles-to-folders-from-profiles-user-interface}
+#### Applying Dynamic Media Image Profiles to folders from Profiles user interface {#applying-image-profiles-to-folders-from-profiles-user-interface}
 
 1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Image Profiles]**.
-1. Select the image profile that you want to apply to a folder or multiple folders.
+1. Select the Image Profile that you want to apply to a folder or multiple folders.
 
    ![chlimage_1-255](assets/chlimage_1-255.png)
 
 1. Tap **[!UICONTROL Apply Processing Profile to Folder(s)]** and select the folder or multiple folders you want use to receive the newly uploaded assets and tap/click **[!UICONTROL Apply]**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
-#### Applying Dynamic Media image profiles to folders from Properties {#applying-image-profiles-to-folders-from-properties}
+#### Applying Dynamic Media Image Profiles to folders from Properties {#applying-image-profiles-to-folders-from-properties}
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Assets]**. Then navigate to the parent folder of the folder to which you want to apply an image profile.
+1. Tap the AEM logo and navigate to **[!UICONTROL Assets]**. Then navigate to the parent folder of the folder to which you want to apply an Image Profile.
 1. On the folder, tap the check mark to select it and then tap **[!UICONTROL Properties]**.
 1. Tap the **[!UICONTROL Image Profiles]** tab. From the **[!UICONTROL Profile Name]** drop-down list, select the profile, then tap **[!UICONTROL Save & Close]**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
    ![chlimage_1-256](assets/chlimage_1-256.png)
 
-### Applying an Dynamic Media image profile globally {#applying-an-image-profile-globally}
+### Applying a Dynamic Media Image Profile globally {#applying-an-image-profile-globally}
 
-In addition to applying a profile to a folder, you can also apply one globally so that any content uploaded into AEM assets in any folder has the selected profile applied.
+In addition to applying a profile to a folder, you can also apply one globally so that any content uploaded into AEM Assets in any folder has the selected profile applied.
 
-**To apply an Dynamic Media image profile globally**:
+**To apply a Dynamic Media Image Profile globally**:
 
 1. Do one of the following:
 
@@ -218,16 +221,15 @@ You can manually realign or resize the smart crop window of an image to further 
 
 After you edit a smart crop and save, the change is propagated everywhere you use the crop for the specific images.
 
-You can re-run smart crop to generate the additional crops again, if required.
+You can rerun smart crop to generate the additional crops again, if necessary.
 
 See also [Editing the smart crop or smart swatch of multiple images](#editing-the-smart-crop-or-smart-swatch-of-multiple-images).
 
 **To edit the smart crop or smart swatch of a single image**:
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Assets]**, then to the folder that has a smart crop or smart swatch image profile applied to it.  
-
-1. Tap the folder to open its contents.
-1. Tap the image whose smart crop or smart swatch you want to adjust.
+1. Tap the AEM logo and navigate to **[!UICONTROL Assets]**, then to the folder that has a smart crop or smart swatch Image Profile applied to it.  
+1. Open its contents by tapping the folder.
+1. Tap the image with the smart crop or smart swatch that you want to adjust.
 1. In the toolbar, tap **[!UICONTROL Smart Crop]**.  
 
 1. Do any of the following:
@@ -241,15 +243,15 @@ See also [Editing the smart crop or smart swatch of multiple images](#editing-th
 
 ## Editing the smart crop or smart swatch of multiple images {#editing-the-smart-crop-or-smart-swatch-of-multiple-images}
 
-After you apply an image profile&mdash;containing Smart Crop&mdash;to a folder, all images in that folder have a crop applied to them. If desired, you can *manually* realign or resize the smart crop window in multiple images to further refine their focal point.
+After you apply an Image Profile&mdash;containing Smart Crop&mdash;to a folder, all images in that folder have a crop applied to them. If desired, you can *manually* realign or resize the smart crop window in multiple images to further refine their focal point.
 
 After you edit a smart crop and save, the change is propagated everywhere you use the crop for the specific images.
 
-You can re-run smart crop to generate the additional crops again, if required.
+You can rerun smart crop to generate the additional crops again, if necessary.
 
 **To edit the smart crop or smart swatch of multiple images**:
 
-1. Tap the AEM logo and navigate to **[!UICONTROL Assets]**, then to a folder that has a smart crop or smart swatch image profile applied to it.
+1. Tap the AEM logo and navigate to **[!UICONTROL Assets]**, then to a folder that has a smart crop or smart swatch Image Profile applied to it.
 1. On the folder, tap the **[!UICONTROL More Actions]** (...) icon, then tap **[!UICONTROL Smart Crop]**.  
 
 1. On the **[!UICONTROL Edit Smart Crops]** page, do any of the following:
@@ -288,23 +290,23 @@ You can re-run smart crop to generate the additional crops again, if required.
 
 1. Near the upper-right corner of the page, tap **[!UICONTROL Save]**. then tap **[!UICONTROL Close]** to return to the folder of assets.
 
-## Removing an image profile from folders {#removing-an-image-profile-from-folders}
+## Removing an Image Profile from folders {#removing-an-image-profile-from-folders}
 
-When you remove an image profile from a folder, any subfolders automatically inherit the removal of the profile from its parent folder. However, any processing of files that has occurred within the folders remains intact.
+When you remove an Image Profile from a folder, any subfolders automatically inherit the removal of the profile from its parent folder. However, any processing of files that has occurred within the folders remains intact.
 
-You can remove an image profile from a folder from within the **[!UICONTROL Tools]** menu or if you are in the folder, from **[!UICONTROL Properties]**. This section describes how to remove image profiles from folders both ways.
+You can remove an Image Profile from a folder from within the **[!UICONTROL Tools]** menu or if you are in the folder, from **[!UICONTROL Properties]**. This section describes how to remove Image Profiles from folders both ways.
 
-### Removing Dynamic Media image profiles from folders by way of Profiles user interface {#removing-image-profiles-from-folders-via-profiles-user-interface}
+### Removing Dynamic Media Image Profiles from folders by way of Profiles user interface {#removing-image-profiles-from-folders-via-profiles-user-interface}
 
 1. Tap the AEM logo and navigate to **[!UICONTROL Tools > Assets > Image Profiles]**.
-1. Select the image profile that you want to remove from a folder or multiple folders.
+1. Select the Image Profile that you want to remove from a folder or multiple folders.
 1. Tap **[!UICONTROL Remove Processing Profile from Folder(s)]** and select the folder or multiple folders you want use to remove the profile from and tap **[!UICONTROL Remove]**.
 
-    You can confirm that the image profile is no longer applied to a folder because the name no longer appears below the folder name.
+    You can confirm that the Image Profile is no longer applied to a folder because the name no longer appears below the folder name.
 
-### Removing Dynamic Media image profiles from folders by way of Properties {#removing-image-profiles-from-folders-via-properties}
+### Removing Dynamic Media Image Profiles from folders by way of Properties {#removing-image-profiles-from-folders-via-properties}
 
-1. Tap the AEM logo and navigate **[!UICONTROL Assets]** and then to the folder that you want to remove an image profile from.
+1. Tap the AEM logo and navigate **[!UICONTROL Assets]** and then to the folder that you want to remove an Image Profile from.
 1. On the folder, tap the check mark to select it, then tap **[!UICONTROL Properties]**.
 1. Select the **[!UICONTROL Image Profiles]** tab.
 1. From the **[!UICONTROL Profile Name]** drop-down list, select **[!UICONTROL None]**, then tap **[!UICONTROL Save & Close]**.
