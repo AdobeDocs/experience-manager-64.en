@@ -8,6 +8,7 @@ breadcrumb-title: Developing Guide
 user-guide-description: This guide covers how to build out your AEM instance.
 feature: Developing
 role: Developer
+hide: yes
 ---
 
 # AEM 6.4 Developing User Guide {#developing}

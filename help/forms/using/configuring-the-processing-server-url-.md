@@ -13,6 +13,10 @@ exl-id: f60beaae-4082-4165-8a37-9d9c94e360b2
 ---
 # Configuring AEM DS settings {#configuring-aem-ds-settings}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This article describes how to configure **AEM DS Settings Service**. This setting can be used in multiple scenarios, for example:
 
 * In Correspondence Management

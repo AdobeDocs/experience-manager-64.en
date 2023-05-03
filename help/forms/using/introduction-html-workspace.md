@@ -13,6 +13,10 @@ exl-id: d60462a7-b941-4d0c-b6c5-20289d553a25
 ---
 # Introduction to AEM Forms workspace {#introduction-to-aem-forms-workspace}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Forms workflow increases organizational efficiency by automating and providing visibility into critical document and form-related business processes. Using Process Management module you can build streamlined, end-to-end workflows — including people, systems, content, and business rules — that are accessible online or offline.Forms workflow includes the AEM Forms workspace. AEM Forms workspace adds new capabilities to extend and integrate workspace and make it more user-friendly.
 
 AEM Forms workspace is compatible with more devices and form factors. It allows for task management on clients without Flash® Player and Adobe® Reader®. It facilitates rendition of HTML Forms in addition to PDF forms.

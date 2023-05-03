@@ -12,6 +12,10 @@ exl-id: 887e88c6-4c2b-4ef3-b268-8956fdb4535f
 ---
 # Layout capabilities of adaptive forms {#layout-capabilities-of-adaptive-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager (AEM) lets you create easy-to-use adaptive forms that offer dynamic experiences to end users. The form layout controls how items or components are displayed in an adaptive form.
 
 ## Prerequisite knowledge {#prerequisite-knowledge}

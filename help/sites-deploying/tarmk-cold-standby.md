@@ -14,6 +14,10 @@ exl-id: 73f5c1a4-3d2d-4594-877e-93bd09a94e91
 ---
 # How to Run AEM with TarMK Cold Standby{#how-to-run-aem-with-tarmk-cold-standby}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 The Cold Standby capacity of the Tar Micro Kernel allows one or more standby AEM instances to connect to a primary instance. The sync process is one way only meaning that it is only done from the primary to the standby instances.

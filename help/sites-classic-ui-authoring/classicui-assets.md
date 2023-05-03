@@ -13,6 +13,10 @@ exl-id: 535d2a9f-852c-48ea-89ec-31de3a891666
 ---
 # Working with Assets{#working-with-assets}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The [Author Environment and Tools](/help/sites-authoring/author-environment-tools.md) section provides information about using [!UICONTROL Content Finder] to find and use assets when editing pages. AEM Assets provides other methods for working with assets:
 
 * [Adding Dynamic Media Classic features to your page](/help/sites-classic-ui-authoring/manage-assets-classic-s7.md)

@@ -14,6 +14,10 @@ exl-id: 2007336d-d75c-4e01-af81-181751c04cfe
 ---
 # Community Functions {#community-functions}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The type of features expected from a community experience are well known. Community features are available as community functions. Essentially, they are one or more pages pre-wired to implement a community feature which requires more than simply adding a component to a page in author mode. They are the building blocks used to define the structure of a [community site template](sites.md) from which community sites are [created](sites-console.md).
 
 Once a community site is created, content may be added to the resulting pages using the standard [AEM authoring mode](../../help/sites-authoring/editing-content.md).

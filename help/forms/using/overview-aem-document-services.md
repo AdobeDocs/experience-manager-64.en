@@ -12,6 +12,10 @@ exl-id: aabfd05d-581b-4205-8e61-5667d5713cb1
 ---
 # Overview of AEM Document Services {#overview-of-aem-document-services}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Document Services are a set of OSGi Services for creating, assembling, and securing PDF Documents. Document Services contain following services:
 
 ## Output Service {#output-service}

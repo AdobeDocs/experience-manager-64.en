@@ -8,6 +8,10 @@ exl-id: d80562f7-071c-460a-9c68-65f48d36fbd9
 ---
 # Integrate Assets with Adobe InDesign Server {#integrating-aem-assets-with-indesign-server}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager Assets uses:
 
 * A proxy to distribute the load of certain processing tasks. A proxy is an [!DNL Experience Manager] instance that communicates with a proxy worker to fulfil a specific task, and other [!DNL Experience Manager] instances to deliver the results.  

@@ -13,6 +13,10 @@ exl-id: 6dd289ee-13fd-46be-82cd-aa69852397c9
 ---
 # Configure the Admin Password on Installation{#configure-the-admin-password-on-installation}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 Since version 6.3, AEM allows the admin password to be set using the command line when installing a new instance.

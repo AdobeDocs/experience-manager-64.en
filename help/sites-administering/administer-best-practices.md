@@ -9,6 +9,10 @@ exl-id: 8c41dba4-bedc-4747-b67d-fd89d71c8b2c
 ---
 # Best Practices{#best-practices}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Best practices describe how to develop, administer, or use AEM in the most efficient and most effective way possible. This growing list of topics includes a variety of areas in AEM.
 
 The following areas have documentation available concerning best practices:

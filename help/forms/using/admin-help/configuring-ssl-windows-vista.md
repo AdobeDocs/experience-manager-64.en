@@ -13,6 +13,10 @@ exl-id: 8eee2ed2-8263-47f2-b928-214fd9ab5f6e
 ---
 # Configuring SSL on Windows Vista {#configuring-ssl-on-windows-vista}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To configure SSL on Windows Vista™, you need an SSL certificate with RSA keys for authentication. You can use the Java keytool to create the certificate.
 
 >[!NOTE]

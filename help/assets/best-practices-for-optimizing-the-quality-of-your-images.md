@@ -11,6 +11,10 @@ role: User
 ---
 # Best practices for optimizing the quality of your images {#best-practices-for-optimizing-the-quality-of-your-images}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Optimizing image quality can be a time consuming process as many factors contribute to rendering acceptable results. The outcome is partly subjective because individuals perceive image quality differently. Structured experimentation is key.
 
 AEM includes more than 100 dynamic media image delivery commands for tuning and optimizing images and rendering results. The following guidelines can help you streamline the process and achieve good results quickly using some essential commands and best practices.

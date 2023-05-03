@@ -13,6 +13,10 @@ exl-id: 3148ba52-4464-4f3e-8741-645cd7a1c970
 ---
 # Integrating with Silverpop Engage{#integrating-with-silverpop-engage}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >Silverpop integration is **not** available out of the box. You must download the [Silverpop integration package](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem620/product/cq-mcm-integrations-silverpop-content) from Package Share and install it on your instance. After you have installed the package, you can configure it as described in this document.

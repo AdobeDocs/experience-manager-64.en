@@ -12,6 +12,10 @@ exl-id: 3bc32053-d35d-4c19-a311-48b0b99eefb8
 ---
 # Document Fragments {#document-fragments}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Document Fragments {#document-fragments-1}
 
 Document fragments are reusable parts/components of a correspondence using which you can compose letters/correspondence. The document fragments are of the following types:

@@ -13,6 +13,10 @@ role: User
 ---
 # Interactive Videos {#interactive-videos}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can easily create interactive videos that drive conversion directly from the video. Customer engagement with the video takes place in a panel alongside the video player where related service, information, or product thumbnails are scrolled into view based on what is featured in the video. Customers can tap the thumbnail and be linked directly to the service, or add the item to a shopping cart for immediate purchase, or be linked to a web page for more information.
 
 When the video ends, a visual summary of all offerings is displayed to drive a call to action. Customers have another opportunity to tap the item they want. Actionable and specific experiences such as these increase customer engagement and conversions.

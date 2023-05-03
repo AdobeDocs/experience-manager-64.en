@@ -15,6 +15,10 @@ exl-id: c85e442a-eb24-4eda-a49b-089e5988150d
 ---
 # Foundation Components{#foundation-components}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >This section covers foundation components, which have been available with AEM for many versions and are available out-of-the-box in a standard AEM installation. However a number of the foundation components have been deprecated with AEM 6.4.

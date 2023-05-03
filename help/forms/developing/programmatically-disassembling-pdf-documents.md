@@ -14,6 +14,10 @@ exl-id: 3f757392-96a0-4f20-91d0-7fbccb1bf171
 ---
 # Programmatically Disassembling PDF Documents {#programmatically-disassembling-pdf-documents}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can disassemble a PDF document by passing it to the Assembler service. Typically, this task is useful when the PDF document was originally created from many individual documents, such as a collection of statements. In the following illustration, DocA is divided into multiple resultant documents, where the first level 1 bookmark on a page identifies the start of a new resultant document.
 
 ![pd_pd_pdfsfrombookmarks](assets/pd_pd_pdfsfrombookmarks.png)

@@ -12,6 +12,10 @@ noindex: true
 
 # DO NOT PUBLISH, BUT DO NOT DELETE Customizing Content Fragment Models{#do-not-publish-but-do-not-delete-customizing-content-fragment-models}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Content Fragment Model editor is a wizard based on `Formbuilder`, inherited from:
 
 `granite/ui/components/foundation/form/formbuilder`

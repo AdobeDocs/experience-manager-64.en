@@ -12,6 +12,10 @@ exl-id: bc8c2080-eb67-4bd0-8829-fd6ddbf8d4a9
 ---
 # Logging in to AEM Forms app {#logging-in-to-aem-forms-app}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When you start your AEM Forms app, you first need to provide your login credentials and a AEM Forms server URL.
 
 ## To start the app {#to-start-the-app}

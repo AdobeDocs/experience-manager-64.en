@@ -13,6 +13,10 @@ exl-id: ef622ac3-d96d-48bf-bfb2-61516d9deb5c
 ---
 # Upgrading to AEM 6.4 Communities {#upgrading-to-aem-communities}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Depending on each site's topology and features, the following actions may be necessary when upgrading to AEM Communities 6.4 or installing the latest feature pack.
 
 This section is specific to Communities and supplements the information provided in [Upgrading to AEM 6.4](../../help/sites-deploying/upgrade.md) (platform).

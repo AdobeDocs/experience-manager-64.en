@@ -13,6 +13,10 @@ exl-id: 64ca6baa-5534-4227-a969-fb67cc6eb207
 ---
 # APIs to access letter instances {#apis-to-access-letter-instances}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 Using the Create Correspondence UI of Correspondence Management, you can save drafts of letter instances under progress and there are submitted letter instances.

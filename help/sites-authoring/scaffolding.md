@@ -13,6 +13,10 @@ exl-id: 20197226-09d5-4ac6-b4cb-0793576a56cf
 ---
 # Scaffolding{#scaffolding}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Sometimes you may need to create a large set of pages that share the same structure but have differing content. Through the standard AEM interface, you would need to create each page, drag the appropriate components onto the page and fill each of them in individually.
 
 With scaffolding you can create a form (a scaffold) with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure.

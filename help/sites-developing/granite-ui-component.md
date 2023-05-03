@@ -13,6 +13,10 @@ exl-id: 9a6cc25e-e54e-4b8a-8fdd-bcd65d8fe601
 ---
 # Creating a New Granite UI Field Component{#creating-a-new-granite-ui-field-component}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Granite UI provides a range of components designed to be used in forms; these are called *fields* in the Granite UI vocabulary. The standard Granite form components are available under:
 
 `/libs/granite/ui/components/foundation/form/*`

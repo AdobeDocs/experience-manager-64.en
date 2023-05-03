@@ -13,6 +13,10 @@ exl-id: f55a774e-db41-465e-843c-a876a4f14997
 ---
 # Developing for Targeted Content{#developing-for-targeted-content}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This section describes topics about developing components for use with content targeting.
 
 * For information about connecting with Adobe Target, see [Integrating With Adobe Target](/help/sites-administering/target.md).

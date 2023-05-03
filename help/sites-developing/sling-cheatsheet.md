@@ -13,4 +13,8 @@ exl-id: 405f615f-84d0-4e28-ab75-dd5375116c6c
 ---
 # Sling Cheatsheet{#sling-cheatsheet}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
  ![chlimage_1-97](assets/chlimage_1-97.png) ![chlimage_1-98](assets/chlimage_1-98.png)

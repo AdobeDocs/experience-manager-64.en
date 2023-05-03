@@ -12,6 +12,10 @@ exl-id: 272d3ec1-7f92-4f4a-9e98-954136b20b27
 ---
 # Appearance framework for adaptive and HTML5 forms {#appearance-framework-for-adaptive-and-html-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Forms (adaptive forms and HTML5 forms) use [jQuery](https://jquery.com/), [Backbone.js](https://backbonejs.org/) and [Underscore.js](https://underscorejs.org/) libraries for appearance and scripting. The forms also use the [jQuery UI](https://jqueryui.com/) **Widgets** architecture for all interactive elements (such as fields and buttons) in the form. This architecture enables Form developer to use a rich set of available jQuery widgets and plug-ins in Forms. You can also implement form-specific logic while capturing data from users like leadDigits/trailDigits restrictions or implementing picture clauses. Form developers can create and use custom apperances to improve the data capture experience and make it more user-friendly.
 
 This article is for developers with sufficient knowledge of jQuery and jQuery widgets. It provides insight into the appearance framework and enables developers to create an alternate appearance for a form field.

@@ -14,6 +14,10 @@ exl-id: edd6e933-59ed-4d7e-8934-7e2ec485cfb9
 ---
 # Post Upgrade Checks and Troubleshooting{#post-upgrade-checks-and-troubleshooting}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Post Upgrade Checks {#post-upgrade-checks}
 
 Following the [In-Place Upgrade](/help/sites-deploying/in-place-upgrade.md) the following activities should be executed to finalize the upgrade. It is assumed AEM has been started with the 6.4 jar and that the upgraded code base has been deployed.

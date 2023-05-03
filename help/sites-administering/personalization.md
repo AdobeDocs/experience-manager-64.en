@@ -13,6 +13,10 @@ exl-id: 841f54da-962a-4fa7-a295-571e2178ed23
 ---
 # Personalization {#personalization}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## What is Personalization? {#what-is-personalization}
 
 There is an ever-increasing volume of content available today, be it on internet, extranet, or intranet websites.

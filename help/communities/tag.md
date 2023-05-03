@@ -13,6 +13,10 @@ exl-id: 863ee5e3-daa7-4f7d-8897-291d367cf29d
 ---
 # Tag Essentials {#tag-essentials}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When AEM Communities components are configured with tagging enabled, community members are able to tag the content they post in the publish environment.
 
 The underlying infrastructure for tags applied in the publish environment is the same as for tags applied to content in the author environment, such as pages and assets:

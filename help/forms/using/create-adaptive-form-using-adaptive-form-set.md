@@ -12,6 +12,10 @@ exl-id: 969b0c11-adc7-476e-8c82-d444fccba984
 ---
 # Create an adaptive form using a set of adaptive forms {#create-an-adaptive-form-using-a-set-of-adaptive-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 In a workflow, such as an application for opening a bank account, your users fill multiple forms. Instead of asking them to fill a set of forms, you can stack the forms together and build a large form (parent form). When you add an adaptive form to the larger form, it is added as a panel (child form). You add a set of child forms to create a parent form. You can show or hide panels based on user input. Buttons of the parent form, such as submit and reset, overwrite the buttons of the child form. To add an adaptive form in the parent form, you can drag-drop the adaptive form from the asset browser (like adaptive form fragments).

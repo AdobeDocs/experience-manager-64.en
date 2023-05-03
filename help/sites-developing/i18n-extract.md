@@ -13,6 +13,10 @@ exl-id: 50c2479b-72b6-42fa-8e48-45c8e9596161
 ---
 # Extracting Strings for Translating{#extracting-strings-for-translating}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use xgettext-maven-plugin to extract strings from your source code that need translating. The Maven plugin extracts strings to an XLIFF file that you send for translating. Strings are extracted from the following locations:
 
 * Java source files

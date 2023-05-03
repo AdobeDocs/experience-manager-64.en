@@ -13,6 +13,10 @@ exl-id: 45e5b682-3d21-4843-8f62-9d0d493d91c0
 ---
 # User Management {#user-management}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 User Management allows you to enable single sign-on (SSO) between AEM forms modules and Netegrity SiteMinder-protected applications by using Security Assertion Markup Language (SAML). When SSO is implemented, the AEM forms user login pages are not required and are not displayed if the user is already authenticated through the company portal.
 
 For information about improving the database and directory sync performance for DB2, see [IBM DB2 database: Running commands for regular maintenance](/help/forms/using/admin-help/ibm-db2-database-running-commands.md#ibm-db2-database-running-commands-for-regular-maintenance).

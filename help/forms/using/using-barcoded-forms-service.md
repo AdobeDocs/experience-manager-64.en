@@ -12,6 +12,10 @@ exl-id: 47d16792-c418-45fe-aa79-e66876d6d352
 ---
 # Barcoded Forms Service {#barcoded-forms-service}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 The Barcoded Forms service extracts data from electronic images of barcodes. The service accepts TIFF and PDF files that include one or more barcodes as input and extracts the barcode data. Barcode data can be formatted in various ways, including XML, delimited string, or any custom format created with JavaScript.

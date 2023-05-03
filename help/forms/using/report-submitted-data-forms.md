@@ -13,6 +13,10 @@ exl-id: 6d860fe3-6884-4141-ad3a-5315c514c843
 ---
 # APIs to work with submitted forms on forms portal {#apis-to-work-with-submitted-forms-on-forms-portal}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Forms provides APIs that you can use to query forms data submitted through forms portal. In addition, you can post comments or update properties of submitted forms using the APIs explained in this document.
 
 >[!NOTE]

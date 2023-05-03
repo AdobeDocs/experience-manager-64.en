@@ -13,6 +13,10 @@ exl-id: 05c52802-adfd-4b5f-a273-d6a261a00659
 ---
 # Applying Workflows to Pages{#applying-workflows-to-pages}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When authoring, you can invoke workflows to take action on your pages; it is also possible to apply more than one workflow.
 
 When you apply the workflow, you specify the following information:

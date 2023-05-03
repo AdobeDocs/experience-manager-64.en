@@ -13,6 +13,10 @@ exl-id: b498d54e-ff34-49a1-bfad-c6efbb6f75f4
 ---
 # Adding Dynamic Media assets to pages{#adding-dynamic-media-assets-to-pages}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To add the Dynamic Media functionality to assets you use on your websites, you can add the **[!UICONTROL Dynamic Media]** or **[!UICONTROL Interactive Media]** component directly on the page. You do this by entering [!UICONTROL Design] mode and enabling the dynamic media components. Then you can add these components to the page and add assets to the component. The dynamic media and interactive media components are smart - they know whether you are adding an image or a video and the options available change accordingly.
 
 You add dynamic media assets directly to the page if you are using AEM as your WCM.

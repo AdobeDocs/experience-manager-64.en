@@ -14,6 +14,10 @@ exl-id: b03acdb5-e951-49d6-b63f-2df273fcb4c7
 ---
 # Managing Users {#managing-users}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 **About User Management**
 
 You can use the User Management API to create client applications that can manage roles, permissions, and principals (which can be users or groups), as well as authenticate users. User Management API consists of the following AEM Forms APIs:

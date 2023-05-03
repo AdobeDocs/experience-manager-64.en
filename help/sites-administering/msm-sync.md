@@ -14,6 +14,10 @@ exl-id: 42b92993-abde-4ae4-8f0d-44166a3ea22e
 ---
 # Configuring Live Copy Synchronization{#configuring-live-copy-synchronization}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Perform the following tasks to control how and when live copies are synchronized with their source content.
 
 * Decide whether existing rollout configurations meet your requirements, or whether you need to create one or more.

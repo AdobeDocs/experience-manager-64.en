@@ -13,6 +13,10 @@ exl-id: 741043c7-2ebb-455d-8163-a246b874a7b3
 ---
 # Naming Conventions{#naming-conventions}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Nodes in the repository are subject to naming conventions of the [Java Content Repository](/help/sites-developing/the-basics.md#java-content-repository). However AEM imposes further conventions for the name of page nodes.
 
 ## Naming Conventions for Pages {#naming-conventions-for-pages}

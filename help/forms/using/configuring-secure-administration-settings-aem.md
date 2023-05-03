@@ -13,6 +13,10 @@ exl-id: 980d420c-a768-4634-9b8c-3f1d7327285d
 ---
 # Configuring Secure Administration Settings for AEM Forms on JEE {#configuring-secure-administration-settings-for-aem-forms-on-jee}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn how to administer user accounts and services that, although required in a private development environment, are not required in a production environment of AEM Forms on JEE.
 
 Generally, developers do not use the production environment to build and test their applications. Therefore, you must administer user accounts and services that, although required in a private development environment, are not required in a production environment.

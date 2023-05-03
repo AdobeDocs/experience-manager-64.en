@@ -11,6 +11,10 @@ exl-id: 7e1f417e-6a6b-4ef2-a453-866331fe3e96
 ---
 # Configure Microsoft Dynamics 365 for the home mortgage workflow of the We.Finance reference site {#configure-microsoft-dynamics-for-the-home-mortgage-workflow-of-the-we-finance-reference-site}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn how to leverage the Microsoft® Dynamics 365 services through adaptive forms for the home mortgage workflow of the We.Finance Reference site
 
 ## Overview {#overview}

@@ -13,6 +13,10 @@ exl-id: 21c10b39-ca37-4085-86f8-063c30a180ed
 ---
 # Technical Requirements{#technical-requirements}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe supports Adobe Experience Manager (AEM) on the platforms as detailed in the following information in this document.
 
 For any issues that are specifically related to the platform itself, please contact the platform vendor directly.

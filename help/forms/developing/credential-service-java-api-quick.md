@@ -14,6 +14,10 @@ exl-id: a81b2360-9d17-46c7-9443-51b366b0724a
 ---
 # Credential Service Java API Quick Start (SOAP) {#credential-service-java-api-quickstart-soap}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Java API Quick Start(SOAP) is available for the Credential service.
 
 [Quick Start (SOAP mode): Importing credentials using the Java API](credential-service-java-api-quick.md#quick-start-soap-mode-importing-credentials-using-the-java-api)

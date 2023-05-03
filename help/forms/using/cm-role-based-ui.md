@@ -12,6 +12,10 @@ discoiquuid: 342f111e-f15a-4f9a-8993-f90760363c02
 
 # DO NOT PUBLISH Role based user interface in Correspondence Management {#do-not-publish-role-based-user-interface-in-correspondence-management}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In AEM, the Admin can provide role-based access to different user groups perform various actions on different resources. For example, the funtionality to create or edit data dictionaries could be available only to users in a specific user group while other users could only view and user the data dictionaries.
 
 The AEM interface displays the options, such as to create or edit an asset type, based on a user's access level. For example, if a user does not have the permissions to create a data dictionary, the option to create a data dictionary does not appear in the UI.

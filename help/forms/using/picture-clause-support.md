@@ -14,6 +14,10 @@ exl-id: b63758f1-b375-4c05-bd53-69e0346733c6
 ---
 # Picture clause support for HTML5 forms {#picture-clause-support-for-html-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 HTML5 forms supports XFA Picture clause for display value and formatted value for date, text, and numeric symbols. Following Picture clause Expressions are supported:
 
 * category(locale){picture-clause} | category(locale){picture-clause} | category(locale){picture-clause}

@@ -12,6 +12,10 @@ exl-id: 7e3e9db6-13da-49b4-a9f9-79e76be9ea19
 ---
 # Adding information from user data to form submission metadata {#adding-information-from-user-data-to-form-submission-metadata}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can use values entered in an element of your form to compute metadata fields of a draft or a form submission. Metadata lets you filter content based on user data. For example, a user enters John Doe in the name field of your form. You can use this information to compute metadata that can categorize this submission under the initials JD.
 
 To compute metadata fields with user entered values, add elements of your form in the metadata. When a user enters a value in that element, a script uses the value to compute information. This information is added in the metadata. When you add an element as a metadata field, you provide a key for it. The key is added as a field in the metadata, and the computed information is logged against it.

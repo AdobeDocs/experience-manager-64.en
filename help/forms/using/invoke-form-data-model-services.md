@@ -12,6 +12,10 @@ exl-id: 0653b0e4-a697-472a-8093-5ed48ede3c75
 ---
 # API to invoke form data model service from adaptive forms {#api-to-invoke-form-data-model-service-from-adaptive-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 AEM Forms enables form authors to further simplify and enhance the form filling experience by invoking services configured in a form data model from within an adaptive form field. To invoke a data model service, you can either create a rule in the visual editor or specify a JavaScript using the `guidelib.dataIntegrationUtils.executeOperation` API in the code editor of the [rule editor](/help/forms/using/rule-editor.md).

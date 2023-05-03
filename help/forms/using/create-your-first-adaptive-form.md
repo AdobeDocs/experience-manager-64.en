@@ -12,6 +12,10 @@ exl-id: f634a73a-e720-4a38-a459-6ddbe4fdc565
 ---
 # Create your first adaptive form {#do-not-publish-create-your-first-adaptive-form}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
  ![01-create-first-adaptive-form-hero-image](assets/01-create-first-adaptive-form-hero-image.png)
 
 ## Introduction {#introduction}

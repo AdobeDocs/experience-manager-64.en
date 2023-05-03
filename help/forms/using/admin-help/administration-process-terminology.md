@@ -13,6 +13,10 @@ exl-id: 86f8d51c-a479-4940-b3c2-4b54a67f7450
 ---
 # About administration and process terminology {#about-administration-and-process-terminology}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To administer forms workflow effectively, you should understand the following terms and the hierarchy of the elements:
 
 * *Process categories* organize processes into logical groups.

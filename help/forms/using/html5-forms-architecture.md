@@ -14,6 +14,10 @@ exl-id: 5bb8b307-93f0-4ccd-89ac-de82d65021e6
 ---
 # Architecture of HTML5 forms {#architecture-of-html-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Architecture {#architecture}
 
 HTML5 forms functionality is deployed as a package within the embedded AEM instance and is exposesd as a REST end point over HTTP/S using RESTful [Apache Sling Architecture](https://sling.apache.org/).

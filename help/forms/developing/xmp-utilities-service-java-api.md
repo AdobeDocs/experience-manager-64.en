@@ -14,6 +14,10 @@ exl-id: fdbf9942-7e4d-4b76-971f-d26d89c4c4cf
 ---
 # XMP Utilities Service Java API Quick Start (SOAP) {#xmp-utilities-service-java-apiquick-start-soap}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following Quick Starts are available for the XMP Utilities service.
 
 [Quick Start (SOAP mode): Exporting XMP metadata using the Java API](xmp-utilities-service-java-api.md#quick-start-soap-mode-exporting-xmp-metadata-using-the-java-api)

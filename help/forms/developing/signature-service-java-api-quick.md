@@ -14,6 +14,10 @@ exl-id: 72726c83-e0e4-40ae-ad1d-8ac9589d9e8f
 ---
 # Signature Service Java API Quick Start (SOAP) {#signature-service-java-api-quickstart-soap}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Java API Quick Start(SOAP) is available for the Signature service:
 
 [Quick Start (SOAP mode): Adding a signature field to a PDF document using the Java API](signature-service-java-api-quick.md#quick-start-soap-mode-adding-a-signature-field-to-a-pdf-document-using-the-java-api)

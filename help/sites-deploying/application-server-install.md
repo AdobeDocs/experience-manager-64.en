@@ -13,6 +13,10 @@ exl-id: 65346618-e5a6-43d0-a2b3-698268d3cf64
 ---
 # Application Server Install{#application-server-install}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >`JAR` and `WAR` are the file types AEM is released in. These formats are undergoing quality assurance to accomodate the support levels Adobe has committed to.

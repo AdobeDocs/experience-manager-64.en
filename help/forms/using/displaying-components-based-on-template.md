@@ -13,6 +13,10 @@ exl-id: a4cee2e6-a56f-4355-8176-b3ed7478a775
 ---
 # Displaying components based on the template used {#displaying-components-based-on-the-template-used}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When a form author creates an adaptive form using a [template](/help/forms/using/template-editor.md), the form author can see and use specific components based on template policy. You can specify a template content policy that lets you choose a group of components that the form author sees at the time of form authoring.
 
 ## Changing the content policy of a template {#changing-the-content-policy-of-a-template}

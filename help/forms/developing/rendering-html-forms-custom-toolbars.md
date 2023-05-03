@@ -15,6 +15,10 @@ exl-id: f4711d21-59d3-482e-8059-9ef7c6008d21
 ---
 # Rendering HTML Forms with CustomToolbars {#rendering-html-forms-with-customtoolbars}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Rendering HTML Forms with Custom Toolbars {#rendering-html-forms-with-custom-toolbars}
 
 The Forms service lets you customize a toolbar that is rendered with an HTML form. A toolbar can be customized to alter its appearance by overriding default CSS styles and to add dynamic behavior by overriding Java scripts. A toolbar is customized by using an XML file named fscmenu.xml. By default, the Forms service retrieves this file from an internally specified URI location.

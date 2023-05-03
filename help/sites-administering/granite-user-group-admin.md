@@ -14,6 +14,10 @@ exl-id: bd29e81d-eb4a-4764-96f2-84e091836a8a
 ---
 # Granite Operations - User and Group Administration{#granite-operations-user-and-group-administration}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 As Granite incorporates the CRX Repository implementation of the JCR API Specification it has its own user and group administration.
 
 These accounts are the underlying basis of the [AEM accounts](/help/sites-administering/security.md) and any account changes made with the Granite administration will be reflected if/when the accounts are accessed from the [AEM Users console](/help/sites-administering/security.md#accessing-user-administration-with-the-security-console) (e.g. `http://localhost:4502/useradmin`). From the AEM Users console you can also manage the privileges and other AEM specifics.

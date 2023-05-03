@@ -13,6 +13,10 @@ exl-id: a5a1c824-e53a-4ae7-b0aa-6abbedf28a86
 ---
 # Creating and using themes {#creating-and-using-themes}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 You can create and apply themes to stylize an adaptive form or an interactive communication. A theme contains styling details for the components and panels. Styles include properties such as background colors, state colors, transparency, alignment, and size. When you apply a theme the specified style reflects on the corresponding components. Theme are managed independently without a reference to an adaptive form or intreactive comunication.

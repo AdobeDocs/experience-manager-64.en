@@ -14,6 +14,10 @@ exl-id: 26cd0851-cadf-4a8f-b3bf-59f77671f584
 ---
 # AEM desktop app for AEM Forms {#aem-desktop-app-for-aem-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM desktop app lets you map the Adobe Experience Manager (AEM) Assets repository and AEM Forms binary files to a network directory on your system. You can view the synced assets and binary files in a file explorer and use various apps to edit the files as desired. Apart from viewing the files, you can also create, upload, and delete the binary files. You can also open, edit, and save files directly from software. For example, you can directly open and edit an XDP file from Designer. The changes that you make to the assets locally are reflected in AEM Assets repository and AEM Forms UI.
 
 You can download the app from an AEM instance. For detailed information about downloading the app, see [AEM desktop app Release Notes](https://helpx.adobe.com/experience-manager/desktop-app/release-notes.html).

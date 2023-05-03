@@ -13,6 +13,10 @@ exl-id: 94a66d83-b359-4be6-b668-4b4ba024b1e7
 ---
 # Deleting forms and related resources {#deleting-forms-and-related-resources}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can delete the forms and assets to remove these assets from the repository. Delete operation works on all asset types and folders.
 
 If you delete an asset from the Author instance, the asset is also deleted from the Publish instance. AEM Forms server consists of Author and Publish instances. The Author instance is for creating and managing forms assets and resources. The Publish instance contains the published forms assets and related resources that are available for end users.

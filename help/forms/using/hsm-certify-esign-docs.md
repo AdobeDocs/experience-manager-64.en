@@ -13,6 +13,10 @@ exl-id: ab5233dd-182e-4871-997f-b2142901bce7
 ---
 # Use HSM to digitally sign or certify documents {#use-hsm-to-digitally-sign-or-certify-documents}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Hardware security modules (HSM) and etokens are dedicated, hardened, and tamper-resistance computing devices designed to securely manage, process, and store digital keys. These devices are directly attached to a computer or a network server.
 
 Adobe Experience Manager Forms can use credentials stored on an HSM or etoken to eSign or apply server-sided digital signatures to a document. To use an HSM or etoken device with AEM Forms:

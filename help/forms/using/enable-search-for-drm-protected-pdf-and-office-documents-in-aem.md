@@ -14,6 +14,10 @@ exl-id: dbf97dc1-cf05-4d45-859e-60ff01186e51
 ---
 # Enable AEM to search document security protected PDF and Microsoft Office documents{#enable-aem-to-search-document-security-protected-pdf-and-microsoft-office-documents}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager provides a user interface to search and locate various assets stored in AEM. The native search is capable of searching and locating AEM assets and performing  text  search on various commonly used document formats such as plain-text files, Microsoft Office documents, and PDF documents. You can also extend and enable the native search to perform  full-text  search on DRM protected PDF and Microsoft Office documents.
 
 Perform the following steps to enable AEM to search document security protected PDF and Microsoft Office documents:

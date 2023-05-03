@@ -12,6 +12,10 @@ exl-id: 0ae34ddd-9a8d-48df-af2d-80c3fe6abd62
 ---
 # Changing Page Zero content in Designer {#changing-page-zero-content-in-designer}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Page Zero content is displayed by default when a non-Adobe PDF viewer, such as the default PDF viewer in Chrome or Firefox, cannot read the content of the PDF/XFA form. The default Page Zero message is shown below.
 
 ![defaultpage0message](assets/defaultpage0message.png)

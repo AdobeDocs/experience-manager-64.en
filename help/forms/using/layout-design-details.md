@@ -13,6 +13,10 @@ exl-id: 92f90e7f-2869-4201-a927-47de1fc08f5c
 ---
 # Layout Design {#layout-design}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 XFA form templates or XDPs are the templates for:
 
 * [Letters](/help/forms/using/create-letter.md)

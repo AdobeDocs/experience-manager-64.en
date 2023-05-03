@@ -12,6 +12,10 @@ exl-id: 45b0fb99-9f7f-47e6-a4de-4db321867f8f
 ---
 # Install and configure data capture capabilities {#install-and-configure-data-capture-capabilities}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Install and configure adaptive forms, PDF Forms, and HTML5 Forms. Configure Adobe Analytics and Adobe Target for adaptive forms to analyze usage of forms and target users based on their profile.
 
 ## Introduction {#introduction}

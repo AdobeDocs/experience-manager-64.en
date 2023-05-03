@@ -13,6 +13,10 @@ exl-id: badb7082-3ebf-4bb3-9157-48b8e7ea8ff9
 ---
 # Configuring Undo for Page Editing{#configuring-undo-for-page-editing}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The [OSGi service](/help/sites-deploying/configuring-osgi.md)  **Day CQ WCM Undo Configuration** ( `com.day.cq.wcm.undo.UndoConfigService`) exposes several properties that control the behavior of the undo and redo commands for editing pages.
 
 ## Default Configuration {#default-configuration}

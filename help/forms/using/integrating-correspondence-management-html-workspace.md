@@ -11,6 +11,10 @@ exl-id: 4df9a16c-0853-4bbf-81bb-1856ab55c5ee
 ---
 # Integrating third-party applications in AEM Forms workspace {#integrating-third-party-applications-in-aem-forms-workspace}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Forms workspace supports the management of task assignment and completion activities for forms and documents. These forms and documents can be XDP Forms, Flex® forms, or Guides (deprecated) that have been rendered in XDP, PDF, HTML, or Flex formats.
 
 These capabilities are further enhanced. AEM Forms now supports collaboration with third-party applications that support functionality similar to the AEM Forms workspace. A common part of this functionality is the workflow of assignment and subsequent approval of a task. AEM Forms provides a single unified experience for AEM Forms enterprise users so that all such task assignments or approvals for the supported applications can be handled through AEM Forms workspace.

@@ -13,6 +13,10 @@ exl-id: c7a74e20-4cfb-4674-af41-f3333c9b5397
 ---
 # Starting and stopping WebLogic Server {#starting-and-stopping-weblogic-server}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Several procedures require you to start or stop the instance of WebLogic Server where you want to deploy AEM forms modules. Ensure that WebLogic Server is stopped or running, depending on the task you are performing.
 
 <table> 

@@ -13,6 +13,10 @@ exl-id: 40c2e205-0115-4ebe-ab24-66c8ee0663fa
 ---
 # Configuring credentials for use with Acrobat Reader DC extensions{#configuring-credentials-for-use-with-acrobat-reader-dc-extensions}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To apply usage rights to PDF documents, configure AEM forms with a valid credential for Acrobat Reader DC extensions. A credential may have been configured during the installation of AEM forms. If you did not configure your Acrobat Reader DC extensions credential while running Configuration Manager or if you need to import a new or replacement credential, you can do so using the Trust Store Management pages.
 
 If you are using an evaluation credential, replace it with a production credential when moving to your production environment. To update an expired or evaluations credential, first delete the old Acrobat Reader DC extensions credential.

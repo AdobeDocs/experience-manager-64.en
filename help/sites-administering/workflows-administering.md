@@ -13,6 +13,10 @@ exl-id: 70d4117b-5e49-46e4-a0b8-f56cf985536e
 ---
 # Administering Workflow Instances{#administering-workflow-instances}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The workflow console provides several tools for administering workflow instances to ensure that they are executing as expected.
 
 >[!NOTE]

@@ -13,6 +13,10 @@ exl-id: f71b16a9-a233-4129-bbf2-257ded88be25
 ---
 # Customizing Pages shown by the Error Handler{#customizing-pages-shown-by-the-error-handler}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM comes with a standard error handler for handling HTTP errors; for example, by showing:
 
 ![chlimage_1-67](assets/chlimage_1-67.png)

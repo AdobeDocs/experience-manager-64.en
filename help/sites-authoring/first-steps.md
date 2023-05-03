@@ -13,6 +13,10 @@ exl-id: c4b0211f-aaaf-44e5-89bb-6b951dbdb98f
 ---
 # First Steps for Authors{#first-steps-for-authors}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This section gives you an overview of the main tasks that you will be using when [starting to author content](/help/sites-authoring/author.md#concept-of-authoring-and-publishing) with Adobe Experience Manager (AEM).
 
 It covers:

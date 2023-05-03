@@ -14,6 +14,10 @@ exl-id: 8bfbeef8-d211-4e87-8cd5-adccb21a6e05
 ---
 # Converting Postscript to PDF Documents {#converting-postscript-to-pdf-documents}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## About the Distiller Service {#about-the-distiller-service}
 
 The Distiller® service converts PostScript®, Encapsulated PostScript (EPS), and PRN files to compact, reliable, and more secure PDF files over a network. The Distiller service is frequently used to convert large volumes of print documents to electronic documents, such as invoices and statements. Converting documents to PDF also allows enterprises to send their customers a paper version and an electronic version of a document.

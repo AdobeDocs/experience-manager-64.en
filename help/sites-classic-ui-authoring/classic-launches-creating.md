@@ -14,6 +14,10 @@ exl-id: 2f5c022e-bd98-4912-9409-d08137a1caf1
 ---
 # Creating Launches{#creating-launches}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page:
 
 * The title appears in the **Sidekick**, from where authors can access them to work on them.

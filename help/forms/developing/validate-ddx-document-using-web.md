@@ -14,6 +14,10 @@ exl-id: da303186-8f36-4fc8-a2db-b38a0b200c39
 ---
 # Validate a DDX document using the web service API {#validate-a-ddx-document-using-theweb-service-api}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Validate a DDX document by using the Assembler Service API (web service):
 
 1. Include project files.

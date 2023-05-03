@@ -8,6 +8,10 @@ exl-id: c2c6759e-f763-405e-9e45-5a90b9d32df2
 ---
 # Publish collections to Brand Portal {#publish-collections-to-brand-portal}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 As an Adobe Experience Manager Assets administrator, you can publish collections to the [!DNL Experience Manager Assets Brand Portal] instance for your organization. However, you must first integrate Assets with Brand Portal. For details, see [Configure Assets with Brand Portal](configure-aem-assets-with-brand-portal.md).
 
 If you make subsequent modifications to the original collection in Assets, the changes are not reflected in Brand Portal until you publish the collection again. This characteristic ensures that work-in-progress changes are not available in Brand Portal. Only approved changes that are published by an administrator are available in Brand Portal.

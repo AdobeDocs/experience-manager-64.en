@@ -15,6 +15,10 @@ exl-id: fa543e13-f920-4b77-9762-36f115261e8c
 ---
 # Assembling Encrypted PDF Documents {#assembling-encrypted-pdf-documents}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can encrypt a PDF document with a password by using the Assembler service. After a PDF document is encrypted with a password, a user must specify the password to view the PDF document in Adobe Reader or Acrobat. To encrypt a PDF document with a password, the DDX document must contain encryption element values that are required to encrypt a PDF document.
 
 For the purpose of this discussion, assume that the following DDX document is used.

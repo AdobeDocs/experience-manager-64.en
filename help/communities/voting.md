@@ -13,6 +13,10 @@ exl-id: 660a7106-0c21-4073-8319-4d6d20b9bc49
 ---
 # Using Voting {#using-voting}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The `Voting` component is a useful tool that allows community members to rate a particular piece of content, such as an answer within a QnA component. With the `Voting` component, members select up or down arrows to indicate their opinion.
 
 ## Adding Voting to a Page {#adding-voting-to-a-page}

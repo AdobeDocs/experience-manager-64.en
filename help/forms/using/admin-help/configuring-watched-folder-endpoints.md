@@ -13,6 +13,10 @@ exl-id: bce7eee6-17c6-4eaf-b679-b47e611bed87
 ---
 # Configuring watched folder endpoints {#configuring-watched-folder-endpoints}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 An administrator can configure a network folder, known as a *watched folder*, so that when a user places a file (such as a PDF file) in the watched folder, a configured service operation is invoked and manipulates the file. After the service performs the specified operation, it saves the modified file in a specified output folder.
 
 ## Configuring the Watched Folder service {#configuring-the-watched-folder-service}

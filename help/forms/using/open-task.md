@@ -12,6 +12,10 @@ exl-id: c87a35d5-3371-472d-af28-14d3412d6ebe
 ---
 # Opening a task {#opening-a-task}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 If the AEM Forms app syncs with an AEM Forms server, you can work with tasks assigned to you. Tasks are steps in the Workflow defined in workbench or in the AEM workflow editor. For example, see [Conard gets the assessment task in the Geometrixx Gov reference site](/help/forms/using/gov-reference-site-walkthrough.md#conard-assessment-task). You can make changes to any task that is currently assigned to you. All the tasks are available in the Task tab. Tasks saved as drafts remain in tasks tab.
 
 Other forms are saved as draft in the Drafts tab. See [Saving a draft](/help/forms/using/save-as-draft.md).

@@ -13,6 +13,10 @@ exl-id: d8d62c2f-3aa5-4fc9-8f42-86d75b6558ce
 ---
 # Integrating with Adobe Campaign Standard{#integrating-with-adobe-campaign-standard}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >This documentation describes how to integrate AEM with Adobe Campaign Standard, the subscription-based solution. If you are using Adobe Campaign 6.1, see [Integrating with Adobe Campaign 6.1](/help/sites-administering/campaignonpremise.md) for those instructions.

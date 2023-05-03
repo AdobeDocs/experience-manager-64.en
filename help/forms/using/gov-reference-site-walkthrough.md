@@ -12,6 +12,10 @@ exl-id: c8ebd18b-fa24-4264-bd17-f553a2a784d9
 ---
 # We.Gov reference site walkthrough {#we-gov-reference-site-walkthrough}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Pre-requisite {#pre-requisite}
 
 Set up your We.Gov reference site as described in the [Set up and configure AEM Forms reference sites](/help/forms/using/setup-reference-sites.md).

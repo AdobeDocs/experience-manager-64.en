@@ -13,6 +13,10 @@ exl-id: f2317fd5-df64-4042-b17e-0e0506161b90
 ---
 # How to programmatically access the AEM JCR{#how-to-programmatically-access-the-aem-jcr}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can programmatically modify nodes and properties located within the Adobe CQ repository, which is part of the Adobe Marketing Cloud. To access the CQ repository, you use the Java Content Repository (JCR) API. You can use the Java JCR API to perform create, replace, update, and delete (CRUD) operations on content located within the Adobe CQ repository. For more information about the Java JCR API, see [https://jackrabbit.apache.org/jcr/jcr-api.html](https://jackrabbit.apache.org/jcr/jcr-api.html).
 
 >[!NOTE]

@@ -13,6 +13,10 @@ exl-id: cb9de2d7-04ad-4221-8db7-403464c9888b
 ---
 # Displaying information in the Task Summary pane {#displaying-information-in-the-task-summary-pane}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When you open a task in AEM Forms workspace, a Task Summary pane can display a summary of the task. This additional and relevant information for a task adds more value for the end-user of AEM Forms workspace.
 
 AEM Forms workspace allows you to display a web page of your choice in the Task Summary pane. A process can be created to display a Task Summary pane using Workbench.

@@ -13,6 +13,10 @@ exl-id: 46d0765d-fb77-4332-8fbb-5bd2abcd6806
 ---
 # Configure the Video component {#configure-the-video-component}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The [Video component](/help/sites-authoring/default-components-foundation.md#video) lets you place a predefined, OOTB (out-of-the-box) video element on your page.
 
 For proper transcoding to occur, your administrator must [Install FFmpeg and configure AEM](#install-ffmpeg) separately. They can also [Configure your Video Profiles](#configure-video-profiles) for use with HTML5 elements.

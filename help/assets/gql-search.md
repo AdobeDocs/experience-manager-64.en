@@ -8,6 +8,10 @@ exl-id: e819501c-4ac3-447f-944c-67adc42e8c61
 ---
 # GQL Full-text Search {#gql-full-text-search}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Explore the GQL full-text search feature in [!DNL Experience Manager] Assets. Use it to search for assets based on specific metadata, such as title, description, and author name.
 
 The GQL full-text search feature lets you search for assets based on specific metadata, such as title, description, author, and so on.

@@ -8,6 +8,10 @@ exl-id: 9fc93034-e83a-42b5-901d-7867b4a850a8
 ---
 # Video renditions {#video-renditions}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager Assets generates video renditions for video assets of various formats including OGG, FLV, and so on.
 
 AEM Assets supports static and dynamic renditions (DM-encoded renditions) for media assets.

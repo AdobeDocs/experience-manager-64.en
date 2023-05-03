@@ -13,6 +13,10 @@ exl-id: b5681fe5-69ba-4fc0-95e3-6ffdcdd95382
 ---
 # Synchronizing the app {#synchronizing-the-app}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Synchronizing the app {#synchronizing-the-app-1}
 
 The forms in your app are downloaded from the AEM Forms server. The forms are downloaded under Tasks and Forms tabs. Drafts created from forms are downloaded in the drafts tab, and drafts created from tasks are downloaded in the tasks tab. For a standalone form on OSGi server, forms and drafts are downloaded in Forms and Draft tabs respectively.

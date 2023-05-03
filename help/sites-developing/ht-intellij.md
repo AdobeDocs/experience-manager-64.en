@@ -13,6 +13,10 @@ exl-id: 274b3a33-3267-41ee-bdcd-351787152570
 ---
 # How to Develop AEM Projects using IntelliJ IDEA{#how-to-develop-aem-projects-using-intellij-idea}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 To get started with AEM development on IntelliJ, the following steps are required.
@@ -123,7 +127,15 @@ You can also add these options to your start script in `crx-quickstart/bin/start
 ```shell
 # ...
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 # default JVM options
+
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 if [ -z "$CQ_JVM_OPTS" ]; then
  CQ_JVM_OPTS='-server -Xmx1024m -XX:MaxPermSize=256M -Djava.awt.headless=true'
 fi
@@ -131,6 +143,10 @@ fi
 CQ_JVM_OPTS="$CQ_JVM_OPTS -Xdebug -Xrunjdwp:transport=dt_socket,address=58242,suspend=n,server=y"
 
 # ...
+
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 ```
 
 #### Start Debugging {#start-debugging}

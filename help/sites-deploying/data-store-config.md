@@ -15,6 +15,10 @@ exl-id: 89b8e8a7-103b-472e-8c29-3b6e5b7273b1
 ---
 # Configuring node stores and data stores in AEM 6{#configuring-node-stores-and-data-stores-in-aem}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 In Adobe Experience Manager (AEM), binary data can be stored independently from the content nodes. The binary data is stored in a data store, whereas content nodes are stored in a node store.

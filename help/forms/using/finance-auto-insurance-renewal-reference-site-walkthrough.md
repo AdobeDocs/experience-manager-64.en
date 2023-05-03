@@ -11,6 +11,10 @@ exl-id: db416cbc-27a7-4a2c-b4b3-43e8963faf22
 ---
 # We.Finance Auto Insurance Renewal reference site walkthrough {#we-finance-auto-insurance-renewal-reference-site-walkthrough}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Pre-requisites {#pre-requisites}
 
 Setup the reference site as described in [Setup and configure AEM 6.4 Forms Reference Site](/help/forms/using/setup-reference-sites.md).

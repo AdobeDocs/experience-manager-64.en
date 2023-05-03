@@ -14,6 +14,10 @@ exl-id: 73c59497-43fe-4e15-afda-e3cf5264696e
 ---
 # JSRP - JCR Storage Resource Provider {#jsrp-jcr-storage-resource-provider}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## About JSRP {#about-jsrp}
 
 When AEM Communities uses JSRP as its storage option (the default), community content is stored in JCR and user generated content (UGC) is accessible only from the author or publish instance to which it was posted.

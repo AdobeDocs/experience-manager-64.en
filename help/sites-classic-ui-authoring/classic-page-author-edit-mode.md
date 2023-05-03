@@ -13,6 +13,10 @@ exl-id: b6c8c2b8-78d1-43a3-80b5-3535183ebf20
 ---
 # Components for Page Authoring{#components-for-page-authoring}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following components are intended for use when authoring content for a standard web page. They form a subset of the components available out-of-the-box for a standard installation of AEM.
 
 Some are immediately available through the sidekick, various others are also available by using [Design mode](/help/sites-classic-ui-authoring/classic-page-author-design-mode.md) to enable/disable them.

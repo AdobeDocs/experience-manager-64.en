@@ -13,6 +13,10 @@ exl-id: 5b8f04dd-6781-4126-8bb2-5d8b7a2f19c8
 ---
 # Specify file locations for Output {#specify-file-locations-for-output}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can specify the locations where Output looks for certain types of files that it requires.
 
 1. In administration console, click Services &gt; output.

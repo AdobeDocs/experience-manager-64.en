@@ -13,6 +13,10 @@ exl-id: e45b56e9-2fd1-4c29-9384-350e1376c193
 ---
 # Implementing Server-Side Page Naming for Analytics{#implementing-server-side-page-naming-for-analytics}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Analytics uses the `s.pageName` property to uniquely identify pages and to associate the data that is collected for the pages. Typically, you perform the following tasks in AEM to assign a value to this property that AEM sends to Analytics:
 
 * Use the Analytics cloud service framework to map a CQ variable to the Analytics `s.pageName` property. (See [Mapping Component Data with Adobe Analytics Properties](/help/sites-administering/adobeanalytics-mapping.md).)

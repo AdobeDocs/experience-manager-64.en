@@ -14,6 +14,10 @@ exl-id: 1c239c05-e221-442a-a748-0c28704ee032
 ---
 # Invoking AEM Forms using the Java API {#invoking-aem-forms-using-the-javaapi}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Forms can be invoked by using the AEM Forms Java API. When using the AEM Forms Java API, you can use either the Invocation API or Java client libraries. Java client libraries are available for services such as the Rights Management service. These strongly typed APIs let you develop Java applications that invoke AEM Forms.
 
 The Invocation API are classes that are located in the `com.adobe.idp.dsc` package. Using these classes, you can send an invocation request directly to a service and handle an invocation response that is returned. Use the Invocation API to invoke short-lived or long-lived processes that were created by using Workbench.

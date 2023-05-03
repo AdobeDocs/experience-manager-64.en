@@ -8,6 +8,10 @@ exl-id: ef1c0b57-68cc-460e-ae45-e16b079194c2
 ---
 # Search facets {#search-facets}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn how to create, modify, and use search facets in AEM.
 
 An enterprise-wide deployment of Adobe Experience Manager (AEM) Assets has the capacity to store many assets. Sometimes, finding the right asset can be arduous and time-consuming if you only use the generic search capabilities of AEM.

@@ -8,6 +8,10 @@ exl-id: 7694c68d-0a17-4052-8fbe-9bf45b229e81
 ---
 # Process assets Using media handlers and workflows {#processing-assets-using-media-handlers-and-workflows}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager Assets provides a set of default workflows and media handlers to process assets. A workflow defines a typical asset management and processing task, then delegates the specific tasks to the media handlers, for example thumbnail generation or metadata extraction.
 
 A workflow can be defined that automatically execute when an asset of a particular type or format is uploaded to the server. The processing steps are defined as a series of Experience ManagerAssets media handlers. Adobe Experience Manager provides some [built in handlers,](#default-media-handlers) and more can be either [custom developed](#creating-a-new-media-handler) or defined by delegating the process to a [command-line tool](#command-line-based-media-handler).

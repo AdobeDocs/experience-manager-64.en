@@ -14,6 +14,10 @@ exl-id: 3e8ee0cc-b950-4823-9efa-65f12a4e6e6b
 ---
 # Identifying Content to Translate{#identifying-content-to-translate}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Translation rules identify the content to translate for pages, components, and assets that are included in, or excluded from, translation projects. When a page or asset is being translated, AEM extracts this content so that it can be sent to the translation service.
 
 Pages and assets are represented as nodes in the JCR repository. The content that is extracted is one or more property values of the nodes. The translation rules identify the properties that contain the content to extract.

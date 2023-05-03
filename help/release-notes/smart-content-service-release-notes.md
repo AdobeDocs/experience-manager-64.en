@@ -11,6 +11,10 @@ exl-id: 6e7ac9d2-7181-48bb-82c4-61a90e594ff5
 ---
 # Smart Content Service Release Notes {#smart-content-service-release-notes}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Overview of the Smart Content Service and known issues around the service.
 
 Organizations require their digital assets to be tagged based on the taxonomy that employees, partners, and customers use to refer to and search digital assets. Compared to generic tags, assets that are tagged based on business taxonomy are more easily identified and retrieved by tag-based searches.

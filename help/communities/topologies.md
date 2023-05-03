@@ -13,6 +13,10 @@ exl-id: 0bdb3063-7333-487b-947f-3fe29c6a6eef
 ---
 # Recommended Topologies for Communities {#recommended-topologies-for-communities}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 As of AEM Communities 6.1, a unique approach has been adopted for handling user generated content (UGC) submitted by site visitors (members) from the publish environment.
 
 This approach is fundamentally different from the way the AEM platform handles site content that is generally managed from the author environment.

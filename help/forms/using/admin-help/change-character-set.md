@@ -13,6 +13,10 @@ exl-id: 7961efc6-4b11-423a-871d-7b37e3f36781
 ---
 # Change the character set {#change-the-character-set}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can specify the character set used to encode the output stream.
 
 1. In administration console, click **[!UICONTROL Services > output]**.

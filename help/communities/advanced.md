@@ -14,6 +14,10 @@ exl-id: c9406aae-288e-4cdf-ac01-cb26b423639e
 ---
 # Advanced Scoring and Badges {#advanced-scoring-and-badges}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 Advanced scoring allows awarding of badges to identify members as experts. Advanced scoring assigns points based on the quantity *and* quality of content created by a member, whereas basic scoring assigns points simply based on the quantity of content created.

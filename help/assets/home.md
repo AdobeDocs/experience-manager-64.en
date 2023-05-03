@@ -8,6 +8,10 @@ exl-id: 72b5e053-9307-4333-84e5-d4cc2b6bdecc
 ---
 # Assets Guide
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This guide covers all [!DNL Experience Manager] Assets tasks, such as how to create, manage, deliver, and optimize digital assets.
 
 ## Key [!DNL Experience Manager] articles

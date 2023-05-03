@@ -15,6 +15,10 @@ exl-id: a6d468cd-2b70-4332-8277-15f8b9fc1329
 ---
 # Optimizing the Performance of the Forms Service {#optimizing-the-performance-of-theforms-service}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Optimizing the Performance of the Forms Service {#optimizing-the-performance-of-the-forms-service}
 
 When rendering a form, you can set run-time options that will optimize the performance of the Forms service. Another task that you can perform to improve the performance of the Forms service is to store XDP files in the repository. However, this section does not describe how to perform this task. (See [Invoking a service using a Java client library](/help/forms/developing/invoking-aem-forms-using-java.md#invoking-a-service-using-a-java-client-library).)

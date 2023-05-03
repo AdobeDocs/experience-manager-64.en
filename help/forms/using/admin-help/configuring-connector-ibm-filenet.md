@@ -13,6 +13,10 @@ exl-id: 3a3d59c2-6811-4513-8384-aa77fdc38686
 ---
 # Configuring Connector for IBM FileNet {#configuring-connector-for-ibm-filenet}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Connector for IBM FileNet enables communication between AEM forms and IBM FileNet. For additional background information, see "Connectors for ECM" in [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
 
 >[!NOTE]

@@ -13,6 +13,10 @@ exl-id: f38057d7-b500-448a-8664-a45374d4cfea
 ---
 # Managing HSM credentials {#managing-hsm-credentials}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 From the Trust Store Management page, you can manage Hardware Security Module (HSM) credentials. An HSM is a third-party PKCS#11 device that you can use to securely generate and store private keys. The HSM physically protects the access to and use of the private keys.
 
 The client software is required to communicate with the HSM. The HSM client software must be installed and configured on the same computer as AEM forms.

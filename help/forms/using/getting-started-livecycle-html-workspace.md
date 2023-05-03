@@ -13,6 +13,10 @@ exl-id: 8c45f145-1729-4e5c-b391-6b1bbd50494b
 ---
 # Getting started with AEM Forms workspace {#getting-started-with-aem-forms-workspace}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can use AEM Forms workspace to perform the following tasks:
 
 * Start a business process

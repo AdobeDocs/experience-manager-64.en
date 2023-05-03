@@ -8,6 +8,10 @@ exl-id: 87883a3f-db95-41f4-b0aa-cdaeb7e6f555
 ---
 # Applying translation cloud services to folders {#applying-translation-cloud-services-to-folders}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager lets you avail cloud-based translation services from the translation provider of your choice to ensure your assets are translated based on your requirements.
 
 You can apply the translation cloud service directly to your asset folder so they can be utilized during translation workflows.

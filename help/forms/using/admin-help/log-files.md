@@ -13,6 +13,10 @@ exl-id: acce13aa-864c-4999-be5c-6d49b99d5459
 ---
 # Log files {#log-files}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Events such as run-time or startup errors are recorded to the application server log files. If you have any problems deploying to the application server, you can use the log files to help you find the problem. You can open the log files using any text editor.
 
 (JBoss) The following log files are located in the `*[appserver root]*/server/*[server]*/log` directory:

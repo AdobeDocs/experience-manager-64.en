@@ -7,6 +7,10 @@ exl-id: 22c48f8c-38df-4c9b-88cf-67f6ae46e7e1
 ---
 # Security{#security}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Application Security starts during the development phase. Adobe recommends to apply the following security best practices.
 
 ## Use Request Session {#use-request-session}

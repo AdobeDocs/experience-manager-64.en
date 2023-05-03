@@ -8,6 +8,7 @@ breadcrumb-title: Deploying Guide
 user-guide-description: Learn more about installing, deploying, and the architecture of Adobe Experience Manager 6.4, including our Adobe Managed Services cloud deployment.
 feature: Deploying
 role: Architect
+hide: yes
 ---
 
 # AEM 6.4 Deploying User Guide {#deploying}

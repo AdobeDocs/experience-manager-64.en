@@ -12,6 +12,10 @@ exl-id: 6b53f47c-9333-43a3-8db9-8737d9610110
 ---
 # Data Dictionary {#data-dictionary}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 A data dictionary enables business users to use information from back-end data sources without knowing technical details about their underlying data models. A data dictionary is composed of data dictionary elements (DDEs). You use these data elements to integrate back-end data to the letters as input for use in a customer correspondence.

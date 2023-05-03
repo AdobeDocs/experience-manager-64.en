@@ -13,6 +13,10 @@ exl-id: 8a65d9cc-33d0-4176-97e1-70ad67cbb982
 ---
 # Certificate types used by Acrobat Reader DC extensions {#certificate-types-used-by-acrobat-reader-dc-extensions}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Certificate Viewer provides the following information about the certificate:
 
 * Certificate "friendly" name

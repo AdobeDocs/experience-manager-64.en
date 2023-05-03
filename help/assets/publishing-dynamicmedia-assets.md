@@ -11,6 +11,10 @@ role: User
 ---
 # Publishing Dynamic Media Assets {#publishing-dynamic-media-assets}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You publish your Dynamic Media assets by selecting the assets and tapping **[!UICONTROL Publish]**. After your dynamic media assets are published, they are available to you for including in a web page via URL or by way of embedding.
 
 You can also instantly publish assets that you upload&mdash;without any user intervention. See [Configuring Dynamic Media - Scene7 mode](config-dms7.md).

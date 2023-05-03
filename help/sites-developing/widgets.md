@@ -13,6 +13,10 @@ exl-id: c747bfda-e82a-4b2d-a4af-5792bfe82576
 ---
 # Using and Extending Widgets (Classic UI){#using-and-extending-widgets-classic-ui}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager's web-based interface uses AJAX and other modern browser technologies to enable WYSIWYG editing and formatting of content by authors right on the web page.
 
 Adobe Experience Manager (AEM) uses the [ExtJS](https://www.sencha.com/) widgets library, which provides the highly polished user interface elements that work across all the most important browsers and allow the creation of desktop-grade UI experiences.

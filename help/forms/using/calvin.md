@@ -13,6 +13,10 @@ exl-id: d7406206-d63a-48da-bb95-e62db0f2c8a5
 ---
 # Automate testing of adaptive forms {#automate-testing-of-adaptive-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 Adaptive forms are integral to your customer interactions. It is important to test your adaptive forms with every change you make in them, such as while rolling out a new fix pack or changing a rule in the form. However, functional testing adaptive forms and every field in them may be tedious.

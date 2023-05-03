@@ -13,6 +13,10 @@ exl-id: f313b955-c561-4827-aefc-850e45922f26
 ---
 # Page Templates - Static{#page-templates-static}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 A Template is used to create a Page and defines which components can be used within the selected scope. A template is a hierarchy of nodes that has the same structure as the page to be created, but without any actual content.
 
 Each Template will present you with a selection of components available for use.

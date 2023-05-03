@@ -8,6 +8,10 @@ exl-id: 7d78fba9-16df-44e0-aae6-83f65e8d2bbd
 ---
 # Use PDF Rasterizer {#using-pdf-rasterizer}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When you upload large, content-intensive PDF or AI files to [!DNL Adobe Experience Manager Assets], the default library may not generate an accurate output. Adobe's PDF Rasterizer library can generate a more reliable and accurate output when compared to the output from a default library. Adobe recommends using the PDF Rasterizer library for the following scenarios:
 
 Adobe recommends using the PDF Rasterizer library for the following:

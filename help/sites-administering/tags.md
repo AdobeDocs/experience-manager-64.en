@@ -13,6 +13,10 @@ exl-id: 5c78edf8-148f-41a3-8b11-c1dada34090e
 ---
 # Administering Tags{#administering-tags}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Tags are a quick and easy method of classifying content within a website. They can be thought of as keywords or labels (metadata) that allow content to be more quickly found as the result of a search.
 
 In Adobe Experience Manager (AEM), a tag can be a property of

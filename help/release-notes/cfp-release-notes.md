@@ -7,6 +7,10 @@ exl-id: a63e77a3-da48-4072-bc75-c4c41a2f62a3
 ---
 # AEM 6.4 Cumulative Fix Pack Release Notes {#aem-cumulative-fix-pack-release-notes}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Release Information {#release-information}
 
 <!-- TBD: Update the SD URL. -->

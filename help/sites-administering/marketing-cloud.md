@@ -9,6 +9,10 @@ exl-id: e2295f71-ea3a-483c-9d7b-29acd151845d
 ---
 # Integrating with the Adobe Marketing Cloud{#integrating-with-the-adobe-marketing-cloud}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The [Adobe Marketing Cloud](https://www.adobe.com/solutions/digital-marketing.html), includes powerful web analytics and website optimization products that deliver actionable, real-time data and insights to drive successful online initiatives. It offers an integrated and open platform for online business optimization. The Cloud consists of integrated applications to collect and unleash the power of customer insight to optimize customer acquisition, conversion and retention efforts as well as the creation and distribution of content.
 
 With Adobe Experience Manager, you can seamlessly integrate with the following products of the Adobe Marketing Cloud:

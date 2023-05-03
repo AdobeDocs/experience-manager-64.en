@@ -14,6 +14,10 @@ exl-id: 6ff5a23a-c9b5-49ca-87b2-ba01eaf48a9f
 ---
 # Repository Restructuring in AEM 6.4{#repository-restructuring-in-aem}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 Prior to AEM 6.4, customer code was deployed in unpredictable areas of the JCR that were subject to change on upgrades. Because of this, it was common for formal AEM releases to overwrite custom code, configuration or content. In addition, customer changes sometimes overwrote AEM product code or content, breaking product functionality.

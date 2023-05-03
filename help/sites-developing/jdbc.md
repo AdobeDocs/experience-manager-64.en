@@ -13,6 +13,10 @@ exl-id: 7f10451d-3acb-4298-82f3-07897f66e407
 ---
 # Connecting to SQL Databases{#connecting-to-sql-databases}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Access an external SQL database to so that your CQ applications can interact with the data:
 
 1. [Create or obtain an OSGi bundle that that exports the JDBC driver package](#bundling-the-jdbc-database-driver).

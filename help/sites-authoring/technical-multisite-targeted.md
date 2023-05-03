@@ -13,6 +13,10 @@ exl-id: 28c45577-e5cd-4706-b5b2-227279126ad9
 ---
 # How Multisite Management for Targeted Content is Structured{#how-multisite-management-for-targeted-content-is-structured}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following diagram shows how multisite support for targeted content is structured.
 
 Areas appear underneath **/content/campaigns/&lt;brand&gt;** and by default each brand has a master area, which is created automatically. Each area contains its own set of activities, experiences, and offers.

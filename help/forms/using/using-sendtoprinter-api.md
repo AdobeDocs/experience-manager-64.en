@@ -12,6 +12,10 @@ exl-id: 89b6c8b4-4872-4bf5-a543-f33a1660636e
 ---
 # Using the sendToPrinter API {#using-the-sendtoprinter-api}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 In AEM Forms, you can use the SendToPrinter service to send a document to printer. The SendToPrinter service supports the following printing access mechanisms:

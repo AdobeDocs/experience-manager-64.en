@@ -14,6 +14,10 @@ exl-id: fa2bff05-a3b8-4230-95d6-1fbdc96bac3b
 ---
 # Preparing AEM Forms for Backup {#preparing-aem-forms-for-backup}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## About the Backup and Restore Service {#about-the-backup-and-restore-service}
 
 The Backup and Restore service lets you put AEM Forms into *backup mode*, which enables hot backups to be performed. The Backup and Restore service does not actually perform a backup of AEM Forms or restore your system. Instead, it puts your server in a state for consistent and reliable backups while allowing your server to continue to run. You are responsible for the actions to back up the Global Document Storage (GDS) and the database connected to the forms server. The GDS is a directory used to store files used within a long-lived process.

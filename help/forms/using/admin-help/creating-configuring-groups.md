@@ -13,6 +13,10 @@ exl-id: 21f5cca3-46e2-4aa2-9703-ac51e8eecd40
 ---
 # Creating and configuring groups{#creating-and-configuring-groups}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Creating groups of users lets you assign roles to the group instead of to individual users.
 
 Two different types of groups are available. You can manually create a group and add users and other groups to it. You can also create dynamic groups that automatically include all users who meet a specified set of rules.

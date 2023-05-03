@@ -14,6 +14,10 @@ exl-id: 897be9a1-a2e7-469f-8c60-2ede787cef29
 ---
 # Generate PDF Service Java API Quick Start (SOAP) {#generate-pdf-service-java-api-quickstart-soap}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Java API Quick Start(SOAP) is available for the Generate PDF service.
 
 [Quick Start (SOAP mode): Converting a Microsoft Word document to a PDF document using the Java API](generate-pdf-service-java-api.md#quick-start-soap-mode-converting-a-microsoft-word-document-to-a-pdf-document-using-the-java-api)

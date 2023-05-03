@@ -13,6 +13,10 @@ exl-id: aa4ec854-e32b-4136-a6d4-a42deb2afb18
 ---
 # Recommended Deployments{#recommended-deployments}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >This page refers to recommended topologies for AEM. For more information on clustering capabilities and how to configure them, see the [Apache Sling Discovery API documentation](https://sling.apache.org/documentation/bundles/discovery-api-and-impl.html).

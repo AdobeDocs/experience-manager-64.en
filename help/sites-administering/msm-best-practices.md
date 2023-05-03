@@ -14,6 +14,10 @@ exl-id: f23a1c62-0191-4b5b-90be-d66d51e38f83
 ---
 # MSM Best Practices{#msm-best-practices}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## General {#general}
 
 MSM is a configurable framework for automating content deployment. Implementations often involve major portions of a website and span organizations and geographies. It is therefore highly recommended to plan MSM implementations as carefully as you plan your website:

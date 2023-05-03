@@ -13,6 +13,10 @@ exl-id: 50bf178d-7a3c-41df-9d13-99c74d944700
 ---
 # Getting XDP and PDF documents in AEM Forms {#getting-xdp-and-pdf-documents-in-aem-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 You can import your forms from your local file system to the CRX repository, by uploading in to AEM Forms. The upload operation is supported for the following asset types:

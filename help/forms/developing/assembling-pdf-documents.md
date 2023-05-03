@@ -15,6 +15,10 @@ exl-id: d89bac8d-67e6-4442-845b-e358cbe0a568
 ---
 # Assembling PDF Documents {#assembling-pdf-documents}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 **About the Assembler Service**
 
 The Assembler service can assemble multiple PDF documents into one PDF document or disassemble one PDF document into multiple PDF documents. The Assembler service can manipulate documents in various ways, such as changing page size and rotating contents. It can insert additional content, such as headers, footers, and a table of contents, and can preserve, import, or export existing content, such as annotations, file attachments, and bookmarks.

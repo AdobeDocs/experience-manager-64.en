@@ -13,6 +13,10 @@ exl-id: ea12035c-09b6-4197-ab23-c27fe71e7432
 ---
 # Configuring Email Notification{#configuring-email-notification}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM sends email notifications to users who:
 
 * Have subscribed to page events, for example modification or replication. The [Notification Inbox](/help/sites-classic-ui-authoring/author-env-inbox.md#subscribing-to-notifications) section describes how to subscribe to such events.  

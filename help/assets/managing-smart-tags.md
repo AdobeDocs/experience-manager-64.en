@@ -11,6 +11,10 @@ exl-id: 05f43e43-ac72-4ab1-a373-687c137d2bed
 ---
 # Managing Smart Tags {#managing-smart-tags}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can curate Smart tags to remove any inaccurate tags that may have been assigned to your brand images so only the most relevant tags are displayed.
 
 Moderating Smart tags also helps refine tag-based searches for images by ensuring that your image appears in search results for the most relevant tags. Essentially, it helps eliminate the chances of unrelated images from showing up in search results.

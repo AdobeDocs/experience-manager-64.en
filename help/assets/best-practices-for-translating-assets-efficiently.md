@@ -8,6 +8,10 @@ exl-id: 15162b80-ddef-4ec0-9db6-36695c93ebb1
 ---
 # Best practices to translate assets efficiently {#best-practices-for-translating-assets-efficiently}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager Assets supports multilingual workflows to translate binaries, metadata, and tags for digital assets into multiple locales and to manage the translated assets. For details, see [Multilingual Assets](multilingual-assets.md).
 
 For efficient management of assets to ensure that different translated versions stay synchronized, create [language copies](preparing-assets-for-translation.md) of assets before running translation workflows.

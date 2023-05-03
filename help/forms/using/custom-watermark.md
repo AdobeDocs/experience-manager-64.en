@@ -13,6 +13,10 @@ exl-id: 8aeabd95-948d-4a54-b593-1eda8ddd731b
 ---
 # Custom watermark in letter PDF preview {#custom-watermark-in-letter-pdf-preview}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 In the Create Correspondence UI, agent users preview the correspondence in final shape in which it is sent to post processing, such as for e-mailing or printing.

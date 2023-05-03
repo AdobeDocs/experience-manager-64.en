@@ -14,6 +14,10 @@ exl-id: e68b5a5c-e12a-4b7b-b607-451ef8fdeff0
 ---
 # Configuring the Translation Integration Framework{#configuring-the-translation-integration-framework}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Translation Integration Framework integrates with third-party translation services to orchestrate the translation of AEM content.
 
 * Connect to your translation service provider.

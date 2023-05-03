@@ -13,6 +13,10 @@ exl-id: ccdb2045-9339-4f39-acb5-85999c4667b9
 ---
 # Rendering form template for HTML5 forms {#rendering-form-template-for-html-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Render Endpoint {#render-endpoint}
 
 HTML5 forms have the notion of **Profiles** which are exposed as REST Endpoints to enable Mobile Rendering of Form Templates. These Profiles have associated **Profile Renderer**. They are JSP pages responsible for generating HTML representation of the form by calling the Forms OSGi service. The JCR path of the Profile node determines the URL of the render end point. The default render end point of the form pointing to 'default' profile looks like:

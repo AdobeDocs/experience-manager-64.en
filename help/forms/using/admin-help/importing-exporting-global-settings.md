@@ -13,6 +13,10 @@ exl-id: 9eabafbe-2193-4799-9bdd-c2be42ead0b9
 ---
 # Importing and exporting global settings {#importing-and-exporting-global-settings}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can import and export search template definitions and global settings for Workspace.
 
 >[!NOTE]

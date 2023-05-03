@@ -12,6 +12,10 @@ exl-id: 5a10ffea-2c69-4902-9754-399bd2e125f1
 ---
 # Create targeted experiences in AEM Forms {#create-targeted-experiences-in-aem-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Integrate Adobe Target with AEM Forms {#integrate-adobe-target-with-aem-forms}
 
 Adobe Target integrated with AEM lets you create experiences customized for a target audience. With Adobe Target, you can create A/B tests, measure user response, and generate customized web content for targeted users. You can integrate Adobe Target with AEM Forms to target image components of adaptive forms and interactive communications.

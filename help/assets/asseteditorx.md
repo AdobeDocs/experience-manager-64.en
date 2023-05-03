@@ -8,6 +8,10 @@ exl-id: 1e02a2f6-8194-46b9-b418-87103c3f4a69
 ---
 # Extend Asset Editor {#extending-asset-editor}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Asset Editor is the page that opens when an asset found through the Asset Share is clicked allowing the user to edit such aspects of the asset as metadata, thumbnail, title and tags.
 
 Configuration of the editor using the predefined editing components is covered in [Creating and Configuring an Asset Editor Page](assets-finder-editor.md#creating-and-configuring-an-asset-editor-page).

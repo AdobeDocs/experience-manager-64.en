@@ -13,6 +13,10 @@ exl-id: cc30c3bd-8e4b-4884-ad28-df723880f8f5
 ---
 # Using Translator to Manage Dictionaries{#using-translator-to-manage-dictionaries}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM provides a console for managing the various translations of texts used in component UI. This console is available at 
 
 `https://<hostname>:<port-number>/libs/cq/i18n/translator.html`

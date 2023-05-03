@@ -14,6 +14,10 @@ exl-id: d94b776d-db06-4f46-ac7f-c3b8e4160b69
 ---
 # Logging{#logging}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM offers you the possibility to configure:
 
 * global parameters for the central logging service

@@ -12,6 +12,10 @@ exl-id: 5005d57c-2585-46d1-9785-939e249a0128
 ---
 # Forms user management | Handling user data {#forms-user-management-handling-user-data}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 User management is an AEM Forms JEE component that allows creating, managing, and authorizing AEM Forms users to access AEM Forms. User management uses domains as directory for obtaining user information. The following domain types are supported:
 
 **Local domains**: This type of domain is not connected to a third-party storage system. Instead, users and groups are created locally and reside in the User Management database. Passwords are stored locally, and authentication is done using a local database.

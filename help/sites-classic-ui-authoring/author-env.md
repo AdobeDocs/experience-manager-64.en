@@ -13,6 +13,10 @@ exl-id: 8421a092-6e99-4c05-9647-c0cc76667c85
 ---
 # Working with the Author Environment{#working-with-the-author-environment}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >The following documentation focuses on the classic UI. For information about authoring in the modern, touch-enabled UI, see the [standard Authoring documentation](/help/assets/assets.md).

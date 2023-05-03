@@ -14,6 +14,10 @@ exl-id: f0441588-7c16-40ab-841f-e89576a0d292
 ---
 # Enabling multi-threaded file conversions {#enabling-multi-threaded-file-conversions}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 PDF Generator provides the ability to enable multi-threaded file conversions for certain types of files. Multi-threaded file conversion improves the performance of PDF Generator by allowing it to perform multiple conversions at the same time.
 
 ## Enabling multi-threaded file conversions for OpenOffice, Word, and PowerPoint documents {#enabling-multi-threaded-file-conversions-for-openoffice-word-and-powerpoint-documents}

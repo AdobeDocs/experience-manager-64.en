@@ -13,6 +13,10 @@ exl-id: bf4ae163-5d89-48fb-9bc4-182281b28f35
 ---
 # Integrating Form Bridge with custom portal for HTML5 forms {#integrating-form-bridge-with-custom-portal-for-html-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 FormBridge is a HTML5 forms bridge API that allows you to interact with a form. For the FormBridge API reference, see [FormBridge API reference](/help/forms/using/form-bridge-apis.md).
 
 You can use the FormBridge API to get or set the values of form fields from the HTML page and submit the form. For example, you can use API to build a wizard-like experience.

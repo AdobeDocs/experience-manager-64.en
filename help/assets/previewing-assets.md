@@ -15,6 +15,10 @@ role: User
 ---
 # Previewing Dynamic Media assets {#previewing-assets}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can use **[!UICONTROL Preview]** to see how a Dynamic Media digital asset looks when it is viewed by a customer in their own web browser. The default embedded, cross-device viewer that is assigned to the asset is used for the **[!UICONTROL Preview]**.
 
 A viewer is a collection of various settings or "presets," such as the viewer display size, zoom behavior, color schemes, borders, fonts, and so forth, that determine how users view rich-media assets on their computer screens and mobile devices.

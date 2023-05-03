@@ -8,6 +8,10 @@ exl-id: cb9bea05-3359-4fb4-b935-59e522a5f387
 ---
 # [!DNL Experience Manager] and [!DNL Creative Cloud] integration best practices {#aem-and-creative-cloud-integration-best-practices}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 <!-- TBD: Reconcile with 6.5 article that's ahead of this article now in terms of content streamlining and structuring.
 -->
 

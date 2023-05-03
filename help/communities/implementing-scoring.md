@@ -15,6 +15,10 @@ exl-id: 54a4a053-ca44-451a-9a31-f1c1e8cb7002
 ---
 # Communities Scoring and Badges {#communities-scoring-and-badges}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 The AEM Communities scoring and badges feature provides the ability to identify and reward community members.

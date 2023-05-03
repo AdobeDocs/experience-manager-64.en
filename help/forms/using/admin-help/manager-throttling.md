@@ -13,6 +13,10 @@ exl-id: 759cff3e-960a-4c38-a731-9fff21e739cf
 ---
 # Work Manager and throttling{#work-manager-and-throttling}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM forms (and earlier versions) used JMS queues to execute operations asynchronously. In AEM forms, JMS queues have been replaced by Work Manager. This document provides background information on Work Manager, and provides instructions on configuring Work Manager throttling options.
 
 ## About long-lived (asynchronous) operations {#about-long-lived-asynchronous-operations}

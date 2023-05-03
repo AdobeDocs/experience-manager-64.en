@@ -13,6 +13,10 @@ exl-id: 80442184-212a-424d-b320-5b301a54f974
 ---
 # Tough Day{#tough-day}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## What is Tough Day 2 {#what-is-tough-day}
 
 Tough Day 2 is a an application that allows you to stress test the limits of your AEM instance. It can be run out of the box with the default test suite or it can be configured to fit your testing needs. You can watch [this recording](https://experienceleague.adobe.com/docs/experience-manager-gems-events/gems/gems2017/aem-toughday2-stress-testing-benchmarking-tool.html) for a presentation of the application.

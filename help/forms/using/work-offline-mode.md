@@ -12,6 +12,10 @@ exl-id: 14303b8f-40a7-4bc5-8282-7526e0319264
 ---
 # Working in the offline mode {#working-in-the-offline-mode}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The offline mode of the AEM Forms app lets you work seamlessly even if the app goes offline. You can open, update, and submit a form without requiring any network connectivity.
 
 You start off working on the AEM Forms app by synchronizing your app with the AEM Forms server. All the forms assigned to you are downloaded in your app. For AEM Forms on JEE, tasks are fetched in the tasks tab, and startpoints associated forms and other forms in the Forms tab. For AEM Forms on OSGi, only Forms are loaded in the Forms tab.

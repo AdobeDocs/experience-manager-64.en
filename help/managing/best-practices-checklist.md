@@ -13,6 +13,10 @@ exl-id: d85fa478-8192-42b9-a5fc-a38a87cfc7dd
 ---
 # The Checklist{#the-checklist}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status.
 
 There are checklists for each persona (role) involved in your project. These detail the deliverables, broken down by phase and milestone. They also show the documents required for generating the deliverables. By tracking the status and quality of your documents you can monitor the status of the project as a whole, providing transparency and accountability.

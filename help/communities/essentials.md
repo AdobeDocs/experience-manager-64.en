@@ -13,6 +13,10 @@ exl-id: bde29d3a-8bc8-4c30-b764-a2fa1ac34069
 ---
 # Component, Function and Feature Essentials {#component-function-and-feature-essentials}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Communities features require site visitors to become members and login to the [community site](overview.md#communitiessites) before being able to post content. Thus, [community site templates](sites.md), from which a community site is [created](sites-console.md), are designed to include a login feature as well as user profiles, messaging, search, moderation, and translation.
 
 A community site will support members creating community groups when the [community groups function](functions.md#groups-function) is included in the selected community site template.

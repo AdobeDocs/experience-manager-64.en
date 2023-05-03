@@ -13,6 +13,10 @@ exl-id: 07f89673-125b-4205-bc54-c90287a1e9a5
 ---
 # SSL By Default{#ssl-by-default}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In an effort to continously improve the security of AEM, Adobe has introduced a feature called SSL By Default. The purpose is to encourage the use of HTTPS to connect to AEM instances.
 
 ## Enabling SSL By Default {#enabling-ssl-by-default}

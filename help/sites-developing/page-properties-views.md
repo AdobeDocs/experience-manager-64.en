@@ -13,6 +13,10 @@ exl-id: 25dad368-8227-424d-960b-1664d8e20a21
 ---
 # Customizing Views of Page Properties{#customizing-views-of-page-properties}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Every page has a set of [properties](/help/sites-authoring/editing-page-properties.md) that can be viewed and edited by users; some are required when creating the page (create view), others can be viewed and edited (edit view) at a later stage. These page properties are defined and made available by the dialog ( `cq:dialog`) of the appropriate page component.
 
 >[!CAUTION]

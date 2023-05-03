@@ -13,6 +13,10 @@ exl-id: e95d8be5-04a3-4158-be5a-de1af08ab640
 ---
 # Acrobat Reader DC extensions ServiceJava API Quick Start (SOAP) {#acrobat-reader-dc-extensions-servicejava-api-quick-start-soap}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following Quick Starts are available for the Acrobat Reader DC Extensions service.
 
 [Quick Start (SOAP mode):Applying usage rights using the Java API](#quick-start-soap-mode-applying-usage-rights-using-the-java-api)

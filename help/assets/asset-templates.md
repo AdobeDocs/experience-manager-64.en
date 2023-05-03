@@ -11,6 +11,10 @@ exl-id: 9b4f16e6-dd91-4179-9629-576d801fcf43
 ---
 # Asset Templates {#asset-templates}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Asset templates are a special class of assets that facilitate quick re-purposing of visually-rich content for digital and print media. An asset template includes two parts, the fixed messaging section and the editable section.
 
 The fixed messaging section can contain proprietary content, such as brand logo and copyright information that are disabled for editing. The editable section can contain visual and textual content in fields that can be edited to customize messaging.

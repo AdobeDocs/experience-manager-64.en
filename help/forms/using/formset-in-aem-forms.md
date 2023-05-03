@@ -13,6 +13,10 @@ exl-id: 0d52400a-5a04-4e0b-8fc2-b8d1799f1c08
 ---
 # Form set in AEM Forms {#form-set-in-aem-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 Your customers are often required to submit multiple forms to apply for a service or benefit. It involves finding all relevant forms; and filling, submitting, and tracking them separately. Also, they are required to fill in common details multiple times across forms. The entire process becomes cumbersome and error-prone if it involves large number of forms. The forms set feature of AEM Forms can help simplify the user experience in such scenarios.

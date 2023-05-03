@@ -13,6 +13,10 @@ exl-id: 5e2b4930-c030-4abe-9b81-6e6729fe3ad4
 ---
 # Glossary {#glossary}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This glossary lists (alpabetically) details of all Deliverable documents from the [Project Checklist](/help/managing/best-practices-checklist.md).
 
 ## Acceptance from Business Stakeholders {#acceptance-from-business-stakeholders}

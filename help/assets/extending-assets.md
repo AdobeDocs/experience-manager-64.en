@@ -8,6 +8,10 @@ exl-id: 0291690b-874a-483d-901f-f02cb6d8ab28
 ---
 # Customizing and Extending Assets {#customizing-and-extending-assets}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Asset Editor is the primary point of access that users of a Adobe Enterprise Manager website will use to find, view, and manipulate the digital assets in your repository.
 
 As an [!DNL Experience Manager] developer, you can customize and extend the Asset Editor in a number of ways, presenting users with a specifically tailored interface and set of functionality.

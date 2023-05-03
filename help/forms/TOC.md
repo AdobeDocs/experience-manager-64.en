@@ -8,6 +8,7 @@ user-guide-title: Adobe Experience Manager 6.4 Forms Guide
 breadcrumb-title: Forms Guide
 user-guide-description: Create, manage, publish, and update digital forms.
 role: User
+hide: yes
 ---
 
 # Adobe Experience Manager 6.4 Forms Guide {#forms}

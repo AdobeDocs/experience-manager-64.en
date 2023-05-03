@@ -15,6 +15,10 @@ role: Admin,User
 ---
 # Dynamic Media Image Profiles {#image-profiles}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When uploading images, you can automatically crop the image upon upload by applying an Image Profile to the folder.
 
 >[!NOTE]

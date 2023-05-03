@@ -14,6 +14,10 @@ exl-id: 2194bbbb-22d9-4422-aefb-9651fd795ca3
 ---
 # Scripting support for HTML5 forms {#scripting-support-for-html-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 JavaScript, FormCalc properties, and methods supported in HTML5 forms are as listed below:
 
 ## $event {#event}

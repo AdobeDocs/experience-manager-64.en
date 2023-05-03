@@ -12,6 +12,10 @@ exl-id: 17e8c644-ee17-496c-a781-a295a4796cb9
 ---
 # We.Finance reference site walkthrough {#we-finance-reference-site-walkthrough}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Pre-requisites {#pre-requisites}
 
 Set up the reference sites as described in [Set up and configure AEM Forms reference sites](/help/forms/using/setup-reference-sites.md).

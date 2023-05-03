@@ -13,6 +13,10 @@ exl-id: 20c16e96-2ba8-4f2d-8cfa-8cd804e3441f
 ---
 # Leaderboard Essentials {#leaderboard-essentials}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This page provides the essential information for working with the leaderboard feature.
 
 Prior to including the leaderboard component on a page, it is necessary to configure [Communities Scoring and Badges](implementing-scoring.md). See also [Scoring and Badges Essentials](configure-scoring.md).

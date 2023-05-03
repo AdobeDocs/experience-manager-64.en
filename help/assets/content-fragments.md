@@ -17,6 +17,10 @@ role: User
 
 >[!CAUTION]
 >
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
+>[!CAUTION]
+>
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](/help/release-notes/sp-release-notes.md).
 
 Adobe Experience Manager (AEM) Content Fragments allow you to design, create, curate, and [publish page-independent content](/help/sites-authoring/content-fragments.md). They allow you to prepare content ready for use in multiple locations/over multiple channels.

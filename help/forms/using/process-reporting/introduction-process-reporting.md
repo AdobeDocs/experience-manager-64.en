@@ -12,6 +12,10 @@ exl-id: 279b2f89-5b91-4b8f-ab0f-8ade9b9f3932
 ---
 # Introduction to Process Reporting {#introduction-to-process-reporting}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
  ![process-reporting](assets/process-reporting.png)
 
 Process Reporting is a browser-based tool that you use to create and view reports on AEM Forms processes and tasks.

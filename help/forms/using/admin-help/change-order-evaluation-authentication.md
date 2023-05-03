@@ -13,6 +13,10 @@ exl-id: cac16c50-a85d-4e40-a590-8a0a52be893c
 ---
 # Change the order of evaluation for authentication {#change-the-order-of-evaluation-for-authentication}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 If you configured multiple authentication providers, you can change the order in which AEM forms evaluates them for authentication. The order of the authentication providers that are listed in the config.xml file determines the order of evaluation for authentication.
 
 1. In administration console, click Settings &gt; User Management &gt; Configuration &gt; Import And Export Configuration Files.

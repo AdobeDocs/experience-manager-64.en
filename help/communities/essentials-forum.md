@@ -13,6 +13,10 @@ exl-id: 6562a440-887e-4a48-a14e-64dc36c70793
 ---
 # Forum Essentials {#forum-essentials}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This page provides the essential information for working with the forum feature.
 
 ## Essentials for Client-Side {#essentials-for-client-side}

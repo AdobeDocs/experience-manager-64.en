@@ -13,6 +13,10 @@ exl-id: 391885f2-e46d-4eb4-9c88-509233505df8
 ---
 # Ideation Feature {#ideation-feature}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 The ideation feature provides an area for signed-in site visitors (community members) in the publish environment to:

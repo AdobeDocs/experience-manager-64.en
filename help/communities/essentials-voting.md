@@ -13,6 +13,10 @@ exl-id: f2ecd59c-a311-4e4a-b1a8-2bc3afe0599d
 ---
 # Voting Essentials {#voting-essentials}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The voting component, a [tally](tally.md) subclass, is a useful tool that allows members to rate a particular piece of content by simply selecting up or down arrows to indicate their opinion.
 
 Placing multiple instances of a voting component on the same page is allowed; each instance must be configured with an unique `tally name` property.

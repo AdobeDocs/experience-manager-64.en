@@ -8,6 +8,10 @@ exl-id: 883bebc6-8bbc-43b1-91e5-9e2bf2470b6e
 ---
 # Metadata Schemata Reference {#metadata-schemata-reference}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following reference includes information about a particular metadata schemata (in alphabetical order) as well as a list of properties and their definitions.
 
 ## Dublin Core {#dublin-core}

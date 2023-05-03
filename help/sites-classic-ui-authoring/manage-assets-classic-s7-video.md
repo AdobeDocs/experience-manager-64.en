@@ -9,6 +9,10 @@ exl-id: 7cb3d58c-0d78-4414-9b66-0a10e52d0906
 ---
 # Video{#video}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Assets provides for centralized video asset management where you can upload videos directly to Assets for auto-encoding to Dynamic Media Classic and access Dynamic Media Classic videos directly from Assets for page authoring.
 
 Dynamic Media Classic video integration extends the reach of optimized video to all screens (auto device and bandwidth detection).

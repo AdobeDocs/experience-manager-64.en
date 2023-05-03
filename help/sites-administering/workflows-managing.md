@@ -13,6 +13,10 @@ exl-id: 9c588691-0649-4d59-ab97-ebadfcd1252c
 ---
 # Managing Access to Workflows{#managing-access-to-workflows}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Configure ACLs according to user accounts to allow (or disable) starting, and participating in, workflows.
 
 ## Required User Permissions for Workflows {#required-user-permissions-for-workflows}

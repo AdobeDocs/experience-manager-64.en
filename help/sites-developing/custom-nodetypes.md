@@ -13,6 +13,10 @@ exl-id: 3611cfe5-a3bd-4f46-8949-8f13e1bceb4d
 ---
 # Custom Node Types{#custom-node-types}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Because AEM is based on Sling and uses a JCR repository, node types offered by both of these are available for use:
 
 * [JCR Node Types](https://www.adobe.io/experience-manager/reference-materials/spec/jcr/2.0/3_Repository_Model.html#3.1.7%20Node%20Types)

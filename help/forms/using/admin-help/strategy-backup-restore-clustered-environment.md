@@ -13,6 +13,10 @@ exl-id: 432221c9-4b78-4d0d-bf22-b56810bf4256
 ---
 # Strategy for backup and restore in a clustered environment {#strategy-for-backup-and-restore-in-a-clustered-environment}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >If your AEM forms implementation stores additional custom data in a different database, you must implement a strategy to back up this data ensuring that it remains in sync with the AEM forms data. Also, the application must be designed so that it is robust enough to handle a scenario where the additional databases get out of sync. It is highly recommended that any database operation that is performed is done in the context of a transaction to help maintain a consistent state.

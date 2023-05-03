@@ -13,6 +13,10 @@ exl-id: 99077042-cba9-4429-b1e0-830739de5939
 ---
 # Using charts in Interactive Communications {#using-charts-in-interactive-communications}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Using charts in an Interactive Communication, you can condense large amounts of information into an easy to analyze and understand visual format  
 
 A chart or a graph is a visual representation of data. It condenses large amounts of information into easy-to-understand visual format, enabling the recipients of the Interactive Communication to better visualize, interpret, and analyze complex data.

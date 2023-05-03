@@ -13,6 +13,10 @@ exl-id: 6eb00c31-6806-478a-99d1-55912798ea69
 ---
 # Using autosave in AEM Forms app {#using-autosave-in-aem-forms-app}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When a user enters data in the Adobe Experience Manager Forms app, the autosave feature saves it at regular intervals. The autosave feature in the AEM Forms app helps you avoid data loss if the app is accidentally closed.
 
 Your app can accidentally close:

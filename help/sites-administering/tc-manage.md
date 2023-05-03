@@ -14,6 +14,10 @@ exl-id: 191b9aff-3acd-4272-8683-d3e6899fe78c
 ---
 # Managing Translation Projects{#managing-translation-projects}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 After preparing content for translation, you need to complete the language structure by creating missing language copies, and create translation projects.
 
 Translation projects enable you to manage the translation of AEM content. A translation project is a type of AEM [project](/help/sites-authoring/projects.md) that contains resources that are to be translated into other languages. These resources are the pages and assets of the [language copies](/help/sites-administering/tc-prep.md) that are created from the language master.

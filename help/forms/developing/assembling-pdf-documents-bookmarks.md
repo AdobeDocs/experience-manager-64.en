@@ -15,6 +15,10 @@ exl-id: 2506835b-a75b-4d15-8fd4-1292d40a2132
 ---
 # Assembling PDF Documents with Bookmarks {#assembling-pdf-documents-with-bookmarks}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can assemble a PDF document that contains bookmarks. For example, assume that you have a PDF document that does not contain bookmarks and you want to modify it by providing bookmarks. Using the Assembler service, you can pass it a PDF document that does not contain bookmarks and get back a PDF document that contains bookmarks.
 
 Bookmarks contain the following properties:

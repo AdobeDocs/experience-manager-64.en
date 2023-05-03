@@ -13,6 +13,10 @@ exl-id: 077a940d-19de-4d19-ad99-61f465e68205
 ---
 # Encryption Support for Configuration Properties{#encryption-support-for-configuration-properties}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 This feature allows all OSGi configuration properties to be stored in a protected encrypted form instead of clear text. The form in the Web Console UI is used to create encrypted text from clear text using the system wide encryption master key.

@@ -13,6 +13,10 @@ exl-id: 38bbad03-aead-43d3-a28c-cc716955ddfb
 ---
 # Adobe IMS Authentication and Admin Console Support for AEM Managed Services {#adobe-ims-authentication-and-admin-console-support-for-aem-managed-services}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >Please note that this feature is available to Adobe Managed Services customers only.

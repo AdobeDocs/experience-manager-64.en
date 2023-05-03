@@ -13,6 +13,10 @@ exl-id: 593a588c-02f1-4b48-ac57-9348d6652bcc
 ---
 # Configuring for AEM Apps{#configuring-for-aem-apps}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager Apps provides the ability to update the content of your application over the air (OTA). The updated content is stored on the publish instance. To allow the App on your device to connect to the publish instance and check for updates the publish instance needs to be configured to allow an empty referrer header.
 
 ## Configuring Empty Referrer Header {#configuring-empty-referrer-header}

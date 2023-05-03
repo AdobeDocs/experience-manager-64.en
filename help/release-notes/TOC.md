@@ -7,6 +7,7 @@ breadcrumb-title: Release Notes
 user-guide-description: Learn about the latest new features in AEM 6.4 in the release notes.
 feature: Release Information
 role: Leader, Architect, Developer, Data Architect, Data Engineer, Admin, User
+hide: yes
 ---
 
 # Adobe Experience Manager 6.4 Release Notes {#release-notes}

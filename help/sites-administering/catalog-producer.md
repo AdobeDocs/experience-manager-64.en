@@ -13,6 +13,10 @@ exl-id: 00776df6-1afe-4b14-a267-3ceba22dcad5
 ---
 # Catalog Producer{#catalog-producer}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn how to use Catalog Producer in AEM Assets to generate product catalogs using your digital assets.
 
 With the Adobe Experience Manager (AEM) Assets Catalog Producer, you can create catalogs for your brand products using InDesign templates imported from an InDesign application. To import InDesign templates, first integrate AEM Assets with an InDesign server.

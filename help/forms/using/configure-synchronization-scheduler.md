@@ -13,6 +13,10 @@ exl-id: 7f1c4bac-accf-43e4-9439-89c5420d50f2
 ---
 # Configuring the synchronization scheduler {#configuring-the-synchronization-scheduler}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 By default, the synchronization scheduler runs after every 3 minutes to synchronize all the assets modified and updated in the repository via LiveCycle Workbench 11. Applications containing forms and resources are visible in the AEM Forms user interface once the synchronization process is complete.
 
 ## Change interval of the synchronization scheduler {#change-interval-of-the-synchronization-scheduler}

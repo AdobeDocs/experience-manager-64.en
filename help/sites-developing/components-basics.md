@@ -14,6 +14,10 @@ exl-id: 2c8956bf-e20a-441d-aecc-f2600e1fa11e
 ---
 # AEM Components - The Basics{#aem-components-the-basics}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When you start to develop new components you need to understand the basics of their structure and configuration.
 
 This process involves reading the theory and looking at the wide range of component implementations in a standard AEM instance. This latter approach is slightly complicated by the fact that although AEM has shifted to a new standard, modern, touch-enabled UI, it continues to support the classic UI.

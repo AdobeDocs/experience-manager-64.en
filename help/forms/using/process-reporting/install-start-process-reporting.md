@@ -12,6 +12,10 @@ exl-id: 0af2e992-6670-4e31-9d26-ab74c5b9df8e
 ---
 # Getting Started with Process Reporting {#getting-started-with-process-reporting}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Process Reporting gives AEM Forms users the ability to query information about AEM Forms processes that are currently defined in the AEM Forms implementation. However, Process Reporting does not access data directly from the AEM Forms repository. The data is first published to the Process Reporting repository on a scheduled basis (*by the ProcessDataPublisher & ProcessDataStorage service*s). The reports and queries in Process Reporting are then generated out of the Process Reporting data published to the repository. Process Reporting is installed as part of the Forms Workflow module.
 
 This article details the steps to enable the publishing of AEM Forms data to the Process Reporting repository. After which, you will be able to use Process Reporting to run reports and queries. The article also covers the options available to configure the Process Reporting services.

@@ -13,6 +13,10 @@ exl-id: df534e6d-ec34-4851-bbd2-5b9b06d1da10
 ---
 # Overview of Forms workflow {#overview-of-forms-workflow}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Forms workflow lets users design, manage, and optimize human-centric processes. Using forms workflow, users can also manage automated business-process applications that connect systems and people.
 
 On each Forms workflow page in administration console, you can perform a different set of tasks, as outlined in this table.

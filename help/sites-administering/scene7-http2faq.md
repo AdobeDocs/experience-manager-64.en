@@ -9,6 +9,10 @@ exl-id: 2da4c0b3-119e-436e-9f03-f794283e9a37
 ---
 # HTTP2 Delivery of Content FAQ{#http-delivery-of-content-faq}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe is excited to announce the availability of HTTP/2 delivery of content. When using HTTP/2 you will notice an overall performance increase.
 
 ## What is HTTP/2? {#what-is-http}

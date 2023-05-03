@@ -8,6 +8,10 @@ exl-id: 956cdec4-2ba8-43c9-9122-564d764f4681
 ---
 # Bulk metadata import and export {#bulk-metadata-import-and-export}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 [!DNL Experience Manager] Assets lets you import asset metadata in bulk using a CSV file. You can do bulk updates for the recently uploaded assets or the existing assets by importing a CSV file. You can also ingest asset metadata in bulk from third-party system in CSV format.
 
 ## Import metadata {#import-metadata}

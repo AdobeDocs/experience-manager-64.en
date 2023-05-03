@@ -13,6 +13,10 @@ exl-id: 24d53784-5915-4638-ab2b-26f897cca13b
 ---
 # Tag Libraries{#tag-libraries}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Granite, CQ, and Sling tag libraries give you access to specific functions for use in the JSP script of your templates and components.
 
 ## Granite Tag Library {#granite-tag-library}

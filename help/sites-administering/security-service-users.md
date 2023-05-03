@@ -14,6 +14,10 @@ exl-id: b6e77f61-5c7b-4e40-881c-057177e7ea6d
 ---
 # Service Users in AEM{#service-users-in-aem}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 The main way of getting an administrative session or resource resolver in AEM was using the `SlingRepository.loginAdministrative()` and `ResourceResolverFactory.getAdministrativeResourceResolver()` methods provided by Sling.

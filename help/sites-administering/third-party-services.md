@@ -13,6 +13,10 @@ exl-id: 9a3857fd-4f62-4293-950b-75626e4dcf50
 ---
 # Integrating with Third-Party Services{#integrating-with-third-party-services}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 With AEM, you can integrate with the following non-Adobe products out of the box:
 
 * Amazon SNS connection - Amazon web services

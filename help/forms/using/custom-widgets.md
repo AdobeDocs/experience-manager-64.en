@@ -14,6 +14,10 @@ exl-id: e9e53b6d-6403-4d37-bac1-efaff0317f34
 ---
 # Create custom appearances in HTML5 forms {#create-custom-appearances-in-html-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can plug in custom widgets to a Mobile Forms. You can extend existing jQuery Widgets or develop your own custom widgets using appearances framework. XFA engine uses various widgets, see [Appearance framework for adaptive and HTML5 forms](/help/forms/using/introduction-widgets.md) for detailed information.
 
 ![An example of default and custom widget](assets/custom-widgets.jpg)

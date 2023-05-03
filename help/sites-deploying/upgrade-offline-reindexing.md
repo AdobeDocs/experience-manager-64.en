@@ -10,6 +10,10 @@ exl-id: 7d2cf3d6-0dd3-4ce2-be9e-5d8b65a9edab
 ---
 # Using Offline Reindexing To Reduce Downtime During an Upgrade {#offline-reindexing-to-reduce-downtime-during-upgrades}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 One of the key challenges in upgrading Adobe Experience Manager is the downtime associated with the author environment when an in-place upgrade is performed. Content authors will not be able to access the environment during an upgrade. Therefore it is desirable to minimize the amount of time it takes to perform the upgrade. For large repositories, especially AEM Assets projects, which typically have large data stores and a high level of asset uploads per hour, reindexing of Oak indexes takes a significant percentage of the upgrade time.

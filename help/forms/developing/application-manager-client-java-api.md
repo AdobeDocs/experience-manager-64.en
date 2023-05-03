@@ -14,6 +14,10 @@ exl-id: 8369beeb-4628-40ea-9167-717f112768da
 ---
 # Application Manager Client JavaAPI Quick Start (SOAP) {#application-manager-client-javaapi-quick-start-soap}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following Java API Quick Start(SOAP) are available for the Application Manager Client.
 
 [Quick Start (SOAP mode): Creating Application Version using the Java API](#quick-start-soap-mode-creating-application-version-using-the-java-api)

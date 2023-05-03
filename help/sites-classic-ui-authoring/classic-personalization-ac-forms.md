@@ -13,6 +13,10 @@ discoiquuid: 3086a8a1-8d2e-455a-a055-91b07d31ea65
 
 # Creating Adobe Campaign Forms in AEM{#creating-adobe-campaign-forms-in-aem}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM lets you create and use forms that interact with Adobe Campaign on your website. Specific fields can be inserted into your forms and mapped to the Adobe Campaign database.
 
 You can manage new contact subscriptions, unsubscriptions, and user profile data, all while integrating their data into your Adobe Campaign database.

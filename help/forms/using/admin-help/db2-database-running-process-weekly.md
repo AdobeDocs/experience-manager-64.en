@@ -13,6 +13,10 @@ exl-id: f40fcfab-63e0-4e43-aac5-95426e3dd1fb
 ---
 # DB2 database: Running a process weekly{#db-database-running-a-process-weekly}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 If your AEM forms DB2 database begins to run slowly, running the following process on a weekly basis can improve its performance:
 
 1. Start DB2 Control Center:

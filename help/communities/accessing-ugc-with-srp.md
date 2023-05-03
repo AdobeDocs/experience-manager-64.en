@@ -13,6 +13,10 @@ exl-id: 3a16a771-e1c5-4ae4-9fc6-17a47064db54
 ---
 # Accessing UGC with SRP {#accessing-ugc-with-srp}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## About SRP {#about-srp}
 
 All AEM Communities components and features are built on the [social component framework (SCF)](scf.md), which invokes the SocialResourceProvider API to access all user generated content (UGC).

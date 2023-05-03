@@ -13,5 +13,9 @@ exl-id: 53aa6c11-0d73-4d95-a0b3-cf369883abe8
 ---
 # Search for a user or group {#search-for-a-user-or-group}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 1. In administration console, click Settings &gt; User Management &gt; Users And Groups.
 1. Specify information to narrow the search and click Find. The results of the search are listed at the bottom of the page. You can sort the list by clicking any of the column headings. A maximum of 1000 results are returned.

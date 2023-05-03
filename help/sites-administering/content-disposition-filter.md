@@ -13,6 +13,10 @@ exl-id: bb022f6b-938b-4421-8860-4c22aecf5b85
 ---
 # Content Disposition Filter {#content-disposition-filter}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Content disposition filter is a security feature against XSS attacks on SVG files.
 
 Once installed, the filter blocks access to all assets. For example, you could not view a PDF online. This section describes how to configure the filter to your needs.

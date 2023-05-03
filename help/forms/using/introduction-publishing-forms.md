@@ -12,6 +12,10 @@ exl-id: a91e23e8-339d-4090-9872-2e066ab66590
 ---
 # Introduction to publishing forms on a portal {#introduction-to-publishing-forms-on-a-portal}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## AEM Forms portal components overview {#aem-forms-portal-components-overview}
 
 In a typical forms-centric portal deployment scenario, forms development and portal development are two disjoint activities. While Form Designers design and store forms in a repository, Web Developers create a web application to list forms and handle submission of forms. Forms are copied over to the web tier as there is no communication between the forms repository and the web application.

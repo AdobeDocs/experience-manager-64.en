@@ -13,6 +13,10 @@ exl-id: 357a130a-af60-4e86-9161-5dc7056aa052
 ---
 # Community Group Essentials {#community-group-essentials}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The community groups feature is the ability for a sub-community to be dynamically created within a community site by authorized users from the publish and author environments.
 
 As of Communities [feature pack 1](deploy-communities.md#latestfeaturepack), it is possible for groups to be nested within other groups

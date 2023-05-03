@@ -13,6 +13,10 @@ exl-id: b0890070-c9e8-4ce4-9149-00c8c38298ce
 ---
 # Troubleshooting AEM when Authoring{#troubleshooting-aem-when-authoring}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following section covers some issues that you might encounter when using AEM, together with suggestions on how to troubleshoot them.
 
 >[!NOTE]

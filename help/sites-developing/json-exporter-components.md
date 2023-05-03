@@ -13,6 +13,10 @@ exl-id: ce9a1c1f-a37b-4765-b87e-5b2359312cfe
 ---
 # Enabling JSON Export for a Component{#enabling-json-export-for-a-component}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Components can be adapted to generate JSON export of their content based on a modeler framework.
 
 ## Overview {#overview}

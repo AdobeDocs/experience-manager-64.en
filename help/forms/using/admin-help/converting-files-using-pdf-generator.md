@@ -14,6 +14,10 @@ exl-id: 3eecff45-405f-482f-b0de-acf6557a7813
 ---
 # Converting files using PDF Generator{#converting-files-using-pdf-generator}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can use the PDF Generator web pages to convert files.
 
 ## Create a PDF file {#create-a-pdf-file}

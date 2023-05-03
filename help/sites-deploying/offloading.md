@@ -14,6 +14,10 @@ exl-id: b10bf1b6-0360-45ca-b1aa-f4184cbfb5c0
 ---
 # Offloading Jobs{#offloading-jobs}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 Offloading distributes processing tasks amoung Experience Manager instances in a topology. With offloading, you can use specific Experience Manager instances for performing specific types of processing. Specialized processing enables you to maximize the usage of available server resources.

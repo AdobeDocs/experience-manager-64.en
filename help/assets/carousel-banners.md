@@ -15,6 +15,10 @@ role: User
 ---
 # Carousel Banners {#carousel-banners}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Carousel banners enable marketers to drive conversion by easily creating interactive rotating promotional content and delivering it to any screen.
 
 Creating and modifying content featured in promotional banners can be time-consuming, limiting your ability to quickly publish new content or make it more targeted. Carousel Banners enable you to quickly create or modify rotating banners, add interactivity such as hotspots linking to product detail or related resources, and deliver them to any screen &ndash; letting you bring new promotional content to market faster.

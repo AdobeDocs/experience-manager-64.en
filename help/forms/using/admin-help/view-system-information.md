@@ -13,6 +13,10 @@ exl-id: e4542335-fcee-4506-965a-5bfe79f4b29a
 ---
 # View system information {#view-system-information}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The System tab displays resource monitoring charts and information about the server that is running AEM forms. To access this information, in administration console, click Health Monitor in the upper-right corner of the page. If you are running AEM forms in a clustered environment, the information displayed is for the node selected from the Server list.
 
 To save the current system information as a properties file, click Save.

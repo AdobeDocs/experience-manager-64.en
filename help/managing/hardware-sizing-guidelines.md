@@ -13,6 +13,10 @@ exl-id: 34e4edd5-9e67-44ed-8c4c-bcdd3e161a35
 ---
 # Hardware Sizing Guidelines {#hardware-sizing-guidelines}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 These sizing guidelines offer an approximation of the hardware resources required to deploy an AEM project. Sizing estimates depend on the architecture of the project, the complexity of the solution, expected traffic and the project requirements. This guide helps you to determine the hardware needs for a specific solution, or to find an upper and lower estimate for the hardware requirements.
 
 Basic factors to consider are (in this order):

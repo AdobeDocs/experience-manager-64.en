@@ -14,6 +14,10 @@ exl-id: 571c1391-dc60-4bed-b4f9-482a508e4bd4
 ---
 # Configure the document security server {#configure-the-document-security-server}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 1. In administration console, click Services &gt; document security &gt; Configuration &gt; Server Configuration.
 1. Configure the settings and click OK.
 

@@ -10,6 +10,10 @@ exl-id: 1bc72dac-41f7-4593-aaea-d48ebd94b43e
 ---
 # Folder Metadata Schema {#folder-metadata-schema}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This article describes how to create metadata schema for asset folders in [!DNL Experience Manager] Assets.
 
 Adobe Experience Manager Assets lets you create metadata schemas for asset folders, which define the layout and metadata displayed in folder properties pages.

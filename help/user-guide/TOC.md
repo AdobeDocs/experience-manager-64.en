@@ -7,6 +7,7 @@ user-guide-description: An overview of all of the essential resources for unders
 contentOwner: Chris Bohnert
 feature: Release Information
 role: Leader, Architect, Developer, Data Architect, Data Engineer, Admin, User
+hide: yes
 ---
 
 # AEM 6.4 User Guide {#user-guide}

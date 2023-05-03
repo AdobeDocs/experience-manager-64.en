@@ -13,6 +13,10 @@ exl-id: 407db3cf-8add-486b-8cf5-daeecc18bf30
 ---
 # Files to back up and recover {#files-to-back-up-and-recover}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The application and data files that must be backed up are described in more detail in the following sections.
 
 Consider the following points regarding backup and recovery:

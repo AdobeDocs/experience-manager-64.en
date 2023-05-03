@@ -9,6 +9,10 @@ exl-id: a8e9f8de-ca84-4107-8f73-2fc75eeae1f1
 ---
 # Reuse assets using MSM for [!DNL Assets] {#reuse-assets-using-msm-for-assets}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Multi Site Manager (MSM) functionality in [!DNL Adobe Experience Manager] enables users to reuse content that is authored once and reused across multiple web-locations. The same is available for digital assets as MSM for [!DNL Assets] functionality. Using MSM for [!DNL Assets], you can:
 
 * Create assets once and then make copies of these assets to reuse in other areas of the site.

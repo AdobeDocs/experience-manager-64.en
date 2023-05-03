@@ -14,6 +14,10 @@ exl-id: ac399a66-0f3b-4f95-969e-a4109c260d1d
 ---
 # Group Templates {#group-templates}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Group Templates console is very similar to the [Site Templates](sites.md) console. Both are blueprints for a set of pre-wired pages and features which form a community site. The difference is that a site template is for the main community and a group template is for a community group, a sub-community nested within the main community.
 
 A community group is incorporated into a site template by including the [Groups function](functions.md#groups-function) (which may not be the first nor only function in the template).

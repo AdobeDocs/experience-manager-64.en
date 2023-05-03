@@ -15,6 +15,10 @@ exl-id: 72ead30c-648d-43ad-9826-9c8945a8860d
 ---
 # Migrate AEM Forms assets and documents {#migrate-aem-forms-assets-and-documents}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Migration utility converts the [Adaptive Forms assets](/help/forms/using/introduction-forms-authoring.md), [cloud configrurations](/help/sites-developing/extending-cloud-config.md), and [Correspondence Management assets](/help/forms/using/cm-overview.md) from the format used in the earlier versions to the format used in AEM 6.4 Forms. When you run migration utility, the following are migrated:
 
 * Custom components for adaptive forms

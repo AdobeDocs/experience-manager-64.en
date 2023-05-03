@@ -13,6 +13,10 @@ exl-id: 5bbb51d8-db91-458a-bfdd-e3f874ef1723
 ---
 # Configuring SSL for WebLogic Server {#configuring-ssl-for-weblogic-server}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To configure SSL on WebLogic Server, you need an SSL credential for authentication. You can use Java keytool to perform the following tasks to create a credential:
 
 * Create a public/private key pair, wrap the public key in an X.509 v1 self-signed certificate that is stored as a single-element certificate chain, and then store the certificate chain and the private key in a new keystore. This keystore is the application server’s Custom Identity keystore.

@@ -13,6 +13,10 @@ exl-id: dc24edaf-ca1d-4a6b-a2dc-86677267e18d
 ---
 # Analyzing Page Performance{#analyzing-page-performance}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Open the [Content Insight](/help/sites-authoring/content-insights.md) page to analyze the performance of the page that you are authoring. Configure the reporting period to focus your analysis.
 
 ## Opening Analytics and Recommendations for a Page {#opening-analytics-and-recommendations-for-a-page}

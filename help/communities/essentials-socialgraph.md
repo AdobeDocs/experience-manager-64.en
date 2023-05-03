@@ -13,6 +13,10 @@ exl-id: 55aa015e-e0e4-411e-8e28-75006ae3090b
 ---
 # Social Graph Essentials {#social-graph-essentials}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The ability for a Community member to follow [activities](essentials-activities.md) as well as be followed is established through two components:
 
 The `follow`component must be associated with another resource, and this association is already established for existing Communities members and features in a [community site](overview.md#communitiessites).

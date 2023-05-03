@@ -12,6 +12,10 @@ exl-id: 8cbace00-c354-4f37-a781-04cadd441419
 ---
 # Forms JEE workflows | Handling user data {#forms-jee-workflows-handling-user-data}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Forms JEE workflows provide tools to design, create, and manage business processes. A workflow process consists of a series of steps that execute in a specified order. Each step performs a specific action such as assigning a task to a user or sending an email message. A process can interact with assets, user accounts, and services, and can be triggered using any of the following methods:
 
 * Starting a process from AEM Forms Workspace

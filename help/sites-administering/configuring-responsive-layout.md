@@ -14,6 +14,10 @@ exl-id: 3a85fd49-5929-4eb0-9f40-e62c904dbca0
 ---
 # Configuring Layout Container and Layout Mode{#configuring-layout-container-and-layout-mode}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 [Responsive Layout](/help/sites-authoring/responsive-layout.md) is a mechanism for realizing [responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design). This allows the user to create web pages that have a layout and dimensions dependent on the devices their users use.
 
 >[!NOTE]

@@ -12,6 +12,10 @@ exl-id: 010d019b-a6ec-4a69-96c1-41b82a2a1839
 ---
 # Custom Reports in Process Reporting {#custom-reports-in-process-reporting}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can use REST interface of QueryBuilder or create an OSGi service using QueryBuilder API to create a custom report.
 
 ## Generic steps to build a custom report {#generic-steps-to-build-a-custom-report}

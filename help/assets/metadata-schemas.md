@@ -8,6 +8,10 @@ exl-id: 82f42bb3-2c01-407c-a41b-9abe7be4660e
 ---
 # Metadata Schemas {#metadata-schemas}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In [!DNL Experience Manager Assets], a metadata schema defines the layout of the properties page and the metadata properties displayed for assets that use the particular schema. Metadata properties include title, description, MIME types, tags, and so on. You can use the Metadata Schema Forms editor to modify existing schemas or add custom metadata schemas. 
 
 To view and edit the properties page for an asset, follow these steps:

@@ -13,6 +13,10 @@ exl-id: 4831abe0-7d82-4cdd-8579-9736aa6a94d6
 ---
 # Introduction to Customizing AEM form workspace {#introduction-to-customizing-aem-form-workspace}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM form workspace provides capabilities to modify the presentation semantics and functionality of its interface. The types of customizations to change the style, layout, formatting, branding, and core functionality are described below.
 
 ![cu_customized_workspace_example](assets/cu_customized_workspace_example.png)

@@ -8,6 +8,10 @@ exl-id: aa24ca68-d94e-4bd4-a5cc-113906650a2e
 ---
 # Enhanced sorting of assets in [!DNL Experience Manager] {#enhanced-sorting-of-assets-in-aem}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn how [!DNL Experience Manager] Assets deploys server-side sorting to sort folder assets or a search query at one go instead of sorting them in batches on the client side.
 
 The search capability of Adobe Experience Manager Assets is enhanced to efficiently sort a large number of assets in the folder list view and search results pages. You can also sort timeline entries.

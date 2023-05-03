@@ -13,6 +13,10 @@ exl-id: 04adbbc9-9e4c-4c64-aab1-20b17bd75bb5
 ---
 # Mapping Component Data with Adobe Analytics Properties{#mapping-component-data-with-adobe-analytics-properties}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Add components to the framework that gather the data to send to Adobe Analytics. Components that are designed to gather analytics data store the data in the appropriate **CQ variable**. When you add such a component to a framework, the framework displays the list of CQ variables so that you can each to the appropriate **Analytics variable**.
 
 ![aa-11](assets/aa-11.png)

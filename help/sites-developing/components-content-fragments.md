@@ -16,6 +16,10 @@ exl-id: 516c1561-5c13-4301-8009-9b021087cec7
 
 >[!CAUTION]
 >
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
+>[!CAUTION]
+>
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](/help/release-notes/sp-release-notes.md).
 
 ## Components for Fragment Authoring {#components-for-fragment-authoring}

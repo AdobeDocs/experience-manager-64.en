@@ -14,6 +14,10 @@ exl-id: 136c0913-c8b8-451d-bb28-3c3285c172a1
 ---
 # ASRP - Adobe Storage Resource Provider {#asrp-adobe-storage-resource-provider}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## About ASRP {#about-asrp}
 
 When AEM Communities is configured to use ASRP as its common store, user generated content (UGC) is accessible from all author and publish instances without the need for synchronization nor replication.

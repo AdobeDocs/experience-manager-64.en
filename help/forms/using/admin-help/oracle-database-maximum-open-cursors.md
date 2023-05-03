@@ -13,4 +13,8 @@ exl-id: ad14ff27-964f-481f-a8ef-052d9cfb7734
 ---
 # Oracle database maximum open cursors threshold {#oracle-database-maximum-open-cursors-threshold}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To configure a maximum value for open cursors in Oracle, you may have to tune this value to a number that is appropriate to your application. It is evident that under a moderate load, the average cursors open was 2700. It is recommended that you start with an upper limit of 3000. For more information, go to [https://www.orafaq.com/node/758](https://www.orafaq.com/node/758).

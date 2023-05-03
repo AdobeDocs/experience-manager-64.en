@@ -12,6 +12,10 @@ exl-id: 26a1a5f7-b4d4-4f38-81a4-5f2d39702138
 ---
 # Placeholder text in AEM Forms {#placeholder-text-in-aem-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The placeholder text represents a word or short phrase. It is intended to aid the user with data entry when the control has no value. A placeholder text could be a sample value or a brief description of the expected format. The placeholder text is shown before the user enters a value, it is removed when the user enters or selects a value.
 
 >[!NOTE]

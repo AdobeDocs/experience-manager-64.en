@@ -13,6 +13,10 @@ exl-id: 43376dfd-9cef-46f5-af14-21e379fbb79a
 ---
 # Getting Started with SPAs in AEM - React {#getting-started-with-spas-in-aem-react}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Single page applications (SPAs) can offer compelling experiences for website users. Developers want to be able to build sites using SPA frameworks and authors want to seamlessly edit content within AEM for a site built using SPA frameworks.
 
 The SPA authoring feature offers a comprehensive solution for supporting SPAs within AEM. This article presents a simplified SPA application on the React framework, explains how it is put together, allowing you to get up-and-running with your own SPA quickly.

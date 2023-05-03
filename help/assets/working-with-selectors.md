@@ -15,6 +15,10 @@ role: User
 ---
 # Working with Selectors {#working-with-selectors}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When working with an Interactive Image, Interactive Video, or Carousel Banner, you select assets and you select sites and products for hotspots and image maps to link to. When working with Image Sets, Spin Sets, and Multimedia Sets, you also select assets with the Asset Selector.
 
 This topic covers how to use the Product, Site, and Asset selectors, including the ability to browse, filter, sort within the selectors.

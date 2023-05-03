@@ -14,6 +14,10 @@ exl-id: b4a56f59-dc5e-40c3-a024-ee9df10949d8
 ---
 # Replication{#replication}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Replication agents are central to Adobe Experience Manager (AEM) as the mechanism used to:
 
 * [Publish (activate)](/help/sites-authoring/publishing-pages.md#publishing-pages) content from an author to a publish environment.

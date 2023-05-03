@@ -15,6 +15,10 @@ exl-id: e6092e80-3a39-4fde-8a94-084eee5fa8a9
 ---
 # Upgrade Procedure{#upgrade-procedure}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >The upgrade will require downtime for the Author tier as most AEM upgrades are performed in-place. By following these best practices, Publish tier downtime can be minimized or eliminated.

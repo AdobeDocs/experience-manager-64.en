@@ -13,6 +13,10 @@ exl-id: f24d9260-31e8-4bdf-8b80-c17cdd2d0747
 ---
 # Configuring email endpoints {#configuring-email-endpoints}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Email endpoints enable users to invoke a service by sending one or more documents (as email attachments) to a specified email account. The email inbox acts as a collecting point for the attachments. The service monitors the inbox and processes the attachments. The results of the conversion are forwarded to the user defined in the endpoint.
 
 For an email endpoint, authorized users can invoke a process by emailing files to the appropriate account. The results will be returned to the submitting user (by default) or to the user defined in the endpoint settings.

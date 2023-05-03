@@ -14,6 +14,10 @@ exl-id: a7678273-81f6-4089-ac73-2458d940e374
 ---
 # In-Context Moderation {#in-context-moderation}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 For AEM Communities, moderation may be performed by administrators and trusted community members directly on the published page where the community content was posted.
 
 When using a [moderation console](moderation.md), the information displayed for the content includes a link to the published page to allow access to additional moderation actions available when moderating in-context.

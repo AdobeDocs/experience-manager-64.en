@@ -14,6 +14,10 @@ exl-id: d84cd0ec-4586-45c1-a07a-a4d50fcbb629
 ---
 # eCommerce Overview{#ecommerce-overview}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM generic eCommerce is available as part of a standard installation and provides you with the full functionality of the eCommerce framework.
 
 Adobe provides two versions of the Commerce Integration Framework:

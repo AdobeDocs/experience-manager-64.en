@@ -14,6 +14,10 @@ exl-id: 3c046e16-5f54-4a16-aa5b-256b679808fa
 ---
 # eCommerce{#ecommerce}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 * [Concepts](/help/sites-administering/concepts.md)
 * [Administering (generic)](/help/sites-administering/generic.md)
 * [SAP Commerce Cloud](/help/sites-administering/sap-commerce-cloud.md)

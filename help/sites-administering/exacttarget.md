@@ -13,6 +13,10 @@ exl-id: 943e5199-271f-4015-a9f7-4d39c00deabe
 ---
 # Integrating with ExactTarget{#integrating-with-exacttarget}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Integrating AEM with Exact Target lets you manage and send email created in AEM via Exact Target. It also allows you to use the lead management features of Exact Target via AEM forms on AEM pages.
 
 The integration provides you with the following features:

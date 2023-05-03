@@ -13,6 +13,10 @@ exl-id: d561bb0a-352f-4be2-95ed-32dd1e2b4019
 ---
 # The Checklist - Further Reference{#the-checklist-further-reference}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This page provides further details to elaborate on and/or augment the documents and principles covered by the [Managing Projects - Best Practices Checklist](/help/managing/best-practices.md).
 
 ## AEM - What will you be using? {#aem-what-will-you-be-using}

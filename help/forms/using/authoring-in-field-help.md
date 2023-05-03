@@ -12,6 +12,10 @@ exl-id: 0c761c0c-fbe4-4129-8a90-c4ef1127a762
 ---
 # Authoring in-context help for form fields {#authoring-in-context-help-for-form-fields}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 There are situations when end users filling a form are not sure how to fill details in a particular form field. To address such issues, adaptive forms provides support to add text or rich in-context help to a form field. It helps improve the form filling experience and avoids any ambiguity for end users.

@@ -13,6 +13,10 @@ exl-id: f722051c-9512-4420-b12e-cb20aa6759f7
 ---
 # Rating Essentials {#rating-essentials}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The rating component, a [tally](tally.md) subclass, allows signed in community members to rate a feature on the website.
 
 Placing multiple instances of a voting component on the same page is allowed; each instance must be configured with an unique `tally name` property.

@@ -13,6 +13,10 @@ exl-id: 7118dbca-e9b4-4b69-b4c3-34bb52008168
 ---
 # Communities Components {#communities-components}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 When AEM Communities is licensed, in addition to creating community sites, it is possible to add Communities features to any AEM site using standard AEM authoring tools.

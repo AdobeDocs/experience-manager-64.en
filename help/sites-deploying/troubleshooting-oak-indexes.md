@@ -13,6 +13,10 @@ exl-id: 194c0835-e9b5-4968-a5f0-2ed3bf6793fd
 ---
 # Troubleshooting Oak Indexes{#troubleshooting-oak-indexes}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Slow Re-indexing  {#slow-re-indexing}
 
 AEM's internal re-indexing process collects repository data and stores it in Oak indexes to support performant querying of content. In exceptional circumstances, the process can become slow or even stuck. This page acts as a troubleshooting guide to help identify if the indexing is slow, find the cause, and resolve the issue.

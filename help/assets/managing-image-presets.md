@@ -12,6 +12,10 @@ role: Admin,User
 ---
 # Managing Dynamic Media image presets {#managing-image-presets}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Image Presets enable AEM Assets to dynamically deliver images at different sizes, in different formats, or with other image properties that are generated dynamically. Each Image Preset represents a predefined collection of sizing and formatting commands for displaying images. When you create an Image Preset, you choose a size for image delivery. You also choose formatting commands so that the appearance of the image is optimized when the image is delivered for viewing.
 
 Administrators can create presets for exporting assets. Users can choose a preset when they export images, which also reformats images to the specifications that the administrator specifies.

@@ -13,6 +13,10 @@ exl-id: 269eee08-5fca-4621-a56e-93db9361fa64
 ---
 # Managing Activities{#managing-activities}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Activities console enables you to create, organize, and manage the marketing [activities](/help/sites-authoring/personalization.md#activities) of your brands:
 
 * Add brands. 

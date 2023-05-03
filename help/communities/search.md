@@ -13,6 +13,10 @@ exl-id: 15d8bd59-397e-4bd3-b0a2-b6893c015798
 ---
 # Search Feature {#search-feature}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The search feature works with various other features, such as forums, to provide the ability to search for content.
 
 When adding the ability to search posts entered by community members, referred to as user generated content (UGC), there are two components: [ `Search`](#search-features) and [ `Search Results`](#search-results).

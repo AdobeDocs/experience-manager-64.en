@@ -12,6 +12,10 @@ exl-id: eb816a35-0773-4eda-95b2-1d351c71be8b
 ---
 # Embedding link component in a page{#embedding-link-component-in-a-page}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Prerequisites {#prerequisites}
 
 The link component is a member of the Document Services category. Ensure that the Document Services category is visible in the AEM components browser. If the category is not listed, follow the steps listed at [Enabling forms portal components](/help/forms/using/enabling-forms-portal-components.md).

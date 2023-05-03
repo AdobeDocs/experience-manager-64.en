@@ -14,6 +14,10 @@ exl-id: f93d496e-6bd3-462a-b57a-80085647a636
 ---
 # Using the document security webpages {#using-the-document-security-webpages}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Users and administrators use the document security web pages to create and manage policies, manage policy-protected documents, and monitor events that are associated with policy-protected documents. Administrators also use the web pages to create policy sets and designate policy set coordinators, configure document security default settings, manage invited user registration and accounts, and monitor and manage server, policy, user, and document-related events.
 
 >[!NOTE]

@@ -14,6 +14,10 @@ exl-id: bae592db-dc36-409f-b841-0582c464c3f6
 ---
 # AEM Tagging Framework{#aem-tagging-framework}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To tag content and leverage the AEM tagging infrastructure :
 
 * The tag must exist as a node of type [`cq:Tag`](#tags-cq-tag-node-type) under the [taxonomy root node.](#taxonomy-root-node)

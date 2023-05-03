@@ -13,6 +13,10 @@ exl-id: 1b5ead0a-cf33-4422-bdca-2bd6aebbc98d
 ---
 # Configuring authentication providers {#configuring-authentication-providers}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Hybrid domains require at least one authentication provider, and enterprise domains require at least one authentication provider or directory provider.
 
 If you enable SSO using SPNEGO, add a Kerberos authentication provider with SPNEGO enabled and an LDAP provider as a backup. This configuration enables user authentication with a user ID and password if SPNEGO is not working. (See [Enable SSO using SPNEGO](/help/forms/using/admin-help/enabling-single-sign-on-aem.md#enable-sso-using-spnego).)

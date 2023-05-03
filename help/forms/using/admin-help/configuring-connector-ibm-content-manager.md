@@ -13,6 +13,10 @@ exl-id: 8c65531e-f4f0-4cc4-b328-eaefb5662cf1
 ---
 # Configuring Connector for IBM Content Manager{#configuring-connector-for-ibm-content-manager}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Connector for IBM Content Manager enables communication between AEM forms and IBM Content Manager. For additional background information, see "Connectors for ECM" in [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
 
 ## Configure the IBM Content Manager connection {#configure-the-ibm-content-manager-connection}

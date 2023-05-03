@@ -14,6 +14,10 @@ exl-id: a59a4d3e-dc21-4e14-b132-6ed369e674de
 ---
 # Monitoring and Maintaining Your AEM instance{#monitoring-and-maintaining-your-aem-instance}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 After your AEM instances have been deployed certain tasks will be needed to monitor and maintain their operation, performance and integrity.
 
 A key factor here is that to recognize potential issues you need to know how your systems looks and behaves under normal conditions. This is best done by monitoring the system and collecting information over a period of time.

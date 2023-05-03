@@ -8,6 +8,10 @@ exl-id: ed01143c-b516-44f8-aceb-ad2e3f0106b2
 ---
 # Watermark your digital assets {#watermarking}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 [!DNL Adobe Experience Manager Assets] allows you to add a digital watermark to assets that helps users verify the authenticity and copyright ownership of the assets. [!DNL Experience Manager Assets] supports text to be used as a watermark on PNG and JPEG files.
 
 Adobe Experience Manager Assets lets you add a digital watermark to images that helps users verify the authenticity and copyright ownership of the assets. [!DNL Experience Manager] Assets supports text to be used as a watermark on PNG and JPEG files.

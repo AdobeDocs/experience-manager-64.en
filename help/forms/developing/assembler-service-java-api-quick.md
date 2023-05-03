@@ -14,6 +14,10 @@ exl-id: 2efc0a84-4808-47dd-a859-76caf98b1872
 ---
 # Assembler Service Java API QuickStart(SOAP) {#assembler-service-java-api-quickstart-soap}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Java API Quick Start(SOAP) is available for the Assembler service
 
 [Quick Start (SOAP mode): Assembling a PDF document using the Java API](assembler-service-java-api-quick.md#quick-start-soap-mode-assembling-a-pdf-document-using-the-java-api)

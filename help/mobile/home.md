@@ -7,6 +7,10 @@ exl-id: 89af57da-8bd6-46b7-9462-fcf51687004e
 ---
 # AEM 6.4 Mobile User Guide
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This guide covers all AEM Mobile tasks, such as how to create and manage content for mobile applications.
 
 ## Key AEM articles

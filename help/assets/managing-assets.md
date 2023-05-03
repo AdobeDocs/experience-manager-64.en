@@ -11,6 +11,10 @@ role: Admin,User
 ---
 # About managing Dynamic Media assets {#managing-assets}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Managing Dynamic Media assets&ndash;images, video, and interactive assets&ndash;after they are uploaded&ndash;involves many tasks including previewing, downloading, or publishing them.
 
 When previewing, you can also apply image presets (for images only) or viewer presets (for video and images). You cannot apply both to an asset. See [Applying viewer presets](viewer-presets.md) and [Applying image presets](image-presets.md).

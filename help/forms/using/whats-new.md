@@ -12,6 +12,10 @@ exl-id: 21b8ed83-9c0c-41ee-9fbb-56ccebaee132
 ---
 # New features summary | AEM 6.4 Forms {#new-features-summary-aem-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Summary of new features and enhancements in AEM 6.4 Forms.
 
 AEM Forms includes several new features and enhancements that further streamline creation, management, and user experiences with adaptive forms and interactive communications.

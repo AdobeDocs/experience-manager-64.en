@@ -13,6 +13,10 @@ exl-id: a062957d-a526-4c4b-bbc5-0cda8ab007a3
 ---
 # Configuring a Correspondence Management solution {#configuring-a-correspondence-management-solution}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Defining author instance URL for VersionRestoreManagerImpl {#defining-author-instance-url-for-versionrestoremanagerimpl}
 
 Use the following steps to define an author instance URL for the author instance version restore:

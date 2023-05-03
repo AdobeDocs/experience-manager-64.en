@@ -13,6 +13,10 @@ exl-id: f3c03562-aaeb-4d43-aee1-d92d661ee329
 ---
 # Admin Consoles{#admin-consoles}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 By default, the ability to switch to the classic UI via the admin consoles has been disabled. Therefore the pop-up icons that was seen when mousing over certain console icons, allowing access to classic UI, are no longer displayed.
 
 ![screen_shot_2018-03-23at111956](assets/screen_shot_2018-03-23at111956.png)

@@ -13,6 +13,10 @@ exl-id: 0a79111d-e42f-4eb6-8bc4-ab97424e7f90
 ---
 # Introduction to AEM Forms {#introduction-to-aem-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 For information about latest features and enhancements in AEM Forms, see [What's new in AEM Forms](/help/forms/using/whats-new.md).
 
 ## About AEM Forms {#about-aem-forms}

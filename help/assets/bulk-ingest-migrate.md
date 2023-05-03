@@ -15,6 +15,10 @@ role: Admin,User
 ---
 # Installing feature pack 18912 for bulk asset migration {#installing-feature-pack}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The installation of feature pack 18912 is _optional_.
 
 Feature pack 18912 lets you either bulk ingest assets directly into Dynamic Media - Scene 7 mode on AEM by way of FTP, or migrate assets from Dynamic Media Classic into Dynamic Media - Scene7 mode on AEM. The feature pack is available from [Adobe Professional Services](https://www.adobe.com/experience-cloud/consulting-services.html).

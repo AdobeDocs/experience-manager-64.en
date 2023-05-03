@@ -13,6 +13,10 @@ exl-id: 15b17bed-3422-43cf-b1af-91d9e0c5dfcb
 ---
 # Extending ContextHub{#extending-contexthub}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Define new types of ContextHub stores and modules when the ones provided do not meet your solution requirements.
 
 ## Creating Custom Store Candidates {#creating-custom-store-candidates}

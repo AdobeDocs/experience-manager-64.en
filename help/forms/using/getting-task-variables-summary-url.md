@@ -12,6 +12,10 @@ exl-id: f80d006b-6970-4448-aa38-3ffec8b08c18
 ---
 # Getting Task Variables in Summary URL {#getting-task-variables-in-summary-url}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The summary page displays task-related information. This article describes how you can reuse task-related information in the summary page.
 
 In this sample orchestration, an employee submits a leave application form. The application form then goes to the employee's manager for approval.

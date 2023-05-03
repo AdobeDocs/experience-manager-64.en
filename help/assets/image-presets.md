@@ -15,6 +15,10 @@ role: User
 ---
 # Applying Dynamic Media image presets {#applying-image-presets}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Image Presets enable assets to dynamically deliver images at different sizes, in different formats, or with other image properties there are generated dynamically. You can choose a preset when you export images, which also reformats images to the specifications that your administrator has specified.
 
 In addition, you can choose an image preset that is responsive (designated by the **[!UICONTROL RESS]** button after you select it).

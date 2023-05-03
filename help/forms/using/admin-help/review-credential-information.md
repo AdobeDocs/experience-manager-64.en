@@ -13,6 +13,10 @@ exl-id: abd62cca-edf0-4b44-94c3-7af3116b0c54
 ---
 # Review credential use information {#review-credential-use-information}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The credential contains information describing its intended use that is accessible through the Acrobat Reader DC extensions end-user web application. You can use this information to determine the type of credential installed (either evaluation or production) and its validity dates.
 
 1. Open a web browser and enter this URL:

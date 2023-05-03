@@ -9,6 +9,10 @@ exl-id: b1f17bcd-1e91-43f0-85e1-963ff5fe3717
 ---
 # Configuring Search Forms{#configuring-search-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use **Search Forms** to customize the selection of search predicates used in the search panels available in various AEM consoles and/or panels of the author environment. Customizing these panels makes the search functionality versatile according your specific needs.
 
 A [range of predicate](#predicates-and-their-settings)s are available out-of-the-box. You can add multiple predicates, including (amongst others) the Property predicate to search for assets that match a single property specified by you, or the Options predicate to search assets that match one or more values that you specify for a particular property.

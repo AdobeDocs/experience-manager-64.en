@@ -13,6 +13,10 @@ exl-id: 2339657a-20ac-42af-96fb-aebafd5044c7
 ---
 # Encapsulated Token Support{#encapsulated-token-support}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 By default, AEM uses the Token Authentication Handler to authenticate each request. However, in order to serve authentication requests the Token Authentication Handler requires access to the repository for every request. This happens because cookies are used to maintain the authentication state. Logically, the state needs to be persisted in the repository in order to validate subsequent requests. In effect, this means that the authentication mechanism is stateful.

@@ -13,6 +13,10 @@ exl-id: d29e1b1e-62df-4b0d-aa64-ad98568cf4a6
 ---
 # Configuring Business Calendars {#configuring-business-calendars}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 *Business calendars* define business and non-business days (for example, statutory holidays, weekends, and company shutdown days) for your organization. When using business calendars, AEM forms skips non-business days when performing certain date calculations. In Workbench, you can specify whether to use business calendars for user-associated events such as task reminders, deadlines, and escalations or for actions not associated with users, such as Timer Events and the Wait Service.
 
 For example, a task reminder is configured to occur three business days after the task is assigned to a user. The task is assigned on Thursday. However, the following three days are not business days because the Friday is a national holiday and the next two days are weekend days. The reminder is therefore sent on Wednesday of the next week.

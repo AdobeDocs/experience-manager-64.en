@@ -13,6 +13,10 @@ exl-id: 22110676-c102-4730-ab38-45396b15a274
 ---
 # Monitoring Server Resources Using the JMX Console{#monitoring-server-resources-using-the-jmx-console}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The JMX Console enables you to monitor and manage services on the CRX server. The sections that follow summarize the attributes and operations that are exposed through the JMX framework.
 
 For information about how to use the console controls, see [Using the JMX Console](#using-the-jmx-console). For background information about JMX, see the [Java Management Extensions (JMX) Technology](https://www.oracle.com/technetwork/java/javase/tech/javamanagement-140525.html) page on the Oracle website.

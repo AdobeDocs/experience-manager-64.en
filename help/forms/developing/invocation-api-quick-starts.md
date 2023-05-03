@@ -14,6 +14,10 @@ exl-id: dcfc1c9f-fedd-4e00-9b09-19268620fc6d
 ---
 # Invocation API Quick Starts {#invocation-api-quick-starts}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following Quick Starts are available for programmatically invoking AEM Forms services:
 
 <table> 

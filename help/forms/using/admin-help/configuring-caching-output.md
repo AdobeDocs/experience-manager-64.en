@@ -13,6 +13,10 @@ exl-id: e9c823d4-b70d-4c90-a232-56b69208271b
 ---
 # Configuring caching for Output  {#configuring-caching-for-output}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Output service merges XML form data with a form design created in Designer to create a document output stream in various formats.
 
 The Output page in administration console contains settings that control the way the Output service caches items. You can adjust these settings to optimize the performance of the Output service.

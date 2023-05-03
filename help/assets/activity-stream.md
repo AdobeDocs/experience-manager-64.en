@@ -8,6 +8,10 @@ exl-id: 52fa2d59-177f-49ca-a480-7213ce0ca7d7
 ---
 # Activity stream in timeline {#activity-stream-in-timeline}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This feature displays activity logs for assets on the timeline. If you perform any of the following asset-related operations in [!DNL Adobe Experience Manager Assets], the Activity stream feature updates the timeline to reflect the activity.
 
 The following operations are logged in the activity stream:

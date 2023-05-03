@@ -13,6 +13,10 @@ exl-id: 01a20578-56c3-41b3-8a0e-281104af2481
 ---
 # Alter the Appearance {#alter-the-appearance}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Modify the Script {#modify-the-script}
 
 The comment.hbs script is responsible for creating the overall HTML for each comment.

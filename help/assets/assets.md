@@ -8,6 +8,10 @@ exl-id: 9292871d-3b10-49f8-ac1a-4770b4e44048
 ---
 # About [!DNL Adobe Experience Manager Assets] as a DAM solution {#about-assets}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 [!DNL Assets] is a Digital Asset Management (DAM) tool that is an integral part of the [!DNL Experience Manager] platform and enables your enterprise to manage and distribute digital assets. Users across an organization can manage, store, and access many types of digital assets such as images, videos, documents, audio clips, 3D files, and rich media for use on the web, in print, and for digital distribution.
 
 ## What is Digital Asset Management? {#what-is-digital-asset-management}

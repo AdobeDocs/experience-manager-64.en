@@ -14,6 +14,10 @@ exl-id: 3f287fb1-b1bb-4494-ad66-5addcc6ef2a8
 ---
 # Encryption Service Java API Quick Start (SOAP) {#encryption-service-java-api-quickstart-soap}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 [Quick Start (SOAP mode): Encrypting a PDF document using the Java API](encryption-service-java-api-quick.md#quick-start-soap-mode-encrypting-a-pdf-document-using-the-java-api)
 
 [Quick Start (SOAP mode): Removing password-based encryption using the Java API](encryption-service-java-api-quick.md#quick-start-soap-mode-removing-password-based-encryption-using-the-java-api)

@@ -14,6 +14,10 @@ exl-id: 357d5f23-3e75-44e3-905f-4efe960858bf
 ---
 # Version Purging{#version-purging}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In a standard installation AEM creates a new version of a page or node when you activate a page after updating the content.
 
 >[!NOTE]

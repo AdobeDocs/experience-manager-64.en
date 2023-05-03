@@ -13,6 +13,10 @@ exl-id: 5057b3d6-bf0c-4bb2-9085-f9add3f1c716
 ---
 # Obtaining Page Information in JSON Format{#obtaining-page-information-in-json-format}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To obtain the page information, send a request to the PageInfo servlet to obtain the page metadata in JSON format.
 
 The PageInfo servlet returns information about resources in the respository. The servlet is bound to the URL `https://<server>:<port>/libs/wcm/core/content/pageinfo.json` and uses the `path` parameter to identify the resource. The following example URL returns information about the `/content/we-retail/us/en` node:

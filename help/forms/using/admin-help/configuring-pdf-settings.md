@@ -14,6 +14,10 @@ exl-id: f6bca66b-265a-413c-b2c7-299d97e2ce18
 ---
 # Configuring Adobe PDF settings{#configuring-adobe-pdf-settings}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Adobe PDF Settings page shows the conversion settings that you can specify for your sources to use. You can use any of the predefined PDF settings or create your own. The PDF settings determine precisely how files are converted and their resultant PDF structure and features. Adobe PDF settings were previously known as Distiller® parameters or job options.
 
 On the Adobe PDF Settings page, you can do the following tasks:

@@ -12,6 +12,10 @@ exl-id: 84a46197-9933-4b94-a8e3-e7baf9c644b1
 ---
 # Embed adaptive form in external web page{#embed-adaptive-form-in-external-web-page}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn how to embed an adaptive form in an external web page
 
 You can [Embed adaptive form in AEM Sites](/help/forms/using/embed-adaptive-form-aem-sites.md) page or a web page hosted outside AEM. The embedded adaptive form is fully functional and users can fill and submit the form without leaving the page. It helps the user remain in the context of other elements on the web page and simultaneously interact with the form.
@@ -136,11 +140,19 @@ ProxyPass /content https://<AEM_Instance>/content
 ProxyPass /etc https://<AEM_Instance>/etc
 ProxyPass /etc.clientlibs https://<AEM_Instance>/etc.clientlibs
 # CSRF Filter
+
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 ProxyPass /libs/granite/csrf/token.json https://<AEM_Instance>/libs/granite/csrf/token.json
   
 ProxyPassReverse /etc https://<AEM_Instance>/etc
 ProxyPassReverse /etc.clientlibs https://<AEM_Instance>/etc.clientlibs
 # written for thank you page and other URL present in AF during redirect
+
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 ProxyPassReverse /content https://<AEM_Instance>/content
 ```
 

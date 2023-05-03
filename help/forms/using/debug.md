@@ -14,6 +14,10 @@ exl-id: 8c75d395-1816-4b5a-869c-ec61069a54f6
 ---
 # Debugging HTML5 forms {#debugging-html-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This document includes several troubleshooting scenarios. For each scenario, some steps are provided to troubleshoot the problem. Follow these steps and, if the problem persists, configure the Logger to get and review logs for errors/warnings. For more details about HTML5 forms logging, see [Generating Logs for HTML5 forms](/help/forms/using/enable-logs.md).
 
 ## Problem: When rendering the form, I see org.apache.sling.api.SlingException exception page {#problem-when-rendering-the-form-i-see-org-apache-sling-api-slingexception-exception-page}

@@ -13,6 +13,10 @@ exl-id: 30bde8d6-7959-4e4b-a6f4-faf52444e67a
 ---
 # AEM Forms Workspace Architecture {#aem-forms-workspace-architecture}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Forms workspace is a web application hosted on CRX™. When workspace is opened in a browser, a CRX resource is accessed, and the application is rendered as HTML page in the browser.
 
 The application accesses AEM Forms server on REST endpoints to do the following:

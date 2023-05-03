@@ -13,6 +13,10 @@ exl-id: b2814b0d-e843-4aba-8c74-a3be0a96f726
 ---
 # Fine-tuning Health Monitor performance{#fine-tuning-health-monitor-performance}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Collecting the system statistics that populate Health Monitor has some impact on the performance of your AEM forms environment. This impact can be controlled by setting the Java options listed below in your application server.
 
 <table> 

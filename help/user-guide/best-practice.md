@@ -9,6 +9,10 @@ exl-id: ba222869-1268-481d-b342-27ea12b15999
 ---
 # AEM 6.4 Best Practices {#aem-64-best-practices}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Where can I learn more about training or education for AEM? {#training}
 
 Adobe has a number of key resources to help you get the best from AEM.

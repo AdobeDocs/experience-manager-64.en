@@ -13,6 +13,10 @@ exl-id: 8582bbca-c11a-4880-88ba-da22e0301dba
 ---
 # Request Analysis Script{#request-analysis-script}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Download {#download}
 
 This script is made to ease the analysis of the `access.log` files producing a readable report for later processing.

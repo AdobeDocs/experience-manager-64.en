@@ -7,6 +7,10 @@ exl-id: 74ffdd0a-681c-498e-a4a4-5ab88fd4f58f
 ---
 # AEM 6.4 Administering User Guide
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This guide covers all AEM Administering tasks.
 
 ## Key articles

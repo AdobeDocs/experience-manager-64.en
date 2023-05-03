@@ -12,6 +12,10 @@ exl-id: c69b5ae6-c5c5-46df-8290-3e41470cd09e
 ---
 # Introduction to HTML5 forms {#introduction-to-html-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 HTML5 forms is a new capability in Adobe Experience Manager 6.0 (AEM 6.0) software that offers rendering of XFA form templates in HTML5 format. This capability enables the rendering of forms on mobile devices and desktop browsers on which XFA-based PDF is not supported. HTML5 forms not only supports the existing capabilities of XFA form templates but also adds new capabilities, such as scribble signature, for mobile devices.
 
 HTML5 forms generates documents based on standard HTML5 constructs. You can view HTML5 forms in all modern browsers that support HTML5. It does not require installing any additional browser plug-ins for the browsers. For more information about supported browsers, see [Supported client platforms](https://adobe.com/go/learn_aemforms_supportedplatforms_63).

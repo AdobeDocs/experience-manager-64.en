@@ -13,6 +13,10 @@ exl-id: f8c6f4e3-4c2d-4843-8f29-6d3297e57c89
 ---
 # Managing local credentials {#managing-local-credentials}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Local credentials are private key credentials hosted in Trust Store Management. A *local credential* identifies where a user’s DES credential is stored. Using Trust Store Management, you can import and manage your local credentials by using, for example, existing PFX files so that you can import, edit, and delete local credentials.
 
 AEM forms supports RSA and DSA credentials up to 4096 bits in standard PKCS12 format (.pfx and .p12 files).

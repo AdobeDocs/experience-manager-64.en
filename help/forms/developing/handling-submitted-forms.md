@@ -15,6 +15,10 @@ exl-id: 9d32c815-b66e-459e-bf36-c0d2e1ed707a
 ---
 # Handling Submitted Forms {#handling-submitted-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Web-based applications that enable a user to fill in interactive forms require the data to be submitted back to the server. Using the Forms service, you can retrieve the data that the user entered into an interactive form. After you retrieve the data, you can process the data to meet your business requirements. For example, you can store the data in a database, send the data to another application, send the data to another service, merge the data in a form design, display the data in a web browser, and so on.
 
 Form data is submitted to the Forms service as either XML or PDF data, which is an option that is set in Designer. A form that is submitted as XML enables you to extract individual field data values. That is, you can extract the value of each form field that the user entered into the form. A form that is submitted as PDF data is binary data, not XML data. You can save the form as a PDF file, or send the form to another service. If you want to extract data from a form submitted as XML and then use the form data to create a PDF document, invoke another AEM Forms operation. (See [Creating PDF Documents with Submitted XML Data](/help/forms/developing/creating-pdf-documents-submitted-xml.md))

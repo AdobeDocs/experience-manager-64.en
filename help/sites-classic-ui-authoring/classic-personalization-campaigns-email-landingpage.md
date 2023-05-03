@@ -13,6 +13,10 @@ exl-id: 1ab81235-2627-4304-bbf2-71598de948db
 ---
 # Creating an Effective Newsletter Landing Page{#creating-an-effective-newsletter-landing-page}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 An effective newsletter landing page helps you get as many people as possible to sign up for your newsletter (or other email marketing campaign). You can use the information you gather from your newsletter sign ups to get leads.
 
 To create an effective newsletter landing page, you need to do the following:

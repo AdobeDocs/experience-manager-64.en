@@ -13,6 +13,10 @@ exl-id: 71dfaea7-2fae-4feb-bb1d-ad0da573f910
 ---
 # Closed User Groups in AEM{#closed-user-groups-in-aem}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 Since AEM 6.3, there is a new Closed User Group implementation intended to address the performance, scalability and security issues present with the existing implementation.

@@ -13,6 +13,10 @@ exl-id: ec5253cd-7f1e-4408-9765-8aaa9a81095c
 ---
 # Creating and Consuming Jobs for Offloading{#creating-and-consuming-jobs-for-offloading}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Apache Sling Discovery feature provides a Java API that enables you to create JobManager jobs and JobConsumer services that consume them.
 
 For information about creating offloading topologies and configuring topic consumption, see [Offloading Jobs](/help/sites-deploying/offloading.md).

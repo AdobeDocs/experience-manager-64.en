@@ -7,6 +7,10 @@ exl-id: 4711564b-adcc-4835-8215-138b209d1578
 ---
 # AEM 6.4 Communities User Guide
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This guide covers all AEM Communities tasks, such as creating online experiences such as forums, user groups, learning resources, and other social features.
 
 ## Key AEM articles

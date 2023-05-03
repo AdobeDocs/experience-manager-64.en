@@ -13,6 +13,10 @@ exl-id: c27eb771-d390-4534-8e67-f1277550e760
 ---
 # Screen readers for HTML5 forms {#screen-readers-for-html-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 HTML5 forms components render XFA form template to a HTML5 format. All standard browsers supporting HTML5 can render these forms. To support similar data capture experience across PDF and HTML5 forms, the layout of PDF forms is retained in HTML5 forms.
 
 HTML5 forms use standard HTML constructs allowing regular accessibility tools for HTML to be used with these forms. If a form is designed according to the best practices for accessible forms, it works with any supported screen reader. Additionally, such forms are enabled for keyboard navigation.

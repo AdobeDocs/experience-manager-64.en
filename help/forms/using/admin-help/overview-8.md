@@ -13,6 +13,10 @@ exl-id: 00ca8bdf-77be-4f4c-a3d3-d61d13eeba7e
 ---
 # Overview of output service {#overview-of-output-service}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Output lets you merge XML form data with a form design created in Designer to create a document output stream in various formats. The output stream can be sent to a network printer, a local printer, or a disk file
 
 You can use the Output page in administration console to administer the Output service. The settings you configure are used at run time when the equivalent settings were not specified through the AEM forms API. Configuration done through the AEM forms SDK overrides the settings configured using administration console.

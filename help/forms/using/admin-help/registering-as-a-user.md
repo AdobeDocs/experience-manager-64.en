@@ -13,6 +13,10 @@ exl-id: 24641bf5-7c1c-4c92-8c11-2134039085f7
 ---
 # Registering as a User {#registering-as-a-user}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can use policy-protected documents that you receive from an document security user, even if you are external to the user’s organization. To use a policy-protected document, you must register with document security. If you were not previously invited to register, document security initiates the registration process when these events occur:
 
 * A document security user who wants to send you a policy-protected document adds you to a policy.

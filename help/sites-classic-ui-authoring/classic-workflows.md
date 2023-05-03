@@ -13,6 +13,10 @@ exl-id: 843cf933-d8a1-407d-9468-1a6409110f81
 ---
 # Working with Workflows{#working-with-workflows}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Workflows allows you to automate a series of steps that are performed on a page or asset. For example, when publishing, an editor has to review the content - before a site administrator activates the page. A workflow that automates this example notifies each participant when it is time to perform their required work:
 
 1. The author applies the workflow to the page.

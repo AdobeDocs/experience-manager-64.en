@@ -13,6 +13,10 @@ exl-id: 1353b302-7b8e-4c74-b3d2-8b0a3d4a0612
 ---
 # Publishing an Email to Email Service Providers{#publishing-an-email-to-email-service-providers}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can publish newsletters to e-mail services such as ExactTarget and Silverpop Engage. This document describes how to configure AEM to publish a newsletter to these e-mail services.
 
 >[!NOTE]

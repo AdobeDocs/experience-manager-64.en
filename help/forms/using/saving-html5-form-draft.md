@@ -13,6 +13,10 @@ exl-id: 8e4ffda9-ea92-4abc-8746-5d1852e4599b
 ---
 # Saving an HTML5 form as a draft {#saving-an-html-form-as-a-draft}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can save an HTML5 form as a draft and resume filling the form at a later stage. Forms Portal allows any user to save and restore an HTML5 form. To enable the Save as Draft functionality, add the following configurations to the profile node:
 
 ## Custom Profile to allow Save as Draft feature {#custom-profile-to-allow-save-as-draft-feature}

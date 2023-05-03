@@ -13,6 +13,10 @@ exl-id: d56c852b-655f-493f-b396-e98491a35419
 ---
 # Related Community Articles{#related-community-articles}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The AEM Community has generated a series of articles related to Marketing Cloud Integrations with AEM.
 
 Here is a listing of the available content:

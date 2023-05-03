@@ -13,6 +13,10 @@ exl-id: 1537490b-71b3-4ab3-b8d1-d85eac88d857
 ---
 # Introduction to Interactive Communication authoring UI {#introduction-to-interactive-communication-authoring-ui}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 An introduction to the various user interface elements you can use to author Interactive Communication
 
 The user interface for authoring [Interactive Communication](/help/forms/using/interactive-communications-overview.md) is intuitive and provides the following for authoring print and web channel of the Interactive Communication:

@@ -14,6 +14,10 @@ exl-id: b83e1059-aada-4b89-b587-288d525ab0c2
 ---
 # Managing invited and local user accounts {#managing-invited-and-local-user-accounts}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use the Invited and Local Users page to manage your invited and local users. This page is displayed only if the following requirements are met:
 
 * You are an administrator who is assigned the document security Manage Invited and Local Users role and the administration console User role. (See [Creating and configuring roles](/help/forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles).)

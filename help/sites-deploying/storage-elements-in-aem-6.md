@@ -14,6 +14,10 @@ exl-id: 3b1100ed-44c6-4c09-aec4-9e6670234567
 ---
 # Storage Elements in AEM 6.4{#storage-elements-in-aem}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In this article, we will cover:
 
 * [Overview of Storage in AEM 6](/help/sites-deploying/storage-elements-in-aem-6.md#overview-of-storage-in-aem)

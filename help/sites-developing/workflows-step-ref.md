@@ -13,6 +13,10 @@ exl-id: dfa39c6c-7a1a-4aa4-a72d-caa5e3ebf4a8
 ---
 # Workflow Step Reference{#workflow-step-reference}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Workflow models consist of a series of steps of various types. According to the type, these steps can be configured and extended with parameters and scripts to provide the functionality and control you require.
 
 >[!NOTE]

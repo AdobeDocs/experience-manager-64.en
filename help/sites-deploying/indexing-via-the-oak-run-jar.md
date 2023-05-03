@@ -12,6 +12,10 @@ exl-id: b85fc608-9653-4491-8557-f66a0a7da5ea
 ---
 # Indexing via the Oak-run Jar{#indexing-via-the-oak-run-jar}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Oak-run supports all indexing use cases on the command line without having to operate from the JMX level. Advantages of the oak-run approach are:
 
 1. It is a new indexing toolset for AEM 6.4

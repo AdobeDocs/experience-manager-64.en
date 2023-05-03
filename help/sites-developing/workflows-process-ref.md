@@ -13,6 +13,10 @@ exl-id: c828302c-54ad-4171-89d1-f77f4d836277
 ---
 # Workflow Process Reference{#workflow-process-reference}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM provides several process steps that can be used for creating workflow models. Custom process steps can also be added for tasks not covered by the built-in steps (see [Creating Workflow Models](/help/sites-developing/workflows-models.md)).
 
 ## Process Characteristics {#process-characteristics}

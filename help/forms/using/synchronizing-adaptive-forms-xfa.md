@@ -12,6 +12,10 @@ exl-id: 014c735e-84f8-4cdb-979e-bfab24b3f666
 ---
 # Synchronizing Adaptive Forms with XFA Form Templates {#synchronizing-adaptive-forms-with-xfa-form-templates}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 You can create an adaptive form based on an XFA form template ( `*.XDP` file). This reuse allows you to preserve your investment in existing XFA forms. For information on how to use an XFA form template for creating an adaptive form, [Create an Adaptive Form based on a template](/help/forms/using/creating-adaptive-form.md#p-create-an-adaptive-form-based-on-an-xfa-form-template-p).

@@ -13,6 +13,10 @@ exl-id: 6509c0ce-fc3a-4248-8dc7-db10602c30d6
 ---
 # Seeing Page Analytics Data{#seeing-page-analytics-data}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use page analytics data to gauge the effectiveness of the page content.
 
 ## Analytics visible from the Console {#analytics-visible-from-the-console}

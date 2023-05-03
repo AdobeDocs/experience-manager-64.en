@@ -12,6 +12,10 @@ exl-id: 24ece56a-fc59-410f-b38a-46637c4dc45e
 ---
 # New render and submit service {#new-render-and-submit-service}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 In Workbench, when you define an `AssignTask` operation, specify a particular form (XDP or PDF form). Also, specify a set of Render and Submit services, via action profile.

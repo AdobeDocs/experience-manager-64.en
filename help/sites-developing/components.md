@@ -13,6 +13,10 @@ exl-id: 3444d7df-fc43-4383-87b0-0f00fef116bc
 ---
 # Components Overview{#components-overview}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This page provides an overview of Adobe Experience Manager (AEM) components such as those [used for page authoring](/help/sites-authoring/default-components-foundation.md).
 
 ## What are Components? {#what-exactly-is-a-component}

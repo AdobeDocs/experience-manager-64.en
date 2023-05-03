@@ -13,6 +13,10 @@ exl-id: 0aefe8c0-662e-4177-a369-feab174fa510
 ---
 # Configuring your Page for Bulk Editing of Page Properties {#configuring-your-page-for-bulk-editing-of-page-properties}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 [Bulk editing of page properties](/help/sites-authoring/editing-page-properties.md#from-the-sites-console-multiple-pages) allows you to edit the properties of multiple pages at once.
 
 Due to the possibility of different values, page properties are not enabled for bulk editing as default. They must be explicitily allowed (enabled). When defining the page properties to be available for bulk editing you need to consider certain implications, such as:

@@ -8,6 +8,10 @@ exl-id: 138cf649-9e21-415e-9861-b07caacc85db
 ---
 # Enabling Duplicate Detection {#enabling-duplicate-detection}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 If you attempt to upload an asset that exists in Adobe Experience Manager Assets, the duplicate detection feature identifies it as duplicate. Duplicate detection is disabled by default. To enable the feature, do the following steps:
 
 1. Open the **[!UICONTROL Adobe Experience Manager Web Console Configuration]** page at `https://[server]:[port]/system/console/configMgr`.

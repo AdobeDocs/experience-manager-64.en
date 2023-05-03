@@ -13,6 +13,10 @@ exl-id: ead4306a-6337-4dae-8839-14fada0ae0e5
 ---
 # JSON Exporter for Content Services{#json-exporter-for-content-services}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Content Services are designed to generalize the description and delivery of content in/from AEM beyond a focus on web pages.
 
 They provide the delivery of content to channels that are not traditional AEM web pages, using standardized methods that can be consumed by any client. These channels can include:

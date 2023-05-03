@@ -14,6 +14,10 @@ exl-id: b8488a39-44dd-4e6c-b3f0-857d67c79385
 ---
 # Digitally Signing and Certifying Documents {#digitally-signing-and-certifying-documents}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 **About the Signature Service**
 
 The Signature service lets your organization protect the security and privacy of Adobe PDF documents that it distributes and receives. This service uses digital signatures and certification to ensure that only intended recipients can alter documents. Because security features are applied to the document itself, the document remains secure and controlled for its entire life cycle. A document remains secure beyond the firewall, when it is downloaded offline, and when it is submitted back to your organization.

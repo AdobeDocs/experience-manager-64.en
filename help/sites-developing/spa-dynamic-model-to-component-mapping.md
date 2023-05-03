@@ -13,6 +13,10 @@ exl-id: 2bbbfbaa-b0a1-4f8a-9445-51325d80e368
 ---
 # Dynamic Model to Component Mapping for SPAs{#dynamic-model-to-component-mapping-for-spas}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This document describes how the dynamic model to component mapping occurs in the Javascript SPA SDK for AEM.
 
 >[!NOTE]

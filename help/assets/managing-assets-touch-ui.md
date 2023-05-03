@@ -9,6 +9,10 @@ exl-id: aa1a702b-18dd-496b-a6e0-aa593af6e57c
 ---
 # Manage your digital assets {#managing-assets-with-the-touch-optimized-ui}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of [!DNL Experience Manager] Assets.
 
 This article describes how to manage and edit assets using the Adobe Experience Manager Assets Touch-optimized user interface. For an elementary knowledge about the user interface, see [Basic handling of Touch UI](/help/sites-authoring/basic-handling.md). To manage Content Fragments, see [Managing Content Fragments](content-fragments-managing.md) assets.

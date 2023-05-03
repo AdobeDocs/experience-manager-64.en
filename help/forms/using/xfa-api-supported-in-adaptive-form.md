@@ -12,6 +12,10 @@ exl-id: 86596819-8108-409e-af14-4634e8a1959d
 ---
 # XFA support in XDP-based adaptive forms {#xfa-support-in-xdp-based-adaptive-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 Adaptive forms provides support for various XFA events, properties, scripts, and validations defined in an XDP file, including:

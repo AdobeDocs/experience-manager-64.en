@@ -14,6 +14,10 @@ exl-id: a0cb6a30-fdd4-4806-a5fa-45c98ad15d11
 ---
 # Operations Dashboard {#operations-dashboard}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 The Operations Dashboard in AEM 6 helps system operators to monitor AEM system health at a glance. It also provides auto-generated diagnosis informations on relevant aspects of AEM and allows to configure and run self-contained maintenance automation to reduce project operations and support cases significantly. The Operations Dashboard can be extended with custom health checks and maintenance tasks. Further, Operations Dashboard data can be accessed from external monitoring tools via JMX.

@@ -14,6 +14,10 @@ exl-id: 614815ef-6fe3-4b06-9c56-bc9fee127825
 ---
 # Administering Generic eCommerce{#administering-generic-ecommerce}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The AEM generic solution provides methods of managing the commerce information held within the repository (as opposed to using an external ecommerce engine). This includes:
 
 * [Products](/help/sites-administering/concepts.md#products)

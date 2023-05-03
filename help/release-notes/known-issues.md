@@ -13,6 +13,10 @@ exl-id: ba65e853-d69a-4341-93c3-5628c60c403b
 ---
 # Known Issues {#known-issues}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This page keeps a list of known issues Adobe Experience Manager 6.4 released on April 2018. For more information about known issues, [contact support](https://helpx.adobe.com/support/experience-manager.html).
 
 ## Hybrid Devices {#hybrid-devices}

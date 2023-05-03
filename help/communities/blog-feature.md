@@ -13,6 +13,10 @@ exl-id: 12ae8b4c-73c5-4ec9-beea-b682b55ebdfd
 ---
 # Blog Feature {#blog-feature}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 The blog feature for AEM Communities has transformed from an authoring activity to a true community activity that takes place in the publish environment.

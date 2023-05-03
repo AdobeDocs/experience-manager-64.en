@@ -12,6 +12,10 @@ exl-id: 42d8472d-0eab-4cf9-a7c3-bf2775ee6bec
 ---
 # Displaying additional data in ToDo list {#displaying-additional-data-in-todo-list}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 By default, the AEM Forms workspace To-do list displays the task display name and description. However, you can add other information such as creation date, deadline date. You can also add icons and change the style of the display.
 
 ![A look at the HTML Workspace To-do tab showing default configuration](assets/html-todo-list.png)

@@ -8,6 +8,10 @@ exl-id: ea6187e8-075d-4666-afc5-01c97deccc11
 ---
 # Cascading Metadata {#cascading-metadata}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This article describes how to define cascading metadata for assets.
 
 >[!CAUTION]

@@ -12,6 +12,10 @@ exl-id: b132216a-c9b4-4f8f-97e6-738a5a9632d1
 ---
 # Viewing and Understanding Transaction Reports {#viewing-and-understanding-transaction-reports}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use transaction reports to make an informed decision about the product usage and rebalancing investments in hardware and software.
 
 Transaction reports allows you to capture and track the number of submitted forms, processed documents, and rendered documents. The objective behind tracking these transactions is to make an informed decision about the product usage and rebalancing investments in hardware and software. For more information, see [AEM Forms Transaction Reports Overview](/help/forms/using/transaction-reports-overview.md).

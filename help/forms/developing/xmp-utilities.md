@@ -14,6 +14,10 @@ exl-id: 00a7989f-0a08-4552-8493-d4d790ed81e9
 ---
 # Working with XMP Utilities {#working-with-xmp-utilities}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 **About the XMP Utilities Service**
 
 PDF documents contain metadata, which is information about the document as distinguished from the contents of the document, such as text and graphics. Adobe Extensible Metadata Platform (XMP) is a standard for handling document metadata.

@@ -14,6 +14,10 @@ exl-id: d580b32c-a344-4a8c-bd61-0949da76d981
 ---
 # Programmatically managing the Preferences Nodes {#programmatically-managing-the-preferencesnodes}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This topic describes how you can use the Preferences Manager Service API (Java) to programmatically manage the Preferences Nodes.
 
 You can manually change configuration settings from Administrator UI. To change the options, navigate to `Home>Settings>User Management> Configuration>Manual Configuration`. Import `config.xml` after making the changes, you would notice that all the changes except changes made at node `/Adobe/Adobe Experience Manager Forms/Config/UM persist` are lost. The preview of User Management Import and export does not support changing configuration settings for other components. Now, these changes can be made using `PreferencesManagerServiceClient` APIs.

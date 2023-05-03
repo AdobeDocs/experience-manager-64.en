@@ -14,6 +14,10 @@ exl-id: 2d0154b3-4cd7-439a-869d-cb116f60b69d
 ---
 # Members & Groups Management Consoles {#members-groups-management-consoles}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 AEM Communities features often require site visitors to be registered and signed-in before participating in a community in the publish environment. Their user registration need only exist in the publish environment and they are commonly referred to as *members* to distinguish them from *users* registered in the author environment.

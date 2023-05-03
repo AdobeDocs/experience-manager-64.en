@@ -15,6 +15,10 @@ exl-id: be09271b-3004-4866-b43b-fb03c91305ec
 ---
 # Programmatically Assembling PDF Documents {#programmatically-assembling-pdf-documents}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can use the Assembler Service API to assemble multiple PDF documents into a single PDF document. The following illustration shows three PDF documents being merged into a single PDF document. 
 
 ![pa_pa_document_assembly](assets/pa_pa_document_assembly.png)

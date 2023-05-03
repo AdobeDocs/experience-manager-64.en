@@ -13,6 +13,10 @@ exl-id: bd5a247f-cd4b-41c8-b5f6-8def4f5c93ef
 ---
 # Starting processes {#starting-processes}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Forms workspace organizes processes by the categories that the administrator or process designer sets up. You can also place processes that you use frequently into your Favorites category so that you can find them quickly.
 
 When you start a process, you may need to fill a form to start a business process that AEM Forms workflow controls. If a form uses Prepare Data Process, some information can be pre-populated in a blank form, when a new process is initiated.

@@ -12,6 +12,10 @@ exl-id: 39408af6-439c-4ade-8062-155be9141dfa
 ---
 # Use form data model {#use-form-data-model}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
  ![](do-not-localize/data-integeration.png)
 
 AEM Forms data integration lets you use disparate backend data sources to create a form data model that you can use as schema in various adaptive forms and interactive communications workflows. It requires configuring data sources and creating form data model based on data model objects and services available in data sources. For more information, see the following:

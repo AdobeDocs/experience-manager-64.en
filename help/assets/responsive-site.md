@@ -12,6 +12,10 @@ role: User
 ---
 # Delivering optimized images for a responsive site {#delivering-optimized-images-for-a-responsive-site}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use the Responsive code feature when you want to share the code for responsive serving with your web developer. You copy the responsive (**[!UICONTROL RESS]**) code to the clipboard so you can share it with the web developer.
 
 This feature makes sense to use if your website is on a third-party WCM. However, if your website is on AEM instead, an offsite image server renders the image and supplies it to the web page.

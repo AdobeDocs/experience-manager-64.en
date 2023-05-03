@@ -12,6 +12,10 @@ exl-id: 21f5fb7e-53b3-485d-9b6a-813182f14781
 ---
 # Pre-defined reports in Process Reporting {#pre-defined-reports-in-process-reporting}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Forms Process Reporting ships with the following *out-of-the-box* reports:
 
 * **[Long Running Processes](/help/forms/using/process-reporting/pre-defined-reports-in-process-reporting.md#p-long-running-processes-p)**: A report of all AEM Forms processes that took more than a specified time to complete  

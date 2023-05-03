@@ -13,6 +13,10 @@ exl-id: 95ac1f22-3d6a-4381-972a-a5d4c4ff29b7
 ---
 # Catalog Feature {#catalog-feature}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The [ `Enablement Assignments`](assignments.md) and `Enablement Catalog` components found in the Communities group in the components browser are components of an [enablement community](overview.md#enablement-community).
 
 The `Enablement Catalog` component allows community members to access a catalog of [enablement resources](resources.md). The use of AEM tags is an important part of managing the listing of enablement resources in a catalog (see [Tagging Enablement Resources](tag-resources.md)).

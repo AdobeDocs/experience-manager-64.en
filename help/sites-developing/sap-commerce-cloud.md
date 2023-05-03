@@ -13,6 +13,10 @@ exl-id: fa5b9b61-7dba-42e0-8fbd-4a96617569d8
 ---
 # Developing with SAP Commerce Cloud{#developing-with-sap-commerce-cloud}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >The eCommerce framework can be used with any eCommerce solution. Certain specifics and examples dealt with here will refer to the [hybris](https://www.hybris.com/) solution.

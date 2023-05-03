@@ -13,6 +13,10 @@ exl-id: 27e92acb-16bd-4519-a7fc-ea1655c56be8
 ---
 # Initial Setup {#initial-setup}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Start Author and Publish Instances {#start-author-and-publish-instances}
 
 For development and demonstration purposes, it will be necessary to run one author and one publish instance.

@@ -13,6 +13,10 @@ exl-id: 6b8b19ae-eb3b-46d5-ab44-18c43d11aa61
 ---
 # Assignments Feature {#assignments-feature}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Enablement Assignments and [Enablement Catalog](catalog.md) components found in the Communities group in the components browser are components of an [enablement community](overview.md#enablement-community).
 
 The Enablement Assignments component allows the currently signed-in community member (learner) to access their assigned [enablement resources](resources.md).

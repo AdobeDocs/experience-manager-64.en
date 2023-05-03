@@ -13,6 +13,10 @@ exl-id: 4cd44f33-1bf9-4ec6-868f-0db60bfc56c0
 ---
 # SharePoint Connector Licenses, Copyright Notices, and Disclaimers{#sharepoint-connector-licenses-copyright-notices-and-disclaimers}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This section lists all licenses, copyright notices and disclaimers which must be explicitly stated in connection with Day JCR Connector for MS SharePoint.
 
 ## Overview of Connector 3rd Party Libraries {#overview-of-connector-rd-party-libraries}

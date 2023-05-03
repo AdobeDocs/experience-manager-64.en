@@ -9,6 +9,10 @@ exl-id: d2b8503e-8ac1-4617-ad76-b05d1e80a6b6
 ---
 # Cloud Service Configurations{#cloud-service-configurations}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Configurations are designed to provide the logic and structure for storing service configurations.
 
 You can extend the existing instances to create your own configurations.

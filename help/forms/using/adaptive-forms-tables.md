@@ -12,6 +12,10 @@ exl-id: 3269aab9-ac39-4adc-9a6b-9fe9f4276b29
 ---
 # Tables in adaptive forms {#tables-in-adaptive-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Using tables is an effective, simplified, and organized way of presenting complex data. It helps users in identifying information easily and providing inputs in an ordered arrangement of rows and columns. Most forms from financial services and government organizations require large data tables to put numbers and perform calculations.
 
 AEM Forms provides a Table component in the components browser in sidebar that lets you create tables in adaptive forms. Some of the key capabilities it provides are:

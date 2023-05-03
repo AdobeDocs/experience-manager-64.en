@@ -8,6 +8,10 @@ exl-id: d6b04891-12d3-4255-a156-2e9000474fd1
 ---
 # Add image maps {#adding-image-maps}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn how to add hyperlinked image maps to image assets.
 
 Image Maps let you add one or more hyperlinked areas that function like other hyperlinks.

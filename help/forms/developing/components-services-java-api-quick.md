@@ -14,6 +14,10 @@ exl-id: 85c77bd4-e424-491f-8db2-73240732a6e4
 ---
 # Components and Services Java API Quick Start (SOAP) {#components-and-services-java-apiquick-start-soap}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Java API Quick Start(SOAP) is available for components and services.
 
 [Quick Start (SOAP mode): Deploying a component using the Java API](components-services-java-api-quick.md#quick-start-soap-mode-deploying-a-component-using-the-java-api)

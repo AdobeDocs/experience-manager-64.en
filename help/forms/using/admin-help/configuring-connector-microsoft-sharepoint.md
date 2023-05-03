@@ -13,6 +13,10 @@ exl-id: 9bd396a3-5da9-4355-ad76-e7132ac8aed8
 ---
 # Configuring Connector for Microsoft SharePoint {#configuring-connector-for-microsoft-sharepoint}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Connector for Microsoft SharePoint enables communication between AEM forms and Microsoft SharePoint. For additional background information, see "Connectors for ECM" in [Services Reference](https://www.adobe.com/go/learn_aemforms_services_63).
 
 1. In administration console, click Services &gt; Connector for Microsoft SharePoint.

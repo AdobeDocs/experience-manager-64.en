@@ -8,6 +8,10 @@ exl-id: f41ab750-5780-42ae-a131-5bc748280215
 ---
 # Publish folders to Brand Portal {#publish-folders-to-brand-portal}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 As an Adobe Experience Manager Assets administrator, you can publish assets and folders to the [!DNL Experience Manager Assets Brand Portal] instance (or schedule the publish workflow to a later date/time) for your organization. However, you must first integrate [!DNL Experience Manager Assets] with [!DNL Brand Portal]. For details, see [Configure [!DNL Experience Manager Assets] with Brand Portal](configure-aem-assets-with-brand-portal.md).
 
 After you publish an asset or folder, it is available to users in Brand Portal.

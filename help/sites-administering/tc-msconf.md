@@ -14,6 +14,10 @@ exl-id: 6387fd5d-d8de-4ea8-b1e6-3274b53d4f41
 ---
 # Connecting to Microsoft Translator{#connecting-to-microsoft-translator}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Create a configuration for the Microsoft Translator cloud service to use your Microsoft Translation account for translating AEM page content, community content, or assets.
 
 | Property |Description |

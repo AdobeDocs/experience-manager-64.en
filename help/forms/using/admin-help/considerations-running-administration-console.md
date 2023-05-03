@@ -13,6 +13,10 @@ exl-id: 991418fd-5ff8-491e-834e-2324e029e499
 ---
 # Considerations when running Administration Console {#considerations-when-running-administrationconsole}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 These are some things to consider when running Administration Console:
 
 * If you access administration console using the URL `https://*[hostname]*:*[port]*/adminui`, the specified host name cannot contain underscore characters. Otherwise, links to some areas of the administration console may not work properly.

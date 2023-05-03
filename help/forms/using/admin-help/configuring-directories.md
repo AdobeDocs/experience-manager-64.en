@@ -13,6 +13,10 @@ exl-id: fe69a3ca-0452-4e06-bd74-45d80659574e
 ---
 # Configuring directories {#configuring-directories}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 For each enterprise domain you configure, specify the directories that the authentication provider queries for user information. You can configure multiple directories for a domain.
 
 ## Adding directories or custom SPIs {#adding-directories-or-custom-spis}

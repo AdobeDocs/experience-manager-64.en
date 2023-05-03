@@ -7,6 +7,10 @@ exl-id: f8629c30-1901-4b6e-b5a6-e46ee3c72fba
 ---
 # Configure AEM Assets integration with Experience Cloud {#configure-aem-assets-integration-with-experience-cloud-and-creative-cloud}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 If you are an Adobe Experience Cloud customer, you can synchronize your assets within Adobe Experience Manager Assets with Adobe Creative Cloud, and vice versa. You can also synchronize your assets with Experience Cloud and vice versa. You can set up this synchronization through [!DNL Adobe I/O]. The updated name of [!DNL Adobe Marketing Cloud] is [!DNL Adobe Experience Cloud].
 
 The workflow to set up this integration is:

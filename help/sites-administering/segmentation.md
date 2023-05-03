@@ -13,6 +13,10 @@ exl-id: 83e73a5d-c6fa-426a-8476-78769ae7a8c1
 ---
 # Configuring Segmentation with ContextHub{#configuring-segmentation-with-contexthub}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >This section describes configuring segmentation when using the ContextHub. If you are using the Client Context functionality, please see the relevant documentation for [configuring segmentation for Client Context](/help/sites-administering/campaign-segmentation.md).

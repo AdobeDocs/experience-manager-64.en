@@ -13,6 +13,10 @@ exl-id: 19ec5c00-eae5-4e7f-9dc5-c7a88b06fd2a
 ---
 # AEM Sites Release Notes {#aem-sites-release-notes}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Sites {#sites}
 
 See the following for AEM Sites 6.4 enhancements in detail:

@@ -14,6 +14,10 @@ exl-id: 8a756328-0405-49b7-b94d-3dd5a87c782a
 ---
 # Communities Subscriptions {#communities-subscriptions}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 As of Communities [FP1](deploy-communities.md#latestfeaturepack), community members may interact with the community through email using a feature referrred to as subscriptions.

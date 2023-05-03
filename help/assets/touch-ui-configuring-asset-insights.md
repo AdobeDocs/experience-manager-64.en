@@ -8,6 +8,10 @@ exl-id: b0d62dd3-1868-4d73-95f7-3d6c3ff474d9
 ---
 # Configuring Assets Insights {#configuring-asset-insights}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager Assets fetches usage data around [!DNL Experience Manager] assets used by third-party websites from Adobe Analytics. To enable Assets Insights to retrieve this data and generate insights, first configure the feature to integrate with Adobe Analytics.
 
 >[!NOTE]

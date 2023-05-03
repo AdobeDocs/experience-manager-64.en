@@ -13,6 +13,10 @@ exl-id: ddd2bd98-b375-4d1e-b9d1-5efc3dbca398
 ---
 # Reviews Essentials {#reviews-essentials}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This feature consists of two components that work together: reviews and review summary.
 
 Reviews is a composite component based on a [comment system](essentials-comments.md) which contains one or more [rating](rating-basics.md) (tally) components.

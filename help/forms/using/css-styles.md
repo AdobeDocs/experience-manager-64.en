@@ -14,6 +14,10 @@ exl-id: 9e381e71-63ff-41ab-a6ec-9f92447b65a0
 ---
 # Creating CSS styles for HTML5 forms {#creating-css-styles-for-html-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 HTML5 rendition of a XFA-based form template consists of several HTML elements. These elements are arranged in an order. Every element has well-defined CSS classes. You can use these CSS class to select and change the appearance of an element.
 
 >[!NOTE]

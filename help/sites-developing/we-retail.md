@@ -13,6 +13,10 @@ exl-id: 66c19394-9d2f-4bdd-9c17-f0ec8090f0b4
 ---
 # We.Retail Reference Implementation{#we-retail-reference-implementation}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 We.Retail is a reference implementation and sample content that illustrates the recommended way of setting up an online presence with Adobe Experience Manager.

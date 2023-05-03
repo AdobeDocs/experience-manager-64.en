@@ -13,6 +13,10 @@ exl-id: 00b3efc5-ef1c-4b9d-957d-2eda01c0b985
 ---
 # Add custom action to the Asset Listing view {#add-custom-action-to-the-asset-listing-view}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 The Correspondence Management solution allows you add custom actions to the Manage Assets user interface.

@@ -8,6 +8,7 @@ breadcrumb-title: Authoring Guide
 user-guide-description: Learn key concepts for creating content and authoring in AEM.
 feature: Authoring
 role: User
+hide: yes
 ---
 
 # AEM 6.4 Authoring User Guide {#authoring}

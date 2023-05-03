@@ -8,6 +8,10 @@ exl-id: ff739a17-188e-4779-8820-9e4d9b7031d0
 ---
 # Assets file format best practices {#assets-file-format-best-practices}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 [!DNL Experience Manager Assets] supports many proprietary and third-party file format libraries to cater to diverse file support requirements of users. The supported Adobe libraries include, Adobe Camera Raw, Gibson, Adobe PDF Rasterizer, and Adobe InDesign Server. In addition, [!DNL Assets] supports third-party libraries, including ImageMagick, TwelveMonkeys, and so on.
 
 For the supported file formats, see [Assets supported formats](assets-formats.md).

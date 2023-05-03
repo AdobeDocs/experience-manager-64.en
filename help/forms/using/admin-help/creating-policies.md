@@ -14,6 +14,10 @@ exl-id: a4e69794-ea83-4cb6-a3da-cef0ceb6892a
 ---
 # Creating and managing policies {#creating-and-managing-policies}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 A *policy* defines a set of confidentiality settings and users who can access a document to which the policy is applied. A *policy set* is used to group a set of policies that have a common business purpose. These policy sets are then made available to a subset of users in the system. For details about policies, see [Policies and policy-protected documents](/help/forms/using/admin-help/document-security.md#policies-and-policy-protected-documents).
 
 ## Types of policies {#types-of-policies}

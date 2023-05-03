@@ -12,6 +12,10 @@ exl-id: 3997b034-fa24-4366-b22f-0abf2b6d1e64
 ---
 # Using Assembler Service {#using-assembler-service}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Assembler service lets you combine, rearrange, and augment PDF and XDP documents and obtain information about PDF documents. Each job submitted to the Assembler service includes a Document Description XML (DDX) document, source documents, and external resources (strings and graphics). For more information about assembler service, see [Overview of Assembler Service](/help/forms/using/overview-aem-document-services.md#p-assembler-service-p).
 
 You can use the assemble service for the following operations:

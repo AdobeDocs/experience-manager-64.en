@@ -14,6 +14,10 @@ exl-id: fb613a57-d064-45eb-be15-c4f7e06bb0ee
 ---
 # Client Context in Detail{#client-context-in-detail}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >Client Context has been superseded by ContextHub in the touch UI. Please see the [related documentation](/help/sites-developing/contexthub.md) for details.

@@ -12,6 +12,10 @@ exl-id: e97ecb77-96a0-44cf-8da9-1e85cc122011
 ---
 # Record a transaction for custom implementations {#record-a-transaction-for-custom-implementations}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use the TransactionRecorder API to record actions which are not accounted as transactions automatically
 
 You can use a custom code to submit a PDF Form, to send Agent UI preview URL to end users to preview an interactive communication, or to submit a form using custom methods instead of using submit methods provided with AEM Forms. All the previously mentioned actions and custom implementations of AEM Forms APIs are not accounted as transactions. AEM Forms provides an API, [TransactionRecorder](https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/com/adobe/aem/transaction/core/ITransactionRecorder.html), to record such actions as transactions.

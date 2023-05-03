@@ -12,6 +12,10 @@ exl-id: 08686ad6-85cc-4de5-86d8-05d55acec418
 ---
 # Introduction to managing forms {#introduction-to-managing-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Forms provides simplified yet powerful user interface to create and manage forms, documents, themes, letters, document fragments, data dictionaries, and related assets. It helps manage the complete lifecycle of forms, documents, and related assets - from a developer's desktop to offering  
 it on a portal server for end users. You can use the AEM Forms user interface to:
 

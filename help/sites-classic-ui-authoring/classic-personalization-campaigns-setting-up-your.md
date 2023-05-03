@@ -13,6 +13,10 @@ exl-id: 41727155-2a67-44b6-b925-22001891a348
 ---
 # Setting up your campaign{#setting-up-your-campaign}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Setting up a new campaign includes the following (generic) steps:
 
 1. [Create a brand](#creating-a-new-brand) to hold your campaigns.

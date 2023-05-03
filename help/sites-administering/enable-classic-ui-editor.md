@@ -13,6 +13,10 @@ exl-id: 04a9c595-9a73-4a8a-99ae-c2292882338f
 ---
 # Editor{#editor}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 By default, the ability to switch to the classic UI from the editor has been disabled.
 
 ![chlimage_1-9](assets/chlimage_1-9.png)

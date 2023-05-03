@@ -13,6 +13,10 @@ exl-id: 933c3903-2040-41f4-b803-4d672ce9a2dc
 ---
 # Backup strategy for Connector for EMC Documentum users {#backup-strategy-for-connector-for-emc-documentum-users}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 If you have Connector for EMC Documentum installed, in addition to the instructions in this chapter, your backup and recovery strategy must include backing up (or recovering) the computer that the respective ECM system is installed on. (See the ECM Documentum documentation).
 
 Back up your AEM forms environment by using ECM repository and performing the following tasks:

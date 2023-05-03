@@ -15,6 +15,10 @@ exl-id: 767d89bc-d243-46a1-a954-9977f4906566
 ---
 # Assembling PDF Portfolios {#assembling-pdf-portfolios}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can assemble a PDF Portfolio using the Assembler Java and web service API. A portfolio can combine several documents of various types, including word file, image files (for example, a jpeg file), and PDF documents. The layout of the portfolio can be set to different styles like the *Grid with Preview*, the *On an Image* layout or even *Revolve*.
 
 The following illustration is a screenshot of a portfolio with *On an Image* style layout.

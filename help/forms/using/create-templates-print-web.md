@@ -12,6 +12,10 @@ exl-id: 5822145f-d317-4807-a3f0-1d2aea0a779b
 ---
 # Tutorial: Create templates {#tutorial-create-templates}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Create Print and Web templates for Interactive Communication
 
  ![07-apply-rules-to-adaptive-form_small](assets/07-apply-rules-to-adaptive-form_small.png)

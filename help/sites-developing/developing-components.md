@@ -7,6 +7,10 @@ exl-id: d3c1559a-1a7a-46ed-a935-9ad226cdea33
 ---
 # Developing AEM Components{#developing-aem-components}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM components are used to hold, format, and render the content made available on your webpages.
 
 * When [authoring pages](/help/sites-authoring/default-components.md), the components allow the authors to edit and configure the content.

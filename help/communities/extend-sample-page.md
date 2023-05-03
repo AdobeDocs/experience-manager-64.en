@@ -13,6 +13,10 @@ exl-id: 96ef7e58-66c9-4985-973b-0c6fc7c39fd5
 ---
 # Add Comment to Sample Page {#add-comment-to-sample-page}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Now that the components for the custom comment system are in place in the application directory (/apps), it is possible to make use of the extended component. The instance of the comment system in a website to be affected must set its resourceType to be the custom comment system and include all necessary client libraries.
 
 ## Identify Required Clientlibs {#identify-required-clientlibs}

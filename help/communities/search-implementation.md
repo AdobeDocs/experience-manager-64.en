@@ -13,6 +13,10 @@ exl-id: 9092df98-f600-4ed8-93d8-f2e83cd8bb6a
 ---
 # Search Essentials {#search-essentials}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 The search feature is an essential feature of AEM Communities. In addition to the [AEM platform search](../../help/sites-deploying/queries-and-indexing.md) capabilities, AEM Communities provides the [UGC search API](#ugc-search-api) for the purpose of searching user generated content (UGC). UGC has unique properties as it is entered and stored separately from other AEM content and user data.

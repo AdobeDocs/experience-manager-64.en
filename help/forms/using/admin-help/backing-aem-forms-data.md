@@ -13,6 +13,10 @@ exl-id: d86cf58f-6595-4f37-977f-09437a7f89f9
 ---
 # Backing up the AEM forms data {#backing-up-the-aem-forms-data}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This section describes the steps that are required to complete a hot, or online, backup of the AEM forms database, the GDS, and Content Storage Root directories.
 
 After AEM forms is installed and deployed to production areas, the database administrator should perform an initial full, or cold, backup of the database. The database must be shut down for this backup. Then, differential or incremental (or hot) backups of the database should be done regularly.

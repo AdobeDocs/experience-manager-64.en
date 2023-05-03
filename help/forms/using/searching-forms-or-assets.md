@@ -13,6 +13,10 @@ exl-id: c6e5c19a-9d93-470f-916e-7ef06c3de141
 ---
 # Searching for forms and assets {#searching-for-forms-and-assets}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can search for your forms or form assets, using a text string or text string along with wildcards. You can also narrow your search using the criteria available in various categories in the Search panel.
 
 When you select one or more criteria and also specify a text string, the intersection of the text and criteria are returned as search results. The search results are as good as the form and asset metadata provided.

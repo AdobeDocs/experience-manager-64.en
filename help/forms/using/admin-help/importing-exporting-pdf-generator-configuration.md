@@ -14,6 +14,10 @@ exl-id: 57673410-b8f1-494e-b4a0-c6724bab643c
 ---
 # Importing and exporting PDF Generator configuration files {#importing-and-exporting-pdf-generator-configuration-files}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The configuration file contains the PDF Generator conversion information, including the PDF, file type, and security settings.
 
 >[!NOTE]

@@ -12,6 +12,10 @@ exl-id: f767e47c-f5a6-478c-ac56-00d519a627cf
 ---
 # Tutorial: Create form data model {#tutorial-create-form-data-model}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Create form data model for Interactive Communication
 
  ![04-create-form-data-model-main](assets/04-create-form-data-model-main.png)

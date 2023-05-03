@@ -15,6 +15,10 @@ role: Admin,User
 ---
 # Activating hotlink protection in Dynamic Media {#activating-hotlink-protection-in-dynamic-media}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Hotlinking is when a third-party website uses HTML code to display an image from your website. They use your bandwidth every time the picture is requested because the visitor's browser is accessing it directly from your server. Hotlink *protection* is a method to prevent other websites from directly linking to pictures, CSS, or JavaScript on your webpages. This kind of shield helps reduce unnecessary bandwidth usage under your Dynamic Media account.
 
 [Adobe Customer Support](https://experienceleague.adobe.com/?support-solution=Experience+Manager#support) can configure a referrer filter at the CDN level so that Dynamic Media content is only served to websites on your list of permitted websites for the domain.

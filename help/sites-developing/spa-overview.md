@@ -13,6 +13,10 @@ exl-id: 5145b6ab-588a-458f-946f-b730ae319f61
 ---
 # SPA Editor Overview{#spa-editor-overview}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Single page applications (SPAs) can offer compelling experiences for website users. Developers want to be able to build sites using SPA frameworks and authors want to seamlessly edit content within AEM for a site built using such frameworks.
 
 The SPA Editor offers a comprehensive solution for supporting SPAs within AEM. This page gives an overview of how SPA support is structured in AEM, how the SPA Editor works, and how the SPA framework and AEM keep in synch.

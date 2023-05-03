@@ -6,6 +6,10 @@ exl-id: 2d5e9ada-1567-43dc-ab19-6891e20e1d0b
 ---
 # Configure the Rich Text Editor {#configure-the-rich-text-editor}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Rich Text Editor (RTE) provides authors with a wide range of functionality for editing their text content. Icons, selection boxes, toolbar, and menus are provided for a WYSIWYG text-editing experience.
 
 To know how to use RTE features for authoring, see [Use Rich Text Editor for authoring](/help/sites-authoring/rich-text-editor.md). RTE can be configured to enable, disable, and extend the features available in the authoring components. The following workflow illustrates a recommended order of completing the RTE configuration tasks in Experience Manager.

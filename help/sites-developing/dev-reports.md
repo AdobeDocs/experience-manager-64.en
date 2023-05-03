@@ -13,6 +13,10 @@ exl-id: 837c79af-a50f-40bb-b60d-205e1cac3f39
 ---
 # Developing Reports{#developing-reports}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM provides a selection of [standard reports](/help/sites-administering/reporting.md) most of which are based on a reporting framework.
 
 Using the framework you can either extend these standard reports, or develop your own, completely new, report(s). The reporting framework integrates tightly with existing CQ5 concepts and principles so that developers can use their existing knowledge of CQ5 as a springboard for developing reports.

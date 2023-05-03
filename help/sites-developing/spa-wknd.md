@@ -13,6 +13,10 @@ exl-id: 6ec7f037-3582-49ce-9297-6acd01283949
 ---
 # SPA WKND Tutorial{#spa-wknd-tutorial}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Immerse yourself in SPA development with this multi-part tutorial leading you through project setup, component mapping, front-end development tools, and application routing to implement your own SPA.
 
 ## Tutorials {#tutorials}

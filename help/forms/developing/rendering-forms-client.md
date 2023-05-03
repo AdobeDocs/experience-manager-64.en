@@ -15,6 +15,10 @@ exl-id: 641452e6-bf7e-4af4-a4f9-6e5627db9fca
 ---
 # Rendering Forms at the Client {#rendering-forms-at-the-client}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Rendering Forms at the Client {#rendering-forms-at-the-client-inner}
 
 You can optimize the delivery of PDF content and improve the Forms service’s ability to handle network load by using the client-side rendering capability of Acrobat or Adobe Reader. This process is known as rendering a form at the client. To render a form at the client, the client device (typically a web browser) must use Acrobat 7.0 or Adobe Reader 7.0 or later.

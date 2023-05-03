@@ -13,6 +13,10 @@ exl-id: 8c205d1d-d17e-4810-8ef9-a8bdcd9aa1c2
 ---
 # Just-in-time user provisioning {#just-in-time-user-provisioning}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM forms supports just-in-time provisioning of users that don’t yet exist in User Management. With just-in-time provisioning, users are automatically added to User Management after their credentials are successfully authenticated. In addition, relevant roles and groups are assigned dynamically to the new user.
 
 ## Need for just-in-time user provisioning {#need-for-just-in-time-user-provisioning}

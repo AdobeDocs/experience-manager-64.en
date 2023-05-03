@@ -12,6 +12,10 @@ role: User
 ---
 # Smart Imaging {#smart-imaging}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## What is "Smart Imaging"? {#what-is-smart-imaging}
 
 Smart Imaging technology applies Adobe Sensei AI capabilities and works with existing "image presets". It works to enhance image delivery performance by automatically optimizing image format, size, and quality based on client browser capabilities.

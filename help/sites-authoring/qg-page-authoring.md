@@ -13,6 +13,10 @@ exl-id: c63e44e7-cc89-4fa0-8ba4-460d682df601
 ---
 # Quick Guide to Authoring Pages{#quick-guide-to-authoring-pages}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 These procedures are intended as a quick guide (high-level) to the key actions of authoring page content in AEM.
 
 They:

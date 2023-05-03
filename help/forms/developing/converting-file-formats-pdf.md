@@ -14,6 +14,10 @@ exl-id: 79091a75-2669-453f-9560-e58bfffa3487
 ---
 # Converting Between File Formats and PDF {#converting-between-file-formatsand-pdf}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 **About the Generate PDF Service**
 
 The Generate PDF service converts native file formats to PDF. It also converts PDF to other file formats and optimizes the size of PDF documents.

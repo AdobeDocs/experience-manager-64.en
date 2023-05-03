@@ -12,6 +12,10 @@ exl-id: a65b775d-040c-4069-b43a-6815be959b31
 ---
 # Create an Interactive Communication  {#create-an-interactive-communication}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Create an Interactive Communication using the Interactive Communication editor. Use drag-and-drop functionality to build the Interactive Communication, and preview both print and web outputs on different device types.
 
 ## Overview {#overview}

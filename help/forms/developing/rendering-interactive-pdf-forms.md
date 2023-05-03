@@ -15,6 +15,10 @@ exl-id: 0bca3af9-78df-44e6-96ef-62bda24d0025
 ---
 # Rendering Interactive PDF Forms {#rendering-interactive-pdf-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Forms service renders interactive PDF forms to client devices, typically web browsers, to collect information from users. After an interactive form is rendered, a user can enter data into form fields and click a submit button located on the form to send information back to the Forms service. Adobe Reader or Acrobat must be installed on the computer hosting the client web browser in order for an interactive PDF form to be visible.
 
 >[!NOTE]

@@ -13,6 +13,10 @@ exl-id: 2c455a20-a2b9-4a80-8577-f1a1713710d6
 ---
 # Assets Performance Guide{#assets-performance-guide}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Digital asset management is often used in cases where performance matters; however, the typical DAM setup contains a number of hardware and software components that can affect performance. This document provides the following:
 
 * Information for system administrators on determining the optimal hardware sizing for a new Digital Asset Management setup

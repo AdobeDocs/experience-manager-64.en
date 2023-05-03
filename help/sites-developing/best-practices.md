@@ -13,6 +13,10 @@ exl-id: a2a299b5-a15a-47d9-a9d8-83f45917d080
 ---
 # Best Practices{#best-practices}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Best Practices for Developers - Getting Started {#best-practices-for-developers-getting-started}
 
 Adobe Engineering and Consulting teams have developed a comprehensive set of best practices for AEM developers. Adobe developer's adhere to these best practices as they develop core AEM product updates and customer code for customer implementations.

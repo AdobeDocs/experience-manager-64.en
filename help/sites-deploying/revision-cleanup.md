@@ -14,6 +14,10 @@ exl-id: e9cd4705-5067-4a2c-badf-8414950b44bd
 ---
 # Revision Cleanup{#revision-cleanup}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 Each update to the repository creates a new content revision. As a result, with each update the size of the repository grows. To avoid uncontrolled repository growth, old revisions need to be be cleaned up to free disk resources. This maintenance functionality is called Revision Cleanup. It has been available as an offline routine since AEM 6.0.

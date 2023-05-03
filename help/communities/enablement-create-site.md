@@ -13,6 +13,10 @@ exl-id: 5b16c775-3bd0-4a55-ba9e-f326224e8bae
 ---
 # Author a New Community Site for Enablement {#author-a-new-community-site-for-enablement}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Create Community Site {#create-community-site}
 
 [Community Site creation](sites-console.md) employs a wizard which guides you through the steps of creating a community site. It is possible to move forward to the `Next`step or `Back`to the previous step before committing the site in the final step.

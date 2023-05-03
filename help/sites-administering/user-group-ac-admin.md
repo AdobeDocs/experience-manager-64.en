@@ -13,6 +13,10 @@ exl-id: 9c14e57b-019e-45ae-9e96-40424fa609c2
 ---
 # User, Group and Access Rights Administration{#user-group-and-access-rights-administration}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Enabling access to a CRX repository involves several topics:
 
 * [Access Rights](#how-access-rights-are-evaluated) - the concepts of how they are defined and evaluated

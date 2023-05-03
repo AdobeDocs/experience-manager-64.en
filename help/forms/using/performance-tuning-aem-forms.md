@@ -13,6 +13,10 @@ exl-id: bc750571-08a5-414c-aed5-4e839f6695ae
 ---
 # Performance tuning of AEM Forms server {#performance-tuning-of-aem-forms-server}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This article discusses strategies and best practices you can implement to reduce bottlenecks and optimize the performance of your AEM Forms deployment.
 
 ## Cache settings {#cache-settings}

@@ -13,6 +13,10 @@ exl-id: 4d66ab64-a132-4f2a-89ca-3fbd8dc56ce2
 ---
 # Creating a forms portal page {#creating-a-forms-portal-page}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Forms portal components equips Web Developers with components to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM). For a quick overview of forms portal, see [Introduction to publishing forms on a portal](/help/forms/using/introduction-publishing-forms.md).
 
 ## Prerequisites {#prerequisites}

@@ -9,6 +9,10 @@ exl-id: 77111a12-1d9d-4f2d-a2f2-6b2f66709fce
 ---
 # AEM 6.4 Additional Resources {#aem-64-additional-resources}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## AEM 6.4 Release Notes {#aem-64-release-notes}
 
 [Learn about the latest new features in AEM 6.4 in the release notes.](/help/release-notes/home.md)

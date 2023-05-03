@@ -10,6 +10,10 @@ exl-id: 5af73823-2c32-41b3-9ab8-a7ad9fd9532f
 ---
 # Use custom email templates in an Assign Task step {#use-custom-email-templates-in-an-assign-task-step}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Custom email templates for forms workflow email notifications 
 
 You can use the Assign Task step to create and assign tasks to a user or group. When a task is assigned to a user or group, an email notification is sent to the defined user or to each member of the defined group. A typical email notification contains link of the assigned task and information related to the task. The following image displays a sample email notification:

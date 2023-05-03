@@ -13,6 +13,10 @@ exl-id: 5066e2a2-9904-4203-914f-b0d4da2c88e4
 ---
 # Managing Projects{#managing-projects}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Projects lets you organize your project by grouping resources into one entity.
 
 In the **Projects** console, you access and take action on your projects:

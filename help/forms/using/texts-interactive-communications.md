@@ -12,6 +12,10 @@ exl-id: a689aead-7b39-4d66-8922-ae8910c5e9ef
 ---
 # Texts in Interactive Communications {#texts-in-interactive-communications}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Creating and editing text document fragments to be used in Interactive Communications - text is one of the four types of document fragments used to build Interactive Communications. The other three are conditions, lists, and layout fragments.
 
 ## Overview {#overview}

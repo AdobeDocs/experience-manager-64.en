@@ -13,6 +13,10 @@ exl-id: 7f80d46e-4ecd-4c29-abb5-949e2d429841
 ---
 # Configure SAML service provider settings{#configure-saml-service-provider-settings}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Security Assertion Markup Language (SAML) is one of the options that you can select when configuring authorization for an enterprise or hybrid domain. SAML is primarily used to support SSO across multiple domains. When SAML is configured as your authentication provider, users log in and authenticate to AEM forms via a specified third-party identity provider (IDP).
 
 For an explanation of SAML, see [Security Assertion Markup Language (SAML) V2.0 Technical Overview](https://www.oasis-open.org/committees/download.php/20645/sstc-saml-tech-overview-2%200-draft-10.pdf).

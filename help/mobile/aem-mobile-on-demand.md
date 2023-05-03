@@ -12,6 +12,10 @@ exl-id: 42b4d42e-2818-4d04-9ba8-dd4622fdf4d5
 ---
 # AEM Mobile On-Demand {#aem-mobile-on-demand}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](/help/sites-developing/spa-overview.md).

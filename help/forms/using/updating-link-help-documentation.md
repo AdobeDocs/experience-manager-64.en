@@ -13,6 +13,10 @@ exl-id: 68fe3f97-ded8-4223-b4b9-02704077e37e
 ---
 # Updating the link to the documentation {#updating-the-link-to-the-documentation}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can access the default help content for AEM Forms workspace by selecting **Help &gt; Workspace Help**. It points to the online documentation on Adobe's website. However, you can update it to point to any other URL.
 
 Consider the following use cases where you may want to change the default help URL:

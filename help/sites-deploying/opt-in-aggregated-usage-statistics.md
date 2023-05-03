@@ -13,6 +13,10 @@ exl-id: f3cfa30a-ca15-48db-bacf-1aebbd0ad458
 ---
 # Opting Into Aggregated Usage Statistics Collection{#opting-into-aggregated-usage-statistics-collection}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 You can help improve Adobe Marketing Cloud by sending Adobe statistics about how you interact with AEM. This information does not contain any data about your company's site visitors and will only be used to help Adobe deliver, support and improve your user experience.

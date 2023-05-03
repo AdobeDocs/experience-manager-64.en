@@ -8,6 +8,10 @@ exl-id: e2ab924b-53cb-4011-8c0a-9e8e59dd2f16
 ---
 # Best practices for [!DNL Experience Manager] Assets {#best-practices-for-assets}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager Assets is a crucial part of delivering high-quality digital marketing experiences that contribute to the achievement of business goals through increasing your content velocity. If you work with a large number of assets within [!DNL Assets] or regularly/periodically upload numerous assets, including videos and dynamic media, optimizing your digital asset management experience is critical for system efficiency.
 
 Depending upon how you have positioned [!DNL Assets] for your organization and the features that you use around asset ingestion, rendition generation, and metadata extraction, identifying and adhering to best practices in different areas greatly enhances system stability and performance under load.

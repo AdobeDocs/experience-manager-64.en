@@ -14,6 +14,10 @@ exl-id: 8a3f2eb9-d686-49d4-baa4-c0921622d01a
 ---
 # Introducing Java API Quick Start {#introducing-java-api-quickstart}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe AEM Forms API Quick Start can help you accelerate your efforts to develop programs that interact with AEM Forms services. *Quick Start*s are complete programs that you can copy and paste into your own projects and use as a starting point. You can run a Quick Start to see how it behaves and modify it for your own needs.
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.

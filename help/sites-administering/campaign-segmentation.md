@@ -13,6 +13,10 @@ exl-id: 92302067-3500-41ca-9855-87f36148bfbc
 ---
 # Configuring Segmentation{#configuring-segmentation}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >This document covers the configuration of segmentation as used with the Client Context. To configure segments with ContextHub using the touch UI, please see [Configuring Segmentation with ContextHub](/help/sites-administering/segmentation.md).

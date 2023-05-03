@@ -14,6 +14,10 @@ exl-id: ee86b1b9-68fb-4311-bf5f-6151dd94d3b0
 ---
 # Performance Guidelines{#performance-guidelines}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This page provides general guidelines on how to optimize the performance of your AEM deployment. If you are new to AEM, please go over the following pages before you start reading the performance guidelines:
 
 * [AEM Basic Concepts](/help/sites-deploying/deploy.md#basic-concepts)

@@ -13,6 +13,10 @@ exl-id: ca11bfcd-06d1-4ca9-9069-afa91d8a6610
 ---
 # Integrating with Adobe Analytics{#integrating-with-adobe-analytics}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Integrating Adobe Analytics and AEM allows you to track your web page activity:
 
 * An Adobe Analytics configuration enables AEM to authenticate with Adobe Analytics.   

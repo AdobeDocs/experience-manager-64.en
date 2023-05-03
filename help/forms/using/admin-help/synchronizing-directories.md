@@ -13,6 +13,10 @@ exl-id: d6b2f389-bff4-481d-93bf-87f56114a91b
 ---
 # Synchronizing directories {#synchronizing-directories}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To synchronize domains, you can choose to do a manual or scheduled synchronization. A *manual synchronization* synchronizes any selected domains. A *scheduled synchronization* synchronizes all domains.
 
 Directory synchronization is used to pull details from the directory servers that you specified in your directory settings into the User Management database. Later, you can also do a manual synchronization if changes or updates occur on the directory servers. For example, you can do a manual synchronization if users and groups are added or changes are made to a user’s account.

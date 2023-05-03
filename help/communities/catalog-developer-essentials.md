@@ -13,6 +13,10 @@ exl-id: 1e0a7cab-39b9-4c90-810c-c93fb76c3869
 ---
 # Catalog Essentials {#catalog-essentials}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This page provides the essential information for working with the catalog feature of enablement community sites.
 
 The catalog feature, when included in a community site, allows community members to browse and select enablement resources listed in a catalog.

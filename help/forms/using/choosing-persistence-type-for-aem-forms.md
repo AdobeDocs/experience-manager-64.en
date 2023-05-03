@@ -14,6 +14,10 @@ exl-id: ef486673-30fe-410a-83cf-c55be6064ce4
 ---
 # Choosing a persistence type for an AEM Forms installation {#choosing-a-persistence-type-for-an-aem-forms-installation}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Choose a persistence type wisely. It helps you build an efficient and scalable AEM Forms environment. 
 
 Persistence is the method to store content on the physical storages. It defines the actual data structure and storage mechanism for the data. MicroKernels act as persistence managers in AEM Forms. AEM Forms supports persistence (MicroKernals) of type TarMK, MongoMK, and RDBMK. You can choose a persistence type for AEM Forms depending upon the purpose and deployment type (Single-Server, Farm, or Cluster) of an AEM Forms instance.

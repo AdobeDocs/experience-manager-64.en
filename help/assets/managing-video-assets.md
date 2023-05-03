@@ -11,6 +11,10 @@ exl-id: eb652414-5b10-45af-a8b6-f1de649994c5
 ---
 # Manage video assets {#managing-video-assets}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn how to manage and edit the video assets in Adobe Experience Manager Assets. Also, if you are licensed to use Dynamic Media, see the [Dynamic Media Video documentation](video.md).
 
 ## Upload and preview video assets {#uploading-and-previewing-video-assets}

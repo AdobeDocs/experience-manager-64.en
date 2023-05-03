@@ -13,6 +13,10 @@ exl-id: 82554eb8-34a0-4877-b92c-56ee662dda97
 ---
 # Getting Started Developing AEM Sites - WKND Tutorial{#getting-started-developing-aem-sites-wknd-tutorial}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 New to developing AEM? Need a refresher on best practices? This is the place to start!

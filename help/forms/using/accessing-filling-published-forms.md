@@ -12,6 +12,10 @@ exl-id: d68806f8-8ed8-4aff-9724-bafbe2b1f18e
 ---
 # Accessing and filling published forms {#accessing-and-filling-published-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In a forms-centric portal deployment setup, forms development and portal development are two distinct activities. While form designers design and store forms in a repository, Web Developers create a web application to that list forms and handle submissions. Forms are then copied over to the web tier as there is no communication between the forms repository and the web application.
 
 This often results in issues with managing the setup and production delays. For example, if a newer version of a form is available in the repository, the form designer, replaces the form on the web tier, modifies the web application, and redeploys the form on the public site. Redeploying the web application can cause some server downtime. Since the server downtime is a planned activity, the changes cannot be pushed to the public site immediately.

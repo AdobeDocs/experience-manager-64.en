@@ -13,6 +13,10 @@ exl-id: f6722953-ff71-4fba-b76e-1d566f71f6d5
 ---
 # Extend Comments Component {#extend-comments-component}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The intention of [extending](client-customize.md#extensions) a default component is to alter the appearance or behavior of a component for specific uses.
 
 The path to the component is unique and references the default component as a super resource type. There is less risk as the scope is limited compared to the global scope of a component overlay.

@@ -11,6 +11,10 @@ exl-id: c81dfb71-8901-49fd-b448-a7afdbae24fd
 ---
 # Adding and configuring users {#adding-and-configuring-users}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 User and group information is maintained in a third-party storage system, such as an LDAP directory. User Management does not write to the third-party storage system. Instead, User Management synchronizes the user and group information with its own database
 
 ## Create a user {#create-a-user}

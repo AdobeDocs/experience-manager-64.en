@@ -14,6 +14,10 @@ exl-id: 92351e2d-1928-4bc4-aaff-d557ee09d1ee
 ---
 # Service container {#service-container}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Forms services located in the service container (including standard servces such as the Encryption service, long-lived, and short-lived processes) can be invoked using various providers, such as an EJB provider. An EJB provider enables AEM Forms services to be invoked over RMI/IIOP. A web service provider exposes services as web services (WSDL Generation) using standards such as SOAP/HTTP and SOAP/JMS.
 
 The following table describes the different ways in which you can programmatically invoke AEM Forms services. 

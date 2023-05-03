@@ -12,6 +12,10 @@ exl-id: 495031fb-b559-4071-abc4-93d238ce136d
 ---
 # Removing the Geometrixx Sites{#removing-the-geometrixx-sites}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM comes with a set of sample Geometrixx websites. You can remove this sample content through the **Package Manager**.
 
 The individual geometrixx-related packages are:

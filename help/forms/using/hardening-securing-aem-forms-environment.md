@@ -11,6 +11,10 @@ exl-id: ba3b380a-b391-44a0-884b-e57c3cb14013
 ---
 # Hardening and Securing AEM forms on OSGi environment {#hardening-and-securing-aem-forms-on-osgi-environment}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn recommendations and best practices for securing AEM Forms on OSGi server.
 
 Securing a server environment is of paramount importance for an organization. This article describes recommendations and best practices for securing servers that run AEM Forms. This is not a comprehensive host-hardening document for your operating system. Instead, this article describes various security-hardening settings that you should implement to enhance the security of your deployed application. To ensure that the application servers stay secure, however, you should also implement security monitoring, detection, and response procedures in addition to recommendations provided in this article. The document also contains best practices and guidelines for securing PII (Personally Identifiable Information).

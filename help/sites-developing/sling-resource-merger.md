@@ -13,6 +13,10 @@ exl-id: 4ddbdba8-073b-42ed-b4c9-d97d20b4739b
 ---
 # Using the Sling Resource Merger in AEM{#using-the-sling-resource-merger-in-aem}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Purpose {#purpose}
 
 The Sling Resource Merger provides services to access and merge resources. It provides diff (differencing) mechanisms for both:

@@ -13,6 +13,10 @@ exl-id: f95d1471-82a1-4c37-ac5b-0eb861c823a1
 ---
 # Calendar Feature {#calendar-feature}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 The calendar feature supports providing community event information in a calendar format either to all site visitors or only signed in site visitors (community members), while only authorized members may add events.

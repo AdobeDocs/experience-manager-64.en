@@ -13,6 +13,10 @@ exl-id: 6609c625-0591-42fd-910b-c7c65d52c5f1
 ---
 # Supported Platforms for AEM Forms on JEE {#supported-platforms-for-aem-forms-on-jee}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Supported Platforms {#supported-platforms}
 
 ### Support levels {#support-levels}

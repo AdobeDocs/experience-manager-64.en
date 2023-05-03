@@ -13,6 +13,10 @@ exl-id: 8d2b5294-9763-4348-b927-706ebac90b95
 ---
 # Optimizing HTML5 forms {#optimizing-html-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 HTML5 forms renders forms in the HTML5 format. The resultant output could be large depending on factors like the form size and images in the form. To optimize the data transfer, the recommended approach is to compress the HTML response using the Web Server from which the request is being served. This approach reduces the response size, network traffic, and the time required to stream data between the server and client machines.
 
 This article describes the steps required to enable compression for the Apache Web Server 2.0 32 bit, with JBoss.

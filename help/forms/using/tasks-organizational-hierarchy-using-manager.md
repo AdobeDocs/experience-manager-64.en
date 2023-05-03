@@ -13,6 +13,10 @@ exl-id: 28877528-2f91-4ee0-b9d8-c7df364ed803
 ---
 # Managing tasks in an organizational hierarchy using Manager View {#managing-tasks-in-an-organizational-hierarchy-using-manager-view}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In AEM Forms workspace, managers can now access the tasks assigned to anyone in their hierarchy—direct or indirect reports—and perform various actions on them. The tasks are available in the To-do tab in the AEM Forms workspace. The actions supported on the tasks of direct reports are:
 
 **Forward** Forward a task from direct report to any user.

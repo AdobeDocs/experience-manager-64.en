@@ -14,6 +14,10 @@ exl-id: e9d10d35-6a8d-497d-83f7-67ee6c22baed
 ---
 # Importing and Exporting Data {#importing-and-exporting-data}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## About the Form Data Integration Service {#about-the-form-data-integration-service}
 
 The Form Data Integration service can import data into a PDF form and export data from a PDF form. The import and export operations support two types of PDF forms:

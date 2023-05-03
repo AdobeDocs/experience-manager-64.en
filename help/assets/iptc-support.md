@@ -8,6 +8,10 @@ exl-id: 3e22e8e4-3675-4d6d-94f4-fc1a4d4801e8
 ---
 # Support for IPTC Metadata {#support-for-iptc-metadata}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn how Adobe Experience Manager Assets supports the IPTC metadata, Creative ratings, and keywords added to assets through Adobe Bridge and other Creative Apps.
 
 Adobe Experience Manager Assets supports the IPTC metadata standard that is widely used to describe assets. This way, [!DNL Experience Manager Assets] enhances the acceptance of its images among various parties, including photographers, creative agencies, libraries, museums, and so on.

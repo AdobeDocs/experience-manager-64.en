@@ -13,6 +13,10 @@ exl-id: 1699b24f-cf2a-419b-a2f9-be294fa3591f
 ---
 # Managing Projects - Best Practices Checklist{#managing-projects-best-practices-checklist}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Managing a project to implement Adobe Experience Manager (AEM) requires planning and understanding to ensure you are aware of the issues and (related) decisions that you need to make (both before and while implementing your project).
 
 To help you, the best practices consist of:

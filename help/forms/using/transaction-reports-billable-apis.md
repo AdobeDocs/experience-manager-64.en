@@ -12,6 +12,10 @@ exl-id: 18b5c6e2-3b0c-4ec8-9e65-c4105b47be4e
 ---
 # Transaction Reports Billable APIs {#transaction-reports-billable-apis}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 List of all the APIs that are accounted as transactions
 
 AEM Forms provides several APIs to submit forms, process documents, and render documents. Some APIs are accounted as transactions and others are free to use. This document provides a list of all the APIs that are accounted as transactions in a transaction report. Here are a few common scenarios where a billable API is used:

@@ -13,6 +13,10 @@ exl-id: 779e1e4c-9a6e-4446-9c12-5b2499afbf6a
 ---
 # Mitigating serialization issues in AEM{#mitigating-serialization-issues-in-aem}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 The AEM team at Adobe has been working closely with the open source project [NotSoSerial](https://github.com/kantega/notsoserial) to assist in mitigating the vulnerabilities described in **CVE-2015-7501**. NotSoSerial is licensed under the [Apache 2 license](https://www.apache.org/licenses/LICENSE-2.0) and includes ASM code licensed under its own [BSD-like license](https://asm.ow2.org/license.html).

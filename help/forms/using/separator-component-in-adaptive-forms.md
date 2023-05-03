@@ -12,6 +12,10 @@ exl-id: 7e37401a-8c63-4711-8a33-61e6bd4b419f
 ---
 # Separator component in adaptive forms {#separator-component-in-adaptive-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can use the separator component to visually segregate panels of a form. You can define the overall appearance and style of a separator component by specifying the following properties of separator component:
 
 * **Element Name:** Specifies the name of the component. The SOM expressions addresses the component with value specified in the Element Name field.

@@ -13,6 +13,10 @@ exl-id: 283ef073-b71d-4b48-882f-15f05581c1de
 ---
 # Configuring locations for Forms {#configuring-locations-for-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can specify the URL, URI, and file locations of attributes such as the web root, the location of the forms to be retrieved, the seed PDF file that is used in PDFForm transformations, and the cache location.
 
 1. In administration console, click Services &gt; Forms.

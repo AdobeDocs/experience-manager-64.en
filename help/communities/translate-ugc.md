@@ -14,6 +14,10 @@ exl-id: b8cbc429-b0c3-4f6e-a15f-4aef54733c8e
 ---
 # Translating User Generated Content {#translating-user-generated-content}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The translation feature for AEM Communities extends the concept of [translating page content](../../help/sites-administering/translation.md) to the user generated content (UGC) posted to community sites using [social component framework (SCF) components](scf.md).
 
 The translation of UGC enables site visitors and members to experience a global community by removing language barriers.

@@ -14,6 +14,10 @@ exl-id: a3cf6d27-c99f-43f7-a557-b14e88cc921e
 ---
 # Planning Your Upgrade{#planning-your-upgrade}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## AEM Project Overview {#aem-project-overview}
 
 AEM is often used in high impact deployments that might serve millions of users. In most cases, there are custom applications that are deployed on the instances, which add to the complexity. Any effort to upgrade such a deployment needs to be handled methodically.

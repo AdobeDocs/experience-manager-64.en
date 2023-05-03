@@ -14,6 +14,10 @@ exl-id: f1408709-5402-4f55-bd37-9943fe828af0
 ---
 # Communities Sites Console {#communities-sites-console}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Communities Sites console provides access to:
 
 * Site creation

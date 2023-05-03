@@ -13,6 +13,10 @@ exl-id: 6d2226da-f691-4e8b-9494-a25e1c3d4b85
 ---
 # Setup Website Structure {#setup-website-structure}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To setup your website, the instructions below describe the folders to create in the following locations:
 
 * `/apps/an-scf-sandbox`

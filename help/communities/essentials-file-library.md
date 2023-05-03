@@ -13,6 +13,10 @@ exl-id: 0e9d508e-d7dc-478a-99c0-c6885bcdcb81
 ---
 # File Library Essentials {#file-library-essentials}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This page provides the essential information for working with the file library feature.
 
 ## Essentials for Client-Side {#essentials-for-client-side}

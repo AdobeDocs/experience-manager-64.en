@@ -12,6 +12,10 @@ exl-id: ef2ad8e1-5007-4587-97ca-cf21070be9a6
 ---
 # Hosting two AEM Forms workspace instances on one server {#hosting-two-aem-forms-workspace-instances-on-one-server}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The default installation and settings of AEM Forms allow for only one AEM Forms workspace to be available on the server. However, you may need to host two different instances of AEM Forms workspace on a single AEM Forms server. The two instances are accessbile by different URLs.
 
 AEM Forms administrators customize the workspace to create two different URLs and make two workspaces available on the same server. In this customization article, we assume the two workspaces are accessible at `https://[server]:[port]/lc/ws` and `https://[server]:[port]:/lc/ws2`.

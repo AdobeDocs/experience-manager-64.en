@@ -14,6 +14,10 @@ exl-id: df03f65b-9951-4fd4-abf7-1672618fc1df
 ---
 # Common Repository Restructuring in AEM 6.4{#common-repository-restructuring-in-aem}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 As described on the parent [Repository Restructuring in AEM 6.4](/help/sites-deploying/repository-restructuring.md) page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes potentially impacting all solutions. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.
 
 **With 6.4 Upgrade**

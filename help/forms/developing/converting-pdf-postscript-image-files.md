@@ -14,6 +14,10 @@ exl-id: 4afed537-1694-4187-8968-608f49116c2e
 ---
 # Converting PDF to Postscript and Image Files {#converting-pdf-to-postscript-andimage-files}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 **About the Convert PDF Service**
 
 The Convert PDF service converts PDF documents to PostScript and to a number of image formats (JPEG, JPEG 2000, PNG, and TIFF). Converting a PDF document to PostScript is useful for unattended server-based printing on any PostScript printer. Converting a PDF document to a multipage TIFF file is practical when archiving documents in content management systems that do not support PDF documents.

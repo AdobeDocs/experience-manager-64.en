@@ -13,6 +13,10 @@ exl-id: 81b8f8c0-7f9d-4748-af07-c550826c19b4
 ---
 # Troubleshooting Integration Issues{#troubleshooting-integration-issues}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## General Troubleshooting Tips {#general-troubleshooting-tips}
 
 ### Ensure there are no JavaScript errors {#ensure-there-are-no-javascript-errors}
@@ -67,12 +71,24 @@ Firstly, analyzing the [error.log](/help/sites-deploying/configure-logging.md) m
 
 ```
 # Count PollingImporter entries
+
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 $ sed -n "s/.*(aem-analytics-integration-.*).*target=\(.*\),interval.*/\1/p" error.log | wc -l
 86415
 # Count PollingImporter entries for last30days
+
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 $ sed -n "s/.*(aem-analytics-integration-last30Days).*target=\(.*\),interval.*/\1/p" error.log | wc -l
 14531
 # Count unique paths of PollingImporter registrations
+
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 sed -n "s/.*(aem-analytics-integration-.*).*target=\(.*\)\/jcr:content.*/\1/p" error.log | sort | uniq -c
 28115
 ```

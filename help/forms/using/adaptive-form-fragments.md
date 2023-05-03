@@ -12,6 +12,10 @@ exl-id: f63478c5-1798-428e-a662-f3db692b27fc
 ---
 # Adaptive form fragments {#adaptive-form-fragments}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 While every form is designed for a specific purpose, there are some common segments in most forms, such as to provide personal details like name and address, family details, income details, and so on. Form developers are required to create these common segments every time a new form is created.
 
 Adaptive forms provides a convenient mechanism to create form segment like a panel or a group of fields only once and reuse them across adaptive forms. These reusable and standalone segments are called adaptive form fragments.

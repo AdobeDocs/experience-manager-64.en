@@ -13,6 +13,10 @@ exl-id: 4630c43f-5b47-435c-8ce5-b4e0d986ec02
 ---
 # Creating a custom profile for HTML5 forms {#creating-a-custom-profile-for-html-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 A profile is a resource node in [Apache Sling](https://sling.apache.org/). It represents custom version of HTML5 forms rendition service. You can use the HTML5 forms Rendition service to customize appearance, behavior, and interactions of the HTML5 forms. A profile node exists in the `/content` folder in the JCR repository. You can place the node directly under the `/content` folder or any subfolder of the `/content` folder.
 
 The profile node has the **sling:resourceSuperType** property and the default value is **xfaforms/profile**. The render script for the node is at /libs/xfaforms/profile.

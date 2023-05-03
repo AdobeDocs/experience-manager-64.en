@@ -13,6 +13,10 @@ exl-id: 2ca8e786-042b-44f6-ac60-834eca64f79f
 ---
 # Assets Workflow Offloader{#assets-workflow-offloader}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Assets workflow offloader lets you enable multiple instances of Adobe Experience Manager (AEM) Assets to reduce the processing load on the primary (leader) instance. The processing load is distributed among the leader instance and the various offloader (worker) instances that you add to it. Distributing the processing load of assets increases the efficiency and speed with which AEM Assets processes assets. In addition, it helps allocate dedicated resources to process assets of a particular MIME type. For example, you can allocate a specific node in your topology to process InDesign assets only.
 
 ## Configure offloader topology {#configure-offloader-topology}

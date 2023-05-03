@@ -13,6 +13,10 @@ exl-id: 88932b5b-2acc-4f21-8ce3-b819a990ad30
 ---
 # Configuring certificate-based authentication {#configuring-certificate-based-authentication}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 User Management usually performs authentication by using a user name and password. User Management also supports certificate-based authentication, which you can use to authenticate users through Acrobat or to authenticate users programmatically. For details about authenticating users programmatically, see [Programming with AEM forms](https://www.adobe.com/go/learn_aemforms_programming_63).
 
 To use certificate-based authentication, import a Certificate Authority (CA) certificate that you trust into the Trust Store and then create a certificate mapping.

@@ -12,6 +12,10 @@ exl-id: 645b990f-279c-4731-b552-07d0aa052eb8
 ---
 # Create Correspondence {#create-correspondence}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Create correspondence in the Create Correspondence user interface {#create-correspondence-in-the-create-correspondence-user-interface}
 
 After a [letter template is created in Correspondence Management](/help/forms/using/create-letter.md), the end user/agent/claim adjustor can open the letter in the Create Correspondence user interface and create a correspondence by entering data, setting up content, and managing attachments. Finally, the claim adjustor or agent can manage the content in the preview mode and submit the letter.

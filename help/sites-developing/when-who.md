@@ -13,6 +13,10 @@ exl-id: cba4a814-052b-4b9f-96f2-8c80b2766ecc
 ---
 # Testing - when and with whom?{#testing-when-and-with-whom}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Various roles can be involved in testing and at various stages of project development.
 
 <table> 

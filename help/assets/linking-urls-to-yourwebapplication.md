@@ -15,6 +15,10 @@ role: User
 ---
 # Linking URLs to your Web Application {#linking-urls-to-your-web-application}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Your websites and applications access Dynamic Media services by way of URL calls. After you publish an asset, Dynamic Media activates a URL string that references the asset. You can paste these URLs into a web browser for testing.
 
 You link to URLs only if you are *not* using AEM as your WCM. Linking&ndash;versus embedding&ndash;is used when you want to deliver a video player as a pop-up or modal window. If you are using AEM as your WCM, [you add the assets directly on your page.](adding-dynamic-media-assets-to-pages.md)

@@ -14,6 +14,10 @@ exl-id: c60ef25a-26a0-4421-b635-ced54baa324d
 ---
 # Form Data Integration Service Java API Quick Start (SOAP) {#form-data-integration-service-javaapi-quick-start-soap}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following Quick Starts are available for the Form Data Integration service.
 
 [Quick Start (SOAP mode): Importing form data using the Java API](form-data-integration-service-java.md#quick-start-soap-mode-importing-form-data-using-the-java-api)

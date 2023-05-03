@@ -12,6 +12,10 @@ exl-id: 43149456-8ff8-4ce1-9c51-1d950f60ff5d
 ---
 # Integrating AEM forms workspace with Microsoft Office SharePoint Server {#integrating-aem-forms-workspace-with-microsoft-office-sharepoint-server}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 **- Requirements** 
   
 **Prerequisite knowledge** 

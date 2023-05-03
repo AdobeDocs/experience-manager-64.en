@@ -15,6 +15,10 @@ exl-id: 0cee94ba-1a72-4021-b606-8fa945312483
 ---
 # Rendering Rights-Enabled Forms {#rendering-rights-enabled-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Forms service can render forms that have usage rights applied to them. Usage rights pertain to functionality that is available by default in Acrobat but not in Adobe Reader, such as the ability to add comments to a form or to fill in form fields and save the form. Forms that have usage rights applied to them are called rights-enabled forms. A user who opens a rights-enabled form in Adobe Reader can perform operations that are enabled for that form.
 
 In order to apply usage rights to a form, the Acrobat Reader DC extensions service must be part of your AEM forms installation. Also, you must have a valid credential that enables you to apply usage rights to PDF documents. That is, you must properly configure the Acrobat Reader DC extensions service before you can render a rights-enabled form. (See [About the Acrobat Reader DC extensions Service](/help/forms/developing/assigning-usage-rights.md#about-the-acrobat-reader-dc-extensions-service).)

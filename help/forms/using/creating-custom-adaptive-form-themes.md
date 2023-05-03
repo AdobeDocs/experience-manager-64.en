@@ -14,6 +14,10 @@ exl-id: e6aa866f-3483-4db1-abaa-01ee585928dc
 
 >[!CAUTION]
 >
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
+>[!CAUTION]
+>
 >AEM Forms provide the [Theme Editor](/help/forms/using/themes.md) capability to create and modify adaptive forms [themes](/help/forms/using/themes.md). Peform the steps listed in this article, only if you have upgraded from a version that does not have [Theme Editor](/help/forms/using/themes.md) and you have an existing investment in themes created using Less/CSS files (pre-theme editor method).
 
 ## Prerequisites {#prerequisites}

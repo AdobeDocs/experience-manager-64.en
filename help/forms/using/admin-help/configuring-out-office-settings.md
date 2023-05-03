@@ -13,6 +13,10 @@ exl-id: 8787ffa9-9ddc-439d-9934-8913d1ed459e
 ---
 # Configuring Out of Office Settings {#configuring-out-of-office-settings}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Out of Office feature enables users or administrators to specify when a user will be out of the office and unable to complete tasks assigned by AEM forms. While a user is set to Out of Office, their tasks are assigned to one or more designated users. Users can change their Out of Office settings in Workspace or administrators can change the settings on a user’s behalf in forms workflow.
 
 When creating a process, the Workbench user can specify whether a task can be redirected due to Out of Office settings.

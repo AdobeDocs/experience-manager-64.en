@@ -14,6 +14,10 @@ exl-id: 70816a79-a200-4afa-8602-bf3c414665ea
 ---
 # Endpoint Registry Java API Quick Start (SOAP) {#endpoint-registry-java-api-quickstart-soap}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Java API Quick Start(SOAP) is available for the Endpoint Registry.
 
 [QuickStart: Adding an EJB endpoint using the Java API](endpoint-registry-java-api-quick.md#quickstart-adding-an-ejb-endpoint-using-the-java-api)

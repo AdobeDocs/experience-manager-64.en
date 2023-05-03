@@ -8,6 +8,10 @@ exl-id: 4c62e0cd-eaa5-456e-85f3-06f7a9f160f5
 ---
 # Review folder assets and collections {#review-folder-assets-and-collections}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Set up review workflows for assets within a folder or a collection and share it with reviewers or creative partners to seek feedback.
 
 Adobe Experience Manager Assets lets you set up an ad-hoc review workflow for assets within a folder or collection, and share it with reviewers or creative partners to seek feedback.

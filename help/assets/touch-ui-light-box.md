@@ -8,6 +8,10 @@ exl-id: acb61924-9b71-474a-833d-e441c0b83cc7
 ---
 # Lightbox {#lightbox}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn about Lightbox in [!DNL Experience Manager] Assets.
 
 Lightbox is a special type of collection that provides easy access to assets. You can quickly access Lightbox to add or delete assets. It serves as your personal image gallery.

@@ -12,6 +12,10 @@ exl-id: 40f6297d-7238-4e56-9fd1-6df3a6362724
 ---
 # Tutorial: Plan the Interactive Communication {#tutorial-plan-the-interactive-communication}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Plan the anatomy for your Interactive Communication
 
  ![02-create-adaptive-form-main-image](assets/02-create-adaptive-form-main-image.png)

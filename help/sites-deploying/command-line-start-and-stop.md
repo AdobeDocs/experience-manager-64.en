@@ -13,6 +13,10 @@ exl-id: 9d2682c2-6360-402e-a020-0021f5051a2d
 ---
 # Command Line Start and Stop{#command-line-start-and-stop}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Starting Adobe Experience Manager from the Command Line {#starting-adobe-experience-manager-from-the-command-line}
 
 The `start` script is available under *the &lt;cq-installation&gt;/bin* directory. Both Unix and Windows versions are provided. The script starts the instance installed in *&lt;cq-installation&gt;* directory.

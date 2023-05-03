@@ -12,6 +12,10 @@ exl-id: c6243a1f-8f8f-48dc-af3b-b165f451ce73
 ---
 # Customizing Draft and Submission data services {#customizing-draft-and-submission-data-services}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 AEM Forms allows users to save an adaptive form as a draft. The draft functionality provides users with the option to maintain a work-in-progress form. A user can then complete and submit the form at any time from any device.

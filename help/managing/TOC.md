@@ -7,6 +7,7 @@ breadcrumb-title: Managing Guide
 user-guide-description: Learn how to manage an AEM project.
 feature: Deploying
 role: User
+hide: yes
 ---
 
 # AEM 6.4 Managing User Guide {#managing}

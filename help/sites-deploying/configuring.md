@@ -14,6 +14,10 @@ exl-id: 758ef6d2-2eba-44ef-8e65-18258c4e9123
 ---
 # Basic Configuration Concepts{#basic-configuration-concepts}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager (AEM) is installed with default settings for all parameters which allows it to run "out of the box." However, you can configure AEM for your own specific requirements.
 
 There are many aspects of AEM that can be configured:

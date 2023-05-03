@@ -13,6 +13,10 @@ exl-id: 130ba568-b035-4c80-b47a-e19ed8d8ac25
 ---
 # Working with tasks {#working-with-tasks}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use the Task Search page to search for tasks by user name or task ID. The search results are displayed on the Task List page, where you can access a task’s history. You can also reassign a task is one user has too many tasks or if a user has received a task assignment in error.
 
 >[!NOTE]

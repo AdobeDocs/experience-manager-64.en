@@ -13,6 +13,10 @@ exl-id: cdb45bec-81d7-4356-ac55-5b6a40b35433
 ---
 # SharePoint Connector{#sharepoint-connector}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
  Day JCR Connector for Microsoft SharePoint 2010 and Microsoft SharePoint 2013, version 4.0.
 
 This article includes details around the Adobe JCR Connector for Microsoft SharePoint 2010 and Microsoft SharePoint 2013, version 4.0.

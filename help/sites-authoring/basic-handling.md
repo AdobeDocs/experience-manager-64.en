@@ -13,6 +13,10 @@ exl-id: 9abef452-b435-4419-895c-083cae6cd7d2
 ---
 # Basic Handling {#basic-handling}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >* This page is designed to give an overview of basic handling when using the AEM author environment. It uses the **Sites** console as a basis.  

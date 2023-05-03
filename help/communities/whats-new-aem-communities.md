@@ -8,6 +8,10 @@ exl-id: fcdc65c9-929d-4a87-8ff7-5e3cf5711fd9
 ---
 # What's New in AEM 6.4 Communities {#what-s-new-in-aem-communities}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Communities offers a framework to businesses to collaborate among their partners, customers and employees. It imparts social capabilities to website structure, and helps businesses to engage and impart knowledge to their stakeholders, to enhance their brand value their way.
 
 AEM 6.4 Communities brings in functionalities to enhance the experiences of community users, and ease the day-today tasks of community administrators, moderators, and managers.

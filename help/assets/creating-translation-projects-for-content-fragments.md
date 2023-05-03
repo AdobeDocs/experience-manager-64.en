@@ -15,6 +15,10 @@ role: User
 ---
 # Creating Translation Projects for Content Fragments {#creating-translation-projects-for-content-fragments}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In addition to assets, Adobe Experience Manager (AEM) Assets supports language copy workflows for [content fragments](content-fragments.md) (including variations). No additional optimization is required to run language copy workflows on content fragments. In each workflow, the entire content fragment is sent for translation.
 
 The types of workflows that you can run on content fragments is exactly similar to the workflow types you run for assets. Also, the options available within each workflow type match the options available under the corresponding workflows types for assets.

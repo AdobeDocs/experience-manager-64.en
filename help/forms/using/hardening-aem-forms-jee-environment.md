@@ -13,6 +13,10 @@ exl-id: 5aa02fae-b9dd-45bf-9826-16e9e5686727
 ---
 # Hardening Your AEM Forms on JEE Environment {#hardening-your-aem-forms-on-jee-environment}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn a variety of security-hardening settings to enhance the security of AEM Forms on JEE running in a corporate intranet.
 
 The article describes recommendations and best practices for securing servers that run AEM Forms on JEE. This is not a comprehensive host-hardening document for your operating system and application servers. Instead, this article describes a variety of security-hardening settings that you should implement to enhance the security of AEM Forms on JEE that is running within a corporate intranet. To ensure that the AEM Forms on JEE application servers stay secure, however, you should also implement security monitoring, detection, and response procedures.

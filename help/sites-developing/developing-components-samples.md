@@ -7,6 +7,10 @@ exl-id: c205046f-9e60-4010-9ae3-be7d02d45248
 ---
 # Developing AEM Components - Code Samples{#developing-aem-components-code-samples}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This section provides some examples on how to create your own components for AEM.
 
 For the underlying concepts see:

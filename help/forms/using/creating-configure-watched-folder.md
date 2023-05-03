@@ -12,6 +12,10 @@ exl-id: 7e2706e2-092f-4780-be8f-2bf444613d70
 ---
 # Create or Configure a watched folder {#create-or-configure-a-watched-folder}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 An administrator can configure a network folder, known as a *watched folder*, so that when a user places a file (such as a PDF file) in the watched folder, a pre-configured operation is started and manipulates the file. After the specified operation is performed, the operation saves the modified file in a specified output folder. For detailed information about administering a watched folder, see [Administration Help](/help/forms/using/admin-help/configuring-watched-folder-endpoints.md).
 
 You can use the watched folder user interface to:

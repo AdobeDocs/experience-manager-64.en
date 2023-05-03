@@ -15,6 +15,10 @@ exl-id: f77796ff-f5c9-455f-8616-fa590db7fdbe
 ---
 # Creating Web Applications that Renders Forms {#creating-web-applications-thatrenders-forms}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Creating Web Applications that Renders Forms {#creating-web-applications-that-renders-forms}
 
 You can create a web-based application that uses Java servlets to invoke the Forms service and render forms. An advantage of using a Java™ servlet is that you can write the return value of the process to a client web browser. That is, a Java servlet can be used as the link between the Forms service that returns a form and a client web browser.

@@ -12,6 +12,10 @@ exl-id: 91d9a31d-a0af-45f6-9a20-4b52e2848979
 ---
 # Create custom appearances for adaptive form fields {#create-custom-appearances-for-adaptive-form-fields}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 Adaptive forms leverages the [appearance framework](/help/forms/using/introduction-widgets.md) to help you create custom appearances for adaptive form fields and provide a different user experience. For example, replace radio buttons and check boxes with toggle buttons or use custom jQuery plugins to restrict users inputs in fields like phone numbers or email ID.

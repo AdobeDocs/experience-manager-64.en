@@ -14,6 +14,10 @@ exl-id: fbf6c225-5351-4589-97d3-9faf9c5939bc
 ---
 # Working with PDF/A Documents {#working-with-pdf-a-documents}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 **About the DocConverter Service**
 
 The DocConverter service can convert PDF documents to PDA/A documents. You can accomplish these tasks using this service:

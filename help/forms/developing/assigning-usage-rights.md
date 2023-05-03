@@ -14,6 +14,10 @@ exl-id: c7805d8a-eb6a-4908-9662-936920ffa67a
 ---
 # Assigning Usage Rights {#assigning-usage-rights}
 
+>[!CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## About the Acrobat Reader DC extensions Service {#about-the-acrobat-reader-dc-extensions-service}
 
 The Acrobat Reader DC extensions service enables your organization to easily share interactive PDF documents by extending the functionality of Adobe Reader. The Acrobat Reader DC extensions service fully supports any PDF document, up to and including PDF 1.7. It works with Adobe Reader 7.0 and later. The service adds usage rights to a PDF document, activating features that are not usually available when a PDF document is opened using Adobe Reader. Third party users do not require additional software or plug-ins to work with the rights-enabled documents.
