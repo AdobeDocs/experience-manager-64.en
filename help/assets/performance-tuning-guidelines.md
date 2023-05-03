@@ -8,7 +8,7 @@ exl-id: 6c1bff46-f9e0-4638-9374-a9e820d30534
 ---
 # Assets performance tuning guide {#assets-performance-tuning-guide}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 
@@ -247,7 +247,7 @@ To disable Page Extraction:
 <!--
 # Sub-asset generation and page extraction {#sub-asset-generation-and-page-extraction}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

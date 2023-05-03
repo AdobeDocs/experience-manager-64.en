@@ -8,7 +8,7 @@ exl-id: 41e083b3-e956-4346-9a99-008de2c6a169
 ---
 # Organize your digital assets {#organize-digital-assets}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

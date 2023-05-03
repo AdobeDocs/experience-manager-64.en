@@ -13,7 +13,7 @@ exl-id: 2bc70cd6-1ea6-4594-9b42-ab3d3000a0c5
 ---
 # Displaying the user avatar {#displaying-the-user-avatar}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

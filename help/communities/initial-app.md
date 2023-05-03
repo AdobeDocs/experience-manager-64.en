@@ -13,7 +13,7 @@ exl-id: 3da30cb4-39b2-4495-9e8b-93567b73b644
 ---
 # Initial Sandbox Application {#initial-sandbox-application}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

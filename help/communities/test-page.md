@@ -11,7 +11,7 @@ discoiquuid: 826694f1-fb33-430f-85d1-da8e9e75f213
 
 # Test page {#test-page}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

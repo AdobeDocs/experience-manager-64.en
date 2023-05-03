@@ -13,7 +13,7 @@ exl-id: 6abadd53-dab1-4e3b-84d8-10374e8a305c
 ---
 # Manually Configuring the Integration with Adobe Target {#manually-configuring-the-integration-with-adobe-target}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

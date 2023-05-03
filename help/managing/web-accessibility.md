@@ -13,7 +13,7 @@ exl-id: f0ccdeae-3dbb-4dba-89cf-4c8b759da22b
 ---
 # AEM and the Web Accessibility Guidelines{#aem-and-the-web-accessibility-guidelines}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

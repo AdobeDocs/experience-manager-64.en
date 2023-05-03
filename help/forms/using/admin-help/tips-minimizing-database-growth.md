@@ -13,7 +13,7 @@ exl-id: 7b266170-c7e2-42e7-8ee0-153e1e73a901
 ---
 # Tips for minimizing database growth {#tips-for-minimizing-database-growth}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

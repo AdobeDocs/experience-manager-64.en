@@ -11,7 +11,7 @@ exl-id: 6a298571-d6ff-473f-af58-a45a0c7e6175
 ---
 # Reference Themes {#reference-themes}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

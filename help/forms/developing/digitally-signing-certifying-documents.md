@@ -14,7 +14,7 @@ exl-id: b8488a39-44dd-4e6c-b3f0-857d67c79385
 ---
 # Digitally Signing and Certifying Documents {#digitally-signing-and-certifying-documents}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

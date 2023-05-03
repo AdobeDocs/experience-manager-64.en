@@ -13,7 +13,7 @@ exl-id: 3609ad29-f5b4-4426-8bbc-7c2e38f9b140
 ---
 # Configuring Acrobat Reader DC extensions for data capture {#configuring-acrobat-reader-dc-extensions-for-data-capture}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

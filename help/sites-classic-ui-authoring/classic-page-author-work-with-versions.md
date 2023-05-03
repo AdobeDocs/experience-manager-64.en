@@ -13,7 +13,7 @@ exl-id: 407287cf-8096-40ee-971c-006d876ba4e4
 ---
 # Working with Page Versions{#working-with-page-versions}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

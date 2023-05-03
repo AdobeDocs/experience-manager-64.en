@@ -13,7 +13,7 @@ exl-id: 89286798-e02a-45d8-a91d-c50ef4dc7f25
 ---
 # Preventing CSRF attacks {#preventing-csrf-attacks}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

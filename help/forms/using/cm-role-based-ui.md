@@ -12,7 +12,7 @@ discoiquuid: 342f111e-f15a-4f9a-8993-f90760363c02
 
 # DO NOT PUBLISH Role based user interface in Correspondence Management {#do-not-publish-role-based-user-interface-in-correspondence-management}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: adb20c7e-626e-4a66-84e6-c9c25a67a9c3
 ---
 # Page Templates for Mobile Apps {#page-templates-for-mobile-apps}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

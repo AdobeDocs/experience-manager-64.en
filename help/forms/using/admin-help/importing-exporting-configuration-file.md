@@ -13,7 +13,7 @@ exl-id: dbad776a-60fd-4fcc-ba2a-a2f379f5462c
 ---
 # Importing and exporting the configuration file {#importing-and-exporting-the-configuration-file}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

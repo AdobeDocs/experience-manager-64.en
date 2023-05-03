@@ -7,7 +7,7 @@ exl-id: 967391db-e7ba-4cf8-af9e-28c28d2d96d5
 ---
 # Install [!DNL Workfront for Experience Manager enhanced connector] {#assets-integration-overview}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

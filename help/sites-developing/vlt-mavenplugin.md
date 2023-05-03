@@ -5,7 +5,7 @@ exl-id: 106a677b-7c89-4fbc-bb96-eaa3dfa71b58
 ---
 # Adobe Content Package Maven Plugin {#adobe-content-package-maven-plugin}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

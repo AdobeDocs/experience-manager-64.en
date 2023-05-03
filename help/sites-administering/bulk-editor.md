@@ -13,7 +13,7 @@ exl-id: 61d85393-2764-447d-afcc-3af1d99e8dbb
 ---
 # The Bulk Editor{#the-bulk-editor}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

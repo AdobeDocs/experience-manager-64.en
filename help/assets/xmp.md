@@ -8,7 +8,7 @@ exl-id: 32c4ca3d-2e9e-46a3-b4c7-70dcc50daaaa
 ---
 # XMP metadata {#xmp-metadata}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

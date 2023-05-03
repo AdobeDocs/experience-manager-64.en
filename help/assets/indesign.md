@@ -8,7 +8,7 @@ exl-id: d80562f7-071c-460a-9c68-65f48d36fbd9
 ---
 # Integrate Assets with Adobe InDesign Server {#integrating-aem-assets-with-indesign-server}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

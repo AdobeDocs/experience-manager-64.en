@@ -8,7 +8,7 @@ exl-id: d19cea4d-5395-479d-b303-4529ae2c0bf2
 ---
 # Enabling Assets Insights through DTM {#enabling-asset-insights-through-dtm}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

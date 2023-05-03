@@ -13,7 +13,7 @@ exl-id: 63bf891c-572a-40e0-945f-d20a0a029224
 ---
 # Working with the Marketing Campaign Manager{#working-with-the-marketing-campaign-manager}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

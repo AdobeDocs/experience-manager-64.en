@@ -8,7 +8,7 @@ exl-id: d68c735f-2699-4923-a7e7-4d1356eae335
 ---
 # Extending Assets Search {#extending-assets-search}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 1129004b-5e8b-42fd-98ed-f203edde93b9
 ---
 # Using CAPTCHA in adaptive forms {#using-captcha-in-adaptive-forms}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

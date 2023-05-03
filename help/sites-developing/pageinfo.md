@@ -13,7 +13,7 @@ exl-id: 5057b3d6-bf0c-4bb2-9085-f9add3f1c716
 ---
 # Obtaining Page Information in JSON Format{#obtaining-page-information-in-json-format}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

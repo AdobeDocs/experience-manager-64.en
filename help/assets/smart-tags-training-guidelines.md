@@ -11,7 +11,7 @@ exl-id: 14241f8d-fd0b-4bcf-b2bb-1d0e52bf7748
 ---
 # Smart Content Service Training Guidelines {#smart-content-service-training-guidelines}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

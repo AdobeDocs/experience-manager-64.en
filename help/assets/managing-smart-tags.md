@@ -11,7 +11,7 @@ exl-id: 05f43e43-ac72-4ab1-a373-687c137d2bed
 ---
 # Managing Smart Tags {#managing-smart-tags}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

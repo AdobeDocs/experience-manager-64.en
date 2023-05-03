@@ -13,7 +13,7 @@ exl-id: dfa39c6c-7a1a-4aa4-a72d-caa5e3ebf4a8
 ---
 # Workflow Step Reference{#workflow-step-reference}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

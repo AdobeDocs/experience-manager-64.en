@@ -14,7 +14,7 @@ exl-id: a3ac6b7e-8a18-4432-9e56-1f9bd7cf0548
 ---
 # Language Copy Wizard{#language-copy-wizard}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

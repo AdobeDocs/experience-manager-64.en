@@ -11,7 +11,7 @@ exl-id: eb652414-5b10-45af-a8b6-f1de649994c5
 ---
 # Manage video assets {#managing-video-assets}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

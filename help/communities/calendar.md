@@ -13,7 +13,7 @@ exl-id: f95d1471-82a1-4c37-ac5b-0eb861c823a1
 ---
 # Calendar Feature {#calendar-feature}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

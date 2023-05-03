@@ -8,7 +8,7 @@ exl-id: b0d62dd3-1868-4d73-95f7-3d6c3ff474d9
 ---
 # Configuring Assets Insights {#configuring-asset-insights}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 4868daad-0f3e-48cb-9b20-08dee270e74e
 ---
 # SAML 2.0 Authentication Handler{#saml-authentication-handler}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: e45b56e9-2fd1-4c29-9384-350e1376c193
 ---
 # Implementing Server-Side Page Naming for Analytics{#implementing-server-side-page-naming-for-analytics}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

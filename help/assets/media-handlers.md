@@ -8,7 +8,7 @@ exl-id: 7694c68d-0a17-4052-8fbe-9bf45b229e81
 ---
 # Process assets Using media handlers and workflows {#processing-assets-using-media-handlers-and-workflows}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

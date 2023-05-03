@@ -9,7 +9,7 @@ exl-id: e2295f71-ea3a-483c-9d7b-29acd151845d
 ---
 # Integrating with the Adobe Marketing Cloud{#integrating-with-the-adobe-marketing-cloud}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

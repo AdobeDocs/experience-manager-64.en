@@ -12,7 +12,7 @@ exl-id: e97ecb77-96a0-44cf-8da9-1e85cc122011
 ---
 # Record a transaction for custom implementations {#record-a-transaction-for-custom-implementations}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

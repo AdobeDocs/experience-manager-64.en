@@ -8,7 +8,7 @@ exl-id: 6b78124d-4022-452f-8d0f-b667de337bf4
 ---
 # Publish assets to Brand Portal {#publish-assets-to-brand-portal}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 6a7de639-9c87-4e7c-b431-e48c9cdc7982
 ---
 # Configuring your account environment{#configuring-your-account-environment}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

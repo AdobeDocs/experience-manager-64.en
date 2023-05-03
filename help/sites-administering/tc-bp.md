@@ -14,7 +14,7 @@ exl-id: f8f99ad9-2592-45b0-a16c-33b191722e75
 ---
 # Translation Best Practices{#translation-best-practices}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

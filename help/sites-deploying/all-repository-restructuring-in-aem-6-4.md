@@ -14,7 +14,7 @@ exl-id: df03f65b-9951-4fd4-abf7-1672618fc1df
 ---
 # Common Repository Restructuring in AEM 6.4{#common-repository-restructuring-in-aem}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

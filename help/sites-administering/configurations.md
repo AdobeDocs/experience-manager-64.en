@@ -5,7 +5,7 @@ exl-id: c7e0c8d4-a0e9-4e98-b356-dad9e31ac3fb
 ---
 # Configurations and the Configuration Browser {#configuration-browser}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

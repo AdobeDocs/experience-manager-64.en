@@ -12,7 +12,7 @@ exl-id: 319db420-3318-4ef7-be2b-1ff2b1c08563
 ---
 # Reference letter templates {#reference-letter-templates}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

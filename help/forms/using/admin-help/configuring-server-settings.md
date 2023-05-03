@@ -13,7 +13,7 @@ exl-id: 7933efeb-618a-4c38-8e5e-593be8ebb00c
 ---
 # Configuring Server Settings {#configuring-server-settings}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

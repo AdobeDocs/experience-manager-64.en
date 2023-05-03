@@ -13,7 +13,7 @@ exl-id: 432221c9-4b78-4d0d-bf22-b56810bf4256
 ---
 # Strategy for backup and restore in a clustered environment {#strategy-for-backup-and-restore-in-a-clustered-environment}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

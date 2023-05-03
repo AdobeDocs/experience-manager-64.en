@@ -13,7 +13,7 @@ exl-id: 49bf3e19-d299-4c99-896c-b12135f33fb7
 ---
 # Basic Handling{#basic-handling}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

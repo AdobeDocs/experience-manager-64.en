@@ -13,7 +13,7 @@ exl-id: 8b7a9edc-b7b1-4b31-9a6f-7f79aea7a960
 ---
 # AEM Mobile content personalization{#aem-mobile-content-personalization}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

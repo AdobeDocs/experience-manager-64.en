@@ -12,7 +12,7 @@ exl-id: 9c5d956c-06bc-4428-afcd-02b4f81b802f
 ---
 # Set up and configure AEM Forms reference sites {#set-up-and-configure-aem-forms-reference-sites}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

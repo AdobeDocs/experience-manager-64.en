@@ -13,7 +13,7 @@ exl-id: 44cd0092-de40-4a72-a682-1e8f5906b2e5
 ---
 # Rich Text Editor{#rich-text-editor}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

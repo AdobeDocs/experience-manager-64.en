@@ -13,7 +13,7 @@ exl-id: 2b26d937-4ebf-4a67-9715-a21c8fc45e1e
 ---
 # Community Site Essentials {#community-site-essentials}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

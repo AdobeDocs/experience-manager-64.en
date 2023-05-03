@@ -12,7 +12,7 @@ exl-id: 5822145f-d317-4807-a3f0-1d2aea0a779b
 ---
 # Tutorial: Create templates {#tutorial-create-templates}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

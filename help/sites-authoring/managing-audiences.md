@@ -13,7 +13,7 @@ exl-id: dcd54a52-f610-4c68-8547-39562c062d84
 ---
 # Managing Audiences{#managing-audiences}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

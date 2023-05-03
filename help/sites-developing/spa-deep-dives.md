@@ -7,7 +7,7 @@ exl-id: 4724e321-1c1b-4f2f-b867-5d9f7e8b2cfa
 ---
 # SPA Deep Dives{#spa-deep-dives}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

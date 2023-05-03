@@ -13,7 +13,7 @@ exl-id: 82a843c4-5cb2-4f5e-ad4d-cf2e9ea6cdb8
 ---
 # Enabling attachments for an HTML5 form {#enabling-attachments-for-an-html-form}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

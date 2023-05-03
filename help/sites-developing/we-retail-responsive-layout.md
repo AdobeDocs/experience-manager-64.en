@@ -13,7 +13,7 @@ exl-id: ccb792f7-e837-4790-818f-e2c446328e71
 ---
 # Trying out Responsive Layout in We.Retail{#trying-out-responsive-layout-in-we-retail}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

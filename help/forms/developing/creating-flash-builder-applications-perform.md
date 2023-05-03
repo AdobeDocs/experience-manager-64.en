@@ -14,7 +14,7 @@ exl-id: e4e99b9d-3023-4b9b-9c93-be04c7a871ee
 ---
 # Creating Flash Builder applications that perform SSO authentication using HTTP tokens {#creating-flash-builder-applicationsthat-perform-sso-authentication-using-http-tokens}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

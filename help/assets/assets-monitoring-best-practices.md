@@ -8,7 +8,7 @@ exl-id: edbb275a-5ead-4ed2-8708-29e766081d75
 ---
 # Assets monitoring best practices {#assets-monitoring-best-practices}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

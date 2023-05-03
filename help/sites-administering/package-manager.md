@@ -13,7 +13,7 @@ exl-id: eebc10fa-1d49-4797-a9e6-b6615bfe0173
 ---
 # How to Work With Packages{#how-to-work-with-packages}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

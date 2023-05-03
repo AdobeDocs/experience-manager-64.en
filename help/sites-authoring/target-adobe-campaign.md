@@ -13,7 +13,7 @@ exl-id: e5762efc-508e-40df-91d8-5a6f69332bd0
 ---
 # Targeting your Adobe Campaign{#targeting-your-adobe-campaign}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -12,7 +12,7 @@ exl-id: e8a53976-e9bd-459d-92f5-88527c72428b
 ---
 # Customizing error messages for HTML5 forms {#customizing-error-messages-for-html-forms}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

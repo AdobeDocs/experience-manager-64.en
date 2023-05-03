@@ -8,7 +8,7 @@ exl-id: 0314626d-e846-4f10-950e-6c1ceb7f4c06
 ---
 # Imaging Transcoding Library {#imaging-transcoding-library}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

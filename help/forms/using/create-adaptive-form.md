@@ -11,7 +11,7 @@ exl-id: 144f7c0a-66af-4a8f-8d8c-f960cb612104
 ---
 # Tutorial: Create an adaptive form {#do-not-publish-tutorial-create-an-adaptive-form}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

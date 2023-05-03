@@ -14,7 +14,7 @@ exl-id: a81b2360-9d17-46c7-9443-51b366b0724a
 ---
 # Credential Service Java API Quick Start (SOAP) {#credential-service-java-api-quickstart-soap}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

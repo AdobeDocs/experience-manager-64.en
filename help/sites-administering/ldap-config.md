@@ -13,7 +13,7 @@ exl-id: 1e329725-538a-4058-8832-4eba036f7972
 ---
 # Configuring LDAP with AEM 6 {#configuring-ldap-with-aem}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

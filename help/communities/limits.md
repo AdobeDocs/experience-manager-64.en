@@ -14,7 +14,7 @@ exl-id: fc7ce4d0-2051-4a67-a0d6-baf615e09ca4
 ---
 # Member Contribution Limits {#member-contribution-limits}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

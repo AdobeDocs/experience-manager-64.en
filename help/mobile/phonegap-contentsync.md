@@ -13,7 +13,7 @@ exl-id: 7b43a76c-2625-4dcc-8593-f587071084e1
 ---
 # Mobile with Content Sync{#mobile-with-content-sync}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

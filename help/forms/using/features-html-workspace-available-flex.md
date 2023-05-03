@@ -13,7 +13,7 @@ exl-id: 109adc91-2291-4a10-af7b-e93ae8947258
 ---
 # Features of AEM Forms workspace not available in Flex workspace {#features-of-aem-forms-workspace-not-available-in-flex-workspace}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

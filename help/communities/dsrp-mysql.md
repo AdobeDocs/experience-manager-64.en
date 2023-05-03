@@ -14,7 +14,7 @@ exl-id: 1de1ffc6-63f8-4316-a2fa-5095d407c265
 ---
 # MySQL Configuration for DSRP {#mysql-configuration-for-dsrp}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

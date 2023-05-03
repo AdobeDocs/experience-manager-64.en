@@ -12,7 +12,7 @@ exl-id: caa4f835-c353-49d5-b18c-4d0538c1136f
 ---
 # Creating a new login screen {#creating-a-new-login-screen}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

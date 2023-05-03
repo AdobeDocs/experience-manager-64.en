@@ -14,7 +14,7 @@ exl-id: f146cb2f-ee77-4c99-8dff-446cdb3a7797
 ---
 # Pre-Upgrade Maintenance Tasks{#pre-upgrade-maintenance-tasks}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

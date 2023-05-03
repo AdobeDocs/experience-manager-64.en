@@ -13,7 +13,7 @@ exl-id: 194c0835-e9b5-4968-a5f0-2ed3bf6793fd
 ---
 # Troubleshooting Oak Indexes{#troubleshooting-oak-indexes}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

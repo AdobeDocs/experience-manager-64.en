@@ -13,7 +13,7 @@ exl-id: f603b208-5f7b-4e5d-afa8-c3b249f67fb8
 ---
 # Troubleshooting your Adobe Campaign Integration{#troubleshooting-your-adobe-campaign-integration}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

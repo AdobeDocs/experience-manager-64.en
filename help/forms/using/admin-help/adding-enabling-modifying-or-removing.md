@@ -13,7 +13,7 @@ exl-id: 8aed1439-aa39-4f75-909b-6a7ad7840a08
 ---
 # Adding, enabling, modifying, or removing endpoints {#adding-enabling-modifying-or-removing-endpoints}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

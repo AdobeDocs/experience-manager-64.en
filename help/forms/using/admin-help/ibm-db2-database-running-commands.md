@@ -13,7 +13,7 @@ exl-id: b4877c24-3450-44b6-adcd-78a694b28857
 ---
 # IBM DB2 database: Running commands for regular maintenance {#ibm-db-database-running-commands-for-regular-maintenance}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

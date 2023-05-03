@@ -13,7 +13,7 @@ exl-id: 7ce38ff8-7c21-4de5-b285-6d3e746ce458
 ---
 # Application server websites {#application-server-websites}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: cac16c50-a85d-4e40-a590-8a0a52be893c
 ---
 # Change the order of evaluation for authentication {#change-the-order-of-evaluation-for-authentication}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

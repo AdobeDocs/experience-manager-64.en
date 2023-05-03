@@ -13,7 +13,7 @@ exl-id: 3a341e72-01c5-4c63-8942-6320e5b08440
 ---
 # AEM Communities Release Notes {#aem-communities-release-notes}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

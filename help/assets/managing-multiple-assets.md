@@ -8,7 +8,7 @@ exl-id: 3541b50a-f226-4a6a-9c2a-03a5f47f1c23
 ---
 # Manage multiple assets and collections {#managing-multiple-assets-and-collections}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

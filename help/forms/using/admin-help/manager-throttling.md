@@ -13,7 +13,7 @@ exl-id: 759cff3e-960a-4c38-a731-9fff21e739cf
 ---
 # Work Manager and throttling{#work-manager-and-throttling}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

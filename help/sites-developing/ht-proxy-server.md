@@ -13,7 +13,7 @@ exl-id: 63f3a172-b551-433a-aad5-58c6bfda82bb
 ---
 # How to use the Proxy Server Tool{#how-to-use-the-proxy-server-tool}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

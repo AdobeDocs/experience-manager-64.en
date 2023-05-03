@@ -13,7 +13,7 @@ exl-id: 546a699e-975f-42a1-8ab5-0de4bd7f4a8f
 ---
 # Configuring Task Manager endpoints {#configuring-task-manager-endpoints}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

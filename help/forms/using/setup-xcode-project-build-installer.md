@@ -12,7 +12,7 @@ exl-id: e03beca1-1a95-42c7-b20b-4a2d9eab4df9
 ---
 # Set up the Xcode project and build the iOS app {#set-up-the-xcode-project-and-build-the-ios-app}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

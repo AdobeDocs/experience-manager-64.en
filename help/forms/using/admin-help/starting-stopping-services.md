@@ -13,7 +13,7 @@ exl-id: 6e0607d6-171c-4119-95a1-373b30fb63c1
 ---
 # Starting and stopping services {#starting-and-stopping-services}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

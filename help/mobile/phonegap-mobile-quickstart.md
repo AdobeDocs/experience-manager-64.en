@@ -13,7 +13,7 @@ exl-id: 79893ae8-e2a6-47ac-88f0-08d02f19d5ab
 ---
 # Mobile Quickstart {#mobile-quickstart}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

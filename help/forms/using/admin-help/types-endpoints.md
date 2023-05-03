@@ -13,7 +13,7 @@ exl-id: 7c6b9b6c-d4b5-46a8-8a6a-3b8802ac392d
 ---
 # Types of endpoints {#types-of-endpoints}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

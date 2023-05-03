@@ -13,7 +13,7 @@ exl-id: 3f7d1b95-729a-4c55-af96-efdb9617d333
 ---
 # OSGi Events for Communities Components {#osgi-events-for-communities-components}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

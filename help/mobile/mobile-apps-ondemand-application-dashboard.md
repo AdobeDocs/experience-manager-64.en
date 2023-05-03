@@ -13,7 +13,7 @@ exl-id: 538d6c02-acee-4774-ab3f-1cf152bb42da
 ---
 # AEM Mobile Application Dashboard {#aem-mobile-application-dashboard}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

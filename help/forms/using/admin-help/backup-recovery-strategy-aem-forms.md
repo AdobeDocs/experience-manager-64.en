@@ -13,7 +13,7 @@ exl-id: ee5b0a82-5dd8-4ea6-885c-6154fd41ef4c
 ---
 # Backup and recovery strategy for AEM forms{#backup-and-recovery-strategy-for-aem-forms}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

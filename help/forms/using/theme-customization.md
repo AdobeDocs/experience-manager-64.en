@@ -13,7 +13,7 @@ exl-id: fb1e0bec-c943-4468-920d-8ef360a01365
 ---
 # Theme Customization {#theme-customization}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

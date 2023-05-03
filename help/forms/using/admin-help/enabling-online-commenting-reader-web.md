@@ -13,7 +13,7 @@ exl-id: fe829f39-f56f-417e-819b-62482d7ef2b7
 ---
 # Enabling online commenting for Adobe Reader web browser plug-in {#enabling-online-commenting-for-adobe-reader-web-browser-plug-in}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

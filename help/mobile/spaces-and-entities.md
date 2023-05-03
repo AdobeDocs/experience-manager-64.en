@@ -12,7 +12,7 @@ exl-id: d4f29e1a-4d5c-4bdf-b530-7cd51bf709e7
 ---
 # Spaces and Entities{#spaces-and-entities}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: f3cfa30a-ca15-48db-bacf-1aebbd0ad458
 ---
 # Opting Into Aggregated Usage Statistics Collection{#opting-into-aggregated-usage-statistics-collection}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

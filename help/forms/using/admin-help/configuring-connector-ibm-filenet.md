@@ -13,7 +13,7 @@ exl-id: 3a3d59c2-6811-4513-8384-aa77fdc38686
 ---
 # Configuring Connector for IBM FileNet {#configuring-connector-for-ibm-filenet}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

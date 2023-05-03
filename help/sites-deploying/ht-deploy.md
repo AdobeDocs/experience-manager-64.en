@@ -14,7 +14,7 @@ exl-id: 98f7a6b1-8b16-410c-872c-4af7bc4bcc64
 ---
 # Configuration How-To Articles{#configuration-how-to-articles}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

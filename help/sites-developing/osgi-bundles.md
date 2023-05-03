@@ -13,7 +13,7 @@ exl-id: 19df20a9-7c89-4dfa-8eca-81c4a14c21ff
 ---
 # OSGI Bundles{#osgi-bundles}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

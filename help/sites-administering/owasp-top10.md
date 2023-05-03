@@ -13,7 +13,7 @@ exl-id: c29472c8-9a93-4cb1-9cb1-05fc155ba736
 ---
 # OWASP Top 10{#owasp-top}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

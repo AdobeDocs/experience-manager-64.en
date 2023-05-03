@@ -14,7 +14,7 @@ exl-id: a79e863e-c316-422e-a565-b0ffdeffcc00
 ---
 # AEM Forms on OSGi Groups and Privileges {#aem-forms-on-osgi-groups-and-privileges}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

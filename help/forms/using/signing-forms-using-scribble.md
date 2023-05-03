@@ -12,7 +12,7 @@ exl-id: a870c4b7-4040-4bd8-b477-286ebe6a4b01
 ---
 # Apply electronic signatures to a form using scribble signatures {#apply-electronic-signatures-to-a-form-using-scribble-signatures}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

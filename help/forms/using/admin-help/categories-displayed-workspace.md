@@ -13,7 +13,7 @@ exl-id: 5a2bd0ea-2c5e-4e0c-aff1-dba06be6a5b7
 ---
 # Managing the categories displayed in Workspace {#managing-the-categories-displayed-in-workspace}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

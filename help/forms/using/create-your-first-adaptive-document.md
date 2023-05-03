@@ -10,7 +10,7 @@ discoiquuid: f3ca177f-7c0d-4b8b-ab4b-bf04668d634c
 
 # DO NOT PUBLISH Create your first adaptive document {#do-not-publish-create-your-first-adaptive-document}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -8,7 +8,7 @@ exl-id: 12899f61-9ceb-4bde-a501-6c50c93e3276
 ---
 # Create and configure Asset Editor pages {#creating-and-configuring-asset-editor-pages}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

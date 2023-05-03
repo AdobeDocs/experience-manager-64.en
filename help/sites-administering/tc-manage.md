@@ -14,7 +14,7 @@ exl-id: 191b9aff-3acd-4272-8683-d3e6899fe78c
 ---
 # Managing Translation Projects{#managing-translation-projects}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: ba604611-03cb-4f97-8ff6-1a559b52263b
 ---
 # Using Client-Side Libraries{#using-client-side-libraries}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

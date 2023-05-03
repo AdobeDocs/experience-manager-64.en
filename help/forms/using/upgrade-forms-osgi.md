@@ -14,7 +14,7 @@ exl-id: 183ed9c6-6a9a-4932-8405-5ae2c6fac1ec
 ---
 # Upgrade to AEM 6.4 Forms on OSGi {#upgrade-to-aem-forms-osgi}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

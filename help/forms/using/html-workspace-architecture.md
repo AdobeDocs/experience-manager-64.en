@@ -13,7 +13,7 @@ exl-id: 30bde8d6-7959-4e4b-a6f4-faf52444e67a
 ---
 # AEM Forms Workspace Architecture {#aem-forms-workspace-architecture}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

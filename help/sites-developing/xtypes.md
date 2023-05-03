@@ -13,7 +13,7 @@ exl-id: 81d7fa0c-86db-47a1-8fac-44941d3affde
 ---
 # Using xtypes (Classic UI){#using-xtypes-classic-ui}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

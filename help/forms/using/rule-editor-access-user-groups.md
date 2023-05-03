@@ -13,7 +13,7 @@ exl-id: 5e2960f2-b172-48a7-bba3-4561a5f9c7bc
 ---
 # Grant rule editor access to select user groups {#grant-rule-editor-access-to-select-user-groups}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

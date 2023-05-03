@@ -15,7 +15,7 @@ exl-id: be9db93d-97e1-4d4e-8d07-1c58a4a1a44c
 ---
 # Assembling Multiple XDP Fragments {#assembling-multiple-xdp-fragments}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

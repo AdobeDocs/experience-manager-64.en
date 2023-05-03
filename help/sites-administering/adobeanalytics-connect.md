@@ -13,7 +13,7 @@ exl-id: 654387e3-d837-4bde-a9e4-962862ad69e9
 ---
 # Connecting to Adobe Analytics and Creating Frameworks{#connecting-to-adobe-analytics-and-creating-frameworks}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

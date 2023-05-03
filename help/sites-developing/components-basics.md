@@ -14,7 +14,7 @@ exl-id: 2c8956bf-e20a-441d-aecc-f2600e1fa11e
 ---
 # AEM Components - The Basics{#aem-components-the-basics}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

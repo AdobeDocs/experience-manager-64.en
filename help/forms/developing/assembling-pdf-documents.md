@@ -15,7 +15,7 @@ exl-id: d89bac8d-67e6-4442-845b-e358cbe0a568
 ---
 # Assembling PDF Documents {#assembling-pdf-documents}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

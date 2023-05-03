@@ -12,7 +12,7 @@ exl-id: 7b1f60e7-c8fa-43b6-bef4-88b42e7bbc36
 ---
 # Customize images used in route actions {#customize-images-used-in-route-actions}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

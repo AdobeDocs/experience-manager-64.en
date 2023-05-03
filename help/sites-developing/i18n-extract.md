@@ -13,7 +13,7 @@ exl-id: 50c2479b-72b6-42fa-8e48-45c8e9596161
 ---
 # Extracting Strings for Translating{#extracting-strings-for-translating}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

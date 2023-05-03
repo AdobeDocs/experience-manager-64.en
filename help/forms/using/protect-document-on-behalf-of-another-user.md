@@ -11,7 +11,7 @@ exl-id: 76f25e65-1bc3-4801-998c-40ff533393e2
 ---
 # Protect a document on behalf of another user {#protect-a-document-on-behalf-of-another-user}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -14,7 +14,7 @@ exl-id: 79eafdb5-8b83-466a-8d06-da1a655a0619
 ---
 # Is your hybrid app ready for AEM Mobile?{#is-your-hybrid-app-ready-for-aem-mobile}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

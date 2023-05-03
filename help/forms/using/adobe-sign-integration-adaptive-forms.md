@@ -13,7 +13,7 @@ exl-id: e7c27623-a889-4bd5-bfff-cfe513cd1a35
 ---
 # Integrate Acrobat Sign with AEM Forms {#integrate-adobe-sign-with-aem-forms}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: efbb9a9e-0ddf-49f2-bcb8-14cd0c6de5ee
 ---
 # Changing the color scheme of the interface {#changing-the-color-scheme-of-the-interface}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

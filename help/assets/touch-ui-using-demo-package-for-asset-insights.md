@@ -8,7 +8,7 @@ exl-id: c6d321f5-4c48-47f2-bff1-c4da988c0e84
 ---
 # Using demo package for Assets Insights {#using-demo-package-for-asset-insights}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -12,7 +12,7 @@ exl-id: 0c64940c-273d-4f23-afcb-38bf54cddd36
 ---
 # Best practices for working with adaptive forms {#best-practices-for-working-with-adaptive-forms}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

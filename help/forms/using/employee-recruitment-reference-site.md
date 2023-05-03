@@ -11,7 +11,7 @@ exl-id: f07e3786-d396-47de-83cb-fc7afc423d09
 ---
 # Employee recruitment reference site walkthrough {#employee-recruitment-reference-site-walkthrough}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

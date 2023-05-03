@@ -13,7 +13,7 @@ exl-id: 1ab81235-2627-4304-bbf2-71598de948db
 ---
 # Creating an Effective Newsletter Landing Page{#creating-an-effective-newsletter-landing-page}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

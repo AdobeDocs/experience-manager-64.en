@@ -14,7 +14,7 @@ exl-id: 89ca201e-23ad-4038-8f3e-7c9cd04f52e2
 ---
 # Tagging Enablement Resources {#tagging-enablement-resources}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

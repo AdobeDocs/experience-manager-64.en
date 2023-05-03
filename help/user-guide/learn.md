@@ -9,7 +9,7 @@ exl-id: 5cb966c3-1e19-47c8-a691-067f6d4680c0
 ---
 # Learn About AEM 6.4 Capabilities {#learn-about-aem-64-capabilities}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

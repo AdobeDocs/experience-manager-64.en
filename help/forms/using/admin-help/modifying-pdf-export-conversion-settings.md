@@ -14,7 +14,7 @@ exl-id: 29dc0b02-226d-4650-8266-2ad2c17dc6a5
 ---
 # Modifying the PDF Export conversion settings {#modifying-the-pdf-export-conversion-settings}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 7780d04d-418e-494c-85c3-76bef5f35690
 ---
 # Using Sling Adapters{#using-sling-adapters}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

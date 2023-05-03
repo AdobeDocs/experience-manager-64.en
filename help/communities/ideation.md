@@ -13,7 +13,7 @@ exl-id: 7fb68293-c6e3-4793-b433-205bcfc23e20
 ---
 # Ideation Essentials {#ideation-essentials}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: ee034595-2d2a-4887-86c4-6bf0770da6a2
 ---
 # General Release Notes for Adobe Experience Manager 6.4 {#general-release-notes-for-adobe-experience-manager}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

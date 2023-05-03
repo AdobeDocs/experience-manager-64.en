@@ -13,7 +13,7 @@ exl-id: f29868e3-d05c-4898-94d1-0c77ab6b72eb
 ---
 # Adding Fonts for Graphic-Rendering{#adding-fonts-for-graphic-rendering}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

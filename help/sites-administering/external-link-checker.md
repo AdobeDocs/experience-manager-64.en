@@ -5,7 +5,7 @@ exl-id: 30718d02-3370-48aa-a5ba-242d5efaa14c
 ---
 # The Link Checker {#the-link-checker}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

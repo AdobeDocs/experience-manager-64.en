@@ -13,7 +13,7 @@ exl-id: 4805db0f-18d2-4bbc-a4d6-eaafa7a4c152
 ---
 # Featured Content Essentials {#featured-content-essentials}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

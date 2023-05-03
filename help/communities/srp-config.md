@@ -14,7 +14,7 @@ exl-id: 905b6dc5-cf17-4f58-a687-27e2910a0729
 ---
 # Storage Configuration {#storage-configuration}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

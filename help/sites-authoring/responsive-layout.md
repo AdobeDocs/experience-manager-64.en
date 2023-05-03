@@ -13,7 +13,7 @@ exl-id: 788bb439-fb8a-4ab9-b367-cea6a17c0c43
 ---
 # Responsive Layout{#responsive-layout}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

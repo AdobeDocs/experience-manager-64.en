@@ -13,7 +13,7 @@ exl-id: 0933f733-50bf-48ae-a5da-be5dc9335253
 ---
 # Custom Standalone Install{#custom-standalone-install}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

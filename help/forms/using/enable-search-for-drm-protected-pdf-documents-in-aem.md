@@ -14,7 +14,7 @@ exl-id: c405c69b-3588-4701-8f36-1ea0680e056d
 ---
 # Enable AEM to search document security protected PDF documents {#enable-aem-to-search-document-security-protected-pdf-documents}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

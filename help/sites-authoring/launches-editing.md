@@ -14,7 +14,7 @@ exl-id: 9f208b13-08eb-4305-b712-379e9b9b041e
 ---
 # Editing Launches{#editing-launches}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

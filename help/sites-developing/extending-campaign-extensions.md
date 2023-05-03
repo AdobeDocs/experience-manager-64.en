@@ -13,7 +13,7 @@ exl-id: 8a56b5a0-90da-4fd4-ba26-74bbc7b6b445
 ---
 # Creating Custom Extensions{#creating-custom-extensions}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

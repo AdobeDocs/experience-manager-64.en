@@ -13,7 +13,7 @@ exl-id: 80edcd53-bc3c-4f61-8dfb-c592e7e51f60
 ---
 # Quick Guide to WCAG 2.0{#quick-guide-to-wcag}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

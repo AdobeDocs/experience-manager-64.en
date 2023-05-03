@@ -14,7 +14,7 @@ exl-id: 64431958-c802-42d1-a2e3-5e85e15bfad6
 ---
 # Controlling access to policy-protected documents {#controlling-access-to-policy-protected-documents}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

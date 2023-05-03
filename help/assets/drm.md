@@ -8,7 +8,7 @@ exl-id: 3eea4983-9dd5-4d69-ad93-3cd37a656d22
 ---
 # Digital Rights Management for assets {#digital-rights-management-in-assets}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

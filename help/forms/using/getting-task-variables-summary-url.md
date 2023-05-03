@@ -12,7 +12,7 @@ exl-id: f80d006b-6970-4448-aa38-3ffec8b08c18
 ---
 # Getting Task Variables in Summary URL {#getting-task-variables-in-summary-url}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

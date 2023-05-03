@@ -13,7 +13,7 @@ exl-id: 6ba1e011-e18d-4e2a-a47c-85a4962cc83c
 ---
 # Configuring ContextHub {#configuring-contexthub}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

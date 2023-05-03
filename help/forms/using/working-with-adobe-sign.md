@@ -14,7 +14,7 @@ exl-id: 5922ea6e-8be9-4e65-89a6-67b6cc12c4ee
 ---
 # Using Acrobat Sign in an adaptive form {#using-adobe-sign-in-an-adaptive-form}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

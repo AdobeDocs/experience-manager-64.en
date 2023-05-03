@@ -13,7 +13,7 @@ exl-id: 23e30de9-1a30-484a-b370-f9f0d45b4e41
 ---
 # Concept of Authoring and Publishing{#authoring}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -12,7 +12,7 @@ exl-id: 6b53f47c-9333-43a3-8db9-8737d9610110
 ---
 # Data Dictionary {#data-dictionary}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

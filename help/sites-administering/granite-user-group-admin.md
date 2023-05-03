@@ -14,7 +14,7 @@ exl-id: bd29e81d-eb4a-4764-96f2-84e091836a8a
 ---
 # Granite Operations - User and Group Administration{#granite-operations-user-and-group-administration}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

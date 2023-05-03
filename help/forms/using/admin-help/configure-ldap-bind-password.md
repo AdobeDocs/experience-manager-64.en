@@ -13,7 +13,7 @@ exl-id: eaa2c889-d116-4209-9063-0c0b32dd8849
 ---
 # Configure the LDAP bind password{#configure-the-ldap-bind-password}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

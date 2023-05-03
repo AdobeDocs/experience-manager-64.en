@@ -11,7 +11,7 @@ exl-id: 4df9a16c-0853-4bbf-81bb-1856ab55c5ee
 ---
 # Integrating third-party applications in AEM Forms workspace {#integrating-third-party-applications-in-aem-forms-workspace}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

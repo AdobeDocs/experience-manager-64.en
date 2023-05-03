@@ -13,7 +13,7 @@ exl-id: 88932b5b-2acc-4f21-8ce3-b819a990ad30
 ---
 # Configuring certificate-based authentication {#configuring-certificate-based-authentication}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

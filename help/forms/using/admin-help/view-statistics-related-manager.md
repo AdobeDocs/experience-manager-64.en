@@ -13,7 +13,7 @@ exl-id: 642f5ee3-c991-4238-9b82-f0e19a6d8e2d
 ---
 # View statistics related to Work Manager {#view-statistics-related-to-work-manager}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

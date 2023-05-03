@@ -11,7 +11,7 @@ exl-id: 7fbdd976-5a70-4af4-b449-7c2d6bcfd915
 ---
 # Employee self-service reference site walkthrough {#employee-self-service-reference-site-walkthrough}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

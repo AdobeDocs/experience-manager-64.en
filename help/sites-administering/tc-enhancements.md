@@ -13,7 +13,7 @@ exl-id: 57a77cec-e228-4ec7-8502-e6e23baddd92
 ---
 # Translation Enhancements{#translation-enhancements}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

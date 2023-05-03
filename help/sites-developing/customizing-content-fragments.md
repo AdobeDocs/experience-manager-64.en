@@ -13,7 +13,7 @@ exl-id: 540391a8-b846-4e5e-bf77-ab20726f06d0
 ---
 # Customizing and Extending Content Fragments{#customizing-and-extending-content-fragments}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 92ee8c25-9f11-4743-a8e6-1f4986d09a6a
 ---
 # Creating Shared Resources Export Configuration{#creating-shared-resources-export-configuration}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

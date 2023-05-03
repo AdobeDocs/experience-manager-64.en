@@ -14,7 +14,7 @@ exl-id: 3a8e8fef-9aef-4b9d-8b0b-e76aa2962b61
 ---
 # Communities User Synchronization {#communities-user-synchronization}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

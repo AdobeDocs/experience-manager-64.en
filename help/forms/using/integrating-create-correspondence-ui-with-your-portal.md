@@ -13,7 +13,7 @@ exl-id: 8b1bbd85-66ba-4e96-917a-d768d84a417f
 ---
 # Integrating Create Correspondence UI with your custom portal {#integrating-create-correspondence-ui-with-your-custom-portal}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

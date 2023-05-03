@@ -12,7 +12,7 @@ exl-id: de97e6f7-25bf-462b-b67d-0d3fbd86a321
 ---
 # Customizing the task details page {#customizing-the-task-details-page}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

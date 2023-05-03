@@ -13,7 +13,7 @@ exl-id: 45b9d418-0ecb-44c9-8091-b9ce29ba730b
 ---
 # SRP and UGC Essentials {#srp-and-ugc-essentials}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

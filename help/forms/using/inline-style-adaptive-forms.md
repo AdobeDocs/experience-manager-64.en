@@ -12,7 +12,7 @@ exl-id: 8e7ba9d2-207f-419b-bcd5-74ba9b14ab92
 ---
 # Inline styling of adaptive form components {#inline-styling-of-adaptive-form-components}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

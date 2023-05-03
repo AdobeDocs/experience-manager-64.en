@@ -9,7 +9,7 @@ exl-id: 0bfb05b8-7d10-4984-9e89-f1af88938c03
 ---
 # Integrating with Dynamic Media Classic {#integrating-with-dynamic-media-classic-scene}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

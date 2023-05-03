@@ -11,7 +11,7 @@ exl-id: 6172d936-9348-4f3f-a437-6465dd156f3b
 ---
 # Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows  {#actions-and-capabilities-of-form-centric-aem-workflows-on-osgi-and-aem-forms-jee-workflows}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

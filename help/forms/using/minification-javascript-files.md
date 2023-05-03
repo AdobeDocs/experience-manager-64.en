@@ -13,7 +13,7 @@ exl-id: 8394151e-e9cf-4f68-97a3-ba1d1dd6a2d2
 ---
 # Minification of the JavaScript files {#minification-of-the-javascript-files}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

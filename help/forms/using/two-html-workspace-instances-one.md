@@ -12,7 +12,7 @@ exl-id: ef2ad8e1-5007-4587-97ca-cf21070be9a6
 ---
 # Hosting two AEM Forms workspace instances on one server {#hosting-two-aem-forms-workspace-instances-on-one-server}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

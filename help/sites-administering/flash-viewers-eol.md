@@ -9,7 +9,7 @@ exl-id: 14c95a98-e4fa-493f-96fb-6522054c186c
 ---
 # Flash Viewers End-of-Life Notice{#flash-viewers-end-of-life-notice}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

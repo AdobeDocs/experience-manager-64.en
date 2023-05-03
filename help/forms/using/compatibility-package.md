@@ -14,7 +14,7 @@ exl-id: 0bfa0e65-c4cd-4c37-b42b-bff1b777a7be
 ---
 # Install compatibility Package {#compatibility-package}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

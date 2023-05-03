@@ -14,7 +14,7 @@ exl-id: 1c72093e-82c8-49ad-bd3c-d61904aaab28
 ---
 # Upgrade Steps for Application Server Installations{#upgrade-steps-for-application-server-installations}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

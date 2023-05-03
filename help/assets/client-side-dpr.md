@@ -6,7 +6,7 @@ exl-id: 3c19a02f-9d97-4ed4-92ea-0b5861267219
 ---
 # About Smart Imaging with client-side Device Pixel Ratio (DPR) {#client-side-dpr}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

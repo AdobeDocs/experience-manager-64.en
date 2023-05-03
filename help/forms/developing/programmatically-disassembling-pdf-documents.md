@@ -14,7 +14,7 @@ exl-id: 3f757392-96a0-4f20-91d0-7fbccb1bf171
 ---
 # Programmatically Disassembling PDF Documents {#programmatically-disassembling-pdf-documents}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

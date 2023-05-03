@@ -13,7 +13,7 @@ exl-id: 0c8fefb5-6fa0-4fab-a890-9f5ae7508459
 ---
 # Deploying Best Practices{#deploying-best-practices}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

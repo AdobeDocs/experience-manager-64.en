@@ -15,7 +15,7 @@ exl-id: 902fc62b-262e-4eb4-b580-dbfbf4344fa6
 ---
 # Assembling Documents Using Bates Numbering {#assembling-documents-using-bates-numbering}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

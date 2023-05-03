@@ -7,7 +7,7 @@ exl-id: 725e4f82-7019-4365-9c01-b5d95ea2a8fa
 ---
 # Developing AEM Components (Classic UI){#developing-aem-components-classic-ui}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

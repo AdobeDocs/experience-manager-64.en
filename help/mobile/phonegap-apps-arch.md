@@ -12,7 +12,7 @@ exl-id: 22fa0b08-075e-4648-a990-2f89d12d7b25
 ---
 # The Anatomy of an App{#the-anatomy-of-an-app}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

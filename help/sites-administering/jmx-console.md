@@ -13,7 +13,7 @@ exl-id: 22110676-c102-4730-ab38-45396b15a274
 ---
 # Monitoring Server Resources Using the JMX Console{#monitoring-server-resources-using-the-jmx-console}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

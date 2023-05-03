@@ -13,7 +13,7 @@ exl-id: 210cb5f2-cc5c-4664-b324-5c6f70f7b593
 ---
 # Troubleshooting guidelines for AEM Forms workspace {#troubleshooting-guidelines-for-aem-forms-workspace}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

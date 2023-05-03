@@ -13,7 +13,7 @@ exl-id: f24d9260-31e8-4bdf-8b80-c17cdd2d0747
 ---
 # Configuring email endpoints {#configuring-email-endpoints}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

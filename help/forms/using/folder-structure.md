@@ -13,7 +13,7 @@ exl-id: 192c436d-a507-4883-bd68-a6863a6664e0
 ---
 # Understanding the folder structure {#understanding-the-folder-structure}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

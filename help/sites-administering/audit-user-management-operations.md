@@ -14,7 +14,7 @@ exl-id: f987c4f5-64dd-491b-aafe-cb98acf0b1eb
 ---
 # How to Audit User Management Operations in AEM{#how-to-audit-user-management-operations-in-aem}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 50f96633-bb20-4d55-adf9-3c3d314be4c5
 ---
 # Review the usage rights of a PDF file {#review-the-usage-rights-of-a-pdf-file}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

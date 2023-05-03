@@ -13,7 +13,7 @@ exl-id: 81a48c01-8052-47b1-be39-e126c37c7f0f
 ---
 # Import and manage applications{#import-and-manage-applications}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

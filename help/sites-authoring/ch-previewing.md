@@ -13,7 +13,7 @@ exl-id: 24f94dd5-62a4-4ac3-9a1b-a8e189da9958
 ---
 # Previewing Pages Using ContextHub Data{#previewing-pages-using-contexthub-data}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

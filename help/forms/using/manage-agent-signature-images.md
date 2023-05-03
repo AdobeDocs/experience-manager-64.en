@@ -13,7 +13,7 @@ exl-id: 4e261228-14a4-4983-97ac-6ca476bee126
 ---
 # Manage agent signature images {#manage-agent-signature-images}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

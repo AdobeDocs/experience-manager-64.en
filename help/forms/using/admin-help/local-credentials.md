@@ -13,7 +13,7 @@ exl-id: f8c6f4e3-4c2d-4843-8f29-6d3297e57c89
 ---
 # Managing local credentials {#managing-local-credentials}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -14,7 +14,7 @@ exl-id: f23a1c62-0191-4b5b-90be-d66d51e38f83
 ---
 # MSM Best Practices{#msm-best-practices}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

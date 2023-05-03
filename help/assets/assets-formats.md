@@ -8,7 +8,7 @@ exl-id: ee25fe8f-36fb-42b3-9f90-0ea77bc02e2f
 ---
 # Files formats supported in [!DNL Adobe Experience Manager Assets] {#assets-supported-formats}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

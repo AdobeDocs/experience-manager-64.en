@@ -13,7 +13,7 @@ exl-id: ab5233dd-182e-4871-997f-b2142901bce7
 ---
 # Use HSM to digitally sign or certify documents {#use-hsm-to-digitally-sign-or-certify-documents}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

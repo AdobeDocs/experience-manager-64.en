@@ -13,7 +13,7 @@ exl-id: 5aae7744-73cc-472b-a4e6-ecd88284b70c
 ---
 # Using Reviews and Reviews Summary (Display) {#using-reviews-and-reviews-summary-display}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

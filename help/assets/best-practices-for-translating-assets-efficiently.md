@@ -8,7 +8,7 @@ exl-id: 15162b80-ddef-4ec0-9db6-36695c93ebb1
 ---
 # Best practices to translate assets efficiently {#best-practices-for-translating-assets-efficiently}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

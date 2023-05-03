@@ -13,7 +13,7 @@ exl-id: 5aa02fae-b9dd-45bf-9826-16e9e5686727
 ---
 # Hardening Your AEM Forms on JEE Environment {#hardening-your-aem-forms-on-jee-environment}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

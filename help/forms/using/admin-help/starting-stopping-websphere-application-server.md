@@ -13,7 +13,7 @@ exl-id: 8e3bb77f-b187-42c8-a90e-fe0fee50dc34
 ---
 # Starting and stopping WebSphere Application Server {#starting-and-stopping-websphere-application-server}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

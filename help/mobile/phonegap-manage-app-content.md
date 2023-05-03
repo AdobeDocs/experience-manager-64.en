@@ -13,7 +13,7 @@ exl-id: 8000014c-98c1-4de4-9f0d-b7fdc1a37cd6
 ---
 # Creating and Managing App Content{#creating-and-managing-app-content}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

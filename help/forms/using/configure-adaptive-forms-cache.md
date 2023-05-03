@@ -13,7 +13,7 @@ exl-id: 6a610e9d-beec-486d-b1d2-78b5fec44c52
 ---
 # Configure adaptive forms cache {#configure-adaptive-forms-cache}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

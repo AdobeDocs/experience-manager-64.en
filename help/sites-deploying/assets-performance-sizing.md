@@ -13,7 +13,7 @@ exl-id: 2c455a20-a2b9-4a80-8577-f1a1713710d6
 ---
 # Assets Performance Guide{#assets-performance-guide}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

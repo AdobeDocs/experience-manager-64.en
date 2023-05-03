@@ -12,7 +12,7 @@ exl-id: eeffd886-8955-46eb-aa6d-dd4da5e8570c
 ---
 # Document Security | Handling user data {#document-security-handling-user-data}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

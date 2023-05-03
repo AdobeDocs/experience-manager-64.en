@@ -8,7 +8,7 @@ exl-id: ed01143c-b516-44f8-aceb-ad2e3f0106b2
 ---
 # Watermark your digital assets {#watermarking}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

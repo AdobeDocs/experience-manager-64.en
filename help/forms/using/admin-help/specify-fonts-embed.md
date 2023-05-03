@@ -13,7 +13,7 @@ exl-id: e24f4123-bed3-4096-b3fb-22deb1c1e9b9
 ---
 # Specify fonts to embed{#specify-fonts-to-embed}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

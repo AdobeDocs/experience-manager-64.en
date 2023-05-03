@@ -14,7 +14,7 @@ exl-id: 670d9680-6125-4a48-82ef-78f1630d780f
 ---
 # Encrypting and Decrypting PDF Documents {#encrypting-and-decrypting-pdf-documents}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

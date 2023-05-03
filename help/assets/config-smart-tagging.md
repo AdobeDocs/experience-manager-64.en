@@ -8,7 +8,7 @@ exl-id: 11c5dd92-f824-41d2-9ab2-b32bdeae01b6
 ---
 # Configure asset tagging using the Smart Content Service {#configure-asset-tagging-using-the-smart-content-service}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

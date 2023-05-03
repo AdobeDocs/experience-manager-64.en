@@ -13,7 +13,7 @@ exl-id: 31bced35-4845-40d1-9bfd-5c75d54e1a83
 ---
 # Customizing the Consoles{#customizing-the-consoles}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

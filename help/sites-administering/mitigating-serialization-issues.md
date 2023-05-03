@@ -13,7 +13,7 @@ exl-id: 779e1e4c-9a6e-4446-9c12-5b2499afbf6a
 ---
 # Mitigating serialization issues in AEM{#mitigating-serialization-issues-in-aem}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 92c95cb5-fdbf-4200-89a8-10c768e4bc25
 ---
 # Initial Setup for Enablement {#initial-setup-for-enablement}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

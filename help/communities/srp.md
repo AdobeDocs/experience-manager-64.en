@@ -13,7 +13,7 @@ exl-id: 17105abe-177b-4e73-bb4f-22b208c436ef
 ---
 # Storage Resource Provider Overview {#storage-resource-provider-overview}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

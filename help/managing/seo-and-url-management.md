@@ -13,7 +13,7 @@ exl-id: d45fe856-4709-437b-b193-e8243a695d2c
 ---
 # SEO and URL Management Best Practices{#seo-and-url-management-best-practices}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

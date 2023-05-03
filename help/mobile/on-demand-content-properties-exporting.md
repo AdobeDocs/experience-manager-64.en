@@ -13,7 +13,7 @@ exl-id: 27aa405d-2388-4f91-85d0-1a8709e0d5d0
 ---
 # Using Content Properties to Export Content{#using-content-properties-to-export-content}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

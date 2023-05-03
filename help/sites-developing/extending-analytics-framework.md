@@ -13,7 +13,7 @@ exl-id: 7e465a56-ca26-481e-9b3e-b438ef7fbff0
 ---
 # Customizing the Adobe Analytics Framework{#customizing-the-adobe-analytics-framework}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

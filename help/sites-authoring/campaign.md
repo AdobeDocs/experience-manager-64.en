@@ -13,7 +13,7 @@ exl-id: 3d447eb5-9abd-4ea2-844b-e106a0fa9c5e
 ---
 # Working with Adobe Campaign Classic and Adobe Campaign Standard{#working-with-adobe-campaign-classic-and-adobe-campaign-standard}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 3c9d856e-4f94-4295-9f30-d675110016b7
 ---
 # Getting Started with AEM Mobile{#getting-started-with-aem-mobile}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

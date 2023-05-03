@@ -14,7 +14,7 @@ exl-id: 636b28aa-0806-4250-ad3b-a72be704af1f
 ---
 # MSM Rollout Conflicts{#msm-rollout-conflicts}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

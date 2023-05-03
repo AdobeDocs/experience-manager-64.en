@@ -13,7 +13,7 @@ exl-id: 5f6d23b2-ab8b-48fd-b853-eea7d6c9d651
 ---
 # Creating adaptive forms using XML Schema {#creating-adaptive-forms-using-xml-schema}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

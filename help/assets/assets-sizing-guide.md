@@ -11,7 +11,7 @@ exl-id: 6115e5e8-9cf5-417c-91b3-0c0c9c278b5b
 ---
 # Assets Sizing Guide {#assets-sizing-guide}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

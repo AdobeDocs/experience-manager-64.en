@@ -13,7 +13,7 @@ exl-id: 598ec9cd-e23b-4cc4-be1c-0836a1e3f118
 ---
 # Configure Your Users and User Groups {#configure-your-users-and-user-groups}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

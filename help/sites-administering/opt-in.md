@@ -13,7 +13,7 @@ exl-id: e532fdbb-c847-4061-996e-d1ffde3bb6be
 ---
 # Opting Into Adobe Analytics and Adobe Target{#opting-into-adobe-analytics-and-adobe-target}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

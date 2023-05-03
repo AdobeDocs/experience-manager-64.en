@@ -12,7 +12,7 @@ exl-id: 88fa9c80-4eae-4663-a6c8-abbf1921444e
 ---
 # Using an adaptive form in HTML Workspace {#using-an-adaptive-form-in-html-workspace}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

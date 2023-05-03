@@ -13,7 +13,7 @@ exl-id: d58c2468-3e77-41a0-a2ba-c19912c77f73
 ---
 # Add custom properties to Correspondence Management assets {#add-custom-properties-to-correspondence-management-assets}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

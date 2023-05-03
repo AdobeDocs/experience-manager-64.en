@@ -12,7 +12,7 @@ exl-id: 0ffb297f-8c5a-4909-b4c0-2d8253548640
 ---
 # Conditions in Interactive Communications {#conditions-in-interactive-communications}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

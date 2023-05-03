@@ -8,7 +8,7 @@ exl-id: 4c62e0cd-eaa5-456e-85f3-06f7a9f160f5
 ---
 # Review folder assets and collections {#review-folder-assets-and-collections}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

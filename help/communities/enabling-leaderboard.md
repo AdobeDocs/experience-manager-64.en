@@ -13,7 +13,7 @@ exl-id: 1ebe0cbb-33be-4101-92e3-64253a7f7f31
 ---
 # Leaderboard Feature {#leaderboard-feature}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 38bae0d7-9544-42d0-9766-45c66f254e5c
 ---
 # AEM Sites - GDPR Readiness{#aem-sites-gdpr-readiness}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

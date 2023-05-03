@@ -14,7 +14,7 @@ exl-id: 516c1561-5c13-4301-8009-9b021087cec7
 ---
 # Components for Content Fragments{#components-for-content-fragments}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

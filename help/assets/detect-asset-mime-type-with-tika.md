@@ -8,7 +8,7 @@ exl-id: 6c9e53e9-5e54-4816-9431-41e796340d1e
 ---
 # Use Apache Tika to detect MIME type of digital assets {#detecting-mime-type-of-assets-using-apache-tika}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

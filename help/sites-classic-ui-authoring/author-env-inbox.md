@@ -13,7 +13,7 @@ exl-id: e7111c21-1f38-4d0d-ac4b-c83133c0d8d6
 ---
 # Your Inbox{#your-inbox}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

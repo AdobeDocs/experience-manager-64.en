@@ -7,7 +7,7 @@ exl-id: 8d0863be-108d-49d8-8243-ea5e404ed64c
 ---
 # Best Practices for Performance Testing{#best-practices-for-performance-testing}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

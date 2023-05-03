@@ -13,7 +13,7 @@ exl-id: 660a7106-0c21-4073-8319-4d6d20b9bc49
 ---
 # Using Voting {#using-voting}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: a0847b2b-d508-474d-a155-8ee891c566fa
 ---
 # Single Page Applications{#single-page-applications}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

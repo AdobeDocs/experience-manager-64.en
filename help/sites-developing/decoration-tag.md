@@ -5,7 +5,7 @@ exl-id: b5edfd56-8e21-44b9-9ea4-3bbdcdb23b50
 ---
 # Decoration Tag {#decoration-tag}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

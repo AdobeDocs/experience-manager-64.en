@@ -13,7 +13,7 @@ exl-id: 6b8b19ae-eb3b-46d5-ab44-18c43d11aa61
 ---
 # Assignments Feature {#assignments-feature}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 07ca7715-f7b3-40e0-95bc-e05f0662ed08
 ---
 # Editing and converting existing domains{#editing-and-converting-existing-domains}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

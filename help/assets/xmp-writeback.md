@@ -8,7 +8,7 @@ exl-id: 456f8c91-aacf-4db5-a329-2d1650ff0f2f
 ---
 # XMP writeback to renditions {#xmp-writeback-to-renditions}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -6,7 +6,7 @@ exl-id: 2d5e9ada-1567-43dc-ab19-6891e20e1d0b
 ---
 # Configure the Rich Text Editor {#configure-the-rich-text-editor}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

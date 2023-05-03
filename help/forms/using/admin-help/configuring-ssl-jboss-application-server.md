@@ -13,7 +13,7 @@ exl-id: 1888b8c7-d077-4e54-b442-5df0ba557513
 ---
 # Configuring SSL for JBoss Application Server {#configuring-ssl-for-jboss-application-server}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

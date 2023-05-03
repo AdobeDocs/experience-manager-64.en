@@ -12,7 +12,7 @@ exl-id: 1e772376-d25a-4471-bf7c-5a8a8cdeb543
 ---
 # Troubleshoot AEM Forms app {#troubleshoot-aem-forms-app}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 1699b24f-cf2a-419b-a2f9-be294fa3591f
 ---
 # Managing Projects - Best Practices Checklist{#managing-projects-best-practices-checklist}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

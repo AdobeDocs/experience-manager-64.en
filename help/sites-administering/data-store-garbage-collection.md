@@ -13,7 +13,7 @@ exl-id: 83b9a9cb-3f86-472b-b9dc-6ec633003481
 ---
 # Data Store Garbage Collection {#data-store-garbage-collection}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

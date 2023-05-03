@@ -13,7 +13,7 @@ exl-id: ea12035c-09b6-4197-ab23-c27fe71e7432
 ---
 # Configuring Email Notification{#configuring-email-notification}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

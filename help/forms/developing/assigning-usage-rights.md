@@ -14,7 +14,7 @@ exl-id: c7805d8a-eb6a-4908-9662-936920ffa67a
 ---
 # Assigning Usage Rights {#assigning-usage-rights}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

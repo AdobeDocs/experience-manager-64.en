@@ -14,7 +14,7 @@ exl-id: 73c59497-43fe-4e15-afda-e3cf5264696e
 ---
 # JSRP - JCR Storage Resource Provider {#jsrp-jcr-storage-resource-provider}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

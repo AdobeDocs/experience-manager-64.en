@@ -13,7 +13,7 @@ exl-id: 62f1ddd3-9fc2-49dd-b588-0c3520e1cdd2
 ---
 # Introduction to authoring adaptive forms  {#introduction-to-authoring-adaptive-forms}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

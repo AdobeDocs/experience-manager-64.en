@@ -14,7 +14,7 @@ exl-id: b8cbc429-b0c3-4f6e-a15f-4aef54733c8e
 ---
 # Translating User Generated Content {#translating-user-generated-content}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

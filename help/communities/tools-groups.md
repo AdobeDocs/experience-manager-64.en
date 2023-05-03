@@ -14,7 +14,7 @@ exl-id: ac399a66-0f3b-4f95-969e-a4109c260d1d
 ---
 # Group Templates {#group-templates}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

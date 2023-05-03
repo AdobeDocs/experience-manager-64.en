@@ -13,7 +13,7 @@ exl-id: a6206ae1-b71b-4066-b7a0-ce39a60d6dd0
 ---
 # Custom special characters in Correspondence Management {#custom-special-characters-in-correspondence-management}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

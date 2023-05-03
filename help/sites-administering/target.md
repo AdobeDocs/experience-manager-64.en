@@ -13,7 +13,7 @@ exl-id: 10c40e33-e62f-451f-b5d4-e34081f4340e
 ---
 # Integrating with Adobe Target{#integrating-with-adobe-target}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

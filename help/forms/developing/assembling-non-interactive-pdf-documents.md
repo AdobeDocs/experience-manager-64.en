@@ -15,7 +15,7 @@ exl-id: d4e40d68-781d-4fc8-8557-bf36462ca1d9
 ---
 # Assembling Non-Interactive PDF Documents {#assembling-non-interactive-pdf-documents}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -8,7 +8,7 @@ exl-id: 4fb3d12c-feac-45b9-8d09-3b6995591b3d
 ---
 # Process digital assets {#process-assets}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 9b8c3d1c-a9b1-4dde-9044-46c8f2b22c22
 ---
 # Add Clientlibs {#add-clientlibs}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

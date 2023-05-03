@@ -14,7 +14,7 @@ exl-id: 3e8ee0cc-b950-4823-9efa-65f12a4e6e6b
 ---
 # Identifying Content to Translate{#identifying-content-to-translate}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

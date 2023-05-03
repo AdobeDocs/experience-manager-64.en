@@ -13,7 +13,7 @@ exl-id: 123ef72b-f09b-47eb-9b5a-e0deb38799df
 ---
 # Externalizing URLs{#externalizing-urls}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 3cc39a24-dbdf-4a4c-9c96-4d39d8cff20d
 ---
 # Specify security settings {#specify-security-settings}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

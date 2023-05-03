@@ -13,7 +13,7 @@ exl-id: 22f78940-de5f-4e16-b1f8-c3762d81802b
 ---
 # Custom storage for drafts and submissions component {#custom-storage-for-drafts-and-submissions-component}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

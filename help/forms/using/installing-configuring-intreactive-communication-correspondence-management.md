@@ -11,7 +11,7 @@ exl-id: c7aaa81d-d140-44d9-9144-0cbf6ec5d650
 ---
 # Install and configure Interactive Communications {#install-and-configure-interactive-communications}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

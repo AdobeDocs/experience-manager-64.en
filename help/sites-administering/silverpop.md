@@ -13,7 +13,7 @@ exl-id: 3148ba52-4464-4f3e-8741-645cd7a1c970
 ---
 # Integrating with Silverpop Engage{#integrating-with-silverpop-engage}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

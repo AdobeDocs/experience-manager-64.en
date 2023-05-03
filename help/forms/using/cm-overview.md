@@ -13,7 +13,7 @@ exl-id: 3cda92c9-5f3e-4704-a52b-55eda3b3fd2a
 ---
 # Correspondence Management Overview {#correspondence-management-overview}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

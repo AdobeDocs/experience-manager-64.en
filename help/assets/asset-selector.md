@@ -8,7 +8,7 @@ exl-id: 4b518ac0-5b8b-4d61-ac31-269aa1f5abe4
 ---
 # Asset selector {#asset-selector}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

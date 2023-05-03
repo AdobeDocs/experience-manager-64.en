@@ -13,7 +13,7 @@ exl-id: 38da6522-46ef-4304-a089-209db11ff32a
 ---
 # Page Templates - Editable {#page-templates-editable}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

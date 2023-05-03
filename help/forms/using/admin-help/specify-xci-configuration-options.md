@@ -13,7 +13,7 @@ exl-id: 5156bb1c-8ad6-498c-aaf7-6474ffa8c83c
 ---
 # Specify XCI configuration options {#specify-xci-configuration-options}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -14,7 +14,7 @@ exl-id: f4adc53d-6809-4d89-a3dd-5d783e938a63
 ---
 # User and UGC Management Service in AEM Communities {#user-and-ugc-management-service-in-aem-communities}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

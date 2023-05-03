@@ -13,7 +13,7 @@ exl-id: 5d0dcf4d-8995-4547-acb1-4917696af95e
 ---
 # Using AEM translation workflow to localize adaptive forms and document of record {#using-aem-translation-workflow-to-localize-adaptive-forms-and-document-of-record}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

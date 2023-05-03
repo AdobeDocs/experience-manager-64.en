@@ -13,7 +13,7 @@ exl-id: 8d49a2ac-8752-4161-940d-808470e8c93b
 ---
 # Configuring Components in Design Mode{#configuring-components-in-design-mode}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

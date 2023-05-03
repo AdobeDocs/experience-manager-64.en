@@ -13,7 +13,7 @@ exl-id: d7406206-d63a-48da-bb95-e62db0f2c8a5
 ---
 # Automate testing of adaptive forms {#automate-testing-of-adaptive-forms}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

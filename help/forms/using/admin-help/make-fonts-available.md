@@ -13,7 +13,7 @@ exl-id: 33d63ec9-b100-48b4-b84d-a9de82c24f86
 ---
 # Make fonts available {#make-fonts-available}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

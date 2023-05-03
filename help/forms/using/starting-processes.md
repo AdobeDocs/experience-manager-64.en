@@ -13,7 +13,7 @@ exl-id: bd5a247f-cd4b-41c8-b5f6-8def4f5c93ef
 ---
 # Starting processes {#starting-processes}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

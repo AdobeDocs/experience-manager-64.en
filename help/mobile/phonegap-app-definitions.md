@@ -13,7 +13,7 @@ exl-id: c1103f7b-19fe-43b2-95e8-523efdc11950
 ---
 # App definitions{#app-definitions}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

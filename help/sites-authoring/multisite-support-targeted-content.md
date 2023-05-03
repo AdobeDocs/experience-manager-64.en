@@ -13,7 +13,7 @@ exl-id: adf7c1d3-5e3d-42b7-b1e1-ae6980b08a90
 ---
 # Working with Targeted Content in Multisites{#working-with-targeted-content-in-multisites}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 1323ee60-c80c-4eed-b3e5-aa0f0c07e6ee
 ---
 # Dynamic Media repository restructuring in AEM 6.4{#dynamic-media-repository-restructuring-in-aem}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

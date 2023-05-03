@@ -13,7 +13,7 @@ exl-id: 890e98af-0491-4b59-9a9b-6c245db54f0f
 ---
 # Changing the organization logo for branding {#changing-the-organization-logo-for-branding}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

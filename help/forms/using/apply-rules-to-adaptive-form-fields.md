@@ -12,7 +12,7 @@ exl-id: bb65b6d7-5bbf-4cc5-a468-9ea8465f7a07
 ---
 # Tutorial: Apply rules to adaptive form fields {#tutorial-apply-rules-to-adaptive-form-fields}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

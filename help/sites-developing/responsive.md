@@ -14,7 +14,7 @@ exl-id: 5f945556-1ba0-49db-b2f6-395312c40b92
 ---
 # Responsive Design for Web Pages{#responsive-design-for-web-pages}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 9ed22c75-bce7-4d26-a4cd-a58e41e5068e
 ---
 # Configure User Management for an SSL-enabled LDAP server {#configure-user-management-for-an-ssl-enabled-ldap-server}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

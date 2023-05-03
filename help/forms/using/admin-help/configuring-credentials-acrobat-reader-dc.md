@@ -13,7 +13,7 @@ exl-id: 40c2e205-0115-4ebe-ab24-66c8ee0663fa
 ---
 # Configuring credentials for use with Acrobat Reader DC extensions{#configuring-credentials-for-use-with-acrobat-reader-dc-extensions}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

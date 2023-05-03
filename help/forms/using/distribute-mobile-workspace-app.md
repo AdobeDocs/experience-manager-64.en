@@ -12,7 +12,7 @@ exl-id: c1bf0a0e-70f7-41dd-8b1a-c114d89a265b
 ---
 # Distribute AEM Forms app {#distribute-aem-forms-app}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

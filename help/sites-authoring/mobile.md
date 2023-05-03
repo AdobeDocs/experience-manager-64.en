@@ -13,7 +13,7 @@ exl-id: 97f0b0d2-7d7b-4a90-a4e5-348a306e1622
 ---
 # Authoring a Page for Mobile Devices{#authoring-a-page-for-mobile-devices}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

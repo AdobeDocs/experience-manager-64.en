@@ -13,7 +13,7 @@ exl-id: 6adcc1a4-eb0f-4410-8219-dbd7e6bbe469
 ---
 # E-Commerce Repository Restructuring in AEM 6.4{#e-commerce-repository-restructuring-in-aem}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

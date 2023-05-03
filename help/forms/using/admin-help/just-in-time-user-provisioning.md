@@ -13,7 +13,7 @@ exl-id: 8c205d1d-d17e-4810-8ef9-a8bdcd9aa1c2
 ---
 # Just-in-time user provisioning {#just-in-time-user-provisioning}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

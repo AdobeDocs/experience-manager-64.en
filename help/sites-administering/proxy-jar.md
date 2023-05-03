@@ -13,7 +13,7 @@ exl-id: fb96ed26-b5b6-4afc-a820-3ef45a9f3abd
 ---
 # Proxy Server Tool (proxy.jar){#proxy-server-tool-proxy-jar}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

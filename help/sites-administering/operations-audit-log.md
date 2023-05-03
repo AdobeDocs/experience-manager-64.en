@@ -14,7 +14,7 @@ exl-id: bcbdab55-4871-4c7f-b82a-b7d8280e82e3
 ---
 # Audit Log Maintenance in AEM 6{#audit-log-maintenance-in-aem}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -12,7 +12,7 @@ exl-id: 14303b8f-40a7-4bc5-8282-7526e0319264
 ---
 # Working in the offline mode {#working-in-the-offline-mode}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 2016ac85-12a1-42cb-bc03-fced94947010
 ---
 # Configuring validation messages {#configuring-validation-messages}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

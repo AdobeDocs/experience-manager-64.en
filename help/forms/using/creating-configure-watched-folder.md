@@ -12,7 +12,7 @@ exl-id: 7e2706e2-092f-4780-be8f-2bf444613d70
 ---
 # Create or Configure a watched folder {#create-or-configure-a-watched-folder}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

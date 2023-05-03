@@ -13,7 +13,7 @@ exl-id: b77d0e6b-3005-4dba-8e88-70b4d04b1eba
 ---
 # Trying out Core Components in We.Retail{#trying-out-core-components-in-we-retail}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 45741270-2d57-4d6d-92ef-65b6c1deb448
 ---
 # Managing certificate revocationlists{#managing-certificate-revocationlists}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

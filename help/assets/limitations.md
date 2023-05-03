@@ -11,7 +11,7 @@ exl-id: 0269ff24-582b-40f8-95e3-3ff4ac3a792f
 ---
 # Dynamic Media Limitations
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

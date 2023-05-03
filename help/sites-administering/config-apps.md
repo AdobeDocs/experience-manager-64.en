@@ -13,7 +13,7 @@ exl-id: 593a588c-02f1-4b48-ac57-9348d6652bcc
 ---
 # Configuring for AEM Apps{#configuring-for-aem-apps}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

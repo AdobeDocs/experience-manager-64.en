@@ -14,7 +14,7 @@ exl-id: e17ab7de-9f4a-4456-be80-43ab9663940e
 ---
 # Creating and managing policy sets {#creating-and-managing-policy-sets}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

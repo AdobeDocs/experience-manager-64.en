@@ -13,7 +13,7 @@ exl-id: b0e579a4-f5bd-4a55-a003-0496224bc940
 ---
 # Editing Page Properties{#editing-page-properties}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

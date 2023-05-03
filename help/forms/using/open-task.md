@@ -12,7 +12,7 @@ exl-id: c87a35d5-3371-472d-af28-14d3412d6ebe
 ---
 # Opening a task {#opening-a-task}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -8,7 +8,7 @@ exl-id: 6d9a954f-433d-41ec-9bb9-45e857890aba
 ---
 # Configure Experience Manager Assets for Adobe Asset Link {#adobe-asset-link}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

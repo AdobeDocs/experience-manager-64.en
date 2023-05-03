@@ -13,7 +13,7 @@ exl-id: 5be5e2ff-2b46-4b9f-a58e-ecb16c77d603
 ---
 # Best Practices for Queries and Indexing{#best-practices-for-queries-and-indexing}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

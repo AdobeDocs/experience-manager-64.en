@@ -13,7 +13,7 @@ exl-id: 1537490b-71b3-4ab3-b8d1-d85eac88d857
 ---
 # Introduction to Interactive Communication authoring UI {#introduction-to-interactive-communication-authoring-ui}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

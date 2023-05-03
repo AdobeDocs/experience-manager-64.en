@@ -13,7 +13,7 @@ exl-id: 53aa6c11-0d73-4d95-a0b3-cf369883abe8
 ---
 # Search for a user or group {#search-for-a-user-or-group}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

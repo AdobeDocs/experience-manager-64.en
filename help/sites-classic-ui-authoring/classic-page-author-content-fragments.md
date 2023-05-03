@@ -14,7 +14,7 @@ exl-id: 36e00fc0-310c-4dc5-b1d7-68185fa27c30
 ---
 # Page Authoring with Content Fragments{#page-authoring-with-content-fragments}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -14,7 +14,7 @@ exl-id: 01cfc774-8ae1-48c0-a7e3-5836c4b39bff
 ---
 # Configuring Enablement Features {#configuring-enablement-features}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

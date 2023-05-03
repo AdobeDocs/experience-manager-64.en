@@ -13,7 +13,7 @@ exl-id: 4c5896a4-d3f4-4278-9af3-538ab10cd210
 ---
 # Software Architecture{#software-architecture}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

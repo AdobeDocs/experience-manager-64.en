@@ -14,7 +14,7 @@ exl-id: ea6a05ff-d8d8-4a4f-b1aa-e09670e40ba7
 ---
 # Disassemble a PDF document using the web service API {#disassemble-a-pdf-document-usingthe-web-service-api}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

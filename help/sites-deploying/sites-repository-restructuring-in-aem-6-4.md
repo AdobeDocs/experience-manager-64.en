@@ -13,7 +13,7 @@ exl-id: d0cdb15d-196a-44e3-bd98-91588b6979ab
 ---
 # Sites Repository Restructuring in AEM 6.4{#sites-repository-restructuring-in-aem}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

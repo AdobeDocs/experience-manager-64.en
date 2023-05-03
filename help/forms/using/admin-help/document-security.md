@@ -14,7 +14,7 @@ exl-id: fa62a521-1a0b-4856-acc6-71c51ad9e527
 ---
 # About document security {#about-document-security}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

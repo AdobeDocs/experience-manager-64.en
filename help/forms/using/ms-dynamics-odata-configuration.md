@@ -12,7 +12,7 @@ exl-id: 18df57b6-789a-4b61-9418-fa12294b226f
 ---
 # Microsoft Dynamics OData configuration {#microsoft-dynamics-odata-configuration}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

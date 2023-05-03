@@ -13,7 +13,7 @@ exl-id: 00ca8bdf-77be-4f4c-a3d3-d61d13eeba7e
 ---
 # Overview of output service {#overview-of-output-service}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: f2317fd5-df64-4042-b17e-0e0506161b90
 ---
 # How to programmatically access the AEM JCR{#how-to-programmatically-access-the-aem-jcr}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

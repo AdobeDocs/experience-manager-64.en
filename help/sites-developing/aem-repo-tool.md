@@ -13,7 +13,7 @@ exl-id: 8da27ef5-bb61-4246-8a13-96a60188ebbb
 ---
 # AEM Repo Tool{#aem-repo-tool}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

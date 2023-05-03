@@ -12,7 +12,7 @@ exl-id: e45f7f79-a5c3-439c-bf6c-7b14590cd3fc
 ---
 # Customizing error dialogs {#customizing-error-dialogs}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

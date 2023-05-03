@@ -13,7 +13,7 @@ exl-id: d10bc3e9-66a6-4cb2-b484-da338259f1c8
 ---
 # Manage form metadata {#manage-form-metadata}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -15,7 +15,7 @@ exl-id: a0d6e4a6-751f-4cab-842b-08719b899060
 ---
 # Creating PDF Documents with Submitted XML Data {#creating-pdf-documents-with-submittedxml-data}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

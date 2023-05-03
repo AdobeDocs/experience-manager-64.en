@@ -14,7 +14,7 @@ exl-id: 1fdabd73-ee74-426b-b815-68022ea27c4e
 ---
 # Working with PDF Utilities {#working-with-pdf-utilities}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -13,7 +13,7 @@ exl-id: 7cd73bdf-6717-4923-91ca-e8b6d44429ca
 ---
 # Adaptive forms rule editor {#adaptive-forms-rule-editor}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

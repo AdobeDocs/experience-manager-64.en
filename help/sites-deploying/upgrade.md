@@ -15,7 +15,7 @@ exl-id: 791da16c-bf2c-47a9-86a4-0a601a1b017e
 ---
 # Upgrading to AEM 6.4{#upgrading-to-aem}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

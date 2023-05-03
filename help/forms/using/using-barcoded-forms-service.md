@@ -12,7 +12,7 @@ exl-id: 47d16792-c418-45fe-aa79-e66876d6d352
 ---
 # Barcoded Forms Service {#barcoded-forms-service}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

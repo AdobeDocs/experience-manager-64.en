@@ -13,7 +13,7 @@ exl-id: 1fb51e4a-e0e8-4a58-8877-98337fe29fac
 ---
 # Setting internationalization options{#setting-internationalization-options}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

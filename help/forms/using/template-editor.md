@@ -13,7 +13,7 @@ exl-id: 8bb350f2-a160-4943-bd6a-00f87f4e6cbc
 ---
 # Adaptive Form Templates {#adaptive-form-templates}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

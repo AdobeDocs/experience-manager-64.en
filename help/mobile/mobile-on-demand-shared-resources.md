@@ -13,7 +13,7 @@ exl-id: 94ac30a5-6ac8-4bbf-8ea6-e10bc7db4f31
 ---
 # Uploading Shared Resources {#uploading-shared-resources}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

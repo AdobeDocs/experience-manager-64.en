@@ -13,7 +13,7 @@ exl-id: 3e9727a5-32f8-40ad-aa06-619f50d109b2
 ---
 # JCR Integration{#jcr-integration}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

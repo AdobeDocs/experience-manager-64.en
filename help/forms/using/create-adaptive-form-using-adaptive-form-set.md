@@ -12,7 +12,7 @@ exl-id: 969b0c11-adc7-476e-8c82-d444fccba984
 ---
 # Create an adaptive form using a set of adaptive forms {#create-an-adaptive-form-using-a-set-of-adaptive-forms}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

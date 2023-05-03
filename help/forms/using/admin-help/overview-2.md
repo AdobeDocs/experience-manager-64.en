@@ -13,7 +13,7 @@ exl-id: 4817d150-9bfe-4cb9-8f06-6ff4eaaa6f55
 ---
 # Basics of managing certificates and credentials {#basics-of-managing-certificates-and-credentials}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

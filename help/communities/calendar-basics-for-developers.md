@@ -13,7 +13,7 @@ exl-id: cdf5e5d3-a78c-4f32-ad40-665876392a97
 ---
 # Calendar Essentials {#calendar-essentials}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -14,7 +14,7 @@ exl-id: b3b0f505-3d7d-493d-a37b-abc8a365f95b
 ---
 # Building Tagging into an AEM Application{#building-tagging-into-an-aem-application}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

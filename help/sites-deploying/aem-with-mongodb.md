@@ -13,7 +13,7 @@ exl-id: 8397352a-51b0-4d03-a72d-19f7da58c07e
 ---
 # AEM with MongoDB{#aem-with-mongodb}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 
@@ -159,7 +159,7 @@ Below is an example of Document Node Store configuration for a minimal MongoDB d
 ```xml
 # org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService.config
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 #MongoDB server details
@@ -206,12 +206,12 @@ Here is a typical Data Store configuration for a minimal AEM deployment with Mon
 ```xml
 # org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.config
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 # The minimum size of an object that should be stored in this data store.
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 minRecordLength=4096

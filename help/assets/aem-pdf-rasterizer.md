@@ -8,7 +8,7 @@ exl-id: 7d78fba9-16df-44e0-aae6-83f65e8d2bbd
 ---
 # Use PDF Rasterizer {#using-pdf-rasterizer}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

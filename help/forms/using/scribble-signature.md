@@ -14,7 +14,7 @@ exl-id: 8b6b151d-2422-4261-9edb-66efe3d33f8b
 ---
 # Using Scribble Signature in HTML5 forms {#using-scribble-signature-in-html-forms}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

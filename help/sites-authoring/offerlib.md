@@ -13,7 +13,7 @@ exl-id: 5c7c1cda-0e9c-454f-91c4-8e1f37a155c3
 ---
 # Creating and Managing Offers{#creating-and-managing-offers}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

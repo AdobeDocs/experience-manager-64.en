@@ -13,7 +13,7 @@ exl-id: 706ffc8b-3004-4413-aeb5-d97c0da78040
 ---
 # The next release...{#the-next-release}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

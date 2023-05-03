@@ -13,7 +13,7 @@ exl-id: 04a832d5-1ab5-4db3-b185-57fba21eb839
 ---
 # Working with stalled operations and branches {#working-with-stalled-operations-and-branches}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

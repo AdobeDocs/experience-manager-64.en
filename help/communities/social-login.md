@@ -14,7 +14,7 @@ exl-id: 85dcae2f-0773-4867-a24c-056bd2f5585e
 ---
 # Social Login with Facebook and Twitter {#social-login-with-facebook-and-twitter}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

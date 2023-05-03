@@ -11,7 +11,7 @@ exl-id: e09d2d59-41f0-4cf2-bcf3-ec3dbc3b8474
 ---
 # Livefyre Feature Pack 2.0.6 Release Notes {#livefyre-feature-pack-release-notes}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

@@ -14,7 +14,7 @@ exl-id: 13d044bd-fa61-4e24-ac1d-69a6f10847a4
 ---
 # Creating and Synchronizing Live Copies{#creating-and-synchronizing-live-copies}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

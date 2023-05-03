@@ -13,7 +13,7 @@ exl-id: 9f447a54-4512-41ab-b8d3-327e751eda58
 ---
 # Create and Assign Enablement Resources {#create-and-assign-enablement-resources}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

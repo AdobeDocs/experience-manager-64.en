@@ -13,7 +13,7 @@ exl-id: e407c643-5753-447e-ad4e-deb7b9eb2b55
 ---
 # Configure account-locking settings {#configure-account-locking-settings}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

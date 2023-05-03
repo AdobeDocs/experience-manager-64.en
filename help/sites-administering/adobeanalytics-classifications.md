@@ -13,7 +13,7 @@ exl-id: 25e58c68-5c67-4894-9a54-1717d90d7831
 ---
 # Adobe Classifications{#adobe-classifications}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

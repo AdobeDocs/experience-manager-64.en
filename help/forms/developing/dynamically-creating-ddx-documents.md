@@ -15,7 +15,7 @@ exl-id: 883b33c8-50b1-4df2-a762-02be67ce24f1
 ---
 # Dynamically Creating DDX Documents {#dynamically-creating-ddx-documents}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

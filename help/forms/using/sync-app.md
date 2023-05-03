@@ -13,7 +13,7 @@ exl-id: b5681fe5-69ba-4fc0-95e3-6ffdcdd95382
 ---
 # Synchronizing the app {#synchronizing-the-app}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

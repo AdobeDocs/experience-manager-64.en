@@ -13,7 +13,7 @@ exl-id: 04520447-6ea8-4190-8dc3-46bb23f74c0c
 ---
 # SPA Page Component{#spa-page-component}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

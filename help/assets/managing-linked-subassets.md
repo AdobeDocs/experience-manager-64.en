@@ -9,7 +9,7 @@ exl-id: 9fa44b26-76f7-48e2-a9df-4fd1c0074158
 ---
 # Manage compound assets with subassets {#managing-compound-assets}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 

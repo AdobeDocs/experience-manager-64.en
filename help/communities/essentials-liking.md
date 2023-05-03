@@ -14,7 +14,7 @@ exl-id: 509d1fb4-a88d-4438-a618-ba063adb6fb9
 ---
 # Liking Essentials {#liking-essentials}
 
->[CAUTION]
+>[!CAUTION]
 >
 >AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 
