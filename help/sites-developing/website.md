@@ -13,6 +13,10 @@ exl-id: 6d408fd6-9241-4069-9b04-806e30e03ff2
 ---
 # Create a Fully-Featured Website (JSP){#create-a-fully-featured-website-jsp}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!CAUTION]
 >
 >This article describes how to create a website using JSP and based on the classic UI. Adobe recommends leveraging the latest AEM technologies for your websites as described in detail in the article [Getting Started Developing AEM Sites](/help/sites-developing/getting-started.md).

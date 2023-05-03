@@ -12,6 +12,10 @@ exl-id: 0483b6ed-676a-4272-a00e-23d53a979b07
 ---
 # View and understand AEM Forms analytics reports {#view-and-understand-aem-forms-analytics-reports}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager Forms integrates with Adobe Analytics that allows you to capture and track performance metrics for your published forms and documents. The objective behind analyzing these metrics is to make informed decisions based on data about the changes required to make forms or document more usable.
 
 ## Setting up analytics {#setting-up-analytics}

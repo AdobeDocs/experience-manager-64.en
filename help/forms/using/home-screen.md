@@ -12,6 +12,10 @@ exl-id: b8f515fd-7ab7-4237-9a35-2840f708e856
 ---
 # Home screen {#home-screen}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When you log in to the AEM Forms app, you are redirected to the Home screen.
 
 ## Default Home screen {#default-home-screen}

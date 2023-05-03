@@ -14,6 +14,10 @@ exl-id: 9865b366-b9e5-40f3-8863-789ccfb792f5
 ---
 # Moderating Community Content {#moderating-community-content}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 Community content, also known as user generated content (UGC), is created when a member (signed in site visitor) posts content from a published community site through interaction with one of the following community components:

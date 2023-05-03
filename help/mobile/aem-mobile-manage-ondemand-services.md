@@ -13,6 +13,10 @@ exl-id: 1eb9f997-70ff-4309-a219-87ef56b723e5
 ---
 # Previewing with Preflight {#previewing-with-preflight}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This page explains Previewing with Preflight app.
 
 >[!NOTE]

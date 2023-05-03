@@ -13,6 +13,10 @@ exl-id: 37d6187f-4f91-4ad4-b0d6-eaae165abe64
 ---
 # Global document storage directory{#global-document-storage-directory}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The *global document storage (GDS)* directory is a directory used to store long-lived files that are used within a process. These files include PDFs, policies, and form templates. Long-lived files are a critical part of the overall state of many AEM forms deployments. If some or all long-lived documents are lost or corrupted, the forms server may become unstable. Input documents for asynchronous job invocations are also stored in the GDS directory and must be available to process requests. It is important that you consider the reliability of the file system that hosts the GDS directory. User a redundant array of independent disks (RAID) or other technology as appropriate for your quality and level of service needs.
 
 Long-lived files may contain sensitive user information. This information may require special credentials when accessed by using the AEM forms APIs or user interfaces. It is important that the GDS directory is properly secured through the operating system. Only the administrator account that is used to run the application server should have read/write access to the GDS directory.

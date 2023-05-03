@@ -13,6 +13,10 @@ exl-id: e7b368b4-2fcd-43bc-b59f-ab4ba6b61f0d
 ---
 # Extending Workflow Functionality{#extending-workflow-functionality}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This topic describes how to develop custom step components for your workflows, then how to interact programmatically with workflows.
 
 Creating a custom workflow step involves the following activities:

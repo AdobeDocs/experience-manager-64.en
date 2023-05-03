@@ -13,6 +13,10 @@ exl-id: d48f9f7e-bbb8-43d4-9796-029e3fca88ce
 ---
 # Content Management for Screens{#content-management-for-screens}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 A ***Content Manager*** for AEM Screens is a creative professional who works closely with marketing and knows the campaign, audience, and the desired focus. The content manager is responsible for creating and orchestrating end-user experience by developing different channels and assigning sequences into a timed channel experience.
 
 Content Manager for Screens design locations and schedules, maintain channel integrtity, perform analytics and reporting, and maintain video profiles.

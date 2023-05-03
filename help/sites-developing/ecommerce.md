@@ -13,6 +13,10 @@ exl-id: a5f36d26-1be4-4e06-9237-3943e903d850
 ---
 # eCommerce{#ecommerce}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The integration framework includes an integration layer with an API. This allows you to:
 
 * plug in an eCommerce system and pull product data into AEM

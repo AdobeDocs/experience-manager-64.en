@@ -13,6 +13,10 @@ exl-id: e07a42e2-c659-4991-b59a-d48bfb7d2972
 ---
 # Contributing to AEM{#contributing-to-aem}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Development Methodology {#development-methodology}
 
 AEM is developed following proven methodologies commonly practiced in large open source projects. Many core elements in AEM's technology stack are in fact maintained as active open source projects, such as Sling and Jackrabbit, which were contributed to the Apache Software Foundation. A major aspect of this spirit that is present in AEM is that you are encouraged to make use of the available mailing lists and online forums for direct interactions with the development team.

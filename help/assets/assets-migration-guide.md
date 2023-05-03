@@ -8,6 +8,10 @@ exl-id: 31da9f3d-460a-4b71-9ba0-7487f1b159cb
 ---
 # Assets migration guide {#assets-migration-guide}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When migrating assets into AEM, there are several steps to consider. Extracting assets and metadata out of their current home is outside the scope of this document as it varies widely between implementations. Instead, this document describes how to bring these assets into AEM, apply their metadata, generate renditions, and activate or publish the assets.
 
 ## Prerequisites {#prerequisites}

@@ -13,6 +13,10 @@ exl-id: ee5b0a82-5dd8-4ea6-885c-6154fd41ef4c
 ---
 # Backup and recovery strategy for AEM forms{#backup-and-recovery-strategy-for-aem-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 If your AEM forms implementation stores additional custom data in a different database, you are responsible for implementing a strategy to back up this data and ensuring that it remains in sync with the AEM forms data. Also, the application must be designed so that it is robust enough to handle a scenario where the additional databases get out of sync. It is highly recommended that any database operation that is performed is done in the context of a transaction to help maintain a consistent state.
 
 After you identify how AEM forms is used, determine which files must be backed up, how often, and the backup window to be made available.

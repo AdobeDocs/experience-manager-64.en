@@ -13,6 +13,10 @@ exl-id: 5230222b-53f8-414c-aaa1-848d6e9369e8
 ---
 # Customizing search templates {#customizing-search-templates}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can create search templates to be used in Workspace to search for instances of processes from the To Do and Tracking pages. You can also edit or delete existing search templates.
 
 When creating or editing a search template, you can specify the layout and sort order of the search results. However, users can modify these settings in Workspace after the search results appear.

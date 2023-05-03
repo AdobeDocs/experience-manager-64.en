@@ -7,6 +7,10 @@ exl-id: 56522aaf-9a8d-48b8-b748-3b57d5e9c8ef
 ---
 # AEM 6.4 Classic UI Authoring User Guide
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This guide covers the concepts of authoring in AEM in the classic user interface. 
 
 ## Key AEM articles

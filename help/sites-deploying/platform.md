@@ -14,6 +14,10 @@ exl-id: afd8f9ab-ae44-4845-9cb4-f6e28a35ad27
 ---
 # Introduction to the AEM Platform{#introduction-to-the-aem-platform}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The AEM platform in AEM 6 is based on Apache Jackrabbit Oak.
 
 Apache Jackrabbit Oak is an effort to implement a scalable and performant hierarchical content repository for use as the foundation of modern world-class web sites and other demanding content applications.

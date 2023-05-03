@@ -13,6 +13,10 @@ exl-id: 97120959-0a45-46b8-a10d-68522ad6f81a
 ---
 # Using cURL with AEM{#using-curl-with-aem}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Administrators often need to automate or simplify common tasks within any system. In AEM for example, managing users, installing packages, and managing OSGi bundles are tasks that must be commonly done.
 
 Because of the RESTful nature of the Sling framework upon which AEM is built, most tasks can be done with a URL call. cURL can be used to execute such URL calls and can be a useful tool for AEM administrators.

@@ -13,6 +13,10 @@ exl-id: d7108d54-cb87-4587-9b52-6711ba38bed2
 ---
 # Integrating with Adobe Dynamic Tag Management {#integrating-with-adobe-dynamic-tag-management}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Integrate [Adobe Dynamic Tag Management](https://www.adobe.com/solutions/digital-marketing/dynamic-tag-management.html) with AEM so that you can use your Dynamic Tag Management web properties to track AEM sites. Dynamic Tag Management enables marketers to manage tags for collecting data, and distribute data across digital marketing systems. For example, use Dynamic Tag Management to collect usage data for your AEM website and distribute the data for analysis in Adobe Analytics or Adobe Target.
 
 Before you integrate, you need to create the Dynamic Tag Management [web property](https://microsite.omniture.com/t2/help/en_US/dtm/#Web_Properties) that tracks the domain of your AEM site. The [hosting options](https://microsite.omniture.com/t2/help/en_US/dtm/#Hosting__Embed_Tab) of the web property must be configured so that you can configure AEM to access the Dynamic Tag Management libraries.

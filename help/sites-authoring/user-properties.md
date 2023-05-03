@@ -13,6 +13,10 @@ exl-id: f620e85e-8c77-41a3-a238-9b93c819909d
 ---
 # Configuring your account environment{#configuring-your-account-environment}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM provides you with the capability to configure your account and certain aspects of the author environment.
 
 Using the [User](/help/sites-authoring/user-properties.md#user-settings) option in the [header](/help/sites-authoring/basic-handling.md#the-header) and the associated [My Preferences](#my-preferences) dialog, you can modify your user options.

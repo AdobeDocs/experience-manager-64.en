@@ -13,6 +13,10 @@ exl-id: 00ac29fb-cc8f-4dd9-a261-839a4bf664c2
 ---
 # Create a Sample Page {#create-a-sample-page}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 As of AEM 6.1 Communities, the easiest way to create a sample page is to create a simple community site, consisting simply of a Page function.
 
 This will include a parsys component so that you can [enable components for authoring](basics.md#accessing-communities-components).

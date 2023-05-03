@@ -9,6 +9,10 @@ exl-id: da06850a-c4d5-44dd-b572-771e3b2a66c5
 ---
 # Interacting with Workflows Programmatically{#interacting-with-workflows-programmatically}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When [customizing and extending your workflows](/help/sites-developing/workflows-customizing-extending.md) you can access workflow objects:
 
 * [Using the Workflow Java API](#using-the-workflow-java-api)
@@ -411,6 +415,10 @@ Example using curl:
 curl -u admin:admin -d "action=UPDATE&workflowTitle=myWorkflowTitle" http://localhost:4502/etc/workflow/instances/{id}
 
 # for example
+
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 curl -u admin:admin -d "action=UPDATE&workflowTitle=myWorkflowTitle" http://localhost:4502/etc/workflow/instances/server0/2017-03-08/request_for_activation_1
 ```
 
@@ -540,6 +548,10 @@ var model = wfSession.deleteModel(modelId);
 
 ```shell
 # deleting the model by its id
+
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 curl -u admin:admin -X DELETE http://localhost:4502/etc/workflow/models/{id}
 ```
 

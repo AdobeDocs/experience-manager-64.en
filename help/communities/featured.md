@@ -13,6 +13,10 @@ exl-id: a0dcffed-1040-4d6d-b8e9-3bbe5f30deb4
 ---
 # Featured Content Feature {#featured-content-feature}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 The featured content feature provides an area for signed-in site visitors (community members) in the publish environment to highlight content for

@@ -13,6 +13,10 @@ exl-id: d3125110-1098-413b-ba09-50c182797d27
 ---
 # Features of Flex workspace not available in AEM Forms workspace {#features-of-flex-workspace-not-available-in-aem-forms-workspace}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Forms workspace is the brand new workspace. The following are some of the features of Flex-based workspace that are not available in AEM Forms workspace.
 
 * Welcome Page is not available. You can set Start Process, To-do, Tracking, and Favorites pages as the first page to appear when you log in workspace.  

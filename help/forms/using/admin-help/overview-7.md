@@ -13,6 +13,10 @@ exl-id: 616cd550-c3bd-4daf-887d-0470f1b08389
 ---
 # Basics of configuring forms {#basics-of-configuring-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Forms service enables you to create interactive data capture client applications that validate, process, transform, and deliver forms typically created in Designer. Form authors develop a single form design that the Forms service renders in various formats:
 
 * as PDF in Adobe Reader or in a browser

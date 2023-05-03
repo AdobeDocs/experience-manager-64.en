@@ -13,6 +13,10 @@ exl-id: 309a8cef-e84d-485b-9a7c-786a93e83c85
 ---
 # Enabling and disabling safe backup mode {#enabling-and-disabling-safe-backup-mode}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 On the Backup Settings page, you can operate AEM forms in safe backup mode so that you can reliably back up your database and Global Document Storage (GDS) (GDS) directory.
 
 While AEM forms is in safe backup mode, it operates normally, except that it does not actively remove files from the GDS directory.

@@ -13,6 +13,10 @@ exl-id: 6d906c2b-c8bc-4d54-9887-8aaeb6cc83d3
 ---
 # Analytics with External Providers{#analytics-with-external-providers}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Analytics can provide you with important and interesting information about how your website is being used.
 
 Various out-of-the box configurations are available for integrating with the appropriate service, for example:

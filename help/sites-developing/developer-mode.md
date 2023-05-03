@@ -13,6 +13,10 @@ exl-id: 733eddf1-48f9-45c2-a1b4-138cf32b4b59
 ---
 # Developer Mode{#developer-mode}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When editing pages in AEM, several [modes](/help/sites-authoring/author-environment-tools.md#page-modes) are available, including Developer mode. This opens a side panel with several tabs that provide a developer with infomation about the current page. The three tabs are:
 
 * **[Components](#components)** for viewing sructure and performance information.

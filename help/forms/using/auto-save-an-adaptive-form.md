@@ -12,6 +12,10 @@ exl-id: 073734e9-449b-463a-b539-d73e11f50fa4
 ---
 # Auto-save an adaptive form {#auto-save-an-adaptive-form}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can configure an adaptive form to automatically start saving the content based on an event or a pre-defined time-interval. By default, contents of an adaptive form are saved on a user action, such as on pressing the save button. The auto save option is helpful in:
 
 * Automatically saving the content for anonymous and logged-in users

@@ -13,6 +13,10 @@ exl-id: 8f716a59-1116-4855-baeb-3997de71b55f
 ---
 # Experience the Published Site {#experience-the-published-site}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Browse to New Site on Publish {#browse-to-new-site-on-publish}
 
 Now that the newly created communities site has been published, browse to the URL displayed when creating the site, but on the publish server, e.g.

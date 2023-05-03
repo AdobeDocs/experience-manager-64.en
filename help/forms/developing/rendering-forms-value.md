@@ -15,6 +15,10 @@ exl-id: 50c34781-45e3-4255-a997-44f694527c92
 ---
 # Rendering Forms By Value {#rendering-forms-by-value}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Typically, a form design that is created in Designer is passed by reference to the Forms service. Form designs can be large and, as a result, it is more efficient to pass them by reference to avoid having to marshal form design bytes by value. The Forms service can also cache the form design so that when cached, it does not have to continually read the form design.
 
 If a form design contains a UUID attribute, then it is cached. The UUID value is unique for all form designs and is used to uniquely identify a form. When rendering a form by value, the form should only be cached when it is used repeatedly. However, if the form is not used repeatedly and has to be unique, you can avoid caching the form using caching options that are set using the AEM Forms API.

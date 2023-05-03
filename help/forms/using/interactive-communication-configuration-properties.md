@@ -14,6 +14,10 @@ exl-id: 2caf7242-8588-4fc9-9429-40e24416d6eb
 ---
 # Interactive Communications configuration properties {#interactive-communications-configuration-properties}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Edit default configuration properties for Interactive Communications
 
 Interactive Communications includes properties that are configured automatically after installing the [AEM Forms add-on](/help/forms/using/installing-configuring-aem-forms-osgi.md) package. Interactive Communication authors can edit these default configuration properties using the **Adobe Experience Manager Web Console Configuration** page.

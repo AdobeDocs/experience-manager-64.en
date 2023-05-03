@@ -13,6 +13,10 @@ exl-id: a89cf964-cc9f-46d7-afd8-150d48948513
 ---
 # Concepts of the AEM Touch-Enabled UI{#concepts-of-the-aem-touch-enabled-ui}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 With AEM 5.6 Adobe introduced a new touch-enabled UI with [responsive design](/help/sites-authoring/responsive-layout.md) for the author environment. This differs considerably from the original classic UI as it is designed to operate on both touch and desktop devices.
 
 This touch-enabled UI is now the standard UI for AEM, superseding the classic UI.

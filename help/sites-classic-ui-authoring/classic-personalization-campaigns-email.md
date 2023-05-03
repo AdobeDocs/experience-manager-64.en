@@ -13,6 +13,10 @@ exl-id: 5e97f7bd-d668-423d-9f65-7dcc8fb1943a
 ---
 # E-mail Marketing{#e-mail-marketing}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >Adobe does not plan to further enhance of open/bounced emails sent by the AEM SMTP service.  

@@ -13,6 +13,10 @@ exl-id: c7e37599-0712-44cf-8191-d444d12f95c4
 ---
 # Customizing the Websites Console (Classic UI){#customizing-the-websites-console-classic-ui}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Adding a Custom Column to the Websites (siteadmin) Console {#adding-a-custom-column-to-the-websites-siteadmin-console}
 
 The Websites Administration console can be extended to display custom columns. The console is built based on a JSON object that can be extended by creating an OSGI service implementing the `ListInfoProvider` interface. Such a service modifies the JSON object that is sent to the client to build the console.

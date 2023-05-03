@@ -15,6 +15,10 @@ exl-id: ed67e664-3be0-4337-85bd-cd042915b021
 ---
 # Upgrading Code and Customizations{#upgrading-code-and-customizations}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When planning an upgrade the following areas of an implementation need to be investigated and addressed.
 
 * [Upgrade the Code Base](#upgrade-code-base)

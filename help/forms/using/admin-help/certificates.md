@@ -13,6 +13,10 @@ exl-id: b8d4f35b-dc9c-4e0a-b855-f49275d4ac1f
 ---
 # Managing certificates {#managing-certificates}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Using the Trust Store Management, you can import, edit, and delete certificates that you trust on the server for validation of digital signatures and certificate authentication. You can import and export any number of certificates. After a certificate is imported, you can edit the trust settings and trust store type. Consider the following options when combining trust store types:
 
 * **Trust for Certificate Authentication with CA:** For CRL validation, also select Trust for Identity.

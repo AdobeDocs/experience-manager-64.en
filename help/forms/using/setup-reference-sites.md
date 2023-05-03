@@ -12,6 +12,10 @@ exl-id: 9c5d956c-06bc-4428-afcd-02b4f81b802f
 ---
 # Set up and configure AEM Forms reference sites {#set-up-and-configure-aem-forms-reference-sites}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Forms provides reference site implementation to demonstrate how AEM Forms helps Financial Services Industry and Government organizations in transforming their complex transactions into simple and engaging digital experiences anywhere, anytime, on any device.
 
 We.Finance and We.Gov reference sites draw real life use-cases to engage with existing and potential customers, right from the point of first touch to managing correspondences and transactions in a personalized and cost-effective manner.

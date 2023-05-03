@@ -13,6 +13,10 @@ exl-id: 93cdc2db-e8a6-478b-a511-53e0688ebc4d
 ---
 # Delete a domain {#delete-a-domain}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use the Domain Management page to mark an existing domain as obsolete.
 
 If you create a domain with the same name as a deleted domain, the deleted domain is reinstated along with the information that it contained. The DefaultDom domain cannot be deleted.

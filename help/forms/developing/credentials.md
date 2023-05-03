@@ -14,6 +14,10 @@ exl-id: 7dcfcee1-998e-41d8-badc-3106055e6ba7
 ---
 # Working with Credentials {#working-with-credentials}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 **About the Credential Service**
 
 A credential contains your private key information needed for signing or identifying documents. A certificate is public key information that you configure for trust. AEM Forms uses certificates and credentials for several purposes:

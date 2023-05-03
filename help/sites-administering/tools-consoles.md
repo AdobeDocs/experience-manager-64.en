@@ -9,6 +9,10 @@ exl-id: 7566e1bc-8571-4b3c-b420-4324026bd4dd
 ---
 # Tools Consoles{#tools-consoles}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The **Tools** consoles provide access to a number of specialized tools that help you administer your websites, digital assets and other aspects of your content repository. There are currently two flavors of the **Tools** console dependent on the UI you are using:
 
 * [Tools - Classic UI](#tools-classic-ui)

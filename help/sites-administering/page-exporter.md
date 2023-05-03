@@ -13,6 +13,10 @@ exl-id: a5cb3b7b-d40f-4d86-8473-fb584f1d486c
 ---
 # The Page Exporter{#the-page-exporter}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM allows you to export a page as a complete web page including images, .js and .css files.
 
 Once the export is configured you simply request a page in your browser by replacing `html` with `export.zip` in the URL and you get a zip file download containing the rendered page in html format and the referenced assets. All the paths in the page, e.g. paths to images, are rewritten to point either to the files included in the zip file or to the resources on the server.

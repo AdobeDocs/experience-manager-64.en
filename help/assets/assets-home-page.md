@@ -8,6 +8,10 @@ exl-id: f47c6da7-aa21-4f49-9c66-2a8091e19561
 ---
 # [!DNL Adobe Experience Manager Assets] Home Page Experience {#aem-assets-home-page-experience}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Personalize the [!DNL Experience Manager Assets] Home page for a rich welcome screen experience, including a snapshot of recent activities around assets.
 
 The [!DNL Adobe Experience Manager Assets] Home page provides a rich and personalized welcome screen experience, which includes a snapshot of recent activities, such as assets that were recently viewed or uploaded.

@@ -13,6 +13,10 @@ exl-id: c29472c8-9a93-4cb1-9cb1-05fc155ba736
 ---
 # OWASP Top 10{#owasp-top}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The [Open Web Application Security Project](https://www.owasp.org) (OWASP) maintains a list of what they regard as the [Top 10 Web Application Security Risks](https://www.owasp.org/index.php/OWASP_Top_Ten_Project).
 
 These are listed below, together with an explanation of how CRX deals with them.

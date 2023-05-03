@@ -13,6 +13,10 @@ exl-id: 9eeb3203-e27a-4960-a4ec-58dd9dd098a2
 ---
 # Structure of the AEM Touch-Enabled UI{#structure-of-the-aem-touch-enabled-ui}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The AEM touch-enabled UI has several underlying principles and is made up of several key elements:
 
 ## Consoles {#consoles}

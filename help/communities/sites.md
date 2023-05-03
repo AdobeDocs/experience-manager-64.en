@@ -14,6 +14,10 @@ exl-id: 5049c5df-c874-4c34-a96b-7944cd0353d5
 ---
 # Site Templates {#site-templates}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Site Templates console is very similar to the [Group Templates](tools-groups.md) console, which is focused on functions of interest to Community groups.
 
 >[!NOTE]

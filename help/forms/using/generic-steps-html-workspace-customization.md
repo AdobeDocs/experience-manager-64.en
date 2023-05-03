@@ -13,6 +13,10 @@ exl-id: 2c0dab68-d77e-46fb-832d-90edea510750
 ---
 # Generic steps for AEM Forms workspace customization {#generic-steps-for-aem-forms-workspace-customization}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The generic steps to perform any customizations are:
 
 1. Log in to CRXDE Lite by accessing `https://[server]:[port]/lc/crx/de/index.jsp`.

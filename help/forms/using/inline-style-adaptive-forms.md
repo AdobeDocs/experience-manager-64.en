@@ -12,6 +12,10 @@ exl-id: 8e7ba9d2-207f-419b-bcd5-74ba9b14ab92
 ---
 # Inline styling of adaptive form components {#inline-styling-of-adaptive-form-components}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can define the overall appearance and style of an adaptive form by specifying styles using [theme editor](/help/forms/using/themes.md). Also, you can apply inline CSS styles to individual adaptive form components and preview the changes on the fly. Inline styles override styling provided in the theme.
 
 ## Apply inline CSS properties {#apply-inline-css-properties}

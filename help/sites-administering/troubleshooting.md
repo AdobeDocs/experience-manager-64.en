@@ -13,6 +13,10 @@ exl-id: 201e2b57-17c0-4454-9b0e-026e2c95ac63
 ---
 # Working with Logs{#working-with-logs}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This section includes detailed information on logs available to help you troubleshoot.
 
 CRX records detailed logs. After you unpack and start Quickstart, you can find logs in the following locations:

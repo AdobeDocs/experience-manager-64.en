@@ -13,6 +13,10 @@ exl-id: 5a2bd0ea-2c5e-4e0c-aff1-dba06be6a5b7
 ---
 # Managing the categories displayed in Workspace {#managing-the-categories-displayed-in-workspace}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In Workspace, the processes that a user can start are displayed in categories in the left navigation pane. You can set up the categories in administration console, or process designers can set them up in Workbench. When process designers creates processes, they assign them to categories.
 
 When you specify category names, create them so that they appear properly in the Workspace navigation pane. By default, the left navigation pane has a fixed width of 210 pixels, which is approximately 24 characters. If the category name that you specify is too long to fit within the fixed width of the left navigation pane, it is truncated. The full name appears only when the mouse pointer is paused over it. Try to avoid category names that will be truncated. The following examples illustrate category names that fit and those that are truncated:

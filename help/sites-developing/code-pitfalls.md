@@ -13,6 +13,10 @@ exl-id: f39910cf-1875-43fc-bfb5-259b9d8f135d
 ---
 # Code pitfalls{#code-pitfalls}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Avoid Sling Bindings in Java code {#avoid-sling-bindings-in-java-code}
 
 Sling Bindings are an inappropriate way to get access to a service in 90% of cases. Instead, you should use *@Reference* or *@Inject* annotations.

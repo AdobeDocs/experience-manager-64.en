@@ -12,6 +12,10 @@ exl-id: 319db420-3318-4ef7-be2b-1ff2b1c08563
 ---
 # Reference letter templates {#reference-letter-templates}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In Correspondence Management, a letter template contains typical form fields, layout features such as a header and footer, and empty "target areas" for the placement of content.
 
 Correspondence Management provides letter templates in the AEM Forms package [AEM Forms add-on package](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/forms-updates/aem-forms-releases.html). For installing a package, see [How to Work With Packages](/help/sites-administering/package-manager.md). You can customize the templates in Designer according to your branding and business needs. The package includes the following templates:

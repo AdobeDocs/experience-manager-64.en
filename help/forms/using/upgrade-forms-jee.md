@@ -14,6 +14,10 @@ exl-id: e41eb0fa-ae88-44d5-9181-0d925b8b62c6
 ---
 # Upgrade to AEM 6.4 Forms on JEE {#upgrade-to-aem-forms-jee}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use one of the following upgrade paths, as appropriate for your environment.
 
 ## AEM 6.2 Forms on JEE, or AEM 6.3 Forms on JEE > AEM 6.4 Forms on JEE {#aem-forms-jee-62-63-to-64}

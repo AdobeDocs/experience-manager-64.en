@@ -14,6 +14,10 @@ exl-id: 6942b6fc-8d04-429f-8433-1ab74c68fcc1
 ---
 # Configuring fallback fonts {#configuring-fallback-fonts}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can manually configure the FontManagerResources.properties file to map the default AEM forms fonts to fallback (or substitute) if the default fonts are not available on the server. This property file is located in the adobe-fontmanager.jar file.
 
 >[!NOTE]

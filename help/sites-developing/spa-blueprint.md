@@ -12,6 +12,10 @@ exl-id: 73995327-d781-4501-ba14-3394dc8ea4fc
 ---
 # SPA Blueprint{#spa-blueprint}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To enable the author to use the AEM SPA Editor to edit the content of an SPA, there are requirements that the SPA must fulfill, which are described in this document.
 
 >[!NOTE]

@@ -13,6 +13,10 @@ exl-id: 0111d1f6-1780-40a2-b7d7-43930c4b96f7
 ---
 # Working with To-do lists {#working-with-to-do-lists}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When you view your To-do lists, you may see tasks from a business process that are assigned to you, or to any groups that you belong to, or are the shared tasks of other users. You can open, work on, and complete the tasks as required, such as approving or rejecting a request or adding more information. After you complete a task, it is sent to the next person in the business process,
 
 ## About To-do lists {#about-todo-lists}

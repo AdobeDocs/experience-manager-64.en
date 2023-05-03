@@ -12,6 +12,10 @@ exl-id: 192ba4c4-a133-4e16-9882-98005f25ba7f
 ---
 # Document details for renderer {#document-details-for-renderer}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 In AEM Forms workspace, multiple form types are supported seamlessly. These include:

@@ -14,6 +14,10 @@ exl-id: 54109f64-eb30-47cc-bf7a-756843d2da02
 ---
 # Managing Users and User Groups {#managing-users-and-user-groups}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 In AEM Communities, in the publish environment, users can self-register and edit their profiles. Given the appropriate permissions, they may also

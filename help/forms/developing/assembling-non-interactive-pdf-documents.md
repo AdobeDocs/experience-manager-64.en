@@ -15,6 +15,10 @@ exl-id: d4e40d68-781d-4fc8-8557-bf36462ca1d9
 ---
 # Assembling Non-Interactive PDF Documents {#assembling-non-interactive-pdf-documents}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can assemble a non-interactive PDF document when using an interactive PDF form as input. That is, assume that you have a form that users can use to enter data into its fields. You can pass that form to the Assembler service, resulting in the Assembler service returning a PDF document that prevents users from entering data into its fields. This document is a non-interactive PDF form. For example, the following illustration shows a mortgage application that represents an interactive form.
 
 For the purpose of this discussion, assume that the following DDX document is used.

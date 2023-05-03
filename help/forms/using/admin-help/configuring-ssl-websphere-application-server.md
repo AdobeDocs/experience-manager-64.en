@@ -13,6 +13,10 @@ exl-id: 653daaa4-9e35-40eb-a61e-274109f5f0d2
 ---
 # Configuring SSL for WebSphere Application Server {#configuring-ssl-for-websphere-application-server}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This section includes the following steps to configure SSL with your IBM WebSphere Application Server.
 
 ## Creating a local user account on WebSphere {#creating-a-local-user-account-on-websphere}

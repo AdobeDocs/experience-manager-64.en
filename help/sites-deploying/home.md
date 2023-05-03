@@ -7,6 +7,10 @@ exl-id: ff85787a-1203-4620-bf14-1b09893c3be8
 ---
 # AEM 6.4 Deploying User Guide
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This guide covers all AEM Deploying tasks, such as installing and deploying AEM. 
 
 ## Key AEM articles

@@ -13,6 +13,10 @@ exl-id: 5156bb1c-8ad6-498c-aaf7-6474ffa8c83c
 ---
 # Specify XCI configuration options {#specify-xci-configuration-options}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Output enables you to specify a custom XCI file that it uses for rendering. (See [Specify file locations for Output](/help/forms/using/admin-help/specify-file-locations-output.md#specify-file-locations-for-output).) By default, Output overrides some of the options specified in the XCI file, including the following:
 
 * `config/present/xdp/packets`

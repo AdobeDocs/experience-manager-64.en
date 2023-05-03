@@ -13,6 +13,10 @@ exl-id: f0ccdeae-3dbb-4dba-89cf-4c8b759da22b
 ---
 # AEM and the Web Accessibility Guidelines{#aem-and-the-web-accessibility-guidelines}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 There are many social, economical, and legal motivations for ensuring that web content is designed to be as accessible as possible to the target audience, regardless of any disability or limitations they may have. Web accessibility is therefore an increasingly important aspect of good web design.
 
 Creating accessible websites and content with AEM impact:

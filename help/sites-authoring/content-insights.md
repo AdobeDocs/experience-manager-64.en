@@ -13,6 +13,10 @@ exl-id: 54ec1b84-bee2-4c1f-acbc-8e6bd0d76c87
 ---
 # Content Insight{#content-insight}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Content Insight provides information about page performance using web analytics and SEO recommendations. Use Content Insight to make decisions about how to modify pages, or to learn how previous changes have changed performance. For every page that you author, you can open Content Insight to analyse the page.
 
 ![chlimage_1-311](assets/chlimage_1-311.png)

@@ -13,6 +13,10 @@ exl-id: addb71f8-d042-4b14-8775-f15ab9fa5b6b
 ---
 # Checklists{#checklists}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following checklist highlights some of the main issues - please read the other sections related to Testing for full details.
 
 |Check|Response|Action|Owner|Due|

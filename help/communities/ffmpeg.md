@@ -14,6 +14,10 @@ exl-id: 9ed54ee3-3509-4a43-a710-90f4543ccaf3
 ---
 # FFmpeg for Communities {#ffmpeg-for-communities}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 FFmpeg is a solution for converting and streaming audio and video and, when installed, is used for proper transcoding of [video assets](../../help/sites-authoring/default-components-foundation.md#video) as well as for AEM Communities' enablement feature.

@@ -14,6 +14,10 @@ exl-id: d552cbcc-8f71-48a3-9685-eba1ab8805c3
 ---
 # Components{#components}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager (AEM) comes with a variety of out-of-the-box components that provide comprehensive functionality for website authors. They are available when [editing a page](/help/sites-classic-ui-authoring/classic-page-author-edit-content.md) and are grouped by main functional area (i.e. component group) to aid filtering.
 
 >[!CAUTION]

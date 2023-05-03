@@ -13,6 +13,10 @@ exl-id: 5e2960f2-b172-48a7-bba3-4561a5f9c7bc
 ---
 # Grant rule editor access to select user groups {#grant-rule-editor-access-to-select-user-groups}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 You may have different types of users with varied skills that work with Adaptive Forms. While expert users may have the right knowledge to work with scripts and complex rules, there may be basic-level users who need to work only with the layout and basic properties of adaptive forms.

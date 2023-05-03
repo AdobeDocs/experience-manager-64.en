@@ -13,6 +13,10 @@ exl-id: d56fa6ba-6ac7-4d4f-968b-075f4f13957c
 ---
 # Integrating Services with the JMX Console{#integrating-services-with-the-jmx-console}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Create and deploy MBeans to manage services using the JMX Console. Expose service attributes and operations to enable administration tasks to be performed.
 
 For information about using the JMX Console, see [Monitoring Server Resources Using the JMX Console](/help/sites-administering/jmx-console.md).

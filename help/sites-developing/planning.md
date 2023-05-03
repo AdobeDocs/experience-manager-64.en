@@ -13,6 +13,10 @@ exl-id: 9804a96e-cad7-4df6-b463-ee3e794fdd39
 ---
 # Planning{#planning}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This document describes what you need to know to plan for your test. In addition you should answer these questions before conducting your tests:
 
 * [Which Test Environments will be needed?](/help/sites-developing/test-environments.md)

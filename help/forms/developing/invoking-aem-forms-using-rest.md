@@ -14,6 +14,10 @@ exl-id: 82770ac6-aafc-44b9-82fb-6f193bb3a128
 ---
 # Invoking AEM Forms using REST Requests {#invoking-aem-forms-using-rest-requests}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Processes created in Workbench can be configured so that you can invoke them through Representational State Transfer (REST) requests. REST requests are sent from HTML pages. That is, you can invoke a Forms process directly from a web page using a REST request. For example, you can open a new instance of a web page. Then you can invoke a Forms process and load a rendered PDF document with data that was sent in an HTTP POST request.
 
 Two types of HTML clients exist. The first HTML client is an AJAX client that is written in JavaScript. The second client is an HTML form that contains a submit button. An HTML-based client application is not the only possible REST client. Any client application that supports HTTP requests can invoke a service using a REST invocation. For example, you can invoke a service by using a REST invocation from a PDF form. (See [Invoking the MyApplication/EncryptDocument process from Acrobat](#rest-invocation-examples).)

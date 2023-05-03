@@ -13,6 +13,10 @@ exl-id: 67537323-e9c8-4eec-bcec-dc5bac4b623c
 ---
 # Adding and removing user name and password credentials {#adding-and-removing-user-name-and-password-credentials}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 From the Trust Store Management page, you can add and remove user name and password credentials used by the Forms service when it receives a request with SOAP-level security.
 
 ## Add a user name and password credential {#add-a-user-name-and-password-credential}

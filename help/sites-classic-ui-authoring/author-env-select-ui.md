@@ -13,6 +13,10 @@ exl-id: 997040d4-cf8f-4240-8423-a98d562aae02
 ---
 # Selecting your UI{#selecting-your-ui}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Since the touch-enabled UI supersedes the classic UI, the user or administrator of the AEM instance must make an active decision to continue using the classic UI. Because the classic UI is no longer maintained, there is no way for the authoring user to simply switch from the classic UI to the equivalent in the touch-enabled UI.
 
 For convenience to authoring users, the touch-enabled UI does allow for switching to the classic UI when necessary. See the [Selecting your UI](/help/sites-authoring/select-ui.md) in the standard Authoring documentation for details.

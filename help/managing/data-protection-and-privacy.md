@@ -13,6 +13,10 @@ exl-id: 46ad04b1-a660-4cdd-8649-5cdb00dbcae3
 ---
 # Adobe Experience Manager Readiness for Data Protection and Data Privacy Regulations {#aem-readiness-for-data-protection-and-data-privacy-regulations}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!WARNING]
 >
 >The contents of this document do not constitute legal advice and are not meant as a substitute for legal advice. 

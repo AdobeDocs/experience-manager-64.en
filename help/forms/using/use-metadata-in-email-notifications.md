@@ -10,6 +10,10 @@ exl-id: 248c5adf-23e9-463f-9f29-869ae2426c22
 ---
 # Use metadata in an email notification  {#use-metadata-in-an-email-notification}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use metadata to populate information in a forms workflow email notification
 
 You can use the Assign Task step to create and assign tasks to a user or group. When a task is assigned to a user or group, an email notification is sent to the defined user or to each member of the defined group. A typical [email notification](/help/forms/using/use-custom-email-template-assign-task-step.md) contains link of the assigned task and information related to the task.

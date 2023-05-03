@@ -12,6 +12,10 @@ exl-id: 443a49b1-467b-4bdd-ab28-89b20523db64
 ---
 # Using AEM Document Services Programmatically {#using-aem-document-services-programmatically}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Client classes required to build Maven Projects using AEM Document Services are available in the [AEM Forms Client SDK](https://helpx.adobe.com/aem-forms/kb/aem-forms-releases.html) jar. For information around maven projects, see [how to build your AEM project using Maven](/help/sites-developing/ht-projects-maven.md).
 
 >[!NOTE]

@@ -13,6 +13,10 @@ exl-id: 4c5896a4-d3f4-4278-9af3-538ab10cd210
 ---
 # Software Architecture{#software-architecture}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Design for upgrades {#design-for-upgrades}
 
 When extending OOTB behaviors, it is important to keep upgrades in mind. Always apply customizations in the /apps directory and either overlay on top of the corresponding nodes in the /libs directory or use sling:resourceSuperType to extend the out of the box behavior. While some modifications may be needed to support a new AEM version, the new version should not overwrite your customizations if this practice is followed.

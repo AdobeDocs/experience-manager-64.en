@@ -13,6 +13,10 @@ exl-id: 8a4fc7c7-03bc-44db-93f1-dbd76fc9dbd7
 ---
 # Designs and the Designer{#designs-and-the-designer}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!CAUTION]
 >
 >This article describes how to create a website based on the classic UI. Adobe recommends leveraging the latest AEM technologies for your websites as described in detail in the article [Getting Started Developing AEM Sites](/help/sites-developing/getting-started.md).

@@ -13,6 +13,10 @@ exl-id: 26d912e1-d8ee-44fc-8c82-ccc66551ddc1
 ---
 # Using the Rich Text Editor to author content {#using-the-rich-text-editor-to-author-content}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Rich Text Editor (RTE) is a basic building block for authoring text in AEM pages. Many components such as Text, Text and Image, and Table are based on RTE.
 
 >[!NOTE]

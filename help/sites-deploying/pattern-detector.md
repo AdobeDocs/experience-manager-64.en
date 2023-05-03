@@ -14,6 +14,10 @@ exl-id: 375e202c-21d4-41f1-a2d5-592ac95c8f25
 ---
 # Assessing the Upgrade Complexity with the Pattern Detector{#assessing-the-upgrade-complexity-with-the-pattern-detector}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 This feature allows you to check existing AEM instances for their upgradability by detecting patterns in use that:

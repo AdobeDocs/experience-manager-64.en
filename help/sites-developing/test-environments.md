@@ -13,6 +13,10 @@ exl-id: c3c7c007-4814-4bd1-987e-534df4575a4a
 ---
 # Which Test Environments will be needed?{#which-test-environments-will-be-needed}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To define which configurations for testing, you should consider the following:
 
 **Development** &ndash; For Unit, and certain Integration tests.

@@ -13,6 +13,10 @@ exl-id: 81a48c01-8052-47b1-be39-e126c37c7f0f
 ---
 # Import and manage applications{#import-and-manage-applications}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In AEM forms, an *application* is a container for storing assets that are required for implementing a AEM forms solution. Examples of assets are form designs, form fragments, images, processes, DDX files, form Guides, HTML pages, and SWF files. During the development phase of a project, Workbench users can deploy applications directly from the Applications view in Workbench. Once deployed, these applications appear in administration console, on the Applications tab on the Application Management page.
 
 When an application is complete and ready for deployment to a production server, the Workbench user packages the application into a *AEM forms application file* (.lca). Then an administrator uses administration console to import and deploy the application file, using the Applications tab on the Application Management page.

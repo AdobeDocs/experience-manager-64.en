@@ -12,6 +12,10 @@ exl-id: b9d2c63c-1777-4c13-a39f-6891f0ff52b2
 ---
 # Watched folder in AEM Forms {#watched-folder-in-aem-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 An administrator can configure a network folder, known as a Watched Folder, so that when a user places a file (such as a PDF file) in the Watched Folder a pre-configured workflow, service, or script operation is started to process the added file. After the service performs the specified operation, it saves the result file in a specified output folder. For more information about workflow, service, and script, see [Various methods for processing files](#variousmethodsforprocessingfiles).
 
 ## Create a Watched Folder {#create-a-watched-folder}

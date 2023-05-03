@@ -15,6 +15,10 @@ exl-id: 0a0222e7-ca30-4603-94ad-582005b2de11
 ---
 # Configuring Email {#configuring-email}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Communities uses email for
 
 * [Communities Notifications](notifications.md)

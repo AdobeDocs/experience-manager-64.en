@@ -14,6 +14,10 @@ exl-id: a5a12344-acbd-4f77-b849-b0b9db716ac5
 ---
 # Configuring security settings{#configuring-security-settings}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can limit access to PDF documents by setting passwords and by restricting certain features, such as printing and editing. When a PDF document has restricted features, tools and menu items that are related to those features are dimmed. You can also use other methods to create secure documents, such as encrypting or certifying a document. A security setting contains the password and specific options to use for certain PDF conversions.
 
 On the Security Settings page, you can do the following tasks:

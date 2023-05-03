@@ -9,6 +9,10 @@ exl-id: f4dea584-3cd1-4d9f-ae3c-2573726dde95
 ---
 # AEM 6.4 Capabilities User Guides {#aem-64-capabilities-user-guides}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## AEM Foundation {#aem-foundation}
 
 [Learn more about installing, deploying, and the architecture of Adobe Experience Manager 6.4](/help/sites-deploying/home.md), including our Adobe Managed Services cloud deployment.

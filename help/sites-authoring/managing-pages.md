@@ -13,6 +13,10 @@ exl-id: 0182155a-0156-458c-b89b-35ab3e27819e
 ---
 # Creating and Organizing Pages{#creating-and-organizing-pages}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This section describes how to create and manage pages with Adobe Experience Manager (AEM) so that you can then [create content](/help/sites-authoring/editing-content.md) on those pages.
 
 >[!NOTE]

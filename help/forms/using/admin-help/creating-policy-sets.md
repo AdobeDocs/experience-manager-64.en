@@ -14,6 +14,10 @@ exl-id: e17ab7de-9f4a-4456-be80-43ab9663940e
 ---
 # Creating and managing policy sets {#creating-and-managing-policy-sets}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Policy sets are used to group policies that have a common business purpose. Policy sets can be made available to a subset of users in the system.
 
 Each policy set has at least one associated policy set coordinator. The *policy set coordinator* is an administrator or a user who has additional permissions. The policy set coordinator is typically a specialist in the organization who can best author the policies in a given policy set.

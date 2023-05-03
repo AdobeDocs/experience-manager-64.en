@@ -14,6 +14,10 @@ exl-id: 29dc0b02-226d-4650-8266-2ad2c17dc6a5
 ---
 # Modifying the PDF Export conversion settings {#modifying-the-pdf-export-conversion-settings}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use the procedure below to modify the conversion settings for exporting a PDF, an EPS, a DOC, a TXT, an RTF, an XML, or an HTML file. By default, the PDF file uses the default Save As settings configured in Adobe Acrobat Professional or Acrobat Standard. For example, the default Save As settings in Acrobat for converting a PDF file to EPS will result in only one page from the PDF file converted to EPS.
 
 >[!NOTE]

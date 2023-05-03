@@ -14,6 +14,10 @@ exl-id: f55e2fe7-04ac-4368-b580-b8950d90548e
 ---
 # Upgrading Custom Search Forms{#upgrading-custom-search-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In AEM 6.2, the location where Customized Search Forms are stored in the repository has changed. Upon upgrading, they are moved from their location in 6.1 at:
 
 * /apps/cq/gui/content/facets

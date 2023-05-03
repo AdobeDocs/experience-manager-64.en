@@ -13,6 +13,10 @@ exl-id: 50f96633-bb20-4d55-adf9-3c3d314be4c5
 ---
 # Review the usage rights of a PDF file {#review-the-usage-rights-of-a-pdf-file}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When you upload a PDF file to the Acrobat Reader DC extensions web application, you can view this information:to view whether it has been Reader extended, any usage rights applied, and their expiry dates.
 
 1. Log in to the Acrobat Reader DC extensions web application at http://localhost:*[port]*/ReaderExtensions (where *[port]* is your application server’s port number).

@@ -13,6 +13,10 @@ exl-id: 24dd0d05-6327-47e2-a3d1-6ed40af06783
 ---
 # Configuring Video Tracking for Adobe Analytics{#configuring-video-tracking-for-adobe-analytics}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 There are several methods available for tracking video events, 2 of which are legacy options for older versions of Adobe Analytics. These legacy option are: Legacy Milestones and Legacy Seconds.
 
 >[!NOTE]

@@ -11,6 +11,10 @@ exl-id: 92ad5d8b-fc8c-4502-ab62-d27eb9784b65
 ---
 # We.Gov reference site FOIA walkthrough {#we-gov-reference-site-foia-walkthrough}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Pre-requisite {#pre-requisite}
 
 Set up your We.Gov reference site as described in the [Set up and configure AEM Forms reference sites](/help/forms/using/setup-reference-sites.md).

@@ -13,6 +13,10 @@ exl-id: 70ccc0ae-04c6-4af9-9150-72d0d71c945f
 ---
 # Overview of Health Monitor {#overview-of-health-monitor}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Health Monitor provides critical information about the AEM forms system, such as server information, memory usage, and processor usage. Also available are Work Manager statistics, such as the number of work items or jobs in the queue and their statuses. You can perform the following tasks using Health Monitor:
 
 * Verify that your system is running properly

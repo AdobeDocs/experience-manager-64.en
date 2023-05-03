@@ -13,6 +13,10 @@ exl-id: eaa2c889-d116-4209-9063-0c0b32dd8849
 ---
 # Configure the LDAP bind password{#configure-the-ldap-bind-password}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To avoid security risks, the bind password field in the exported configuration file (config.xml) is not configured. Before you import the configuration file into another system, ensure that you configure this password. This password overrides an existing password that is stored in the database. A null password does not override an existing non-null password value.
 
 1. In administration console, click Settings &gt; User Management &gt; Configuration &gt; Import And Export Configuration Files.

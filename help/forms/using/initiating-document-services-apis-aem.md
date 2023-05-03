@@ -12,6 +12,10 @@ exl-id: a2821338-f31d-4b08-91e6-7f934dc01384
 ---
 # Initiate Document Services APIs from AEM Workflow  {#initiate-document-services-apis-from-aem-workflow}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Assembler {#assembler}
 
 AEM Forms provides custom workflows to invoke the following Assembler service APIs:

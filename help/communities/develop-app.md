@@ -13,6 +13,10 @@ exl-id: cd036e4a-0884-4ba0-83e9-7013583bbbae
 ---
 # Develop Sandbox Application {#develop-sandbox-application}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In this section, now that the template has been setup in the [initial application](initial-app.md) section, and the initial pages established in the [initial content](initial-content.md) section, the application can be developed using foundation scripts including the ability to enable authoring with Communities components. At the end of this section, the website will be functional.
 
 ## Using Foundation Page Scripts {#using-foundation-page-scripts}

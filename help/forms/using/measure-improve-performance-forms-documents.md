@@ -12,6 +12,10 @@ exl-id: 364dd7f3-9009-440e-8aff-28e2dac08fe7
 ---
 # Measure and improve effectiveness and conversion of forms {#measure-and-improve-effectiveness-and-conversion-of-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## The challenge {#the-challenge-br}
 
 Organizations are increasingly empowering and encouraging their customers to transact using digital self-services across multiple channels. However, in absence of one-to-one feedback mechanism, it becomes challenging to measure success and experiment with digital forms to enhance customer experience and increase conversions.

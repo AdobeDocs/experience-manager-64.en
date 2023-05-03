@@ -13,6 +13,10 @@ exl-id: 3d5396b5-10e5-49bc-aa11-5a3df93d70c3
 ---
 # Comments Essentials {#comments-essentials}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This page provides the essentials of working with the comment system (comments component) and options for managing the user generated content (UGC) produced when members post comments or replies.
 
 The comments component establishes a comment system such that each individual post is represented by a comment component (singular). It is the comment system which is included on the page. The comment system will create the individual comments when invoked.

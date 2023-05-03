@@ -14,6 +14,10 @@ exl-id: 9d459939-a311-4770-84db-f2a4b7869072
 ---
 # Working with barcoded forms {#working-with-barcoded-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## About the barcoded forms Service {#about-the-barcoded-forms-service}
 
 The barcoded forms service automates the capture of data from fill-and-print forms and integrates captured information into an organization's core IT systems.

@@ -12,6 +12,10 @@ exl-id: 1d74fdb9-c118-45f7-93c6-116cacb2f1c4
 ---
 # APIs used in AEM Forms workspace {#apis-used-in-aem-forms-workspace}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following APIs are used in AEM Forms workspace.
 
 <table> 

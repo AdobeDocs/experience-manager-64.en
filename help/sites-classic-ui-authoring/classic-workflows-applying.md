@@ -13,6 +13,10 @@ exl-id: f10680e5-e8ae-49a0-ae52-3aa1f22b2d3e
 ---
 # Applying Workflows to Pages{#applying-workflows-to-pages}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When you apply the workflow, you specify the following information:
 
 * The workflow to apply. 

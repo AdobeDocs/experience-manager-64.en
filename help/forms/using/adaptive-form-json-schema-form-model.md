@@ -12,6 +12,10 @@ exl-id: 42c41625-7441-479c-bd07-7e96e867cc0a
 ---
 # Creating adaptive forms using JSON Schema {#creating-adaptive-forms-using-json-schema}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Prerequisites {#prerequisites}
 
 Authoring an adaptive form using an JSON Schema as its form model requires basic understanding of JSON Schema. It is recommended to read through the following content before this article.

@@ -13,6 +13,10 @@ exl-id: 1fb51e4a-e0e8-4a58-8877-98337fe29fac
 ---
 # Setting internationalization options{#setting-internationalization-options}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Specify the locale used to render forms {#specify-the-locale-used-to-render-forms}
 
 You can specify the locale used when rendering a PDF form. The fields on a PDF form use the specified locale to display data. For example, if the locale is set to German, the form uses German decimal separators for numeric values. The locale is also used to send validation messages to client devices, such as web browsers, as part of HTML transformations.

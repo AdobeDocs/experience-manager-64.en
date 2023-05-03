@@ -12,6 +12,10 @@ exl-id: ad669f3b-2bda-4c41-8032-cf25a192ce12
 ---
 # Form Bridge APIs for HTML5 forms {#form-bridge-apis-for-html-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can use the Form Bridge APIs to open a communication channel between an XFA-based HTML5 forms and your applications. The Form Bridge APIs provides a **connect** API to create the connection.
 
 The **connect** API accepts a handler as an argument. After a successful connection is created between XFA-based HTML5 form and Form Bridge, the handle is invoked.

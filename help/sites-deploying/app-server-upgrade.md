@@ -14,6 +14,10 @@ exl-id: 1c72093e-82c8-49ad-bd3c-d61904aaab28
 ---
 # Upgrade Steps for Application Server Installations{#upgrade-steps-for-application-server-installations}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This section describes the procedure that needs to be followed in order to update AEM for Application Server installations.
 
 All the examples in this procedure use JBoss as the Application Server and imply that you have a working version of AEM already deployed. The procedure is meant to document upgrades performed from **AEM version 5.6 to 6.3**.

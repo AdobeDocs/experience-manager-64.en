@@ -15,6 +15,10 @@ exl-id: 883b33c8-50b1-4df2-a762-02be67ce24f1
 ---
 # Dynamically Creating DDX Documents {#dynamically-creating-ddx-documents}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can dynamically create a DDX document that can be used to perform an Assembler operation. Dynamically creating a DDX document enables you to use values in the DDX document that are obtained during run-time. To dynamically create a DDX document, use classes that belong to the programming language that you are using. For example, if you are developing your client application using Java, use classes that belong to the `org.w3c.dom.*`package. Likewise, if you are using Microsoft .NET, use classes that belong to the `System.Xml` namespace.
 
 Before you can pass the DDX document to the Assembler service, convert the XML from an `org.w3c.dom.Document` instance to a `com.adobe.idp.Document` instance. If you are using web services, convert the XML from the data type used to create the XML(for example, `XmlDocument`) to a `BLOB` instance.

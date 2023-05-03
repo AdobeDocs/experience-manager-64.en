@@ -13,6 +13,10 @@ exl-id: 310d9086-36b6-42ea-835f-c77d75e880cb
 ---
 # Assignments Essentials {#assignments-essentials}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This page provides the essential information for working with the assignments feature of [enablement community](overview.md#enablement-community) sites.
 
 The assignments feature is the ability to assign enablement resources and learning paths to members of enablement communities.

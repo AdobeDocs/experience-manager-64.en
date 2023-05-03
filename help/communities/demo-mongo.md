@@ -14,6 +14,10 @@ exl-id: e32fc619-6226-48c6-bbd7-1910963d1036
 ---
 # How to Setup MongoDB for Demo {#how-to-setup-mongodb-for-demo}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 This tutorial describes how to setup [MSRP](msrp.md) for *one author* instance and *one publish* instance.

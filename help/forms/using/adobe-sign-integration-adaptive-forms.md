@@ -13,6 +13,10 @@ exl-id: e7c27623-a889-4bd5-bfff-cfe513cd1a35
 ---
 # Integrate Acrobat Sign with AEM Forms {#integrate-adobe-sign-with-aem-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Acrobat Sign enables e-signature workflows for adaptive forms. E-signatures improve workflows to process documents for legal, sales, payroll, human resource management, and many more areas.
 
 In a typical Acrobat Sign and adaptive forms scenario, a user fills an adaptive form to **apply for a service**. For example, a credit card application and a citizen benefits form. When a user fills, submits, and signs the application form, the form is sent to the service provider for further action. Service provider reviews the application and uses Acrobat Sign to mark the application approved. To enable similar electronic-signature workflows, you can integrate Acrobat Sign with AEM Forms.

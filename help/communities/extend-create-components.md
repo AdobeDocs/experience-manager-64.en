@@ -13,6 +13,10 @@ exl-id: 48809969-5d14-41bb-bc6d-5857e679ceba
 ---
 # Create the Components {#create-the-components}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The example of extending components uses the comment system, which is actually composed of two components
 
 * Comments - The encompassing comment system which is the component placed on a page

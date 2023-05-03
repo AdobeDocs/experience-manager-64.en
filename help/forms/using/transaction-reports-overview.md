@@ -12,6 +12,10 @@ exl-id: a545aa0a-9d71-48ba-ba3e-ed30a7e34f3d
 ---
 # Transaction Reports Overview {#transaction-reports-overview}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Keep a count of all the forms submitted, interactive communication rendered, Documents converted to one format to another, and more
 
 ## Introduction {#introduction}

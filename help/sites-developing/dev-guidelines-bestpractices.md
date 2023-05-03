@@ -13,6 +13,10 @@ exl-id: 26c9098b-f810-4c3d-a6c8-9a5fbcd307dd
 ---
 # AEM Development - Guidelines and Best Practices{#aem-development-guidelines-and-best-practices}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Guidelines for Using Templates and Components {#guidelines-for-using-templates-and-components}
 
 AEM components and templates form a very powerful toolkit. They can be used by developers to provide website business users, editors, and administrators with the functionality to adapt their websites to changing business needs (content agility) while retaining the uniform layout of the sites (brand protection).

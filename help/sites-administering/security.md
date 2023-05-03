@@ -14,6 +14,10 @@ exl-id: 1dd54d3f-419c-4c83-8cd8-4ae0e7feead2
 ---
 # User Administration and Security{#user-administration-and-security}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This chapter describes how to configure and maintain user authorization and also describes the theory behind how authentication and authorization work in AEM.
 
 ## Users and Groups in AEM {#users-and-groups-in-aem}

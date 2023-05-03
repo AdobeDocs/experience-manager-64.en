@@ -14,6 +14,10 @@ exl-id: 2b82e68c-ec11-417d-a8e2-769da9b35140
 ---
 # Feature differentiation between HTML5 forms and PDF forms {#feature-differentiation-between-html-forms-and-pdf-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following table specifies the feature support provided for HTML5 forms and PDF forms:
 
 <table> 

@@ -14,6 +14,10 @@ exl-id: 0f075a01-f286-4e16-9061-4e902c553eb9
 ---
 # List of Obsolete Bundles Uninstalled After the Upgrade{#list-of-obsolete-bundles-uninstalled-after-the-upgrade}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >If your code relies on these bundles, make sure you contact Adobe Support and ask for a compatibility package for the affected area.

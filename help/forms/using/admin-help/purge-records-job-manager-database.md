@@ -13,6 +13,10 @@ exl-id: be2e2a4b-5aac-4612-81b6-b4bbb3036d77
 ---
 # Purge records from the Job Manager database {#purge-records-from-the-job-manager-database}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Process data that is generated when a long-lived process is invoked can become too large, resulting in lower AEM forms performance and the use of unnecessary disk space. It is good practice to purge process data when records are no longer necessary.
 
 You can use administration console to perform a one-time purge of obsolete records, or to schedule regular automatic purges. Other methods for purging obsolete records are discussed in [Purging process data](/help/forms/using/admin-help/purging-process-data.md#purging-process-data).

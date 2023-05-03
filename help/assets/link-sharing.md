@@ -8,6 +8,10 @@ exl-id: bf4b0acf-4103-4da1-8666-c6d9fe80c41f
 ---
 # Share asset via a link {#asset-link-sharing}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 [!DNL Adobe Experience Manager Assets] lets you share assets, folders, and collections as a URL with members of your organization and external entities, including partners and vendors. Sharing assets through a link is a convenient way of making resources available to external parties without them having to first log in to [!DNL Assets].
 
 >[!PREREQUISITES]

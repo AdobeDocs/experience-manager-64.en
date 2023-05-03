@@ -13,6 +13,10 @@ exl-id: c2061de7-8627-4595-b96c-aa2d6abffddd
 ---
 # Integration with Acrobat Sign | Handling user data {#integration-with-adobe-sign-handling-user-data}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Forms integrates with Acrobat Sign to enable e-signature workflows in adaptive forms to process forms or agreements for legal, sales, payroll, human resource management workflows. It allows for single and multiuser signing, sequential and simultaneous signing workflows, signing forms as an anonymous or logged-in user, and multiple ways to authenticate users.
 
 When a signer or multiple signers sign and submit an adaptive form, an Acrobat Sign agreement is generated that includes information about the signers.

@@ -13,6 +13,10 @@ exl-id: ca9c6fd1-7f2e-4c99-ba6e-0a064274ac24
 ---
 # Target offers{#target-offers}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Creating a Test&Target Offer Experience {#creating-a-test-target-offer-experience}
 
 1. Select your new campaign in the left pane, or double-click it in the right pane.

@@ -12,6 +12,10 @@ exl-id: 0ccf43eb-f0c6-4204-8325-f891caa8f5af
 ---
 # Style your adaptive form {#do-not-publish-style-your-adaptive-form}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn to create a custom theme, style individual components, and use web fonts in a theme 
 
  ![](do-not-localize/08-style_your_adaptiveformmain.png) 

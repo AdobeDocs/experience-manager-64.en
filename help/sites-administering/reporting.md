@@ -13,6 +13,10 @@ exl-id: daff8e4e-40c7-4762-8e4f-d85d50b86e5d
 ---
 # Reporting {#reporting}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To help you monitor and analyze the state of your instance, AEM provides a selection of default reports, which can be configured for your individual requirements:
 
 * [Component Report](#component-report)

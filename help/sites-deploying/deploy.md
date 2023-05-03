@@ -13,6 +13,10 @@ exl-id: 9a779cde-dfdf-4d70-a452-5e7d12bf3f28
 ---
 # Deploying and Maintaining{#deploying-and-maintaining}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In this page you will find:
 
 * [Basic Concepts](#basic-concepts)

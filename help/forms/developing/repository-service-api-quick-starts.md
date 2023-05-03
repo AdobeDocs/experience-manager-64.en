@@ -14,6 +14,10 @@ exl-id: 859a2b57-df90-4030-9061-c454d07cb753
 ---
 # Repository Service API Quick Starts {#repository-service-api-quick-starts}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following Quick Starts are available for the AEM Forms Repository service.
 
 [Quick Start (SOAP mode): Creating a folder using the Java API](repository-service-api-quick-starts.md#quick-start-soap-mode-creating-a-folder-using-the-java-api)

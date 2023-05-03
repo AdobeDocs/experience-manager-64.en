@@ -9,6 +9,10 @@ exl-id: a72c0f77-458f-4ea0-b8ca-59e71fef2c5d
 ---
 # Best Practices for Email Templates{#best-practices-for-email-templates}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This document describes some of the best practices around email design resulting in a well-developed email campaign template.
 
 The demo campaign available in AEM follows all of these best practices. How the best practices are implemented in the demo campaign is described for each best practice.

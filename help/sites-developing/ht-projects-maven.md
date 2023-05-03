@@ -5,6 +5,10 @@ exl-id: 6ae0e387-468b-4cea-9e3f-0816d67b7621
 ---
 # How to Build AEM Projects using Apache Maven {#how-to-build-aem-projects-using-apache-maven}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM 6.4 adheres to the latest best practices for package management and project structure as implemented by the latest AEM Project Archetype for both on-premises and AMS implementations.
 
 >[!TIP]

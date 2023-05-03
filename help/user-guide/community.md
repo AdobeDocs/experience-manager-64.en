@@ -9,6 +9,10 @@ exl-id: 537f6fe5-011b-4d4a-ac71-71708fd72b85
 ---
 # The AEM Community {#the-aem-community}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## What is the AEM Community? {#what-is}
 
 The AEM Community has thousands of members around the world. They range from people new to Experience Manager, to seasoned expert developers and administrators.  We are there to help you from questions about AEM capabilities through to helping with development questions. We hold regular Expert sessions with internal and external expert users and help produce samples, articles and tutorials for you.

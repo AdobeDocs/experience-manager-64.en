@@ -13,6 +13,10 @@ exl-id: 17105abe-177b-4e73-bb4f-22b208c436ef
 ---
 # Storage Resource Provider Overview {#storage-resource-provider-overview}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 As of AEM Communities 6.1, community content, commonly referred to as user generated content (UGC), is stored in a single, common store provided by a [storage resource provider](working-with-srp.md) (SRP).

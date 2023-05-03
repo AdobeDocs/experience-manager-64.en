@@ -13,6 +13,10 @@ exl-id: 1e5172d9-47a3-4d73-b749-166e201f4eef
 ---
 # User Interface Recommendations for Customers{#user-interface-recommendations-for-customers}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager 6.4 comes with two UIs - the unified Experience Cloud UI and the Classic UI.
 
 This document is intended to guide customers to make a choice on what UI to use depending their situation.

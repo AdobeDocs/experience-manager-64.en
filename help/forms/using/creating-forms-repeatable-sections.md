@@ -12,6 +12,10 @@ exl-id: 6ae70f02-a86d-4514-abc5-1ed08e484852
 ---
 # Creating forms with repeatable sections {#creating-forms-with-repeatable-sections}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Repeatable sections are panels that can be added or removed to a form dynamically.
 
 For example, while applying for a job, the job seeker provides previous employment details such as company name, role, project, and other information. Information of all the employers requires different but similar looking sections. In such a scenario, the employment form provides an employer section and also provides an option to dynamically add more such sections. These sections, which are added dynamically, are known as Repeatable sections.

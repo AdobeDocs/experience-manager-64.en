@@ -14,6 +14,10 @@ exl-id: 302b38e9-71fc-4e83-af01-856d7bd9af40
 ---
 # Task Manager Service Java API Quick Start (SOAP) {#task-manager-service-java-api-quickstart-soap}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following Quick Starts are available for the Task Manager service.
 
 [Quick Start (SOAP mode): Assigning tasks using the Java API](task-manager-service-java-api.md#quick-start-soap-mode-assigning-tasks-using-the-java-api)

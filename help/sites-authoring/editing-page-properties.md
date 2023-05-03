@@ -13,6 +13,10 @@ exl-id: b0e579a4-f5bd-4a55-a003-0496224bc940
 ---
 # Editing Page Properties{#editing-page-properties}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can define the required properties for a page. These can vary depending on the nature of the page. For example some pages might be connected to a live copy while others are not and the live copy information will be available as appropriate.
 
 ## Page Properties {#page-properties}

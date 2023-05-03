@@ -13,6 +13,10 @@ exl-id: 2016ac85-12a1-42cb-bc03-fced94947010
 ---
 # Configuring validation messages {#configuring-validation-messages}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 For forms that are rendered as HTML, form validation errors that occur are displayed for the user. You can customize how validation messages are displayed. Depending on where the validation messages are displayed, you can also control the location of the message in the form and the size of the frame border.
 
 ## Specify how validation messages are displayed {#specify-how-validation-messages-are-displayed}

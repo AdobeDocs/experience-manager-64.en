@@ -13,6 +13,10 @@ exl-id: 7eee8103-8d6c-4397-acaf-dd662cc09a56
 ---
 # System information Service APIs {#system-information-service-apis}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The system information service provides a set of REST APIs to retrieve information. The following table provides detailed information about the APIs:
 
 <table>

@@ -13,6 +13,10 @@ exl-id: c0678bb6-5e57-4ebb-b6dc-5240bafbc79e
 ---
 # Overlays{#overlays}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM (and prior to that, CQ) has long used the principle of overlays to allow you to extend and customize the [consoles](/help/sites-developing/customizing-consoles-touch.md) and other functionality (for example, [page authoring](/help/sites-developing/customizing-page-authoring-touch.md)).
 
 Overlay is a term that can be used in many contexts. In this context (extending AEM) an overlay means taking the predefined functionality and imposing your own definitions over that (to customize the standard functionality).

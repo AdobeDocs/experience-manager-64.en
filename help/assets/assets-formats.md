@@ -8,6 +8,10 @@ exl-id: ee25fe8f-36fb-42b3-9f90-0ea77bc02e2f
 ---
 # Files formats supported in [!DNL Adobe Experience Manager Assets] {#assets-supported-formats}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 [!DNL Experience Manager Assets] supports a wide range of file formats and each functionality has varied support for different MIME types.
 
 To integrate [!DNL Assets] with other standards-compliant digital asset management (DAM) solutions and desktop software, use Adobe's Extensible Metadata Platform (XMP).

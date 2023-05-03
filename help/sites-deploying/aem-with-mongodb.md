@@ -13,6 +13,10 @@ exl-id: 8397352a-51b0-4d03-a72d-19f7da58c07e
 ---
 # AEM with MongoDB{#aem-with-mongodb}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This article aims to improve knowledge on tasks and considerations needed to successfully deploy Adobe Experience Manager with MongoDB.
 
 For more deployment related information, consult the [Deploying and Maintaining](/help/sites-deploying/deploy.md) section of the documentation.
@@ -154,6 +158,10 @@ Below is an example of Document Node Store configuration for a minimal MongoDB d
 
 ```xml
 # org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService.config
+
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 #MongoDB server details
 mongodburi=mongodb://aem:aempassword@mongodbserver1.customer.com:27000,mongodbserver2.customer.com:27000
   
@@ -197,7 +205,15 @@ Here is a typical Data Store configuration for a minimal AEM deployment with Mon
 
 ```xml
 # org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.config
+
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 # The minimum size of an object that should be stored in this data store.
+
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
 minRecordLength=4096
 path=/datastore
 maxCachedBinarySize=4096

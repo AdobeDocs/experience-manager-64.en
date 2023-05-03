@@ -14,6 +14,10 @@ exl-id: e83317bb-e69c-4e2c-92f8-4f613786e7ae
 ---
 # Troubleshooting Replication{#troubleshooting-replication}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This page provides information on how to troubleshoot replication issues.
 
 ## Problem {#problem}

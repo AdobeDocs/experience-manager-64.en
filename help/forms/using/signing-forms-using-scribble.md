@@ -12,6 +12,10 @@ exl-id: a870c4b7-4040-4bd8-b477-286ebe6a4b01
 ---
 # Apply electronic signatures to a form using scribble signatures {#apply-electronic-signatures-to-a-form-using-scribble-signatures}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can use the **Scribble Signature** component and **Signature Step** component to draw(Scribble) signature on an adaptive form. The Signature step component displays a PDF version of the adaptive form. You require a Document of Record option enabled or form template based adaptive forms to use the Signature step component.
 
 Both the components provide a window, as displayed below, to sign a form. You can also click the geolocation icon ![aem_6_3_geolocation](assets/aem_6_3_geolocation.png) to add geolocation to the signature.

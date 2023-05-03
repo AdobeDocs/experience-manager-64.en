@@ -14,6 +14,10 @@ exl-id: 5f85882c-f7a7-448e-9946-e04a0d74dee1
 ---
 # Best practices for HTML5 forms  {#best-practices-for-html-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Tune your XFA-based HTML5 Forms for best performance.
 
 ## Overview {#overview}

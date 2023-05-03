@@ -15,6 +15,10 @@ exl-id: 49c4af9a-5797-468c-b3ad-f3140d445ff2
 ---
 # Rendering Forms Based on Fragments {#rendering-forms-based-on-fragments}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Rendering Forms Based on Fragments {#rendering-forms-based-on-fragments-inner}
 
 The Forms service can render forms that are based on fragments that you create using Designer. A *fragment* is a reusable part of a form and is saved as a separate XDP file that can be inserted into multiple form designs. For example, a fragment can include an address block or legal text.

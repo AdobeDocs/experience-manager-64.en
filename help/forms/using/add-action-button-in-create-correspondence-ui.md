@@ -13,6 +13,10 @@ exl-id: 5bcb26dc-aeb7-4a81-b905-23c8fb05d6d0
 ---
 # Add custom action/button in Create Correspondence UI {#add-custom-action-button-in-create-correspondence-ui}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 The Correspondence Management solution allows you add custom actions to the Create Correspondence user interface.

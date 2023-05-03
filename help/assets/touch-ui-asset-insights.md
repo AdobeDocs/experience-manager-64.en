@@ -8,6 +8,10 @@ exl-id: a9604b09-1c83-4c1e-aff7-13107b898cb3
 ---
 # Assets Insights {#asset-insights}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn how the Assets Insights feature lets you track user ratings and usage statistics of assets that are used in third-party websites, marketing campaigns, and Adobe's creative solutions.
 
 The Assets Insights feature enables you to track user ratings and usage statistics of assets that are used in third-party websites, marketing campaigns, and Adobe's creative solutions to derive insights regarding their performance and popularity.

@@ -15,6 +15,10 @@ role: Admin,User,Developer
 ---
 # Create custom pop-ups using Quickviews {#using-quickviews-to-create-custom-pop-ups}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The default Quickview is used in ecommerce experiences whereby a pop-up is displayed with product information to drive a purchase. However, you can trigger custom content to display in the pop-ups. Depending on the viewer you are using, this functionality lets users click on a hotspot, or a thumbnail image, or on an image map to see information or related content.
 
 Quickviews are supported by the following viewers in Dynamic Media:

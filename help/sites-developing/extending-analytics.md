@@ -13,6 +13,10 @@ exl-id: 8df6b48f-b1a8-4294-a52e-dc17ab65606c
 ---
 # Extending Event Tracking{#extending-event-tracking}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Analytics allows you to track user interaction on your website. As a developer you may need to:
 
 * Track how visitors are interacting with your components. This can be done with [Custom events.](#custom-events)

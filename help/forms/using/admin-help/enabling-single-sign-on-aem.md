@@ -13,6 +13,10 @@ exl-id: ac56a1db-593e-4996-84ec-c9e6d1256059
 ---
 # Enabling single sign-on in AEM forms{#enabling-single-sign-on-in-aem-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM forms provides two ways to enable single sign-on (SSO) - HTTP headers and SPNEGO.
 
 When SSO is implemented, the AEM forms user login pages are not required and do not appear if the user is already authenticated through their company portal.

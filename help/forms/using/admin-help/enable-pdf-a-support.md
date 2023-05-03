@@ -14,6 +14,10 @@ exl-id: f069ecea-1b68-4ca9-bb56-8a205a3c00ec
 ---
 # Enable PDF/A support {#enable-pdf-a-support}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 PDF Generator supports the creation of PDF/A-compliant files from Microsoft Excel, Microsoft PowerPoint, and Microsoft Word files.
 
 1. In administration console, click Services &gt; PDF Generator &gt; File Type Settings. 

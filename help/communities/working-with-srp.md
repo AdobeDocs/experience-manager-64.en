@@ -14,6 +14,10 @@ exl-id: 4ff530ae-c676-4259-86f2-a3881843b642
 ---
 # SRP - Community Content Storage {#srp-community-content-storage}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 As of AEM Communities 6.1, user-generated content (UGC) is stored in a single, common store provided by a storage resource provider (SRP). There are several SRP options from which to choose, such as ASRP, MSRP, and JSRP.

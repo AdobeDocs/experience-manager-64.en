@@ -13,6 +13,10 @@ exl-id: 102e4f39-192e-4cc1-a249-4b6bc641919d
 ---
 # Correspondence Management Configuration Properties {#correspondence-management-configuration-properties}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To configure these properties, open the following URL in a browser: `https://<server>:<port>/<contextPath>/system/console/configMgr` and select **Correspondence Management Configurations**.
 
 Correspondence Management has the following configuration properties:

@@ -13,6 +13,10 @@ exl-id: 865f524d-6b54-43c8-9b28-86a766e010a1
 ---
 # SPA Model Routing{#spa-model-routing}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 For single page applications in AEM, the app is responsible for the routing. This document describes the routing mechanism, the contract, and options available.
 
 >[!NOTE]

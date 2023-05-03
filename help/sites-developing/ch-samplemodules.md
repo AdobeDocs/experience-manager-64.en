@@ -13,6 +13,10 @@ exl-id: 637ec80e-320f-4cf7-b09a-9f3cbf47bb63
 ---
 # Sample ContextHub UI Module Types {#sample-contexthub-ui-module-types}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ContextHub provides several sample UI modules that you can use in your solutions. The following information is provided:
 
 * The main features of the UI module.

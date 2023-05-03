@@ -13,6 +13,10 @@ exl-id: 7b3f58df-036e-46a8-913e-e695de34ddd7
 ---
 # Publishing Pages{#publishing-pages}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Once you have created and reviewed your content on the author environment, the goal is to make it available on your public website (your publish environment).
 
 This is referred to as publishing a page. When you want to remove a page from the publish environment is referred to as unpublishing. When publishing and unpublishing the page remains available on the author environment for further changes until you delete it.

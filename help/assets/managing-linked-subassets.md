@@ -9,6 +9,10 @@ exl-id: 9fa44b26-76f7-48e2-a9df-4fd1c0074158
 ---
 # Manage compound assets with subassets {#managing-compound-assets}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager Assets can identify if an uploaded file contains references to assets that already exist in the repository. This feature is available for supported file formats only. If the uploaded asset contains any references to [!DNL Experience Manager] assets, a bidirectional link is created between the uploaded and referenced assets.
 
 Besides eliminating redundancy, referencing [!DNL Experience Manager] assets in Adobe Creative Cloud applications enhances collaboration and increases the efficiency and productivity of users.

@@ -16,6 +16,10 @@ role: Admin,User
 ---
 # Managing Dynamic Media viewer presets {#managing-viewer-presets}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 A Dynamic Media viewer preset is a collection of settings that determine how users view rich-media assets on their computer screens and mobile devices. If you are an administrator, you can create Viewer Presets. Settings are available for an array of viewer configuration options. For example, you can change the viewer display size or zoom behavior.
 
 For instructions on creating and customizing your own HTML5 viewer presets, see the Adobe Dynamic Media *HTML5 Viewer SDK API Documentation*. The SDK is available on the IS publish server embedded in the SDK itself. Each library version has its own SDK documentation included.

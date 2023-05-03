@@ -13,6 +13,10 @@ exl-id: 969dc933-6a23-4213-81f5-cd7e7dae0f64
 ---
 # WebDAV Access{#webdav-access}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To connect to AEM via WebDAV with KDE:
 
 AEM offers WebDAV support that lets you display and edit repository content. Connecting via WebDAV gives you direct access to the content repository through your desktop. Text and PDF files that are added to the repository through the WebDAV connection are automatically full-text indexed and can be searched with the standard search interfaces and through the standard Java APIs.

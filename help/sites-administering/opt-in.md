@@ -13,6 +13,10 @@ exl-id: e532fdbb-c847-4061-996e-d1ffde3bb6be
 ---
 # Opting Into Adobe Analytics and Adobe Target{#opting-into-adobe-analytics-and-adobe-target}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM has an opt-in procedure to help you integrate with Adobe Analytics and Adobe Target. This is available out-of-the-box, as a pre-loaded task assigned to the administrator user group.
 
 When you log in as an administrator this task (**Configuring Analytics & Targeting**) is available from the [Inbox](/help/sites-authoring/inbox.md#out-of-the-box-administrative-tasks). Based on the credentials you supply, it helps you configure and integrate these services.

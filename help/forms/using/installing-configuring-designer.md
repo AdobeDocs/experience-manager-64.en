@@ -15,6 +15,10 @@ exl-id: 9791ffd5-04c4-4eed-8e99-b390e539197d
 ---
 # Installing and configuring Designer {#installing-and-configuring-designer}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Designer is available as a stand-alone installer and is also bundled with WorkBench. If you are using a stand-alone installer for Designer, follow these steps:
 
 1. Contact Adobe Support to download the Designer installer.

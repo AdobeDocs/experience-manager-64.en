@@ -8,6 +8,10 @@ exl-id: d19cea4d-5395-479d-b303-4529ae2c0bf2
 ---
 # Enabling Assets Insights through DTM {#enabling-asset-insights-through-dtm}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Dynamic Tag Management is a tool that activates your digital marketing tools. It is provided for free to Adobe Analytics customers. You can either customize your tracking code to enable third-party CMS solutions to use Assets Insights or you can use DTM to insert Assets Insights tags. Insights are only supported and provided for images.
 
 >[!CAUTION]

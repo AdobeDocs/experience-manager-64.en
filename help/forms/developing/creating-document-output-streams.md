@@ -14,6 +14,10 @@ exl-id: 31f60907-0b9c-43ac-bb9f-74eacf6976d7
 ---
 # Creating Document Output Streams  {#creating-document-output-streams}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 **About the Output Service**
 
 The Output service lets you output documents as PDF (including PDF/A documents), PostScript, Printer Control Language (PCL), and the following label formats:

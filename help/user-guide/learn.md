@@ -9,6 +9,10 @@ exl-id: 5cb966c3-1e19-47c8-a691-067f6d4680c0
 ---
 # Learn About AEM 6.4 Capabilities {#learn-about-aem-64-capabilities}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## AEM Sites {#aem-sites}
 
 AEM Sites is a content management system within Adeobe Experience Manager that gives you one place to create, manage, and deliver digital experiences across websites, mobile sites, and on-site screens to make them global in reach, yet personally relevant and engaging. [Learn more](https://business.adobe.com/products/experience-manager/sites/web-content-management.html) or [dig into some of our new video feature tutorials.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html)

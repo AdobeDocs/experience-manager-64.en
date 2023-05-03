@@ -13,6 +13,10 @@ exl-id: 8cdd7b94-b247-4598-bb0f-36c5ec1319ec
 ---
 # Community Components Guide {#community-components-guide}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Community Components guide is an interactive development tool for the [social component framework (SCF)](scf.md). It provides a list of available AEM Communities components or the more complex features built of multiple components.
 
 Along with basic information for each component, the guide allows for experimentation with how the SCF components/features work and how they can be configured or customized.

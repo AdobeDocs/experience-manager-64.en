@@ -13,6 +13,10 @@ exl-id: 66fc7691-1c93-4714-b75f-ae03512261e9
 ---
 # Adobe Campaign Components{#adobe-campaign-components}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When you integrate with Adobe Campaign, you have components available for when working with newsletters and with forms. Both are described in this document.
 
 ## Adobe Campaign Newsletter Components {#adobe-campaign-newsletter-components}

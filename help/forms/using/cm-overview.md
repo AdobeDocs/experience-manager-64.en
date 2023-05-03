@@ -13,6 +13,10 @@ exl-id: 3cda92c9-5f3e-4704-a52b-55eda3b3fd2a
 ---
 # Correspondence Management Overview {#correspondence-management-overview}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 Correspondence Management centralizes and manages the creation, assembly and delivery of secure, personalized, and interactive correspondences. It enables you to quickly assemble correspondence from both pre-approved and custom-authored content in a streamlined process from creation to archival. As a result, your customers get the right communication at the right time in the right way: timely, accurate, convenient, secure, and relevant. Your business maximizes the value of customer interactions and minimizes cost and risk with a process that is streamlined for ease, speed, and productivity.

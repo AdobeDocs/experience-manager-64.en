@@ -13,6 +13,10 @@ exl-id: 7e465a56-ca26-481e-9b3e-b438ef7fbff0
 ---
 # Customizing the Adobe Analytics Framework{#customizing-the-adobe-analytics-framework}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Adobe Analytics framework determines the information that is tracked with Adobe Analytics. To customize the default framework, you use javascript to add custom tracking, integrate Adobe Analytics plugins, and change general settings within the framework used for tracking.
 
 ## About the Generated javascript for Frameworks {#about-the-generated-javascript-for-frameworks}

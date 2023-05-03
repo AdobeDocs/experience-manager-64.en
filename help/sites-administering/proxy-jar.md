@@ -13,6 +13,10 @@ exl-id: fb96ed26-b5b6-4afc-a820-3ef45a9f3abd
 ---
 # Proxy Server Tool (proxy.jar){#proxy-server-tool-proxy-jar}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The proxy server acts as an intermediate server that relays requests between a client and a server. The proxy server keeps track of all the client-server interactions and outputs a log of the entire TCP communication. This allows you to monitor exactly what is going on, without having to access the main server.
 
 You can find the proxy server in the appropriate installation folder:

@@ -13,6 +13,10 @@ exl-id: 794769f8-57c7-43c1-87dd-952121ced3e4
 ---
 # Creating and configuring roles{#creating-and-configuring-roles}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Using the User Management web pages, you can associate users and groups with roles that are already part of the User Management database. You can also create, edit, and delete roles.
 
 User Management has two types of roles:

@@ -14,6 +14,10 @@ exl-id: 1dfb55c2-41cb-445f-9bf8-f12ab6b8e9d8
 ---
 # MySQL Configuration for Enablement Features {#mysql-configuration-for-enablement-features}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 MySQL is a relational database primarily used for SCORM tracking and reporting data for enablement resources. Included are tables for other features such as tracking video pause/resume.
 
 These instructions describe how to connect to the MySQL server, establish the enablement database, and populate the database with initial data.

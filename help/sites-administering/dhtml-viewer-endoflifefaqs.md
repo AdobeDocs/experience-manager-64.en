@@ -10,6 +10,10 @@ exl-id: 7a9d6e97-2592-43cb-b5ab-4238409bd7f3
 ---
 # DHTML Viewer End-of-Life {#dhtml-viewer-end-of-life-}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Effective January 31, 2014, the DHTML viewer platform is officially end-of-life.
 
 See the [Dynamic Media Viewers Reference Guide](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) for the latest supported viewers.

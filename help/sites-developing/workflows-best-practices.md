@@ -13,6 +13,10 @@ exl-id: 21c3be7c-7b73-4a37-bba2-1b589bcde316
 ---
 # Workflow Best Practices{#workflow-best-practices}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Workflows enable you to automate Adobe Experience Manager (AEM) activities.
 
 They often represent a large amount of the processing that occurs in an AEM environment, so when custom workflow steps are not written according to best practices, or out-of-the-box workflows are not configured to run as efficiently as possible, the system can suffer as a result.

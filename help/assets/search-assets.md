@@ -8,6 +8,10 @@ exl-id: cc1a5946-e13d-4433-a25a-d297fd07e2e4
 ---
 # Search assets in [!DNL Experience Manager] {#search-assets-in-aem}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn how to find the required assets in [!DNL Experience Manager] by using Filters panel, and how to use the assets that show up in search.
 
 Use the Filters panel to search for assets, folders, tags, and metadata. You can search parts of a string using the wildcard asterisk.

@@ -13,6 +13,10 @@ exl-id: 9d7e9d46-9f38-44a0-9c83-4bc4fceb17c8
 ---
 # Working with Project Workflows{#working-with-project-workflows}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The project workflows available out of the box include the following:
 
 * **Project Approval Workflow** - This workflow allows you to assign content to a user, review, then approve.

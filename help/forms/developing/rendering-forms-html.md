@@ -15,6 +15,10 @@ exl-id: 2e8bcdf8-ae57-4ccd-945a-8f3fda4aa3c2
 ---
 # Rendering Forms as HTML {#rendering-forms-as-html}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Forms service renders forms as HTML in response to an HTTP request from a web browser. A benefit of rendering a form as HTML is that the computer on which the client web browser is located does not require Adobe Reader, Acrobat, or Flash Player (for form Guides (deprecated)).
 
 To render a form as HTML, the form design must be saved as an XDP file. A form design that is saved as a PDF file cannot be rendered as HTML. When developing a form design in Designer that will be rendered as HTML, consider the following criteria:

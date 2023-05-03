@@ -15,6 +15,10 @@ exl-id: d10cbb97-1cec-4b1b-9104-48063e75a2cd
 ---
 # Rendering HTML Forms Using Custom CSS Files {#rendering-html-forms-using-custom-css-files}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Forms service renders HTML forms in response to an HTTP request from a web browser. When rendering an HTML form, the Forms service can reference a custom CSS file. You can create a custom CSS file to meet your business requirements and reference that CSS file when using the Forms service to render HTML forms.
 
 The Forms service silently parses the custom CSS file. That is, the Forms service does not report errors that may be encountered if the custom CSS file does not comply with CSS standards. In this situation, the Forms service ignores the style and continues with the remaining styles located in the CSS file.

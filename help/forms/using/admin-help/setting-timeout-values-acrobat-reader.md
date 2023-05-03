@@ -13,6 +13,10 @@ exl-id: e7de9971-3eac-4248-8709-0da7dd709d1b
 ---
 # Setting timeout values for use with Acrobat Reader DC extensions  {#setting-timeout-values-for-use-with-acrobat-reader-dc-extensions}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When working on many PDF files in Acrobat Reader DC extensions, ensure that the following time-out values are set appropriately to prevent jobs from timing out and failing:
 
 **Document Disposal Timeout**

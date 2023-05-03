@@ -13,6 +13,10 @@ exl-id: 9264c888-a583-40eb-9178-273146f8a12b
 ---
 # Social Component Framework {#social-component-framework}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The social component framework (SCF) simplifies the process of configuring, customizing, and extending Communities components on both server-side and client-side.
 
 The benefits of the framework:

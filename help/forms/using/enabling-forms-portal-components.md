@@ -13,6 +13,10 @@ exl-id: 01c5eb6b-b097-4354-84b2-8bee7b7626f2
 ---
 # Enabling forms portal components {#enabling-forms-portal-components}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Out of the box, forms portal components are not available for use. To make the components appear in the list of available components in AEM sidekick, perform the following steps:
 
 1. Log in to the author instance of your website and open an AEM Sites page.

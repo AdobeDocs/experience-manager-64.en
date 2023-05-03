@@ -9,6 +9,10 @@ exl-id: 654c2576-93c0-4095-ba66-9c6ffb41c953
 ---
 # Resources for New AEM Users {#resources-for-new-aem-users}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## What is Adobe Experience Manager (AEM) and where to get documentation? {#what-is-aem}
 
 Adobe Experience Manager (AEM) is a web-based client-server system for building, managing and deploying commercial websites and related services. It combines a number of infrastructure-level and application-level functions into a single integrated package.

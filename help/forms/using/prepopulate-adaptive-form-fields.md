@@ -12,6 +12,10 @@ exl-id: 67bb208a-042b-4fa1-9ab1-23325e0c7e4c
 ---
 # Prefill adaptive form fields {#prefill-adaptive-form-fields}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use existing data to prefill fields of an adaptive form.
 
 ## Introduction {#introduction}

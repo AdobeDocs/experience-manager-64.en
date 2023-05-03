@@ -13,6 +13,10 @@ exl-id: 5c7c1cda-0e9c-454f-91c4-8e1f37a155c3
 ---
 # Creating and Managing Offers{#creating-and-managing-offers}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use the Offers console to create offers that you can [use in activity experiences](/help/sites-authoring/content-targeting-touch.md). Creating offers in the Offers console saves time when several experiences require the same offer:
 
 * Create the offer once in the library and use it in multiple experieces of your brand activities. 

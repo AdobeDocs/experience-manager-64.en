@@ -12,6 +12,10 @@ exl-id: 54159851-bae1-4efd-8c8f-3a855776ecc4
 ---
 # Document Fragments {#document-fragments}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Document fragments are reusable parts/components of a correspondence using which you can compose Interactive Communications/letters. The document fragments are of the following types:
 
 * **Text**: A text asset is a piece of content that consists of one or more paragraphs of text. A paragraph can be static or dynamic.

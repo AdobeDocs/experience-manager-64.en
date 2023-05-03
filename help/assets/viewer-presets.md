@@ -11,6 +11,10 @@ role: User
 ---
 # Applying Dynamic Media viewer presets {#applying-viewer-presets}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 A Viewer Preset is a collection of settings that determine how users view rich-media assets on their computer screens and mobile devices. You can apply any viewer presets created by your administrator to an asset.
 
 If you are an administrator and need to manage, create, sort, and delete viewer presets, see [Managing Viewer Presets](managing-viewer-presets.md).

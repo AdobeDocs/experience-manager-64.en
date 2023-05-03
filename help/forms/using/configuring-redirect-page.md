@@ -12,6 +12,10 @@ exl-id: bbe10952-d6a7-4adc-bab9-388c1ee8e56a
 ---
 # Configuring redirect page {#configuring-redirect-page}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Form authors can configure a page for each form, to which the form users are redirected after submitting a form.
 
 1. In the edit mode, select a component, then click ![field-level](assets/field-level.png) &gt; **Adaptive Form Container**, and then click ![cmppr](assets/cmppr.png).

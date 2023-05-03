@@ -13,6 +13,10 @@ exl-id: 32fb6479-ae53-4bb3-8827-db15d7f5705e
 ---
 # Development Practices{#development-practices}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Work according to a Definition of Done {#work-according-to-a-definition-of-done}
 
 Each team has a different definition of what “done” means, but it is important to have one and ensure that a story meets the defined criteria before being accepted.

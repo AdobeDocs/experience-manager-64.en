@@ -13,6 +13,10 @@ exl-id: 3e005993-d96b-4c7c-83b3-37f733218c3d
 ---
 # Client-side Customization {#client-side-customization}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 | **[⇐ Feature Essentials](essentials.md)** |**[Server-side Customization ⇒](server-customize.md)** |
 |---|---|
 |   |**[SCF Handlebars Helpers ⇒](handlebars-helpers.md)** |

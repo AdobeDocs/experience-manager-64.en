@@ -12,6 +12,10 @@ exl-id: 7b1f60e7-c8fa-43b6-bef4-88b42e7bbc36
 ---
 # Customize images used in route actions {#customize-images-used-in-route-actions}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To customize the images used in route actions, perform the steps described in [Generic Steps of customization](/help/forms/using/generic-steps-html-workspace-customization.md) followed by the steps described in this article.
 
 ## Images for route actions {#images-for-route-actions}

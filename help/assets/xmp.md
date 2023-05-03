@@ -8,6 +8,10 @@ exl-id: 32c4ca3d-2e9e-46a3-b4c7-70dcc50daaaa
 ---
 # XMP metadata {#xmp-metadata}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 XMP (Extensible Metadata Platform) is the metadata standard used by [!DNL Experience Manager] Assets for all metadata management. XMP provides a standard format for the creation, processing, and interchange of metadata for a wide variety of applications.
 
 Aside from offering universal metadata encoding that can be embedded into all file formats, XMP provides a rich [content model](xmp.md#xmp-core-concepts) and is [supported by Adobe](xmp.md#advantages-of-xmp) and other companies, so that users of XMP in combination with [!DNL Experience Manager] Assets have a powerful platform to build upon.

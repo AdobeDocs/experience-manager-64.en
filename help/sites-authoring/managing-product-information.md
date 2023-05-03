@@ -13,6 +13,10 @@ exl-id: b477d6ab-126a-489a-a13f-2b6f439ab85b
 ---
 # Creative Project and PIM Integration{#creative-project-and-pim-integration}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 If you are a marketer or creative professional, you can use Creative Project tools in Adobe Experience Manager (AEM) to manage eCommerce-related product photography and associated creative processes within your organization.
 
 In particular, you can use Creative Project to streamline the following tasks in your photo shoot workflow:

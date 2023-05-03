@@ -11,6 +11,10 @@ role: Admin,User,Developer
 ---
 # Configuring Dynamic Media - Scene7 mode {#configuring-dynamic-media-scene-mode}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 If you use Adobe Experience Manager set up for different environments, such development, staging, and live production, you must configure Dynamic Media Cloud Services for each environment.
 
 ## Architecture diagram of Dynamic Media - Scene7 mode {#architecture-diagram-of-dynamic-media-scene-mode}

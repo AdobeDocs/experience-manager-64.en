@@ -13,6 +13,10 @@ exl-id: 12ba2a8a-1260-4645-87c4-28f268e9d0ba
 ---
 # Configuring caching for Forms{#configuring-caching-for-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Forms service takes form designs that were created in Designer and renders them in various formats.
 
 The Forms page in administration console contains settings that control the way the Forms service caches items. You can adjust these settings to optimize the performance of the Forms service.

@@ -14,4 +14,8 @@ exl-id: d2ba9881-02b6-470b-b110-7d4609e6ab24
 ---
 # PDF Generator backup limitations {#pdf-generator-backup-limitations}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The temporary directory that PDF Generator uses to convert files cannot be backed up. Even though the service will be restored properly, data can get lost because PDF Generator reviews and clears the contents of the temporary directory at set intervals.

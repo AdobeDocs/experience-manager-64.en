@@ -13,6 +13,10 @@ exl-id: 2bc70cd6-1ea6-4594-9b42-ab3d3000a0c5
 ---
 # Displaying the user avatar {#displaying-the-user-avatar}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Avatar of the logged-in user is displayed in the upper-right corner of AEM Forms workspace. Also, the avatars of direct reports in the organizational hierarchy are displayed in the Manager View. You can configure AEM Forms workspace to pick the user images from your database, say LDAP server.
 
 >[!NOTE]

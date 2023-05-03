@@ -13,6 +13,10 @@ exl-id: e6dd95d2-9444-40e6-a83a-2c4f9e4cfcef
 ---
 # Acceptance and Sign-off{#acceptance-and-sign-off}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 As mentioned, [Acceptance Tests](/help/sites-developing/planning.md) are a special category of test used to verify that the:
 
 * Project fulfils the customer's requirements.

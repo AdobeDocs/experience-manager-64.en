@@ -13,6 +13,10 @@ exl-id: 3270a279-13ef-4bbf-aafe-539df388c652
 ---
 # Creating Custom Form Mappings{#creating-custom-form-mappings}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When you create a custom table in Adobe Campaign, you may want to build a form in AEM that maps to that custom table.
 
 This document describes how to create custom form mappings. When you complete the steps in this document, you will be providing your users with an event page where they can sign up for an upcoming event. You then follow up with these users via Adobe Campaign.

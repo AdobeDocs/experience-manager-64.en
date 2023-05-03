@@ -13,6 +13,10 @@ exl-id: 9e93b28b-627d-4676-82a6-d719de4d152a
 ---
 # Search{#search-features}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The author environment of AEM provides various mechanisms for searching for content, dependent on the resource type.
 
 >[!NOTE]

@@ -8,6 +8,10 @@ exl-id: f8f9d86f-a5e3-46ac-8d96-c2e44eac9c93
 ---
 # Assets network considerations {#assets-network-considerations}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Understanding your network is as important as understanding Adobe Experience Manager Assets. The network can affect upload, download, and user experiences. Diagramming your network topology helps identify choke points and sub-optimized areas in the network that you must fix to improve network performance and user experience.
 
 Ensure that you include the following in your network diagram:

@@ -13,6 +13,10 @@ exl-id: 80edcd53-bc3c-4f61-8dfb-c592e7e51f60
 ---
 # Quick Guide to WCAG 2.0{#quick-guide-to-wcag}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM has been developed to maximize compliance with the Web Content Accessibility Guidelines:
 
 The [Web Content Accessibility Guidelines version 2.0 (WCAG2)](https://www.w3.org/TR/WCAG/) are a set of internationally recognized guidelines developed by the [World Wide Web Consortium (W3C)](https://www.w3.org/) under their [Web Accessibility Initiative (WAI)](https://www.w3.org/WAI/).

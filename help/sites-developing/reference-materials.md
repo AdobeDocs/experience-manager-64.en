@@ -14,6 +14,10 @@ exl-id: 0c80ee60-d2dd-49ad-a283-81fdb1fd201e
 ---
 # API Guides{#api-guides}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM provides several APIs for developing applications. The following list provides the documentation for APIs supported by AEM:
 
 * [Adobe AEM 6.4.0 API](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/javadoc/index.html)  

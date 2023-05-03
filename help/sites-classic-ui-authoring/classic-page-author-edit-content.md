@@ -13,6 +13,10 @@ exl-id: 2d0f11ac-f24b-431e-9076-3e6099eab4ac
 ---
 # Editing Page Content{#editing-page-content}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Once your page is created (either new or as part of a launch or live copy) you can edit the content to make the updates you require.
 
 Content is added using components(appropriate to the content type) that can be dragged onto the page. These can then be edited in place, moved, or deleted.

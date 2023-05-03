@@ -14,6 +14,10 @@ exl-id: 834df392-df38-498c-9e2a-489484e20e0a
 ---
 # Tagging User Generated Content {#tagging-user-generated-content}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 Tagging of user generated content (UGC) is the means by which community members can help other members search for content.

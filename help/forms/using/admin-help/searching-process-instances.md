@@ -13,6 +13,10 @@ exl-id: 25a01630-47ec-4823-ad11-9a636697f3dc
 ---
 # Searching for process instances{#searching-for-process-instances}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use the Process Search page to enter search criteria for finding a process instance. You can access the Process Search page from the forms workflow page or by clicking Search on the Process Instance page.
 
 You can enter basic criteria to perform a general search, specific attributes to perform a detailed search, or a combination of basic criteria and specific attributes to perform a combined search.

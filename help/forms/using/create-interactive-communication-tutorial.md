@@ -12,6 +12,10 @@ exl-id: b4ec8004-d100-4bcb-b2d8-0928e0955d3f
 ---
 # Tutorial: Create Interactive Communication {#tutorial-create-interactive-communication}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Create an Interactive Communication using all building blocks
 
  ![style your interactive communication](assets/styleaf.png)

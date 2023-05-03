@@ -13,6 +13,10 @@ exl-id: 12183806-5e00-46e8-bf25-5379a07a56a4
 ---
 # Import and manage archives {#import-and-manage-archives}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Use the archives tab to import and manage LCAs that were created in workbench.
 
 ## Import an archive {#import-an-archive}

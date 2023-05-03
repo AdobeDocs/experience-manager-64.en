@@ -13,6 +13,10 @@ exl-id: 7d1145e8-d7f7-4cc7-9dd9-ee8ce04e43d4
 ---
 # Enterprise DevOps{#enterprise-devops}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 DevOps covers the processes, methods and communication required to:
 
 * Ease the deployment of your software across the various environments.

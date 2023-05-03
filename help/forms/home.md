@@ -7,6 +7,10 @@ exl-id: e25a3b24-c460-49a9-a62c-c9ed1f1128e3
 ---
 # Adobe Experience Manager 6.4 Forms Guide
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This guide covers all AEM Forms tasks, including how to create, manage, publish, and update digital forms.
 
 ## Key AEM articles

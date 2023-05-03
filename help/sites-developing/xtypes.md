@@ -13,6 +13,10 @@ exl-id: 81d7fa0c-86db-47a1-8fac-44941d3affde
 ---
 # Using xtypes (Classic UI){#using-xtypes-classic-ui}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This page describes all the xtypes that are available with Adobe Experience Manager (AEM).
 
 In the ExtJS language, an xtype is a symbolic name given to a class. You can read the "Component XTypes" paragraph of the [Overview of ExtJS 2](https://www.sencha.com/learn/overview-of-extjs-2) for a detailed explanation about what an xtype is and how it can be used.

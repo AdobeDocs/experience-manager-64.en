@@ -13,6 +13,10 @@ exl-id: 4b663228-9cb6-45c0-99dd-8dd7fc2aa4a6
 ---
 # Community Groups {#community-groups}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The community groups feature is the ability for a sub-community to be dynamically created within a community site by authorized users (community members and authors) from the publish and author environments.
 
 This ability is present when the [groups function](functions.md#groups-function) is present in the [community site](sites-console.md) structure.

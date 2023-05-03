@@ -13,6 +13,10 @@ exl-id: 4b2754dc-4b41-4d0d-a22c-d45595b36f84
 ---
 # Tutorial: Create your first Interactive Communication {#tutorial-create-your-first-interactive-communication}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn to create your first Interactive Communication.
 
 ![01-create-first-adaptive-form-hero-image](assets/01-create-first-adaptive-form-hero-image.png)

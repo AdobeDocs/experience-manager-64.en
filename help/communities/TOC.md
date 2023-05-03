@@ -7,9 +7,11 @@ breadcrumb-title: Communities Guide
 user-guide-description: Create online experiences such as forums, user groups, learning resources, and other social features.
 feature: Communities
 role: User
+hide: yes
 ---
 
 # AEM 6.4 Communities User Guide {#communities}
+
 
 + [AEM Communities overview](home.md)
 + Introduction to AEM Communities {#introduction}

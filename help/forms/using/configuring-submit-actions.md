@@ -12,6 +12,10 @@ exl-id: 2a842bdc-6dcf-42cc-9a45-57ac15b79eb7
 ---
 # Configuring the Submit action {#configuring-the-submit-action}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction to submit actions {#introduction-to-submit-actions}
 
 A submit action is triggered when a user clicks the Submit button on an adaptive form. You can configure the submit action on adaptive form. Adaptive forms provide a few out of the box submit actions. You can copy and extend the default submit actions to create you own submit action. However, based on your requirements,you can write and register your own submit action to process data in the submitted form.

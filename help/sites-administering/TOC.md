@@ -8,6 +8,7 @@ breadcrumb-title: Administering Guide
 user-guide-description: Learn about administering AEM.
 feature: Administering
 role: Admin
+hide: yes
 ---
 
 # AEM 6.4 Administering User Guide {#administering}

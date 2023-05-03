@@ -13,6 +13,10 @@ exl-id: 3dc38c37-f2a0-44f5-90f6-fee8c6f84ff4
 ---
 # Naming conventions for assets testing{#naming-conventions-for-assets-testing}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Nodes in the repository are subject to naming conventions of the [Java Content Repository](/help/sites-developing/the-basics.md#java-content-repository). However, Adobe Experience Manager imposes further conventions for the name of asset nodes.
 
 ## Classic UI {#classic-ui}

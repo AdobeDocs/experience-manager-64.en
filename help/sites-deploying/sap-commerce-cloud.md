@@ -15,6 +15,10 @@ exl-id: 71d0a249-8ad1-416e-ad78-d651b413e5c3
 ---
 # SAP Commerce Cloud{#sap-commerce-cloud}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >This page contains links to the hybris website. For certain pages you will need an account to login.

@@ -13,6 +13,10 @@ exl-id: cde40670-ce9d-4b96-92d3-9e56cb15bdce
 ---
 # General Security Considerations for AEM Forms on JEE {#general-security-considerations-for-aem-forms-on-jee}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn how to prepare for hardening your AEM Forms on JEE environment.
 
 This article provides introductory information that helps you prepare for hardening your AEM Forms environment. It includes prerequisite information about AEM Forms on JEE, operating system, application server, and database security. Review this information before you continue to lock down your environment.

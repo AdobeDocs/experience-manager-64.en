@@ -14,6 +14,10 @@ exl-id: abc2af58-3bf7-493e-917d-081022afb9a3
 ---
 # Forms Service API Quick Starts {#forms-service-api-quick-starts}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following Quick Starts are available for the Forms service:
 
 [Quick Start (SOAP mode): Rendering an interactive PDF form using the Java API](forms-service-api-quick-starts.md#quick-start-soap-mode-rendering-an-interactive-pdf-form-using-the-java-api)

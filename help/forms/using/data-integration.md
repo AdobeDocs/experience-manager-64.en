@@ -13,6 +13,10 @@ exl-id: 8cbd3fb0-3c87-433e-bfd7-0f93216a5de7
 ---
 # Introduction to AEM Forms Data Integration {#aem-forms-data-integration}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Data Integration lets you integrate AEM Forms with disparate data sources and create form data model to create and work with adaptive forms and interactive communications.
 
  ![](do-not-localize/data-integeration.png)

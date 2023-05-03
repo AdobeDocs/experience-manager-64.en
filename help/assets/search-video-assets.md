@@ -8,6 +8,10 @@ exl-id: d5f0beb2-e59f-47cd-8e83-698d8a1dcec3
 ---
 # Searching Video Assets {#searching-video-assets}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To save time and effort from having to browse through potentially hundreds of videos, use keywords, file properties such as a file's type, or recently modified time stamp to quickly find your file.
 
 If you aren't seeing the file you are looking for, you can change the entire scope of a search by clicking one of the options at the bottom of the search results. For example, if you search for a file in the Documents library but you cannot find it, you can click Libraries to expand the search to the rest of your libraries. For more information, see [Find a file or folder](https://windows.microsoft.com/en-us/windows7/find-a-file-or-folder).

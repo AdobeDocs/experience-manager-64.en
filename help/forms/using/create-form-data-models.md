@@ -12,6 +12,10 @@ exl-id: 16d1d5ea-6076-448d-9f63-78a0f2ff2756
 ---
 # Create form data model {#create-form-data-model}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Learn how to create form data models with or without configured data sources.
 
  ![](do-not-localize/data-integeration.png)

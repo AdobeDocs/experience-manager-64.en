@@ -14,6 +14,10 @@ exl-id: ded38cee-fbce-46cc-974f-38d3a293a55d
 ---
 # Moderation Console {#moderation-console}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In AEM Communities, bulk [moderation of community content](moderate-ugc.md) is possible from both the author and publish environments by administrators and community moderators (trusted community members assigned as moderators).
 
 Administrators and community moderators may also perform [in-context moderation](in-context.md) in the publish environment.

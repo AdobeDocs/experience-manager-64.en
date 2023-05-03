@@ -14,6 +14,10 @@ exl-id: e4e99b9d-3023-4b9b-9c93-be04c7a871ee
 ---
 # Creating Flash Builder applications that perform SSO authentication using HTTP tokens {#creating-flash-builder-applicationsthat-perform-sso-authentication-using-http-tokens}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can create a client application using Flash Builder that performs single-sign on (SSO) authentication using HTTP tokens. Assume, for example, that you create a web-based application using Flash Builder. Next assume that the application contains different views, where each view invokes a different AEM Forms operation. Instead of authenticating a user for each Forms operation, you can create a login page that lets a user authenticate once. Once authenticated, a user is able to invoke multiple operations without having to authenticate again. For example, if a user has logged into Workspace (or another Forms application), the user would not need to authenticate again.
 
 Although the client application contains required application logic to perform SSO authentication, AEM forms user Management performs the actual user authentication. To authenticate a user using HTTP tokens, the client application invokes the Authentication Manager service’s `authenticateWithHTTPToken` operation. User Management is able to authenticate users using a HTTP token. For subsequent remoting or web service calls to AEM Forms, you do not have to pass credentials for authentication.

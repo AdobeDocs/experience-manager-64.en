@@ -13,6 +13,10 @@ exl-id: 351b8bc9-557d-4efe-8800-1752bf40f240
 ---
 # Targeting your Adobe Campaign{#targeting-your-adobe-campaign}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 To target your Adobe Campaign newsletter, you need to first set up segmentation, which is only available in the Classic UI. After that, you can create targeted experiences for Adobe Campaign.
 
 ## Setting up segmentation in AEM {#setting-up-segmentation-in-aem}

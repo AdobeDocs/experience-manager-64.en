@@ -13,6 +13,10 @@ exl-id: 93921d23-a2bf-43b6-b002-58a7482b22b0
 ---
 # Adding Dynamic Media Classic features to your page{#adding-scene-features-to-your-page}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Dynamic Media Classic is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.
 
 You can view AEM assets published in Dynamic Media Classic in various viewers:

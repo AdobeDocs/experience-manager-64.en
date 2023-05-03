@@ -13,6 +13,10 @@ exl-id: 843c67d6-dda1-448f-a992-19574066e1c3
 ---
 # Image Editor{#image-editor}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Image Editor is a core piece of AEM and can be leveraged by components to facilitate the manipulation of images by content authors.
 
 >[!CAUTION]

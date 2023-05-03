@@ -13,6 +13,10 @@ exl-id: 0bda2e58-9470-48fa-a60b-04a1a32689bb
 ---
 # Specifying security settings {#specifying-security-settings}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Forms enables you to control whether external entities in XML inputs are resolved. By default, they are resolved, but you can change this behavior to increase the security of your AEM forms system.
 
 **Prevent the processing of XML data files that contain references to external entities**

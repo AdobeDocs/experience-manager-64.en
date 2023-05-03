@@ -13,6 +13,10 @@ exl-id: e1f0e210-2c63-4a5f-9e69-4e73624a4304
 ---
 # Dashboards{#dashboards}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When using AEM you are able of managing a lot of content of different types (e.g. pages, assets). AEM Dashboards provide an easy to use and customizable way to define pages that displays consolidated data.
 
 >[!NOTE]

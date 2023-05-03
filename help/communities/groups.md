@@ -15,6 +15,10 @@ exl-id: f8f19ad6-d6cd-4abd-bc31-6baba3e0356e
 ---
 # Community Groups Console {#community-groups-console}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Groups console provides access to creating community groups when a community site's [template structure](sites-console.md#step1) includes the [groups function](functions.md#groups-function).
 
 * Groups may be nested within other groups. This happens when the [structure of the new group](tools-groups.md) contains the groups function.

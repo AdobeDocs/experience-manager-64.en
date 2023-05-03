@@ -12,6 +12,10 @@ exl-id: ae0463de-271f-47c0-b947-f6d149ded8ab
 ---
 # Set up the Visual Studio project and build the Windows app {#set-up-the-visual-studio-project-and-build-the-windows-app}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Forms provides the complete source code of the AEM Forms app. The source contains all components to build a custom workspace application. The source code archive, `adobe-lc-mobileworkspace-src-<version>.zip`is a part of the `adobe-aemfd-forms-app-src-pkg-<version>.zip` package on Software Distribution.
 
 To get the AEM Forms app source, perform the following steps:

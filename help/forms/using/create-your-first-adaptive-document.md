@@ -10,6 +10,10 @@ discoiquuid: f3ca177f-7c0d-4b8b-ab4b-bf04668d634c
 
 # DO NOT PUBLISH Create your first adaptive document {#do-not-publish-create-your-first-adaptive-document}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Use Case {#use-case}
 
 We Finance is a leading organization in Financial Services domain that offers comprehensive and personalized financial solutions to suit the requirements of diverse customer profiles.

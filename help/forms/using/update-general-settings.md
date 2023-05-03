@@ -12,6 +12,10 @@ exl-id: 5ca6212f-d3c7-4239-beba-9a0bdac4b1ec
 ---
 # Updating general settings {#updating-general-settings}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 General settings of the AEM Forms app let you specify settings such as fetching attachments, offline mode, landing screen, default category, and autsave frequency.
 
 ## Updating the General settings in your app {#working-with-the-form}

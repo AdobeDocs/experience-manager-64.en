@@ -13,6 +13,10 @@ exl-id: a2adc825-2a18-42b8-a639-c48243b2279c
 ---
 # Adaptive Template Rendering{#adaptive-template-rendering}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The adaptive template rendering provides a way to manage a page with variations. Originally useful to deliver various HTML output for mobile devices (e.g. feature phone vs. smart phone), this feature is useful when experiences have to be delivered to various devices that need different markup or HTML output.
 
 ## Overview {#overview}

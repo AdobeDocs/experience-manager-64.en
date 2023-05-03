@@ -13,6 +13,10 @@ exl-id: 2980ec6d-cdd4-4fbd-b4a4-5e45e4508903
 ---
 # Campaign Management{#campaign-management}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Campaign management provides digital marketers the opportunity to deliver personalized content and so create dedicated experiences for visitors.
 
 It allows you to orchestrate your marketing campaigns across the web, email and mobile services and so engage your visitors. You can create content, segment visitors, push and promote targeted content for specific user profiles and manage campaigns across multiple channels.

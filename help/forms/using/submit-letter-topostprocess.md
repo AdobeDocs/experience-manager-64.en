@@ -13,6 +13,10 @@ exl-id: d2dfdab8-815e-4378-b287-81e31c9d9333
 ---
 # Post processing of letters and interactive communications {#post-processing-of-letters-and-interactive-communications}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Post Processing {#post-processing}
 
 Agents can associate and execute post processing workflows on letters and intreactive communications. Post process to be executed can be selected in the Properties view of the Letter template. You can set up post processes to email, print, fax, or archive your final letters.

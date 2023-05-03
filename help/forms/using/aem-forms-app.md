@@ -13,6 +13,10 @@ exl-id: 449b479a-f8b4-4534-af28-8eaed2d18210
 ---
 # Introduction to AEM Forms app {#aem-forms-app}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 AEM Forms app enables syncing of adaptive forms, mobile forms, and formsets on mobile devices, based on your server. You can define workflows that are [Forms centric workflows on OSGi](/help/forms/using/aem-forms-workflow.md) or [Forms workflows on JEE](/help/forms/using/finance-reference-site-walkthrough.md#approving-the-application). For example, you run a banking firm, and use AEM Forms to manage customer applications and communications. Your customers fill a form and submit it for verification. If you enable the form on mobile devices, your customers can fill the form in the AEM Forms app. You can also manage the verification workflow by enabling the verification form on mobile devices. Your field worker can carry a mobile device to the customer, verify the details, and submit the form. The AEM Forms app syncs with AEM Forms server and fetches the forms enabled for mobile devices. If the app is offline, it stores data locally.

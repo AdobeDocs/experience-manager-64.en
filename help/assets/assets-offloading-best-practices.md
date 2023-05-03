@@ -8,6 +8,10 @@ exl-id: 3ecc8988-add1-47d5-80b4-984beb4d8dab
 ---
 # Assets Offloading Best Practices {#assets-offloading-best-practices}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!WARNING]
 >
 >This feature is deprecated [!DNL Experience Manager] 6.4 onwards and is removed in [!DNL Experience Manager] 6.5. Plan accordingly.

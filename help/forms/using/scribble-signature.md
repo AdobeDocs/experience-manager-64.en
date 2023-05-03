@@ -14,6 +14,10 @@ exl-id: 8b6b151d-2422-4261-9edb-66efe3d33f8b
 ---
 # Using Scribble Signature in HTML5 forms {#using-scribble-signature-in-html-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 HTML5 forms are increasingly being used on touch devices, and one common requirement is to support signatures. Scribing (Writing with a stylus or finger) is becoming an accepted way of signing forms on mobile devices. HTML5 forms and Forms Designer now enable the option of having a scribble signature field on the form. When the form is rendered in the browser, one can sign on these fields using a stylus, mouse, or touch.
 
 ## How to design a form using Scribble Signature field {#how-to-design-a-form-using-scribble-signature-field}

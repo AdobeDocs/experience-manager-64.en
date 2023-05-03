@@ -13,6 +13,10 @@ exl-id: 32195d6d-e800-4f21-bcc4-0e9d1601e239
 ---
 # Set up the System information service {#set-up-the-system-information-service}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The system information service provides REST APIs to retrieve information. To use the system information service, enable the REST endpoint from administration console. Perform the following steps to enable the REST endpoint:
 
 1. Log in to administration console. The default URL of administration console is `https://[hostname]:[port]/adminui.`

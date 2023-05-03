@@ -13,6 +13,10 @@ exl-id: b051b279-b0d9-41a3-b5d8-4b9bad448c0f
 ---
 # Developing Communities {#developing-communities}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 AEM Communities simplifies the creation and customizaton of community features such as forums, user groups, blogs, Q&A, calendars, comments, reviews, voting, ratings, and assignments. These features result in user generated content (UGC) being entered in the publish environment.

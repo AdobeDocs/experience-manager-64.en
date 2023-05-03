@@ -12,6 +12,10 @@ exl-id: 83f978ca-d451-4d27-820f-3620331285cf
 ---
 # Creating a custom adaptive form template {#creating-a-custom-adaptive-form-template}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Prerequisites {#prerequisites}
 
 * Understanding of AEM [Page Template](/help/sites-authoring/templates.md) and [Adaptive Form Authoring](https://helpx.adobe.com/aem-forms/6-1/introduction-forms-authoring.html)

@@ -13,6 +13,10 @@ exl-id: b5918a54-ef7b-4b3f-bca7-ed0344bab4aa
 ---
 # Using Liking {#using-liking}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The `Liking`component is a useful tool that allows users to express an opinion about a particular piece of content, such as an comment within a forum. With the `Liking`component, members select the heart icon to indicate a positive opinion.
 
 ## Adding Liking to a Page {#adding-liking-to-a-page}

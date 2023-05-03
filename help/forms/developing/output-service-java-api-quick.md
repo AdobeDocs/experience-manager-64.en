@@ -14,6 +14,10 @@ exl-id: 56ec125c-b759-4e97-98c6-bae786a712b9
 ---
 # Output Service Java API Quick Start (SOAP) {#output-service-java-api-quick-start-soap}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Java API Quick Start(SOAP) is available for the Output service.
 
 [Quick Start (SOAP mode): Creating a PDF document using the Java API](output-service-java-api-quick.md#quick-start-soap-mode-creating-a-pdf-document-using-the-java-api)

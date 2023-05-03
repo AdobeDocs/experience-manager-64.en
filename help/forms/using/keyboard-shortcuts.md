@@ -13,6 +13,10 @@ exl-id: 08cf95bc-3417-48d4-9df2-5bd56797bc5d
 ---
 # AEM Forms Keyboard Shortcuts {#aem-forms-keyboard-shortcuts}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This article lists the keyboard shortcuts that can be used with Adaptive Form Editor, Theme Editor, Content Browser, and Correspondence Management for Windows and Macintosh operating systems.
 
 ## Adaptive Form Editor {#adaptiveformeditor}

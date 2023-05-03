@@ -14,6 +14,10 @@ exl-id: b7f0b209-3970-49ad-a1d8-5a053be0d2bc
 ---
 # Frequently asked questions (FAQ) for HTML5 forms {#frequently-asked-questions-faq-for-html-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 There are some frequently asked questions (FAQ) about layout, scripting support, and scope of HTML5 forms.
 
 ## Layout {#layout}

@@ -13,6 +13,10 @@ exl-id: 5aae7744-73cc-472b-a4e6-ecd88284b70c
 ---
 # Using Reviews and Reviews Summary (Display) {#using-reviews-and-reviews-summary-display}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The `Reviews`component is a composite of [ `Comments`](comments.md) and [ `Rating`](rating.md) components ready for use.
 
 The `Reviews Summary (Display)` component provides a summary of an active or closed instance of a `Reviews` component for display elsewhere on the site.

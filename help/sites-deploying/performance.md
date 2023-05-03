@@ -13,6 +13,10 @@ exl-id: e2015e30-9f42-431b-a384-e25047e4e83c
 ---
 # Performance & Scalability{#performance-scalability}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## White Paper: AEM Scalability, Performance, and Disaster Recovery {#white-paper-aem-scalability-performance-and-disaster-recovery}
 
 This white paper discusses the ways scalability has been built into Adobe Experience Manager along with outstanding performance indicators and excellent disaster recovery features. 

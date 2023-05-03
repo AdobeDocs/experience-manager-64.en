@@ -12,6 +12,10 @@ exl-id: 4a6b3403-2941-4098-bb30-769281adedc2
 ---
 # Correspondence Management | Handling user data {#correspondence-management-handling-user-data}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Forms Correspondence Management enables you to create, manage, and streamline secure and personalized customer correspondences. It provides an intuitive user interface for business users to create correspondences using pre-approved content blocks and media elements. For more information about creating correspondences, see [Create Correspondence](/help/forms/using/create-correspondence.md).
 
 When a business user or an agent saves a correspondence as draft or submits it, a letter instance is saved in the AEM repository. The letter instance includes correspondence data and metadata.

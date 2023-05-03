@@ -14,6 +14,10 @@ exl-id: af6c383b-f8fd-442c-8fc5-3cdd40657c6a
 ---
 # Configuring Components in Design Mode{#configuring-components-in-design-mode}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 When AEM instance is installed out-of-the-box, a selection of components are immediately available in the sidekick.
 
 In addition to these, various other components are also available. You can use Design mode to [Enable/disable such components](#enabledisablecomponentsusingdesignmode). When enabled and located on your page you can then use Design mode to [configure aspects of the component design](#configuringcomponentsusingdesignmode) by editing the attribute parameters.

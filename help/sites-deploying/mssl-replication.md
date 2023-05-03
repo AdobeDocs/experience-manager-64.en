@@ -14,6 +14,10 @@ exl-id: 8eba690a-797a-4ba9-b178-11f8c011239f
 ---
 # Replicating Using Mutual SSL{#replicating-using-mutual-ssl}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Configure AEM so that a replication agent on the author instance uses mutual SSL (MSSL) to connect with the publish instance. Using MSSL, the replication agent and the HTTP service on the publish instance use certificates to authenticate each other.
 
 Configuring MSSL for replication involves performing the following steps:

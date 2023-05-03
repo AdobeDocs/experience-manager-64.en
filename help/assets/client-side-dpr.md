@@ -6,6 +6,10 @@ exl-id: 3c19a02f-9d97-4ed4-92ea-0b5861267219
 ---
 # About Smart Imaging with client-side Device Pixel Ratio (DPR) {#client-side-dpr}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The current Smart Imaging solution uses user agent strings to determine the type of device (desktop, tablet, mobile, and so on) that is being used.
 
 Device detection capabilities &ndash; DPR based on user agent strings &ndash; are inaccurate often, especially for Apple devices. Also, anytime a new device is launched, it must be validated. 

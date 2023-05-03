@@ -13,6 +13,10 @@ exl-id: 5be5e2ff-2b46-4b9f-a58e-ecb16c77d603
 ---
 # Best Practices for Queries and Indexing{#best-practices-for-queries-and-indexing}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Along with the transition to Oak in AEM 6, some major changes were made to the way that queries and indexes are managed. Under Jackrabbit 2, all content was indexed by default and could be queried freely. In Oak, indexes must be created manually under the `oak:index` node. A query can be executed without an index, but for large datasets, it will execute very slowly, or even abort.
 
 This article will outline when to create indexes as well as when they are not needed, tricks to avoid using queries when they are not necessary, and tips for optimizing your indexes and queries to perform as optimally as possible.

@@ -13,6 +13,10 @@ exl-id: 7b266170-c7e2-42e7-8ee0-153e1e73a901
 ---
 # Tips for minimizing database growth {#tips-for-minimizing-database-growth}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Long-lived processes store process data in the AEM forms database. The growth of the AEM forms database can be minimized using a few easy process design and product configuration strategies.
 
 ## Process design tips {#process-design-tips}

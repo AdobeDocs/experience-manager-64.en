@@ -13,6 +13,10 @@ exl-id: 3e9727a5-32f8-40ad-aa06-619f50d109b2
 ---
 # JCR Integration{#jcr-integration}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Prefer the Sling Resource API to JCR API {#prefer-the-sling-resource-api-to-jcr-api}
 
 The Sling API works at a higher, more abstract level than the JCR API. This allows your code to be more reusable and independent of the underlying storage. This makes it easier to include external virtual data via the ResourceProvider mechanism if needed.

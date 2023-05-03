@@ -13,6 +13,10 @@ exl-id: 308cd31b-3974-49d2-8629-6ede58f3200d
 ---
 # Authoring in the Classic UI{#authoring-in-the-classic-ui}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Classic UI and Touch-Enabled UI {#classic-ui-and-touch-enabled-ui}
 
 The Classic UI is the desktop-oriented user interface that as been available since CQ5 (the predecessory to AEM). The following documentation on authoring is focused on this UI.

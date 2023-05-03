@@ -13,6 +13,10 @@ exl-id: 62f1d3e6-b0d2-4d64-b62e-91836b573e8c
 ---
 # Oak-run.jar Indexing Use Cases{#oak-run-jar-indexing-use-cases}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Oak-run supports indexing use cases on the command line without having to orchestrate the execution of these use cases via AEM's JMX console.
 
 The overarching benefits of using the oak-run.jar index command approach for managing Oak indexes are:

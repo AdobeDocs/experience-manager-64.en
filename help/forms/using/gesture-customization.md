@@ -13,6 +13,10 @@ exl-id: 238410e0-1623-49dc-b2fc-b5b2d5fb362b
 ---
 # Gesture customization {#gesture-customization}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can customize the gestures of AEM Forms app to provide a distinct method of interacting with the app. For example, you can add new gestures to open or close a task or Startpoint.
 
 ## To customize gestures in AEM Forms app {#to-customize-gestures-in-aem-forms-app}

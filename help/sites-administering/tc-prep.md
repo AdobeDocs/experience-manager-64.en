@@ -14,6 +14,10 @@ exl-id: 1a7fe230-093b-4d2b-95cb-f9479c0febe5
 ---
 # Preparing Content for Translation{#preparing-content-for-translation}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Multilingual web sites generally provide some amount of content in multiple languages. The site is authored in one language and then translated into other languages. Generally, multilingual sites consists of branches of pages, where each branch contains the pages of the site in a different language.
 
 The sample Geometrixx Demo Site includes several language branches and uses the following structure:

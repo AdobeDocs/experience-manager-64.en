@@ -13,6 +13,10 @@ exl-id: e8f83d21-b55e-4415-a581-8df1b71a84b1
 ---
 # Website Administration{#website-administration}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The following administration tools are available for managing websites and pages:
 
 * Multi Site Manager (MSM) enables you to use the same site content in multiple locations, while allowing for variations:

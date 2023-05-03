@@ -12,6 +12,10 @@ exl-id: 92d88888-343c-4edb-9b11-8e876539573a
 ---
 # Improve performance of large forms with lazy loading {#improve-performance-of-large-forms-with-lazy-loading}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction to lazy loading {#introduction-to-lazy-loading}
 
 When form become large and complex with hundreds and thousands of fields, end users experience long response time when rendering forms at runtime. To minimize the response time, adaptive forms allows you to break forms into logical fragments and configure to defer initialization or loading of fragments until the fragment needs to be visible. It is referred to as lazy loading. In addition, the fragments configured for lazy loading are unloaded once user navigates to other sections in the form and the fragments are no longer visible.

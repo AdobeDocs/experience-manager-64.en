@@ -14,6 +14,10 @@ exl-id: 766711ea-f3d3-49ab-8346-4e4477c261bd
 ---
 # Reports Console {#reports-console}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 For AEM Communities, there are various reports that may be accessed in several ways from the author environment.

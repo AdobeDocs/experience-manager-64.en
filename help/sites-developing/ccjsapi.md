@@ -14,6 +14,10 @@ exl-id: 6678e462-d40b-4b55-8f7e-98fab2273898
 ---
 # Client Context Javascript API{#client-context-javascript-api}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## CQ_Analytics.ClientContextMgr {#cq-analytics-clientcontextmgr}
 
 The CQ_Analytics.ClientContextMgr object is a singleton that contains a set of self-registered session stores, and provides methods for registering, persisting, and managing the session stores.

@@ -13,6 +13,10 @@ exl-id: ee57a0c5-261e-4ffd-92ca-4804a9e1d132
 ---
 # Dialog Editor{#dialog-editor}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The dialog editor provides a graphical interface for easily creating and editing dialog boxes and scaffolds.
 
 To see how it works, go to CRXDE Lite, open the explorer tree to `/libs/foundation/components/chart` and double click on the node `dialog`:

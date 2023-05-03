@@ -13,6 +13,10 @@ exl-id: 2790a2d3-444a-4c13-99b0-ea31923fc547
 ---
 # Description of reusable components {#description-of-reusable-components}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Forms workspace is composed of [reusable](/help/forms/using/integrating-html-ws-components-web.md) components which are organized in a specific [folder structure](/help/forms/using/folder-structure.md) in CRX™. Each component has model, view, and template file at location specified in the folder structure, JavaScript™ dependencies on other component files, events listened by the component and JavaScript objects which trigger these events in AEM Forms workspace. The complete list of reusable components with constituent filenames and dependencies is given here.
 
 ## TaskList {#tasklist}

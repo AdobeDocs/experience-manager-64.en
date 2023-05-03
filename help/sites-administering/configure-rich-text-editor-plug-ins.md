@@ -7,6 +7,10 @@ exl-id: c9ab462d-b7d4-42c1-a4cf-80d16722910b
 
 # Configure the Rich Text Editor plug-ins {#configure-the-rich-text-editor-plug-ins}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 RTE functionalities are made available via a series of plug-ins, each with features property. You can configure the features property to enable or disable, one or more RTE features. This article describes how to specifically configure the RTE plug-ins.
 
 For details about the other RTE configurations, see [Configure Rich Text Editor](/help/sites-administering/rich-text-editor.md).

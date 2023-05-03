@@ -13,6 +13,10 @@ exl-id: 63f3a172-b551-433a-aad5-58c6bfda82bb
 ---
 # How to use the Proxy Server Tool{#how-to-use-the-proxy-server-tool}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The proxy server acts as an intermediate server that relays requests between a client and a server. The proxy server keeps track of all the client-server interactions and outputs a log of the entire TCP communication. This allows you to monitor exactly what is going on, without having to access the main server.
 
 You can find the proxy server in your AEM installation here:

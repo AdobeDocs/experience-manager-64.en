@@ -13,6 +13,10 @@ exl-id: 1ee7ccbd-8654-4d03-8a67-2c41863ae951
 ---
 # Solutions Integration{#solutions-integration}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 * [Integrating with the Adobe Marketing Cloud](/help/sites-administering/marketing-cloud.md)
 * [Integrating with Third-Party Services](/help/sites-administering/third-party-services.md)
 * [Analytics with External Providers](/help/sites-administering/external-providers.md)

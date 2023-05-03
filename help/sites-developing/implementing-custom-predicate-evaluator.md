@@ -13,6 +13,10 @@ exl-id: afa7f346-fefa-4faa-bf2d-7480a7e5a5ee
 ---
 # Implementing a Custom Predicate Evaluator for the Query Builder{#implementing-a-custom-predicate-evaluator-for-the-query-builder}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This section describes how to extend the [Query Builder](/help/sites-developing/querybuilder-api.md) by implementing a custom predicate evaluator.
 
 ## Overview {#overview}

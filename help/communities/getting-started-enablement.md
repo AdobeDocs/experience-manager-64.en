@@ -13,6 +13,10 @@ exl-id: 4d968f7e-bb6f-4c7a-b266-02f53797908c
 ---
 # Getting Started with AEM Communities for Enablement  {#getting-started-with-aem-communities-for-enablement}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 AEM Communities helps brands create consistent experiences across digital and in-person channels by facilitating enablement across employees and customers with a catalog of enablement resources, assigned content, and dynamic recommendations—all delivered within a social community to foster engagement.
 
 Following is a tutorial on quickly setting up an [enablement community](overview.md#enablement-community) for demonstration or development purposes.

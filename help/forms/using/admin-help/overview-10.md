@@ -13,6 +13,10 @@ exl-id: f33f9ef9-95a7-47cb-8d13-19f24f1b463e
 ---
 # Overview of Workspace {#overview-of-workspace}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Workspace lets users start, participate in, and track business processes.
 
 On the Workspace pages in administration console, you can perform the following tasks:

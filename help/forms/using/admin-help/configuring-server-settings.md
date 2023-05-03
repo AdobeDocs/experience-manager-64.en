@@ -13,6 +13,10 @@ exl-id: 7933efeb-618a-4c38-8e5e-593be8ebb00c
 ---
 # Configuring Server Settings {#configuring-server-settings}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Server Settings page provides access to various settings for forms workflow:
 
 * **Email settings** that enable outgoing email messages, along with the email server settings used for those messages. (See [Configuring email settings](configuring-server-settings.md#configuring-email-settings).)

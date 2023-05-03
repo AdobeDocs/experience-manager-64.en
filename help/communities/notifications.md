@@ -14,6 +14,10 @@ exl-id: f6c6619e-b386-4d34-9d17-654d7c97aedd
 ---
 # Communities Notifications {#communities-notifications}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 AEM Communities provides a notifications section which displays events of interest to the signed in community member.

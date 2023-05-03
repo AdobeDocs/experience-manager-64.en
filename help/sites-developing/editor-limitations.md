@@ -13,6 +13,10 @@ exl-id: ce860880-5954-4f72-8ec6-60209c1ec659
 ---
 # Editor Limitations{#editor-limitations}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The editor in the touch-enabled UI makes use of overlays to interact with content confined in an iframe. This interaction creates some limitations in both usage of the editor and also for developers. This page summarizes these limitations and provides solutions or work-arounds where possible.
 
 ## Functional Limitations {#functional-limitations}

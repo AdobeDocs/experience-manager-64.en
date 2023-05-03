@@ -8,6 +8,10 @@ exl-id: d68c735f-2699-4923-a7e7-4d1356eae335
 ---
 # Extending Assets Search {#extending-assets-search}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can extend Adobe Experience Manager Assets search capabilities. Out of the box, [!DNL Experience Manager] Assets searches for assets by strings.
 
 Searching is done via the QueryBuilder interface so the search can be customized with several predicates. You can overlay the default set of predicates in the following directory: `/apps/dam/content/search/searchpanel/facets`.

@@ -12,6 +12,10 @@ exl-id: b5ca864c-0895-4c83-a8f6-1913452b1b01
 ---
 # Working with AEM Forms workspace {#working-with-aem-forms-workspace}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 AEM Forms workspace is a part of AEM Forms. Workspace facilitates rendition of HTML Forms in addition to PDF forms. Now you can engage in business processes from mobile interfaces and web applications.

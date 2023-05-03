@@ -15,6 +15,10 @@ role: User
 ---
 # Delivering Dynamic Media Assets {#delivering-dynamic-media-assets}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 How you can deliver your dynamic media assets - both video and images - depends on how your website is implemented.
 
 With Dynamic Media you have several options:

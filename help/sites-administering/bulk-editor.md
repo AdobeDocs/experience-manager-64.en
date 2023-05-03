@@ -13,6 +13,10 @@ exl-id: 61d85393-2764-447d-afcc-3af1d99e8dbb
 ---
 # The Bulk Editor{#the-bulk-editor}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The Bulk Editor allows for very efficient editing when the visual page context is not needed as it lets you:
 
 * search for (and display) content from multiple pages; this is done using GQL (Google Query Language)  

@@ -13,6 +13,10 @@ exl-id: 8a56b5a0-90da-4fd4-ba26-74bbc7b6b445
 ---
 # Creating Custom Extensions{#creating-custom-extensions}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Generally when you implement a project, you have custom code in both AEM and Adobe Campaign. With the use of the existing API, you can call your custom code in Adobe Campaign from AEM or from AEM to Adobe Campaign. This document describes how to do that.
 
 ## Prerequisites {#prerequisites}

@@ -13,6 +13,10 @@ exl-id: 2bc23d5a-11ee-4d29-be3d-1a8cac306aa6
 ---
 # Campaigns{#campaigns}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Campaign management provides digital marketers the opportunity to deliver personalized content and create dedicated experiences for visitors.
 
 If you are administering campaigns (including landing pages) you may need to do the following:

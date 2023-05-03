@@ -13,6 +13,10 @@ exl-id: 268edb9b-0f52-44c4-a75c-d9dfe39e7d17
 ---
 # Trying out Editable Templates in We.Retail{#trying-out-editable-templates-in-we-retail}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 With the editable templates, creating and maintaining templates is no longer a developer-only task. A type of power-user, who is called a template author, can now create templates. Developers are still required to setup the environment, create client libraries, and create the components to be used, but once these basics are in place the template author has the flexibility to create and configure templates without a development project.
 
 All pages in We.Retail are based on editable templates, allowing non-developers to adapt and customize the templates.

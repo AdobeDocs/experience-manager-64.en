@@ -13,6 +13,10 @@ exl-id: 2f56bbc7-5e23-4c84-ac0a-03f0b01150b3
 ---
 # Running AEM forms in maintenance mode {#running-aem-forms-in-maintenance-mode}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Maintenance mode is useful when performing tasks such as patching a DSC, upgrading AEM forms, or applying a service pack.
 
 Avoid invoking any processes while the server is in maintenance mode. This is what happens if a process is invoked while the server is in maintenance mode:

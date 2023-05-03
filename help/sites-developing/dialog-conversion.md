@@ -13,6 +13,10 @@ exl-id: 3e19aac2-49b1-48e1-85ce-36354cd8fd32
 ---
 # Dialog Conversion Tool{#dialog-conversion-tool}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The dialog conversion tool is provided to help extend existing components that only have a dialog defined for the classic UI (based on ExtJS) or based on Granite UI and Coral 2. The tool uses the original dialog to create a duplicate dialog designed for the standard UI, based on Granite UI and Coral 3.
 
 The dialog conversion tool is part of the [Adobe Modernization Tool suite.](modernization-tools.md) Please refer to that documentation for more information.

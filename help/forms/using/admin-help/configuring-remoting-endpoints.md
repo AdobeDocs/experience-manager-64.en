@@ -13,6 +13,10 @@ exl-id: d8e31f99-0558-4634-ae35-f4a09f34ad6d
 ---
 # Configuring Remoting endpoints {#configuring-remoting-endpoints}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 A remoting endpoint enables an application built with Flex to invoke the service using (Deprecated for AEM forms) AEM forms Remoting. A remoting endpoint is automatically created for each activated service. A Flex destination that has the same name as the endpoint is created, and Flex clients can create remote objects that point to this destination to invoke operations on the relevant service.
 
 ## Remoting endpoint settings {#remoting-endpoint-settings}

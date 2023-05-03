@@ -13,6 +13,10 @@ exl-id: 0b263211-6cfd-4b4c-bfa5-e36f5e06c861
 ---
 # AEM Core Concepts {#aem-core-concepts}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >Before diving into the core concepts of AEM, Adobe recommends completing the WKND Tutorial in the [Getting Started Developing AEM Sites](/help/sites-developing/getting-started.md) document for an overview of the AEM development process and introduction to core concepts.

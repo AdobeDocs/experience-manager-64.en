@@ -7,6 +7,10 @@ exl-id: 4724e321-1c1b-4f2f-b867-5d9f7e8b2cfa
 ---
 # SPA Deep Dives{#spa-deep-dives}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 The AEM SPA Editor SDK was featured in a series of AEM Gems sessions. [Adobe Experience Manager Gems](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) is a series of technical deep dives delivered by Adobe experts. Hosted by Adobe engineers, this series can serve as a great guide to gain a deeper understanding of the AEM SPA Editor SDK at a low level.
 
 ## Gem Sessions {#gem-sessions}

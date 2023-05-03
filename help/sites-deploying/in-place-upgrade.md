@@ -14,6 +14,10 @@ exl-id: 70c5ef98-1004-46d0-b805-9435613ec36b
 ---
 # Performing an In-Place Upgrade{#performing-an-in-place-upgrade}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 >[!NOTE]
 >
 >This page outlines the upgrade procedure for AEM 6.4. If you have an installation that is deployed to an application server, see [Upgrade Steps for Application Server Installations](/help/sites-deploying/app-server-upgrade.md).

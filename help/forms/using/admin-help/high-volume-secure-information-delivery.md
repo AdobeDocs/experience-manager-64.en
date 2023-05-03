@@ -14,6 +14,10 @@ exl-id: 78fc7c4a-a634-4628-927a-c9622bdc13fc
 ---
 # High-volume secure information delivery {#high-volume-secure-information-delivery}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 In a mass production environment, such as one that generates secured monthly invoices for a telecom company, creating licenses that are specific to each document can become a resource-intensive process. In such cases, document security supports the association of licenses to users, rather than to the documents. The license generated for a user is used for all documents that are protected for that user.
 
 One advantage of this approach is that the document security database size doesn't grow linearly with the documents, rather with the number of users. Also, because you need to create the license only once for a user, subsequent protection of documents through these policies becomes faster. Features such as offline access, document expiration, and revocation are supported for all such documents.

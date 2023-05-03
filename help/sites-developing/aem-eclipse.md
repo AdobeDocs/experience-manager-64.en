@@ -13,6 +13,10 @@ exl-id: 9cdd09f6-bfc2-48c3-af40-a54f98833a38
 ---
 # AEM Developer Tools for Eclipse{#aem-developer-tools-for-eclipse}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
  ![](do-not-localize/chlimage_1-9.png) 
 
 ## Overview {#overview}

@@ -12,6 +12,10 @@ exl-id: 1b273437-8d71-4224-bdcd-0ae522ae8913
 ---
 # Creating custom toolbar layout {#creating-custom-toolbar-layout}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Toolbar layouts {#layout}
 
 When you create an adaptive form, you can specify a toolbar layout for the form. The toolbar layout defines the commands and the layout of the toolbar on the form.

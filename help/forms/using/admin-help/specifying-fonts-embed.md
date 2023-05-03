@@ -13,6 +13,10 @@ exl-id: 0bde7192-9d21-40b4-9164-314c9a30153b
 ---
 # Specifying fonts to embed {#specifying-fonts-to-embed}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 You can specify which fonts are always embedded or never embedded with the forms that the Forms service generates. Embedding fonts increases the file size of the forms. Embed unusual fonts that users rarely have on their systems. Do not embed common fonts that they typically have installed.
 
 >[!NOTE]

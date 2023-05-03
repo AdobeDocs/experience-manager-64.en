@@ -8,6 +8,10 @@ exl-id: c25a4da7-1c58-41cf-9ff6-c094b50208e6
 ---
 # Integrating Assets with Activity Stream {#integrating-assets-with-activity-stream}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Adobe Experience Manager Assets users perform many actions like creating, uploading and deleting Assets. These actions can be recorded so you are able to provide an history of what has been done by a user. This section describes the recording capabilities of [!DNL Experience Manager] and how to configure [!DNL Experience Manager] in order to record specific events.
 
 ## Performance Considerations and Default Behavior {#performance-considerations-and-default-behavior}

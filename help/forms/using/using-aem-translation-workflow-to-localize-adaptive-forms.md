@@ -13,6 +13,10 @@ exl-id: 5d0dcf4d-8995-4547-acb1-4917696af95e
 ---
 # Using AEM translation workflow to localize adaptive forms and document of record {#using-aem-translation-workflow-to-localize-adaptive-forms-and-document-of-record}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Localized forms help you serve a wider audience across geographies. Adobe Experience Manager translation workflow helps you localize adaptive forms and their documents of record . You can use **machine translation** or **human translators** to localize an adaptive form.
 
 This article explains the process to use AEM translation workflow with adaptive forms and documents of record.

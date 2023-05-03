@@ -13,6 +13,10 @@ exl-id: 020d8f9b-7e55-415c-8b1e-c23a5f84a092
 ---
 # Understanding Segmentation{#understanding-segmentation}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Segmentation is a key consideration when creating a campaign. In most cases, you will need to have segments already defined before starting your campaign.
 
 Site visitors have different interests and objectives when they come to a site. Understanding these goals and fulfilling the expectations is an important success factor for online marketing.

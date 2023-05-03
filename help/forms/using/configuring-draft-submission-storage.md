@@ -12,6 +12,10 @@ exl-id: c73fd1c5-6f3f-4c62-a8d6-fcd22f02c0ca
 ---
 # Configuring storage services for drafts and submissions {#configuring-storage-services-for-drafts-and-submissions}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 With AEM Forms, you can store:

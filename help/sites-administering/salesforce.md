@@ -13,6 +13,10 @@ exl-id: 4c09699a-c7ae-48ee-9423-87ff35b1e9d9
 ---
 # Integrating with Salesforce{#integrating-with-salesforce}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Integrating Salesforce with AEM provides lead management capabilities and leverages the existing capabilities provided out of the box by Salesforce. You can configure AEM to post leads to Salesforce and create components that access data directly from Salesforce.
 
 The bidirectional and extensible integration between AEM and Salesforce enables:

@@ -8,6 +8,10 @@ exl-id: 65029113-987e-46eb-86eb-8028233031f9
 ---
 # User experience enhancements in Assets {#user-experience-enhancements-in-assets}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 [!DNL Experience Manager] 6.4 Assets includes several usability improvements that provide a seamless user experience and improves productivity. The increase in the speed with which you can create/manage your go-to-market content improves the content velocity of the business.
 
 The interface is more responsive, which helps you efficiently manage a large portfolio of assets. You can quickly search, display, sort, and smoothly scroll through a long list of items.

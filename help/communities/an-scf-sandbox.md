@@ -13,6 +13,10 @@ exl-id: f8cd2866-6e4d-47e6-b9aa-c2190b0b1b7b
 ---
 # Create An SCF Sandbox {#create-an-scf-sandbox}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 
 As of AEM 6.1 Communities, the easiest way to quickly create a sandbox is to create a community site. See [Getting Started with AEM Communities](getting-started.md).
 

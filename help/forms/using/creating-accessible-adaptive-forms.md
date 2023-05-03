@@ -12,6 +12,10 @@ exl-id: adad26fa-b27a-4bd7-806c-4ddfbaae7a37
 ---
 # Creating accessible adaptive forms {#creating-accessible-adaptive-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 An accessible form is a form that everyone can use, including users with special needs. Adobe Experience Manager (AEM) includes a number of features and capabilities that enhance the usability of adaptive forms for users with different abilities. The solution also assists form authors in creating accessible adaptive forms.

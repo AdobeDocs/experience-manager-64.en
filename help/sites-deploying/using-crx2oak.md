@@ -14,6 +14,10 @@ exl-id: 85dbc81a-a9a1-4472-ada7-ff03e2af1074
 ---
 # Using the CRX2Oak Migration Tool{#using-the-crx-oak-migration-tool}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Introduction {#introduction}
 
 CRX2Oak is a tool designed to migrate data between different repositories.

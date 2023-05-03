@@ -14,6 +14,10 @@ exl-id: a7c60be2-4a58-4f0a-a90e-386ef91c3335
 ---
 # Performing Service Operations Using APIs {#performing-service-operations-using-apis}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Before you start developing client applications by using the AEM Forms APIs, it is recommended that you first read Invoking AEM Forms, which describes the different ways in which to invoke services. (See [Service container](/help/forms/developing/service-container.md#service-container).)
 
 After you become familiar with the different invocation methods, you can learn how to programmatically interact with each service. You can develop a client application in Adobe Flex® Builder™, in a Java development environment, or in an environment such as Microsoft Visual Studio .NET that permits you to use the exposed WSDL for consumption on a native SOAP stack.

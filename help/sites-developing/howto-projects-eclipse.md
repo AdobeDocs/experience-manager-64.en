@@ -13,6 +13,10 @@ exl-id: 5fae4a4c-c97a-4541-bdc5-63ef4ca0172c
 ---
 # How to Develop AEM Projects Using Eclipse{#how-to-develop-aem-projects-using-eclipse}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This guide describes how to use Eclipse for developing AEM based projects.
 
 >[!NOTE]

@@ -13,6 +13,10 @@ exl-id: 07671470-59dd-4290-be9a-465fcd89ac2d
 ---
 # Update the license type for the deployment {#update-the-license-type-for-the-deployment}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 As part of the AEM forms installation process, you used Configuration Manager to configure and deploy the AEM forms modules that you require. By default, those modules are configured with a 60-day evaluation license. Use the Change License page in administration console to change the license type for the deployment. The currently deployed modules are displayed on the Change License page.
 
 The Change License page displays information about your license:

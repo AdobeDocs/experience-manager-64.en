@@ -13,6 +13,10 @@ exl-id: 89d7b2e1-1d88-4392-89d3-484a98f07121
 ---
 # Backing up and recovering the EMC Documentum repository {#backing-up-and-recovering-the-emc-documentum-repository}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This section describes the tasks required to back up and recover the EMC Documentum repository configured for your AEM forms environment.
 
 >[!NOTE]

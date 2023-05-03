@@ -13,6 +13,10 @@ exl-id: 378e7e16-d22d-4fc3-93f4-fbfcdb28deb5
 ---
 # Customizing templates for forms portal components {#customizing-templates-for-forms-portal-components}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Prerequisites {#prerequisites}
 
 [Managing form metadata](/help/forms/using/manage-form-metadata.md)

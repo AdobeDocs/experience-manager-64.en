@@ -13,6 +13,10 @@ exl-id: 0933f733-50bf-48ae-a5da-be5dc9335253
 ---
 # Custom Standalone Install{#custom-standalone-install}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 This section describes the options available when installing a standalone AEM instance. You can also read [Storage Elements](/help/sites-deploying/storage-elements-in-aem-6.md) for more information on choosing the backend storage type after freshly installing AEM 6.
 
 ## Changing the Port Number by Renaming the File {#changing-the-port-number-by-renaming-the-file}

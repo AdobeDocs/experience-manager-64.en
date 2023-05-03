@@ -14,6 +14,10 @@ exl-id: 67d80ec9-64c9-43a5-8cb1-9da819471797
 ---
 # Enablement Resources Console {#enablement-resources-console}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 For AEM Communities, the Resources console is where [Enablement Managers](users.md) create, manage and assign resources to members of an enablement community site.
 
 ## Requirements {#requirements}

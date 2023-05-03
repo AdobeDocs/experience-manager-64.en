@@ -12,6 +12,10 @@ exl-id: cb7a8e96-4440-47ec-b506-275d5acc774e
 ---
 # Print channel and web channel {#print-channel-and-web-channel}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Importing print channel templates and creating and enabling web channel templates
 
 Interactive Communications can be delivered through two channels: print and web. The print channel is used to create PDFs and paper communications, such as a printed letter as a reminder for insurance premium payment, while the web channel is used to deliver online experiences, such as a credit card statement on a website.

@@ -14,6 +14,10 @@ exl-id: 982223c2-aa4a-4013-8136-0155a99f5eff
 ---
 # Document Security Service Java API Quick Start (SOAP) {#document-security-service-javaapi-quick-start-soap}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Java API Quick Start(SOAP) is available for the Rights Management service:
 
 [Quick Start (SOAP mode): Creating a policy using the Java API](document-security-service-java-api.md#quick-start-soap-mode-creating-a-policy-using-the-java-api)

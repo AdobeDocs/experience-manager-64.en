@@ -13,6 +13,10 @@ exl-id: 358b70b8-8122-4eda-baa7-d9a58d6901f9
 ---
 # Alter the Appearance (HBS) {#alter-the-appearance-hbs}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Now that the components for the custom comment system in the application directory (/apps) are in place, with a resourceSuperType referencing the default comment system and the custom Model/View registered, it is possible to modify the implementation.
 
 For a simple demonstration, a visual feature, the avatar shown of the signed-in user who posts a comment, is removed.

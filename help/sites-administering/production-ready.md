@@ -13,6 +13,10 @@ exl-id: 2ab55a72-2eb2-49dc-8716-0a8a4d0c4b73
 ---
 # Running AEM in Production Ready Mode{#running-aem-in-production-ready-mode}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 With AEM 6.1, Adobe introduces the new `"nosamplecontent"` runmode aimed at automating the steps required to prepare an AEM instance for deployment in a production environment.
 
 The new runmode will not only automatically configure the instance to adhere to the security best practices described in the security checklist, but will also remove all the sample geometrixx applications and configurations in the process.

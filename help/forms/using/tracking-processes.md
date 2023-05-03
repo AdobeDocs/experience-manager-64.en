@@ -13,6 +13,10 @@ exl-id: e7eae36b-39e0-4550-b18b-a1ac1a5c3015
 ---
 # Tracking processes {#tracking-processes}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 On the Tracking page, you can search for active or completed processes that you started or participated in and view the process details. The process details show the tasks, assignments, and forms that were part of the process. You can also start new processes using form data from a process that you previously initiated.
 
 ## Search for processes and tasks {#search-for-processes-and-tasks}

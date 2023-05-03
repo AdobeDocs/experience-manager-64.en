@@ -13,6 +13,10 @@ exl-id: 5e9f8e0f-209e-4613-b230-2b826b46ba6b
 ---
 # Customize text editor {#customize-text-editor}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview}
 
 You can customize the text editor, in Manage Assets and Create Correspondence UI, to add more fonts and font sizes. These fonts include English and non-English, such as Japanese, fonts.

@@ -12,6 +12,10 @@ exl-id: e330a8e8-4d55-4723-921b-812cb243f420
 ---
 # Create and manage A/B test for adaptive forms {#create-and-manage-a-b-test-for-adaptive-forms}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Overview {#overview-br}
 
 Your customers are likely to abandon a form if the experience it delivers is not engaging. While it is frustrating for the customers, it can also upturn the support volume and cost for your organization. It is critical as well as challenging to identify and provide the right customer experience that increases the conversion rate. Adobe Experience Manager Forms holds the key to this problem.

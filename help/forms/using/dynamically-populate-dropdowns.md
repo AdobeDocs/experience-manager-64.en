@@ -12,6 +12,10 @@ exl-id: 3a32f578-23b1-4c76-bd85-dd3d812c6c28
 ---
 # Dynamically populating drop-down lists  {#dynamically-populating-drop-down-lists}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Prerequisites {#prerequisites}
 
 * [Creating OSGI bundles](https://helpx.adobe.com/experience-manager/using/creating-osgi-bundles-digital-marketing.html)

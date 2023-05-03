@@ -13,6 +13,10 @@ exl-id: 646146b1-55bf-4d13-ba3d-2e9bdfd8d8af
 ---
 # Using Hide Conditions{#using-hide-conditions}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Hide conditions can be used to determine if a component resource is rendered or not. An example of this would be when an template author configures the Core Component [list component](https://helpx.adobe.com/experience-manager/core-components/using/list.html) in the [template editor](/help/sites-authoring/templates.md) and decides to disable the options to build the list based on child pages. Disabling this option in the design dialog sets a property so that when the list component is rendered, the hide condition is evaluated and the option to show child pages is not displayed.
 
 ## Overview {#overview}

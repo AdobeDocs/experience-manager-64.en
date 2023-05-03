@@ -13,6 +13,10 @@ exl-id: 022043cd-35ed-49b1-b5b4-5cc92d29cef4
 ---
 # Coding Guidelines {#coding-guidelines}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## Guidelines, Tips and Tricks {#guidelines-tips-and-tricks}
 
 Working with AEM Communities has evolved from being heavily dependant on Java Server Pages to flexibility in the choice of templating scripting languages where business logic, style, and page content are distinct from one another.

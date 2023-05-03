@@ -14,6 +14,10 @@ exl-id: 9f0e7284-ac11-406d-8d8c-7682f1d66fff
 ---
 # Supporting new locales for adaptive forms localization {#supporting-new-locales-for-adaptive-forms-localization}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 ## About locale dictionaries {#about-locale-dictionaries}
 
 The localization of adaptive forms relies on two types of locale dictionaries:

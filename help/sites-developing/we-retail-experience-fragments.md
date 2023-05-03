@@ -13,6 +13,10 @@ exl-id: cdde702e-34b7-4f5d-93db-d9a4b1a94d09
 ---
 # Trying out Experience Fragments in We.Retail{#trying-out-experience-fragments-in-we-retail}
 
+>[CAUTION]
+>
+>AEM 6.4 has reached the end of extended support and this documentation is no longer updated. For further details, see our [technical support periods](https://helpx.adobe.com/support/programs/eol-matrix.html). Find the supported versions [here](https://experienceleague.adobe.com/docs/).
+
 Trying out Experience Fragments in We.Retail
 
 An [Experience Fragment](/help/sites-authoring/experience-fragments.md) is a group of one or more components including content and layout that can be referenced within pages. They can contain any component.
